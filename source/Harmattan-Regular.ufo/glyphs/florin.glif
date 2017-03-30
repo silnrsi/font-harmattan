@@ -45,25 +45,25 @@
       <point x="15" y="744" type="line"/>
     </contour>
     <contour>
-      <point x="404" y="1223" type="move" name="U"/>
+      <point x="222" y="-374" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="222" y="-374" type="move" name="L"/>
+      <point x="404" y="1223" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-352" width="128" />
-      <hstem pos="636" width="108" />
-      <hstem pos="1092" width="120" />
-      <vstem pos="164" width="139" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="-352" width="128"/>
+            <hstem pos="636" width="108"/>
+            <hstem pos="1092" width="120"/>
+            <vstem pos="164" width="139"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

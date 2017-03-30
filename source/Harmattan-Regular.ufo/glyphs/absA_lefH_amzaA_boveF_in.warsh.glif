@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absAlefHamzaAboveFin.warsh" format="1">
+  <advance width="466"/>
+  <outline>
+    <component base="absAlefFin" xOffset="7"/>
+    <component base="absHamzaAbove" xOffset="-58" yOffset="-328"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.656</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

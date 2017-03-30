@@ -10,19 +10,23 @@
   <string>Copyright (c) 2007-2008, The C&amp;MA Guinea Fulbe Team;
 
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
-with the Reserved Font Name &quot;Fouta&quot;.
+with the Reserved Font Name "Fouta".
 
 Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
-with Reserved Font Names &#39;Andika&#39; and &#39;SIL&#39;.
+with Reserved Font Names 'Andika' and 'SIL'.
 
 Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
-with Reserved Font Names &quot;Harmattan&quot; and &quot;SIL&quot;.</string>
+with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>descender</key>
   <integer>-1024</integer>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>italicAngle</key>
   <integer>0</integer>
+  <key>macintoshFONDFamilyID</key>
+  <integer>18119</integer>
+  <key>macintoshFONDName</key>
+  <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
   <string>2082/04/09 05:44:31</string>
   <key>openTypeHeadFlags</key>
@@ -36,6 +40,8 @@ with Reserved Font Names &quot;Harmattan&quot; and &quot;SIL&quot;.</string>
   <integer>-1024</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
+  <key>openTypeNameDescription</key>
+  <string/>
   <key>openTypeNameDesigner</key>
   <string>George W. Nuss III and SIL International</string>
   <key>openTypeNameDesignerURL</key>
@@ -44,13 +50,13 @@ with Reserved Font Names &quot;Harmattan&quot; and &quot;SIL&quot;.</string>
   <string>Copyright (c) 2007-2008, The C&amp;MA Guinea Fulbe Team;
 
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
-with the Reserved Font Name &quot;Fouta&quot;.
+with the Reserved Font Name "Fouta".
 
 Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
-with Reserved Font Names &#39;Andika&#39; and &#39;SIL&#39;.
+with Reserved Font Names 'Andika' and 'SIL'.
 
 Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
-with Reserved Font Names &quot;Harmattan&quot; and &quot;SIL&quot;.
+with Reserved Font Names "Harmattan" and "SIL".
 
 ----------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -62,15 +68,15 @@ The goals of the Open Font License (OFL) are to stimulate worldwide development 
 The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.
 
 DEFINITIONS
-&quot;Font Software&quot; refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
+"Font Software" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.
 
-&quot;Reserved Font Name&quot; refers to any names specified as such after the copyright statement(s).
+"Reserved Font Name" refers to any names specified as such after the copyright statement(s).
 
-&quot;Original Version&quot; refers to the collection of Font Software components as distributed by the Copyright Holder(s).
+"Original Version" refers to the collection of Font Software components as distributed by the Copyright Holder(s).
 
-&quot;Modified Version&quot; refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
+"Modified Version" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.
 
-&quot;Author&quot; refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
+"Author" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.
 
 PERMISSION &amp; CONDITIONS
 Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:
@@ -89,17 +95,15 @@ TERMINATION
 This license becomes null and void if any of the above conditions are not met.
 
 DISCLAIMER
-THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
   <string>http://scripts.sil.org/OFL</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.sil.org/</string>
-  <key>openTypeNameDescription</key>
-  <string></string>
   <key>openTypeNameSampleText</key>
-  <string></string>
+  <string/>
   <key>openTypeNameUniqueID</key>
   <string>SILInternational: Harmattan: 2016</string>
   <key>openTypeNameVersion</key>
@@ -128,8 +132,7 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
     <integer>3</integer>
   </array>
   <key>openTypeOS2Selection</key>
-  <array>
-  </array>
+  <array/>
   <key>openTypeOS2StrikeoutPosition</key>
   <integer>451</integer>
   <key>openTypeOS2StrikeoutSize</key>
@@ -151,8 +154,7 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
   <key>openTypeOS2SuperscriptYSize</key>
   <integer>1331</integer>
   <key>openTypeOS2Type</key>
-  <array>
-  </array>
+  <array/>
   <key>openTypeOS2TypoAscender</key>
   <integer>2036</integer>
   <key>openTypeOS2TypoDescender</key>
@@ -202,8 +204,6 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
     <integer>1092</integer>
     <integer>1111</integer>
   </array>
-  <key>postscriptUniqueID</key>
-  <integer>-1</integer>
   <key>postscriptFontName</key>
   <string>Harmattan-Regular</string>
   <key>postscriptForceBold</key>
@@ -235,6 +235,8 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
   <integer>-563</integer>
   <key>postscriptUnderlineThickness</key>
   <integer>102</integer>
+  <key>postscriptUniqueID</key>
+  <integer>-1</integer>
   <key>postscriptWeightName</key>
   <string>Normal</string>
   <key>styleMapFamilyName</key>
@@ -251,13 +253,9 @@ THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, E
   <integer>1</integer>
   <key>versionMinor</key>
   <integer>1</integer>
-  <key>year</key>
-  <integer>2016</integer>
   <key>xHeight</key>
   <integer>778</integer>
-  <key>macintoshFONDName</key>
-  <string>Harmattan</string>
-  <key>macintoshFONDFamilyID</key>
-  <integer>18119</integer>
+  <key>year</key>
+  <integer>2016</integer>
 </dict>
 </plist>

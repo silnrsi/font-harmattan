@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absRightArrowheadAbove" format="1">
+  <advance width="0"/>
+  <unicode hex="08F8"/>
+  <outline>
+    <contour>
+      <point x="371" y="1343" type="curve" name="hr00"/>
+      <point x="371" y="1402"/>
+      <point x="329" y="1595"/>
+      <point x="298" y="1668" type="curve"/>
+      <point x="266" y="1668"/>
+      <point x="225" y="1664"/>
+      <point x="201" y="1659" type="curve"/>
+      <point x="227" y="1573"/>
+      <point x="264" y="1437"/>
+      <point x="264" y="1402" type="curve"/>
+      <point x="229" y="1376"/>
+      <point x="74" y="1342"/>
+      <point x="-28" y="1340" type="curve"/>
+      <point x="-28" y="1312"/>
+      <point x="-25" y="1270"/>
+      <point x="-22" y="1246" type="curve"/>
+      <point x="80" y="1246"/>
+      <point x="311" y="1289"/>
+    </contour>
+    <contour>
+      <point x="207" y="1223" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="135" y="1728" type="move" name="diaA"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="1267" width="-21"/>
+            <hstem pos="1668" width="-20"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
+  </lib>
+</glyph>

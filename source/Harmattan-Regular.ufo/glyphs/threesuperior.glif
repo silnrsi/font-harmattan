@@ -47,25 +47,25 @@
       <point x="255" y="931" type="curve"/>
     </contour>
     <contour>
-      <point x="314" y="1253" type="move" name="U"/>
+      <point x="314" y="460" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="314" y="460" type="move" name="L"/>
+      <point x="314" y="1253" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="496" width="85" />
-      <hstem pos="848" width="83" />
-      <hstem pos="1144" width="86" />
-      <vstem pos="449" width="100" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="496" width="85"/>
+            <hstem pos="848" width="83"/>
+            <hstem pos="1144" width="86"/>
+            <vstem pos="449" width="100"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

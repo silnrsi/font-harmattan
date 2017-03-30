@@ -51,21 +51,21 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-143" width="-21" />
-      <hstem pos="0" width="121" />
-      <hstem pos="919" width="120" />
-      <hstem pos="1197" width="-20" />
-      <vstem pos="142" width="132" />
-      <vstem pos="414" width="97" />
-      <vstem pos="652" width="130" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="-143" width="-21"/>
+            <hstem pos="0" width="121"/>
+            <hstem pos="919" width="120"/>
+            <hstem pos="1197" width="-20"/>
+            <vstem pos="142" width="132"/>
+            <vstem pos="414" width="97"/>
+            <vstem pos="652" width="130"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

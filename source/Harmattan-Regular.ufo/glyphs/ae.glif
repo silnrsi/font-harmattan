@@ -88,20 +88,20 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-19" width="123" />
-      <hstem pos="363" width="104" />
-      <hstem pos="658" width="120" />
-      <vstem pos="71" width="138" />
-      <vstem pos="564" width="131" />
-      <vstem pos="1092" width="134" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="-19" width="123"/>
+            <hstem pos="363" width="104"/>
+            <hstem pos="658" width="120"/>
+            <vstem pos="71" width="138"/>
+            <vstem pos="564" width="131"/>
+            <vstem pos="1092" width="134"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

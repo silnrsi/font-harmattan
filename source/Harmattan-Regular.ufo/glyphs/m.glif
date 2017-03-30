@@ -47,22 +47,22 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="21" width="-21" />
-      <hstem pos="763" width="-20" />
-      <vstem3 stem3List="131,138,568,139,1006,138" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="21" width="-21" />
-      <hstem pos="647" width="131" />
-      <vstem3 stem3List="131,138,568,139,1006,138" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="763" width="-20"/>
+            <vstem3 stem3List="131,138,568,139,1006,138"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="647" width="131"/>
+            <vstem3 stem3List="131,138,568,139,1006,138"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

@@ -45,30 +45,30 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="0" width="123" />
-      <hstem pos="516" width="108" />
-      <hstem pos="992" width="119" />
-      <vstem pos="195" width="138" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="0" width="123" />
-      <hstem pos="516" width="108" />
-      <hstem pos="992" width="119" />
-      <vstem pos="219" width="114" />
-    </hintset>
-    <hintset pointTag="hr03">
-      <hstem pos="0" width="123" />
-      <hstem pos="516" width="108" />
-      <hstem pos="992" width="119" />
-      <vstem pos="116" width="217" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="0" width="123"/>
+            <hstem pos="516" width="108"/>
+            <hstem pos="992" width="119"/>
+            <vstem pos="195" width="138"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="0" width="123"/>
+            <hstem pos="516" width="108"/>
+            <hstem pos="992" width="119"/>
+            <vstem pos="219" width="114"/>
+          </hintset>
+          <hintset pointTag="hr03">
+            <hstem pos="0" width="123"/>
+            <hstem pos="516" width="108"/>
+            <hstem pos="992" width="119"/>
+            <vstem pos="116" width="217"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

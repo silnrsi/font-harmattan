@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absAfricanNoonFin" format="1">
+  <advance width="1249"/>
+  <outline>
+    <component base="absNoonGhunnaFin"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.6</real>
+        <integer>1</integer>
+        <real>0.995</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

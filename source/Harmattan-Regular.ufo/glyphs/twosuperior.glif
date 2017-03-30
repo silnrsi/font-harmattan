@@ -32,24 +32,24 @@
       <point x="569" y="508" type="line"/>
     </contour>
     <contour>
-      <point x="314" y="1253" type="move" name="U"/>
+      <point x="314" y="460" type="move" name="L"/>
     </contour>
     <contour>
-      <point x="314" y="460" type="move" name="L"/>
+      <point x="314" y="1253" type="move" name="U"/>
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="508" width="80" />
-      <hstem pos="1143" width="87" />
-      <vstem pos="428" width="104" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="508" width="80"/>
+            <hstem pos="1143" width="87"/>
+            <vstem pos="428" width="104"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

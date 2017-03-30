@@ -15,22 +15,22 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr01">
-      <hstem pos="-307" width="112" />
-      <hstem pos="1084" width="113" />
-      <vstem pos="149" width="139" />
-    </hintset>
-    <hintset pointTag="hr02">
-      <hstem pos="-307" width="112" />
-      <hstem pos="1084" width="113" />
-      <vstem pos="149" width="330" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr01">
+            <hstem pos="-307" width="112"/>
+            <hstem pos="1084" width="113"/>
+            <vstem pos="149" width="139"/>
+          </hintset>
+          <hintset pointTag="hr02">
+            <hstem pos="-307" width="112"/>
+            <hstem pos="1084" width="113"/>
+            <vstem pos="149" width="330"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

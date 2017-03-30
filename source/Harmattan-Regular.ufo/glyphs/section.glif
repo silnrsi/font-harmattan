@@ -73,20 +73,20 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="-352" width="119" />
-      <hstem pos="112" width="120" />
-      <hstem pos="550" width="120" />
-      <hstem pos="992" width="119" />
-      <vstem pos="97" width="135" />
-      <vstem pos="523" width="135" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="-352" width="119"/>
+            <hstem pos="112" width="120"/>
+            <hstem pos="550" width="120"/>
+            <hstem pos="992" width="119"/>
+            <vstem pos="97" width="135"/>
+            <vstem pos="523" width="135"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

@@ -2,6 +2,5 @@
 <glyph name="nobreakspace" format="1">
   <advance width="453"/>
   <unicode hex="00A0"/>
-  <outline>
-  </outline>
+  <outline/>
 </glyph>

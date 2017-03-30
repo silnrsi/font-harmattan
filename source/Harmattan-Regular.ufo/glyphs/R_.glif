@@ -50,19 +50,19 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="21" width="-21" />
-      <hstem pos="467" width="116" />
-      <hstem pos="979" width="120" />
-      <vstem pos="131" width="143" />
-      <vstem pos="674" width="141" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="467" width="116"/>
+            <hstem pos="979" width="120"/>
+            <vstem pos="131" width="143"/>
+            <vstem pos="674" width="141"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

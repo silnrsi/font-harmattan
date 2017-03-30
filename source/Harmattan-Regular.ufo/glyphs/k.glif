@@ -28,18 +28,18 @@
     </contour>
   </outline>
   <lib>
-  <dict>
-  <key>com.adobe.type.autohint</key>
-  <data>
-  <hintSetList>
-    <hintset pointTag="hr00">
-      <hstem pos="21" width="-21" />
-      <hstem pos="763" width="-20" />
-      <hstem pos="1197" width="-20" />
-      <vstem pos="108" width="138" />
-    </hintset>
-  </hintSetList>
-  </data>
-  </dict>
+    <dict>
+      <key>com.adobe.type.autohint</key>
+      <data>
+        <hintSetList>
+          <hintset pointTag="hr00">
+            <hstem pos="21" width="-21"/>
+            <hstem pos="763" width="-20"/>
+            <hstem pos="1197" width="-20"/>
+            <vstem pos="108" width="138"/>
+          </hintset>
+        </hintSetList>
+      </data>
+    </dict>
   </lib>
 </glyph>

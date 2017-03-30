@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absNoonThreeDotsAbove" format="1">
+  <advance width="1272"/>
+  <unicode hex="06BD"/>
+  <outline>
+    <component base="absNoonGhunna"/>
+    <component base="_dot3u" xOffset="597" yOffset="667"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <real>0.807</real>
+        <integer>1</integer>
+        <real>0.6</real>
+        <integer>1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>
