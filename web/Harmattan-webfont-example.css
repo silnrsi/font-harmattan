@@ -1,0 +1,60 @@
+/*
+Harmattan-webfont-example.css
+Harmattan Regular v1.001
+This file is part of Harmattan font family (http://scripts.sil.org/Harmattan)
+and is Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team; 
+Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
+with the Reserved Font Name "Fouta".
+Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
+with Reserved Font Names 'Andika' and 'SIL'.
+Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
+with Reserved Font Names "Harmattan" and "SIL". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(http://scripts.sil.org/OFL) for all the details including a FAQ.
+*/
+
+/* use Scheherazade - Regular in .woff format */
+@font-face {
+  font-family: HarmattanW;
+  src: url(Harmattan-Regular.woff);
+}
+
+
+/* set body to use Harmattan in .woff format */
+body {
+  font-family: HarmattanW, sans-serif; text-align: left;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}
+/* remove bold styling from heading */
+h1 {
+  font-weight: normal;	
+}
+h2 {
+  font-weight: normal;	
+}
+.rtl {
+  font-family: HarmattanW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}	
+.cv440 {
+  font-family: HarmattanW;
+  -moz-font-feature-settings: "cv44" 0; font-size: 200%; direction: rtl; text-align: right;
+}
+.cv441 {
+  font-family: HarmattanW;
+  -moz-font-feature-settings: "cv44" 1; font-size: 200%; direction: rtl; text-align: right;
+}
+.cv800 {
+  font-family: HarmattanW; 
+  -moz-font-feature-settings: "cv80" 0; font-size: 200%; direction: rtl; text-align: right;
+}
+.cv801 {
+  font-family: HarmattanW; 
+  -moz-font-feature-settings: "cv80" 1; font-size: 200%; direction: rtl; text-align: right;
+}
+.cv44180801 {
+  font-family: HarmattanW; 
+  -moz-font-feature-settings: "cv44" 1, "cv80" 1, "cv08" 1; font-size: 200%; direction: rtl; text-align: right;
+}
+	

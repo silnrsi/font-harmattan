@@ -1,0 +1,53 @@
+<html lang="en">
+<!--
+Harmattan-webfont-example.html
+Harmattan Regular v1.001
+This file is part of Harmattan font family (http://scripts.sil.org/Harmattan)
+and is Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team; 
+Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
+with the Reserved Font Name "Fouta".
+Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
+with Reserved Font Names 'Andika' and 'SIL'.
+Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
+with Reserved Font Names "Harmattan" and "SIL". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(http://scripts.sil.org/OFL) for all the details including a FAQ.
+-->
+<head>
+	<link rel="stylesheet" href="Harmattan-webfont-example.css" type="text/css">
+	<meta charset="utf-8">
+	<meta name="description" content="An example of using Harmattan on your web page via WOFF">
+	<meta name="author" content="NRSI, SIL International: scripts.sil.org">
+
+</head>
+<body>
+<div style="font-size: 150%;" dir=ltr>
+	
+<h1>Using Harmattan webfonts</h1>
+<p>RenderingUnknown.</p>
+<p>The page demonstrates how to use the WOFF version of Harmattan for web pages, using local copies of the .woff files in this archive. For more information on this technique
+	 - and how to use the normal TrueType version as a web font - see <a href="http://scripts.sil.org/using_web_fonts">Using SIL Fonts on Web Pages</a>.</p>
+
+<p>The body of this document is styled using an external stylesheet, with Harmattan set as the default font, and loaded directly as a WOFF file using the @font-face rule. 
+	If you're seeing a serif font here then it is working. Otherwise the text will be in a sans-serif or your browser default. 
+	This technique should work only in Firefox 3.6+, Chrome 6, the IE9 beta, and in development versions of Safari.</p>
+	
+<p>To see specifically how these techniques are specified in the CSS and HTML view the source to this page and the accompanying CSS file.</p>
+<div dir=rtl>
+<h2>Test General behavior of Arabic script in webfonts</h2>
+
+<p class=pr>&#x641; &#x641;&#x200D; &#x200D;&#x641;&#x200D; &#x200D;&#x641; &#x641;&#x641;&#x641; </p>	
+
+<p></p>
+<p class=rtl>شِیلِلیکده، ابراهیمدان داوودا چِنلی بوُلان نِسیلِّر جِمی اوُن دؤرت آرقادئر. داووددان بابئل سوٚرگوٚنینه چِنلی هِم اوُن دؤرت، بابئل سوٚرگوٚنیندِن مِسیحه چِنلی هِم اوُن دؤرت آرقادئر. &#x6dd;&#x662;&#x663; رامادان بیر سِس اِشیدیلدی،</p>
+
+<p class="cv44180801">شِیلِلیکده، ابراهیمدان داوودا چِنلی بوُلان نِسیلِّر جِمی اوُن دؤرت آرقادئر. داووددان بابئل سوٚرگوٚنینه چِنلی هِم اوُن دؤرت، بابئل سوٚرگوٚنیندِن مِسیحه چِنلی هِم اوُن دؤرت آرقادئر. &#x6dd;&#x662;&#x663; رامادان بیر سِس اِشیدیلدی،</p>
+
+<h2>Test Character Variants of Arabic script in webfonts</h2>
+
+<p class=cv440> &#x645; &#x200D;&#x645;</cv440> [cv44=0]</p>
+
+<p class=cv441> &#x645; &#x200D;&#x645;</cv441> [cv44=1]</p>
+</body>
+</html>
