@@ -2,7 +2,7 @@
 
 Harmattan is a smart open font designed by SIL International for West African Languages using the Arabic script.
 
-** NOTE: This is a development font. It is not yet ready for wider use or distribution to end-users. **   
+**NOTE: This is a development font. It is not yet ready for wider use or distribution to end-users.**   
 Font sources are published in a public repository and a smith open workflow is used for building, testing and releasing.   
 You can contribute and report issues but please don't use this in production yet.
 
