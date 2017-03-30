@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absRightArrowheadBelow" format="1">
+  <advance width="0"/>
+  <unicode hex="08FA"/>
+  <outline>
+    <component base="absRightArrowheadAbove" yOffset="-1900"/>
+  </outline>
+</glyph>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absZeroMedium" format="1">
+  <advance width="674"/>
+  <outline>
+    <contour>
+      <point x="343" y="781" type="line" name="hr00"/>
+      <point x="226" y="658" type="line"/>
+      <point x="279" y="590"/>
+      <point x="325" y="555"/>
+      <point x="353" y="541" type="curve"/>
+      <point x="386" y="565"/>
+      <point x="421" y="605"/>
+      <point x="471" y="669" type="curve"/>
+    </contour>
+    <contour>
+      <point x="674" y="0" type="move" name="digit"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="562" width="-21" />
+      <hstem pos="781" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

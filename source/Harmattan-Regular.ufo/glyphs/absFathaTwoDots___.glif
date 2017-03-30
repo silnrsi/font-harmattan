@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absFathaTwoDots" format="1">
+  <advance width="0"/>
+  <unicode hex="065E"/>
+  <outline>
+    <component base="absFatha" xOffset="-210" yOffset="-330"/>
+    <component base="absTone1DotAbove" xOffset="-111" yOffset="-162"/>
+    <component base="absTone1DotAbove" xOffset="38" yOffset="-490"/>
+  </outline>
+</glyph>

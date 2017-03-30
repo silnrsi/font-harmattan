@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absKasraDotBelow" format="1">
+  <advance width="0"/>
+  <unicode hex="08F6"/>
+  <outline>
+    <component base="absTone1DotAbove" xOffset="198" yOffset="-1946"/>
+    <component base="absKasra" yOffset="-103"/>
+  </outline>
+</glyph>

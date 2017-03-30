@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absMaddahAbove" format="1">
+  <advance width="0"/>
+  <unicode hex="0653"/>
+  <outline>
+    <component base="_madda" xOffset="114" yOffset="1390"/>
+  </outline>
+</glyph>

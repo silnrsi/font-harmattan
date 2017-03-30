@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absOpenFathatan" format="1">
+  <advance width="0"/>
+  <unicode hex="08F0"/>
+  <outline>
+    <component base="absFatha" xOffset="-322" yOffset="-328"/>
+    <component base="absFatha" xOffset="-171" yOffset="-120"/>
+  </outline>
+</glyph>

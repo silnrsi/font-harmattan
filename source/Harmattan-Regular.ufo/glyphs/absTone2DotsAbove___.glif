@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absTone2DotsAbove" format="1">
+  <advance width="0"/>
+  <unicode hex="08EB"/>
+  <outline>
+    <component base="absTone1DotAbove"/>
+    <component base="absTone1DotAbove" xOffset="200" yOffset="44"/>
+  </outline>
+</glyph>

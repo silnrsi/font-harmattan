@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absFatha" format="1">
+  <advance width="0"/>
+  <unicode hex="064E"/>
+  <outline>
+    <contour>
+      <point x="131" y="1445" type="curve" name="hr00"/>
+      <point x="126" y="1431"/>
+      <point x="118" y="1382"/>
+      <point x="118" y="1353" type="curve"/>
+      <point x="221" y="1362"/>
+      <point x="290" y="1372"/>
+      <point x="484" y="1416" type="curve"/>
+      <point x="491" y="1432"/>
+      <point x="502" y="1465"/>
+      <point x="502" y="1494" type="curve"/>
+      <point x="334" y="1462"/>
+      <point x="249" y="1452"/>
+    </contour>
+    <contour>
+      <point x="317" y="1329" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="282" y="1541" type="move" name="diaA"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.typemytype.robofont.guides</key>
+  <array>
+    <dict>
+      <key>angle</key>
+      <real>0</real>
+      <key>isGlobal</key>
+      <false/>
+      <key>magnetic</key>
+      <integer>5</integer>
+      <key>x</key>
+      <real>0</real>
+      <key>y</key>
+      <real>1884</real>
+    </dict>
+  </array>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="1374" width="-21" />
+      <hstem pos="1494" width="-20" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>

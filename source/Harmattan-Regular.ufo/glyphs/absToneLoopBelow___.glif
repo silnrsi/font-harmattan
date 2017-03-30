@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="absToneLoopBelow" format="1">
+  <advance width="0"/>
+  <unicode hex="08EF"/>
+  <outline>
+    <component base="absToneLoopAbove" xOffset="-20" yOffset="-1860"/>
+  </outline>
+</glyph>

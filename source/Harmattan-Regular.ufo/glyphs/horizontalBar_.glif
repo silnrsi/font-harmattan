@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="horizontalBar" format="1">
+  <advance width="1671"/>
+  <unicode hex="2015"/>
+  <outline>
+    <contour>
+      <point x="1581" y="593" type="line" name="hr00"/>
+      <point x="92" y="593" type="line"/>
+      <point x="92" y="463" type="line"/>
+      <point x="1581" y="463" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+  <dict>
+  <key>com.adobe.type.autohint</key>
+  <data>
+  <hintSetList>
+    <hintset pointTag="hr00">
+      <hstem pos="463" width="130" />
+    </hintset>
+  </hintSetList>
+  </data>
+  </dict>
+  </lib>
+</glyph>
