@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Harmattan-WOFF-metadata.html
+Harmattan Regular v1.001
+This file is part of Harmattan font family (http://scripts.sil.org/Harmattan)
+and is Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team; 
+Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
+with the Reserved Font Name "Fouta".
+Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
+with Reserved Font Names 'Andika' and 'SIL'.
+Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
+with Reserved Font Names "Harmattan" and "SIL". This Font Software is licensed
+under the SIL Open Font License, Version 1.1. You should have received a copy
+of the license along with this Font Software. If this is not the case, go to
+(http://scripts.sil.org/OFL) for all the details including a FAQ.
+-->
+<metadata version="1.0">
+    <uniqueid id="org.sil.fonts.Harmattan.1.001" />
+    <vendor name="SIL International" url="http://scripts.sil.org" />
+    <credits>
+        <credit
+            name="Bob Hallissy"
+            url="http://scripts.sil.org/"
+            role="Graphite, OpenType, and TypeTuner code, and build support" />
+        <credit
+            name="Becca Hirsbrunner"
+            url="http://scripts.sil.org/"
+            role="Lead Designer" />
+        <credit
+            name="George W. Nuss"
+            url="http://www.fulbefouta.com/"
+            role="Original Designer" />
+        <credit
+            name="Iska Routamaa"
+            url="http://scripts.sil.org/"
+            role="Contributing Designer" />
+    </credits>
+    <description>
+        <text lang="en">
+        	Harmattan, named after the trade winds that blow during the winter in West
+        	Africa, is designed in a Warsh style to suit the needs of languages using
+        	the Arabic script in West Africa. 
+        	
+        	The font does not cover the full Unicode Arabic repertoire. It only supports 
+        	characters known to be used by languages in West Africa.
+        	
+        	This font makes use of state-of-the-art font technologies to support complex 
+        	typographic issues. Font smarts are implemented using OpenType and Graphite 
+        	technologies.
+        	
+        	This font provides a simplified rendering of Arabic script, using basic 
+        	connecting glyphs but not including a wide variety of additional ligatures 
+        	or contextual alternates (only the required lam-alef ligatures). This 
+        	simplified style is often preferred for clarity, especially in non-Arabic 
+        	languages, but may be considered unattractive in more traditional and 
+        	literate communities.
+        	
+        	One font from this typeface family is included in this release:
+
+        	     * Harmattan Regular
+        	
+        	For detailed documentation see the contents of the 'documentation' folder.
+         
+          
+          ChangeLog
+          ---------
+          (This should list both major and minor changes, most recent first.)
+
+          2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
+          - Changed internal font names
+          - changed space of U+00A0 to match regular space
+
+          2015-03-25 (SIL NRSI team) Harmattan Version 1.00 (production release)
+          - Further improvements to kerning.
+
+          2014-12-11 (SIL NRSI team) Harmattan alpha Version 0.119 (test release)
+            - Improved kerning logic in OpenType (via GPOS) and Graphite
+
+          2014-10-27 (SIL NRSI team) Harmattan alpha Version 0.118 (test release)
+          - Improved display:
+            - Reduced width of arrowhead combining marks to reduce collisions
+            - Added kerning logic in OpenType (via GPOS) and Graphite
+
+          2014-10-14 (SIL NRSI team) Harmattan alpha Version 0.117 (test release)
+          - Alpha release of font for feedback
+          - Revision of design of characters based on feedback received
+            - Shortened kasra and fatha (and similar characters and glyphs) to 
+              help with collisions
+            - Adjusted design to final form of U+06D2 to help with collisions
+            - Increased spacing after reh-like characters
+            - African qaf, African noon, African feh added (in the Unicode pipeline)
+            - A few minor anchor point tweaks
+          - Changed default behavior for cv62 to have the kasra in the "lowered" postion
+            - Removed cv62 as an OpenType feature. It is now only available through
+              Graphite or TypeTunerWeb
+          - Default linespacing adjusted to handle tallest base character with shadda
+            and lowest base character so these are not clipped 
+          - Added Normal and Loose linespacing adjustments for TypeTunerWeb
+
+          2014-06-24 (SIL NRSI team) Harmattan alpha Version 0.111 (test release)
+          - Alpha release of font for feedback
+          - Revision of design of characters based on feedback received
+            - Isolate reh and noon ghunna characters modified
+            - Tatweel (U+0640) length was shortened
+            - APs on many characters were adjusted
+            - Adjusted design of U+08F7..U+08FD (arrowheads)
+          - added U+065E, U+08F0, U+08F1, U+08F2, U+08F3
+
+          2014-04-03 (SIL NRSI team) Harmattan alpha Version 0.106 (test release)
+          - Alpha release of font for feedback
+          - Revision of design of characters based on feedback received
+          
+          2013-12-04 (SIL NRSI team) Harmattan alpha Version 0.010 (test release)
+          - Alpha release of font for feedback only (not an actual font release)
+          - Arabic script design work is based on Fouta font (see copyright) with
+            significant modification
+          - Latin script design is based on a Andika (see copyright). The Latin
+            Andika glyphs have been reduced in size to match Harmattan
+
+		</text>
+    </description>
+    <license url="http://scripts.sil.org/OFL"
+             id="org.sil.ofl.1.1">
+        <text lang="en">
+			Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
+
+			Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
+			with the Reserved Font Name "Fouta".
+
+			Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
+			with Reserved Font Names 'Andika' and 'SIL'.
+
+			Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
+			with Reserved Font Names "Harmattan" and "SIL".
+      
+      -----------------------------------------------------------
+      SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+      -----------------------------------------------------------
+      
+      PREAMBLE
+      The goals of the Open Font License (OFL) are to stimulate worldwide
+      development of collaborative font projects, to support the font creation
+      efforts of academic and linguistic communities, and to provide a free and
+      open framework in which fonts may be shared and improved in partnership
+      with others.
+      
+      The OFL allows the licensed fonts to be used, studied, modified and
+      redistributed freely as long as they are not sold by themselves. The
+      fonts, including any derivative works, can be bundled, embedded, 
+      redistributed and/or sold with any software provided that any reserved
+      names are not used by derivative works. The fonts and derivatives,
+      however, cannot be released under any other type of license. The
+      requirement for fonts to remain under this license does not apply
+      to any document created using the fonts or their derivatives.
+      
+      DEFINITIONS
+      "Font Software" refers to the set of files released by the Copyright
+      Holder(s) under this license and clearly marked as such. This may
+      include source files, build scripts and documentation.
+      
+      "Reserved Font Name" refers to any names specified as such after the
+      copyright statement(s).
+      
+      "Original Version" refers to the collection of Font Software components as
+      distributed by the Copyright Holder(s).
+      
+      "Modified Version" refers to any derivative made by adding to, deleting,
+      or substituting -- in part or in whole -- any of the components of the
+      Original Version, by changing formats or by porting the Font Software to a
+      new environment.
+      
+      "Author" refers to any designer, engineer, programmer, technical
+      writer or other person who contributed to the Font Software.
+      
+      PERMISSION &amp; CONDITIONS
+      Permission is hereby granted, free of charge, to any person obtaining
+      a copy of the Font Software, to use, study, copy, merge, embed, modify,
+      redistribute, and sell modified and unmodified copies of the Font
+      Software, subject to the following conditions:
+      
+      1) Neither the Font Software nor any of its individual components,
+      in Original or Modified Versions, may be sold by itself.
+      
+      2) Original or Modified Versions of the Font Software may be bundled,
+      redistributed and/or sold with any software, provided that each copy
+      contains the above copyright notice and this license. These can be
+      included either as stand-alone text files, human-readable headers or
+      in the appropriate machine-readable metadata fields within text or
+      binary files as long as those fields can be easily viewed by the user.
+      
+      3) No Modified Version of the Font Software may use the Reserved Font
+      Name(s) unless explicit written permission is granted by the corresponding
+      Copyright Holder. This restriction only applies to the primary font name as
+      presented to the users.
+      
+      4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+      Software shall not be used to promote, endorse or advertise any
+      Modified Version, except to acknowledge the contribution(s) of the
+      Copyright Holder(s) and the Author(s) or with their explicit written
+      permission.
+      
+      5) The Font Software, modified or unmodified, in part or in whole,
+      must be distributed entirely under this license, and must not be
+      distributed under any other license. The requirement for fonts to
+      remain under this license does not apply to any document created
+      using the Font Software.
+      
+      TERMINATION
+      This license becomes null and void if any of the above conditions are
+      not met.
+      
+      DISCLAIMER
+      THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+      EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+      MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+      OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+      COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+      INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+      DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+      FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+      OTHER DEALINGS IN THE FONT SOFTWARE.
+		</text>
+    </license>
+    <copyright>
+        <text lang="en">Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
+
+			Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
+			with the Reserved Font Name "Fouta".
+
+			Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
+			with Reserved Font Names 'Andika' and 'SIL'.
+
+			Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
+			with Reserved Font Names "Harmattan" and "SIL".
+</text>
+    </copyright>
+</metadata>
