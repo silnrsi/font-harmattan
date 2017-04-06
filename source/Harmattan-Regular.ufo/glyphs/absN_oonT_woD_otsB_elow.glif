@@ -6,6 +6,15 @@
     <component base="absNoonGhunna"/>
     <component base="_dot1" xOffset="597" yOffset="570"/>
     <component base="_dot2h" xOffset="562" yOffset="-760"/>
+    <contour>
+      <point x="359" y="581" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="553" y="722" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="530" y="-943" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

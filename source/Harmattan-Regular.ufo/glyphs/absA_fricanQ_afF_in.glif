@@ -3,6 +3,21 @@
   <advance width="1362"/>
   <outline>
     <component base="absQafNoDotsFin"/>
+    <contour>
+      <point x="880" y="692" type="move" name="above"/>
+    </contour>
+    <contour>
+      <point x="397" y="638" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="999" y="-275" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="840" y="690" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="623" y="-365" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

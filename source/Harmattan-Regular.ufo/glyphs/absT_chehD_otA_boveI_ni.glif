@@ -5,6 +5,15 @@
     <component base="absHahIni"/>
     <component base="_dot1" xOffset="343" yOffset="813"/>
     <component base="_dot3d" xOffset="364" yOffset="-159"/>
+    <contour>
+      <point x="127" y="844" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="300" y="986" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="381" y="-597" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

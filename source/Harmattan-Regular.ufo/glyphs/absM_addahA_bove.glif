@@ -4,5 +4,11 @@
   <unicode hex="0653"/>
   <outline>
     <component base="_madda" xOffset="114" yOffset="1390"/>
+    <contour>
+      <point x="209" y="1283" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="196" y="1551" type="move" name="diaA"/>
+    </contour>
   </outline>
 </glyph>

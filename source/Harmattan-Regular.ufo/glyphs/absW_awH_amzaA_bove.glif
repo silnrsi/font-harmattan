@@ -5,6 +5,12 @@
   <outline>
     <component base="absWaw"/>
     <component base="absHamzaAbove" xOffset="111" yOffset="-683"/>
+    <contour>
+      <point x="357" y="1050" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="370" y="-625" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -4,5 +4,11 @@
   <unicode hex="08F3"/>
   <outline>
     <component base="absSmallWaw" yOffset="980"/>
+    <contour>
+      <point x="167" y="907" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="189" y="1471" type="move" name="diaA"/>
+    </contour>
   </outline>
 </glyph>

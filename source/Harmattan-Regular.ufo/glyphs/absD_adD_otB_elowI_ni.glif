@@ -5,6 +5,15 @@
     <component base="absSadIni"/>
     <component base="_dot1" xOffset="584" yOffset="813"/>
     <component base="_dot1" xOffset="596" yOffset="-283"/>
+    <contour>
+      <point x="95" y="381" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="530" y="996" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="568" y="-487" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

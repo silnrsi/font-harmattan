@@ -4,5 +4,11 @@
   <outline>
     <component base="absFatha" xOffset="-12" yOffset="238"/>
     <component base="absHamzaAbove" xOffset="40" yOffset="-125"/>
+    <contour>
+      <point x="319" y="1180" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="276" y="1751" type="move" name="diaA"/>
+    </contour>
   </outline>
 </glyph>

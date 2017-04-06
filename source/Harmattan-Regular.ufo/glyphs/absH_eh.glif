@@ -4,6 +4,15 @@
   <unicode hex="0647"/>
   <outline>
     <component base="absAe"/>
+    <contour>
+      <point x="112" y="401" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="477" y="656" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="372" y="-89" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

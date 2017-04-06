@@ -3,6 +3,15 @@
   <advance width="842"/>
   <outline>
     <component base="absAeFin"/>
+    <contour>
+      <point x="147" y="577" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="385" y="829" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="419" y="-53" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

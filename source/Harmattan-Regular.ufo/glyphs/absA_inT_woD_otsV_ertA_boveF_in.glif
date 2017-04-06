@@ -4,6 +4,15 @@
   <outline>
     <component base="absAinFin"/>
     <component base="_dot2v" xOffset="575" yOffset="948"/>
+    <contour>
+      <point x="391" y="1055" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="511" y="1217" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="544" y="-694" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

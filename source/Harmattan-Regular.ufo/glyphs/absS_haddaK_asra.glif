@@ -4,6 +4,12 @@
   <outline>
     <component base="absFatha" xOffset="20" yOffset="-163"/>
     <component base="absShadda" xOffset="30" yOffset="2"/>
+    <contour>
+      <point x="334" y="1138" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="275" y="1724" type="move" name="diaA"/>
+    </contour>
   </outline>
   <lib>
     <dict>

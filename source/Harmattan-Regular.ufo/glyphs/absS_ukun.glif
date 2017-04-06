@@ -4,5 +4,11 @@
   <unicode hex="0652"/>
   <outline>
     <component base="_ring" xOffset="159" yOffset="1504"/>
+    <contour>
+      <point x="164" y="1312" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="156" y="1718" type="move" name="diaA"/>
+    </contour>
   </outline>
 </glyph>

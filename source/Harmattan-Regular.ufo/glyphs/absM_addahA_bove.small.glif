@@ -3,5 +3,11 @@
   <advance width="0"/>
   <outline>
     <component base="_madda.small" xOffset="134" yOffset="1382"/>
+    <contour>
+      <point x="249" y="1283" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="240" y="1524" type="move" name="diaA"/>
+    </contour>
   </outline>
 </glyph>

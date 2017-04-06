@@ -6,5 +6,11 @@
     <component base="absFatha" xOffset="-210" yOffset="-330"/>
     <component base="absTone1DotAbove" xOffset="-111" yOffset="-162"/>
     <component base="absTone1DotAbove" xOffset="38" yOffset="-490"/>
+    <contour>
+      <point x="90" y="811" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="104" y="1364" type="move" name="diaA"/>
+    </contour>
   </outline>
 </glyph>

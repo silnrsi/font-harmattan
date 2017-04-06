@@ -5,6 +5,15 @@
   <outline>
     <component base="absKeheh"/>
     <component base="_gafBarShort" xOffset="287" yOffset="755"/>
+    <contour>
+      <point x="117" y="661" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="413" y="1096" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="663" y="-106" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

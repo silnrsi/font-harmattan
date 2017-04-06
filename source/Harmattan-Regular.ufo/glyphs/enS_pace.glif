@@ -2,5 +2,15 @@
 <glyph name="enSpace" format="1">
   <advance width="987"/>
   <unicode hex="2002"/>
-  <outline/>
+  <outline>
+    <contour>
+      <point x="493" y="186" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="493" y="649" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="470" y="-700" type="move" name="diaB"/>
+    </contour>
+  </outline>
 </glyph>

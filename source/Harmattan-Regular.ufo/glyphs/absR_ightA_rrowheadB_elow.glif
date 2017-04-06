@@ -4,5 +4,11 @@
   <unicode hex="08FA"/>
   <outline>
     <component base="absRightArrowheadAbove" yOffset="-1900"/>
+    <contour>
+      <point x="127" y="-187" type="move" name="_diaB"/>
+    </contour>
+    <contour>
+      <point x="184" y="-687" type="move" name="diaB"/>
+    </contour>
   </outline>
 </glyph>

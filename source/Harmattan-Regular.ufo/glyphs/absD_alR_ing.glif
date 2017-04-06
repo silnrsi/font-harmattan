@@ -5,6 +5,15 @@
   <outline>
     <component base="absDal"/>
     <component base="_ring" xOffset="368" yOffset="-147"/>
+    <contour>
+      <point x="291" y="683" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="298" y="725" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="373" y="-333" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

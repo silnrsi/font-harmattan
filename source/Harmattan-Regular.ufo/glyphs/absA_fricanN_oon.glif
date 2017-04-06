@@ -4,6 +4,24 @@
   <unicode hex="08BD"/>
   <outline>
     <component base="absNoonGhunna"/>
+    <contour>
+      <point x="597" y="388" type="move" name="above"/>
+    </contour>
+    <contour>
+      <point x="277" y="408" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="571" y="-585" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="605" y="435" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="580" y="-592" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="585" y="-495" type="move" name="ring"/>
+    </contour>
   </outline>
   <lib>
     <dict>
