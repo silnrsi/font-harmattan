@@ -1,5 +1,4 @@
 ﻿sources/SOURCES.txt
-Harmattan 1.00
 ==================
 
 This file describes the source files included with the Harmattan font 
@@ -16,35 +15,6 @@ You should have received a copy of the license along with this Font Software.
 If this is not the case, go to (http://scripts.sil.org/OFL) for all the
 details including an FAQ.
 
-FontLab "*-designsource.vfb" file: The .vfb file is a FontLab file and 
-contains all the glyph outline data for the font. Please note that it is not
-possible to generate a font from this file that is identical to the final
-version, as postprocessing is done on the font after generation from
-FontLab.
+Graphite code: See the README.txt file in the graphite/ folder for details.
 
-"*.enc" file: This is a plain-text file that identifes the required glyph
-order for this font. It can be used as a FontLab encoding file to sort
-glyphs prior to exporting the font. There may be glyphs identified in this
-file that are not present in the font, in which case those can simply
-be ignored.
-
-OpenType "*-designsource.otf" files: These are CFF-flavored OpenType fonts 
-containing PostScript-style outlines. These are not intended as installable fonts, 
-and we do not support that use. They are provided as a non-proprietary 
-source of PostScript-style bézier outlines and can be opened by many font 
-design programs, including FontForge.
-
-TrueType "*-designsource.ttf" files: These are TrueType-flavored OpenType fonts
-containing bezier-curve outlines. These can be compiled with the VOLT and
-Graphite source code provided with this package to make functioning smart fonts,
-though these will not be identical to the final version due to post-processing.
-
-Anchor "*-anchors.xml" file: These XML files contain data on anchors
-(attachment points) used in creating composite glyphs and OpenType/Graphite
-code. This anchor data is present in the .vfb files, but this is a separate,
-non-proprietary, text-based source for that information.
-
-VOLT code: The code used to insert OpenType tables into the font is included in
-a VOLT font format. See the README.txt file in the VOLT folder for details.
-
-Graphite code: See the README.txt file in the Graphite folder for details.
+OpenType code: See the README.txt file in the opentype/ folder for details.
