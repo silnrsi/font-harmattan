@@ -1,5 +1,4 @@
 sources/opentype/README.txt
-Harmattan 1.00
 ==================
 
 This file describes the fea source files included with the Harmattan

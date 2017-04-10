@@ -1,5 +1,4 @@
 sources/graphite/README.txt
-Harmattan 1.00
 ==================
 
 This file describes the Graphite source files included with the Harmattan
@@ -21,7 +20,6 @@ Harmattan.gdl   Master GDL file; includes all the others
 stddef.gdh         Standard Graphite definitions
 
 cp1252.gdl         Rules for Roman characters within codepage 1252
-
 HarmattanRmasterVoltDefs.gdh
                    A file automatically generated from the VOLT project.
                    Defines glyphs and classes that are shared between
