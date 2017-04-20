@@ -4,7 +4,6 @@
   <unicode hex="06DA"/>
   <outline>
     <contour>
-      <point x="323" y="1504" type="curve" name="hr00"/>
       <point x="217" y="1606"/>
       <point x="174" y="1711"/>
       <point x="84" y="1711" type="curve" smooth="yes"/>
@@ -49,6 +48,7 @@
       <point x="272" y="1447" type="curve"/>
       <point x="285" y="1454"/>
       <point x="315" y="1488"/>
+      <point x="323" y="1504" type="curve"/>
     </contour>
     <contour>
       <point x="117" y="1390" type="line"/>
@@ -66,32 +66,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="1108" width="77"/>
-            <hstem pos="1469" width="65"/>
-            <hstem pos="1620" width="91"/>
-            <vstem pos="-101" width="72"/>
-          </hintset>
-        </hintSetList>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>1411</integer>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="06D4"/>
   <outline>
     <contour>
-      <point x="455" y="125" type="line" name="hr00"/>
+      <point x="455" y="125" type="line"/>
       <point x="205" y="125" type="line"/>
       <point x="174" y="0" type="line"/>
       <point x="426" y="0" type="line"/>
@@ -18,14 +18,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="0" width="125"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

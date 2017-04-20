@@ -3,7 +3,7 @@
   <advance width="125"/>
   <outline>
     <contour>
-      <point x="125" y="-10" type="line" name="hr00"/>
+      <point x="125" y="-10" type="line"/>
       <point x="125" y="125" type="line"/>
       <point x="0" y="125" type="line"/>
       <point x="0" y="-10" type="line"/>
@@ -20,15 +20,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="11" width="-21"/>
-            <hstem pos="125" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

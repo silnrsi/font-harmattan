@@ -11,21 +11,16 @@
       <point x="512" y="1406" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="573" y="-113" type="move" name="diaB"/>
+      <point x="545" y="-12" type="move" name="exit"/>
     </contour>
     <contour>
-      <point x="545" y="-12" type="move" name="exit"/>
+      <point x="573" y="-113" type="move" name="diaB"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.656</real>
-        <integer>1</integer>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

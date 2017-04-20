@@ -3,7 +3,6 @@
   <advance width="837"/>
   <outline>
     <contour>
-      <point x="462" y="525" type="curve" smooth="yes"/>
       <point x="299" y="525"/>
       <point x="144" y="411"/>
       <point x="144" y="207" type="curve" smooth="yes"/>
@@ -24,7 +23,7 @@
       <point x="751" y="-12" type="curve"/>
       <point x="769" y="-11"/>
       <point x="795" y="-10"/>
-      <point x="837" y="-10" type="curve" smooth="yes" name="hr01"/>
+      <point x="837" y="-10" type="curve" smooth="yes"/>
       <point x="857" y="-10" type="line"/>
       <point x="857" y="125" type="line"/>
       <point x="837" y="125" type="line" smooth="yes"/>
@@ -33,9 +32,9 @@
       <point x="758" y="122" type="curve"/>
       <point x="749" y="404"/>
       <point x="612" y="525"/>
+      <point x="462" y="525" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="471" y="83" type="curve" smooth="yes" name="hr02"/>
       <point x="367" y="83"/>
       <point x="277" y="126"/>
       <point x="277" y="228" type="curve" smooth="yes"/>
@@ -47,15 +46,7 @@
       <point x="622" y="95" type="curve"/>
       <point x="570" y="87"/>
       <point x="517" y="83"/>
-    </contour>
-    <contour>
-      <point x="374" y="621" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="273" y="554" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="314" y="-636" type="move" name="below"/>
+      <point x="471" y="83" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="61" y="-232" type="move" name="center"/>
@@ -64,10 +55,19 @@
       <point x="391" y="617" type="move" name="diaA"/>
     </contour>
     <contour>
+      <point x="374" y="621" type="move" name="above"/>
+    </contour>
+    <contour>
+      <point x="273" y="554" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="370" y="-625" type="move" name="diaB"/>
     </contour>
     <contour>
       <point x="301" y="-211" type="move" name="ring"/>
+    </contour>
+    <contour>
+      <point x="314" y="-636" type="move" name="below"/>
     </contour>
     <contour>
       <point x="556" y="-176" type="move" name="through"/>
@@ -75,27 +75,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-645" width="-21"/>
-            <hstem pos="11" width="-21"/>
-            <hstem pos="125" width="-20"/>
-            <hstem pos="392" width="133"/>
-            <vstem pos="144" width="133"/>
-            <vstem pos="623" width="136"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-645" width="-21"/>
-            <hstem pos="-43" width="126"/>
-            <hstem pos="125" width="-20"/>
-            <hstem pos="392" width="133"/>
-            <vstem pos="144" width="133"/>
-            <vstem pos="623" width="136"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

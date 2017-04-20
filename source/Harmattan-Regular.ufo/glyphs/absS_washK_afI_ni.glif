@@ -6,10 +6,10 @@
       <point x="0" y="-10" type="line"/>
       <point x="269" y="-13"/>
       <point x="522" y="-14"/>
-      <point x="738" y="-14" type="curve" smooth="yes" name="hr01"/>
+      <point x="738" y="-14" type="curve" smooth="yes"/>
       <point x="954" y="-14"/>
       <point x="1155" y="-10"/>
-      <point x="1281" y="-10" type="curve" smooth="yes" name="hr02"/>
+      <point x="1281" y="-10" type="curve" smooth="yes"/>
       <point x="1648" y="-10"/>
       <point x="1698" y="33"/>
       <point x="1698" y="228" type="curve" smooth="yes"/>
@@ -41,18 +41,18 @@
       <point x="1558" y="146" type="curve"/>
       <point x="1487" y="125"/>
       <point x="1063" y="124"/>
-      <point x="878" y="124" type="curve" smooth="yes" name="hr03"/>
+      <point x="878" y="124" type="curve" smooth="yes"/>
       <point x="616" y="124"/>
       <point x="252" y="125"/>
-      <point x="0" y="125" type="curve" smooth="yes" name="hr04"/>
+      <point x="0" y="125" type="curve" smooth="yes"/>
       <point x="-20" y="125" type="line"/>
       <point x="-20" y="-10" type="line"/>
     </contour>
     <contour>
-      <point x="197" y="683" type="move" name="alef"/>
+      <point x="453" y="978" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="453" y="978" type="move" name="diaA"/>
+      <point x="197" y="683" type="move" name="alef"/>
     </contour>
     <contour>
       <point x="879" y="-157" type="move" name="diaB"/>
@@ -60,41 +60,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-14" width="138"/>
-            <hstem pos="334" width="135"/>
-            <hstem pos="1064" width="-20"/>
-            <vstem pos="209" width="160"/>
-            <vstem pos="1563" width="135"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="11" width="-21"/>
-            <hstem pos="125" width="-20"/>
-            <hstem pos="334" width="135"/>
-            <hstem pos="1064" width="-20"/>
-            <vstem pos="209" width="160"/>
-            <vstem pos="1563" width="135"/>
-          </hintset>
-          <hintset pointTag="hr03">
-            <hstem pos="-14" width="138"/>
-            <hstem pos="334" width="135"/>
-            <hstem pos="1064" width="-20"/>
-            <vstem pos="209" width="160"/>
-            <vstem pos="1563" width="135"/>
-          </hintset>
-          <hintset pointTag="hr04">
-            <hstem pos="11" width="-21"/>
-            <hstem pos="125" width="-20"/>
-            <hstem pos="334" width="135"/>
-            <hstem pos="1064" width="-20"/>
-            <vstem pos="209" width="160"/>
-            <vstem pos="1563" width="135"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

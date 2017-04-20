@@ -4,7 +4,6 @@
   <unicode hex="065B"/>
   <outline>
     <contour>
-      <point x="176" y="1200" type="curve"/>
       <point x="231" y="1162"/>
       <point x="298" y="1091"/>
       <point x="359" y="1023" type="curve"/>
@@ -19,9 +18,10 @@
       <point x="-30" y="1098" type="curve"/>
       <point x="-18" y="1055"/>
       <point x="13" y="1022"/>
-      <point x="19" y="1022" type="curve" name="hr01"/>
+      <point x="19" y="1022" type="curve"/>
       <point x="52" y="1067"/>
       <point x="123" y="1152"/>
+      <point x="176" y="1200" type="curve"/>
     </contour>
     <contour>
       <point x="177" y="1001" type="move" name="_diaA"/>
@@ -32,15 +32,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="1043" width="-21"/>
-            <hstem pos="1316" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

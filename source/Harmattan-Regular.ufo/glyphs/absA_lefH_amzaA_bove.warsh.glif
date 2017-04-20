@@ -5,10 +5,10 @@
     <component base="absAlef" xOffset="15"/>
     <component base="absHamzaAbove" xOffset="-57" yOffset="-329"/>
     <contour>
-      <point x="-5" y="1316" type="move" name="alef"/>
+      <point x="215" y="1411" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="215" y="1411" type="move" name="diaA"/>
+      <point x="-5" y="1316" type="move" name="alef"/>
     </contour>
     <contour>
       <point x="214" y="-109" type="move" name="diaB"/>
@@ -16,13 +16,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.656</real>
-        <integer>1</integer>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

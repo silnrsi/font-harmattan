@@ -3,7 +3,7 @@
   <advance width="1277"/>
   <outline>
     <contour>
-      <point x="169" y="326" type="line" name="hr00"/>
+      <point x="169" y="326" type="line"/>
       <point x="169" y="171"/>
       <point x="63" y="125"/>
       <point x="0" y="125" type="curve" smooth="yes"/>
@@ -61,16 +61,16 @@
       <point x="156" y="391" type="curve"/>
     </contour>
     <contour>
-      <point x="658" y="532" type="move" name="above"/>
+      <point x="716" y="-89" type="move" name="below"/>
     </contour>
     <contour>
       <point x="251" y="481" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="716" y="-89" type="move" name="below"/>
+      <point x="647" y="510" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="647" y="510" type="move" name="diaA"/>
+      <point x="658" y="532" type="move" name="above"/>
     </contour>
     <contour>
       <point x="693" y="-123" type="move" name="diaB"/>
@@ -78,18 +78,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="1" width="-21"/>
-            <hstem pos="-10" width="135"/>
-            <hstem pos="115" width="-20"/>
-            <hstem pos="529" width="-20"/>
-            <vstem pos="1023" width="134"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

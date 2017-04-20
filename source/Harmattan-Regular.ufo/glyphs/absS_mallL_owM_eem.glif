@@ -5,10 +5,16 @@
   <outline>
     <component base="absSmallHighMeemIsolatedForm" xOffset="-10" yOffset="-2098"/>
     <contour>
-      <point x="94" y="-380" type="move" name="_dia2B"/>
-    </contour>
-    <contour>
       <point x="101" y="-380" type="move" name="_diaB"/>
     </contour>
+    <contour>
+      <point x="94" y="-380" type="move" name="_dia2B"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
+    </dict>
+  </lib>
 </glyph>

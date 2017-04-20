@@ -3,12 +3,11 @@
   <advance width="893"/>
   <outline>
     <contour>
-      <point x="688" y="60" type="curve" smooth="yes"/>
       <point x="752" y="13"/>
       <point x="828" y="-10"/>
       <point x="893" y="-10" type="curve" smooth="yes"/>
       <point x="913" y="-10" type="line"/>
-      <point x="913" y="125" type="line" name="hr01"/>
+      <point x="913" y="125" type="line"/>
       <point x="893" y="125" type="line" smooth="yes"/>
       <point x="726" y="125"/>
       <point x="443" y="460"/>
@@ -33,37 +32,31 @@
       <point x="415" y="-25" type="curve" smooth="yes"/>
       <point x="543" y="-25"/>
       <point x="619" y="12"/>
-    </contour>
-    <contour>
-      <point x="249" y="851" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="255" y="808" type="move" name="alef"/>
+      <point x="688" y="60" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="385" y="-61" type="move" name="below"/>
     </contour>
     <contour>
+      <point x="255" y="808" type="move" name="alef"/>
+    </contour>
+    <contour>
       <point x="274" y="831" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="385" y="-71" type="move" name="diaB"/>
+      <point x="249" y="851" type="move" name="above"/>
     </contour>
     <contour>
       <point x="393" y="-6" type="move" name="ring"/>
     </contour>
+    <contour>
+      <point x="385" y="-71" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-25" width="150"/>
-            <hstem pos="823" width="-20"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

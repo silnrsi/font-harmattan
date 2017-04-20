@@ -21,10 +21,10 @@
       <point x="-282" y="-109" type="curve"/>
       <point x="-282" y="-81"/>
       <point x="-270" y="-34"/>
-      <point x="-261" y="-24" type="curve" name="hr01"/>
+      <point x="-261" y="-24" type="curve"/>
       <point x="-230" y="-15"/>
       <point x="-200" y="-13"/>
-      <point x="-170" y="-13" type="curve" smooth="yes" name="hr02"/>
+      <point x="-170" y="-13" type="curve" smooth="yes"/>
       <point x="-102" y="-13"/>
       <point x="-37" y="-28"/>
       <point x="22" y="-28" type="curve" smooth="yes"/>
@@ -39,29 +39,16 @@
       <point x="-24" y="-42" type="curve"/>
     </contour>
     <contour>
-      <point x="-12" y="-130" type="move" name="_above"/>
+      <point x="-12" y="173" type="move" name="_below"/>
     </contour>
     <contour>
-      <point x="-12" y="173" type="move" name="_below"/>
+      <point x="-12" y="-130" type="move" name="_above"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-88" width="-21"/>
-            <hstem pos="8" width="-21"/>
-            <hstem pos="78" width="73"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-91" width="63"/>
-            <hstem pos="8" width="-21"/>
-            <hstem pos="78" width="73"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

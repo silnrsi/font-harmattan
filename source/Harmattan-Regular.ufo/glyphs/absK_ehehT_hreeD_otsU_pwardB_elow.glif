@@ -6,10 +6,10 @@
     <component base="absKeheh"/>
     <component base="_dot3u" xOffset="667" yOffset="-380"/>
     <contour>
-      <point x="241" y="661" type="move" name="alef"/>
+      <point x="483" y="1008" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="483" y="1008" type="move" name="diaA"/>
+      <point x="241" y="661" type="move" name="alef"/>
     </contour>
     <contour>
       <point x="651" y="-678" type="move" name="diaB"/>
@@ -17,13 +17,12 @@
   </outline>
   <lib>
     <dict>
-      <key>com.typemytype.robofont.mark</key>
-      <array>
-        <real>0.807</real>
-        <integer>1</integer>
-        <real>0.6</real>
-        <integer>1</integer>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
     </dict>
   </lib>
 </glyph>

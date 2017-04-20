@@ -10,7 +10,7 @@
       <point x="477" y="1092" type="line"/>
     </contour>
     <contour>
-      <point x="19" y="430" type="line" name="hr01"/>
+      <point x="19" y="430" type="line"/>
       <point x="835" y="430" type="line"/>
       <point x="835" y="542" type="line"/>
       <point x="19" y="542" type="line"/>
@@ -22,7 +22,7 @@
       <point x="63" y="830" type="line"/>
     </contour>
     <contour>
-      <point x="682" y="1092" type="line" name="hr02"/>
+      <point x="682" y="1092" type="line"/>
       <point x="413" y="149" type="line"/>
       <point x="524" y="149" type="line"/>
       <point x="794" y="1092" type="line"/>
@@ -30,19 +30,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="430" width="112"/>
-            <hstem pos="718" width="112"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="149" width="393"/>
-            <hstem pos="718" width="374"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

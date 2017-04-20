@@ -32,7 +32,6 @@
       <point x="620" y="-224" type="curve"/>
     </contour>
     <contour>
-      <point x="495" y="732" type="curve" smooth="yes" name="hr01"/>
       <point x="495" y="788"/>
       <point x="450" y="833"/>
       <point x="395" y="833" type="curve" smooth="yes"/>
@@ -44,21 +43,13 @@
       <point x="395" y="633" type="curve" smooth="yes"/>
       <point x="450" y="633"/>
       <point x="495" y="677"/>
+      <point x="495" y="732" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-307" width="131"/>
-            <hstem pos="633" width="200"/>
-            <vstem pos="104" width="154"/>
-            <vstem pos="294" width="201"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

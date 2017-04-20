@@ -4,7 +4,6 @@
   <unicode hex="0633"/>
   <outline>
     <contour>
-      <point x="865" y="-20" type="curve" smooth="yes"/>
       <point x="969" y="-20"/>
       <point x="1052" y="59"/>
       <point x="1084" y="145" type="curve"/>
@@ -26,9 +25,9 @@
       <point x="552" y="324" type="curve" smooth="yes"/>
       <point x="586" y="162"/>
       <point x="682" y="-20"/>
+      <point x="865" y="-20" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="1287" y="-10" type="curve" smooth="yes" name="hr01"/>
       <point x="1426" y="-10"/>
       <point x="1537" y="112"/>
       <point x="1537" y="282" type="curve" smooth="yes"/>
@@ -43,7 +42,7 @@
       <point x="1403" y="268" type="curve" smooth="yes"/>
       <point x="1403" y="191"/>
       <point x="1369" y="125"/>
-      <point x="1298" y="125" type="curve" smooth="yes" name="hr02"/>
+      <point x="1298" y="125" type="curve" smooth="yes"/>
       <point x="1209" y="125"/>
       <point x="1167" y="214"/>
       <point x="1121" y="456" type="curve"/>
@@ -55,6 +54,7 @@
       <point x="993" y="369" type="curve" smooth="yes"/>
       <point x="1044" y="89"/>
       <point x="1151" y="-10"/>
+      <point x="1287" y="-10" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="534" y="391" type="line"/>
@@ -85,16 +85,16 @@
       <point x="704" y="82" type="curve"/>
     </contour>
     <contour>
-      <point x="1015" y="532" type="move" name="above"/>
+      <point x="1127" y="-89" type="move" name="below"/>
     </contour>
     <contour>
       <point x="295" y="287" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="1127" y="-89" type="move" name="below"/>
+      <point x="989" y="583" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="989" y="583" type="move" name="diaA"/>
+      <point x="1015" y="532" type="move" name="above"/>
     </contour>
     <contour>
       <point x="284" y="-654" type="move" name="diaB"/>
@@ -102,35 +102,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-565" width="134"/>
-            <hstem pos="11" width="-21"/>
-            <hstem pos="529" width="-20"/>
-            <vstem pos="-92" width="128"/>
-            <vstem pos="583" width="126"/>
-            <vstem pos="1403" width="134"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-565" width="134"/>
-            <hstem pos="-20" width="145"/>
-            <hstem pos="529" width="-20"/>
-            <vstem pos="-92" width="128"/>
-            <vstem pos="583" width="126"/>
-            <vstem pos="1403" width="134"/>
-          </hintset>
-          <hintset pointTag="hr03">
-            <hstem pos="-565" width="134"/>
-            <hstem pos="11" width="-21"/>
-            <hstem pos="529" width="-20"/>
-            <vstem pos="-92" width="128"/>
-            <vstem pos="583" width="126"/>
-            <vstem pos="1403" width="134"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

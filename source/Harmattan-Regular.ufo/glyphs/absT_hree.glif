@@ -4,7 +4,6 @@
   <unicode hex="0663"/>
   <outline>
     <contour>
-      <point x="160" y="1096" type="curve"/>
       <point x="103" y="1063"/>
       <point x="47" y="1008"/>
       <point x="27" y="933" type="curve"/>
@@ -22,6 +21,7 @@
       <point x="314" y="355" type="curve" smooth="yes"/>
       <point x="314" y="609"/>
       <point x="277" y="846"/>
+      <point x="160" y="1096" type="curve"/>
     </contour>
     <contour>
       <point x="477" y="1116" type="line"/>
@@ -33,13 +33,13 @@
       <point x="882" y="1096" type="curve"/>
       <point x="869" y="1100"/>
       <point x="835" y="1103"/>
-      <point x="817" y="1103" type="curve" name="hr01"/>
+      <point x="817" y="1103" type="curve"/>
       <point x="786" y="1022"/>
       <point x="752" y="957"/>
       <point x="681" y="957" type="curve" smooth="yes"/>
       <point x="613" y="957"/>
       <point x="579" y="1019"/>
-      <point x="559" y="1116" type="curve" name="hr02"/>
+      <point x="559" y="1116" type="curve"/>
     </contour>
     <contour>
       <point x="477" y="1116" type="line"/>
@@ -65,27 +65,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-32" width="-21"/>
-            <hstem pos="775" width="-20"/>
-            <hstem pos="793" width="164"/>
-            <hstem pos="1103" width="-20"/>
-            <vstem pos="153" width="161"/>
-            <vstem pos="477" width="45"/>
-          </hintset>
-          <hintset pointTag="hr02">
-            <hstem pos="-32" width="-21"/>
-            <hstem pos="775" width="-20"/>
-            <hstem pos="793" width="164"/>
-            <hstem pos="1116" width="-20"/>
-            <vstem pos="153" width="161"/>
-            <vstem pos="477" width="45"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -2,5 +2,12 @@
 <glyph name="wordJoiner" format="1">
   <advance width="0"/>
   <unicode hex="2060"/>
-  <outline/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
+    </dict>
+  </lib>
 </glyph>

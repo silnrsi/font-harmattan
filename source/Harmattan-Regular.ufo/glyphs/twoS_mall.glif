@@ -3,7 +3,7 @@
   <advance width="494"/>
   <outline>
     <contour>
-      <point x="444" y="444" type="line" name="hr00"/>
+      <point x="444" y="444" type="line"/>
       <point x="411" y="438"/>
       <point x="346" y="438"/>
       <point x="266" y="438" type="curve" smooth="yes"/>
@@ -31,24 +31,16 @@
       <point x="444" y="370" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
+      <point x="494" y="0" type="move" name="digit"/>
     </contour>
     <contour>
-      <point x="494" y="0" type="move" name="digit"/>
+      <point x="0" y="0" type="move" name="_digit"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="370" width="68"/>
-            <hstem pos="907" width="74"/>
-            <vstem pos="333" width="82"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

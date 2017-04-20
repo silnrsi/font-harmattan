@@ -38,7 +38,7 @@
       <point x="1159" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="334" y="1198" type="line" name="hr01"/>
+      <point x="334" y="1198" type="line"/>
       <point x="239" y="1198" type="line"/>
       <point x="83" y="1103" type="line"/>
       <point x="95" y="1020" type="line"/>
@@ -52,19 +52,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="-17" width="-21"/>
-            <hstem pos="0" width="79"/>
-            <hstem pos="579" width="91"/>
-            <hstem pos="1198" width="-20"/>
-            <vstem pos="239" width="95"/>
-            <vstem pos="1033" width="97"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

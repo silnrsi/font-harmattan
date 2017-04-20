@@ -5,20 +5,13 @@
   <outline>
     <component base="_ring" xOffset="159" yOffset="1504"/>
     <contour>
-      <point x="0" y="1276" type="move" name="_diaA"/>
+      <point x="164" y="1312" type="move" name="_diaA"/>
     </contour>
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="lsb">
-            <hstem pos="1332" width="184"/>
-            <vstem pos="-92" width="184"/>
-          </hintset>
-        </hintSetList>
-      </data>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

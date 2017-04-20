@@ -4,13 +4,19 @@
   <unicode hex="00A0"/>
   <outline>
     <contour>
-      <point x="168" y="139" type="move" name="alef"/>
+      <point x="168" y="485" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="168" y="485" type="move" name="diaA"/>
+      <point x="168" y="139" type="move" name="alef"/>
     </contour>
     <contour>
       <point x="168" y="-523" type="move" name="diaB"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
+    </dict>
+  </lib>
 </glyph>

@@ -4,7 +4,7 @@
   <unicode hex="0066"/>
   <outline>
     <contour>
-      <point x="29" y="636" type="line" name="hr00"/>
+      <point x="29" y="636" type="line"/>
       <point x="180" y="636" type="line"/>
       <point x="180" y="0" type="line"/>
       <point x="340" y="0" type="line"/>
@@ -35,32 +35,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr00">
-            <hstem pos="21" width="-21"/>
-            <hstem pos="636" width="108"/>
-            <hstem pos="1084" width="128"/>
-            <vstem pos="180" width="138"/>
-          </hintset>
-        </hintSetList>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>90</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>-546</integer>
-          <key>y</key>
-          <integer>0</integer>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

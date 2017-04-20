@@ -4,7 +4,6 @@
   <unicode hex="06D6"/>
   <outline>
     <contour>
-      <point x="602" y="1686" type="curve" smooth="yes"/>
       <point x="532" y="1686"/>
       <point x="457" y="1638"/>
       <point x="408" y="1578" type="curve"/>
@@ -36,7 +35,7 @@
       <point x="106" y="1492" type="curve" smooth="yes"/>
       <point x="9" y="1492"/>
       <point x="-93" y="1458"/>
-      <point x="-93" y="1374" type="curve" smooth="yes" name="hr01"/>
+      <point x="-93" y="1374" type="curve" smooth="yes"/>
       <point x="-93" y="1310"/>
       <point x="-28" y="1243"/>
       <point x="174" y="1243" type="curve" smooth="yes"/>
@@ -75,9 +74,9 @@
       <point x="735" y="1569" type="curve" smooth="yes"/>
       <point x="735" y="1630"/>
       <point x="692" y="1686"/>
+      <point x="602" y="1686" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="653" y="1559" type="curve" smooth="yes"/>
       <point x="653" y="1514"/>
       <point x="608" y="1485"/>
       <point x="553" y="1485" type="curve" smooth="yes"/>
@@ -89,6 +88,7 @@
       <point x="590" y="1607" type="curve" smooth="yes"/>
       <point x="634" y="1607"/>
       <point x="653" y="1582"/>
+      <point x="653" y="1559" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="344" y="1218" type="move" name="_diaA"/>
@@ -96,33 +96,8 @@
   </outline>
   <lib>
     <dict>
-      <key>com.adobe.type.autohint</key>
-      <data>
-        <hintSetList>
-          <hintset pointTag="hr01">
-            <hstem pos="1243" width="76"/>
-            <hstem pos="1413" width="79"/>
-            <hstem pos="1607" width="79"/>
-            <hstem pos="1915" width="-20"/>
-            <vstem pos="-93" width="357"/>
-          </hintset>
-        </hintSetList>
-      </data>
-      <key>com.typemytype.robofont.guides</key>
-      <array>
-        <dict>
-          <key>angle</key>
-          <integer>0</integer>
-          <key>isGlobal</key>
-          <false/>
-          <key>magnetic</key>
-          <integer>5</integer>
-          <key>x</key>
-          <integer>0</integer>
-          <key>y</key>
-          <integer>1418</integer>
-        </dict>
-      </array>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
     </dict>
   </lib>
 </glyph>

@@ -3,12 +3,18 @@
   <advance width="628"/>
   <unicode hex="00B9"/>
   <outline>
-    <component base="one" xScale="0.7" yScale="0.65" xOffset="-14" yOffset="508"/>
-    <contour>
-      <point x="313" y="460" type="move" name="L"/>
-    </contour>
+    <component base="one" xOffset="-14" yOffset="508" xScale="0.7" yScale="0.65"/>
     <contour>
       <point x="313" y="1253" type="move" name="U"/>
     </contour>
+    <contour>
+      <point x="313" y="460" type="move" name="L"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
+    </dict>
+  </lib>
 </glyph>

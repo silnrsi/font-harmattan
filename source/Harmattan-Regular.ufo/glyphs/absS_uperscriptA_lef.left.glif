@@ -3,5 +3,17 @@
   <advance width="0"/>
   <outline>
     <component base="absSuperscriptAlef"/>
+    <contour>
+      <point x="231" y="1280" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="249" y="585" type="move" name="_alef"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2017-04-20 16:31:53 +0000</string>
+    </dict>
+  </lib>
 </glyph>
