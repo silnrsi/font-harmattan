@@ -72,6 +72,7 @@ for style in ('-Regular', '-Bold'):
             woff=woff('web/Harmattan-Regular.woff', params='-v ' + VERSION + ' -m ../source/Harmattan-WOFF-metadata.xml'),
             typetuner='source/typetuner/feat_all.xml',
          )
+for style in ('-Regular', ):  # '-Bold'):
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
