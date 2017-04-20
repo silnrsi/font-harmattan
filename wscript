@@ -58,8 +58,7 @@ used for building, testing and releasing.
 """
 DEBPKG = 'fonts-sil-harmattan'
 
-
-for style in ('-Regular', '-Bold'):
+for style in ('-Regular', ):  # '-Bold'):
    font(target=process(APPNAME + style + '.ttf'),
             source='source/' + APPNAME + style + '.ufo',
             version=VERSION,
@@ -72,7 +71,6 @@ for style in ('-Regular', '-Bold'):
             woff=woff('web/Harmattan-Regular.woff', params='-v ' + VERSION + ' -m ../source/Harmattan-WOFF-metadata.xml'),
             typetuner='source/typetuner/feat_all.xml',
          )
-for style in ('-Regular', ):  # '-Bold'):
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
