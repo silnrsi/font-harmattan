@@ -3,7 +3,7 @@
 
 # set the default output folders
 out = "results"
-DOCDIR = "documentation"
+DOCDIR = ["documentation", "web"]
 OUTDIR = "installers"
 ZIPDIR = "releases"
 TESTDIR = "tests"
@@ -12,9 +12,8 @@ STANDARDS = "reference"
 
 # set the font name, version, licensing and description
 APPNAME = "Harmattan"
-VERSION = "1.001"
-BUILDVERSION = "1.001"
-BUILDLABEL = "alpha1"
+VERSION = "1.020"
+# BUILDLABEL = "alpha1"
 
 COPYRIGHT = """
 Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
@@ -25,7 +24,7 @@ with the Reserved Font Name \"Fouta\".
 Copyright (c) 2004-2015, SIL International (http://scripts.sil.org),
 with Reserved Font Names \'Andika\' and \'SIL\'.
 
-Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2017, SIL International (http://www.sil.org/).
 with Reserved Font Names \"Harmattan\" and \"SIL\".
 """
 
