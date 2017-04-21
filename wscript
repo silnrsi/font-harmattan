@@ -3,7 +3,7 @@
 
 # set the default output folders
 out = "results"
-DOCDIR = ["documentation", "web"]
+DOCDIR = "documentation"
 OUTDIR = "installers"
 ZIPDIR = "releases"
 TESTDIR = "tests"
