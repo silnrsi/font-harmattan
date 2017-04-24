@@ -7,10 +7,17 @@ font. This information should be distributed along with the
 Harmattan font and any derivative works.
 
 Primary documentation for the Harmattan font is on the Harmattan 
-website (http://scripts.sil.org/Harmattan).
+website (http://software.sil.org/harmattan/).
 
 The Harmattan-features.pdf file illustrates the use of OpenType and 
 Graphite features.
 
 The Harmattan-features.odt file illustrates the use of OpenType and 
 Graphite features (source file for the pdf).
+
+The Harmattan-typesample.pdf file gives a sample of all the characters in 
+the font.
+
+The Harmattan-typesample.odt  file gives a sample of all the characters in 
+the font (source file for the pdf).
+
