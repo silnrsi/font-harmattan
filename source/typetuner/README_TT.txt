@@ -95,5 +95,5 @@ adequate level of support for Graphite or OpenType.
 CONTACT
 ========
 For more information please visit the Harmattan page on SIL International's
-Computers and Writing systems website: http://software.sil.org/harmattan/.
+Computers and Writing systems website: http://software.sil.org/harmattan/support.
 
