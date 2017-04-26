@@ -1,0 +1,804 @@
+<?xml version='1.0' encoding='utf-8'?>
+<classes>
+
+    <class name='AinLikeInit'>
+        absAinIni absGhainIni absAinThreeDotsAboveIni absGhainDotBelowIni absAinTwoDotsAboveIni absAinThreeDotsDownAboveIni		
+        absAinTwoDotsVertAboveIni 	
+    </class>
+
+    <class name='AinLikeIsol'>
+        absAin absGhain absAinThreeDotsAbove absGhainDotBelow absAinTwoDotsAbove absAinThreeDotsDownAbove absAinTwoDotsVertAbove 	
+    </class>
+
+    <class name='AlefFin'>
+        absAlefMaddaAboveFin absAlefMaddaAboveFin.small absAlefHamzaAboveFin absAlefHamzaBelowFin absAlefFin absAlefWaslaFin 	
+    </class>
+
+    <class name='AlefFinAfterLamIni'>
+        absAlefMaddaAboveFin.postLamIni absAlefMaddaAboveFin.postLamIni.small absAlefHamzaAboveFin.postLamIni		
+        absAlefHamzaBelowFin.postLamIni absAlefFin.postLamIni absAlefWaslaFin.postLamIni 	
+    </class>
+
+    <class name='AlefFinAfterLamMed'>
+        absAlefMaddaAboveFin.postLamMed absAlefMaddaAboveFin.postLamMed.small absAlefHamzaAboveFin.postLamMed		
+        absAlefHamzaBelowFin.postLamMed absAlefFin.postLamMed absAlefWaslaFin.postLamMed 	
+    </class>
+
+    <class name='AlefIso'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaBelow absAlef absAlefWasla 	
+    </class>
+
+    <class name='AlefMark'>
+        absMaddahAbove absMaddahAbove.small absHamzaAbove absHamzaBelow 	
+    </class>
+
+    <class name='AlefPlusMark'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaBelow 	
+    </class>
+
+    <class name='AllAlefFinAfterLam'>
+        @AlefFinAfterLamIni @AlefFinAfterLamMed 	
+    </class>
+
+    <class name='Ayah'>
+        absEndOfAyah absEndOfAyah.2 absEndOfAyah.3 	
+    </class>
+
+    <class name='Ayah.alt'>
+        absEndOfAyah.alt absEndOfAyah.alt.2 absEndOfAyah.alt.3 	
+    </class>
+
+    <class name='Ayah.altB'>
+        absEndOfAyah.altB absEndOfAyah.altB.2 absEndOfAyah.altB.3 	
+    </class>
+
+    <class name='AyahAny'>
+        @Ayah @Ayah.alt @Ayah.altB 	
+    </class>
+
+    <class name='Damma'>
+        absDamma absShaddaDamma absHamzaDamma 	
+    </class>
+
+    <class name='Damma.short'>
+        absDamma.short absShaddaDamma.short absHamzaDamma.short 	
+    </class>
+
+    <class name='Dammatan'>
+        absDammatan absShaddaDammatan 	
+    </class>
+
+    <class name='Dammatan.sixNine'>
+        absDammatan.sixNine absShaddaDammatan.sixNine 	
+    </class>
+
+    <class name='DigitsArabic'>
+        absZero absOne absTwo absThree absFour absFive absSix absSeven absEight absNine 	
+    </class>
+
+    <class name='DigitsArabicMedium'>
+        absZeroMedium absOneMedium absTwoMedium absThreeMedium absFourMedium absFiveMedium absSixMedium absSevenMedium		
+        absEightMedium absNineMedium 	
+    </class>
+
+    <class name='DigitsArabicSmall'>
+        absZeroSmall absOneSmall absTwoSmall absThreeSmall absFourSmall absFiveSmall absSixSmall absSevenSmall absEightSmall		
+        absNineSmall 	
+    </class>
+
+    <class name='DigitsLatin'>
+        zero one two three four five six seven eight nine 	
+    </class>
+
+    <class name='DigitsAny'>
+        @DigitsArabic @DigitsLatin 	
+    </class>
+
+    <class name='DigitsLatinMedium'>
+        zeroMedium oneMedium twoMedium threeMedium fourMedium fiveMedium sixMedium sevenMedium eightMedium nineMedium 	
+    </class>
+
+    <class name='DigitsAnyMedium'>
+        @DigitsArabicMedium @DigitsLatinMedium 	
+    </class>
+
+    <class name='DigitsLatinSmall'>
+        zeroSmall oneSmall twoSmall threeSmall fourSmall fiveSmall sixSmall sevenSmall eightSmall nineSmall 	
+    </class>
+
+    <class name='DigitsAnySmall'>
+        @DigitsArabicSmall @DigitsLatinSmall 	
+    </class>
+
+    <class name='DigitsAnyMedOrSmall'>
+        @DigitsAnyMedium @DigitsAnySmall 	
+    </class>
+
+    <class name='DualLinkFina'>
+        absYehHamzaAboveFin absYehFin absYehFin.noDots absFarsiYehFin absFarsiYehInvertedVFin absFarsiYehTwoDotsAboveFin		
+        absFarsiYehThreeDotsAboveFin absYehSmallVFin absEFin absYehThreeDotsBelowFin absAlefMaksuraFin		
+        absYehTwoDotsBelowHamzaAboveFin absYehTwoDotsBelowDotAboveFin absBehNoDotsFin absBehFin absTehFin absThehFin absTtehehFin		
+        absBeehFin absTehThreeDotsAboveDownwardsFin absPehFin absBehThreeDotsHorizBelowFin absBehThreeDotsAboveDotBelowFin		
+        absBehThreeDotsUpwardBelowFin absBehTwoDotsAboveThreeDotsUpwardBelowFin absBehDotAboveTwoDotsBelowFin		
+        absBehInvSmallVBelowFin absBehSmallVAboveFin absBehSmallVBelowFin absBehHamzaAboveFin absJeemFin absHahFin absKhahFin		
+        absHahTwoDotsVerticalAboveFin absNyehFin absDyehFin absHahThreeDotsAboveFin absTchehFin absTchehDotAboveFin		
+        absHahTwoDotsAboveFin absHahThreeDotsUpwardBelowFin absJeemTwoDotsAboveFin absSeenFin absSheenFin		
+        absSeenDotBelowDotAboveFin absSeenThreeDotsBelowFin absSeenThreeDotsBelowThreeDotsAboveFin absSheenDotBelowFin		
+        absSeenTwoVertAboveFin absSeenInvertedVFin absSadFin absDadFin absSadTwoDotsBelowFin absSadThreeDotsAboveFin		
+        absDadDotBelowFin absSadThreeDotsBelowFin absTahFin absZahFin absTahThreeDotsAboveFin absTahTwoDotsAboveFin absAinFin		
+        absGhainFin absAinThreeDotsAboveFin absGhainDotBelowFin absAinTwoDotsAboveFin absAinThreeDotsDownAboveFin		
+        absAinTwoDotsVertAboveFin absFehFin absDotlessFehFin absAfricanFehFin absFehDotMovedBelowFin absFehDotBelowFin absVehFin		
+        absFehThreeDotsBelowFin absFehTwoDotsBelowFin absFehThreeDotsUpwardBelowFin absFehDotBelowThreeDotsAboveFin absQafNoDotsFin		
+        absAfricanQafFin absQafFin absQafDotAboveFin absQafThreeDotsAboveFin absQafDotBelowFin absKafFin absKafDotAboveFin absNgFin		
+        absKafTwoDotsAboveFin absKafThreeDotsBelowFin absKehehFin absGafFin absKehehDotAboveFin absKehehThreeDotsAboveFin		
+        absKehehThreeDotsUpwardBelowFin absKehehTwoDotsAboveFin absKehehThreeDotsBelowFin absSwashKafFin absLamFin absLamSmallVFin		
+        absLamDotAboveFin absLamThreeDotsAboveFin absLamThreeDotsBelowFin absLamBarFin absLamDoubleBarFin absMeemFin		
+        absMeemDotAboveFin absMeemDotBelowFin absMeemThreeDotsAboveFin absNoonFin absNoonDotBelowFin absNoonGhunnaFin		
+        absAfricanNoonFin absNoonThreeDotsAboveFin absNoonTwoDotsBelowFin absNoonSmallVFin absHehFin 	
+    </class>
+
+    <class name='DualLinkInit'>
+        absYehHamzaAboveIni absYehIni absYehIni.noDots absFarsiYehIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni		
+        absFarsiYehThreeDotsAboveIni absYehSmallVIni absEIni absYehThreeDotsBelowIni absAlefMaksuraIni		
+        absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehehIni		
+        absBeehIni absTehThreeDotsAboveDownwardsIni absPehIni absBehThreeDotsHorizBelowIni absBehThreeDotsAboveDotBelowIni		
+        absBehThreeDotsUpwardBelowIni absBehTwoDotsAboveThreeDotsUpwardBelowIni absBehDotAboveTwoDotsBelowIni		
+        absBehInvSmallVBelowIni absBehSmallVAboveIni absBehSmallVBelowIni absBehHamzaAboveIni absJeemIni absHahIni absKhahIni		
+        absHahTwoDotsVerticalAboveIni absNyehIni absDyehIni absHahThreeDotsAboveIni absTchehIni absTchehDotAboveIni		
+        absHahTwoDotsAboveIni absHahThreeDotsUpwardBelowIni absJeemTwoDotsAboveIni absSeenIni absSheenIni		
+        absSeenDotBelowDotAboveIni absSeenThreeDotsBelowIni absSeenThreeDotsBelowThreeDotsAboveIni absSheenDotBelowIni		
+        absSeenTwoVertAboveIni absSeenInvertedVIni absSadIni absDadIni absSadTwoDotsBelowIni absSadThreeDotsAboveIni		
+        absDadDotBelowIni absSadThreeDotsBelowIni absTahIni absZahIni absTahThreeDotsAboveIni absTahTwoDotsAboveIni absAinIni		
+        absGhainIni absAinThreeDotsAboveIni absGhainDotBelowIni absAinTwoDotsAboveIni absAinThreeDotsDownAboveIni		
+        absAinTwoDotsVertAboveIni absFehIni absDotlessFehIni absAfricanFehIni absFehDotMovedBelowIni absFehDotBelowIni absVehIni		
+        absFehThreeDotsBelowIni absFehTwoDotsBelowIni absFehThreeDotsUpwardBelowIni absFehDotBelowThreeDotsAboveIni absQafNoDotsIni		
+        absAfricanQafIni absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absQafDotBelowIni absKafIni absKafDotAboveIni absNgIni		
+        absKafTwoDotsAboveIni absKafThreeDotsBelowIni absKehehIni absGafIni absKehehDotAboveIni absKehehThreeDotsAboveIni		
+        absKehehThreeDotsUpwardBelowIni absKehehTwoDotsAboveIni absKehehThreeDotsBelowIni absSwashKafIni absLamIni absLamSmallVIni		
+        absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni absLamBarIni absLamDoubleBarIni absMeemIni		
+        absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni absNoonGhunnaIni		
+        absAfricanNoonIni absNoonThreeDotsAboveIni absNoonTwoDotsBelowIni absNoonSmallVIni absHehIni 	
+    </class>
+
+    <class name='DualLinkIsol'>
+        absYehHamzaAbove absYeh absYeh.noDots absFarsiYeh absFarsiYehInvertedV absFarsiYehTwoDotsAbove absFarsiYehThreeDotsAbove		
+        absYehSmallV absE absYehThreeDotsBelow absAlefMaksura absYehTwoDotsBelowHamzaAbove absYehTwoDotsBelowDotAbove absBehNoDots		
+        absBeh absTeh absTheh absTteheh absBeeh absTehThreeDotsAboveDownwards absPeh absBehThreeDotsHorizBelow		
+        absBehThreeDotsAboveDotBelow absBehThreeDotsUpwardBelow absBehTwoDotsAboveThreeDotsUpwardBelow absBehDotAboveTwoDotsBelow		
+        absBehInvSmallVBelow absBehSmallVAbove absBehSmallVBelow absBehHamzaAbove absJeem absHah absKhah absHahTwoDotsVerticalAbove		
+        absNyeh absDyeh absHahThreeDotsAbove absTcheh absTchehDotAbove absHahTwoDotsAbove absHahThreeDotsUpwardBelow		
+        absJeemTwoDotsAbove absSeen absSheen absSeenDotBelowDotAbove absSeenThreeDotsBelow absSeenThreeDotsBelowThreeDotsAbove		
+        absSheenDotBelow absSeenTwoVertAbove absSeenInvertedV absSad absDad absSadTwoDotsBelow absSadThreeDotsAbove absDadDotBelow		
+        absSadThreeDotsBelow absTah absZah absTahThreeDotsAbove absTahTwoDotsAbove absAin absGhain absAinThreeDotsAbove		
+        absGhainDotBelow absAinTwoDotsAbove absAinThreeDotsDownAbove absAinTwoDotsVertAbove absFeh absDotlessFeh absAfricanFeh		
+        absFehDotMovedBelow absFehDotBelow absVeh absFehThreeDotsBelow absFehTwoDotsBelow absFehThreeDotsUpwardBelow		
+        absFehDotBelowThreeDotsAbove absQafNoDots absAfricanQaf absQaf absQafDotAbove absQafThreeDotsAbove absQafDotBelow absKaf		
+        absKafDotAbove absNg absKafTwoDotsAbove absKafThreeDotsBelow absKeheh absGaf absKehehDotAbove absKehehThreeDotsAbove		
+        absKehehThreeDotsUpwardBelow absKehehTwoDotsAbove absKehehThreeDotsBelow absSwashKaf absLam absLamSmallV absLamDotAbove		
+        absLamThreeDotsAbove absLamThreeDotsBelow absLamBar absLamDoubleBar absMeem absMeemDotAbove absMeemDotBelow		
+        absMeemThreeDotsAbove absNoon absNoonDotBelow absNoonGhunna absAfricanNoon absNoonThreeDotsAbove absNoonTwoDotsBelow		
+        absNoonSmallV absHeh 	
+    </class>
+
+    <class name='DualLinkMedi'>
+        absYehHamzaAboveMed absYehMed absYehMed.noDots absFarsiYehMed absFarsiYehInvertedVMed absFarsiYehTwoDotsAboveMed		
+        absFarsiYehThreeDotsAboveMed absYehSmallVMed absEMed absYehThreeDotsBelowMed absAlefMaksuraMed		
+        absYehTwoDotsBelowHamzaAboveMed absYehTwoDotsBelowDotAboveMed absBehNoDotsMed absBehMed absTehMed absThehMed absTtehehMed		
+        absBeehMed absTehThreeDotsAboveDownwardsMed absPehMed absBehThreeDotsHorizBelowMed absBehThreeDotsAboveDotBelowMed		
+        absBehThreeDotsUpwardBelowMed absBehTwoDotsAboveThreeDotsUpwardBelowMed absBehDotAboveTwoDotsBelowMed		
+        absBehInvSmallVBelowMed absBehSmallVAboveMed absBehSmallVBelowMed absBehHamzaAboveMed absJeemMed absHahMed absKhahMed		
+        absHahTwoDotsVerticalAboveMed absNyehMed absDyehMed absHahThreeDotsAboveMed absTchehMed absTchehDotAboveMed		
+        absHahTwoDotsAboveMed absHahThreeDotsUpwardBelowMed absJeemTwoDotsAboveMed absSeenMed absSheenMed		
+        absSeenDotBelowDotAboveMed absSeenThreeDotsBelowMed absSeenThreeDotsBelowThreeDotsAboveMed absSheenDotBelowMed		
+        absSeenTwoVertAboveMed absSeenInvertedVMed absSadMed absDadMed absSadTwoDotsBelowMed absSadThreeDotsAboveMed		
+        absDadDotBelowMed absSadThreeDotsBelowMed absTahMed absZahMed absTahThreeDotsAboveMed absTahTwoDotsAboveMed absAinMed		
+        absGhainMed absAinThreeDotsAboveMed absGhainDotBelowMed absAinTwoDotsAboveMed absAinThreeDotsDownAboveMed		
+        absAinTwoDotsVertAboveMed absFehMed absDotlessFehMed absAfricanFehMed absFehDotMovedBelowMed absFehDotBelowMed absVehMed		
+        absFehThreeDotsBelowMed absFehTwoDotsBelowMed absFehThreeDotsUpwardBelowMed absFehDotBelowThreeDotsAboveMed absQafNoDotsMed		
+        absAfricanQafMed absQafMed absQafDotAboveMed absQafThreeDotsAboveMed absQafDotBelowMed absKafMed absKafDotAboveMed absNgMed		
+        absKafTwoDotsAboveMed absKafThreeDotsBelowMed absKehehMed absGafMed absKehehDotAboveMed absKehehThreeDotsAboveMed		
+        absKehehThreeDotsUpwardBelowMed absKehehTwoDotsAboveMed absKehehThreeDotsBelowMed absSwashKafMed absLamMed absLamSmallVMed		
+        absLamDotAboveMed absLamThreeDotsAboveMed absLamThreeDotsBelowMed absLamBarMed absLamDoubleBarMed absMeemMed		
+        absMeemDotAboveMed absMeemDotBelowMed absMeemThreeDotsAboveMed absNoonMed absNoonDotBelowMed absNoonGhunnaMed		
+        absAfricanNoonMed absNoonThreeDotsAboveMed absNoonTwoDotsBelowMed absNoonSmallVMed absHehMed 	
+    </class>
+
+    <class name='HamzaAbove'>
+        absHamzaAbove 	
+    </class>
+
+    <class name='HamzaAny'>
+        absHamzaAbove absHamzaBelow 	
+    </class>
+
+    <class name='HamzaKasraFatha'>
+        absFatha absKasra absHamzaAbove absHamzaBelow 	
+    </class>
+
+    <class name='HamzaLigatures'>
+        absHamzaFatha absHamzaDamma absHamzaDamma.short 	
+    </class>
+
+    <class name='HamzaMarks'>
+        absFatha absDamma absDamma.short 	
+    </class>
+
+    <class name='HamzaLigatureParts'>
+        @HamzaAbove @HamzaMarks 	
+    </class>
+
+    <class name='HasAlefAP'>
+        space nobreakspace enQuad emQuad enSpace emSpace threePerEmSpace fourPerEmSpace sixPerEmSpace figureSpace punctuationSpace		
+        thinSpace hairSpace zerospace narrowNoBreakSpace circledash absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove		
+        absAlefHamzaAbove.warsh absAlefHamzaBelow absAlefHamzaBelow.warsh absAlef absAlefWasla absAlefFatha absAlefFatha.warsh		
+        absAlefKasra absAlefKasra.warsh absWaw absYu absKirghizYu absWawTwoDotsAbove absVe absWawDotAbove absDal absThal absDalRing		
+        absDalDotBelow absDalDotBelowSmallTah absDahal absDdahal absDul absDalThreeDotsAboveDownwards absDalHat		
+        absDalInvSmallVBelow absDalThreeDotsBelow absReh absZain absRehSmallV absRehDotBelow absRehSmallVBelow absRehTwoDotsAbove		
+        absJeh absRehTwoVertAbove absZainHat absRehHat absRehBar absYehBarree absYehHamzaAbove absYeh absYeh.noDots absFarsiYeh		
+        absFarsiYehInvertedV absFarsiYehTwoDotsAbove absFarsiYehThreeDotsAbove absYehSmallV absE absYehThreeDotsBelow		
+        absAlefMaksura absYehTwoDotsBelowHamzaAbove absYehTwoDotsBelowDotAbove absBehNoDots absBeh absTeh absTheh absTteheh absBeeh		
+        absTehThreeDotsAboveDownwards absPeh absBehThreeDotsHorizBelow absBehThreeDotsAboveDotBelow absBehThreeDotsUpwardBelow		
+        absBehTwoDotsAboveThreeDotsUpwardBelow absBehDotAboveTwoDotsBelow absBehInvSmallVBelow absBehSmallVAbove absBehSmallVBelow		
+        absBehHamzaAbove absJeem absHah absKhah absHahTwoDotsVerticalAbove absNyeh absDyeh absHahThreeDotsAbove absTcheh		
+        absTchehDotAbove absHahTwoDotsAbove absHahThreeDotsUpwardBelow absJeemTwoDotsAbove absSeen absSheen absSeenDotBelowDotAbove		
+        absSeenThreeDotsBelow absSeenThreeDotsBelowThreeDotsAbove absSheenDotBelow absSeenTwoVertAbove absSeenInvertedV absSad		
+        absSad.half absDad absDad.half absSadTwoDotsBelow absSadTwoDotsBelow.half absSadThreeDotsAbove absSadThreeDotsAbove.half		
+        absDadDotBelow absDadDotBelow.half absSadThreeDotsBelow absSadThreeDotsBelow.half absTah absZah absTahThreeDotsAbove		
+        absTahTwoDotsAbove absAin absGhain absAinThreeDotsAbove absGhainDotBelow absAinTwoDotsAbove absAinThreeDotsDownAbove		
+        absAinTwoDotsVertAbove absFeh absDotlessFeh absFehDotMovedBelow absFehDotBelow absVeh absFehThreeDotsBelow		
+        absFehTwoDotsBelow absFehThreeDotsUpwardBelow absFehDotBelowThreeDotsAbove absQafNoDots absQaf absQafDotAbove		
+        absQafThreeDotsAbove absQafDotBelow absKaf absKafDotAbove absNg absKafTwoDotsAbove absKafThreeDotsBelow absKeheh absGaf		
+        absKehehDotAbove absKehehThreeDotsAbove absKehehThreeDotsUpwardBelow absKehehTwoDotsAbove absKehehThreeDotsBelow		
+        absSwashKaf absLam absLamSmallV absLamDotAbove absLamThreeDotsAbove absLamThreeDotsBelow absLamBar absLamDoubleBar absMeem		
+        absMeem.sindhi absMeemDotAbove absMeemDotAbove.sindhi absMeemDotBelow absMeemDotBelow.sindhi absMeemThreeDotsAbove		
+        absMeemThreeDotsAbove.sindhi absNoon absNoonDotBelow absNoonGhunna absNoonThreeDotsAbove absNoonTwoDotsBelow absNoonSmallV		
+        absHeh absAe absTehMarbuta absHehYehAbove absHamza absTatweel absAlefMaddaAboveFin absAlefMaddaAboveFin.small		
+        absAlefHamzaAboveFin absAlefHamzaAboveFin.warsh absAlefHamzaBelowFin absAlefHamzaBelowFin.warsh absAlefFin absAlefWaslaFin		
+        absWawFin absYuFin absKirghizYuFin absWawTwoDotsAboveFin absVeFin absWawDotAboveFin absDalFin absThalFin absDalRingFin		
+        absDalDotBelowFin absDalDotBelowSmallTahFin absDahalFin absDdahalFin absDulFin absDalThreeDotsAboveDownwardsFin		
+        absDalHatFin absDalInvSmallVBelowFin absDalThreeDotsBelowFin absRehFin absZainFin absRehSmallVFin absRehDotBelowFin		
+        absRehSmallVBelowFin absRehTwoDotsAboveFin absJehFin absRehTwoVertAboveFin absZainHatFin absRehHatFin absRehBarFin		
+        absYehBarreeFin absYehHamzaAboveFin absYehFin absYehFin.noDots absFarsiYehFin absFarsiYehInvertedVFin		
+        absFarsiYehTwoDotsAboveFin absFarsiYehThreeDotsAboveFin absYehSmallVFin absEFin absYehThreeDotsBelowFin absAlefMaksuraFin		
+        absYehTwoDotsBelowHamzaAboveFin absYehTwoDotsBelowDotAboveFin absBehNoDotsFin absBehFin absTehFin absThehFin absTtehehFin		
+        absBeehFin absTehThreeDotsAboveDownwardsFin absPehFin absBehThreeDotsHorizBelowFin absBehThreeDotsAboveDotBelowFin		
+        absBehThreeDotsUpwardBelowFin absBehTwoDotsAboveThreeDotsUpwardBelowFin absBehDotAboveTwoDotsBelowFin		
+        absBehInvSmallVBelowFin absBehSmallVAboveFin absBehSmallVBelowFin absBehHamzaAboveFin absJeemFin absHahFin absKhahFin		
+        absHahTwoDotsVerticalAboveFin absNyehFin absDyehFin absHahThreeDotsAboveFin absTchehFin absTchehDotAboveFin		
+        absHahTwoDotsAboveFin absHahThreeDotsUpwardBelowFin absJeemTwoDotsAboveFin absSeenFin absSheenFin		
+        absSeenDotBelowDotAboveFin absSeenThreeDotsBelowFin absSeenThreeDotsBelowThreeDotsAboveFin absSheenDotBelowFin		
+        absSeenTwoVertAboveFin absSeenInvertedVFin absSadFin absSadFin.half absDadFin absDadFin.half absSadTwoDotsBelowFin		
+        absSadTwoDotsBelowFin.half absSadThreeDotsAboveFin absSadThreeDotsAboveFin.half absDadDotBelowFin absDadDotBelowFin.half		
+        absSadThreeDotsBelowFin absSadThreeDotsBelowFin.half absTahFin absZahFin absTahThreeDotsAboveFin absTahTwoDotsAboveFin		
+        absAinFin absGhainFin absAinThreeDotsAboveFin absGhainDotBelowFin absAinTwoDotsAboveFin absAinThreeDotsDownAboveFin		
+        absAinTwoDotsVertAboveFin absFehFin absDotlessFehFin absFehDotMovedBelowFin absFehDotBelowFin absVehFin		
+        absFehThreeDotsBelowFin absFehTwoDotsBelowFin absFehThreeDotsUpwardBelowFin absFehDotBelowThreeDotsAboveFin absQafNoDotsFin		
+        absQafFin absQafDotAboveFin absQafThreeDotsAboveFin absQafDotBelowFin absKafFin absKafDotAboveFin absNgFin		
+        absKafTwoDotsAboveFin absKafThreeDotsBelowFin absKehehFin absGafFin absKehehDotAboveFin absKehehThreeDotsAboveFin		
+        absKehehThreeDotsUpwardBelowFin absKehehTwoDotsAboveFin absKehehThreeDotsBelowFin absSwashKafFin absLamFin absLamSmallVFin		
+        absLamDotAboveFin absLamThreeDotsAboveFin absLamThreeDotsBelowFin absLamBarFin absLamDoubleBarFin absMeemFin		
+        absMeemFin.sindhi absMeemDotAboveFin absMeemDotAboveFin.sindhi absMeemDotBelowFin absMeemDotBelowFin.sindhi		
+        absMeemThreeDotsAboveFin absMeemThreeDotsAboveFin.sindhi absNoonFin absNoonDotBelowFin absNoonGhunnaFin		
+        absNoonThreeDotsAboveFin absNoonTwoDotsBelowFin absNoonSmallVFin absHehFin absAeFin absTehMarbutaFin absHehYehAboveFin		
+        absYehHamzaAboveMed absYehMed absYehMed.noDots absFarsiYehMed absFarsiYehInvertedVMed absFarsiYehTwoDotsAboveMed		
+        absFarsiYehThreeDotsAboveMed absYehSmallVMed absEMed absYehThreeDotsBelowMed absAlefMaksuraMed		
+        absYehTwoDotsBelowHamzaAboveMed absYehTwoDotsBelowDotAboveMed absBehNoDotsMed absBehMed absTehMed absThehMed absTtehehMed		
+        absBeehMed absTehThreeDotsAboveDownwardsMed absPehMed absBehThreeDotsHorizBelowMed absBehThreeDotsAboveDotBelowMed		
+        absBehThreeDotsUpwardBelowMed absBehTwoDotsAboveThreeDotsUpwardBelowMed absBehDotAboveTwoDotsBelowMed		
+        absBehInvSmallVBelowMed absBehSmallVAboveMed absBehSmallVBelowMed absBehHamzaAboveMed absJeemMed absJeemMed.hand absHahMed		
+        absHahMed.hand absKhahMed absKhahMed.hand absHahTwoDotsVerticalAboveMed absHahTwoDotsVerticalAboveMed.hand absNyehMed		
+        absNyehMed.hand absDyehMed absDyehMed.hand absHahThreeDotsAboveMed absHahThreeDotsAboveMed.hand absTchehMed		
+        absTchehMed.hand absTchehDotAboveMed absTchehDotAboveMed.hand absHahTwoDotsAboveMed absHahTwoDotsAboveMed.hand		
+        absHahThreeDotsUpwardBelowMed absHahThreeDotsUpwardBelowMed.hand absJeemTwoDotsAboveMed absJeemTwoDotsAboveMed.hand		
+        absSeenMed absSheenMed absSeenDotBelowDotAboveMed absSeenThreeDotsBelowMed absSeenThreeDotsBelowThreeDotsAboveMed		
+        absSheenDotBelowMed absSeenTwoVertAboveMed absSeenInvertedVMed absSadMed absDadMed absSadTwoDotsBelowMed		
+        absSadThreeDotsAboveMed absDadDotBelowMed absSadThreeDotsBelowMed absTahMed absZahMed absTahThreeDotsAboveMed		
+        absTahTwoDotsAboveMed absAinMed absGhainMed absAinThreeDotsAboveMed absGhainDotBelowMed absAinTwoDotsAboveMed		
+        absAinThreeDotsDownAboveMed absAinTwoDotsVertAboveMed absFehMed absDotlessFehMed absFehDotMovedBelowMed absFehDotBelowMed		
+        absVehMed absFehThreeDotsBelowMed absFehTwoDotsBelowMed absFehThreeDotsUpwardBelowMed absFehDotBelowThreeDotsAboveMed		
+        absQafNoDotsMed absQafMed absQafDotAboveMed absQafThreeDotsAboveMed absQafDotBelowMed absKafMed absKafDotAboveMed absNgMed		
+        absKafTwoDotsAboveMed absKafThreeDotsBelowMed absKehehMed absGafMed absKehehDotAboveMed absKehehThreeDotsAboveMed		
+        absKehehThreeDotsUpwardBelowMed absKehehTwoDotsAboveMed absKehehThreeDotsBelowMed absSwashKafMed absLamMed absLamSmallVMed		
+        absLamDotAboveMed absLamThreeDotsAboveMed absLamThreeDotsBelowMed absLamBarMed absLamDoubleBarMed absMeemMed		
+        absMeemDotAboveMed absMeemDotBelowMed absMeemThreeDotsAboveMed absNoonMed absNoonDotBelowMed absNoonGhunnaMed		
+        absNoonThreeDotsAboveMed absNoonTwoDotsBelowMed absNoonSmallVMed absHehDoachashmeeMed absHehMed absYehHamzaAboveIni		
+        absYehIni absYehIni.noDots absFarsiYehIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni		
+        absYehSmallVIni absEIni absYehThreeDotsBelowIni absAlefMaksuraIni absYehTwoDotsBelowHamzaAboveIni		
+        absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehehIni absBeehIni		
+        absTehThreeDotsAboveDownwardsIni absPehIni absBehThreeDotsHorizBelowIni absBehThreeDotsAboveDotBelowIni		
+        absBehThreeDotsUpwardBelowIni absBehTwoDotsAboveThreeDotsUpwardBelowIni absBehDotAboveTwoDotsBelowIni		
+        absBehInvSmallVBelowIni absBehSmallVAboveIni absBehSmallVBelowIni absBehHamzaAboveIni absJeemIni absHahIni absKhahIni		
+        absHahTwoDotsVerticalAboveIni absNyehIni absDyehIni absHahThreeDotsAboveIni absTchehIni absTchehDotAboveIni		
+        absHahTwoDotsAboveIni absHahThreeDotsUpwardBelowIni absJeemTwoDotsAboveIni absSeenIni absSheenIni		
+        absSeenDotBelowDotAboveIni absSeenThreeDotsBelowIni absSeenThreeDotsBelowThreeDotsAboveIni absSheenDotBelowIni		
+        absSeenTwoVertAboveIni absSeenInvertedVIni absSadIni absDadIni absSadTwoDotsBelowIni absSadThreeDotsAboveIni		
+        absDadDotBelowIni absSadThreeDotsBelowIni absTahIni absZahIni absTahThreeDotsAboveIni absTahTwoDotsAboveIni absAinIni		
+        absGhainIni absAinThreeDotsAboveIni absGhainDotBelowIni absAinTwoDotsAboveIni absAinThreeDotsDownAboveIni		
+        absAinTwoDotsVertAboveIni absFehIni absDotlessFehIni absFehDotMovedBelowIni absFehDotBelowIni absVehIni		
+        absFehThreeDotsBelowIni absFehTwoDotsBelowIni absFehThreeDotsUpwardBelowIni absFehDotBelowThreeDotsAboveIni absQafNoDotsIni		
+        absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absQafDotBelowIni absKafIni absKafDotAboveIni absNgIni		
+        absKafTwoDotsAboveIni absKafThreeDotsBelowIni absKehehIni absGafIni absKehehDotAboveIni absKehehThreeDotsAboveIni		
+        absKehehThreeDotsUpwardBelowIni absKehehTwoDotsAboveIni absKehehThreeDotsBelowIni absSwashKafIni absLamIni absLamSmallVIni		
+        absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni absLamBarIni absLamDoubleBarIni absMeemIni		
+        absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni absNoonGhunnaIni		
+        absNoonThreeDotsAboveIni absNoonTwoDotsBelowIni absNoonSmallVIni absHehDoachashmeeIni absHehIni absAutoKashida		
+        absLamIni.preAlef absLamSmallVIni.preAlef absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef		
+        absLamThreeDotsBelowIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef absLamHamzaIni.preAlef		
+        absLamHamzaIni.preAlef.warsh absAlefMaddaAboveFin.postLamIni absAlefMaddaAboveFin.postLamIni.small		
+        absAlefHamzaAboveFin.postLamIni absAlefHamzaBelowFin.postLamIni absAlefFin.postLamIni absAlefWaslaFin.postLamIni		
+        absLamMed.preAlef absLamSmallVMed.preAlef absLamDotAboveMed.preAlef absLamThreeDotsAboveMed.preAlef		
+        absLamThreeDotsBelowMed.preAlef absLamBarMed.preAlef absLamDoubleBarMed.preAlef absAlefMaddaAboveFin.postLamMed		
+        absAlefMaddaAboveFin.postLamMed.small absAlefHamzaAboveFin.postLamMed absAlefHamzaBelowFin.postLamMed absAlefFin.postLamMed		
+        absAlefWaslaFin.postLamMed 	
+    </class>
+
+    <class name='JeemHahMed'>
+        absJeemMed absHahMed absKhahMed absHahTwoDotsVerticalAboveMed absNyehMed absDyehMed absHahThreeDotsAboveMed absTchehMed		
+        absTchehDotAboveMed absHahTwoDotsAboveMed absHahThreeDotsUpwardBelowMed absJeemTwoDotsAboveMed 	
+    </class>
+
+    <class name='JeemHahMedHandwritten'>
+        absJeemMed.hand absHahMed.hand absKhahMed.hand absHahTwoDotsVerticalAboveMed.hand absNyehMed.hand absDyehMed.hand		
+        absHahThreeDotsAboveMed.hand absTchehMed.hand absTchehDotAboveMed.hand absHahTwoDotsAboveMed.hand		
+        absHahThreeDotsUpwardBelowMed.hand absJeemTwoDotsAboveMed.hand 	
+    </class>
+
+    <class name='Jeh'>
+        absJeh absJehFin 	
+    </class>
+
+    <class name='Jeh.dotHat'>
+        absZainHat absZainHatFin 	
+    </class>
+
+    <class name='LamFin'>
+        absLamFin absLamSmallVFin absLamDotAboveFin absLamThreeDotsAboveFin absLamThreeDotsBelowFin absLamBarFin absLamDoubleBarFin	 
+    </class>
+
+    <class name='LamIni'>
+        absLamIni absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni absLamBarIni absLamDoubleBarIni	 
+    </class>
+
+    <class name='LamIniBeforeAlef'>
+        absLamIni.preAlef absLamSmallVIni.preAlef absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef		
+        absLamThreeDotsBelowIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef 	
+    </class>
+
+    <class name='LamIso'>
+        absLam absLamSmallV absLamDotAbove absLamThreeDotsAbove absLamThreeDotsBelow absLamBar absLamDoubleBar 	
+    </class>
+
+    <class name='LamMed'>
+        absLamMed absLamSmallVMed absLamDotAboveMed absLamThreeDotsAboveMed absLamThreeDotsBelowMed absLamBarMed absLamDoubleBarMed	 
+    </class>
+
+    <class name='LamMedBeforeAlef'>
+        absLamMed.preAlef absLamSmallVMed.preAlef absLamDotAboveMed.preAlef absLamThreeDotsAboveMed.preAlef		
+        absLamThreeDotsBelowMed.preAlef absLamBarMed.preAlef absLamDoubleBarMed.preAlef 	
+    </class>
+
+    <class name='Lam'>
+        @LamFin @LamIniBeforeAlef @LamIso @LamMed @LamMedBeforeAlef 	
+    </class>
+
+    <class name='LoosenAlefA_'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaAbove.warsh absAlefWasla absAlefFatha		
+        absAlefFatha.warsh absLamSmallVIni absLamThreeDotsAboveIni 	
+    </class>
+
+    <class name='LoosenAlefB_'>
+        absAlefHamzaBelow absAlefHamzaBelow.warsh absAlefKasra absAlefKasra.warsh absRehBar absYehIni absFarsiYehIni		
+        absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni absYehThreeDotsBelowIni		
+        absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni absPehIni absBehThreeDotsHorizBelowIni		
+        absBehThreeDotsUpwardBelowIni absBehTwoDotsAboveThreeDotsUpwardBelowIni absBehDotAboveTwoDotsBelowIni		
+        absBehInvSmallVBelowIni absBehSmallVBelowIni absLamThreeDotsBelowIni absNoonThreeDotsAboveIni absNoonTwoDotsBelowIni 	
+    </class>
+
+    <class name='LowHamzaBase'>
+        absWaw absYeh absAe absWawFin absYehFin absAeFin absYehMed absYehIni 	
+    </class>
+
+    <class name='LowHamzaComposed'>
+        absWawHamzaAbove absYehHamzaAbove absHehYehAbove absWawHamzaAboveFin absYehHamzaAboveFin absHehYehAboveFin		
+        absYehHamzaAboveMed absYehHamzaAboveIni 	
+    </class>
+
+    <class name='Maddah'>
+        absAlefMaddaAbove absAlefMaddaAboveFin absMaddahAbove absAlefMaddaAboveFin.postLamIni absAlefMaddaAboveFin.postLamMed 	
+    </class>
+
+    <class name='Maddah.small'>
+        absAlefMaddaAbove.small absAlefMaddaAboveFin.small absMaddahAbove.small absAlefMaddaAboveFin.postLamIni.small		
+        absAlefMaddaAboveFin.postLamMed.small 	
+    </class>
+
+    <class name='MarkGroup1A'>
+        absShadda absHamzaAbove absNoonGhunnaMark 	
+    </class>
+
+    <class name='MarkGroup1B'>
+        absHamzaBelow 	
+    </class>
+
+    <class name='MarkGroup2A'>
+        absSuperscriptAlef absSuperscriptAlef.large 	
+    </class>
+
+    <class name='MarkGroup2B'>
+        absKasratan absKasratan.lowered absKasra absKasra.lowered absSubscriptAlef absVowelDotBelow absKasraDotBelow		
+        absLeftArrowheadBelow absRightArrowheadBelow absOpenKasratan absKasraMeem 	
+    </class>
+
+    <class name='Mark1Below_volt'>
+        @MarkGroup1B @MarkGroup2B 	
+    </class>
+
+    <class name='MarkGroup3A'>
+        absFathatan absDammatan absDammatan.sixNine absFatha absDamma absDamma.short absSukun absSukun.downOpen absSukun.leftOpen		
+        absUltaPesh absVowelSmallV absVowelInvSmallV absReversedDamma absFathaRing absFathaDotAbove absLeftArrowheadAbove		
+        absRightArrowheadAbove absDoubleRightArrowheadAbove absDoubleRightArrowheadAboveDot absRightArrowheadAboveDot absSmallDamma		
+        absShaddaFathatan absShaddaDammatan absShaddaDammatan.sixNine absShaddaKasratan absShaddaFatha absShaddaDamma		
+        absShaddaDamma.short absShaddaKasra absHamzaFatha absHamzaDamma absHamzaDamma.short absShaddaAlef absShortVowelMark		
+        absOpenFathatan absOpenDammatan absFathaMeem absDammaMeem 	
+    </class>
+
+    <class name='MarkGroup3B'>
+        absTone1DotBelow absTone2DotsBelow absToneLoopBelow absSmallLowSeen absEmptyCentreLowStop absSmallLowMeem 	
+    </class>
+
+    <class name='Mark2Below_volt'>
+        @MarkGroup3B 	
+    </class>
+
+    <class name='MarkGroup4A'>
+        absMaddahAbove absMaddahAbove.small absFathaTwoDots 	
+    </class>
+
+    <class name='Mark1Above_volt'>
+        @MarkGroup1A @MarkGroup2A @MarkGroup3A @MarkGroup4A 	
+    </class>
+
+    <class name='MarkGroup5A'>
+        absTone1DotAbove absTone2DotsAbove absToneLoopAbove absSmallHighSadLamAlefMaksura absSmallHighQafLamAlefMaksura		
+        absSmallHighMeemInitialForm absSmallHighLamAlef absSmallHighJeem absSmallHighThreeDots absSmallHighSeen		
+        absSmallHighRoundedZero absSmallHighUprightRectangularZero absSmallHighMeemIsolatedForm absSmallHighMadda absSmallHighYeh		
+        absSmallHighNoon absEmptyCentreHighStop absRoundedHighStopFilledCentre absSmallHighSadMark absSmallHighAinMark		
+        absSmallHighRehHahMark absSmallHighRehDadMark absNameMarker absSmallHighWaw 	
+    </class>
+
+    <class name='Mark2Above_volt'>
+        @MarkGroup5A 	
+    </class>
+
+    <class name='MarkSuperscriptAlefs'>
+        @MarkGroup2A 	
+    </class>
+
+    <class name='MarksAbove'>
+        @Mark1Above_volt @Mark2Above_volt 	
+    </class>
+
+    <class name='MarksBelow'>
+        @Mark1Below_volt @Mark2Below_volt 	
+    </class>
+
+    <class name='MarksAny'>
+        @MarksAbove @MarksBelow 	
+    </class>
+
+    <class name='Meem'>
+        absMeem absMeemDotAbove absMeemDotBelow absMeemThreeDotsAbove absMeemFin absMeemDotAboveFin absMeemDotBelowFin		
+        absMeemThreeDotsAboveFin 	
+    </class>
+
+    <class name='Meem.sindhi'>
+        absMeem.sindhi absMeemDotAbove.sindhi absMeemDotBelow.sindhi absMeemThreeDotsAbove.sindhi absMeemFin.sindhi		
+        absMeemDotAboveFin.sindhi absMeemDotBelowFin.sindhi absMeemThreeDotsAboveFin.sindhi 	
+    </class>
+
+    <class name='NoTightenRehA_'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaAbove.warsh absAlef absAlefWasla absAlefFatha		
+        absAlefFatha.warsh absYehHamzaAbove absYeh absYeh.noDots absFarsiYeh absFarsiYehInvertedV absFarsiYehTwoDotsAbove		
+        absFarsiYehThreeDotsAbove absYehSmallV absE absYehThreeDotsBelow absAlefMaksura absYehTwoDotsBelowHamzaAbove		
+        absYehTwoDotsBelowDotAbove absFeh absDotlessFeh absAfricanFeh absFehDotMovedBelow absFehDotBelow absVeh absFehTwoDotsBelow		
+        absFehDotBelowThreeDotsAbove absKaf absKafDotAbove absNg absKafTwoDotsAbove absKafThreeDotsBelow absLam absLamSmallV		
+        absLamDotAbove absLamThreeDotsAbove absLamBar absLamDoubleBar absYehHamzaAboveIni absFarsiYehInvertedVIni		
+        absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni absYehTwoDotsBelowHamzaAboveIni absTehIni		
+        absThehIni absTtehehIni absTehThreeDotsAboveDownwardsIni absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni		
+        absBehSmallVAboveIni absBehHamzaAboveIni absLamIni absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamBarIni		
+        absLamDoubleBarIni absNoonSmallVIni 	
+    </class>
+
+    <class name='NoTightenRehA_A'>
+        absYehIni absYehIni.noDots absFarsiYehIni absAlefMaksuraIni absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni		
+        absNoonIni absNoonDotBelowIni absNoonGhunnaIni absAfricanNoonIni absNoonTwoDotsBelowIni 	
+    </class>
+
+    <class name='NoTightenReh_B'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaAbove.warsh absAlef absAlefWasla absAlefFatha		
+        absAlefFatha.warsh absDal absThal absDalRing absDalDotBelow absDalDotBelowSmallTah absDahal absDul		
+        absDalThreeDotsAboveDownwards absDalHat absTah absZah absTahThreeDotsAbove absTahTwoDotsAbove absFehDotMovedBelow		
+        absFehDotBelow absFehTwoDotsBelow absFehDotBelowThreeDotsAbove absLam absLamSmallV absLamDotAbove absLamThreeDotsAbove		
+        absLamBar absLamDoubleBar absMeem.sindhi absMeemDotAbove.sindhi absMeemDotBelow.sindhi absMeemThreeDotsAbove.sindhi		
+        absHamza absYehHamzaAboveIni absYehIni absYehIni.noDots absFarsiYehIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni		
+        absFarsiYehThreeDotsAboveIni absYehSmallVIni absAlefMaksuraIni absYehTwoDotsBelowHamzaAboveIni		
+        absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehehIni absTehThreeDotsAboveDownwardsIni		
+        absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni absBehSmallVAboveIni absBehHamzaAboveIni		
+        absSeenDotBelowDotAboveIni absSheenDotBelowIni absTahIni absZahIni absTahThreeDotsAboveIni absTahTwoDotsAboveIni absFehIni		
+        absDotlessFehIni absAfricanFehIni absFehDotMovedBelowIni absFehDotBelowIni absVehIni absFehTwoDotsBelowIni		
+        absFehDotBelowThreeDotsAboveIni absQafNoDotsIni absAfricanQafIni absQafIni absQafDotAboveIni absQafThreeDotsAboveIni		
+        absQafDotBelowIni absLamIni absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamBarIni absLamDoubleBarIni		
+        absMeemIni absMeemDotAboveIni absMeemDotBelowIni absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni absNoonGhunnaIni		
+        absAfricanNoonIni absNoonTwoDotsBelowIni absNoonSmallVIni absLamIni.preAlef absLamSmallVIni.preAlef		
+        absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef 	
+    </class>
+
+    <class name='NoonGhunna'>
+        absNoonGhunna absNoonGhunnaFin absNoonGhunnaMed absNoonGhunnaIni 	
+    </class>
+
+    <class name='RehAll'>
+        absReh absZain absRehSmallV absRehDotBelow absRehSmallVBelow absRehTwoDotsAbove absJeh absRehTwoVertAbove absZainHat		
+        absRehHat absRehBar absRehFin absZainFin absRehSmallVFin absRehDotBelowFin absRehSmallVBelowFin absRehTwoDotsAboveFin		
+        absJehFin absRehTwoVertAboveFin absZainHatFin absRehHatFin absRehBarFin 	
+    </class>
+
+    <class name='RehKernGaf'>
+        absKeheh absGaf absKehehDotAbove absKehehThreeDotsAbove absKehehThreeDotsUpwardBelow absKehehTwoDotsAbove		
+        absKehehThreeDotsBelow absKafIni absKafDotAboveIni absNgIni absKafTwoDotsAboveIni absKafThreeDotsBelowIni absKehehIni		
+        absGafIni absKehehDotAboveIni absKehehThreeDotsAboveIni absKehehThreeDotsUpwardBelowIni absKehehTwoDotsAboveIni		
+        absKehehThreeDotsBelowIni absSwashKafIni 	
+    </class>
+
+    <class name='RehKernOther'>
+        absDal absThal absDalRing absDalDotBelow absDalDotBelowSmallTah absDahal absDul absDalThreeDotsAboveDownwards absDalHat		
+        absReh absZain absRehSmallV absRehDotBelow absRehSmallVBelow absRehTwoDotsAbove absJeh absRehTwoVertAbove absZainHat		
+        absRehHat absRehBar absTah absZah absTahThreeDotsAbove absTahTwoDotsAbove absLam absLamSmallV absLamDotAbove		
+        absLamThreeDotsAbove absLamBar absLamDoubleBar absMeem.sindhi absMeemDotAbove.sindhi absMeemDotBelow.sindhi		
+        absMeemThreeDotsAbove.sindhi absAe absTehMarbuta absHehYehAbove absYehHamzaAboveIni absYehIni absFarsiYehIni		
+        absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni absAlefMaksuraIni		
+        absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehehIni		
+        absTehThreeDotsAboveDownwardsIni absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni absBehSmallVAboveIni		
+        absBehHamzaAboveIni absTahIni absZahIni absTahThreeDotsAboveIni absTahTwoDotsAboveIni absFehIni absDotlessFehIni absVehIni		
+        absQafNoDotsIni absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absLamIni absLamSmallVIni absLamDotAboveIni		
+        absLamThreeDotsAboveIni absLamBarIni absLamDoubleBarIni absMeemIni absMeemDotAboveIni absMeemDotBelowIni		
+        absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni absNoonGhunnaIni absNoonTwoDotsBelowIni absNoonSmallVIni		
+        absHehDoachashmeeIni absLamIni.preAlef absLamSmallVIni.preAlef absLamDotAboveIni.preAlef absLamThreeDotsAboveIni.preAlef		
+        absLamBarIni.preAlef absLamDoubleBarIni.preAlef 	
+    </class>
+
+    <class name='RehKernOtherMA'>
+        absReh absZain absRehSmallV absRehDotBelow absRehSmallVBelow absRehTwoDotsAbove absJeh absRehTwoVertAbove absZainHat		
+        absRehHat absRehBar absHeh absAe absTehMarbuta absHehYehAbove absYehHamzaAboveIni absYehIni absYehIni.noDots absFarsiYehIni		
+        absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni absYehThreeDotsBelowIni		
+        absAlefMaksuraIni absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni		
+        absThehIni absTtehehIni absBeehIni absTehThreeDotsAboveDownwardsIni absPehIni absBehThreeDotsHorizBelowIni		
+        absBehThreeDotsAboveDotBelowIni absBehThreeDotsUpwardBelowIni absBehTwoDotsAboveThreeDotsUpwardBelowIni		
+        absBehDotAboveTwoDotsBelowIni absBehInvSmallVBelowIni absBehSmallVAboveIni absBehSmallVBelowIni absBehHamzaAboveIni		
+        absFehIni absDotlessFehIni absFehDotMovedBelowIni absFehDotBelowIni absVehIni absFehThreeDotsBelowIni absFehTwoDotsBelowIni		
+        absFehThreeDotsUpwardBelowIni absFehDotBelowThreeDotsAboveIni absQafNoDotsIni absQafIni absQafDotAboveIni		
+        absQafThreeDotsAboveIni absQafDotBelowIni absNoonIni absNoonDotBelowIni absNoonGhunnaIni absNoonThreeDotsAboveIni		
+        absNoonTwoDotsBelowIni absNoonSmallVIni 	
+    </class>
+
+    <class name='RehKernOtherMB'>
+        absYehBarree absBehNoDots absBeh absTeh absTheh absTteheh absBeeh absTehThreeDotsAboveDownwards absPeh		
+        absBehThreeDotsHorizBelow absBehThreeDotsAboveDotBelow absBehThreeDotsUpwardBelow absBehTwoDotsAboveThreeDotsUpwardBelow		
+        absBehDotAboveTwoDotsBelow absBehInvSmallVBelow absBehSmallVAbove absBehSmallVBelow absBehHamzaAbove absJeem absHah absKhah		
+        absHahTwoDotsVerticalAbove absNyeh absDyeh absHahThreeDotsAbove absTcheh absTchehDotAbove absHahTwoDotsAbove		
+        absHahThreeDotsUpwardBelow absJeemTwoDotsAbove absSeen absSheen absSeenTwoVertAbove absSeenInvertedV absSad absSad.half		
+        absDad absDad.half absSadTwoDotsBelow absSadTwoDotsBelow.half absSadThreeDotsAbove absSadThreeDotsAbove.half absDadDotBelow		
+        absDadDotBelow.half absSadThreeDotsBelow absSadThreeDotsBelow.half absFeh absDotlessFeh absVeh absQafNoDots absQaf		
+        absQafDotAbove absQafThreeDotsAbove absKaf absKafDotAbove absNg absKafTwoDotsAbove absKafThreeDotsBelow absSwashKaf absMeem		
+        absMeemDotAbove absMeemDotBelow absMeemThreeDotsAbove absNoon absNoonDotBelow absNoonGhunna absNoonThreeDotsAbove		
+        absNoonTwoDotsBelow absNoonSmallV absHeh absJeemIni absHahIni absKhahIni absHahTwoDotsVerticalAboveIni absNyehIni		
+        absDyehIni absHahThreeDotsAboveIni absTchehIni absTchehDotAboveIni absHahTwoDotsAboveIni absHahThreeDotsUpwardBelowIni		
+        absJeemTwoDotsAboveIni absSeenIni absSheenIni absSeenTwoVertAboveIni absSeenInvertedVIni absSadIni absDadIni		
+        absSadTwoDotsBelowIni absSadThreeDotsAboveIni absDadDotBelowIni absSadThreeDotsBelowIni absHehIni 	
+    </class>
+
+    <class name='RehKernTall'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaAbove.warsh absAlef absAlefWasla absLamIni		
+        absLamSmallVIni absLamDotAboveIni absLamThreeDotsAboveIni absLamThreeDotsBelowIni 	
+    </class>
+
+    <class name='RehTighten'>
+        absRehSmallV absRehTwoDotsAbove absJeh absZainHat absRehHat absRehSmallVFin absRehTwoDotsAboveFin absJehFin absZainHatFin		
+        absRehHatFin 	
+    </class>
+
+    <class name='RehTightenMore'>
+        absReh absZain absRehDotBelow absRehSmallVBelow absRehTwoVertAbove absRehBar absRehFin absZainFin absRehDotBelowFin		
+        absRehSmallVBelowFin absRehTwoVertAboveFin absRehBarFin 	
+    </class>
+
+    <class name='RightLinkFina'>
+        absAlefMaddaAboveFin absAlefMaddaAboveFin.small absAlefHamzaAboveFin absAlefHamzaBelowFin absAlefFin absAlefWaslaFin		
+        absWawHamzaAboveFin absWawFin absOeFin absYuFin absKirghizYuFin absWawTwoDotsAboveFin absVeFin absWawDotAboveFin absDalFin		
+        absThalFin absDalRingFin absDalDotBelowFin absDalDotBelowSmallTahFin absDahalFin absDdahalFin absDulFin		
+        absDalThreeDotsAboveDownwardsFin absDalHatFin absDalInvSmallVBelowFin absDalThreeDotsBelowFin absRehFin absZainFin		
+        absRehSmallVFin absRehDotBelowFin absRehSmallVBelowFin absRehTwoDotsAboveFin absJehFin absRehTwoVertAboveFin absZainHatFin		
+        absRehHatFin absRehBarFin absYehBarreeFin absAeFin absTehMarbutaFin absHehYehAboveFin 	
+    </class>
+
+    <class name='RightLinkIsol'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaBelow absAlef absAlefWasla absWawHamzaAbove absWaw		
+        absOe absYu absKirghizYu absWawTwoDotsAbove absVe absWawDotAbove absDal absThal absDalRing absDalDotBelow		
+        absDalDotBelowSmallTah absDahal absDdahal absDul absDalThreeDotsAboveDownwards absDalHat absDalInvSmallVBelow		
+        absDalThreeDotsBelow absReh absZain absRehSmallV absRehDotBelow absRehSmallVBelow absRehTwoDotsAbove absJeh		
+        absRehTwoVertAbove absZainHat absRehHat absRehBar absYehBarree absAe absTehMarbuta absHehYehAbove 	
+    </class>
+
+    <class name='SadDad'>
+        absSad absDad absSadTwoDotsBelow absSadThreeDotsAbove absDadDotBelow absSadThreeDotsBelow absSadFin absDadFin		
+        absSadTwoDotsBelowFin absSadThreeDotsAboveFin absDadDotBelowFin absSadThreeDotsBelowFin 	
+    </class>
+
+    <class name='SadDadHalf'>
+        absSad.half absDad.half absSadTwoDotsBelow.half absSadThreeDotsAbove.half absDadDotBelow.half absSadThreeDotsBelow.half		
+        absSadFin.half absDadFin.half absSadTwoDotsBelowFin.half absSadThreeDotsAboveFin.half absDadDotBelowFin.half		
+        absSadThreeDotsBelowFin.half 	
+    </class>
+
+    <class name='ShaddaKasraLigatures'>
+        absShaddaKasratan absShaddaKasra 	
+    </class>
+
+    <class name='ShaddaKasraMarks'>
+        absKasratan absKasra 	
+    </class>
+
+    <class name='ShaddaLigatures'>
+        absShaddaFathatan absShaddaDammatan absShaddaFatha absShaddaDamma absShaddaAlef 	
+    </class>
+
+    <class name='ShaddaMarks'>
+        absFathatan absDammatan absFatha absDamma absSuperscriptAlef 	
+    </class>
+
+    <class name='ShaddaLigatureParts'>
+        @ShaddaMarks absKasratan absKasra absShadda 	
+    </class>
+
+    <class name='TakesLargeDaggerAlef'>
+        absYeh absFarsiYeh absE absYehThreeDotsBelow absAlefMaksura absSeen absSheen absSeenDotBelowDotAbove absSeenThreeDotsBelow		
+        absSeenThreeDotsBelowThreeDotsAbove absSheenDotBelow absSeenTwoVertAbove absSeenInvertedV absSad absDad absSadTwoDotsBelow		
+        absSadThreeDotsAbove absDadDotBelow absSadThreeDotsBelow absYehFin absFarsiYehFin absEFin absYehThreeDotsBelowFin		
+        absAlefMaksuraFin absSeenFin absSheenFin absSeenDotBelowDotAboveFin absSeenThreeDotsBelowFin		
+        absSeenThreeDotsBelowThreeDotsAboveFin absSheenDotBelowFin absSeenTwoVertAboveFin absSeenInvertedVFin absSadFin absDadFin		
+        absSadTwoDotsBelowFin absSadThreeDotsAboveFin absDadDotBelowFin absSadThreeDotsBelowFin 	
+    </class>
+
+    <class name='TakesMediumDigits'>
+        absNumberSign absYearSign absFootnoteSign absPageSign absSamvatSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB		
+        absEndOfAyah.2 absEndOfAyah.alt.2 absEndOfAyah.altB.2 absNumberSign.2 absNumberSign.3 absYearSign.2 absYearSign.3		
+        absYearSign.4 absFootnoteSign.2 absPageSign.2 absPageSign.3 absPageSign.4 absSamvatSign.2 absSamvatSign.3 absSamvatSign.4 	
+    </class>
+
+    <class name='TakesSmallDigits'>
+        absEndOfAyah.3 absEndOfAyah.alt.3 absEndOfAyah.altB.3 	
+    </class>
+
+    <class name='Tall'>
+        @AlefIso @LamIni @LamIso absAlefFatha absAlefFatha.warsh absAlefKasra absAlefKasra.warsh 	
+    </class>
+
+    <class name='TightenReh_'>
+        absAlefMaddaAbove absAlefMaddaAbove.small absAlefHamzaAbove absAlefHamzaAbove.warsh absAlef absAlefWasla absAlefFatha		
+        absAlefFatha.warsh absDal absThal absDalRing absDalDotBelow absDalDotBelowSmallTah absDahal absDul		
+        absDalThreeDotsAboveDownwards absDalHat absYehBarree absBehNoDots absBeh absTeh absTheh absTteheh absBeeh		
+        absTehThreeDotsAboveDownwards absPeh absBehThreeDotsHorizBelow absBehThreeDotsAboveDotBelow absBehThreeDotsUpwardBelow		
+        absBehTwoDotsAboveThreeDotsUpwardBelow absBehDotAboveTwoDotsBelow absBehInvSmallVBelow absBehSmallVAbove absBehSmallVBelow		
+        absBehHamzaAbove absSeen absSheen absSeenTwoVertAbove absSeenInvertedV absSad absSad.half absDad absDad.half		
+        absSadTwoDotsBelow absSadTwoDotsBelow.half absSadThreeDotsAbove absSadThreeDotsAbove.half absDadDotBelow		
+        absDadDotBelow.half absSadThreeDotsBelow absSadThreeDotsBelow.half absTah absZah absTahThreeDotsAbove absTahTwoDotsAbove		
+        absFeh absDotlessFeh absAfricanFeh absFehDotMovedBelow absFehDotBelow absVeh absFehTwoDotsBelow		
+        absFehDotBelowThreeDotsAbove absQafNoDots absAfricanQaf absQaf absQafDotAbove absQafThreeDotsAbove absQafDotBelow absKaf		
+        absKafDotAbove absNg absKafTwoDotsAbove absKafThreeDotsBelow absSwashKaf absLam absLamSmallV absLamDotAbove		
+        absLamThreeDotsAbove absLamBar absLamDoubleBar absMeem absMeem.sindhi absMeemDotAbove absMeemDotAbove.sindhi		
+        absMeemDotBelow absMeemDotBelow.sindhi absMeemThreeDotsAbove absMeemThreeDotsAbove.sindhi absNoon absNoonDotBelow		
+        absNoonGhunna absAfricanNoon absNoonThreeDotsAbove absNoonTwoDotsBelow absNoonSmallV absHeh absAe absTehMarbuta		
+        absHehYehAbove absHamza absYehHamzaAboveIni absYehIni absYehIni.noDots absFarsiYehIni absFarsiYehInvertedVIni		
+        absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni absAlefMaksuraIni absYehTwoDotsBelowHamzaAboveIni		
+        absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehehIni absTehThreeDotsAboveDownwardsIni		
+        absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni absBehSmallVAboveIni absBehHamzaAboveIni absJeemIni absHahIni		
+        absKhahIni absHahTwoDotsVerticalAboveIni absNyehIni absDyehIni absHahThreeDotsAboveIni absTchehIni absTchehDotAboveIni		
+        absHahTwoDotsAboveIni absHahThreeDotsUpwardBelowIni absJeemTwoDotsAboveIni absSeenIni absSheenIni		
+        absSeenDotBelowDotAboveIni absSheenDotBelowIni absSeenTwoVertAboveIni absSeenInvertedVIni absSadIni absDadIni		
+        absSadTwoDotsBelowIni absSadThreeDotsAboveIni absDadDotBelowIni absSadThreeDotsBelowIni absTahIni absZahIni		
+        absTahThreeDotsAboveIni absTahTwoDotsAboveIni absFehIni absDotlessFehIni absAfricanFehIni absFehDotMovedBelowIni		
+        absFehDotBelowIni absVehIni absFehTwoDotsBelowIni absFehDotBelowThreeDotsAboveIni absQafNoDotsIni absAfricanQafIni		
+        absQafIni absQafDotAboveIni absQafThreeDotsAboveIni absQafDotBelowIni absSwashKafIni absLamIni absLamSmallVIni		
+        absLamDotAboveIni absLamThreeDotsAboveIni absLamBarIni absLamDoubleBarIni absMeemIni absMeemDotAboveIni absMeemDotBelowIni		
+        absMeemThreeDotsAboveIni absNoonIni absNoonDotBelowIni absNoonGhunnaIni absAfricanNoonIni absNoonTwoDotsBelowIni		
+        absNoonSmallVIni absHehDoachashmeeIni absHehIni absLamIni.preAlef absLamSmallVIni.preAlef absLamDotAboveIni.preAlef		
+        absLamThreeDotsAboveIni.preAlef absLamBarIni.preAlef absLamDoubleBarIni.preAlef 	
+    </class>
+
+    <class name='Tooth0Below'>
+        absYehHamzaAboveMed absYehMed.noDots absAlefMaksuraMed absBehNoDotsMed absTehMed absThehMed absTtehehMed		
+        absTehThreeDotsAboveDownwardsMed absBehSmallVAboveMed absNoonMed absNoonGhunnaMed absNoonSmallVMed absYehHamzaAboveIni		
+        absYehIni.noDots absAlefMaksuraIni absBehNoDotsIni absTehIni absThehIni absTtehehIni absTehThreeDotsAboveDownwardsIni		
+        absBehSmallVAboveIni absNoonIni absNoonGhunnaIni absNoonSmallVIni 	
+    </class>
+
+    <class name='Tooth1hBelow'>
+        absYehMed absFarsiYehMed absFarsiYehInvertedVMed absFarsiYehTwoDotsAboveMed absFarsiYehThreeDotsAboveMed absYehSmallVMed		
+        absYehTwoDotsBelowHamzaAboveMed absYehTwoDotsBelowDotAboveMed absBehMed absBehThreeDotsHorizBelowMed		
+        absBehThreeDotsAboveDotBelowMed absBehDotAboveTwoDotsBelowMed absBehHamzaAboveMed absNoonDotBelowMed absNoonTwoDotsBelowMed		
+        absYehIni absFarsiYehIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehSmallVIni		
+        absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni absBehIni absBehThreeDotsHorizBelowIni		
+        absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni absBehHamzaAboveIni absNoonDotBelowIni absNoonTwoDotsBelowIni	 
+    </class>
+
+    <class name='ToothIni'>
+        absYehHamzaAboveIni absYehIni absYehIni.noDots absFarsiYehIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni		
+        absFarsiYehThreeDotsAboveIni absYehSmallVIni absYehThreeDotsBelowIni absAlefMaksuraIni absYehTwoDotsBelowHamzaAboveIni		
+        absYehTwoDotsBelowDotAboveIni absBehNoDotsIni absBehIni absTehIni absThehIni absTtehehIni absBeehIni		
+        absTehThreeDotsAboveDownwardsIni absPehIni absBehThreeDotsHorizBelowIni absBehThreeDotsAboveDotBelowIni		
+        absBehThreeDotsUpwardBelowIni absBehTwoDotsAboveThreeDotsUpwardBelowIni absBehDotAboveTwoDotsBelowIni		
+        absBehInvSmallVBelowIni absBehSmallVAboveIni absBehSmallVBelowIni absBehHamzaAboveIni absNoonIni absNoonDotBelowIni		
+        absNoonGhunnaIni absNoonThreeDotsAboveIni absNoonTwoDotsBelowIni absNoonSmallVIni 	
+    </class>
+
+    <class name='NarrowIni'>
+        @ToothIni absAlefHamzaBelow absAlefHamzaBelow.warsh absAlefKasra absAlefKasra.warsh absReh absZain absRehSmallV		
+        absRehDotBelow absRehSmallVBelow absRehTwoDotsAbove absJeh absRehTwoVertAbove absZainHat absRehHat absRehBar		
+        absDotlessFehIni absFehDotMovedBelowIni absFehDotBelowIni absVehIni absFehThreeDotsBelowIni absFehTwoDotsBelowIni		
+        absFehThreeDotsUpwardBelowIni absFehDotBelowThreeDotsAboveIni absLamIni absLamSmallVIni absLamDotAboveIni		
+        absLamThreeDotsAboveIni absLamThreeDotsBelowIni absLamBarIni absLamDoubleBarIni 	
+    </class>
+
+    <class name='WarshLigatures'>
+        absAlefHamzaAbove absAlefHamzaAbove.warsh absAlefHamzaBelow absAlefHamzaBelow.warsh absAlefFatha absAlefFatha.warsh		
+        absAlefKasra absAlefKasra.warsh absAlefHamzaAboveFin absAlefHamzaAboveFin.warsh absAlefHamzaBelowFin		
+        absAlefHamzaBelowFin.warsh absLamHamzaIni.preAlef absLamHamzaIni.preAlef.warsh 	
+    </class>
+
+    <class name='WawAll'>
+        absWawHamzaAbove absWaw absOe absYu absKirghizYu absWawTwoDotsAbove absVe absWawDotAbove absWawHamzaAboveFin absWawFin		
+        absOeFin absYuFin absKirghizYuFin absWawTwoDotsAboveFin absVeFin absWawDotAboveFin 	
+    </class>
+
+    <class name='WawTighten'>
+        absWawHamzaAbove absOe absKirghizYu absWawTwoDotsAbove absVe absWawHamzaAboveFin absOeFin absKirghizYuFin		
+        absWawTwoDotsAboveFin absVeFin 	
+    </class>
+
+    <class name='WawTightenMore'>
+        absWaw absYu absWawDotAbove absWawFin absYuFin absWawDotAboveFin 	
+    </class>
+
+    <class name='Whitespace'>
+        space nobreakspace enQuad emQuad enSpace emSpace threePerEmSpace fourPerEmSpace sixPerEmSpace figureSpace punctuationSpace		
+        thinSpace hairSpace zerospace narrowNoBreakSpace 	
+    </class>
+
+    <class name='YehBarreeMarkLower'>
+        absYehMed absFarsiYehMed absFarsiYehInvertedVMed absFarsiYehTwoDotsAboveMed absFarsiYehThreeDotsAboveMed absYehSmallVMed		
+        absYehTwoDotsBelowHamzaAboveMed absYehTwoDotsBelowDotAboveMed absBehMed absBehThreeDotsHorizBelowMed		
+        absBehThreeDotsAboveDotBelowMed absBehDotAboveTwoDotsBelowMed absBehInvSmallVBelowMed absBehSmallVBelowMed		
+        absBehHamzaAboveMed absJeemMed absNyehMed absJeemTwoDotsAboveMed absSeenDotBelowDotAboveMed absSheenDotBelowMed		
+        absSadTwoDotsBelowMed absDadDotBelowMed absGhainDotBelowMed absAfricanFehMed absFehDotMovedBelowMed absFehDotBelowMed		
+        absFehTwoDotsBelowMed absFehDotBelowThreeDotsAboveMed absQafDotBelowMed absMeemDotBelowMed absNoonDotBelowMed		
+        absNoonTwoDotsBelowMed absYehIni absFarsiYehIni absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni		
+        absFarsiYehThreeDotsAboveIni absYehSmallVIni absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni absBehIni		
+        absBehThreeDotsHorizBelowIni absBehThreeDotsAboveDotBelowIni absBehDotAboveTwoDotsBelowIni absBehInvSmallVBelowIni		
+        absBehSmallVBelowIni absBehHamzaAboveIni absJeemIni absNyehIni absJeemTwoDotsAboveIni absSeenDotBelowDotAboveIni		
+        absSheenDotBelowIni absSadTwoDotsBelowIni absDadDotBelowIni absGhainDotBelowIni absAfricanFehIni absFehDotMovedBelowIni		
+        absFehDotBelowIni absFehTwoDotsBelowIni absFehDotBelowThreeDotsAboveIni absQafDotBelowIni absMeemDotBelowIni		
+        absNoonDotBelowIni absNoonTwoDotsBelowIni 	
+    </class>
+
+    <class name='ltrOther'>
+        circledash absAe absHamza absTatweel absHighHamza absComma absComma.downward absSemicolon absSemicolon.downward		
+        absQuestionMark absFivePointedStar absFullStop 	
+    </class>
+
+    <class name='BaseAny'>
+        @AlefFinAfterLamIni @AlefFinAfterLamMed @DualLinkFina @DualLinkInit @DualLinkIsol @DualLinkMedi @JeemHahMedHandwritten		
+        @LamIniBeforeAlef @LamMedBeforeAlef @Meem.sindhi @RightLinkFina @RightLinkIsol @SadDadHalf @WarshLigatures @Whitespace		
+        @ltrOther 	
+    </class>
+
+</classes>

@@ -1,6 +1,6 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 //
-//	File: Harmattan.gdl
+//	File: master.gdl
 //
 //	Main Graphite code file for Harmattan, including all rules.
 //
@@ -75,10 +75,7 @@ quranic marks, so multiples don't work right.
 #endif
 
 // Glyph definitions and rules for codepage 1252 composites
-#include "../Common/cp1252.gdl"
-
-// Glyph and class definitions -- generated automatically from VOLT source.
-#include "BuildTemp/HarmattanRmasterVoltDefs.gdh"
+#include "cp1252.gdl"
 
 // Hard-coded glyph and class definitions:
 #include "HarGlyphs.gdh"
