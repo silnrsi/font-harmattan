@@ -279,32 +279,32 @@ table (positioning)
 pass(1)
 
 	// Lam-alef components:
-	cHasExit=L {alefAttached = true}  cHasEntry=A {attach {to=@L; at=exit; with=entry}; insert = true}
+	cHasExit=L {alefAttached = true}  cHasEntry=A {attach {to=@L; at=exitS; with=entryS}; insert = true}
 		/ ^ _ {alefAttached == false}  MARKS  _;
 	
 	// Marks above
 
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
 	// rules assumes the alef AP should be used if there are no intervening marks.
-	cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alef; with=alef_};}  / _ ^ MARKSBELOW _ ;
+	cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alefS; with=alefM};}  / _ ^ MARKSBELOW _ ;
 	
 
 #if 0
 	// Special case: cozy up these diacritics a little, so they look more like the built-in ligatures:
 	absShadda=S
 		(absFatha absDamma absFathatan absDammatan)
-			{attach {to=@S; at=point(diaA.x,diaA.y-80m); with=diaA_}; }
+			{attach {to=@S; at=point(diaA.x,diaA.y-80m); with=diaAM}; }
 		/ _ ^ MARKSBELOW  _;
 
 	absHamzaAbove=H
 		(absFatha absDamma absFathatan absDammatan)
-			{attach {to=@H; at=point(diaA.x+40m,diaA.y-80m); with=diaA_}; }
+			{attach {to=@H; at=point(diaA.x+40m,diaA.y-80m); with=diaAM}; }
 		/ _ ^ MARKSBELOW  _;
 		
 #endif
 
 	// Normal case:
-	(cBaseAny cMark1Above_volt cMarkSuperscriptAlefs)=B  (cAnyMarksAbove){attach {to=@B; at=diaA; with=diaA_};}
+	(cBaseAny cMark1Above_volt cMarkSuperscriptAlefs)=B  (cAnyMarksAbove){attach {to=@B; at=diaAS; with=diaAM};}
 		/ _ ^ MARKSBELOW  _;
 
 
@@ -313,46 +313,46 @@ pass(1)
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
 	
 	
-	cSignDigit=D4 { attach {to=@D3; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign4=S;
 
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign3=S;
 
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign2=S;
 
-	cSignDigit { attach {to=@S;  at=digit; with=digit_ }; insert = true}
+	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true}
 	cSign1=S;
 	
 	// However, there is a bug in some integrations (e.g., Firefox) 
 	// such that the glyps are still in logical order:
 	
 	cSign4=S
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D4 { attach {to=@D3; at=digit; with=digit_ }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D4 { attach {to=@D3; at=digitS; with=digitM }; insert = true};
 	
 	cSign3=S
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true}
-	cSignDigit=D3 { attach {to=@D2; at=digit; with=digit_ }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true}
+	cSignDigit=D3 { attach {to=@D2; at=digitS; with=digitM }; insert = true};
 	
 
 	cSign2=S
-	cSignDigit=D1 { attach {to=@S;  at=digit; with=digit_ }; insert = true}
-	cSignDigit=D2 { attach {to=@D1; at=digit; with=digit_ }; insert = true};
+	cSignDigit=D1 { attach {to=@S;  at=digitS; with=digitM }; insert = true}
+	cSignDigit=D2 { attach {to=@D1; at=digitS; with=digitM }; insert = true};
 	
 
 	cSign1=S
-	cSignDigit { attach {to=@S;  at=digit; with=digit_ }; insert = true};
+	cSignDigit { attach {to=@S;  at=digitS; with=digitM }; insert = true};
 	
 	
 
@@ -363,11 +363,11 @@ pass(2)
 	// Marks below
 
 	// Special attachment points for lam-alef ligatures, to avoid collisions:
-	cAllAlefFinAfterLam=B cAnyMarksBelow {attach {to=@B; at=dia2B; with=dia2B_}}
+	cAllAlefFinAfterLam=B cAnyMarksBelow {attach {to=@B; at=dia2BS; with=dia2BM}}
 		/ (absLamThreeDotsBelowIni_preAlef absLamThreeDotsBelowMed_preAlef cAnyMarksBelow) MARKSABOVE _ ^ MARKSABOVE _ ;
 
 	// Normal case:
-	(cBaseAny cMark1Below_volt)=B  cAnyMarksBelow {attach {to=@B; at=diaB; with=diaB_}}
+	(cBaseAny cMark1Below_volt)=B  cAnyMarksBelow {attach {to=@B; at=diaBS; with=diaBM}}
 		/ _ ^ MARKSABOVE  _;
 
 endpass; // 2
@@ -427,223 +427,6 @@ pass(3)
 	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS absYehBarreeFin ;
 	
 endpass; // 3	
-
-#if 0   // SC's actual collision handling disabled for now
-	
-// Everything else is SC's collision handling 
-
-table(glyph)	// classes for collision handling
-// (now in VOLT) cNoonGhunna = (absNoonGhunna absNoonGhunnaIni absNoonGhunnaMed absNoonGhunnaFin);
-
-cRnoonLikeMed = (absRnoonMed absHighHamzaYehMed);	// Expanded to 5.1  // TODO: extend this group?
-cKafLikeIniMed = // Kaf-like in initial or medial  // TODO: SC included absQafThreeDotsAbove ?
-		(absGafIni absGafRingIni absGafThreeDotsAboveIni absGafTwoDotsBelowIni
-		absGuehIni absKafDotAboveIni absKafIni absKafRingIni
-		absKafThreeDotsBelowIni absKafTwoDotsAboveIni absKehehDotAboveIni
-		absKehehIni absKehehThreeDotsAboveIni absKehehThreeDotsBelowIni
-		absKehehThreeDotsUpwardBelowIni absKehehTwoDotsAboveIni
-		absNgIni absNgoehIni absGafInvertedStrokeIni    // absQafThreeDotsAboveIni (error from SC?)
-		absGafMed absGafRingMed absGafThreeDotsAboveMed absGafTwoDotsBelowMed
-		absGuehMed absKafDotAboveMed absKafMed absKafRingMed
-		absKafThreeDotsBelowMed absKafTwoDotsAboveMed absKehehDotAboveMed
-		absKehehMed absKehehThreeDotsAboveMed absKehehThreeDotsBelowMed
-		absKehehThreeDotsUpwardBelowMed absKehehTwoDotsAboveMed
-		absNgMed absNgoehMed absGafInvertedStrokeMed // absQafThreeDotsAboveMed  (error from SC?)
-		);
-
-cTooth0Below = // nothing below		// TODO: SC included absTehRingIni/Med -- what about absNoonRingIni/Med?
-									// I think these two should be in cTooth1hBelow, so I've put them there.
-		(absTehIni absThehIni absTtehIni absTtehehIni // absTehRingIni (error from SC?) 
-		absBehNoDotsIni absBehSmallVAboveIni
-		absTehThreeDotsAboveDownwardsIni absTehehIni 
-		absYehHamzaAboveIni absAlefMaksuraIni absYehIni_noDots absHighHamzaYehIni
-		absNoonIni absNoonRetroIni absNoonGhunnaIni absRnoonIni absNoonSmallVIni
-		absTehMed absThehMed absTtehMed absTtehehMed // absTehRingMed  (error from SC?) 
-		absBehNoDotsMed absBehSmallVAboveMed
-		absTehThreeDotsAboveDownwardsMed absTehehMed
-		absYehHamzaAboveMed absAlefMaksuraMed absYehMed_noDots absHighHamzaYehMed
-		absNoonMed absNoonRetroMed absNoonGhunnaMed absRnoonMed absNoonSmallVMed);
-
-// In the following two groups define "tooth" shapes with dots or something else below,
-// the number of dots below is based on vertical height requirements:
-
-cTooth1hBelow = // one dot high below
-		(absBehIni absBehThreeDotsAboveDotBelowIni absBehThreeDotsHorizBelowIni 
-		absBehDotAboveTwoDotsBelowIni absBehHamzaAboveIni
-		absFarsiYehInvertedVIni absFarsiYehTwoDotsAboveIni
-		absFarsiYehThreeDotsAboveIni absYehIni absFarsiYehIni absYehSmallVIni
-		absFarsiYehDigitTwoAboveIni absFarsiYehDigitThreeAboveIni
-		absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni
-		absYehBarreeDigitTwoAboveIni absYehBarreeDigitThreeAboveIni
-		absNoonDotBelowIni absNoonTwoDotsBelowIni absNoonRingIni absTehRingIni
-		absBehMed absBehThreeDotsAboveDotBelowMed absBehThreeDotsHorizBelowMed
-		absBehDotAboveTwoDotsBelowMed absBehHamzaAboveMed
-		absFarsiYehInvertedVMed absFarsiYehTwoDotsAboveMed 
-		absFarsiYehThreeDotsAboveMed absYehMed absFarsiYehMed absYehSmallVMed
-		absFarsiYehDigitTwoAboveMed absFarsiYehDigitThreeAboveMed
-		absYehTwoDotsBelowHamzaAboveMed absYehTwoDotsBelowDotAboveMed
-		absYehBarreeDigitTwoAboveMed absYehBarreeDigitThreeAboveMed
-		absNoonDotBelowMed absNoonTwoDotsBelowMed absNoonRingMed absTehRingMed); 
-		
-
-cTooth2hBelow = // multiple dot high below
-		(absPehIni absBehehIni absBeehIni 
-		absBehTwoDotsAboveThreeDotsUpwardBelowIni absBehThreeDotsUpwardBelowIni 
-		absBehInvSmallVBelowIni absBehSmallVBelowIni absKashmiriYehIni 
-		absEIni absYehThreeDotsBelowIni absFarsiYehDigitFourBelowIni
-		absNoonThreeDotsAboveIni  
-		absPehMed absBehehMed absBeehMed 
-		absBehTwoDotsAboveThreeDotsUpwardBelowMed absBehThreeDotsUpwardBelowMed
-		absBehInvSmallVBelowMed absBehSmallVBelowMed absKashmiriYehMed 
-		absEMed absYehThreeDotsBelowMed absFarsiYehDigitFourBelowMed ); 
-
-// In the following two groups define "tooth" shapes with dots or something else below,
-// the number of dots below is based on horizontal width requirements:
-
-cTooth1wBelow = // one dot wide below 		// Expanded to 5.1
-		(absBehIni absBeehIni absBehThreeDotsAboveDotBelowIni absBehHamzaAboveIni
-		absNoonDotBelowIni absEIni
-		absBehMed absBeehMed absBehThreeDotsAboveDotBelowMed absBehHamzaAboveMed
-		absNoonDotBelowMed absEMed);
-
-cTooth2wBelowIni = // multiple dots wide below, initial
-		(absYehBarreeDigitTwoAboveIni absYehBarreeDigitThreeAboveIni 
-		absTehRingIni absPehIni absBehehIni absBehThreeDotsHorizBelowIni 
-		absBehThreeDotsUpwardBelowIni absBehTwoDotsAboveThreeDotsUpwardBelowIni 
-		absBehDotAboveTwoDotsBelowIni absBehInvSmallVBelowIni 
-		absBehSmallVBelowIni absKashmiriYehIni absFarsiYehInvertedVIni 
-		absFarsiYehTwoDotsAboveIni absFarsiYehThreeDotsAboveIni absYehIni absFarsiYehIni 
-		absYehSmallVIni absYehThreeDotsBelowIni absFarsiYehDigitTwoAboveIni 
-		absFarsiYehDigitThreeAboveIni absFarsiYehDigitFourBelowIni
-		absYehTwoDotsBelowHamzaAboveIni absYehTwoDotsBelowDotAboveIni
-		absNoonThreeDotsAboveIni absNoonTwoDotsBelowIni	);
-		
-cTooth2wBelowMed = // multiple dots wide below, medial
-		(absYehBarreeDigitTwoAboveMed absYehBarreeDigitThreeAboveMed 
-		absTehRingMed absPehMed absBehehMed absBehThreeDotsHorizBelowMed 
-		absBehThreeDotsUpwardBelowMed absBehTwoDotsAboveThreeDotsUpwardBelowMed 
-		absBehDotAboveTwoDotsBelowMed absBehInvSmallVBelowMed 
-		absBehSmallVBelowMed absKashmiriYehMed absFarsiYehInvertedVMed 
-		absFarsiYehTwoDotsAboveMed absFarsiYehThreeDotsAboveMed absYehMed absFarsiYehMed 
-		absYehSmallVMed absYehThreeDotsBelowMed absFarsiYehDigitTwoAboveMed 
-		absFarsiYehDigitThreeAboveMed absFarsiYehDigitFourBelowMed
-		absYehTwoDotsBelowHamzaAboveMed absYehTwoDotsBelowDotAboveMed
-		absNoonThreeDotsAboveMed absNoonTwoDotsBelowMed	);
-
-
-cYehLikeFin = (					// TODO: Should this include absKashmiriYehFin ?
-		absFarsiYehInvertedVFin absFarsiYehTwoDotsAboveFin absFarsiYehThreeDotsAboveFin 
-		absYehFin absFarsiYehFin absYehSmallVFin 
-		absFarsiYehDigitTwoAboveFin absFarsiYehDigitThreeAboveFin
-		absYehHamzaAboveFin absAlefMaksuraFin absYehFin_noDots absHighHamzaYehFin
-		absEFin absYehThreeDotsBelowFin absFarsiYehDigitFourBelowFin
-		absYehTwoDotsBelowHamzaAboveFin absYehTwoDotsBelowDotAboveFin absYehTailFin);
-		
-cTchehLikeFin = (				// Expanded to 6.1 
-								// Now including AIN and YehBarree (and friends)
-		absTchehFin absHahFin absJeemFin absKhahFin absHahHamzaAboveFin
-		absHahTwoDotsVerticalAboveFin absNyehFin absDyehFin absHahThreeDotsAboveFin
-		absTchehehFin absTchehDotAboveFin 
-		absHahSmallTahTwoDotsFin absHahSmallTahBelowFin absHahSmallTahAboveFin 
-		absHahTwoDotsAboveFin absHahThreeDotsUpwardBelowFin absHahDigitFourBelowFin 
-		absJeemTwoDotsAboveFin
-		absAinFin absGhainFin absAinThreeDotsAboveFin absGhainDotBelowFin
-		absAinTwoDotsAboveFin absAinThreeDotsDownAboveFin absAinTwoDotsVertAboveFin
-		absYehBarreeFin absYehBarreeHamzaAboveFin absYehBarreeDigitTwoAboveFin
-		absYehBarreeDigitThreeAboveFin);
-		
-cKehehLikeFin = (
-		absKehehTwoDotsAboveFin absKehehThreeDotsBelowFin
-		absKehehFin absKafRingFin absGafFin absGafRingFin absNgoehFin
-		absGafTwoDotsBelowFin absGuehFin absGafThreeDotsAboveFin absKehehDotAboveFin
-		absKehehThreeDotsAboveFin absKehehThreeDotsUpwardBelowFin
-		absGafInvertedStrokeFin);
-		
-absAutoKashida {dbgAw = aw; dbgBbW = bb.width};
-		
-endtable; // glyph
-
-table(subs)
-
-if (debug == 0) 
-pass(6) // insert kashidas to handle collisions; however, the kashida we're inserting is
-	// 250m, wider than we really need, so below we kern out some of the extra space
-
-	// cKafLikeIniMed  _  >  @1 absAutoKashida:R / _ MARKS _ cRnoonLikeMed=R;
-	// cTooth2wBelowIni  _  >  @1 absAutoKashida:Y / _ MARKS _ (cTooth2wBelowMed cYehLikeFin)=Y;
-	// (absKehehIni absTchehIni absTchehMed absGafIni absNoonMed absAlef) _
-	// 	>  @1  absAutoKashida:R
-	// 	/ _  MARKS  _  absRrehFin=R ;
-	
-endpass; // 6
-endif;
-
-endtable; // sub
-
-if (debug == 0)
-pass(3)	// Collisions and adjustments
-
-	// Kashidas
-	
-	// kaf-rnoon
-	// cKafLikeIniMed  MARKS  absAutoKashida {kern.x = -30m}  cRnoonLikeMed {kern.x = -30m};
-		
-	// farsiYeh-yeh
-	// cTooth2wBelowIni MARKS absAutoKashida {kern.x = -30m} (cTooth2wBelowMed cYehLikeFin) {kern.x = -30m};
-	
-	// keheh-rreh
-	// (absKehehIni absTchehIni absTchehMed absGafIni absNoonMed absAlef) MARKS
-	//	absAutoKashida {kern.x = -40m} absRrehFin {kern.x = -40m };
-	
-	// Simple adjustments
-		
-	// alef-rreh
-	// absAlef MARKS absRreh {kern.x = 70m} ;
-
-	// alef-nameMarker
-	// (absAlef absAlefFin) MARKS (absHeh absHehGoal absHehGoalIni)
-	//	absNameMarker {shift.y = 220m}; // or: {shift.x = 250m};
-		
-	// noonGhunna-vowelInvSmallV
-	// cNoonGhunna (absNoonGhunnaMark absVowelInvSmallV) {shift.y = -75m}
-	//	/ (absKafIni absKafMed absKehehIni absKehehMed) _ _;
-	// cNoonGhunna (absNoonGhunnaMark absVowelInvSmallV) {shift.y = -150m};
-
-	// beh-kasra-tcheh -- kasra collides with tail of tcheh. 
-	// if (kasraTcheh == raise)
-		cTooth1hBelow absKasra {shift.x = -60m; shift.y = 125m} cTchehLikeFin / _ _ MARKS _;
-		cTooth1hBelow absKasratan {shift.x = -100m; shift.y = 30m} cTchehLikeFin / _ _ MARKS _;
-	// endif;
-	// if (kasraTcheh == lower)
-	// 	cTooth1hBelow absKasra {shift.x = -40m; shift.y = -200m} cTchehLikeFin / _ _ MARKS _;
-	// 	cTooth1hBelow absKasratan {shift.x = -60m; shift.y = -130m} cTchehLikeFin / _ _ MARKS _;
-	// endif;
-	cTooth2hBelow absKasra {shift.y = -50m} cTchehLikeFin / _ _ MARKS _;
-	cTooth2hBelow absKasratan {shift.x = -50m} cTchehLikeFin / _ _ MARKS _;
-	cTooth0Below absKasratan {shift.x = -80m} cTchehLikeFin / _ _ MARKS _;
-	
-	// alef-maddah-gaf
-	// absAlef absMaddahAbove {shift.x = -130m} absGaf {kern.x = 30m};
-	// absAlef absMaddahAbove {shift.x = -120m} absGafIni {kern.x = 70m};
-
-	// beh-rehBar
-	// cTooth1hBelow MARKS absRehBarFin {kern.x = 50m};
-	//cTooth2hBelow MARKS absRehBarFin {kern.x = 70m};
-
-	// beh-fatha-jehRetro
-	// (cTooth1hBelow cTooth2hBelow cTooth0Below) MARKS cMark2Above MARKS absRehSmallTahTwoDotsFin {kern.x = 65m};
-
-	// kehehDots-keheh
-	// (absKehehThreeDotsAboveIni absKehehThreeDotsAboveMed) MARKS cKehehLikeFin {kern.x = 70m};
-	
-	// was a test: 
-	// absBeh absKasra {shift.x = 200m};
-	// absBeeh absKasra {shift.x = -200m};
-	
-endpass;
-
-endif;
-#endif
 
 endtable; // pos
 
