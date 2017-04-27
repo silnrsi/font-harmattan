@@ -5,7 +5,7 @@ This file describes the Graphite source files included with the Harmattan
 font family. This information should be distributed along with the Harmattan
 fonts and any derivative works.
 
-These files are part of Harmattan font family (http://scripts.sil.org/Harmattan) 
+These files are part of Harmattan font family (http://software.sil.org/harmattan/) 
 and are Copyright (c) 2014-2015 SIL International (http://www.sil.org/),
 with Reserved Font Names "Harmattan" and "SIL".
 

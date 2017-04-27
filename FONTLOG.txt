@@ -123,7 +123,7 @@ E: fonts@sil.org
 W: http://scripts.sil.org/
 D: Graphite, OpenType, and TypeTuner code, and build support
 
-N: Becca Hirsbrunner
+N: Becca Spalinger
 E: fonts@sil.org
 W: http://scripts.sil.org/
 D: Lead Designer
@@ -141,4 +141,5 @@ The Harmattan project is maintained by SIL International.
 
 For more information please visit the Harmattan font page on 
 SIL International's Computers and Writing Systems website:
-http://scripts.sil.org/Harmattan
+http://software.sil.org/harmattan/
+

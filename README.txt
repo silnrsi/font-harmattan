@@ -25,7 +25,7 @@ See the FONTLOG for information on this and previous releases.
 For further information about this font, including Unicode ranges
 supported, Graphite and OpenType font features and how to use them, 
 and licensing, please see the documentation on the website 
-(http://scripts.sil.org/Harmattan) or in the documentation 
+(http://software.sil.org/harmattan/) or in the documentation 
 subfolder of this font package.
 
 TIPS
@@ -84,6 +84,6 @@ adequate level of support for Graphite or OpenType.
 CONTACT
 ========
 For more information please visit the Harmattan page on SIL International's
-Computers and Writing systems website: http://scripts.sil.org/Harmattan.
+Computers and Writing systems website: http://software.sil.org/harmattan/support.
 
 
