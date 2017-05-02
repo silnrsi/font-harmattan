@@ -58,6 +58,8 @@ used for building, testing and releasing.
 """
 DEBPKG = 'fonts-sil-harmattan'
 
+ftmlTest('tools/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
+
 # APs to omit:
 OMITAP = '-o "_above _below _center _ring _through above below center ring through U L"'
 
@@ -80,7 +82,11 @@ for style in ('-Regular', ):  # '-Bold'):
         woff=woff('web/' + APPNAME + style + '.woff', params='-v ' + VERSION + ' -m ../source/' + APPNAME + '-WOFF-metadata.xml'),
         typetuner='source/typetuner/feat_all.xml')
 
+AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
+
+for testname in AUTOGEN_TESTS:
+	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'Harmattan-Regular.ttf', 'Harmattan-Regular.xml', 'tools/absGlyphList/absGlyphList.txt']))
+
 def configure(ctx):
     ctx.find_program('ttfautohint')
-    ctx.env['MAKE_FEA'] = 'perl -I ../tools/perllib ../tools/bin/make_fea'
-    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib -S make_gdl'
+
