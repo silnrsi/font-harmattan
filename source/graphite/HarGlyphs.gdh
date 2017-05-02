@@ -41,10 +41,6 @@ table(glyph)
 cMirrorOpen  = (g_parenleft  g_less    g_bracketleft  g_braceleft  g_guilsinglleft  g_guillemotleft ); // g_radical);
 cMirrorClose = (g_parenright g_greater g_bracketright g_braceright g_guilsinglright g_guillemotright); // g_radical_rtl);
 
-// Make sure Unicode 5.0 Corrigendum #6 is applied:
-
-cNoMirror = (g_quotedblbase g_quoteleft g_quoteright g_quotedblleft g_quotedblright) {mirror.glyph = 0; mirror.isEncoded = 0};
-
 
 //------------------------------------------------------------------------------------------
 //
@@ -207,10 +203,6 @@ cMark3Above = (cMarkGroup4A);
 cMark4Above = (cMarkGroup5A);
 
 cMark4Below = (cMarkGroup3B);
-
-// For testing non-canonical ordering:
-r_comma = postscript("comma") { diaA_ = point(aw/2, bb.bottom) };
-cMark4Above += (r_comma);
 
 cMark1 = (cMark1Above cMark1Below);
 cMark2 = (cMark2Above cMark2Below);
