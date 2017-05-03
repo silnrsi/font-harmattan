@@ -58,7 +58,7 @@ used for building, testing and releasing.
 """
 DEBPKG = 'fonts-sil-harmattan'
 
-ftmlTest('tools/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
+ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
 OMITAP = '-o "_above _below _center _ring _through above below center ring through U L"'
