@@ -8,8 +8,9 @@
 	<string>UUID0</string>
 	<key>com.schriftgestaltung.glyphOrder</key>
 	<array>
+		<string>.notdef</string>
 		<string>.null</string>
-		<string>CR</string>
+		<string>nonmarkingreturn</string>
 		<string>space</string>
 		<string>tab</string>
 		<string>exclam</string>
@@ -1108,8 +1109,9 @@
 	<true/>
 	<key>public.glyphOrder</key>
 	<array>
+		<string>.notdef</string>
 		<string>.null</string>
-		<string>CR</string>
+		<string>nonmarkingreturn</string>
 		<string>space</string>
 		<string>tab</string>
 		<string>exclam</string>
@@ -2203,7 +2205,6 @@
 		<string>absAfricanFehIni</string>
 		<string>absAfricanQafIni</string>
 		<string>absAfricanNoonIni</string>
-		<string>.notdef</string>
 	</array>
 </dict>
 </plist>
