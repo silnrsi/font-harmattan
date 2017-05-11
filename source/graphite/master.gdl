@@ -108,7 +108,7 @@ endtable; // glyph
 
 table(substitution)
 
-pass(1)	// Encoding, decomposition, mirroring
+pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 
 	
 	// QUESTION: are there more things that need to be decomposed?
@@ -363,7 +363,7 @@ pass(2)
 	// Marks below
 
 	// Special attachment points for lam-alef ligatures, to avoid collisions:
-	cAllAlefFinAfterLam=B cAnyMarksBelow {attach {to=@B; at=dia2BS; with=dia2BM}}
+	cAllAlefFinAfterLam=B cAnyMarksBelow {attach {to=@B; at=dia2BS; with=diaBM}}
 		/ (absLamThreeDotsBelowIni_preAlef absLamThreeDotsBelowMed_preAlef cAnyMarksBelow) MARKSABOVE _ ^ MARKSABOVE _ ;
 
 	// Normal case:
