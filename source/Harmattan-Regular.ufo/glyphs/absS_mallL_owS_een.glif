@@ -5,10 +5,10 @@
   <outline>
     <component base="absSmallHighSeen" yOffset="-2000"/>
     <contour>
-      <point x="242" y="-346" type="move" name="_diaB"/>
+      <point x="238" y="-326" type="move" name="_dia2B"/>
     </contour>
     <contour>
-      <point x="238" y="-326" type="move" name="_dia2B"/>
+      <point x="242" y="-346" type="move" name="_diaB"/>
     </contour>
   </outline>
   <lib>

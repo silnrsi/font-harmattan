@@ -23,22 +23,22 @@
       <point x="296" y="493" type="curve"/>
     </contour>
     <contour>
-      <point x="227" y="-42" type="move" name="below"/>
+      <point x="171" y="512" type="move" name="above"/>
     </contour>
     <contour>
       <point x="147" y="501" type="move" name="alef"/>
     </contour>
     <contour>
+      <point x="227" y="-42" type="move" name="below"/>
+    </contour>
+    <contour>
       <point x="156" y="510" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="331" y="98" type="move" name="ring"/>
-    </contour>
-    <contour>
-      <point x="171" y="512" type="move" name="above"/>
-    </contour>
-    <contour>
       <point x="217" y="-74" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="331" y="98" type="move" name="ring"/>
     </contour>
   </outline>
   <lib>

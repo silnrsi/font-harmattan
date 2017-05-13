@@ -6,10 +6,10 @@
     <component base="absMeem"/>
     <component base="_dot3u" xOffset="498" yOffset="851"/>
     <contour>
-      <point x="418" y="1129" type="move" name="diaA"/>
+      <point x="210" y="874" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="210" y="874" type="move" name="alef"/>
+      <point x="418" y="1129" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="316" y="-585" type="move" name="diaB"/>

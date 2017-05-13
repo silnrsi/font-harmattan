@@ -6,10 +6,10 @@
     <component base="absLam"/>
     <component base="_bar2" xOffset="850" yOffset="644"/>
     <contour>
-      <point x="812" y="1171" type="move" name="diaA"/>
+      <point x="283" y="402" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="283" y="402" type="move" name="alef"/>
+      <point x="812" y="1171" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="460" y="-577" type="move" name="diaB"/>

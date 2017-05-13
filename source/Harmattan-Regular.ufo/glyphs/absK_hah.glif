@@ -6,10 +6,10 @@
     <component base="absHah"/>
     <component base="_dot1" xOffset="408" yOffset="826"/>
     <contour>
-      <point x="361" y="1010" type="move" name="diaA"/>
+      <point x="139" y="747" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="139" y="747" type="move" name="alef"/>
+      <point x="361" y="1010" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="502" y="-788" type="move" name="diaB"/>

@@ -5,13 +5,13 @@
   <outline>
     <component base="absHamzaAbove" xOffset="60" yOffset="-1955"/>
     <contour>
+      <point x="302" y="-226" type="move" name="_dia2B"/>
+    </contour>
+    <contour>
       <point x="327" y="-226" type="move" name="_diaB"/>
     </contour>
     <contour>
       <point x="335" y="-640" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="302" y="-226" type="move" name="_dia2B"/>
     </contour>
   </outline>
   <lib>

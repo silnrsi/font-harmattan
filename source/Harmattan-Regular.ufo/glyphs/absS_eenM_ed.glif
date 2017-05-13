@@ -65,16 +65,16 @@
       <point x="156" y="391" type="curve"/>
     </contour>
     <contour>
-      <point x="690" y="-89" type="move" name="below"/>
+      <point x="658" y="532" type="move" name="above"/>
     </contour>
     <contour>
       <point x="329" y="530" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="650" y="515" type="move" name="diaA"/>
+      <point x="690" y="-89" type="move" name="below"/>
     </contour>
     <contour>
-      <point x="658" y="532" type="move" name="above"/>
+      <point x="650" y="515" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="693" y="-123" type="move" name="diaB"/>

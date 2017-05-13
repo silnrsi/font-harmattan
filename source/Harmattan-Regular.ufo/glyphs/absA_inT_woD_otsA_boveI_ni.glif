@@ -5,10 +5,10 @@
     <component base="absAinIni"/>
     <component base="_dot2h" xOffset="390" yOffset="895"/>
     <contour>
-      <point x="357" y="1051" type="move" name="diaA"/>
+      <point x="187" y="993" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="187" y="993" type="move" name="alef"/>
+      <point x="357" y="1051" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="357" y="-89" type="move" name="diaB"/>

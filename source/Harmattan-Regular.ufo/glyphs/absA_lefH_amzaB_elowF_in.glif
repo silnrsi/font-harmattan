@@ -5,10 +5,10 @@
     <component base="absAlefFin" xOffset="8"/>
     <component base="absHamzaAbove" xOffset="14" yOffset="-1790"/>
     <contour>
-      <point x="197" y="1115" type="move" name="diaA"/>
+      <point x="-23" y="1065" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="-23" y="1065" type="move" name="alef"/>
+      <point x="197" y="1115" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="259" y="-481" type="move" name="diaB"/>

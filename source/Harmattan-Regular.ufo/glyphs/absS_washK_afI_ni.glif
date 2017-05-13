@@ -49,10 +49,10 @@
       <point x="-20" y="-10" type="line"/>
     </contour>
     <contour>
-      <point x="453" y="978" type="move" name="diaA"/>
+      <point x="197" y="683" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="197" y="683" type="move" name="alef"/>
+      <point x="453" y="978" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="879" y="-157" type="move" name="diaB"/>

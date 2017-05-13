@@ -6,10 +6,10 @@
     <component base="absNoonGhunna"/>
     <component base="_dot3u" xOffset="597" yOffset="667"/>
     <contour>
-      <point x="514" y="934" type="move" name="diaA"/>
+      <point x="382" y="815" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="382" y="815" type="move" name="alef"/>
+      <point x="514" y="934" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="580" y="-592" type="move" name="diaB"/>

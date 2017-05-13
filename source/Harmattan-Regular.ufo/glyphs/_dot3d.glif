@@ -33,13 +33,13 @@
       <point x="40" y="-373" type="line"/>
     </contour>
     <contour>
+      <point x="27" y="-420" type="move" name="_above"/>
+    </contour>
+    <contour>
       <point x="0" y="156" type="move" name="_below"/>
     </contour>
     <contour>
       <point x="0" y="-90" type="move" name="_center"/>
-    </contour>
-    <contour>
-      <point x="27" y="-420" type="move" name="_above"/>
     </contour>
   </outline>
   <lib>

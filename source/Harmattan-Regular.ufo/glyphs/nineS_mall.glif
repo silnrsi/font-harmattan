@@ -43,10 +43,10 @@
       <point x="98" y="477" type="curve"/>
     </contour>
     <contour>
-      <point x="494" y="0" type="move" name="digit"/>
+      <point x="0" y="0" type="move" name="_digit"/>
     </contour>
     <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
+      <point x="494" y="0" type="move" name="digit"/>
     </contour>
   </outline>
   <lib>

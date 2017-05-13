@@ -7,10 +7,10 @@
     <component base="absHamzaAbove" xOffset="716" yOffset="-578"/>
     <component base="_dot2h" xOffset="606" yOffset="-592"/>
     <contour>
-      <point x="933" y="1165" type="move" name="diaA"/>
+      <point x="489" y="323" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="489" y="323" type="move" name="alef"/>
+      <point x="933" y="1165" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="601" y="-775" type="move" name="diaB"/>

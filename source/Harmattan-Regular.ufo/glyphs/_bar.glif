@@ -17,10 +17,10 @@
       <point x="274" y="142" type="curve"/>
     </contour>
     <contour>
-      <point x="0" y="0" type="move" name="_through"/>
+      <point x="0" y="0" type="move" name="_center"/>
     </contour>
     <contour>
-      <point x="0" y="0" type="move" name="_center"/>
+      <point x="0" y="0" type="move" name="_through"/>
     </contour>
   </outline>
   <lib>

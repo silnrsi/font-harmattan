@@ -52,13 +52,13 @@
       <point x="-159" y="-18" type="curve"/>
     </contour>
     <contour>
+      <point x="12" y="-172" type="move" name="_above"/>
+    </contour>
+    <contour>
       <point x="13" y="339" type="move" name="_below"/>
     </contour>
     <contour>
       <point x="13" y="172" type="move" name="_center"/>
-    </contour>
-    <contour>
-      <point x="12" y="-172" type="move" name="_above"/>
     </contour>
   </outline>
   <lib>

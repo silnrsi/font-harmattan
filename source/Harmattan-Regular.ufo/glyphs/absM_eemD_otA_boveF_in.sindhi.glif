@@ -5,10 +5,10 @@
     <component base="absMeemFin.sindhi"/>
     <component base="_dot1" xOffset="747" yOffset="759"/>
     <contour>
-      <point x="696" y="927" type="move" name="diaA"/>
+      <point x="498" y="708" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="498" y="708" type="move" name="alef"/>
+      <point x="696" y="927" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="851" y="-106" type="move" name="diaB"/>

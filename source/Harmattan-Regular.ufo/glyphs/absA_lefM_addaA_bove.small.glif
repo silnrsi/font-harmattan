@@ -5,10 +5,10 @@
     <component base="absAlef"/>
     <component base="_madda.small" xOffset="100" yOffset="1187"/>
     <contour>
-      <point x="192" y="1369" type="move" name="diaA"/>
+      <point x="-58" y="1361" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="-58" y="1361" type="move" name="alef"/>
+      <point x="192" y="1369" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="193" y="-103" type="move" name="diaB"/>

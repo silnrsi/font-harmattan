@@ -61,16 +61,16 @@
       <point x="1063" y="196" type="curve"/>
     </contour>
     <contour>
-      <point x="703" y="-110" type="move" name="below"/>
+      <point x="754" y="631" type="move" name="above"/>
     </contour>
     <contour>
       <point x="66" y="276" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="711" y="621" type="move" name="diaA"/>
+      <point x="703" y="-110" type="move" name="below"/>
     </contour>
     <contour>
-      <point x="754" y="631" type="move" name="above"/>
+      <point x="711" y="621" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="238" y="-563" type="move" name="diaB"/>

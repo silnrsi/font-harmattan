@@ -38,28 +38,28 @@
       <point x="662" y="314" type="curve"/>
     </contour>
     <contour>
-      <point x="600" y="1082" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="697" y="1118" type="move" name="diaA"/>
-    </contour>
-    <contour>
       <point x="715" y="1129" type="move" name="above"/>
     </contour>
     <contour>
-      <point x="802" y="-130" type="move" name="dia2B"/>
-    </contour>
-    <contour>
-      <point x="789" y="-149" type="move" name="diaB"/>
+      <point x="600" y="1082" type="move" name="alef"/>
     </contour>
     <contour>
       <point x="744" y="-89" type="move" name="below"/>
     </contour>
     <contour>
-      <point x="556" y="123" type="move" name="exit"/>
+      <point x="802" y="-130" type="move" name="dia2B"/>
+    </contour>
+    <contour>
+      <point x="697" y="1118" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="789" y="-149" type="move" name="diaB"/>
     </contour>
     <contour>
       <point x="641" y="-12" type="move" name="entry"/>
+    </contour>
+    <contour>
+      <point x="556" y="123" type="move" name="exit"/>
     </contour>
     <contour>
       <point x="727" y="845" type="move" name="through"/>

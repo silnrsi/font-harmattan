@@ -5,10 +5,10 @@
     <component base="absLamMed"/>
     <component base="_smallV" xOffset="231" yOffset="1258"/>
     <contour>
-      <point x="218" y="1486" type="move" name="diaA"/>
+      <point x="22" y="1487" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="22" y="1487" type="move" name="alef"/>
+      <point x="218" y="1486" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="245" y="-129" type="move" name="diaB"/>

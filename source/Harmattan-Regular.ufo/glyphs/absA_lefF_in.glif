@@ -26,16 +26,16 @@
       <point x="134" y="245" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="249" y="-63" type="move" name="below"/>
+      <point x="185" y="1112" type="move" name="above"/>
     </contour>
     <contour>
       <point x="-31" y="968" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="189" y="1115" type="move" name="diaA"/>
+      <point x="249" y="-63" type="move" name="below"/>
     </contour>
     <contour>
-      <point x="185" y="1112" type="move" name="above"/>
+      <point x="189" y="1115" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="250" y="-76" type="move" name="diaB"/>

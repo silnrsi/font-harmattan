@@ -228,10 +228,10 @@
       <point x="376" y="293" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="720" y="1436" type="move" name="diaA"/>
+      <point x="373" y="1368" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="373" y="1368" type="move" name="alef"/>
+      <point x="720" y="1436" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="720" y="-88" type="move" name="diaB"/>

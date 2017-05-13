@@ -5,10 +5,10 @@
     <component base="absWawFin"/>
     <component base="absVowelInvSmallV" xOffset="188" yOffset="-352"/>
     <contour>
-      <point x="349" y="1007" type="move" name="diaA"/>
+      <point x="331" y="983" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="331" y="983" type="move" name="alef"/>
+      <point x="349" y="1007" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="370" y="-625" type="move" name="diaB"/>

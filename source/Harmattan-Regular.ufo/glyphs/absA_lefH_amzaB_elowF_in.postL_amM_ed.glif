@@ -5,19 +5,19 @@
     <component base="absAlefFin.postLamMed"/>
     <component base="absHamzaAbove" xOffset="99" yOffset="-1795"/>
     <contour>
-      <point x="369" y="-471" type="move" name="dia2B"/>
-    </contour>
-    <contour>
-      <point x="556" y="121" type="move" name="entry"/>
-    </contour>
-    <contour>
       <point x="101" y="960" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="369" y="-471" type="move" name="dia2B"/>
     </contour>
     <contour>
       <point x="206" y="1114" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="378" y="-463" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="556" y="121" type="move" name="entry"/>
     </contour>
   </outline>
   <lib>

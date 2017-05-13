@@ -4,10 +4,10 @@
   <outline>
     <component base="absVowelInvSmallV" xOffset="-186" yOffset="-1182"/>
     <contour>
-      <point x="2" y="133" type="move" name="_below"/>
+      <point x="0" y="-209" type="move" name="_above"/>
     </contour>
     <contour>
-      <point x="0" y="-209" type="move" name="_above"/>
+      <point x="2" y="133" type="move" name="_below"/>
     </contour>
   </outline>
   <lib>

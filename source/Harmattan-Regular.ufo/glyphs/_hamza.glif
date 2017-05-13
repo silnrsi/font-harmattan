@@ -4,10 +4,10 @@
   <outline>
     <component base="absHamzaAbove" xOffset="-263" yOffset="-1480"/>
     <contour>
-      <point x="0" y="250" type="move" name="_below"/>
+      <point x="0" y="-176" type="move" name="_above"/>
     </contour>
     <contour>
-      <point x="0" y="-176" type="move" name="_above"/>
+      <point x="0" y="250" type="move" name="_below"/>
     </contour>
   </outline>
   <lib>

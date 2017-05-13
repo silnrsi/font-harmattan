@@ -11,10 +11,10 @@
       <point x="498" y="1132" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="545" y="-12" type="move" name="exit"/>
+      <point x="568" y="-645" type="move" name="diaB"/>
     </contour>
     <contour>
-      <point x="568" y="-645" type="move" name="diaB"/>
+      <point x="545" y="-12" type="move" name="exit"/>
     </contour>
   </outline>
   <lib>

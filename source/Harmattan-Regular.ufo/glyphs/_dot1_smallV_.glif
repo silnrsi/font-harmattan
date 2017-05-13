@@ -33,10 +33,10 @@
       <point x="9" y="228" type="curve"/>
     </contour>
     <contour>
-      <point x="0" y="441" type="move" name="_below"/>
+      <point x="0" y="-204" type="move" name="_above"/>
     </contour>
     <contour>
-      <point x="0" y="-204" type="move" name="_above"/>
+      <point x="0" y="441" type="move" name="_below"/>
     </contour>
   </outline>
   <lib>

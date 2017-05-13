@@ -4,10 +4,10 @@
   <outline>
     <component base="absDotlessFehMed"/>
     <contour>
-      <point x="339" y="825" type="move" name="diaA"/>
+      <point x="324" y="814" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="324" y="814" type="move" name="alef"/>
+      <point x="339" y="825" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="367" y="-121" type="move" name="diaB"/>

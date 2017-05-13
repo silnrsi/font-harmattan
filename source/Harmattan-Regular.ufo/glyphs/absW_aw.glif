@@ -45,13 +45,16 @@
       <point x="433" y="525" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="61" y="-232" type="move" name="center"/>
+      <point x="374" y="621" type="move" name="above"/>
     </contour>
     <contour>
       <point x="334" y="554" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="374" y="621" type="move" name="above"/>
+      <point x="314" y="-636" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="61" y="-232" type="move" name="center"/>
     </contour>
     <contour>
       <point x="391" y="617" type="move" name="diaA"/>
@@ -61,9 +64,6 @@
     </contour>
     <contour>
       <point x="301" y="-211" type="move" name="ring"/>
-    </contour>
-    <contour>
-      <point x="314" y="-636" type="move" name="below"/>
     </contour>
     <contour>
       <point x="556" y="-176" type="move" name="through"/>

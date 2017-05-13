@@ -24,10 +24,10 @@
       <point x="45" y="-444" type="line"/>
     </contour>
     <contour>
-      <point x="0" y="-232" type="move" name="_diaB"/>
+      <point x="0" y="-150" type="move" name="_dia2B"/>
     </contour>
     <contour>
-      <point x="0" y="-150" type="move" name="_dia2B"/>
+      <point x="0" y="-232" type="move" name="_diaB"/>
     </contour>
   </outline>
   <lib>

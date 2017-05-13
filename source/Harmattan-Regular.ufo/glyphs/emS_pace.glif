@@ -4,10 +4,10 @@
   <unicode hex="2003"/>
   <outline>
     <contour>
-      <point x="987" y="649" type="move" name="diaA"/>
+      <point x="987" y="186" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="987" y="186" type="move" name="alef"/>
+      <point x="987" y="649" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="940" y="-700" type="move" name="diaB"/>
