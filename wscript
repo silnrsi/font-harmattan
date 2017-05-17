@@ -61,7 +61,7 @@ DEBPKG = 'fonts-sil-harmattan'
 ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
-OMITAP = '-o "_above _below _center _ring _through above below center ring through U L"'
+OMITAP = '-o "_above _below _center _ring _through above below center ring through U L" --cursive "exit=entry" --cursive "_digit=digit"'
 
 for style in ('-Regular', ):  # '-Bold'):
     font(target=APPNAME + style + '.ttf',
