@@ -74,6 +74,7 @@ for style in ('-Regular', ):  # '-Bold'):
             make_params = OMITAP + ' --package "../tools/perllib/gdl_arab.pm"'),
         opentype = fea(APPNAME + style + '.fea', 
             master = 'source/opentype/master-simple.fea',
+            preinclude = 'source/opentype/preinclude.fea',
             make_params = OMITAP + ' -z 16'),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),

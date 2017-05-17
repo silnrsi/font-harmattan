@@ -1,27 +1,6 @@
 
 
 #**********************************
-#  Glyphs
-#**********************************
-
-table GDEF {
-GlyphClassDef
-    @GDEF_Bases, # base glyphs
-    ,     # no ligature glyphs
-    @GDEF_Attaches, # mark glyphs
-    ;     # no component glyphs
- } GDEF;
-
-
-#**********************************
-#  Language Systems
-#**********************************
-
-languagesystem arab dflt ;
-languagesystem latn dflt ;
-
-
-#**********************************
 #  Lookups
 #**********************************
 
