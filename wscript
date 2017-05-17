@@ -73,7 +73,7 @@ for style in ('-Regular', ):  # '-Bold'):
             master = 'source/graphite/master.gdl',
             make_params = OMITAP + ' --package "../tools/perllib/gdl_arab.pm"'),
         opentype = fea(APPNAME + style + '.fea', 
-            master = 'source/opentype/master.fea',
+            master = 'source/opentype/master-simple.fea',
             make_params = OMITAP + ' -z 16'),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
@@ -90,4 +90,5 @@ for testname in AUTOGEN_TESTS:
 def configure(ctx):
     ctx.find_program('ttfautohint')
 #    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib -S make_gdl'
+#    ctx.env['MAKE_FEA'] = 'perl -I ../tools/perllib -S make_fea'
 
