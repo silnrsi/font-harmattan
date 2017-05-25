@@ -286,6 +286,14 @@
     <string>absHighHamzaAlefFin</string>
     <string>absHighHamzaAlefFin.postLamIni</string>
     <string>absHighHamzaAlefFin.postLamMed</string>
+    <string>absAlefDigitTwoAbove</string>
+    <string>absAlefDigitTwoAboveFin</string>
+    <string>absAlefDigitTwoAboveFin.postLamIni</string>
+    <string>absAlefDigitTwoAboveFin.postLamMed</string>
+    <string>absAlefDigitThreeAbove</string>
+    <string>absAlefDigitThreeAboveFin</string>
+    <string>absAlefDigitThreeAboveFin.postLamIni</string>
+    <string>absAlefDigitThreeAboveFin.postLamMed</string>
     <string>absAlefFatha</string>
     <string>absAlefFatha.warsh</string>
     <string>absAlefKasra</string>
@@ -471,6 +479,10 @@
     <string>absHahSmallTahTwoDotsFin</string>
     <string>absHahSmallTahTwoDotsMed</string>
     <string>absHahSmallTahTwoDotsIni</string>
+    <string>absHahSmallTahAbove</string>
+    <string>absHahSmallTahAboveFin</string>
+    <string>absHahSmallTahAboveMed</string>
+    <string>absHahSmallTahAboveIni</string>
     <string>absHahDigitFourBelow</string>
     <string>absHahDigitFourBelowFin</string>
     <string>absHahDigitFourBelowMed</string>
@@ -531,15 +543,6 @@
     <string>absZainFin</string>
     <string>absZainHat</string>
     <string>absZainHatFin</string>
-    <string>absAinThreeDotsBelow</string>
-    <string>absAinThreeDotsBelowFin</string>
-    <string>absAinThreeDotsBelowMed</string>
-    <string>absAinThreeDotsBelowIni</string>
-    <string>absKafDotBelow</string>
-    <string>absKafDotBelowFin</string>
-    <string>absKafDotBelowMed</string>
-    <string>absKafDotBelowIni</string>
-    <string>absTurnedDammaBelow</string>
     <string>absRreh</string>
     <string>absRrehFin</string>
     <string>absRehSmallV</string>
@@ -598,6 +601,26 @@
     <string>absSeenThreeDotsBelowThreeDotsAboveFin</string>
     <string>absSeenThreeDotsBelowThreeDotsAboveMed</string>
     <string>absSeenThreeDotsBelowThreeDotsAboveIni</string>
+    <string>absSeenFourDotsAbove</string>
+    <string>absSeenFourDotsAboveFin</string>
+    <string>absSeenFourDotsAboveMed</string>
+    <string>absSeenFourDotsAboveIni</string>
+    <string>absSeenTwoVertAbove</string>
+    <string>absSeenTwoVertAboveFin</string>
+    <string>absSeenTwoVertAboveMed</string>
+    <string>absSeenTwoVertAboveIni</string>
+    <string>absSeenSmallTahTwoDots</string>
+    <string>absSeenSmallTahTwoDotsFin</string>
+    <string>absSeenSmallTahTwoDotsMed</string>
+    <string>absSeenSmallTahTwoDotsIni</string>
+    <string>absSeenDigitFourAbove</string>
+    <string>absSeenDigitFourAboveFin</string>
+    <string>absSeenDigitFourAboveMed</string>
+    <string>absSeenDigitFourAboveIni</string>
+    <string>absSeenInvertedV</string>
+    <string>absSeenInvertedVFin</string>
+    <string>absSeenInvertedVMed</string>
+    <string>absSeenInvertedVIni</string>
     <string>absSad</string>
     <string>absSadFin</string>
     <string>absSadMed</string>
@@ -658,6 +681,22 @@
     <string>absAinThreeDotsAboveFin</string>
     <string>absAinThreeDotsAboveMed</string>
     <string>absAinThreeDotsAboveIni</string>
+    <string>absAinTwoDotsAbove</string>
+    <string>absAinTwoDotsAboveFin</string>
+    <string>absAinTwoDotsAboveMed</string>
+    <string>absAinTwoDotsAboveIni</string>
+    <string>absAinThreeDotsDownAbove</string>
+    <string>absAinThreeDotsDownAboveFin</string>
+    <string>absAinThreeDotsDownAboveMed</string>
+    <string>absAinThreeDotsDownAboveIni</string>
+    <string>absAinTwoDotsVertAbove</string>
+    <string>absAinTwoDotsVertAboveFin</string>
+    <string>absAinTwoDotsVertAboveMed</string>
+    <string>absAinTwoDotsVertAboveIni</string>
+    <string>absAinThreeDotsBelow</string>
+    <string>absAinThreeDotsBelowFin</string>
+    <string>absAinThreeDotsBelowMed</string>
+    <string>absAinThreeDotsBelowIni</string>
     <string>absGhain</string>
     <string>absGhainFin</string>
     <string>absGhainMed</string>
@@ -690,14 +729,26 @@
     <string>absFehThreeDotsBelowFin</string>
     <string>absFehThreeDotsBelowMed</string>
     <string>absFehThreeDotsBelowIni</string>
-    <string>absFehDotBelowThreeDotsAbove</string>
-    <string>absFehDotBelowThreeDotsAboveFin</string>
-    <string>absFehDotBelowThreeDotsAboveMed</string>
-    <string>absFehDotBelowThreeDotsAboveIni</string>
     <string>absPeheh</string>
     <string>absPehehFin</string>
     <string>absPehehMed</string>
     <string>absPehehIni</string>
+    <string>absFehTwoDotsBelow</string>
+    <string>absFehTwoDotsBelowFin</string>
+    <string>absFehTwoDotsBelowMed</string>
+    <string>absFehTwoDotsBelowIni</string>
+    <string>absFehThreeDotsUpBelow</string>
+    <string>absFehThreeDotsUpwardBelow</string>
+    <string>absFehThreeDotsUpBelowFin</string>
+    <string>absFehThreeDotsUpwardBelowFin</string>
+    <string>absFehThreeDotsUpBelowMed</string>
+    <string>absFehThreeDotsUpwardBelowMed</string>
+    <string>absFehThreeDotsUpBelowIni</string>
+    <string>absFehThreeDotsUpwardBelowIni</string>
+    <string>absFehDotBelowThreeDotsAbove</string>
+    <string>absFehDotBelowThreeDotsAboveFin</string>
+    <string>absFehDotBelowThreeDotsAboveMed</string>
+    <string>absFehDotBelowThreeDotsAboveIni</string>
     <string>absAfricanFeh</string>
     <string>absAfricanFehFin</string>
     <string>absAfricanFehMed</string>
@@ -730,6 +781,10 @@
     <string>absKafFin</string>
     <string>absKafMed</string>
     <string>absKafIni</string>
+    <string>absKafDotBelow</string>
+    <string>absKafDotBelowFin</string>
+    <string>absKafDotBelowMed</string>
+    <string>absKafDotBelowIni</string>
     <string>absKeheh</string>
     <string>absKehehFin</string>
     <string>absKehehMed</string>
@@ -840,18 +895,38 @@
     <string>absLamThreeDotsBelowIni</string>
     <string>absLamThreeDotsBelowMed.preAlef</string>
     <string>absLamThreeDotsBelowIni.preAlef</string>
+    <string>absLamBar</string>
+    <string>absLamBarFin</string>
+    <string>absLamBarMed</string>
+    <string>absLamBarIni</string>
+    <string>absLamBarMed.preAlef</string>
+    <string>absLamBarIni.preAlef</string>
     <string>absLamDoubleBar</string>
     <string>absLamDoubleBarFin</string>
     <string>absLamDoubleBarMed</string>
     <string>absLamDoubleBarIni</string>
     <string>absLamDoubleBarMed.preAlef</string>
     <string>absLamDoubleBarIni.preAlef</string>
+    <string>absLamHamzaIni.preAlef</string>
+    <string>absLamHamzaIni.preAlef.warsh</string>
     <string>absMeem</string>
     <string>absMeemFin</string>
     <string>absMeemMed</string>
     <string>absMeemIni</string>
     <string>absMeem.sindhi</string>
     <string>absMeemFin.sindhi</string>
+    <string>absMeemDotAbove</string>
+    <string>absMeemDotAboveFin</string>
+    <string>absMeemDotAboveMed</string>
+    <string>absMeemDotAboveIni</string>
+    <string>absMeemDotAbove.sindhi</string>
+    <string>absMeemDotAboveFin.sindhi</string>
+    <string>absMeemDotBelow</string>
+    <string>absMeemDotBelowFin</string>
+    <string>absMeemDotBelowMed</string>
+    <string>absMeemDotBelowIni</string>
+    <string>absMeemDotBelow.sindhi</string>
+    <string>absMeemDotBelowFin.sindhi</string>
     <string>absMeemThreeDotsAbove</string>
     <string>absMeemThreeDotsAboveFin</string>
     <string>absMeemThreeDotsAboveMed</string>
@@ -882,6 +957,18 @@
     <string>absNoonThreeDotsAboveFin</string>
     <string>absNoonThreeDotsAboveMed</string>
     <string>absNoonThreeDotsAboveIni</string>
+    <string>absNoonTwoDotsBelow</string>
+    <string>absNoonTwoDotsBelowFin</string>
+    <string>absNoonTwoDotsBelowMed</string>
+    <string>absNoonTwoDotsBelowIni</string>
+    <string>absNoonRetro</string>
+    <string>absNoonRetroFin</string>
+    <string>absNoonRetroMed</string>
+    <string>absNoonRetroIni</string>
+    <string>absNoonSmallV</string>
+    <string>absNoonSmallVFin</string>
+    <string>absNoonSmallVMed</string>
+    <string>absNoonSmallVIni</string>
     <string>absAfricanNoon</string>
     <string>absAfricanNoonFin</string>
     <string>absAfricanNoonMed</string>
@@ -919,8 +1006,20 @@
     <string>absTehMarbutaFin</string>
     <string>absTehMarbutaGoal</string>
     <string>absTehMarbutaGoalFin</string>
+    <string>absAe</string>
+    <string>absAeFin</string>
     <string>absWaw</string>
     <string>absWawFin</string>
+    <string>absHighHamzaWaw</string>
+    <string>absHighHamzaWawFin</string>
+    <string>absUHamzaAbove</string>
+    <string>absUHamzaAboveFin</string>
+    <string>absUHamzaAbove.filled</string>
+    <string>absUHamzaAboveFin.filled</string>
+    <string>absU</string>
+    <string>absUFin</string>
+    <string>absU.filled</string>
+    <string>absUFin.filled</string>
     <string>absWawRing</string>
     <string>absWawRingFin</string>
     <string>absWawTwoDotsAbove</string>
@@ -941,10 +1040,6 @@
     <string>absKirghizOeFin</string>
     <string>absOe</string>
     <string>absOeFin</string>
-    <string>absU</string>
-    <string>absUFin</string>
-    <string>absU.filled</string>
-    <string>absUFin.filled</string>
     <string>absYu</string>
     <string>absYuFin</string>
     <string>absKirghizYu</string>
@@ -956,14 +1051,6 @@
     <string>absAlefMaksuraMed</string>
     <string>absAlefMaksuraIni</string>
     <string>absLowAlef</string>
-    <string>absAlefDigitTwoAbove</string>
-    <string>absAlefDigitTwoAboveFin</string>
-    <string>absAlefDigitTwoAboveFin.postLamIni</string>
-    <string>absAlefDigitTwoAboveFin.postLamMed</string>
-    <string>absAlefDigitThreeAbove</string>
-    <string>absAlefDigitThreeAboveFin</string>
-    <string>absAlefDigitThreeAboveFin.postLamIni</string>
-    <string>absAlefDigitThreeAboveFin.postLamMed</string>
     <string>absYeh</string>
     <string>absYehFin</string>
     <string>absYehMed</string>
@@ -1048,98 +1135,10 @@
     <string>absYehBarreeDigitThreeAboveIni</string>
     <string>absRohingyaYeh</string>
     <string>absRohingyaYehFin</string>
-    <string>absHighHamzaWaw</string>
-    <string>absHighHamzaWawFin</string>
-    <string>absUHamzaAbove</string>
-    <string>absUHamzaAboveFin</string>
-    <string>absUHamzaAbove.filled</string>
-    <string>absUHamzaAboveFin.filled</string>
     <string>absHighHamzaYeh</string>
     <string>absHighHamzaYehFin</string>
     <string>absHighHamzaYehMed</string>
     <string>absHighHamzaYehIni</string>
-    <string>absAe</string>
-    <string>absAeFin</string>
-    <string>absSmallWaw</string>
-    <string>absSmallYeh</string>
-    <string>absSeenFourDotsAbove</string>
-    <string>absSeenFourDotsAboveFin</string>
-    <string>absSeenFourDotsAboveMed</string>
-    <string>absSeenFourDotsAboveIni</string>
-    <string>absAinTwoDotsAbove</string>
-    <string>absAinTwoDotsAboveFin</string>
-    <string>absAinTwoDotsAboveMed</string>
-    <string>absAinTwoDotsAboveIni</string>
-    <string>absAinThreeDotsDownAbove</string>
-    <string>absAinThreeDotsDownAboveFin</string>
-    <string>absAinThreeDotsDownAboveMed</string>
-    <string>absAinThreeDotsDownAboveIni</string>
-    <string>absAinTwoDotsVertAbove</string>
-    <string>absAinTwoDotsVertAboveFin</string>
-    <string>absAinTwoDotsVertAboveMed</string>
-    <string>absAinTwoDotsVertAboveIni</string>
-    <string>absFehTwoDotsBelow</string>
-    <string>absFehTwoDotsBelowFin</string>
-    <string>absFehTwoDotsBelowMed</string>
-    <string>absFehTwoDotsBelowIni</string>
-    <string>absFehThreeDotsUpBelow</string>
-    <string>absFehThreeDotsUpwardBelow</string>
-    <string>absFehThreeDotsUpBelowFin</string>
-    <string>absFehThreeDotsUpwardBelowFin</string>
-    <string>absFehThreeDotsUpBelowMed</string>
-    <string>absFehThreeDotsUpwardBelowMed</string>
-    <string>absFehThreeDotsUpBelowIni</string>
-    <string>absFehThreeDotsUpwardBelowIni</string>
-    <string>absMeemDotAbove</string>
-    <string>absMeemDotAboveFin</string>
-    <string>absMeemDotAboveMed</string>
-    <string>absMeemDotAboveIni</string>
-    <string>absMeemDotAbove.sindhi</string>
-    <string>absMeemDotAboveFin.sindhi</string>
-    <string>absMeemDotBelow</string>
-    <string>absMeemDotBelowFin</string>
-    <string>absMeemDotBelowMed</string>
-    <string>absMeemDotBelowIni</string>
-    <string>absMeemDotBelow.sindhi</string>
-    <string>absMeemDotBelowFin.sindhi</string>
-    <string>absNoonTwoDotsBelow</string>
-    <string>absNoonTwoDotsBelowFin</string>
-    <string>absNoonTwoDotsBelowMed</string>
-    <string>absNoonTwoDotsBelowIni</string>
-    <string>absNoonRetro</string>
-    <string>absNoonRetroFin</string>
-    <string>absNoonRetroMed</string>
-    <string>absNoonRetroIni</string>
-    <string>absNoonSmallV</string>
-    <string>absNoonSmallVFin</string>
-    <string>absNoonSmallVMed</string>
-    <string>absNoonSmallVIni</string>
-    <string>absLamBar</string>
-    <string>absLamBarFin</string>
-    <string>absLamBarMed</string>
-    <string>absLamBarIni</string>
-    <string>absLamBarMed.preAlef</string>
-    <string>absLamBarIni.preAlef</string>
-    <string>absSeenTwoVertAbove</string>
-    <string>absSeenTwoVertAboveFin</string>
-    <string>absSeenTwoVertAboveMed</string>
-    <string>absSeenTwoVertAboveIni</string>
-    <string>absSeenSmallTahTwoDots</string>
-    <string>absSeenSmallTahTwoDotsFin</string>
-    <string>absSeenSmallTahTwoDotsMed</string>
-    <string>absSeenSmallTahTwoDotsIni</string>
-    <string>absHahSmallTahAbove</string>
-    <string>absHahSmallTahAboveFin</string>
-    <string>absHahSmallTahAboveMed</string>
-    <string>absHahSmallTahAboveIni</string>
-    <string>absSeenDigitFourAbove</string>
-    <string>absSeenDigitFourAboveFin</string>
-    <string>absSeenDigitFourAboveMed</string>
-    <string>absSeenDigitFourAboveIni</string>
-    <string>absSeenInvertedV</string>
-    <string>absSeenInvertedVFin</string>
-    <string>absSeenInvertedVMed</string>
-    <string>absSeenInvertedVIni</string>
     <string>absLigatureAllah</string>
     <string>absTatweel</string>
     <string>absAutoKashida</string>
@@ -1199,6 +1198,8 @@
     <string>absSmallHighDotlessHeadOfKhah</string>
     <string>absSmallLowSeen</string>
     <string>absSmallHighMadda</string>
+    <string>absSmallWaw</string>
+    <string>absSmallYeh</string>
     <string>absSmallHighYeh</string>
     <string>absSmallHighNoon</string>
     <string>absPlaceOfSajdah</string>
@@ -1333,6 +1334,7 @@
     <string>absEndOfAyah.alt.3</string>
     <string>absEndOfAyah.altB.2</string>
     <string>absEndOfAyah.altB.3</string>
+    <string>absTurnedDammaBelow</string>
     <string>absCurlyFatha</string>
     <string>absCurlyDamma</string>
     <string>absCurlyKasra</string>
@@ -1368,8 +1370,6 @@
     <string>absHamzaDamma.short</string>
     <string>absHamzaFatha</string>
     <string>absKasraMeem</string>
-    <string>absLamHamzaIni.preAlef</string>
-    <string>absLamHamzaIni.preAlef.warsh</string>
     <string>absShaddaAlef</string>
     <string>absShaddaDamma</string>
     <string>absShaddaDamma.filled</string>
