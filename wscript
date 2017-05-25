@@ -61,7 +61,7 @@ DEBPKG = 'fonts-sil-harmattan'
 ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
-OMITAP = '-o "_above _below _center _ring _through above below center ring through U L" --cursive "exit=entry" --cursive "_digit=digit"'
+MAKE_PARAMS = '-o "_above _below _center _ring _through above below center ring through U L" --cursive "exit=entry,rtl" --cursive "_digit=digit"'
 
 for style in ('-Regular', ):  # '-Bold'):
     font(target=APPNAME + style + '.ttf',
@@ -71,10 +71,11 @@ for style in ('-Regular', ):  # '-Bold'):
         graphite=gdl(APPNAME + style + '.gdl',
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
             master = 'source/graphite/master.gdl',
-            make_params = OMITAP + ' --package "../tools/perllib/gdl_arab.pm"'),
+            make_params = MAKE_PARAMS + ' --package "../tools/perllib/gdl_arab.pm"'),
         opentype = fea(APPNAME + style + '.fea', 
             master = 'source/opentype/master.fea',
-            make_params = OMITAP + ' -z 16'),
+            preinclude = 'source/opentype/preinclude.fea',
+            make_params = MAKE_PARAMS + ' -z 16'),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
         script='arab',
@@ -90,4 +91,5 @@ for testname in AUTOGEN_TESTS:
 def configure(ctx):
     ctx.find_program('ttfautohint')
 #    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib -S make_gdl'
+#    ctx.env['MAKE_FEA'] = 'perl -I ../tools/perllib -S make_fea'
 
