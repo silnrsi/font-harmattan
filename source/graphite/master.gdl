@@ -34,6 +34,13 @@ environment {MUnits=2048};
 #define DIR_FSI 19
 #define DIR_PDI 20
 
+#ifndef opt2
+#define opt(x)      [x]?
+#define opt2(x)     [opt(x) x]?
+#define opt3(x)     [opt2(x) x]?
+#define opt4(x)     [opt3(x) x]?
+#endif
+
 #if 0   // DESIGN NOTES
 
 One of the complex issues is mark attachment. Problems stem from the following issues:
@@ -206,7 +213,7 @@ pass(4)	// Features, special behaviors
 	endif;
 
 	if (jeemHahMedAlt == handwritten)
-		cJeemHahMed > cJeemHahMedHandwritten;
+		cno_hand > chand;
 	endif;
 
 	if (meemAlt == sindhi)
@@ -214,7 +221,7 @@ pass(4)	// Features, special behaviors
 	endif;
 
 	if (sadDadAlt == half)
-		cSadDad > cSadDadHalf;
+		cno_half > chalf;
 	endif;
 
 	if (maddahAlt != large)
@@ -231,11 +238,11 @@ pass(4)	// Features, special behaviors
 	absHamzaAbove cHamzaMarks  >  _  cHamzaLigatures:(1 2)  / _ ^ _ ;
 
 	if (dammaAlt == short)
-		cDamma > cDamma_short;
+		cno_short > cshort;
 	endif;
 
 	if (dammatanAlt == sixNine)
-		cDammatan > cDammatan_sixNine;
+		cno_sixNine > csixNine;
 	endif;
 
 	if (daggeralefAlt == large)
@@ -277,36 +284,21 @@ table (positioning)
 // The code below is more general.
 
 pass(1)
-
 	// Lam-alef components:
+#define cHasExit  cTakesexitDia
+#define cHasEntry cTakesentryDia
 	cHasExit=L {alefAttached = true}  cHasEntry=A {attach {to=@L; at=exitS; with=entryS}; insert = true}
 		/ ^ _ {alefAttached == false}  MARKS  _;
 	
-	// Marks above
+
+	// Marks 
 
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
-	// rules assumes the alef AP should be used if there are no intervening marks.
-	cHasAlefAP=B  cMarkSuperscriptAlefs {attach {to=@B; at=alefS; with=alefM};}  / _ ^ MARKSBELOW _ ;
-	
+	// rules assumes the alef AP should be used if there are no intervening marks above.
 
-#if 0
-	// Special case: cozy up these diacritics a little, so they look more like the built-in ligatures:
-	absShadda=S
-		(absFatha absDamma absFathatan absDammatan)
-			{attach {to=@S; at=point(diaA.x,diaA.y-80m); with=diaAM}; }
-		/ _ ^ MARKSBELOW  _;
-
-	absHamzaAbove=H
-		(absFatha absDamma absFathatan absDammatan)
-			{attach {to=@H; at=point(diaA.x+40m,diaA.y-80m); with=diaAM}; }
-		/ _ ^ MARKSBELOW  _;
-		
-#endif
-
-	// Normal case:
-	(cBaseAny cMark1Above_volt cMarkSuperscriptAlefs)=B  (cAnyMarksAbove){attach {to=@B; at=diaAS; with=diaAM};}
-		/ _ ^ MARKSBELOW  _;
-
+	calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
+	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia MARKSBELOW _;
+	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;	
 
 	// Subtending marks
 	// NB: at this point digits should be in visual order, right to left,
@@ -366,9 +358,6 @@ pass(2)
 	cAllAlefFinAfterLam=B cAnyMarksBelow {attach {to=@B; at=dia2BS; with=diaBM}}
 		/ (absLamThreeDotsBelowIni_preAlef absLamThreeDotsBelowMed_preAlef cAnyMarksBelow) MARKSABOVE _ ^ MARKSABOVE _ ;
 
-	// Normal case:
-	(cBaseAny cMark1Below_volt)=B  cAnyMarksBelow {attach {to=@B; at=diaBS; with=diaBM}}
-		/ _ ^ MARKSABOVE  _;
 
 endpass; // 2
 

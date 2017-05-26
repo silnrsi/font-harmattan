@@ -56,22 +56,6 @@
         @Ayah @Ayah.alt @Ayah.altB 	
     </class>
 
-    <class name='Damma'>
-        absDamma absShaddaDamma absHamzaDamma 	
-    </class>
-
-    <class name='Damma.short'>
-        absDamma.short absShaddaDamma.short absHamzaDamma.short 	
-    </class>
-
-    <class name='Dammatan'>
-        absDammatan absShaddaDammatan 	
-    </class>
-
-    <class name='Dammatan.sixNine'>
-        absDammatan.sixNine absShaddaDammatan.sixNine 	
-    </class>
-
     <class name='DigitsArabic'>
         absZero absOne absTwo absThree absFour absFive absSix absSeven absEight absNine 	
     </class>
@@ -330,17 +314,6 @@
         absLamThreeDotsBelowMed.preAlef absLamBarMed.preAlef absLamDoubleBarMed.preAlef absAlefMaddaAboveFin.postLamMed		
         absAlefMaddaAboveFin.postLamMed.small absAlefHamzaAboveFin.postLamMed absAlefHamzaBelowFin.postLamMed absAlefFin.postLamMed		
         absAlefWaslaFin.postLamMed 	
-    </class>
-
-    <class name='JeemHahMed'>
-        absJeemMed absHahMed absKhahMed absHahTwoDotsVerticalAboveMed absNyehMed absDyehMed absHahThreeDotsAboveMed absTchehMed		
-        absTchehDotAboveMed absHahTwoDotsAboveMed absHahThreeDotsUpwardBelowMed absJeemTwoDotsAboveMed 	
-    </class>
-
-    <class name='JeemHahMedHandwritten'>
-        absJeemMed.hand absHahMed.hand absKhahMed.hand absHahTwoDotsVerticalAboveMed.hand absNyehMed.hand absDyehMed.hand		
-        absHahThreeDotsAboveMed.hand absTchehMed.hand absTchehDotAboveMed.hand absHahTwoDotsAboveMed.hand		
-        absHahThreeDotsUpwardBelowMed.hand absJeemTwoDotsAboveMed.hand 	
     </class>
 
     <class name='Jeh'>
@@ -629,17 +602,6 @@
         absRehTwoVertAbove absZainHat absRehHat absRehBar absYehBarree absAe absTehMarbuta absHehYehAbove 	
     </class>
 
-    <class name='SadDad'>
-        absSad absDad absSadTwoDotsBelow absSadThreeDotsAbove absDadDotBelow absSadThreeDotsBelow absSadFin absDadFin		
-        absSadTwoDotsBelowFin absSadThreeDotsAboveFin absDadDotBelowFin absSadThreeDotsBelowFin 	
-    </class>
-
-    <class name='SadDadHalf'>
-        absSad.half absDad.half absSadTwoDotsBelow.half absSadThreeDotsAbove.half absDadDotBelow.half absSadThreeDotsBelow.half		
-        absSadFin.half absDadFin.half absSadTwoDotsBelowFin.half absSadThreeDotsAboveFin.half absDadDotBelowFin.half		
-        absSadThreeDotsBelowFin.half 	
-    </class>
-
     <class name='ShaddaKasraLigatures'>
         absShaddaKasratan absShaddaKasra 	
     </class>
@@ -788,17 +750,6 @@
         absSheenDotBelowIni absSadTwoDotsBelowIni absDadDotBelowIni absGhainDotBelowIni absAfricanFehIni absFehDotMovedBelowIni		
         absFehDotBelowIni absFehTwoDotsBelowIni absFehDotBelowThreeDotsAboveIni absQafDotBelowIni absMeemDotBelowIni		
         absNoonDotBelowIni absNoonTwoDotsBelowIni 	
-    </class>
-
-    <class name='ltrOther'>
-        circledash absAe absHamza absTatweel absHighHamza absComma absComma.downward absSemicolon absSemicolon.downward		
-        absQuestionMark absFivePointedStar absFullStop 	
-    </class>
-
-    <class name='BaseAny'>
-        @AlefFinAfterLamIni @AlefFinAfterLamMed @DualLinkFina @DualLinkInit @DualLinkIsol @DualLinkMedi @JeemHahMedHandwritten		
-        @LamIniBeforeAlef @LamMedBeforeAlef @Meem.sindhi @RightLinkFina @RightLinkIsol @SadDadHalf @WarshLigatures @Whitespace		
-        @ltrOther 	
     </class>
 
 </classes>
