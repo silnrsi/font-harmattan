@@ -1,8 +1,23 @@
+#**********************************
+# This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
+# and is Copyright (c) 2014-2017 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Harmattan" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
 
 
 #**********************************
 #  Lookups
 #**********************************
+
+#********************
+# Subtitution rules *
+#********************
 
 lookup SmallMaddah {
   lookupflag 0 ;
@@ -18,25 +33,35 @@ lookup DecomposeForColor {
         sub absAlefHamzaBelow by absAlef absHamzaBelow ;
 } DecomposeForColor;
 
-lookup FontCheck1_target {
-  lookupflag IgnoreMarks ;
-    sub U n k n o w n by O ;
-} FontCheck1_target ;
+# The following three lookups change "RenderingUnknown" to "RenderingOpenType"
 
-lookup FontCheck1 {
-  lookupflag IgnoreMarks ;
-    sub [ R ]e n d e r i n g U' lookup FontCheck1_target n'  k'  n'  o'  w'  n'  ;
-} FontCheck1;
+lookup FontCheck_Unknow {
+  lookupflag IgnoreMarks;
+    sub U by O;
+    sub n by p;
+    sub k by e;
+    sub o by T;
+    sub w by y;
+} FontCheck_Unknow;
 
-lookup FontCheck2_target {
-  lookupflag IgnoreMarks ;
-    sub O by O p e n T y p e ;
-} FontCheck2_target ;
+lookup FontCheck_n {
+  lookupflag IgnoreMarks;
+    sub n by p e;
+} FontCheck_n;
 
-lookup FontCheck2 {
+lookup FontCheck {
   lookupflag IgnoreMarks ;
-    sub [ R ]e n d e r i n g O' lookup FontCheck2_target ;
-} FontCheck2;
+    sub [R] e n d e r i n g 
+      U' lookup FontCheck_Unknow 
+      n' lookup FontCheck_Unknow
+      k' lookup FontCheck_Unknow
+      n'  
+      o' lookup FontCheck_Unknow 
+      w' lookup FontCheck_Unknow 
+      n' lookup FontCheck_n;
+} FontCheck;
+
+# Basic Arabic shaping:
 
 lookup ltrFina {
   lookupflag IgnoreMarks ;
@@ -82,6 +107,9 @@ lookup Ligatures {
     sub @LamMedBeforeAlef @AlefFin' lookup Ligatures_Part2b_target ;
     sub absLamHamzaIni.preAlef @AlefFin' lookup Ligatures_Part2b_target ;
 } Ligatures;
+
+#********************
+# Ligatures of marks
 
 lookup ShaddaLigatures {
   lookupflag MarkAttachmentType @ShaddaLigatureParts ;
@@ -135,42 +163,6 @@ lookup HamzaLigatures {
 } HamzaLigatures;
 
 
-lookup LamAlefConnection {
-  lookupflag RightToLeft IgnoreMarks ;
-    #  subrule of type ATTACH_CURSIVE
-    pos cursive absAlefFin.postLamIni <anchor 641 -12> <anchor NULL>;
-    pos cursive absAlefFin.postLamMed <anchor 556 121> <anchor NULL>;
-    pos cursive absAlefHamzaAboveFin.postLamIni <anchor 641 -12> <anchor NULL>;
-    pos cursive absAlefHamzaAboveFin.postLamMed <anchor 556 121> <anchor NULL>;
-    pos cursive absAlefHamzaBelowFin.postLamIni <anchor 641 -12> <anchor NULL>;
-    pos cursive absAlefHamzaBelowFin.postLamMed <anchor 556 121> <anchor NULL>;
-    pos cursive absAlefMaddaAboveFin.postLamIni <anchor 641 -12> <anchor NULL>;
-    pos cursive absAlefMaddaAboveFin.postLamIni.small <anchor 641 -12> <anchor NULL>;
-    pos cursive absAlefMaddaAboveFin.postLamMed <anchor 556 121> <anchor NULL>;
-    pos cursive absAlefMaddaAboveFin.postLamMed.small <anchor 556 121> <anchor NULL>;
-    pos cursive absAlefWaslaFin.postLamIni <anchor 641 -12> <anchor NULL>;
-    pos cursive absAlefWaslaFin.postLamMed <anchor 556 121> <anchor NULL>;
-    pos cursive absLamBarIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamBarMed.preAlef <anchor NULL> <anchor 556 123>;
-    pos cursive absLamDotAboveIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamDotAboveMed.preAlef <anchor NULL> <anchor 556 123>;
-    pos cursive absLamDoubleBarIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamDoubleBarMed.preAlef <anchor NULL> <anchor 556 123>;
-    pos cursive absLamHamzaIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamHamzaIni.preAlef.warsh <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamMed.preAlef <anchor NULL> <anchor 556 123>;
-    pos cursive absLamSmallVIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamSmallVMed.preAlef <anchor NULL> <anchor 556 123>;
-    pos cursive absLamThreeDotsAboveIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamThreeDotsAboveMed.preAlef <anchor NULL> <anchor 556 123>;
-    pos cursive absLamThreeDotsBelowIni.preAlef <anchor NULL> <anchor 545 -12>;
-    pos cursive absLamThreeDotsBelowMed.preAlef <anchor NULL> <anchor 556 123>;
-} LamAlefConnection;
-
-
-
-
 #**********************************
 #  Features
 #**********************************
@@ -180,19 +172,17 @@ feature ccmp {  # Glyph Composition/Decomposition
         language dflt;  # Default
             lookup SmallMaddah;
             lookup DecomposeForColor;
-            lookup FontCheck1;
-            lookup FontCheck2;
+            lookup FontCheck;
     script latn;  # Latin
         language dflt;  # Default
             lookup SmallMaddah;
-            lookup FontCheck1;
-            lookup FontCheck2;
+            lookup FontCheck;
 } ccmp ;
 
 feature curs {  # Cursive Positioning
     script arab;  # Arabic
         language dflt;  # Default
-            lookup LamAlefConnection;
+            lookup cursive_exit_entry;
 } curs ;
 
 
