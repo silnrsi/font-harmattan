@@ -61,64 +61,6 @@ lookup FontCheck {
       n' lookup FontCheck_n;
 } FontCheck;
 
-# the following 4 lookups were my first attempt to rewrite the VOLT rules
-# into a single contextual, but this doesn't work correctly in Firefox -- may be
-# worth submitting a bug.
-
-lookup FontCheck_U {
-  lookupflag IgnoreMarks;
-    sub U by O p;
-} FontCheck_U;
-
-lookup FontCheck_nkow {
-  lookupflag IgnoreMarks;
-    sub n by e;
-    sub k by n;
-    sub o by y;
-    sub w by p;
-} FontCheck_nkow;
-
-lookup FontCheck_n {
-  lookupflag IgnoreMarks;
-    sub n by T;
-} FontCheck_n;
-
-lookup FontCheck3 {
-  lookupflag IgnoreMarks ;
-    sub [R] e n d e r i n g 
-      U' lookup FontCheck_U 
-      n' lookup FontCheck_nkow
-      k' lookup FontCheck_nkow
-      n' lookup FontCheck_n 
-      o' lookup FontCheck_nkow 
-      w' lookup FontCheck_nkow 
-      n' lookup FontCheck_nkow;
-} FontCheck3;
-
-# The following 4 rules were translated from VOLT and it is the only way
-# in VOLT to implement the logic to change RenderingUnknown to RenderingOpenType
-# This takes two contextual rules to implement; whereas the implementations 
-# above take only one.
-
-lookup FontCheck1_target {
-  lookupflag IgnoreMarks ;
-    sub U n k n o w n by O ;
-} FontCheck1_target ;
-
-lookup FontCheck1 {
-  lookupflag IgnoreMarks ;
-    sub [ R ]e n d e r i n g U' lookup FontCheck1_target n'  k'  n'  o'  w'  n'  ;
-} FontCheck1;
-
-lookup FontCheck2_target {
-  lookupflag IgnoreMarks ;
-    sub O by O p e n T y p e ;
-} FontCheck2_target ;
-
-lookup FontCheck2 {
-  lookupflag IgnoreMarks ;
-    sub [ R ]e n d e r i n g O' lookup FontCheck2_target ;
-} FontCheck2;
 
 # Basic Arabic shaping:
 
@@ -163,32 +105,15 @@ lookup LigaturesForWarsh3 {
 # Substitutions for Lam-Alef "ligature" (which is actually implemented
 # as cursively connected components, not a ligature).
 
-lookup Ligatures_Part1_target {
-  lookupflag IgnoreMarks ;
-    sub @LamIni by @LamIniBeforeAlef ;
-    sub @LamMed by @LamMedBeforeAlef ;
-} Ligatures_Part1_target ;
-
-lookup Ligatures_Part2a_target {
-  lookupflag IgnoreMarks ;
-    sub @AlefFin by @AlefFinAfterLamIni ;
-} Ligatures_Part2a_target ;
-
-lookup Ligatures_Part2b_target {
-  lookupflag IgnoreMarks ;
-    sub @AlefFin by @AlefFinAfterLamMed ;
-} Ligatures_Part2b_target ;
 
 lookup Ligatures {
   lookupflag IgnoreMarks ;
   # Subtable: Ligatures\Part1
-    sub [ @LamIni @LamMed ]' lookup Ligatures_Part1_target @AlefFin ;
+    sub [@LamIni @LamMed]' @AlefFin by [@LamIniBeforeAlef @LamMedBeforeAlef];
   # Subtable: Ligatures\Part2a
-    sub @LamIniBeforeAlef @AlefFin' lookup Ligatures_Part2a_target ;
-    sub absLamHamzaIni.preAlef @AlefFin' lookup Ligatures_Part2a_target ;
+    sub [@LamIniBeforeAlef absLamHamzaIni.preAlef] @AlefFin' by @AlefFinAfterLamIni;
   # Subtable: Ligatures\Part2b
-    sub @LamMedBeforeAlef @AlefFin' lookup Ligatures_Part2b_target ;
-    sub absLamHamzaIni.preAlef @AlefFin' lookup Ligatures_Part2b_target ;
+    sub [@LamMedBeforeAlef absLamHamzaIni.preAlef] @AlefFin' by @AlefFinAfterLamMed ;
 } Ligatures;
 
 #********************
@@ -249,6 +174,13 @@ lookup HamzaLigatures {
 #********************
 # Substitutions for subtendng marks
 
+lookup SignWith_4digits_target {
+  lookupflag IgnoreMarks ;
+    sub absYearSign by absYearSign.4 ;
+    sub absSamvatSign by absSamvatSign.4 ;
+    sub absPageSign by absPageSign.4 ;
+} SignWith_4digits_target ;
+
 lookup SignWith_3digits_target {
   lookupflag IgnoreMarks ;
     sub absNumberSign by absNumberSign.3 ;
@@ -259,13 +191,6 @@ lookup SignWith_3digits_target {
     sub absEndOfAyah.alt by absEndOfAyah.alt.3 ;
     sub absEndOfAyah.altB by absEndOfAyah.altB.3 ;
 } SignWith_3digits_target ;
-
-lookup SignWith_4digits_target {
-  lookupflag IgnoreMarks ;
-    sub absYearSign by absYearSign.4 ;
-    sub absSamvatSign by absSamvatSign.4 ;
-    sub absPageSign by absPageSign.4 ;
-} SignWith_4digits_target ;
 
 lookup SignWith_2digits_target {
   lookupflag IgnoreMarks ;
@@ -281,12 +206,12 @@ lookup SignWith_2digits_target {
 
 lookup SignWith {
   lookupflag IgnoreMarks ;
-  # Subtable: SignWith\3digits
-    sub [ absNumberSign absYearSign absSamvatSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB ]' lookup SignWith_3digits_target @DigitsAny @DigitsAny @DigitsAny ;
-    sub @DigitsAny @DigitsAny @DigitsAny [ absNumberSign absYearSign absSamvatSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB ]' lookup SignWith_3digits_target ;
   # Subtable: SignWith\4digits
     sub [ absYearSign absSamvatSign absPageSign ]' lookup SignWith_4digits_target @DigitsAny @DigitsAny @DigitsAny @DigitsAny ;
     sub @DigitsAny @DigitsAny @DigitsAny @DigitsAny [ absYearSign absSamvatSign absPageSign ]' lookup SignWith_4digits_target ;
+  # Subtable: SignWith\3digits
+    sub [ absNumberSign absYearSign absSamvatSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB ]' lookup SignWith_3digits_target @DigitsAny @DigitsAny @DigitsAny ;
+    sub @DigitsAny @DigitsAny @DigitsAny [ absNumberSign absYearSign absSamvatSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB ]' lookup SignWith_3digits_target ;
   # Subtable: SignWith\2digits
     sub [ absNumberSign absYearSign absSamvatSign absFootnoteSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB ]' lookup SignWith_2digits_target @DigitsAny @DigitsAny ;
     sub @DigitsAny @DigitsAny [ absNumberSign absYearSign absSamvatSign absFootnoteSign absPageSign absEndOfAyah absEndOfAyah.alt absEndOfAyah.altB ]' lookup SignWith_2digits_target ;
@@ -676,18 +601,26 @@ lookup Kern {
 } Kern;
 
 
-lookup MarkKern_target {
-  lookupflag 0 ;
-    #  subrule of type ADJUST_SINGLE
-    pos @MarksBelow  < 0 -300 0 0>;
-} MarkKern_target ;
+# Mark adjustments after attachment:
 
+# move MarksBelow slightly left on lam-alef when appropriate:
+lookup AlefMark2BelowAfterLam {
+  lookupflag UseMarkFilteringSet @MarksBelow ;
+    pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+    pos absLamThreeDotsBelowIni.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+    # Unneeded in Harmattan design:
+    #pos absLamThreeDotsBelowMed.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+} AlefMark2BelowAfterLam;
+
+# Lower MarksBelow if they crash with the tail of yeh barree final:
 lookup MarkKern {
   lookupflag 0 ;
-    pos @YehBarreeMarkLower @MarksBelow' lookup MarkKern_target absYehBarreeFin ;
-    pos @YehBarreeMarkLower @MarksAbove @MarksBelow' lookup MarkKern_target absYehBarreeFin ;
-    pos @YehBarreeMarkLower @MarksBelow' lookup MarkKern_target @MarksAbove absYehBarreeFin ;
+    pos @YehBarreeMarkLower @MarksBelow'             < 0 -300 0 0> absYehBarreeFin ;
+    pos @YehBarreeMarkLower @MarksAbove @MarksBelow' < 0 -300 0 0> absYehBarreeFin ;
+    pos @YehBarreeMarkLower @MarksBelow'             < 0 -300 0 0> @MarksAbove absYehBarreeFin ;
 } MarkKern;
+
+# Subtending mark rules
 
 lookup SubtendingAyah_31_target {
   lookupflag IgnoreMarks ;
@@ -1123,18 +1056,11 @@ lookup Subtending0604 {
 #  Features
 #**********************************
 
-feature calt {  # Contextual Alternates
-    script arab;  # Arabic
-        language dflt;  # Default
-            lookup SignWith;
-            lookup SignDigits;
-            lookup ReorderMaddaVowel1;
-            lookup ReorderMaddaVowel2;
-    script latn;  # Latin
-        language dflt;  # Default
-            lookup SignWith;
-            lookup SignDigits;
-} calt ;
+# as best as I understand, these are arranged in the order MS engines execute:
+
+#********************
+# GSUB features     *
+#********************
 
 feature ccmp {  # Glyph Composition/Decomposition
     script arab;  # Arabic
@@ -1148,11 +1074,57 @@ feature ccmp {  # Glyph Composition/Decomposition
             lookup FontCheck;
 } ccmp ;
 
-feature curs {  # Cursive Positioning
+feature fina {  # Terminal Forms
     script arab;  # Arabic
         language dflt;  # Default
-            lookup cursive_exit_entry;
-} curs ;
+            lookup ltrFina;
+} fina ;
+
+feature medi {  # Medial Forms
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup ltrMedi;
+} medi ;
+
+feature init {  # Initial Forms
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup ltrInit;
+} init ;
+
+feature rlig {  # Required Ligatures
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup LigaturesForWarsh1;
+            lookup LigaturesForWarsh2;
+            lookup LigaturesForWarsh3;
+            lookup Ligatures;
+            lookup ShaddaLigatures;
+            lookup ComposeLowHamzaAbove;
+            lookup HamzaLigatures;
+} rlig ;
+
+feature calt {  # Contextual Alternates
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup SignWith;
+            lookup SignDigits;
+            lookup ReorderMaddaVowel1;
+            lookup ReorderMaddaVowel2;
+    script latn;  # Latin
+        language dflt;  # Default
+            lookup SignWith;
+            lookup SignDigits;
+} calt ;
+
+# Not sure about the relative order of calt, cvxx and ssxx features --
+# it may be they are done in one pass.
+
+feature salt {  # Stylistic Alternates
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup AyahAlternates;
+} salt ;
 
 feature cv02 {  # Character Variant 02
     script arab;  # Arabic
@@ -1241,17 +1213,15 @@ feature cv84 {  # Character Variant 84
             lookup CommaAlternates;
 } cv84 ;
 
-feature fina {  # Terminal Forms
-    script arab;  # Arabic
-        language dflt;  # Default
-            lookup ltrFina;
-} fina ;
+#********************
+# GPOS features     *
+#********************
 
-feature init {  # Initial Forms
+feature curs {  # Cursive Positioning
     script arab;  # Arabic
         language dflt;  # Default
-            lookup ltrInit;
-} init ;
+            lookup cursive_exit_entry;
+} curs ;
 
 feature kern {  # Kerning
     script arab;  # Arabic
@@ -1276,48 +1246,25 @@ feature kern {  # Kerning
 feature mark {  # Mark Positioning
     script arab;  # Arabic
         language dflt;  # Default
-            lookup base_diaA_base;
-            lookup base_alef_base;
-            lookup base_diaB_base;
+            lookup base_diaA_base;	# from make_fea
+            lookup base_alef_base;	# from make_fea
+            lookup base_diaB_base;	# from make_fea
+            lookup AlefMark2BelowAfterLam;
             lookup MarkKern;
     script latn;  # Latin
         language dflt;  # Default
-            lookup base_diaA_base;
-            lookup base_alef_base;
-            lookup base_diaB_base;
+            lookup base_diaA_base;	# from make_fea
+            lookup base_alef_base;	# from make_fea
+            lookup base_diaB_base;	# from make_fea
 } mark ;
-
-feature medi {  # Medial Forms
-    script arab;  # Arabic
-        language dflt;  # Default
-            lookup ltrMedi;
-} medi ;
 
 feature mkmk {  # Mark to Mark Positioning
     script arab;  # Arabic
         language dflt;  # Default
-            lookup base_diaB_mark;
-            lookup base_diaA_mark;
+            lookup base_diaB_mark;	# from make_fea
+            lookup base_diaA_mark;	# from make_fea
     script latn;  # Latin
         language dflt;  # Default
-            lookup base_diaB_mark;
-            lookup base_diaA_mark;
+            lookup base_diaB_mark;	# from make_fea
+            lookup base_diaA_mark;	# from make_fea
 } mkmk ;
-
-feature rlig {  # Required Ligatures
-    script arab;  # Arabic
-        language dflt;  # Default
-            lookup LigaturesForWarsh1;
-            lookup LigaturesForWarsh2;
-            lookup LigaturesForWarsh3;
-            lookup Ligatures;
-            lookup ShaddaLigatures;
-            lookup ComposeLowHamzaAbove;
-            lookup HamzaLigatures;
-} rlig ;
-
-feature salt {  # Stylistic Alternates
-    script arab;  # Arabic
-        language dflt;  # Default
-            lookup AyahAlternates;
-} salt ;
