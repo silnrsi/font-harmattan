@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # Convert a UFO into a ttf file without OpenType tables
 # using minimal processing (compared to fontmake)
 

@@ -29,6 +29,7 @@
 wscript text
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
+*.py eol=lf
 *.sh eol=lf
 *.sfd text eol=lf
 
