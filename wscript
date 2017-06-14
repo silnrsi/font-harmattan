@@ -65,7 +65,8 @@ MAKE_PARAMS = '-o "_above _below _center _ring _through above below center ring 
 
 for style in ('-Regular', ):  # '-Bold'):
     font(target=APPNAME + style + '.ttf',
-        source=create(APPNAME + style + '-src.ttf', cmd('python ../tools/bin/ufo2ttf.py ${SRC} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
+        source=create(APPNAME + style + '-src.ttf', cmd('../tools/bin/ufo2ttf.py ${SRC} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
+#        source='source/' + APPNAME + style + '.ufo',
         ap = create(APPNAME + style + '.xml', cmd('UFOexportAnchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
         version=VERSION,
         graphite=gdl(APPNAME + style + '.gdl',
@@ -75,7 +76,7 @@ for style in ('-Regular', ):  # '-Bold'):
         opentype = fea(APPNAME + style + '.fea', 
             master = 'source/opentype/master.fea',
             preinclude = 'source/opentype/preinclude.fea',
-            make_params = MAKE_PARAMS + ' -z 16'),
+            make_params = MAKE_PARAMS + ' -p 0 -z 16'),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
         script='arab',
@@ -86,7 +87,7 @@ for style in ('-Regular', ):  # '-Bold'):
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
 
 for testname in AUTOGEN_TESTS:
-	t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'Harmattan-Regular-src.ttf', 'Harmattan-Regular.xml', 'tools/absGlyphList/absGlyphList.txt']))
+    t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'Harmattan-Regular-src.ttf', 'Harmattan-Regular.xml', 'tools/absGlyphList/absGlyphList.txt']))
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
