@@ -2,4 +2,4 @@
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
 # sync metadata to other UFOs and normalize again
-UFOsyncMeta source/*Regular.ufo --normalize
+psfsyncmeta source/*Regular.ufo --normalize
