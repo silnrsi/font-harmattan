@@ -73,10 +73,4 @@
       <point x="796" y="-144" type="move" name="diaB"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-20 16:31:53 +0000</string>
-    </dict>
-  </lib>
 </glyph>

@@ -34,10 +34,4 @@
       <point x="25" y="141" type="move" name="_ring"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.lastChange</key>
-      <string>2017-04-20 16:31:53 +0000</string>
-    </dict>
-  </lib>
 </glyph>
