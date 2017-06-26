@@ -67,7 +67,7 @@ for style in ('-Regular', ):  # '-Bold'):
     font(target=APPNAME + style + '.ttf',
         source=create(APPNAME + style + '-src.ttf', cmd('../tools/bin/ufo2ttf.py ${SRC} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
 #        source='source/' + APPNAME + style + '.ufo',
-        ap = create(APPNAME + style + '.xml', cmd('UFOexportAnchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
+        ap = create(APPNAME + style + '.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
         version=VERSION,
         graphite=gdl(APPNAME + style + '.gdl',
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
