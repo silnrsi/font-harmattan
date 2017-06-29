@@ -1,16 +1,22 @@
-# .gitattributes template for an open font design workflow 
+# .gitattributes for a smith-based open font design workflow 
+
 # Designed to tell git how to best deal with certain file formats 
 # To tweak to your particular needs, see http://git-scm.com/book/en/Customizing-Git-Git-Attributes
+
+# Note: Assumes repo is configured with core.autocrlf=input and core.eol=lf 
+# in order to get linux line endings by default independent of platform.
 
 # Set the default behavior, in case people don't have core.autocrlf set.
 * text=auto
 
-# Set the default behavior, we expect Windows users to use a VM for now 
-[attr]text eol=lf
+# Explicitly declare text files to always be normalized and converted
+# to crlf line endings on checkout.
+*.bas text eol=crlf
 
 # Explicitly declare text files to always be normalized and converted
-# to native line endings on checkout.
+# to linux line endings on checkout.
 *.cfg text
+*.fea text
 *.ftml text
 *.gdl text
 *.gdh text
@@ -27,6 +33,7 @@
 *.xml text
 
 wscript text
+preflight text
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
 *.py eol=lf

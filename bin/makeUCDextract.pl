@@ -179,6 +179,21 @@ for $u (sort {$a <=> $b} keys %chars)
 	map {print "$_;"} @{$chars{$u}}{qw(gen class bidi decomp mirror jointype isolated final medial initial name joingroup age)};
 	print "\n";
 }
+
+=head1 AUTHOR
+
+Bob Hallissy L<http://scripts.sil.org/>.
+(see CONTRIBUTORS for other authors).
+
+=head1 LICENSING
+
+Copyright (c) 2016-2017, SIL International (http://www.sil.org)
+
+This script is released under the terms of the MIT License.
+For details, see the full text of the license in the file LICENSE.
+
+=cut
+
 __DATA__
 # Extra data (PUA, proposed characters, etc.)
 #USV        Gen BiDi  Jointype Joingroup   CC  ; NAME
