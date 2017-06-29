@@ -49,3 +49,17 @@ while (<>) {
 	print "</glyph>\n";
 }
 print "</font>\n";
+
+=head1 AUTHOR
+
+Bob Hallissy L<http://scripts.sil.org/>.
+(see CONTRIBUTORS for other authors).
+
+=head1 LICENSING
+
+Copyright (c) 2016-2017, SIL International (http://www.sil.org)
+
+This script is released under the terms of the MIT License.
+For details, see the full text of the license in the file LICENSE.
+
+=cut
