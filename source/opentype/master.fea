@@ -15,7 +15,7 @@
 #  Lookups
 #**********************************
 
-include(pos.fea);
+include(../source/opentype/pos.fea);
 
 #********************
 # Subtitution rules *
