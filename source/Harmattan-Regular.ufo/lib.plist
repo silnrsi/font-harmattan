@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>UFOFormat</key>
-  <integer>2</integer>
   <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.disablesLastChange</key>
