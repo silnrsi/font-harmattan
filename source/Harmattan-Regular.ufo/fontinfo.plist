@@ -87,6 +87,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <string>Harmattan</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
+  <key>openTypeOS2CodePageRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>6</integer>
+  </array>
   <key>openTypeOS2Panose</key>
   <array>
     <integer>1</integer>
@@ -99,6 +104,22 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>2</integer>
     <integer>0</integer>
     <integer>3</integer>
+  </array>
+  <key>openTypeOS2UnicodeRanges</key>
+  <array>
+    <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>5</integer>
+    <integer>13</integer>
+    <integer>31</integer>
+    <integer>33</integer>
+    <integer>35</integer>
+    <integer>38</integer>
+    <integer>45</integer>
+    <integer>63</integer>
+    <integer>67</integer>
   </array>
   <key>openTypeOS2VendorID</key>
   <string>SIL</string>
