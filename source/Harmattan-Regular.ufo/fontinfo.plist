@@ -105,6 +105,8 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>0</integer>
     <integer>3</integer>
   </array>
+  <key>openTypeOS2Type</key>
+  <array/>
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
@@ -170,7 +172,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>1</integer>
+  <integer>20</integer>
   <key>xHeight</key>
   <integer>778</integer>
   <key>year</key>
