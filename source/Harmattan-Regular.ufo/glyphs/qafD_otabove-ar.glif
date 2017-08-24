@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafDotabove-ar" format="1">
+  <advance width="1266"/>
+  <unicode hex="06A7"/>
+  <outline>
+    <component base="absQafNoDots"/>
+    <component base="_dot1" xOffset="813" yOffset="1043"/>
+    <contour>
+      <point x="587" y="1046" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="755" y="1201" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="594" y="-289" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

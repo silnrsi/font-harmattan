@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shadda_fatha-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="absFatha" xOffset="-60" yOffset="176"/>
+    <component base="absShadda" xOffset="-30" yOffset="-164"/>
+    <contour>
+      <point x="260" y="1149" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="234" y="1736" type="move" name="diaA"/>
+    </contour>
+  </outline>
+</glyph>

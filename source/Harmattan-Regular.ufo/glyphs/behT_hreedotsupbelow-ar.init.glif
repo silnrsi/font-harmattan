@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behThreedotsupbelow-ar.init" format="1">
+  <advance width="429"/>
+  <outline>
+    <component base="absBehNoDotsIni"/>
+    <component base="_dot3u" xOffset="227" yOffset="-333"/>
+    <contour>
+      <point x="147" y="501" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="156" y="510" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="225" y="-631" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

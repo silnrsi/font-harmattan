@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="opendammatan-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08F1"/>
+  <outline>
+    <component base="absDamma" xOffset="50" yOffset="-270"/>
+    <component base="absDamma" xOffset="-270" yOffset="-270"/>
+    <contour>
+      <point x="164" y="980" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="105" y="1515" type="move" name="diaA"/>
+    </contour>
+  </outline>
+</glyph>

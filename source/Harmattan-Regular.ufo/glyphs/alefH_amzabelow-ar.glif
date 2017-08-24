@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefHamzabelow-ar" format="1">
+  <advance width="379"/>
+  <unicode hex="0625"/>
+  <outline>
+    <component base="absAlef" xOffset="10"/>
+    <component base="absHamzaAbove" xOffset="-62" yOffset="-1831"/>
+    <contour>
+      <point x="-21" y="1070" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="202" y="1122" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="194" y="-517" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

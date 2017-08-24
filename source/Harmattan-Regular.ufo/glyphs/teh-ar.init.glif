@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="teh-ar.init" format="1">
+  <advance width="429"/>
+  <outline>
+    <component base="absBehNoDotsIni"/>
+    <component base="_dot2h" xOffset="171" yOffset="694"/>
+    <contour>
+      <point x="119" y="829" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="145" y="844" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="217" y="-74" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

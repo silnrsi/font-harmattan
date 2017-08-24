@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.postLamIni.fina" format="1">
+  <advance width="897"/>
+  <outline>
+    <contour>
+      <point x="603" y="-3"/>
+      <point x="661" y="61"/>
+      <point x="671" y="80" type="curve"/>
+      <point x="623" y="372"/>
+      <point x="398" y="735"/>
+      <point x="65" y="940" type="curve"/>
+      <point x="43" y="901"/>
+      <point x="29" y="852"/>
+      <point x="29" y="802" type="curve" smooth="yes"/>
+      <point x="29" y="778"/>
+      <point x="32" y="754"/>
+      <point x="39" y="730" type="curve"/>
+      <point x="283" y="585"/>
+      <point x="503" y="424"/>
+      <point x="570" y="-12" type="curve"/>
+    </contour>
+    <contour>
+      <point x="36" y="1010" type="move" name="above"/>
+    </contour>
+    <contour>
+      <point x="-53" y="912" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="550" y="-118" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="133" y="-143" type="move" name="dia2B"/>
+    </contour>
+    <contour>
+      <point x="71" y="1007" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="181" y="-145" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="641" y="-12" type="move" name="entry"/>
+    </contour>
+  </outline>
+</glyph>

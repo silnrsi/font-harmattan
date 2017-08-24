@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sadTwodotsbelow-ar.fina" format="1">
+  <advance width="1740"/>
+  <outline>
+    <component base="absSadFin"/>
+    <component base="_dot2h" xOffset="1207" yOffset="-285"/>
+    <contour>
+      <point x="445" y="229" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="1180" y="621" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="751" y="-563" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

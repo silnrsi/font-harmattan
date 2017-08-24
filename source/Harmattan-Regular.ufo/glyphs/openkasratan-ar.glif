@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="openkasratan-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08F2"/>
+  <outline>
+    <component base="absFatha" xOffset="-229" yOffset="-2280"/>
+    <component base="absFatha" xOffset="-78" yOffset="-2072"/>
+    <contour>
+      <point x="203" y="-563" type="move" name="_diaB"/>
+    </contour>
+    <contour>
+      <point x="165" y="-964" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

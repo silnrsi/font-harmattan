@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fehDotbelow-ar.fina" format="1">
+  <advance width="1724"/>
+  <outline>
+    <component base="absDotlessFehFin"/>
+    <component base="_dot1" xOffset="1179" yOffset="856"/>
+    <component base="_dot1" xOffset="1299" yOffset="-290"/>
+    <contour>
+      <point x="334" y="426" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="1124" y="1031" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="1311" y="-471" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>8</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dahal-ar.fina" format="1">
+  <advance width="893"/>
+  <outline>
+    <component base="absDalFin"/>
+    <component base="_dot2h" xOffset="249" yOffset="1033"/>
+    <contour>
+      <point x="213" y="1191" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="226" y="1204" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="385" y="-71" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

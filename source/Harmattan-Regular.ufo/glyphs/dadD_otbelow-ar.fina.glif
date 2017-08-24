@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dadDotbelow-ar.fina" format="1">
+  <advance width="1740"/>
+  <outline>
+    <component base="absSadFin"/>
+    <component base="_dot1" xOffset="1185" yOffset="813"/>
+    <component base="_dot1" xOffset="1216" yOffset="-284"/>
+    <contour>
+      <point x="445" y="229" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="1120" y="1017" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="751" y="-563" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

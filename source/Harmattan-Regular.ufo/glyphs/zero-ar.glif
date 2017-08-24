@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero-ar" format="1">
+  <advance width="896"/>
+  <unicode hex="0660"/>
+  <outline>
+    <contour>
+      <point x="457" y="708" type="line"/>
+      <point x="302" y="544" type="line"/>
+      <point x="372" y="454"/>
+      <point x="434" y="407"/>
+      <point x="471" y="388" type="curve"/>
+      <point x="515" y="420"/>
+      <point x="561" y="473"/>
+      <point x="628" y="559" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tehThreedotsupbelow-ar" format="1">
+  <advance width="1992"/>
+  <unicode hex="0753"/>
+  <outline>
+    <component base="absBehNoDots"/>
+    <component base="_dot2h" xOffset="970" yOffset="727"/>
+    <component base="_dot3u" xOffset="955" yOffset="-380"/>
+    <contour>
+      <point x="388" y="815" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="941" y="904" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="952" y="-682" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

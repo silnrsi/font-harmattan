@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamThreedotsabove-ar.preAlef.init" format="1">
+  <advance width="801"/>
+  <outline>
+    <component base="absLamIni.preAlef"/>
+    <component base="_dot3u" xOffset="510" yOffset="1404"/>
+    <contour>
+      <point x="273" y="1411" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="450" y="1707" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="573" y="-113" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="545" y="-12" type="move" name="exit"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

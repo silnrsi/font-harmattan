@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="punctuationspace" format="1">
+  <advance width="504"/>
+  <unicode hex="2008"/>
+  <outline>
+    <contour>
+      <point x="252" y="186" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="252" y="649" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="252" y="-700" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

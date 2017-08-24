@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenThreedotsbelow-ar.fina" format="1">
+  <advance width="1753"/>
+  <outline>
+    <component base="absSeenFin"/>
+    <component base="_dot3d" xOffset="1127" yOffset="-245"/>
+    <contour>
+      <point x="295" y="287" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="1030" y="513" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="284" y="-654" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

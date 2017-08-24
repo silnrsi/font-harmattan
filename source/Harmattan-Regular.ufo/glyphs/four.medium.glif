@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.medium" format="1">
+  <advance width="674"/>
+  <outline>
+    <contour>
+      <point x="631" y="471" type="line"/>
+      <point x="631" y="558" type="line"/>
+      <point x="524" y="558" type="line"/>
+      <point x="524" y="1080" type="line"/>
+      <point x="418" y="1080" type="line"/>
+      <point x="49" y="558" type="line"/>
+      <point x="49" y="471" type="line"/>
+      <point x="418" y="471" type="line"/>
+      <point x="418" y="250" type="line"/>
+      <point x="524" y="250" type="line"/>
+      <point x="524" y="471" type="line"/>
+    </contour>
+    <contour>
+      <point x="418" y="940" type="line"/>
+      <point x="418" y="558" type="line"/>
+      <point x="148" y="558" type="line"/>
+    </contour>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+    <contour>
+      <point x="674" y="0" type="move" name="digit"/>
+    </contour>
+  </outline>
+</glyph>

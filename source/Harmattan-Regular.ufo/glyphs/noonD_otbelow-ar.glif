@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonDotbelow-ar" format="1">
+  <advance width="1272"/>
+  <unicode hex="06B9"/>
+  <outline>
+    <component base="absNoonGhunna"/>
+    <component base="_dot1" xOffset="597" yOffset="570"/>
+    <component base="_dot1" xOffset="571" yOffset="-759"/>
+    <contour>
+      <point x="277" y="408" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="556" y="719" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="584" y="-927" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

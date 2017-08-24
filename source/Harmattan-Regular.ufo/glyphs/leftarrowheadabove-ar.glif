@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leftarrowheadabove-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08F7"/>
+  <outline>
+    <contour>
+      <point x="15" y="1289"/>
+      <point x="246" y="1247"/>
+      <point x="348" y="1247" type="curve"/>
+      <point x="351" y="1271"/>
+      <point x="354" y="1313"/>
+      <point x="354" y="1341" type="curve"/>
+      <point x="252" y="1343"/>
+      <point x="97" y="1376"/>
+      <point x="62" y="1402" type="curve"/>
+      <point x="62" y="1437"/>
+      <point x="101" y="1573"/>
+      <point x="127" y="1659" type="curve"/>
+      <point x="103" y="1664"/>
+      <point x="62" y="1668"/>
+      <point x="30" y="1668" type="curve"/>
+      <point x="-1" y="1595"/>
+      <point x="-45" y="1402"/>
+      <point x="-45" y="1343" type="curve"/>
+    </contour>
+    <contour>
+      <point x="184" y="1200" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="148" y="1710" type="move" name="diaA"/>
+    </contour>
+  </outline>
+</glyph>
