@@ -2,7 +2,7 @@
 <glyph name="tehThreedotsupbelow-ar.init" format="1">
   <advance width="429"/>
   <outline>
-    <component base="absBehNoDotsIni"/>
+    <component base="behDotless-ar.init"/>
     <component base="_dot2h" xOffset="171" yOffset="694"/>
     <component base="_dot3u" xOffset="227" yOffset="-333"/>
     <contour>

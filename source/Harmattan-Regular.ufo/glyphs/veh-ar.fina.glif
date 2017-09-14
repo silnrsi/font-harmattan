@@ -2,7 +2,7 @@
 <glyph name="veh-ar.fina" format="1">
   <advance width="1724"/>
   <outline>
-    <component base="absDotlessFehFin"/>
+    <component base="fehDotless-ar.fina"/>
     <component base="_dot3u" xOffset="1179" yOffset="953"/>
     <contour>
       <point x="334" y="426" type="move" name="alef"/>

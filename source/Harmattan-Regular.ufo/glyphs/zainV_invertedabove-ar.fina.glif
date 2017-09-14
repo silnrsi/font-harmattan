@@ -2,7 +2,7 @@
 <glyph name="zainVinvertedabove-ar.fina" format="1">
   <advance width="674"/>
   <outline>
-    <component base="absRehFin"/>
+    <component base="reh-ar.fina"/>
     <component base="_dot1_hat" xOffset="318" yOffset="637"/>
     <contour>
       <point x="201" y="993" type="move" name="alef"/>

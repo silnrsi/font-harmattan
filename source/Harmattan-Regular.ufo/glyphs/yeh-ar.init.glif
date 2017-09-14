@@ -2,7 +2,7 @@
 <glyph name="yeh-ar.init" format="1">
   <advance width="429"/>
   <outline>
-    <component base="absBehNoDotsIni"/>
+    <component base="behDotless-ar.init"/>
     <component base="_dot2h" xOffset="218" yOffset="-217"/>
     <contour>
       <point x="147" y="501" type="move" name="alef"/>

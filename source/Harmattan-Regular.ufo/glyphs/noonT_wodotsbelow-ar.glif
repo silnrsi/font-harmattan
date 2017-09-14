@@ -3,7 +3,7 @@
   <advance width="1272"/>
   <unicode hex="0767"/>
   <outline>
-    <component base="absNoonGhunna"/>
+    <component base="noonghunna-ar"/>
     <component base="_dot1" xOffset="597" yOffset="570"/>
     <component base="_dot2h" xOffset="562" yOffset="-760"/>
     <contour>

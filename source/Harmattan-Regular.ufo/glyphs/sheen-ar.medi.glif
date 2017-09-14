@@ -2,7 +2,7 @@
 <glyph name="sheen-ar.medi" format="1">
   <advance width="1355"/>
   <outline>
-    <component base="absSeenMed"/>
+    <component base="seen-ar.medi"/>
     <component base="_dot3u" xOffset="658" yOffset="811"/>
     <contour>
       <point x="406" y="868" type="move" name="alef"/>

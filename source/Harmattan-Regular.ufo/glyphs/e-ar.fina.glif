@@ -2,7 +2,7 @@
 <glyph name="e-ar.fina" format="1">
   <advance width="1296"/>
   <outline>
-    <component base="absYehFin.noDots"/>
+    <component base="yeh-ar.noDots.fina"/>
     <component base="_dot2v" xOffset="582" yOffset="-1006"/>
     <contour>
       <point x="465" y="0" type="move" name="alef"/>

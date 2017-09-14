@@ -2,7 +2,7 @@
 <glyph name="gaf-ar.medi" format="1">
   <advance width="1193"/>
   <outline>
-    <component base="absKafMed"/>
+    <component base="kaf-ar.medi"/>
     <component base="_gafBar" xOffset="156" yOffset="761"/>
     <contour>
       <point x="-10" y="671" type="move" name="alef"/>

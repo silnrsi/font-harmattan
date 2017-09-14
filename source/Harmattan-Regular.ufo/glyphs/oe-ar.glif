@@ -3,7 +3,7 @@
   <advance width="862"/>
   <unicode hex="06C6"/>
   <outline>
-    <component base="absWaw"/>
+    <component base="waw-ar"/>
     <component base="_smallV" xOffset="377" yOffset="761"/>
     <contour>
       <point x="368" y="985" type="move" name="diaA"/>

@@ -2,7 +2,7 @@
 <glyph name="tahTwodotsabove-ar.fina" format="1">
   <advance width="1122"/>
   <outline>
-    <component base="absTahFin"/>
+    <component base="tah-ar.fina"/>
     <component base="_dot2h" xOffset="689" yOffset="790"/>
     <contour>
       <point x="75" y="769" type="move" name="alef"/>

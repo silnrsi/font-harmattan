@@ -2,7 +2,7 @@
 <glyph name="lamVabove-ar.preAlef.init" format="1">
   <advance width="801"/>
   <outline>
-    <component base="absLamIni.preAlef"/>
+    <component base="lam-ar.preAlef.init"/>
     <component base="_smallV" xOffset="513" yOffset="1265"/>
     <contour>
       <point x="228" y="1348" type="move" name="alef"/>

@@ -2,7 +2,7 @@
 <glyph name="_hamza" format="1">
   <advance width="0"/>
   <outline>
-    <component base="absHamzaAbove" xOffset="-263" yOffset="-1480"/>
+    <component base="hamzaabove-ar" xOffset="-263" yOffset="-1480"/>
     <contour>
       <point x="0" y="-176" type="move" name="_above"/>
     </contour>

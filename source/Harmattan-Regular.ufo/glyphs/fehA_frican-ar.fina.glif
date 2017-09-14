@@ -2,7 +2,7 @@
 <glyph name="fehAfrican-ar.fina" format="1">
   <advance width="1724"/>
   <outline>
-    <component base="absDotlessFehFin"/>
+    <component base="fehDotless-ar.fina"/>
     <contour>
       <point x="1179" y="674" type="move" name="above"/>
     </contour>

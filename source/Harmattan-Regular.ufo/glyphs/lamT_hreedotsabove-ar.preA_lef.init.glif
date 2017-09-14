@@ -2,7 +2,7 @@
 <glyph name="lamThreedotsabove-ar.preAlef.init" format="1">
   <advance width="801"/>
   <outline>
-    <component base="absLamIni.preAlef"/>
+    <component base="lam-ar.preAlef.init"/>
     <component base="_dot3u" xOffset="510" yOffset="1404"/>
     <contour>
       <point x="273" y="1411" type="move" name="alef"/>

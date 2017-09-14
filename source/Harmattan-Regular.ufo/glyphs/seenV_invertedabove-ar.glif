@@ -3,8 +3,8 @@
   <advance width="1657"/>
   <unicode hex="077E"/>
   <outline>
-    <component base="absSeen"/>
-    <component base="absVowelInvSmallV" xOffset="829" yOffset="-441"/>
+    <component base="seen-ar"/>
+    <component base="vinvertedabove-ar" xOffset="829" yOffset="-441"/>
     <contour>
       <point x="295" y="287" type="move" name="alef"/>
     </contour>

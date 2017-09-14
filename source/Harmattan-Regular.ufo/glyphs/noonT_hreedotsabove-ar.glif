@@ -3,7 +3,7 @@
   <advance width="1272"/>
   <unicode hex="06BD"/>
   <outline>
-    <component base="absNoonGhunna"/>
+    <component base="noonghunna-ar"/>
     <component base="_dot3u" xOffset="597" yOffset="667"/>
     <contour>
       <point x="382" y="815" type="move" name="alef"/>

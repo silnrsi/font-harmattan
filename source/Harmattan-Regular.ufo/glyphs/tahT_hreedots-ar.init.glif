@@ -2,7 +2,7 @@
 <glyph name="tahThreedots-ar.init" format="1">
   <advance width="1036"/>
   <outline>
-    <component base="absTahIni"/>
+    <component base="tah-ar.init"/>
     <component base="_dot3u" xOffset="697" yOffset="887"/>
     <contour>
       <point x="75" y="769" type="move" name="alef"/>

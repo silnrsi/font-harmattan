@@ -2,7 +2,7 @@
 <glyph name="behThreedotsupbelow-ar.medi" format="1">
   <advance width="580"/>
   <outline>
-    <component base="absBehNoDotsMed"/>
+    <component base="behDotless-ar.medi"/>
     <component base="_dot3u" xOffset="284" yOffset="-343"/>
     <contour>
       <point x="248" y="450" type="move" name="alef"/>

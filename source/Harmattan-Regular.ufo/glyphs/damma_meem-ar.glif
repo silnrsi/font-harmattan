@@ -2,8 +2,8 @@
 <glyph name="damma_meem-ar" format="1">
   <advance width="0"/>
   <outline>
-    <component base="absSmallHighMeemIsolatedForm" xOffset="1" yOffset="-54"/>
-    <component base="absDamma" xOffset="187" yOffset="-85"/>
+    <component base="meemStopabove-ar" xOffset="1" yOffset="-54"/>
+    <component base="damma-ar" xOffset="187" yOffset="-85"/>
     <contour>
       <point x="287" y="1143" type="move" name="_diaA"/>
     </contour>

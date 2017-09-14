@@ -2,8 +2,8 @@
 <glyph name="seenVinvertedabove-ar.init" format="1">
   <advance width="1277"/>
   <outline>
-    <component base="absSeenIni"/>
-    <component base="absVowelInvSmallV" xOffset="472" yOffset="-441"/>
+    <component base="seen-ar.init"/>
+    <component base="vinvertedabove-ar" xOffset="472" yOffset="-441"/>
     <contour>
       <point x="394" y="732" type="move" name="alef"/>
     </contour>

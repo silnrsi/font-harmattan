@@ -2,8 +2,8 @@
 <glyph name="wawHamzaabove-ar.fina" format="1">
   <advance width="837"/>
   <outline>
-    <component base="absWawFin"/>
-    <component base="absHamzaAbove" xOffset="111" yOffset="-683"/>
+    <component base="waw-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="111" yOffset="-683"/>
     <contour>
       <point x="361" y="1053" type="move" name="diaA"/>
     </contour>

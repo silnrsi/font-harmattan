@@ -2,8 +2,8 @@
 <glyph name="behhamzaabove-ar.init" format="1">
   <advance width="429"/>
   <outline>
-    <component base="absBehNoDotsIni"/>
-    <component base="absHamzaAbove" xOffset="-92" yOffset="-792"/>
+    <component base="behDotless-ar.init"/>
+    <component base="hamzaabove-ar" xOffset="-92" yOffset="-792"/>
     <component base="_dot1" xOffset="227" yOffset="-216"/>
     <contour>
       <point x="95" y="928" type="move" name="alef"/>

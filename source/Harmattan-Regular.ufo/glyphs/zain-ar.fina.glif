@@ -2,7 +2,7 @@
 <glyph name="zain-ar.fina" format="1">
   <advance width="673"/>
   <outline>
-    <component base="absRehFin" xOffset="-1"/>
+    <component base="reh-ar.fina" xOffset="-1"/>
     <component base="_dot1" xOffset="317" yOffset="615"/>
     <contour>
       <point x="207" y="709" type="move" name="alef"/>

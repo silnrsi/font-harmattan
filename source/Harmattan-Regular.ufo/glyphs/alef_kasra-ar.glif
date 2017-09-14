@@ -2,8 +2,8 @@
 <glyph name="alef_kasra-ar" format="1">
   <advance width="379"/>
   <outline>
-    <component base="absAlef"/>
-    <component base="absKasra" xOffset="-110" yOffset="80"/>
+    <component base="alef-ar"/>
+    <component base="kasra-ar" xOffset="-110" yOffset="80"/>
     <contour>
       <point x="29" y="887" type="move" name="alef"/>
     </contour>

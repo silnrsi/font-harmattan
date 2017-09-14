@@ -2,8 +2,8 @@
 <glyph name="alefHamzaabove-ar.postLamIni.warsh.fina" format="1">
   <advance width="897"/>
   <outline>
-    <component base="absAlefFin.postLamIni"/>
-    <component base="absHamzaAbove" xOffset="-226" yOffset="-510"/>
+    <component base="alef-ar.postLamIni.fina"/>
+    <component base="hamzaabove-ar" xOffset="-226" yOffset="-510"/>
     <contour>
       <point x="-100" y="1180" type="move" name="alef"/>
     </contour>

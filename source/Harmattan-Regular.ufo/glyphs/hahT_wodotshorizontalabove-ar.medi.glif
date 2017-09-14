@@ -2,7 +2,7 @@
 <glyph name="hahTwodotshorizontalabove-ar.medi" format="1">
   <advance width="949"/>
   <outline>
-    <component base="absHahMed"/>
+    <component base="hah-ar.medi"/>
     <component base="_dot2h" xOffset="343" yOffset="813"/>
     <contour>
       <point x="127" y="927" type="move" name="alef"/>

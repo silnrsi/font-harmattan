@@ -2,7 +2,7 @@
 <glyph name="lamDoublebar-ar.fina" format="1">
   <advance width="1069"/>
   <outline>
-    <component base="absLamFin"/>
+    <component base="lam-ar.fina"/>
     <component base="_bar2" xOffset="850" yOffset="644"/>
     <contour>
       <point x="283" y="402" type="move" name="alef"/>

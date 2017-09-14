@@ -2,7 +2,7 @@
 <glyph name="seenDotbelowDotabove-ar.medi" format="1">
   <advance width="1355"/>
   <outline>
-    <component base="absSeenMed"/>
+    <component base="seen-ar.medi"/>
     <component base="_dot1" xOffset="658" yOffset="714"/>
     <component base="_dot1" xOffset="690" yOffset="-263"/>
     <contour>

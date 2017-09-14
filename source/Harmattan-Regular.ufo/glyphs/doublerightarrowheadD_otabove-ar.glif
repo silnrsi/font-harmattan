@@ -3,8 +3,8 @@
   <advance width="0"/>
   <unicode hex="08FC"/>
   <outline>
-    <component base="absDoubleRightArrowheadAbove"/>
-    <component base="absTone1DotAbove" xOffset="-26" yOffset="462"/>
+    <component base="doublerightarrowheadabove-ar"/>
+    <component base="toneonedotabove-ar" xOffset="-26" yOffset="462"/>
     <contour>
       <point x="319" y="1157" type="move" name="_diaA"/>
     </contour>

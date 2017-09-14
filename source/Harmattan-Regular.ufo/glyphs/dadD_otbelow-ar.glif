@@ -3,7 +3,7 @@
   <advance width="1682"/>
   <unicode hex="06FB"/>
   <outline>
-    <component base="absSad"/>
+    <component base="sad-ar"/>
     <component base="_dot1" xOffset="1206" yOffset="776"/>
     <component base="_dot1" xOffset="1204" yOffset="-284"/>
     <contour>

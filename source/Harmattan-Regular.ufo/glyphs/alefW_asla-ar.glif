@@ -3,7 +3,7 @@
   <advance width="379"/>
   <unicode hex="0671"/>
   <outline>
-    <component base="absAlef"/>
+    <component base="alef-ar"/>
     <component base="_wasla" xOffset="203" yOffset="1233"/>
     <contour>
       <point x="58" y="1283" type="move" name="alef"/>

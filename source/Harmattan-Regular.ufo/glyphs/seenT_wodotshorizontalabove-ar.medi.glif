@@ -2,7 +2,7 @@
 <glyph name="seenTwodotshorizontalabove-ar.medi" format="1">
   <advance width="1355"/>
   <outline>
-    <component base="absSeenMed"/>
+    <component base="seen-ar.medi"/>
     <component base="_dot2v" xOffset="658" yOffset="840"/>
     <contour>
       <point x="415" y="859" type="move" name="alef"/>

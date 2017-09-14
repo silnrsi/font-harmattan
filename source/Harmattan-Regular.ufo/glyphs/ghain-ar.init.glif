@@ -2,7 +2,7 @@
 <glyph name="ghain-ar.init" format="1">
   <advance width="802"/>
   <outline>
-    <component base="absAinIni"/>
+    <component base="ain-ar.init"/>
     <component base="_dot1" xOffset="390" yOffset="895"/>
     <contour>
       <point x="228" y="945" type="move" name="alef"/>

@@ -2,7 +2,7 @@
 <glyph name="alefMadda-ar.postLamIni.small.fina" format="1">
   <advance width="897"/>
   <outline>
-    <component base="absAlefFin.postLamIni"/>
+    <component base="alef-ar.postLamIni.fina"/>
     <component base="_madda.small" xOffset="-57" yOffset="1074"/>
     <contour>
       <point x="-25" y="1229" type="move" name="alef"/>

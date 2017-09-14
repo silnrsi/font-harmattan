@@ -2,7 +2,7 @@
 <glyph name="sadTwodotsbelow-ar.medi" format="1">
   <advance width="1137"/>
   <outline>
-    <component base="absSadMed"/>
+    <component base="sad-ar.medi"/>
     <component base="_dot2h" xOffset="587" yOffset="-284"/>
     <contour>
       <point x="95" y="381" type="move" name="alef"/>

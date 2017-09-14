@@ -2,7 +2,7 @@
 <glyph name="noonThreedotsabove-ar.medi" format="1">
   <advance width="580"/>
   <outline>
-    <component base="absBehNoDotsMed"/>
+    <component base="behDotless-ar.medi"/>
     <component base="_dot3d" xOffset="284" yOffset="-208"/>
     <contour>
       <point x="248" y="450" type="move" name="alef"/>

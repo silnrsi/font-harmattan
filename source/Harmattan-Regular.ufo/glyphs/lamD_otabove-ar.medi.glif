@@ -2,7 +2,7 @@
 <glyph name="lamDotabove-ar.medi" format="1">
   <advance width="477"/>
   <outline>
-    <component base="absLamMed"/>
+    <component base="lam-ar.medi"/>
     <component base="_dot1" xOffset="228" yOffset="1300"/>
     <contour>
       <point x="44" y="1293" type="move" name="alef"/>

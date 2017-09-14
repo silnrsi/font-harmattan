@@ -2,7 +2,7 @@
 <glyph name="tcheh-ar.fina" format="1">
   <advance width="944"/>
   <outline>
-    <component base="absHahFin"/>
+    <component base="hah-ar.fina"/>
     <component base="_dot3d" xOffset="483" yOffset="-35"/>
     <contour>
       <point x="12" y="470" type="move" name="alef"/>

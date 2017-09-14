@@ -2,7 +2,7 @@
 <glyph name="meemDotabove-ar.fina" format="1">
   <advance width="997"/>
   <outline>
-    <component base="absMeemFin"/>
+    <component base="meem-ar.fina"/>
     <component base="_dot1" xOffset="520" yOffset="792"/>
     <contour>
       <point x="276" y="723" type="move" name="alef"/>

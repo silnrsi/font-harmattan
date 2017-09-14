@@ -2,8 +2,8 @@
 <glyph name="lam_hamza-ar.preAlef.warsh.init" format="1">
   <advance width="801"/>
   <outline>
-    <component base="absLamIni.preAlef"/>
-    <component base="absHamzaAbove" xOffset="260" yOffset="-324"/>
+    <component base="lam-ar.preAlef.init"/>
+    <component base="hamzaabove-ar" xOffset="260" yOffset="-324"/>
     <contour>
       <point x="300" y="1255" type="move" name="alef"/>
     </contour>

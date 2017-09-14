@@ -2,7 +2,7 @@
 <glyph name="heh-ar.init" format="1">
   <advance width="1169"/>
   <outline>
-    <component base="absHehDoachashmeeIni"/>
+    <component base="hehDoachashmee-ar.init"/>
     <contour>
       <point x="150" y="480" type="move" name="alef"/>
     </contour>

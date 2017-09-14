@@ -2,7 +2,7 @@
 <glyph name="dad-ar.init" format="1">
   <advance width="1083"/>
   <outline>
-    <component base="absSadIni"/>
+    <component base="sad-ar.init"/>
     <component base="_dot1" xOffset="591" yOffset="813"/>
     <contour>
       <point x="95" y="381" type="move" name="alef"/>

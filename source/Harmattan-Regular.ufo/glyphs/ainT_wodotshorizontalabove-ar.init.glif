@@ -2,7 +2,7 @@
 <glyph name="ainTwodotshorizontalabove-ar.init" format="1">
   <advance width="802"/>
   <outline>
-    <component base="absAinIni"/>
+    <component base="ain-ar.init"/>
     <component base="_dot2h" xOffset="390" yOffset="895"/>
     <contour>
       <point x="187" y="993" type="move" name="alef"/>

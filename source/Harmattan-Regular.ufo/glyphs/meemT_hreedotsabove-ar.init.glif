@@ -2,7 +2,7 @@
 <glyph name="meemThreedotsabove-ar.init" format="1">
   <advance width="831"/>
   <outline>
-    <component base="absMeemIni"/>
+    <component base="meem-ar.init"/>
     <component base="_dot3u" xOffset="417" yOffset="842"/>
     <contour>
       <point x="136" y="907" type="move" name="alef"/>

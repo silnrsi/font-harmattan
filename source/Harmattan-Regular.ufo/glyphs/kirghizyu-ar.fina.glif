@@ -2,8 +2,8 @@
 <glyph name="kirghizyu-ar.fina" format="1">
   <advance width="837"/>
   <outline>
-    <component base="absWawFin"/>
-    <component base="absVowelInvSmallV" xOffset="188" yOffset="-352"/>
+    <component base="waw-ar.fina"/>
+    <component base="vinvertedabove-ar" xOffset="188" yOffset="-352"/>
     <contour>
       <point x="331" y="983" type="move" name="alef"/>
     </contour>

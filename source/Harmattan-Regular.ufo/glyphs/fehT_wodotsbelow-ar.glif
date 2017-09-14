@@ -3,7 +3,7 @@
   <advance width="1746"/>
   <unicode hex="0760"/>
   <outline>
-    <component base="absDotlessFeh"/>
+    <component base="fehDotless-ar"/>
     <component base="_dot2h" xOffset="1412" yOffset="-211"/>
     <contour>
       <point x="501" y="426" type="move" name="alef"/>

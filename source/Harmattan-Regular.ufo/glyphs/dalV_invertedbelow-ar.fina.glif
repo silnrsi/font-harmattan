@@ -2,7 +2,7 @@
 <glyph name="dalVinvertedbelow-ar.fina" format="1">
   <advance width="893"/>
   <outline>
-    <component base="absDalFin"/>
+    <component base="dal-ar.fina"/>
     <component base="_invSmallV" xOffset="385" yOffset="-361"/>
     <contour>
       <point x="255" y="808" type="move" name="alef"/>

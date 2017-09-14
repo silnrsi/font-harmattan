@@ -98,7 +98,7 @@
       <point x="521" y="525"/>
       <point x="555" y="544" type="curve"/>
     </contour>
-    <component base="absShadda" xOffset="678" yOffset="-488"/>
-    <component base="absSuperscriptAlef" xOffset="713" yOffset="544"/>
+    <component base="shadda-ar" xOffset="678" yOffset="-488"/>
+    <component base="alefabove-ar" xOffset="713" yOffset="544"/>
   </outline>
 </glyph>

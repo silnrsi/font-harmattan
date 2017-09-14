@@ -2,7 +2,7 @@
 <glyph name="behVbelow-ar.init" format="1">
   <advance width="429"/>
   <outline>
-    <component base="absBehNoDotsIni"/>
+    <component base="behDotless-ar.init"/>
     <component base="_smallV" xOffset="230" yOffset="-294"/>
     <contour>
       <point x="147" y="501" type="move" name="alef"/>

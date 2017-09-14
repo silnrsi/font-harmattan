@@ -2,7 +2,7 @@
 <glyph name="zah-ar.init" format="1">
   <advance width="1036"/>
   <outline>
-    <component base="absTahIni"/>
+    <component base="tah-ar.init"/>
     <component base="_dot1" xOffset="697" yOffset="790"/>
     <contour>
       <point x="75" y="769" type="move" name="alef"/>

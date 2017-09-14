@@ -2,7 +2,7 @@
 <glyph name="alefMaksura-ar.init" format="1">
   <advance width="429"/>
   <outline>
-    <component base="absBehNoDotsIni"/>
+    <component base="behDotless-ar.init"/>
     <contour>
       <point x="147" y="501" type="move" name="alef"/>
     </contour>

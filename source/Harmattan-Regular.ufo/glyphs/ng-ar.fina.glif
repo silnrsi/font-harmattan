@@ -2,7 +2,7 @@
 <glyph name="ng-ar.fina" format="1">
   <advance width="1376"/>
   <outline>
-    <component base="absKafFin"/>
+    <component base="kaf-ar.fina"/>
     <component base="_dot3u" xOffset="596" yOffset="1079"/>
     <contour>
       <point x="356" y="1123" type="move" name="alef"/>

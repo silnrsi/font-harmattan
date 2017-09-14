@@ -2,7 +2,7 @@
 <glyph name="dadDotbelow-ar.fina" format="1">
   <advance width="1740"/>
   <outline>
-    <component base="absSadFin"/>
+    <component base="sad-ar.fina"/>
     <component base="_dot1" xOffset="1185" yOffset="813"/>
     <component base="_dot1" xOffset="1216" yOffset="-284"/>
     <contour>

@@ -2,7 +2,7 @@
 <glyph name="lamBar-ar.init" format="1">
   <advance width="436"/>
   <outline>
-    <component base="absLamIni"/>
+    <component base="lam-ar.init"/>
     <component base="_bar" xOffset="252" yOffset="582"/>
     <contour>
       <point x="0" y="804" type="move" name="alef"/>

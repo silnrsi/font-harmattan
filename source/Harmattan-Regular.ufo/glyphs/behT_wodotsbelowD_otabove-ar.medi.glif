@@ -2,7 +2,7 @@
 <glyph name="behTwodotsbelowDotabove-ar.medi" format="1">
   <advance width="580"/>
   <outline>
-    <component base="absBehNoDotsMed"/>
+    <component base="behDotless-ar.medi"/>
     <component base="_dot1" xOffset="227" yOffset="690"/>
     <component base="_dot2h" xOffset="275" yOffset="-227"/>
     <contour>

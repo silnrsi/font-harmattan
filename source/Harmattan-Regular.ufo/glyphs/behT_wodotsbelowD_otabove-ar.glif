@@ -3,7 +3,7 @@
   <advance width="1992"/>
   <unicode hex="0754"/>
   <outline>
-    <component base="absBehNoDots"/>
+    <component base="behDotless-ar"/>
     <component base="_dot1" xOffset="970" yOffset="727"/>
     <component base="_dot2h" xOffset="946" yOffset="-264"/>
     <contour>

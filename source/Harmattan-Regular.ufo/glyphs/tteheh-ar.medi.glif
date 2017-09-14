@@ -2,7 +2,7 @@
 <glyph name="tteheh-ar.medi" format="1">
   <advance width="580"/>
   <outline>
-    <component base="absBehNoDotsMed"/>
+    <component base="behDotless-ar.medi"/>
     <component base="_dot2v" xOffset="227" yOffset="816"/>
     <contour>
       <point x="131" y="1064" type="move" name="alef"/>

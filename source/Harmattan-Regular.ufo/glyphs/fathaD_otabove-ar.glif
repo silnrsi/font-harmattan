@@ -3,8 +3,8 @@
   <advance width="0"/>
   <unicode hex="08F5"/>
   <outline>
-    <component base="absTone1DotAbove" xOffset="54" yOffset="34"/>
-    <component base="absFatha" xOffset="-80" yOffset="-120"/>
+    <component base="toneonedotabove-ar" xOffset="54" yOffset="34"/>
+    <component base="fatha-ar" xOffset="-80" yOffset="-120"/>
     <contour>
       <point x="238" y="1211" type="move" name="_diaA"/>
     </contour>

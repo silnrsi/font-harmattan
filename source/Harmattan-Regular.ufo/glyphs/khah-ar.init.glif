@@ -2,7 +2,7 @@
 <glyph name="khah-ar.init" format="1">
   <advance width="1067"/>
   <outline>
-    <component base="absHahIni"/>
+    <component base="hah-ar.init"/>
     <component base="_dot1" xOffset="343" yOffset="813"/>
     <contour>
       <point x="113" y="830" type="move" name="alef"/>

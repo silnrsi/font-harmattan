@@ -3,7 +3,7 @@
   <advance width="0"/>
   <unicode hex="06ED"/>
   <outline>
-    <component base="absSmallHighMeemIsolatedForm" xOffset="-10" yOffset="-2098"/>
+    <component base="meemStopabove-ar" xOffset="-10" yOffset="-2098"/>
     <contour>
       <point x="94" y="-380" type="move" name="_dia2B"/>
     </contour>

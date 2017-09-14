@@ -2,7 +2,7 @@
 <glyph name="noonDotbelow-ar.fina" format="1">
   <advance width="1249"/>
   <outline>
-    <component base="absNoonGhunnaFin"/>
+    <component base="noonghunna-ar.fina"/>
     <component base="_dot1" xOffset="597" yOffset="570"/>
     <component base="_dot1" xOffset="571" yOffset="-759"/>
     <contour>

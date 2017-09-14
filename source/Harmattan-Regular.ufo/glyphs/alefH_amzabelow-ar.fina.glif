@@ -2,8 +2,8 @@
 <glyph name="alefHamzabelow-ar.fina" format="1">
   <advance width="467"/>
   <outline>
-    <component base="absAlefFin" xOffset="8"/>
-    <component base="absHamzaAbove" xOffset="14" yOffset="-1790"/>
+    <component base="alef-ar.fina" xOffset="8"/>
+    <component base="hamzaabove-ar" xOffset="14" yOffset="-1790"/>
     <contour>
       <point x="-23" y="1065" type="move" name="alef"/>
     </contour>

@@ -2,8 +2,8 @@
 <glyph name="alef_fatha-ar.warsh" format="1">
   <advance width="379"/>
   <outline>
-    <component base="absAlef"/>
-    <component base="absFatha" xOffset="-111" yOffset="-341"/>
+    <component base="alef-ar"/>
+    <component base="fatha-ar" xOffset="-111" yOffset="-341"/>
     <contour>
       <point x="38" y="1180" type="move" name="alef"/>
     </contour>

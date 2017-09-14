@@ -2,7 +2,7 @@
 <glyph name="sadThreedotsbelow-ar.init" format="1">
   <advance width="1083"/>
   <outline>
-    <component base="absSadIni"/>
+    <component base="sad-ar.init"/>
     <component base="_dot3d" xOffset="596" yOffset="-265"/>
     <contour>
       <point x="95" y="381" type="move" name="alef"/>

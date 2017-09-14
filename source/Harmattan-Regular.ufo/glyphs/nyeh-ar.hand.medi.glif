@@ -2,7 +2,7 @@
 <glyph name="nyeh-ar.hand.medi" format="1">
   <advance width="949"/>
   <outline>
-    <component base="absHahMed.hand"/>
+    <component base="hah-ar.hand.medi"/>
     <component base="_dot2h" xOffset="463" yOffset="-521"/>
     <contour>
       <point x="47" y="244" type="move" name="alef"/>

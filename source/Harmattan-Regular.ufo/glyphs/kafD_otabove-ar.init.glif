@@ -2,7 +2,7 @@
 <glyph name="kafDotabove-ar.init" format="1">
   <advance width="1139"/>
   <outline>
-    <component base="absKafIni"/>
+    <component base="kaf-ar.init"/>
     <component base="_dot1" xOffset="545" yOffset="1265"/>
     <contour>
       <point x="75" y="661" type="move" name="alef"/>

@@ -3,8 +3,8 @@
   <advance width="379"/>
   <unicode hex="0625"/>
   <outline>
-    <component base="absAlef" xOffset="10"/>
-    <component base="absHamzaAbove" xOffset="-62" yOffset="-1831"/>
+    <component base="alef-ar" xOffset="10"/>
+    <component base="hamzaabove-ar" xOffset="-62" yOffset="-1831"/>
     <contour>
       <point x="-21" y="1070" type="move" name="alef"/>
     </contour>

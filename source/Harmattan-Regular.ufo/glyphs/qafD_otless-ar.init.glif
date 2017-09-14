@@ -2,7 +2,7 @@
 <glyph name="qafDotless-ar.init" format="1">
   <advance width="809"/>
   <outline>
-    <component base="absDotlessFehIni"/>
+    <component base="fehDotless-ar.init"/>
     <contour>
       <point x="315" y="788" type="move" name="alef"/>
     </contour>

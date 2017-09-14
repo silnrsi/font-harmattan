@@ -2,7 +2,7 @@
 <glyph name="kehehThreedotsabove-ar.init" format="1">
   <advance width="1139"/>
   <outline>
-    <component base="absKafIni"/>
+    <component base="kaf-ar.init"/>
     <component base="_dot3u" xOffset="545" yOffset="1362"/>
     <contour>
       <point x="75" y="661" type="move" name="alef"/>

@@ -3,7 +3,7 @@
   <advance width="1266"/>
   <unicode hex="08A5"/>
   <outline>
-    <component base="absQafNoDots"/>
+    <component base="qafDotless-ar"/>
     <component base="_dot2h" xOffset="813" yOffset="1043"/>
     <component base="_dot1" xOffset="615" yOffset="-499"/>
     <contour>

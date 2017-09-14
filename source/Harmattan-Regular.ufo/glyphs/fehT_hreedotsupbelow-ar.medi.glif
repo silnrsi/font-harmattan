@@ -2,7 +2,7 @@
 <glyph name="fehThreedotsupbelow-ar.medi" format="1">
   <advance width="797"/>
   <outline>
-    <component base="absDotlessFehMed"/>
+    <component base="fehDotless-ar.medi"/>
     <component base="_dot3u" xOffset="385" yOffset="-389"/>
     <contour>
       <point x="324" y="814" type="move" name="alef"/>

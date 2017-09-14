@@ -2,7 +2,7 @@
 <glyph name="kehehThreedotsabove-ar.fina" format="1">
   <advance width="1313"/>
   <outline>
-    <component base="absKehehFin"/>
+    <component base="keheh-ar.fina"/>
     <component base="_dot3u" xOffset="673" yOffset="1339"/>
     <contour>
       <point x="180" y="661" type="move" name="alef"/>

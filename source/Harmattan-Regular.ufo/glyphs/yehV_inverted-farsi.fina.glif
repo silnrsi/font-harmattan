@@ -2,8 +2,8 @@
 <glyph name="yehVinverted-farsi.fina" format="1">
   <advance width="1296"/>
   <outline>
-    <component base="absYehFin.noDots"/>
-    <component base="absVowelInvSmallV" xOffset="723" yOffset="-792"/>
+    <component base="yeh-ar.noDots.fina"/>
+    <component base="vinvertedabove-ar" xOffset="723" yOffset="-792"/>
     <contour>
       <point x="465" y="0" type="move" name="alef"/>
     </contour>

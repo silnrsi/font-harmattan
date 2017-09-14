@@ -2,7 +2,7 @@
 <glyph name="dadDotbelow-ar.half" format="1">
   <advance width="1216"/>
   <outline>
-    <component base="absSad.half"/>
+    <component base="sad-ar.half"/>
     <component base="_dot1" xOffset="716" yOffset="813"/>
     <component base="_dot1" xOffset="738" yOffset="-284"/>
     <contour>

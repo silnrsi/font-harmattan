@@ -2,7 +2,7 @@
 <glyph name="yeh-farsi.fina" format="1">
   <advance width="1296"/>
   <outline>
-    <component base="absYehFin.noDots"/>
+    <component base="yeh-ar.noDots.fina"/>
     <contour>
       <point x="465" y="0" type="move" name="alef"/>
     </contour>

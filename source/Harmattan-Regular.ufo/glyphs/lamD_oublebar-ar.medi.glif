@@ -2,7 +2,7 @@
 <glyph name="lamDoublebar-ar.medi" format="1">
   <advance width="477"/>
   <outline>
-    <component base="absLamMed"/>
+    <component base="lam-ar.medi"/>
     <component base="_bar2" xOffset="277" yOffset="582"/>
     <contour>
       <point x="0" y="804" type="move" name="alef"/>

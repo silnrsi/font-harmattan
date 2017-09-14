@@ -2,7 +2,7 @@
 <glyph name="ainThreedots-ar.medi" format="1">
   <advance width="868"/>
   <outline>
-    <component base="absAinMed"/>
+    <component base="ain-ar.medi"/>
     <component base="_dot3u" xOffset="432" yOffset="957"/>
     <contour>
       <point x="160" y="910" type="move" name="alef"/>

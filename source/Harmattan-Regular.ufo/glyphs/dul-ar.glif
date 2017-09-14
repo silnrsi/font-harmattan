@@ -3,7 +3,7 @@
   <advance width="781"/>
   <unicode hex="068E"/>
   <outline>
-    <component base="absDal"/>
+    <component base="dal-ar"/>
     <component base="_dot3u" xOffset="263" yOffset="963"/>
     <contour>
       <point x="33" y="1079" type="move" name="alef"/>

@@ -2,8 +2,8 @@
 <glyph name="yehTwodotsbelowHamzaabove-ar.fina" format="1">
   <advance width="1296"/>
   <outline>
-    <component base="absYehFin.noDots"/>
-    <component base="absHamzaAbove" xOffset="646" yOffset="-1123"/>
+    <component base="yeh-ar.noDots.fina"/>
+    <component base="hamzaabove-ar" xOffset="646" yOffset="-1123"/>
     <component base="_dot2h" xOffset="573" yOffset="-920"/>
     <contour>
       <point x="465" y="0" type="move" name="alef"/>

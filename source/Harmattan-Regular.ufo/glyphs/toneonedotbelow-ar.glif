@@ -3,7 +3,7 @@
   <advance width="0"/>
   <unicode hex="08ED"/>
   <outline>
-    <component base="absTone1DotAbove" yOffset="-1820"/>
+    <component base="toneonedotabove-ar" yOffset="-1820"/>
     <contour>
       <point x="121" y="-283" type="move" name="_diaB"/>
     </contour>

@@ -3,7 +3,7 @@
   <advance width="1265"/>
   <unicode hex="06AC"/>
   <outline>
-    <component base="absKaf"/>
+    <component base="kaf-ar"/>
     <component base="_dot1" xOffset="550" yOffset="999"/>
     <contour>
       <point x="350" y="987" type="move" name="alef"/>

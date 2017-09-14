@@ -2,7 +2,7 @@
 <glyph name="rehv-ar.fina" format="1">
   <advance width="674"/>
   <outline>
-    <component base="absRehFin"/>
+    <component base="reh-ar.fina"/>
     <component base="_smallV" xOffset="321" yOffset="573"/>
     <contour>
       <point x="264" y="822" type="move" name="alef"/>

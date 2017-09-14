@@ -3,7 +3,7 @@
   <advance width="396"/>
   <unicode hex="0674"/>
   <outline>
-    <component base="absHamzaAbove" xOffset="-63" yOffset="-300"/>
+    <component base="hamzaabove-ar" xOffset="-63" yOffset="-300"/>
     <contour>
       <point x="167" y="1476" type="move" name="diaA"/>
     </contour>

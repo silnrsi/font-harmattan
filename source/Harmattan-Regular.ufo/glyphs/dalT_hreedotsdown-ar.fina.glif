@@ -2,7 +2,7 @@
 <glyph name="dalThreedotsdown-ar.fina" format="1">
   <advance width="893"/>
   <outline>
-    <component base="absDalFin"/>
+    <component base="dal-ar.fina"/>
     <component base="_dot3d" xOffset="222" yOffset="1271"/>
     <contour>
       <point x="166" y="1419" type="move" name="alef"/>

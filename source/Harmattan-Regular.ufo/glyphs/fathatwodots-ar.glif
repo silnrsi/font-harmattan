@@ -3,9 +3,9 @@
   <advance width="0"/>
   <unicode hex="065E"/>
   <outline>
-    <component base="absFatha" xOffset="-210" yOffset="-330"/>
-    <component base="absTone1DotAbove" xOffset="-111" yOffset="-162"/>
-    <component base="absTone1DotAbove" xOffset="38" yOffset="-490"/>
+    <component base="fatha-ar" xOffset="-210" yOffset="-330"/>
+    <component base="toneonedotabove-ar" xOffset="-111" yOffset="-162"/>
+    <component base="toneonedotabove-ar" xOffset="38" yOffset="-490"/>
     <contour>
       <point x="90" y="811" type="move" name="_diaA"/>
     </contour>

@@ -2,7 +2,7 @@
 <glyph name="jeemTwodotsabove-ar.fina" format="1">
   <advance width="944"/>
   <outline>
-    <component base="absHahFin"/>
+    <component base="hah-ar.fina"/>
     <component base="_dot2h" xOffset="386" yOffset="826"/>
     <component base="_dot1" xOffset="483" yOffset="-125"/>
     <contour>

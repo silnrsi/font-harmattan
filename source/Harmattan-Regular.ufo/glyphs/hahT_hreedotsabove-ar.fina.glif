@@ -2,7 +2,7 @@
 <glyph name="hahThreedotsabove-ar.fina" format="1">
   <advance width="944"/>
   <outline>
-    <component base="absHahFin"/>
+    <component base="hah-ar.fina"/>
     <component base="_dot3u" xOffset="386" yOffset="923"/>
     <contour>
       <point x="110" y="954" type="move" name="alef"/>

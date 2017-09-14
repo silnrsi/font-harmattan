@@ -3,7 +3,7 @@
   <advance width="1276"/>
   <unicode hex="06AF"/>
   <outline>
-    <component base="absKeheh"/>
+    <component base="keheh-ar"/>
     <component base="_gafBarShort" xOffset="287" yOffset="755"/>
     <contour>
       <point x="117" y="661" type="move" name="alef"/>

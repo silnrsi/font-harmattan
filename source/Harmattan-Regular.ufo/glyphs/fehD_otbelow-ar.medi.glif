@@ -2,7 +2,7 @@
 <glyph name="fehDotbelow-ar.medi" format="1">
   <advance width="797"/>
   <outline>
-    <component base="absDotlessFehMed"/>
+    <component base="fehDotless-ar.medi"/>
     <component base="_dot1" xOffset="358" yOffset="983"/>
     <component base="_dot1" xOffset="385" yOffset="-272"/>
     <contour>

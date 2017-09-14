@@ -2,7 +2,7 @@
 <glyph name="noonAfrican-ar.fina" format="1">
   <advance width="1249"/>
   <outline>
-    <component base="absNoonGhunnaFin"/>
+    <component base="noonghunna-ar.fina"/>
     <contour>
       <point x="597" y="388" type="move" name="above"/>
     </contour>

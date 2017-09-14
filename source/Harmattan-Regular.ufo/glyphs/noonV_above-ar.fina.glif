@@ -2,7 +2,7 @@
 <glyph name="noonVabove-ar.fina" format="1">
   <advance width="1249"/>
   <outline>
-    <component base="absNoonGhunnaFin"/>
+    <component base="noonghunna-ar.fina"/>
     <component base="_dot1_smallV" xOffset="597" yOffset="592"/>
     <contour>
       <point x="376" y="1004" type="move" name="alef"/>

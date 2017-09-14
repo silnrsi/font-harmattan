@@ -2,8 +2,8 @@
 <glyph name="shadda_dammatan-ar.sixNine" format="1">
   <advance width="0"/>
   <outline>
-    <component base="absShadda" xOffset="-30" yOffset="-160"/>
-    <component base="absDammatan.sixNine" xOffset="22" yOffset="218"/>
+    <component base="shadda-ar" xOffset="-30" yOffset="-160"/>
+    <component base="dammatan-ar.sixNine" xOffset="22" yOffset="218"/>
     <contour>
       <point x="260" y="1146" type="move" name="_diaA"/>
     </contour>
