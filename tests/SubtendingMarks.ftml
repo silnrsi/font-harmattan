@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='Rendering check'>
+  <test label='Check'><string>RenderingUnknown</string></test>
+  </testgroup>
+  <testgroup label='Subtending Marks'>
+  <test label='U+0600'><string>\u0628\u0600\u0645 \u0600\u0032 \u0600\u0032\u0032 \u0600\u0032\u0032\u0032 \u0600\u0031\u0032</string><comment>number-ar+two</comment></test>
+  <test label='U+0601'><string>\u0628\u0601\u0645 \u0601\u0032 \u0601\u0032\u0032 \u0601\u0032\u0032\u0032 \u0601\u0032\u0032\u0032\u0032 \u0601\u0031\u0032</string><comment>year-ar+two</comment></test>
+  <test label='U+0602'><string>\u0628\u0602\u0645 \u0602\u0032 \u0602\u0032\u0032 \u0602\u0031\u0032</string><comment>footnotemarker-ar+two</comment></test>
+  <test label='U+0603'><string>\u0628\u0603\u0645 \u0603\u0032 \u0603\u0032\u0032 \u0603\u0032\u0032\u0032 \u0603\u0032\u0032\u0032\u0032 \u0603\u0031\u0032</string><comment>pagenumber-ar+two</comment></test>
+  <test label='U+0604'><string>\u0628\u0604\u0645 \u0604\u0032 \u0604\u0032\u0032 \u0604\u0032\u0032\u0032 \u0604\u0032\u0032\u0032\u0032 \u0604\u0031\u0032</string><comment>samvat-ar+two</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>endofayah-ar+two</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>endofayah-ar+two</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0032 \u06DD\u0032\u0032 \u06DD\u0032\u0032\u0032 \u06DD\u0031\u0032</string><comment>endofayah-ar+two</comment></test>
+  <test label='U+0600'><string>\u0628\u0600\u0645 \u0600\u0668 \u0600\u0668\u0668 \u0600\u0668\u0668\u0668 \u0600\u0661\u0662</string><comment>number-ar+eight-ar</comment></test>
+  <test label='U+0601'><string>\u0628\u0601\u0645 \u0601\u0668 \u0601\u0668\u0668 \u0601\u0668\u0668\u0668 \u0601\u0668\u0668\u0668\u0668 \u0601\u0661\u0662</string><comment>year-ar+eight-ar</comment></test>
+  <test label='U+0602'><string>\u0628\u0602\u0645 \u0602\u0668 \u0602\u0668\u0668 \u0602\u0661\u0662</string><comment>footnotemarker-ar+eight-ar</comment></test>
+  <test label='U+0603'><string>\u0628\u0603\u0645 \u0603\u0668 \u0603\u0668\u0668 \u0603\u0668\u0668\u0668 \u0603\u0668\u0668\u0668\u0668 \u0603\u0661\u0662</string><comment>pagenumber-ar+eight-ar</comment></test>
+  <test label='U+0604'><string>\u0628\u0604\u0645 \u0604\u0668 \u0604\u0668\u0668 \u0604\u0668\u0668\u0668 \u0604\u0668\u0668\u0668\u0668 \u0604\u0661\u0662</string><comment>samvat-ar+eight-ar</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>endofayah-ar+eight-ar</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>endofayah-ar+eight-ar</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>endofayah-ar+eight-ar</comment></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Harmattan)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <styles>
+    <style name='cv80_1' feats='"cv80" 1'/>
+    <style name='cv80_2' feats='"cv80" 2'/>
+  </styles>
+  <title>SubtendingMarks test</title>
+  </head>
+</ftml>

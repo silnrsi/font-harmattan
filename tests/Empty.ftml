@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='Rendering check'>
+  <test label='Check'><string>RenderingUnknown</string></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Harmattan)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <styles>
+  </styles>
+  <title>Empty test</title>
+  </head>
+</ftml>
