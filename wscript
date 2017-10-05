@@ -72,7 +72,7 @@ for style in ('-Regular', ):  # '-Bold'):
         graphite=gdl(APPNAME + style + '.gdl',
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
             master = 'source/graphite/master.gdl',
-            make_params = MAKE_PARAMS + ' --package "../tools/perllib/gdl_arab.pm"'),
+            make_params = MAKE_PARAMS),
         opentype = fea(APPNAME + style + '.fea', 
             master = 'source/opentype/master.fea',
             preinclude = 'source/opentype/preinclude.fea',

@@ -119,7 +119,7 @@ pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 
 	
 	// QUESTION: are there more things that need to be decomposed?
-	cAlefPlusMark _ >  absAlef:1  cAlefMark$1:1 ;
+	cAlefPlusMark _ >  g_alef_ar:1  cAlefMark$1:1 ;
 	
 	if (graphite1mirror)
 		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
@@ -159,7 +159,7 @@ pass(3)	// Contextual forms, lam-alef ligature, subtending marks
 	
 	// Here is JK's elegant solution to contextual forms using a ligature glyph...
 /***
-	(absLam absLamFin)=L  absAlef=A  > 
+	(g_lam_ar g_lam_ar_fina)=L  g_alef_ar=A  > 
 		(absLamAlef absLamAlefFin):(L A) {component {lam.ref = @L; alef.ref=@A } } gAlefPlaceholder
 		/ _  MARKS  _  MARKS ^;
 ***/
@@ -169,8 +169,8 @@ pass(3)	// Contextual forms, lam-alef ligature, subtending marks
 
 	// All other contextual forms
 	
-	(cDualLinkIsol cDualLinkFina absTatweel g_zerojoin) (cDualLinkIsol cRightLinkIsol absTatweel g_zerojoin) > 
-		(cDualLinkInit cDualLinkMedi absTatweel g_zerojoin) (cDualLinkFina cRightLinkFina absTatweel g_zerojoin)
+	(cDualLinkIsol cDualLinkFina g_kashida_ar g_zerowidthjoiner) (cDualLinkIsol cRightLinkIsol g_kashida_ar g_zerowidthjoiner) > 
+		(cDualLinkInit cDualLinkMedi g_kashida_ar g_zerowidthjoiner) (cDualLinkFina cRightLinkFina g_kashida_ar g_zerowidthjoiner)
 		/ _  MARKS ^ _ ;
 
 
@@ -196,19 +196,19 @@ endpass; // 3
 
 pass(4)	// Features, special behaviors
 
-	cLowHamzaBase  absHamzaAbove  >  cLowHamzaComposed:(1 2)  _;
+	cLowHamzaBase  g_hamzaabove_ar  >  cLowHamzaComposed:(1 2)  _;
 	
 	if (warshDiacritics == std)
-		(absAlef absAlefFin)=A absHamzaAbove=H > (absAlefHamzaAbove absAlefHamzaAboveFin):(A H) _ / _ cMark1? _ ;
-		(absAlef absAlefFin)=A absHamzaBelow=H > (absAlefHamzaBelow absAlefHamzaBelowFin):(A H) _ / _ cMark1? _ ;
-		absLamIni_preAlef=L    absHamzaAbove=H > absLamHamzaIni_preAlef:(L H) _ / _ cMark1? _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ / _ cMark1? _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar g_alef_hamzabelow_ar_fina):(A H) _ / _ cMark1? _ ;
+		g_lam_ar_pre_alef_init=L    g_hamzaabove_ar=H > g_lam_hamza_ar_pre_alef_init:(L H) _ / _ cMark1? _ ;
 	endif;
 	if (warshDiacritics != std)
-		(absAlef absAlefFin)=A absHamzaAbove=H > (absAlefHamzaAbove_warsh absAlefHamzaAboveFin_warsh):(A H) _ / _ cMark1? _ ;
-		(absAlef absAlefFin)=A absHamzaBelow=H > (absAlefHamzaBelow_warsh absAlefHamzaBelowFin_warsh):(A H) _ / _ cMark1? _ ;
-		absLamIni_preAlef=L    absHamzaAbove=H > absLamHamzaIni_preAlef_warsh:(L H) _ / _ cMark1? _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar_warsh g_alef_hamzaabove_ar_warsh_fina):(A H) _ / _ cMark1? _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar_warsh g_alef_hamzabelow_ar_warsh_fina):(A H) _ / _ cMark1? _ ;
+		g_lam_ar_pre_alef_init=L    g_hamzaabove_ar=H > g_lam_hamza_ar_pre_alef_warsh_init:(L H) _ / _ cMark1? _ ;
 		if (warshDiacritics == touching)
-				absAlef=A (absFatha absKasra)=V > (absAlefFatha_warsh absAlefKasra_warsh)$V:(A,V) _ / _  cMark1? _ ;
+				g_alef_ar=A (g_fatha_ar g_kasra_ar)=V > (g_alef_fatha_ar_warsh g_alef_kasra_ar_warsh)$V:(A,V) _ / _  cMark1? _ ;
 		endif;
 	endif;
 
@@ -229,13 +229,13 @@ pass(4)	// Features, special behaviors
 	endif;
 
 	if (shaddaKasra == std)
-		absShadda  cShaddaKasraMarks  >  _  cShaddaKasraLigatures:(1 2);
+		g_shadda_ar  cShaddaKasraMarks  >  _  cShaddaKasraLigatures:(1 2);
 	endif;
 	
 	// QUESTION: do we really need these if we're doing the reordering above?
 	// TODO: if we use them, make them into real ligatures
-	absShadda     cShaddaMarks >  _  cShaddaLigatures:(1 2) / _ ^ _ ;
-	absHamzaAbove cHamzaMarks  >  _  cHamzaLigatures:(1 2)  / _ ^ _ ;
+	g_shadda_ar     cShaddaMarks >  _  cShaddaLigatures:(1 2) / _ ^ _ ;
+	g_hamzaabove_ar cHamzaMarks  >  _  cHamzaLigatures:(1 2)  / _ ^ _ ;
 
 	if (dammaAlt == short)
 		cno_short > cshort;
@@ -246,7 +246,7 @@ pass(4)	// Features, special behaviors
 	endif;
 
 	if (daggeralefAlt == large)
-		absSuperscriptAlef  >  absSuperscriptAlef_large  /  cTakesLargeDaggerAlef  _;
+		g_alefabove_ar  >  g_alefabove_ar_large  /  cTakesLargeDaggerAlef  _;
 	endif;	
 
 	if (sukunAlt == jasmDown)
@@ -356,7 +356,7 @@ pass(2)
 
 	// Special attachment points for lam-alef ligatures, to avoid collisions:
 	cAllAlefFinAfterLam=B cAnyMarksBelow {attach {to=@B; at=dia2BS; with=diaBM}}
-		/ (absLamThreeDotsBelowIni_preAlef absLamThreeDotsBelowMed_preAlef cAnyMarksBelow) MARKSABOVE _ ^ MARKSABOVE _ ;
+		/ (g_lam_threedotsbelow_ar_pre_alef_init g_lam_threedotsbelow_ar_pre_alef_medi cAnyMarksBelow) MARKSABOVE _ ^ MARKSABOVE _ ;
 
 
 endpass; // 2
@@ -372,7 +372,7 @@ pass(3)
 	cNarrowIni {advance.x += 150m} / (cRehAll cWawAll) MARKS _ MARKSABOVE cAnyMarksBelow ;
 
 	// loosen from following alef when with wide diac below it
-	absAlef    {advance.x += 150m} / (cRehAll cWawAll) MARKS _ MARKS (absRightArrowheadBelow absLeftArrowheadBelow) ;
+	g_alef_ar    {advance.x += 150m} / (cRehAll cWawAll) MARKS _ MARKS (g_rightarrowheadbelow_ar g_leftarrowheadbelow_ar) ;
 	
 	// leave certain cases alone:
 	// certain glyphs with diac below:
@@ -399,21 +399,21 @@ pass(3)
 	// Other Kerning:
 	
 	// add space between lam-alef+markabove and tall things after:
-	cTall {advance.x +=170m} / absAlefFin_postLamIni MARKS cAnyMarksAbove MARKS _ ;
-	cTall {advance.x +=170m} / absAlefMaddaAboveFin_postLamIni            MARKS _ ;
-	cTall {advance.x +=150m} / absAlefMaddaAboveFin_postLamIni_small      MARKS _ ;
-	cTall {advance.x +=150m} / absAlefHamzaAboveFin_postLamIni            MARKS _ ;
-	cTall {advance.x +=170m} / absAlefWaslaFin_postLamIni                 MARKS _ ;
+	cTall {advance.x +=170m} / g_alef_ar_post_lam_ini_fina MARKS cAnyMarksAbove MARKS _ ;
+	cTall {advance.x +=170m} / g_alef_madda_ar_post_lam_ini_fina            MARKS _ ;
+	cTall {advance.x +=150m} / g_alef_madda_ar_post_lam_ini_small_fina      MARKS _ ;
+	cTall {advance.x +=150m} / g_alef_hamzaabove_ar_post_lam_ini_fina            MARKS _ ;
+	cTall {advance.x +=170m} / g_alef_wasla_ar_post_lam_ini_fina                 MARKS _ ;
 
-	cNarrowIni {advance.x +=170m} / absAlefFin_postLamIni MARKS cAnyMarksAbove MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=170m} / absAlefMaddaAboveFin_postLamIni            MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=150m} / absAlefMaddaAboveFin_postLamIni_small      MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=150m} / absAlefHamzaAboveFin_postLamIni            MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=170m} / absAlefWaslaFin_postLamIni                 MARKS _ MARKS cAnyMarksAbove;
+	cNarrowIni {advance.x +=170m} / g_alef_ar_post_lam_ini_fina MARKS cAnyMarksAbove MARKS _ MARKS cAnyMarksAbove;
+	cNarrowIni {advance.x +=170m} / g_alef_madda_ar_post_lam_ini_fina            MARKS _ MARKS cAnyMarksAbove;
+	cNarrowIni {advance.x +=150m} / g_alef_madda_ar_post_lam_ini_small_fina      MARKS _ MARKS cAnyMarksAbove;
+	cNarrowIni {advance.x +=150m} / g_alef_hamzaabove_ar_post_lam_ini_fina            MARKS _ MARKS cAnyMarksAbove;
+	cNarrowIni {advance.x +=170m} / g_alef_wasla_ar_post_lam_ini_fina                 MARKS _ MARKS cAnyMarksAbove;
 
 	
 	// lower marksBelow on certain bases when followed by yehbarree
-	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS absYehBarreeFin ;
+	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS g_yehbarree_ar_fina ;
 	
 endpass; // 3	
 
