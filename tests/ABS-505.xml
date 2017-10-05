@@ -1,36 +1,48 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='TestStyleSheet.xsl'?>
-<strings label='ABS-505'>
-  <string label='Check'><text>RenderingUnknown</text></string>
-  <string label='OK'><text></text></string>
-  <string label='image[11].png'><text>&#x64a;&#x64e;&#x63a;&#x650;&#x631;&#x652;&#x645;&#x64e;&#x645;&#x64e;</text></string>
-  <string label='image[1].png'><text>&#x062b;&#x65c;&#x6cc;&#x670;</text></string>
-  <string label='image[5].png'><text>&#x625;&#x650;&#x633;&#x652;&#x631;&#x64e;&#x627;&#x626;&#x650;&#x64a;&#x652;&#x644;&#x64e;</text></string>
-  <string label='image[3].png'><text>&#x6A2;&#x650;&#x631;&#x633;&#x652;&#x62A;&#x64F;&#x648;&#x62B;&#x650;&#x64A;</text></string>
-  <string label='image[13].png'><text>&#x6a9;&#x64f;&#x648;&#x64a;&#x64e;&#x631;&#x652;&#x648;&#x64e;&#x631;&#x652;</text></string>
-  <string label='jaaroy.jpg'><text>&#x62c;&#x64e;&#x627;&#x631;&#x8F7;&#x64A;&#x652;</text></string>
-  <string label='image[9].png'><text>&#x62a;&#x64e;&#x628;&#x651;&#x64e;&#x62a;&#x64e;&#x631;&#x652;</text></string>
-  <string label='screenshot-1.jpg'><text>&#x64a;&#x650;&#x644;&#x650;&#x641;&#x8f9;</text></string>
-  <string label='image[7].png'><text>&#x623;&#x64e;&#x644;&#x652;&#x6a9;&#x64e;&#x648;&#x64e;&#x631;&#x650;&#x6ba;&#x652;</text></string>
-  <string label='Needs fixing'><text></text></string>
-  <string label='Yeh Barree'><text>&#x6a9;&#x652;&#x62c;&#x650;&#x6d2;</text></string>
-  <string label='elifas.jpg'><text>&#x627;&#x8F9;&#x644;&#x650;&#x641;&#x64e;&#x633;&#x652;</text></string>
-  <string label='doorcee.png'><text>&#x62F;&#x8F7;&#x648;&#x631;&#x652;&#x756;&#x8F9;&#x64A;</text></string>
-  <string label='image[15].png'><text>&#x63a;&#x64e;&#x6d1;&#x64f;&#x648;&#x6d1;&#x650;&#x646;&#x64e;</text></string>
-  <string label='screenshot-3.jpg'><text>&#x631;&#x8F7;&#x756;&#x651;&#x8f9;&#x64a;</text></string>
-  <string label='screenshot-2.jpg'><text>&#x6af;&#x8F7;&#x62f;&#x8f7;&#x631;&#x8f7;&#x75d;&#x652;</text></string>
-  <string label='screenshot-4.jpg'><text>&#x756;&#x64f;&#x631;&#x652;&#x752;&#x650;&#x644;&#x8f7;&#x648;</text></string>
-  <string label='r and following e.jpg'><text>&#x62e;&#x64e;&#x627;&#x631;&#x652;&#x644;&#x8F9;&#x64a;&#x646;&#x652;</text></string>
-  <string label='screenshot-5.jpg'><text>&#x628;&#x644;&#x627;&#x64e;&#x644;&#x64e;&#x644;&#x652; &#x644;&#x627;&#x64e;&#x644;&#x64e;&#x644;&#x652;</text></string>
-  <string label='Hannah Sneller'><text>&#x6A9;&#x8F7;&#x648;&#x646;&#x020;&#x62f;&#x650;&#x8A9;&#x64e;&#x627;&#x645;&#x64e;&#x631;&#x650;&#x64a;&#x65c;&#x646;&#x020;&#x6a9;&#x650;&#x646;&#x650;&#x020;&#x627;&#x64e;&#x646;&#x020;&#x75d;&#x64e;</text></string>
-  <string label='Hannah Sneller'><text>&#x627;&#x64e;&#x020;&#x62f;&#x64e;&#x020;&#x641;&#x8F7;&#x648;&#x646;&#x020;&#x633;&#x64f;&#x020;&#x644;&#x64e;&#x627;&#x648;&#x64e;&#x631;&#x64e;&#x020;&#x627;&#x650;&#x646;&#x020;&#x62f;&#x64e;</text></string>
-  <string label='Kanuri Barbie'><text>&#x631;&#x650;&#x64a;&#x65c;&#x631;&#x64f;</text></string>
-  <string label='Ace Collisions'><text></text></string>
-  <string label='Ace'><text>&#x627;&#x650;&#x64a;&#x651;&#x64e;&#x646;&#x652;</text></string>
-  <string label='Ace'><text>&#x627;&#x650;&#x646;&#x62a;&#x651;&#x64f;&#x644;&#x64e;&#x628;&#x652;</text></string>
-  <string label='Ace'><text>&#x62f;&#x650;&#x62f;&#x650;&#x632;&#x64e;&#x645;&#x651;&#x64e;&#x632;&#x64e;&#x644;&#x64e;&#x646;&#x652;</text></string>
-  <string label='Ace almost Collisions'><text></text></string>
-  <string label='Ace'><text>&#x643;&#x64e;&#x648;&#x64e;&#x646;&#x652;&#x632;&#x64e;&#x62a;&#x633;&#x64e;&#x62f;&#x651;&#x64e;&#x631;&#x652;&#x641;&#x650;&#x62a;&#x652;</text></string>
-  <string label='Ace'><text>&#x627;&#x650;&#x632;&#x652;&#x644;&#x64e;&#x64a;&#x652;</text></string>
-  <string label='Ace'><text>&#x627;&#x650;&#x62a;&#x651;&#x650;&#x645;&#x64e;&#x644;&#x652;</text></string>
-</strings>
+<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<ftml version='1.0'>
+  <testgroup label='Rendering check'>
+  <test label='Check'><test>RenderingUnknown</test></test>
+  </testgroup>
+  <testgroup label='OK'>
+  <test label='image[11].png'><string>&#x64a;&#x64e;&#x63a;&#x650;&#x631;&#x652;&#x645;&#x64e;&#x645;&#x64e;</string></test>
+  <test label='image[1].png'><string>&#x062b;&#x65c;&#x6cc;&#x670;</string></test>
+  <test label='image[5].png'><string>&#x625;&#x650;&#x633;&#x652;&#x631;&#x64e;&#x627;&#x626;&#x650;&#x64a;&#x652;&#x644;&#x64e;</string></test>
+  <test label='image[3].png'><string>&#x6A2;&#x650;&#x631;&#x633;&#x652;&#x62A;&#x64F;&#x648;&#x62B;&#x650;&#x64A;</string></test>
+  <test label='image[13].png'><string>&#x6a9;&#x64f;&#x648;&#x64a;&#x64e;&#x631;&#x652;&#x648;&#x64e;&#x631;&#x652;</string></test>
+  <test label='jaaroy.jpg'><string>&#x62c;&#x64e;&#x627;&#x631;&#x8F7;&#x64A;&#x652;</string></test>
+  <test label='image[9].png'><string>&#x62a;&#x64e;&#x628;&#x651;&#x64e;&#x62a;&#x64e;&#x631;&#x652;</string></test>
+  <test label='screenshot-1.jpg'><string>&#x64a;&#x650;&#x644;&#x650;&#x641;&#x8f9;</string></test>
+  <test label='image[7].png'><string>&#x623;&#x64e;&#x644;&#x652;&#x6a9;&#x64e;&#x648;&#x64e;&#x631;&#x650;&#x6ba;&#x652;</string></test>
+	</testgroup>
+  <testgroup label='Needs fixing'>
+  <test label='Yeh Barree'><string>&#x6a9;&#x652;&#x62c;&#x650;&#x6d2;</string></test>
+  <test label='elifas.jpg'><string>&#x627;&#x8F9;&#x644;&#x650;&#x641;&#x64e;&#x633;&#x652;</string></test>
+  <test label='doorcee.png'><string>&#x62F;&#x8F7;&#x648;&#x631;&#x652;&#x756;&#x8F9;&#x64A;</string></test>
+  <test label='image[15].png'><string>&#x63a;&#x64e;&#x6d1;&#x64f;&#x648;&#x6d1;&#x650;&#x646;&#x64e;</string></test>
+  <test label='screenshot-3.jpg'><string>&#x631;&#x8F7;&#x756;&#x651;&#x8f9;&#x64a;</string></test>
+  <test label='screenshot-2.jpg'><string>&#x6af;&#x8F7;&#x62f;&#x8f7;&#x631;&#x8f7;&#x75d;&#x652;</string></test>
+  <test label='screenshot-4.jpg'><string>&#x756;&#x64f;&#x631;&#x652;&#x752;&#x650;&#x644;&#x8f7;&#x648;</string></test>
+  <test label='r and following e.jpg'><string>&#x62e;&#x64e;&#x627;&#x631;&#x652;&#x644;&#x8F9;&#x64a;&#x646;&#x652;</string></test>
+  <test label='screenshot-5.jpg'><string>&#x628;&#x644;&#x627;&#x64e;&#x644;&#x64e;&#x644;&#x652; &#x644;&#x627;&#x64e;&#x644;&#x64e;&#x644;&#x652;</string></test>
+  <test label='Hannah Sneller'><string>&#x6A9;&#x8F7;&#x648;&#x646;&#x020;&#x62f;&#x650;&#x8A9;&#x64e;&#x627;&#x645;&#x64e;&#x631;&#x650;&#x64a;&#x65c;&#x646;&#x020;&#x6a9;&#x650;&#x646;&#x650;&#x020;&#x627;&#x64e;&#x646;&#x020;&#x75d;&#x64e;</string></test>
+  <test label='Hannah Sneller'><string>&#x627;&#x64e;&#x020;&#x62f;&#x64e;&#x020;&#x641;&#x8F7;&#x648;&#x646;&#x020;&#x633;&#x64f;&#x020;&#x644;&#x64e;&#x627;&#x648;&#x64e;&#x631;&#x64e;&#x020;&#x627;&#x650;&#x646;&#x020;&#x62f;&#x64e;</string></test>
+  <test label='Kanuri Barbie'><string>&#x631;&#x650;&#x64a;&#x65c;&#x631;&#x64f;</string></test>
+  <test label='Ace Collisions'><string></string></test>
+  <test label='Ace'><string>&#x627;&#x650;&#x64a;&#x651;&#x64e;&#x646;&#x652;</string></test>
+  <test label='Ace'><string>&#x627;&#x650;&#x646;&#x62a;&#x651;&#x64f;&#x644;&#x64e;&#x628;&#x652;</string></test>
+  <test label='Ace'><string>&#x62f;&#x650;&#x62f;&#x650;&#x632;&#x64e;&#x645;&#x651;&#x64e;&#x632;&#x64e;&#x644;&#x64e;&#x646;&#x652;</string></test>
+  <test label='Ace almost Collisions'><string></string></test>
+  <test label='Ace'><string>&#x643;&#x64e;&#x648;&#x64e;&#x646;&#x652;&#x632;&#x64e;&#x62a;&#x633;&#x64e;&#x62f;&#x651;&#x64e;&#x631;&#x652;&#x641;&#x650;&#x62a;&#x652;</string></test>
+  <test label='Ace'><string>&#x627;&#x650;&#x632;&#x652;&#x644;&#x64e;&#x64a;&#x652;</string></test>
+  <test label='Ace'><string>&#x627;&#x650;&#x62a;&#x651;&#x650;&#x645;&#x64e;&#x644;&#x652;</string></test>
+  </testgroup>
+<head>
+  <fontscale>300</fontscale>
+  <fontsrc>local(Harmattan)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <styles>
+  </styles>
+  <title>ABS-505</title>
+  </head>
+</ftml>
