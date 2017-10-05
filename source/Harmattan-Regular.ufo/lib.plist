@@ -407,67 +407,67 @@
     <string>jeem-ar.fina</string>
     <string>jeem-ar.medi</string>
     <string>jeem-ar.init</string>
-    <string>jeem-ar.hand.medi</string>
+    <string>jeem-ar.medi.hand</string>
     <string>tcheh-ar</string>
     <string>tcheh-ar.fina</string>
     <string>tcheh-ar.medi</string>
     <string>tcheh-ar.init</string>
-    <string>tcheh-ar.hand.medi</string>
+    <string>tcheh-ar.medi.hand</string>
     <string>tcheheh-ar</string>
     <string>tcheheh-ar.fina</string>
     <string>tcheheh-ar.medi</string>
     <string>tcheheh-ar.init</string>
-    <string>tcheheh-ar.hand.medi</string>
+    <string>tcheheh-ar.medi.hand</string>
     <string>tchehDotabove-ar</string>
     <string>tchehDotabove-ar.fina</string>
     <string>tchehDotabove-ar.medi</string>
     <string>tchehDotabove-ar.init</string>
-    <string>tchehDotabove-ar.hand.medi</string>
+    <string>tchehDotabove-ar.medi.hand</string>
     <string>nyeh-ar</string>
     <string>nyeh-ar.fina</string>
     <string>nyeh-ar.medi</string>
     <string>nyeh-ar.init</string>
-    <string>nyeh-ar.hand.medi</string>
+    <string>nyeh-ar.medi.hand</string>
     <string>dyeh-ar</string>
     <string>dyeh-ar.fina</string>
     <string>dyeh-ar.medi</string>
     <string>dyeh-ar.init</string>
-    <string>dyeh-ar.hand.medi</string>
+    <string>dyeh-ar.medi.hand</string>
     <string>hah-ar</string>
     <string>hah-ar.fina</string>
     <string>hah-ar.medi</string>
     <string>hah-ar.init</string>
-    <string>hah-ar.hand.medi</string>
+    <string>hah-ar.medi.hand</string>
     <string>hahHamzaabove-ar</string>
     <string>hahHamzaabove-ar.fina</string>
     <string>hahHamzaabove-ar.medi</string>
     <string>hahHamzaabove-ar.init</string>
-    <string>hahHamzaabove-ar.hand.medi</string>
+    <string>hahHamzaabove-ar.medi.hand</string>
     <string>hahTwodotsverticalabove-ar</string>
     <string>hahTwodotsverticalabove-ar.fina</string>
     <string>hahTwodotsverticalabove-ar.medi</string>
     <string>hahTwodotsverticalabove-ar.init</string>
-    <string>hahTwodotsverticalabove-ar.hand.medi</string>
+    <string>hahTwodotsverticalabove-ar.medi.hand</string>
     <string>hahTwodotshorizontalabove-ar</string>
     <string>hahTwodotshorizontalabove-ar.fina</string>
     <string>hahTwodotshorizontalabove-ar.medi</string>
     <string>hahTwodotshorizontalabove-ar.init</string>
-    <string>hahTwodotshorizontalabove-ar.hand.medi</string>
+    <string>hahTwodotshorizontalabove-ar.medi.hand</string>
     <string>hahThreedotsabove-ar</string>
     <string>hahThreedotsabove-ar.fina</string>
     <string>hahThreedotsabove-ar.medi</string>
     <string>hahThreedotsabove-ar.init</string>
-    <string>hahThreedotsabove-ar.hand.medi</string>
+    <string>hahThreedotsabove-ar.medi.hand</string>
     <string>hahThreedotsupbelow-ar</string>
     <string>hahThreedotsupbelow-ar.fina</string>
     <string>hahThreedotsupbelow-ar.medi</string>
     <string>hahThreedotsupbelow-ar.init</string>
-    <string>hahThreedotsupbelow-ar.hand.medi</string>
+    <string>hahThreedotsupbelow-ar.medi.hand</string>
     <string>khah-ar</string>
     <string>khah-ar.fina</string>
     <string>khah-ar.medi</string>
     <string>khah-ar.init</string>
-    <string>khah-ar.hand.medi</string>
+    <string>khah-ar.medi.hand</string>
     <string>hahTahbelow-ar</string>
     <string>hahTahbelow-ar.fina</string>
     <string>hahTahbelow-ar.medi</string>
@@ -488,7 +488,7 @@
     <string>jeemTwodotsabove-ar.fina</string>
     <string>jeemTwodotsabove-ar.medi</string>
     <string>jeemTwodotsabove-ar.init</string>
-    <string>jeemTwodotsabove-ar.hand.medi</string>
+    <string>jeemTwodotsabove-ar.medi.hand</string>
     <string>dal-ar</string>
     <string>dal-ar.fina</string>
     <string>dal-ar.loclWLF</string>
@@ -1877,67 +1877,67 @@
     <string>jeem-ar.fina</string>
     <string>jeem-ar.medi</string>
     <string>jeem-ar.init</string>
-    <string>jeem-ar.hand.medi</string>
+    <string>jeem-ar.medi.hand</string>
     <string>tcheh-ar</string>
     <string>tcheh-ar.fina</string>
     <string>tcheh-ar.medi</string>
     <string>tcheh-ar.init</string>
-    <string>tcheh-ar.hand.medi</string>
+    <string>tcheh-ar.medi.hand</string>
     <string>tcheheh-ar</string>
     <string>tcheheh-ar.fina</string>
     <string>tcheheh-ar.medi</string>
     <string>tcheheh-ar.init</string>
-    <string>tcheheh-ar.hand.medi</string>
+    <string>tcheheh-ar.medi.hand</string>
     <string>tchehDotabove-ar</string>
     <string>tchehDotabove-ar.fina</string>
     <string>tchehDotabove-ar.medi</string>
     <string>tchehDotabove-ar.init</string>
-    <string>tchehDotabove-ar.hand.medi</string>
+    <string>tchehDotabove-ar.medi.hand</string>
     <string>nyeh-ar</string>
     <string>nyeh-ar.fina</string>
     <string>nyeh-ar.medi</string>
     <string>nyeh-ar.init</string>
-    <string>nyeh-ar.hand.medi</string>
+    <string>nyeh-ar.medi.hand</string>
     <string>dyeh-ar</string>
     <string>dyeh-ar.fina</string>
     <string>dyeh-ar.medi</string>
     <string>dyeh-ar.init</string>
-    <string>dyeh-ar.hand.medi</string>
+    <string>dyeh-ar.medi.hand</string>
     <string>hah-ar</string>
     <string>hah-ar.fina</string>
     <string>hah-ar.medi</string>
     <string>hah-ar.init</string>
-    <string>hah-ar.hand.medi</string>
+    <string>hah-ar.medi.hand</string>
     <string>hahHamzaabove-ar</string>
     <string>hahHamzaabove-ar.fina</string>
     <string>hahHamzaabove-ar.medi</string>
     <string>hahHamzaabove-ar.init</string>
-    <string>hahHamzaabove-ar.hand.medi</string>
+    <string>hahHamzaabove-ar.medi.hand</string>
     <string>hahTwodotsverticalabove-ar</string>
     <string>hahTwodotsverticalabove-ar.fina</string>
     <string>hahTwodotsverticalabove-ar.medi</string>
     <string>hahTwodotsverticalabove-ar.init</string>
-    <string>hahTwodotsverticalabove-ar.hand.medi</string>
+    <string>hahTwodotsverticalabove-ar.medi.hand</string>
     <string>hahTwodotshorizontalabove-ar</string>
     <string>hahTwodotshorizontalabove-ar.fina</string>
     <string>hahTwodotshorizontalabove-ar.medi</string>
     <string>hahTwodotshorizontalabove-ar.init</string>
-    <string>hahTwodotshorizontalabove-ar.hand.medi</string>
+    <string>hahTwodotshorizontalabove-ar.medi.hand</string>
     <string>hahThreedotsabove-ar</string>
     <string>hahThreedotsabove-ar.fina</string>
     <string>hahThreedotsabove-ar.medi</string>
     <string>hahThreedotsabove-ar.init</string>
-    <string>hahThreedotsabove-ar.hand.medi</string>
+    <string>hahThreedotsabove-ar.medi.hand</string>
     <string>hahThreedotsupbelow-ar</string>
     <string>hahThreedotsupbelow-ar.fina</string>
     <string>hahThreedotsupbelow-ar.medi</string>
     <string>hahThreedotsupbelow-ar.init</string>
-    <string>hahThreedotsupbelow-ar.hand.medi</string>
+    <string>hahThreedotsupbelow-ar.medi.hand</string>
     <string>khah-ar</string>
     <string>khah-ar.fina</string>
     <string>khah-ar.medi</string>
     <string>khah-ar.init</string>
-    <string>khah-ar.hand.medi</string>
+    <string>khah-ar.medi.hand</string>
     <string>hahTahbelow-ar</string>
     <string>hahTahbelow-ar.fina</string>
     <string>hahTahbelow-ar.medi</string>
@@ -1958,7 +1958,7 @@
     <string>jeemTwodotsabove-ar.fina</string>
     <string>jeemTwodotsabove-ar.medi</string>
     <string>jeemTwodotsabove-ar.init</string>
-    <string>jeemTwodotsabove-ar.hand.medi</string>
+    <string>jeemTwodotsabove-ar.medi.hand</string>
     <string>dal-ar</string>
     <string>dal-ar.fina</string>
     <string>dal-ar.loclWLF</string>
@@ -3400,12 +3400,12 @@
     <string>uni0684</string>
     <key>dyeh-ar.fina</key>
     <string>uni0684.fina</string>
-    <key>dyeh-ar.hand.medi</key>
-    <string>uni0684.hand.medi</string>
     <key>dyeh-ar.init</key>
     <string>uni0684.init</string>
     <key>dyeh-ar.medi</key>
     <string>uni0684.medi</string>
+    <key>dyeh-ar.medi.hand</key>
+    <string>uni0684.hand.medi</string>
     <key>e-ar</key>
     <string>uni06D0</string>
     <key>e-ar.fina</key>
@@ -3678,12 +3678,12 @@
     <string>uni062D</string>
     <key>hah-ar.fina</key>
     <string>uni062D.fina</string>
-    <key>hah-ar.hand.medi</key>
-    <string>uni062D.hand.medi</string>
     <key>hah-ar.init</key>
     <string>uni062D.init</string>
     <key>hah-ar.medi</key>
     <string>uni062D.medi</string>
+    <key>hah-ar.medi.hand</key>
+    <string>uni062D.hand.medi</string>
     <key>hahFourbelow-ar</key>
     <string>uni077C</string>
     <key>hahFourbelow-ar.fina</key>
@@ -3696,12 +3696,12 @@
     <string>uni0681</string>
     <key>hahHamzaabove-ar.fina</key>
     <string>uni0681.fina</string>
-    <key>hahHamzaabove-ar.hand.medi</key>
-    <string>uni0681.hand.medi</string>
     <key>hahHamzaabove-ar.init</key>
     <string>uni0681.init</string>
     <key>hahHamzaabove-ar.medi</key>
     <string>uni0681.medi</string>
+    <key>hahHamzaabove-ar.medi.hand</key>
+    <string>uni0681.hand.medi</string>
     <key>hahTahTwodotshorizontalabove-ar</key>
     <string>uni076F</string>
     <key>hahTahTwodotshorizontalabove-ar.fina</key>
@@ -3730,42 +3730,42 @@
     <string>uni0685</string>
     <key>hahThreedotsabove-ar.fina</key>
     <string>uni0685.fina</string>
-    <key>hahThreedotsabove-ar.hand.medi</key>
-    <string>uni0685.hand.medi</string>
     <key>hahThreedotsabove-ar.init</key>
     <string>uni0685.init</string>
     <key>hahThreedotsabove-ar.medi</key>
     <string>uni0685.medi</string>
+    <key>hahThreedotsabove-ar.medi.hand</key>
+    <string>uni0685.hand.medi</string>
     <key>hahThreedotsupbelow-ar</key>
     <string>uni0758</string>
     <key>hahThreedotsupbelow-ar.fina</key>
     <string>uni0758.fina</string>
-    <key>hahThreedotsupbelow-ar.hand.medi</key>
-    <string>uni0758.hand.medi</string>
     <key>hahThreedotsupbelow-ar.init</key>
     <string>uni0758.init</string>
     <key>hahThreedotsupbelow-ar.medi</key>
     <string>uni0758.medi</string>
+    <key>hahThreedotsupbelow-ar.medi.hand</key>
+    <string>uni0758.hand.medi</string>
     <key>hahTwodotshorizontalabove-ar</key>
     <string>uni0757</string>
     <key>hahTwodotshorizontalabove-ar.fina</key>
     <string>uni0757.fina</string>
-    <key>hahTwodotshorizontalabove-ar.hand.medi</key>
-    <string>uni0757.hand.medi</string>
     <key>hahTwodotshorizontalabove-ar.init</key>
     <string>uni0757.init</string>
     <key>hahTwodotshorizontalabove-ar.medi</key>
     <string>uni0757.medi</string>
+    <key>hahTwodotshorizontalabove-ar.medi.hand</key>
+    <string>uni0757.hand.medi</string>
     <key>hahTwodotsverticalabove-ar</key>
     <string>uni0682</string>
     <key>hahTwodotsverticalabove-ar.fina</key>
     <string>uni0682.fina</string>
-    <key>hahTwodotsverticalabove-ar.hand.medi</key>
-    <string>uni0682.hand.medi</string>
     <key>hahTwodotsverticalabove-ar.init</key>
     <string>uni0682.init</string>
     <key>hahTwodotsverticalabove-ar.medi</key>
     <string>uni0682.medi</string>
+    <key>hahTwodotsverticalabove-ar.medi.hand</key>
+    <string>uni0682.hand.medi</string>
     <key>hahabove-ar</key>
     <string>uni06E1</string>
     <key>hairspace</key>
@@ -3880,22 +3880,22 @@
     <string>uni062C</string>
     <key>jeem-ar.fina</key>
     <string>uni062C.fina</string>
-    <key>jeem-ar.hand.medi</key>
-    <string>uni062C.hand.medi</string>
     <key>jeem-ar.init</key>
     <string>uni062C.init</string>
     <key>jeem-ar.medi</key>
     <string>uni062C.medi</string>
+    <key>jeem-ar.medi.hand</key>
+    <string>uni062C.hand.medi</string>
     <key>jeemTwodotsabove-ar</key>
     <string>uni08A2</string>
     <key>jeemTwodotsabove-ar.fina</key>
     <string>uni08A2.fina</string>
-    <key>jeemTwodotsabove-ar.hand.medi</key>
-    <string>uni08A2.hand.medi</string>
     <key>jeemTwodotsabove-ar.init</key>
     <string>uni08A2.init</string>
     <key>jeemTwodotsabove-ar.medi</key>
     <string>uni08A2.medi</string>
+    <key>jeemTwodotsabove-ar.medi.hand</key>
+    <string>uni08A2.hand.medi</string>
     <key>jeemabove-ar</key>
     <string>uni06DA</string>
     <key>jeh-ar</key>
@@ -4030,12 +4030,12 @@
     <string>uni062E</string>
     <key>khah-ar.fina</key>
     <string>uni062E.fina</string>
-    <key>khah-ar.hand.medi</key>
-    <string>uni062E.hand.medi</string>
     <key>khah-ar.init</key>
     <string>uni062E.init</string>
     <key>khah-ar.medi</key>
     <string>uni062E.medi</string>
+    <key>khah-ar.medi.hand</key>
+    <string>uni062E.hand.medi</string>
     <key>kirghizoe-ar</key>
     <string>uni06C5</string>
     <key>kirghizoe-ar.fina</key>
@@ -4350,12 +4350,12 @@
     <string>uni0683</string>
     <key>nyeh-ar.fina</key>
     <string>uni0683.fina</string>
-    <key>nyeh-ar.hand.medi</key>
-    <string>uni0683.hand.medi</string>
     <key>nyeh-ar.init</key>
     <string>uni0683.init</string>
     <key>nyeh-ar.medi</key>
     <string>uni0683.medi</string>
+    <key>nyeh-ar.medi.hand</key>
+    <string>uni0683.hand.medi</string>
     <key>oe-ar</key>
     <string>uni06C6</string>
     <key>oe-ar.fina</key>
@@ -4856,32 +4856,32 @@
     <string>uni0686</string>
     <key>tcheh-ar.fina</key>
     <string>uni0686.fina</string>
-    <key>tcheh-ar.hand.medi</key>
-    <string>uni0686.hand.medi</string>
     <key>tcheh-ar.init</key>
     <string>uni0686.init</string>
     <key>tcheh-ar.medi</key>
     <string>uni0686.medi</string>
+    <key>tcheh-ar.medi.hand</key>
+    <string>uni0686.hand.medi</string>
     <key>tchehDotabove-ar</key>
     <string>uni06BF</string>
     <key>tchehDotabove-ar.fina</key>
     <string>uni06BF.fina</string>
-    <key>tchehDotabove-ar.hand.medi</key>
-    <string>uni06BF.hand.medi</string>
     <key>tchehDotabove-ar.init</key>
     <string>uni06BF.init</string>
     <key>tchehDotabove-ar.medi</key>
     <string>uni06BF.medi</string>
+    <key>tchehDotabove-ar.medi.hand</key>
+    <string>uni06BF.hand.medi</string>
     <key>tcheheh-ar</key>
     <string>uni0687</string>
     <key>tcheheh-ar.fina</key>
     <string>uni0687.fina</string>
-    <key>tcheheh-ar.hand.medi</key>
-    <string>uni0687.hand.medi</string>
     <key>tcheheh-ar.init</key>
     <string>uni0687.init</string>
     <key>tcheheh-ar.medi</key>
     <string>uni0687.medi</string>
+    <key>tcheheh-ar.medi.hand</key>
+    <string>uni0687.hand.medi</string>
     <key>teh-ar</key>
     <string>uni062A</string>
     <key>teh-ar.fina</key>

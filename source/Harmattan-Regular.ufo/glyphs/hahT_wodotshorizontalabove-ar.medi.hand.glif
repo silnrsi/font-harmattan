@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hahTwodotsverticalabove-ar.hand.medi" format="1">
+<glyph name="hahTwodotshorizontalabove-ar.medi.hand" format="1">
   <advance width="949"/>
   <outline>
-    <component base="hah-ar.hand.medi"/>
-    <component base="_dot2v" xOffset="472" yOffset="825"/>
+    <component base="hah-ar.medi.hand"/>
+    <component base="_dot2h" xOffset="439" yOffset="687"/>
     <contour>
-      <point x="133" y="756" type="move" name="alef"/>
+      <point x="181" y="764" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="390" y="1092" type="move" name="diaA"/>
+      <point x="414" y="856" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="456" y="-382" type="move" name="diaB"/>

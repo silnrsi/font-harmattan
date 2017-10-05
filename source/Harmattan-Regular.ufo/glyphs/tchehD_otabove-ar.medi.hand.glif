@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nyeh-ar.hand.medi" format="1">
+<glyph name="tchehDotabove-ar.medi.hand" format="1">
   <advance width="949"/>
   <outline>
-    <component base="hah-ar.hand.medi"/>
-    <component base="_dot2h" xOffset="463" yOffset="-521"/>
+    <component base="hah-ar.medi.hand"/>
+    <component base="_dot1" xOffset="447" yOffset="704"/>
+    <component base="_dot3d" xOffset="461" yOffset="-504"/>
     <contour>
-      <point x="47" y="244" type="move" name="alef"/>
+      <point x="204" y="741" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="265" y="549" type="move" name="diaA"/>
+      <point x="394" y="881" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="471" y="-702" type="move" name="diaB"/>
+      <point x="465" y="-950" type="move" name="diaB"/>
     </contour>
   </outline>
   <lib>
