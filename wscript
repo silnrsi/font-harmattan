@@ -82,7 +82,8 @@ for style in ('-Regular', ):  # '-Bold'):
         script='arab',
         pdf=fret(params='-r'),
         woff=woff('web/' + APPNAME + style + '.woff', params='-v ' + VERSION + ' -m ../source/' + APPNAME + '-WOFF-metadata.xml'),
-        typetuner='source/typetuner/feat_all.xml')
+#        typetuner='source/typetuner/feat_all.xml'
+        )
 
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
 
