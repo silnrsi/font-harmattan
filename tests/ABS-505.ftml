@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
 <ftml version='1.0'>
   <testgroup label='Rendering check'>
-  <test label='Check'><test>RenderingUnknown</test></test>
+  <test label='Check'><string>RenderingUnknown</string></test>
   </testgroup>
   <testgroup label='OK'>
   <test label='image[11].png'><string>&#x64a;&#x64e;&#x63a;&#x650;&#x631;&#x652;&#x645;&#x64e;&#x645;&#x64e;</string></test>
