@@ -391,18 +391,18 @@
     <string>behhamzaabove-ar.fina</string>
     <string>behhamzaabove-ar.medi</string>
     <string>behhamzaabove-ar.init</string>
-    <string>tehSmalltehabove-ar</string>
-    <string>tehSmalltehabove-ar.fina</string>
-    <string>tehSmalltehabove-ar.medi</string>
-    <string>tehSmalltehabove-ar.init</string>
-    <string>behSmallmeemabove-ar</string>
-    <string>behSmallmeemabove-ar.fina</string>
-    <string>behSmallmeemabove-ar.medi</string>
-    <string>behSmallmeemabove-ar.init</string>
-    <string>pehSmallmeemabove-ar</string>
-    <string>pehSmallmeemabove-ar.fina</string>
-    <string>pehSmallmeemabove-ar.medi</string>
-    <string>pehSmallmeemabove-ar.init</string>
+    <string>tehTehabove-ar</string>
+    <string>tehTehabove-ar.fina</string>
+    <string>tehTehabove-ar.medi</string>
+    <string>tehTehabove-ar.init</string>
+    <string>behMeemabove-ar</string>
+    <string>behMeemabove-ar.fina</string>
+    <string>behMeemabove-ar.medi</string>
+    <string>behMeemabove-ar.init</string>
+    <string>pehMeemabove-ar</string>
+    <string>pehMeemabove-ar.fina</string>
+    <string>pehMeemabove-ar.medi</string>
+    <string>pehMeemabove-ar.init</string>
     <string>jeem-ar</string>
     <string>jeem-ar.fina</string>
     <string>jeem-ar.medi</string>
@@ -568,8 +568,8 @@
     <string>rehHamzaabove-ar.fina</string>
     <string>rehTwodotshorizontalaboveTahabove-ar</string>
     <string>rehTwodotshorizontalaboveTahabove-ar.fina</string>
-    <string>rehSmallnoonabove-ar</string>
-    <string>rehSmallnoonabove-ar.fina</string>
+    <string>rehNoonabove-ar</string>
+    <string>rehNoonabove-ar.fina</string>
     <string>rehLoop-ar</string>
     <string>rehLoop-ar.fina</string>
     <string>rehHahabove-ar</string>
@@ -1106,10 +1106,10 @@
     <string>yehThreedotsbelow-ar.fina</string>
     <string>yehThreedotsbelow-ar.medi</string>
     <string>yehThreedotsbelow-ar.init</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar.fina</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar.medi</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar.init</string>
+    <string>yehTwodotsbelowNoonabove-ar</string>
+    <string>yehTwodotsbelowNoonabove-ar.fina</string>
+    <string>yehTwodotsbelowNoonabove-ar.medi</string>
+    <string>yehTwodotsbelowNoonabove-ar.init</string>
     <string>yehbarree-ar</string>
     <string>yehbarree-ar.fina</string>
     <string>yehbarreeHamzaabove-ar</string>
@@ -1861,18 +1861,18 @@
     <string>behhamzaabove-ar.fina</string>
     <string>behhamzaabove-ar.medi</string>
     <string>behhamzaabove-ar.init</string>
-    <string>tehSmalltehabove-ar</string>
-    <string>tehSmalltehabove-ar.fina</string>
-    <string>tehSmalltehabove-ar.medi</string>
-    <string>tehSmalltehabove-ar.init</string>
-    <string>behSmallmeemabove-ar</string>
-    <string>behSmallmeemabove-ar.fina</string>
-    <string>behSmallmeemabove-ar.medi</string>
-    <string>behSmallmeemabove-ar.init</string>
-    <string>pehSmallmeemabove-ar</string>
-    <string>pehSmallmeemabove-ar.fina</string>
-    <string>pehSmallmeemabove-ar.medi</string>
-    <string>pehSmallmeemabove-ar.init</string>
+    <string>tehTehabove-ar</string>
+    <string>tehTehabove-ar.fina</string>
+    <string>tehTehabove-ar.medi</string>
+    <string>tehTehabove-ar.init</string>
+    <string>behMeemabove-ar</string>
+    <string>behMeemabove-ar.fina</string>
+    <string>behMeemabove-ar.medi</string>
+    <string>behMeemabove-ar.init</string>
+    <string>pehMeemabove-ar</string>
+    <string>pehMeemabove-ar.fina</string>
+    <string>pehMeemabove-ar.medi</string>
+    <string>pehMeemabove-ar.init</string>
     <string>jeem-ar</string>
     <string>jeem-ar.fina</string>
     <string>jeem-ar.medi</string>
@@ -2038,8 +2038,8 @@
     <string>rehHamzaabove-ar.fina</string>
     <string>rehTwodotshorizontalaboveTahabove-ar</string>
     <string>rehTwodotshorizontalaboveTahabove-ar.fina</string>
-    <string>rehSmallnoonabove-ar</string>
-    <string>rehSmallnoonabove-ar.fina</string>
+    <string>rehNoonabove-ar</string>
+    <string>rehNoonabove-ar.fina</string>
     <string>rehLoop-ar</string>
     <string>rehLoop-ar.fina</string>
     <string>rehHahabove-ar</string>
@@ -2576,10 +2576,10 @@
     <string>yehThreedotsbelow-ar.fina</string>
     <string>yehThreedotsbelow-ar.medi</string>
     <string>yehThreedotsbelow-ar.init</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar.fina</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar.medi</string>
-    <string>yehTwodotsbelowSmallnoonabove-ar.init</string>
+    <string>yehTwodotsbelowNoonabove-ar</string>
+    <string>yehTwodotsbelowNoonabove-ar.fina</string>
+    <string>yehTwodotsbelowNoonabove-ar.medi</string>
+    <string>yehTwodotsbelowNoonabove-ar.init</string>
     <string>yehbarree-ar</string>
     <string>yehbarree-ar.fina</string>
     <string>yehbarreeHamzaabove-ar</string>
@@ -3158,13 +3158,13 @@
     <string>uni066E.init</string>
     <key>behDotless-ar.medi</key>
     <string>uni066E.medi</string>
-    <key>behSmallmeemabove-ar</key>
+    <key>behMeemabove-ar</key>
     <string>uni08B6</string>
-    <key>behSmallmeemabove-ar.fina</key>
+    <key>behMeemabove-ar.fina</key>
     <string>uni08B6.fina</string>
-    <key>behSmallmeemabove-ar.init</key>
+    <key>behMeemabove-ar.init</key>
     <string>uni08B6.init</string>
-    <key>behSmallmeemabove-ar.medi</key>
+    <key>behMeemabove-ar.medi</key>
     <string>uni08B6.medi</string>
     <key>behThreedotshorizontalbelow-ar</key>
     <string>uni0750</string>
@@ -4404,13 +4404,13 @@
     <string>uni067E.init</string>
     <key>peh-ar.medi</key>
     <string>uni067E.medi</string>
-    <key>pehSmallmeemabove-ar</key>
+    <key>pehMeemabove-ar</key>
     <string>uni08B7</string>
-    <key>pehSmallmeemabove-ar.fina</key>
+    <key>pehMeemabove-ar.fina</key>
     <string>uni08B7.fina</string>
-    <key>pehSmallmeemabove-ar.init</key>
+    <key>pehMeemabove-ar.init</key>
     <string>uni08B7.init</string>
-    <key>pehSmallmeemabove-ar.medi</key>
+    <key>pehMeemabove-ar.medi</key>
     <string>uni08B7.medi</string>
     <key>peheh-ar</key>
     <string>uni06A6</string>
@@ -4514,14 +4514,14 @@
     <string>uni08AA</string>
     <key>rehLoop-ar.fina</key>
     <string>uni08AA.fina</string>
+    <key>rehNoonabove-ar</key>
+    <string>uni08B9</string>
+    <key>rehNoonabove-ar.fina</key>
+    <string>uni08B9.fina</string>
     <key>rehRing-ar</key>
     <string>uni0693</string>
     <key>rehRing-ar.fina</key>
     <string>uni0693.fina</string>
-    <key>rehSmallnoonabove-ar</key>
-    <string>uni08B9</string>
-    <key>rehSmallnoonabove-ar.fina</key>
-    <string>uni08B9.fina</string>
     <key>rehStroke-ar</key>
     <string>uni075B</string>
     <key>rehStroke-ar.fina</key>
@@ -4906,13 +4906,13 @@
     <string>uni067C.init</string>
     <key>tehRing-ar.medi</key>
     <string>uni067C.medi</string>
-    <key>tehSmalltehabove-ar</key>
+    <key>tehTehabove-ar</key>
     <string>uni08B8</string>
-    <key>tehSmalltehabove-ar.fina</key>
+    <key>tehTehabove-ar.fina</key>
     <string>uni08B8.fina</string>
-    <key>tehSmalltehabove-ar.init</key>
+    <key>tehTehabove-ar.init</key>
     <string>uni08B8.init</string>
-    <key>tehSmalltehabove-ar.medi</key>
+    <key>tehTehabove-ar.medi</key>
     <string>uni08B8.medi</string>
     <key>tehThreedotsdown-ar</key>
     <string>uni067D</string>
@@ -5218,13 +5218,13 @@
     <string>uni08A8.init</string>
     <key>yehTwodotsbelowHamzaabove-ar.medi</key>
     <string>uni08A8.medi</string>
-    <key>yehTwodotsbelowSmallnoonabove-ar</key>
+    <key>yehTwodotsbelowNoonabove-ar</key>
     <string>uni08BA</string>
-    <key>yehTwodotsbelowSmallnoonabove-ar.fina</key>
+    <key>yehTwodotsbelowNoonabove-ar.fina</key>
     <string>uni08BA.fina</string>
-    <key>yehTwodotsbelowSmallnoonabove-ar.init</key>
+    <key>yehTwodotsbelowNoonabove-ar.init</key>
     <string>uni08BA.init</string>
-    <key>yehTwodotsbelowSmallnoonabove-ar.medi</key>
+    <key>yehTwodotsbelowNoonabove-ar.medi</key>
     <string>uni08BA.medi</string>
     <key>yehVabove-ar</key>
     <string>uni06CE</string>
