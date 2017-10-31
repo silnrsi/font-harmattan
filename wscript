@@ -63,20 +63,31 @@ ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_00
 # APs to omit:
 MAKE_PARAMS = '-o "_above _below _center _ring _through above below center ring through U L" --cursive "exit=entry,rtl" --cursive "_digit=digit"'
 
+AP = create('Harmattan-Regular.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/Harmattan-Regular.ufo' ]))
+
 for style in ('-Regular', ):  # '-Bold'):
     font(target=APPNAME + style + '.ttf',
         source=create(APPNAME + style + '-src.ttf', cmd('psfufo2ttf ${SRC} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
 #        source='source/' + APPNAME + style + '.ufo',
-        ap = create(APPNAME + style + '.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
+#        ap = create(APPNAME + style + '.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
+        ap = AP,
         version=VERSION,
         graphite=gdl(APPNAME + style + '.gdl',
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
             master = 'source/graphite/master.gdl',
             make_params = MAKE_PARAMS),
-        opentype = fea(APPNAME + style + '.fea', 
-            master = 'source/opentype/master.fea',
-            preinclude = 'source/opentype/preinclude.fea',
-            make_params = MAKE_PARAMS + ' -p 0 -z 16'),
+        opentype = fea(
+                       create(
+                              APPNAME + style + '.fea', 
+                              #cmd("psfmakefea -o ${TGT} -i ${SRC[0]} -c ../source/classes.xml ${SRC[1]}", ['source/opentype/master.feax', 'source/' + APPNAME + style + '.ufo'])
+                              cmd("psfmakefea -o ${TGT} -i ${SRC[0]} --omitaps '_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L' -c ../source/classes.xml ${SRC[1]}", ['source/opentype/master.feax', AP])
+                              ), 
+                       no_make = 1
+                       ),  
+#        opentype = fea(APPNAME + style + '.fea', 
+#            master = 'source/opentype/master.fea',
+#            preinclude = 'source/opentype/preinclude.fea',
+#            make_params = MAKE_PARAMS + ' -p 0 -z 16'),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
         script='arab',
@@ -92,6 +103,7 @@ for testname in AUTOGEN_TESTS:
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
+    ctx.env['MAKE_FEA'] = ctx.find_program('psfmakefea')
 #    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib -S make_gdl'
 #    ctx.env['MAKE_FEA'] = 'perl -I ../tools/perllib -S make_fea'
 

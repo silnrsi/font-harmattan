@@ -381,39 +381,39 @@ lookup CommaAlternates {
 
 lookup base_diaA_base {
   lookupflag 0;
-  pos base @diaA_bases mark @_diaA;
+  pos base @diaA mark @_diaA;
 } base_diaA_base;
 
-@MarkFilter_diaA = [@diaA_marks @_diaA];
+@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
 lookup base_diaA_mark {
 #  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
-  pos mark @diaA_marks mark @_diaA;
+  pos mark @diaA_MarkBase mark @_diaA;
 } base_diaA_mark;
 
 lookup base_alef_base {
   lookupflag 0;
-  pos base @alef_bases mark @_alef;
+  pos base @alef mark @_alef;
 } base_alef_base;
 
 lookup base_diaB_base {
   lookupflag 0;
-  pos base @diaB_bases mark @_diaB;
+  pos base @diaB mark @_diaB;
 } base_diaB_base;
 
-@MarkFilter_diaB = [@diaB_marks @_diaB];
+@MarkFilter_diaB = [@diaB_MarkBase @_diaB];
 lookup base_diaB_mark {
   lookupflag UseMarkFilteringSet @MarkFilter_diaB;
-  pos mark @diaB_marks mark @_diaB;
+  pos mark @diaB_MarkBase mark @_diaB;
 } base_diaB_mark;
 
 lookup cursive__digit_digit {
   lookupflag IgnoreMarks;
-  pos cursive @_digit @digit_marks;
+  pos cursive @_digit @digit_MarkBase;
 } cursive__digit_digit;
 
 lookup cursive_exit_entry {
   lookupflag IgnoreMarks RightToLeft;
-  pos cursive @entry_bases @exit_bases;
+  pos cursive @entry @exit;
 } cursive_exit_entry;
 
 lookup Kern_RehGaf_target {
