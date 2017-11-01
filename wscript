@@ -66,7 +66,7 @@ MAKE_PARAMS = '-o "_above _below _center _ring _through above below center ring 
 AP = create('Harmattan-Regular.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/Harmattan-Regular.ufo' ]))
 
 for style in ('-Regular', ):  # '-Bold'):
-    font(target=APPNAME + style + '.ttf',
+    font(target=process(APPNAME + style + '.ttf', cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
         source=create(APPNAME + style + '-src.ttf', cmd('psfufo2ttf ${SRC} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
 #        source='source/' + APPNAME + style + '.ufo',
 #        ap = create(APPNAME + style + '.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
@@ -103,7 +103,8 @@ for testname in AUTOGEN_TESTS:
 
 def configure(ctx):
     ctx.find_program('ttfautohint')
-    ctx.env['MAKE_FEA'] = ctx.find_program('psfmakefea')
+    ctx.find_program('psfmakefea')
+    ctx.find_program('psfchangettfglyphnames')
 #    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib -S make_gdl'
 #    ctx.env['MAKE_FEA'] = 'perl -I ../tools/perllib -S make_fea'
 
