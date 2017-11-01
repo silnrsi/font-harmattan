@@ -372,7 +372,7 @@ lookup SukunAlternates {
 
 lookup CommaAlternates {
   lookupflag IgnoreMarks ;
-    sub cno_downward by c_downward;
+    sub @cno_downward by @c_downward;
 } CommaAlternates;
 
 #********************
@@ -386,7 +386,7 @@ lookup base_diaA_base {
 
 @MarkFilter_diaA = [@diaA_MarkBase @_diaA];
 lookup base_diaA_mark {
-#  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
+  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
   pos mark @diaA_MarkBase mark @_diaA;
 } base_diaA_mark;
 
