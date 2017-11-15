@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight-persian.small" format="1">
+  <advance width="494"/>
+  <outline>
+    <component base="eight-ar.small"/>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+    <contour>
+      <point x="494" y="0" type="move" name="digit"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>eight-ar</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>eight-ar</string>
+    </dict>
+  </lib>
+</glyph>

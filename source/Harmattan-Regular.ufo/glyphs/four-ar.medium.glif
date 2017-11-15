@@ -1,48 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four-ar.medium" format="1">
-  <advance width="674"/>
+  <advance width="613"/>
   <outline>
-    <contour>
-      <point x="331" y="767"/>
-      <point x="249" y="836"/>
-      <point x="249" y="864" type="curve" smooth="yes"/>
-      <point x="249" y="882"/>
-      <point x="313" y="917"/>
-      <point x="461" y="938" type="curve" smooth="yes"/>
-      <point x="489" y="975"/>
-      <point x="491" y="1045"/>
-      <point x="491" y="1079" type="curve"/>
-      <point x="373" y="1054"/>
-      <point x="251" y="980"/>
-      <point x="183" y="912" type="curve" smooth="yes"/>
-      <point x="157" y="887"/>
-      <point x="157" y="814"/>
-      <point x="157" y="778" type="curve" smooth="yes"/>
-      <point x="157" y="745"/>
-      <point x="240" y="677"/>
-      <point x="361" y="641" type="curve"/>
-      <point x="290" y="585"/>
-      <point x="229" y="533"/>
-      <point x="178" y="479" type="curve" smooth="yes"/>
-      <point x="162" y="449"/>
-      <point x="160" y="392"/>
-      <point x="160" y="356" type="curve" smooth="yes"/>
-      <point x="160" y="324"/>
-      <point x="330" y="233"/>
-      <point x="568" y="233" type="curve" smooth="yes"/>
-      <point x="589" y="254"/>
-      <point x="613" y="316"/>
-      <point x="620" y="355" type="curve" smooth="yes"/>
-      <point x="415" y="355"/>
-      <point x="265" y="416"/>
-      <point x="265" y="458" type="curve" smooth="yes"/>
-      <point x="265" y="470"/>
-      <point x="398" y="578"/>
-      <point x="445" y="617" type="curve" smooth="yes"/>
-      <point x="469" y="644"/>
-      <point x="496" y="701"/>
-      <point x="496" y="734" type="curve"/>
-    </contour>
+    <component base="four-ar" xScale="0.769" yScale="0.769" xOffset="71" yOffset="217"/>
     <contour>
       <point x="0" y="0" type="move" name="_digit"/>
     </contour>

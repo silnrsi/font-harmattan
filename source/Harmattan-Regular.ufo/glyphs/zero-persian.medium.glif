@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zero-persian.medium" format="1">
+  <advance width="674"/>
+  <outline>
+    <component base="zero-ar.medium"/>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+    <contour>
+      <point x="674" y="0" type="move" name="digit"/>
+    </contour>
+  </outline>
+</glyph>
