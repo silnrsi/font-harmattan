@@ -42,11 +42,7 @@ lookup DecomposeForColor {
 
 lookup FontCheck_Unknow {
   lookupflag IgnoreMarks;
-    sub U by O;
-    sub n by p;
-    sub k by e;
-    sub o by T;
-    sub w by y;
+    sub [U n k o w ] by [O p e T y];
 } FontCheck_Unknow;
 
 lookup FontCheck_n {
@@ -109,7 +105,6 @@ lookup LigaturesForWarsh3 {
 
 # Substitutions for Lam-Alef "ligature" (which is actually implemented
 # as cursively connected components, not a ligature).
-
 
 lookup Ligatures {
   lookupflag IgnoreMarks ;
@@ -249,6 +244,7 @@ lookup ReorderMaddaVowel2 {
     sub madda-ar.small' lookup ReorderMaddaVowel2_target [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]'  madda-ar.small ;
 } ReorderMaddaVowel2;
 
+
 #********************
 # User features Features
 
@@ -272,7 +268,8 @@ lookup WarshAlternatesTT2 {
     sub alefHamzabelow-ar.fina by alefHamzabelow-ar.warsh.fina ;
     sub alef_fatha-ar by alef_fatha-ar.warsh ;
     sub alef_kasra-ar by alef_kasra-ar.warsh ;
-    # sub alefHamzaabove-ar.postLamIni.fina by alefHamzaabove-ar.postLamIni.warsh.fina
+    # hamza touching alef-after-lam available but not requested by community:
+    # sub alefHamzaabove-ar.postLamIni.fina by alefHamzaabove-ar.postLamIni.warsh.fina  
     # sub alefHamzaabove-ar.postLamMed.fina by alefHamzaabove-ar.postLamMed.warsh.fina
     sub lam_hamza-ar.preAlef.init by lam_hamza-ar.preAlef.warsh.init ;
 } WarshAlternatesTT2;
@@ -314,7 +311,7 @@ lookup SadDadAlternates {
 
 lookup AyahAlternates {
   lookupflag 0 ;
-    sub endofayah-ar from [ endofayah-ar.alt endofayah-ar.altB ] ;
+    sub endofayah-ar   from [ endofayah-ar.alt endofayah-ar.altB ] ;
     sub endofayah-ar.2 from [ endofayah-ar.alt.2 endofayah-ar.altB.2 ] ;
     sub endofayah-ar.3 from [ endofayah-ar.alt.3 endofayah-ar.altB.3 ] ;
 } AyahAlternates;
@@ -1089,7 +1086,6 @@ feature cv84 {  # Character Variant 84
 #********************
 # GPOS features     *
 #********************
-
 
 feature curs {  # Cursive Positioning
     script arab;  # Arabic
