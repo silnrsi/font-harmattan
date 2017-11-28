@@ -2,16 +2,7 @@
 <glyph name="zero-ar.medium" format="1">
   <advance width="674"/>
   <outline>
-    <contour>
-      <point x="343" y="781" type="line"/>
-      <point x="226" y="658" type="line"/>
-      <point x="279" y="590"/>
-      <point x="325" y="555"/>
-      <point x="353" y="541" type="curve"/>
-      <point x="386" y="565"/>
-      <point x="421" y="605"/>
-      <point x="471" y="669" type="curve"/>
-    </contour>
+    <component base="zero-ar" xScale="0.833" yScale="0.833" xOffset="18" yOffset="171"/>
     <contour>
       <point x="0" y="0" type="move" name="_digit"/>
     </contour>

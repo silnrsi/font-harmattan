@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five-persian.medium" format="1">
+  <advance width="674"/>
+  <outline>
+    <component base="five-persian" xScale="0.833" yScale="0.833" xOffset="-24" yOffset="172"/>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+    <contour>
+      <point x="674" y="0" type="move" name="digit"/>
+    </contour>
+  </outline>
+</glyph>

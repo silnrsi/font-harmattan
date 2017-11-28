@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Harmattan.1.020" />
+  <uniqueid id="org.sil.fonts.Harmattan.1.022" />
   <vendor name="SIL International" url="http://www.sil.org/" />
   <credits>
     <credit
@@ -183,18 +183,20 @@
     </text>
   </license>
   <copyright>
-    <text lang="en">Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
-
-Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
-with the Reserved Font Name "Fouta".
-
-Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
-with Reserved Font Names 'Andika' and 'SIL'.
-
-Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
-with Reserved Font Names "Harmattan" and "SIL".</text>
+    <text lang="en">
+      Copyright (c) 2007-2008, The C&amp;MA Guinea Fulbe Team;
+      
+      Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
+      with the Reserved Font Name "Fouta".
+      
+      Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
+      with Reserved Font Names 'Andika' and 'SIL'.
+      
+      Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
+      with Reserved Font Names "Harmattan" and "SIL".
+    </text>
   </copyright>
   <trademark>
-    <text lang="en">Harmattan is a trademark of SIL International. Fouta New Arabic and Fouta New AS are trademarks of the C&MA Guinea Fulbe Team</text>
+    <text lang="en">Harmattan is a trademark of SIL International. Fouta New Arabic and Fouta New AS are trademarks of the C&amp;MA Guinea Fulbe Team</text>
   </trademark>
 </metadata>

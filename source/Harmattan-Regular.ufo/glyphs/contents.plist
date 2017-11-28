@@ -152,6 +152,8 @@
   <string>_dot3h.glif</string>
   <key>_dot3u</key>
   <string>_dot3u.glif</string>
+  <key>_dot4</key>
+  <string>_dot4.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
   <key>_gafBarShort</key>
@@ -200,6 +202,8 @@
   <string>ae-ar.glif</string>
   <key>ae-ar.fina</key>
   <string>ae-ar.fina.glif</string>
+  <key>afghani-ar</key>
+  <string>afghani-ar.glif</string>
   <key>agrave</key>
   <string>agrave.glif</string>
   <key>ain-ar</key>
@@ -622,6 +626,12 @@
   <string>eight-ar.medium.glif</string>
   <key>eight-ar.small</key>
   <string>eight-ar.small.glif</string>
+  <key>eight-persian</key>
+  <string>eight-persian.glif</string>
+  <key>eight-persian.medium</key>
+  <string>eight-persian.medium.glif</string>
+  <key>eight-persian.small</key>
+  <string>eight-persian.small.glif</string>
   <key>eight.medium</key>
   <string>eight.medium.glif</string>
   <key>eight.small</key>
@@ -770,6 +780,12 @@
   <string>five-ar.medium.glif</string>
   <key>five-ar.small</key>
   <string>five-ar.small.glif</string>
+  <key>five-persian</key>
+  <string>five-persian.glif</string>
+  <key>five-persian.medium</key>
+  <string>five-persian.medium.glif</string>
+  <key>five-persian.small</key>
+  <string>five-persian.small.glif</string>
   <key>five.medium</key>
   <string>five.medium.glif</string>
   <key>five.small</key>
@@ -788,6 +804,12 @@
   <string>four-ar.medium.glif</string>
   <key>four-ar.small</key>
   <string>four-ar.small.glif</string>
+  <key>four-persian</key>
+  <string>four-persian.glif</string>
+  <key>four-persian.medium</key>
+  <string>four-persian.medium.glif</string>
+  <key>four-persian.small</key>
+  <string>four-persian.small.glif</string>
   <key>four.medium</key>
   <string>four.medium.glif</string>
   <key>four.small</key>
@@ -848,6 +870,16 @@
   <string>hah-ar.medi.glif</string>
   <key>hah-ar.medi.hand</key>
   <string>hah-ar.medi.hand.glif</string>
+  <key>hahHamzaabove-ar</key>
+  <string>hahH_amzaabove-ar.glif</string>
+  <key>hahHamzaabove-ar.fina</key>
+  <string>hahH_amzaabove-ar.fina.glif</string>
+  <key>hahHamzaabove-ar.init</key>
+  <string>hahH_amzaabove-ar.init.glif</string>
+  <key>hahHamzaabove-ar.medi</key>
+  <string>hahH_amzaabove-ar.medi.glif</string>
+  <key>hahHamzaabove-ar.medi.hand</key>
+  <string>hahH_amzaabove-ar.medi.hand.glif</string>
   <key>hahThreedotsabove-ar</key>
   <string>hahT_hreedotsabove-ar.glif</string>
   <key>hahThreedotsabove-ar.fina</key>
@@ -1296,6 +1328,12 @@
   <string>nine-ar.medium.glif</string>
   <key>nine-ar.small</key>
   <string>nine-ar.small.glif</string>
+  <key>nine-persian</key>
+  <string>nine-persian.glif</string>
+  <key>nine-persian.medium</key>
+  <string>nine-persian.medium.glif</string>
+  <key>nine-persian.small</key>
+  <string>nine-persian.small.glif</string>
   <key>nine.medium</key>
   <string>nine.medium.glif</string>
   <key>nine.small</key>
@@ -1408,6 +1446,12 @@
   <string>one-ar.medium.glif</string>
   <key>one-ar.small</key>
   <string>one-ar.small.glif</string>
+  <key>one-persian</key>
+  <string>one-persian.glif</string>
+  <key>one-persian.medium</key>
+  <string>one-persian.medium.glif</string>
+  <key>one-persian.small</key>
+  <string>one-persian.small.glif</string>
   <key>one.medium</key>
   <string>one.medium.glif</string>
   <key>one.small</key>
@@ -1576,6 +1620,14 @@
   <string>rehD_otbelow-ar.glif</string>
   <key>rehDotbelow-ar.fina</key>
   <string>rehD_otbelow-ar.fina.glif</string>
+  <key>rehDotbelowdotabove-ar</key>
+  <string>rehD_otbelowdotabove-ar.glif</string>
+  <key>rehDotbelowdotabove-ar.fina</key>
+  <string>rehD_otbelowdotabove-ar.fina.glif</string>
+  <key>rehFourdots-ar</key>
+  <string>rehF_ourdots-ar.glif</string>
+  <key>rehFourdots-ar.fina</key>
+  <string>rehF_ourdots-ar.fina.glif</string>
   <key>rehHahabove-ar</key>
   <string>rehH_ahabove-ar.glif</string>
   <key>rehStroke-ar</key>
@@ -1746,6 +1798,12 @@
   <string>seven-ar.medium.glif</string>
   <key>seven-ar.small</key>
   <string>seven-ar.small.glif</string>
+  <key>seven-persian</key>
+  <string>seven-persian.glif</string>
+  <key>seven-persian.medium</key>
+  <string>seven-persian.medium.glif</string>
+  <key>seven-persian.small</key>
+  <string>seven-persian.small.glif</string>
   <key>seven.medium</key>
   <string>seven.medium.glif</string>
   <key>seven.small</key>
@@ -1802,6 +1860,12 @@
   <string>six-ar.medium.glif</string>
   <key>six-ar.small</key>
   <string>six-ar.small.glif</string>
+  <key>six-persian</key>
+  <string>six-persian.glif</string>
+  <key>six-persian.medium</key>
+  <string>six-persian.medium.glif</string>
+  <key>six-persian.small</key>
+  <string>six-persian.small.glif</string>
   <key>six.medium</key>
   <string>six.medium.glif</string>
   <key>six.small</key>
@@ -1876,6 +1940,16 @@
   <string>tchehD_otabove-ar.medi.glif</string>
   <key>tchehDotabove-ar.medi.hand</key>
   <string>tchehD_otabove-ar.medi.hand.glif</string>
+  <key>tcheheh-ar</key>
+  <string>tcheheh-ar.glif</string>
+  <key>tcheheh-ar.fina</key>
+  <string>tcheheh-ar.fina.glif</string>
+  <key>tcheheh-ar.init</key>
+  <string>tcheheh-ar.init.glif</string>
+  <key>tcheheh-ar.medi</key>
+  <string>tcheheh-ar.medi.glif</string>
+  <key>tcheheh-ar.medi.hand</key>
+  <string>tcheheh-ar.medi.hand.glif</string>
   <key>teh-ar</key>
   <string>teh-ar.glif</string>
   <key>teh-ar.fina</key>
@@ -1888,6 +1962,14 @@
   <string>tehM_arbuta-ar.glif</string>
   <key>tehMarbuta-ar.fina</key>
   <string>tehM_arbuta-ar.fina.glif</string>
+  <key>tehRing-ar</key>
+  <string>tehR_ing-ar.glif</string>
+  <key>tehRing-ar.fina</key>
+  <string>tehR_ing-ar.fina.glif</string>
+  <key>tehRing-ar.init</key>
+  <string>tehR_ing-ar.init.glif</string>
+  <key>tehRing-ar.medi</key>
+  <string>tehR_ing-ar.medi.glif</string>
   <key>tehThreedotsdown-ar</key>
   <string>tehT_hreedotsdown-ar.glif</string>
   <key>tehThreedotsdown-ar.fina</key>
@@ -1930,6 +2012,12 @@
   <string>three-ar.medium.glif</string>
   <key>three-ar.small</key>
   <string>three-ar.small.glif</string>
+  <key>three-persian</key>
+  <string>three-persian.glif</string>
+  <key>three-persian.medium</key>
+  <string>three-persian.medium.glif</string>
+  <key>three-persian.small</key>
+  <string>three-persian.small.glif</string>
   <key>three.medium</key>
   <string>three.medium.glif</string>
   <key>three.small</key>
@@ -1976,6 +2064,12 @@
   <string>two-ar.medium.glif</string>
   <key>two-ar.small</key>
   <string>two-ar.small.glif</string>
+  <key>two-persian</key>
+  <string>two-persian.glif</string>
+  <key>two-persian.medium</key>
+  <string>two-persian.medium.glif</string>
+  <key>two-persian.small</key>
+  <string>two-persian.small.glif</string>
   <key>two.medium</key>
   <string>two.medium.glif</string>
   <key>two.small</key>
@@ -2180,6 +2274,12 @@
   <string>zero-ar.medium.glif</string>
   <key>zero-ar.small</key>
   <string>zero-ar.small.glif</string>
+  <key>zero-persian</key>
+  <string>zero-persian.glif</string>
+  <key>zero-persian.medium</key>
+  <string>zero-persian.medium.glif</string>
+  <key>zero-persian.small</key>
+  <string>zero-persian.small.glif</string>
   <key>zero.medium</key>
   <string>zero.medium.glif</string>
   <key>zero.small</key>

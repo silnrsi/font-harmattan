@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahHamzaabove-ar.medi.hand" format="1">
+  <advance width="949"/>
+  <outline>
+    <component base="hah-ar.medi.hand"/>
+    <component base="hamzaabove-ar" xOffset="183" yOffset="-752"/>
+    <contour>
+      <point x="189" y="910" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="480" y="1042" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="456" y="-382" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
