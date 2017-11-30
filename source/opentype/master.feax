@@ -351,9 +351,13 @@ lookup MaddahAlternates {
 #********************
 # DaggerAlef alternates: cv76
 
+lookup DaggerAlef_target {
+    sub alefabove-ar from [ alefabove-ar.large alefabove-ar ] ;
+} DaggerAlef_target;
+
 lookup DaggerAlefToLarge {
   lookupflag 0 ;
-    sub @TakesLargeDaggerAlef alefabove-ar' by alefabove-ar.large;
+    sub @TakesLargeDaggerAlef alefabove-ar' lookup DaggerAlef_target ;
 } DaggerAlefToLarge;
 
 #********************
