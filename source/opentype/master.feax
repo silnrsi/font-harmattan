@@ -380,32 +380,28 @@ lookup CommaAlternates {
 # Positioning rules *
 #********************
 
-lookup base_diaA_base {
+lookup mark_to_base {
   lookupflag 0;
   pos base @diaA mark @_diaA;
-} base_diaA_base;
+  pos base @diaB mark @_diaB;
+} mark_to_base;
 
-@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
-lookup base_diaA_mark {
-  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
-  pos mark @diaA_MarkBase mark @_diaA;
-} base_diaA_mark;
-
-lookup base_alef_base {
+lookup alef_to_base {
   lookupflag 0;
   pos base @alef mark @_alef;
-} base_alef_base;
+} alef_to_base;
 
-lookup base_diaB_base {
-  lookupflag 0;
-  pos base @diaB mark @_diaB;
-} base_diaB_base;
+@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
+lookup mark_to_mark_above {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
+  pos mark @diaA_MarkBase mark @_diaA;
+} mark_to_mark_above;
 
 @MarkFilter_diaB = [@diaB_MarkBase @_diaB];
-lookup base_diaB_mark {
+lookup mark_to_mark_below {
   lookupflag UseMarkFilteringSet @MarkFilter_diaB;
   pos mark @diaB_MarkBase mark @_diaB;
-} base_diaB_mark;
+} mark_to_mark_below;
 
 lookup cursive__digit_digit {
   lookupflag IgnoreMarks;
@@ -1107,16 +1103,15 @@ feature kern {  # Kerning
             lookup Kern;
 } kern ;
 
-feature mark {  # Mark Positioning
-            lookup base_diaA_base;
-            lookup base_alef_base;
-            lookup base_diaB_base;
+feature mark {  # Mark to base Positioning
+            lookup mark_to_base;
+            lookup alef_to_base;
     script arab;  # Arabic
             lookup AlefMark2BelowAfterLam;
             lookup MarkKern;
 } mark ;
 
-#feature mkmk {  # Mark to Mark Positioning
-#            lookup base_diaB_mark;
-#            lookup base_diaA_mark;
-#} mkmk ;
+feature mkmk {  # Mark to mark Positioning
+            lookup mark_to_mark_above;
+            lookup mark_to_mark_below;
+} mkmk ;
