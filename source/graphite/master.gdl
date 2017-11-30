@@ -365,7 +365,7 @@ pass(3)
 	// Kerning of reh-like and waw-like
 	
 	// tighten to following gaf-like, allowing intervening marks below
-	cRehKernGaf {advance.x -= 300m} / cRehAll MARKSBELOW _ ;
+	cRehKernGaf {advance.x -= 150m} / cRehAll MARKSBELOW _ ;
 	cRehKernGaf {advance.x -= 50m}  / cWawAll MARKSBELOW _ ;
 	
 	// loosen from following narrow initials with something below
