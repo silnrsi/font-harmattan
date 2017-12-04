@@ -37,8 +37,7 @@
   <test label='U+02DA'><string>\u02DA</string></test>
   <test label='U+02DC'><string>\u02DC</string></test>
   <test label='U+0600'><string>\u0600 \u0601 \u0602 \u0603 \u0604</string></test>
-  <test label='U+0609'><string>\u0609 \u060A</string></test>
-  <test label='U+060C'><string>\u060C</string></test>
+  <test label='U+0609'><string>\u0609 \u060A \u060B \u060C</string></test>
   <test label='U+060C' stylename='cv84_1'><string>\u060C</string></test>
   <test label='U+0610'><string>\u0628\u0610 \u0628\u0611 \u0628\u0612 \u0628\u0613 \u0628\u0614</string></test>
   <test label='U+0619'><string>\u0628\u0619</string></test>
@@ -123,8 +122,10 @@
   <test label='U+0674'><string>\u0674</string></test>
   <test label='U+067A'><string>\u067A \u067A\u200D \u200D\u067A\u200D \u200D\u067A \u067A\u067A\u067A</string><comment>tteheh-ar</comment></test>
   <test label='U+067B'><string>\u067B \u067B\u200D \u200D\u067B\u200D \u200D\u067B \u067B\u067B\u067B</string><comment>beeh-ar</comment></test>
+  <test label='U+067C'><string>\u067C \u067C\u200D \u200D\u067C\u200D \u200D\u067C \u067C\u067C\u067C</string><comment>tehRing-ar</comment></test>
   <test label='U+067D'><string>\u067D \u067D\u200D \u200D\u067D\u200D \u200D\u067D \u067D\u067D\u067D</string><comment>tehThreedotsdown-ar</comment></test>
   <test label='U+067E'><string>\u067E \u067E\u200D \u200D\u067E\u200D \u200D\u067E \u067E\u067E\u067E</string><comment>peh-ar</comment></test>
+  <test label='U+0681'><string>\u0681 \u0681\u200D \u200D\u0681\u200D \u200D\u0681 \u0681\u0681\u0681</string><comment>hahHamzaabove-ar</comment></test>
   <test label='U+0682'><string>\u0682 \u0682\u200D \u200D\u0682\u200D \u200D\u0682 \u0682\u0682\u0682</string><comment>hahTwodotsverticalabove-ar</comment></test>
   <test label='U+0682' stylename='cv08_1'><string>\u0682 \u0682\u200D \u200D\u0682\u200D \u200D\u0682 \u0682\u0682\u0682</string><comment>hahTwodotsverticalabove-ar</comment></test>
   <test label='U+0683'><string>\u0683 \u0683\u200D \u200D\u0683\u200D \u200D\u0683 \u0683\u0683\u0683</string><comment>nyeh-ar</comment></test>
@@ -135,6 +136,7 @@
   <test label='U+0685' stylename='cv08_1'><string>\u0685 \u0685\u200D \u200D\u0685\u200D \u200D\u0685 \u0685\u0685\u0685</string><comment>hahThreedotsabove-ar</comment></test>
   <test label='U+0686'><string>\u0686 \u0686\u200D \u200D\u0686\u200D \u200D\u0686 \u0686\u0686\u0686</string><comment>tcheh-ar</comment></test>
   <test label='U+0686' stylename='cv08_1'><string>\u0686 \u0686\u200D \u200D\u0686\u200D \u200D\u0686 \u0686\u0686\u0686</string><comment>tcheh-ar</comment></test>
+  <test label='U+0687'><string>\u0687 \u0687\u200D \u200D\u0687\u200D \u200D\u0687 \u0687\u0687\u0687</string><comment>tcheheh-ar</comment></test>
   <test label='U+0689'><string>\u0689 \u200D\u0689</string><comment>dalRing-ar</comment></test>
   <test label='U+068A'><string>\u068A \u200D\u068A</string><comment>dalDotbelow-ar</comment></test>
   <test label='U+068B'><string>\u068B \u200D\u068B</string><comment>dalDotbelowTah-ar</comment></test>
@@ -145,9 +147,11 @@
   <test label='U+0692'><string>\u0692 \u200D\u0692</string><comment>rehv-ar</comment></test>
   <test label='U+0694'><string>\u0694 \u200D\u0694</string><comment>rehDotbelow-ar</comment></test>
   <test label='U+0695'><string>\u0695 \u200D\u0695</string><comment>rehVbelow-ar</comment></test>
+  <test label='U+0696'><string>\u0696 \u200D\u0696</string><comment>rehDotbelowdotabove-ar</comment></test>
   <test label='U+0697'><string>\u0697 \u200D\u0697</string><comment>rehTwodots-ar</comment></test>
   <test label='U+0698'><string>\u0698 \u200D\u0698</string><comment>jeh-ar</comment></test>
   <test label='U+0698' stylename='cv90_1'><string>\u0698 \u200D\u0698</string><comment>jeh-ar</comment></test>
+  <test label='U+0699'><string>\u0699 \u200D\u0699</string><comment>rehFourdots-ar</comment></test>
   <test label='U+069A'><string>\u069A \u069A\u200D \u200D\u069A\u200D \u200D\u069A \u069A\u069A\u069A</string><comment>seenDotbelowDotabove-ar</comment></test>
   <test label='U+069B'><string>\u069B \u069B\u200D \u200D\u069B\u200D \u200D\u069B \u069B\u069B\u069B</string><comment>seenThreedotsbelow-ar</comment></test>
   <test label='U+069C'><string>\u069C \u069C\u200D \u200D\u069C\u200D \u200D\u069C \u069C\u069C\u069C</string><comment>sheenThreedotsbelow-ar</comment></test>
@@ -201,6 +205,11 @@
   <test label='U+06EA'><string>\u0628\u06EA \u0628\u06EB \u0628\u06EC \u0628\u06ED</string></test>
   <test label='U+06EE'><string>\u06EE \u200D\u06EE</string><comment>dalVinvertedabove-ar</comment></test>
   <test label='U+06EF'><string>\u06EF \u200D\u06EF</string><comment>rehVinvertedabove-ar</comment></test>
+  <test label='U+06F0'><string>\u06F0 \u06F1 \u06F2 \u06F3 \u06F4</string></test>
+  <test label='U+06F4' stylename='cv82_1'><string>\u06F4</string></test>
+  <test label='U+06F4' stylename='cv82_2'><string>\u06F4</string></test>
+  <test label='U+06F4' stylename='ur_'><string>\u06F4</string><comment>four-persian</comment></test>
+  <test label='U+06F5'><string>\u06F5 \u06F6 \u06F7 \u06F8 \u06F9</string></test>
   <test label='U+06FA'><string>\u06FA \u06FA\u200D \u200D\u06FA\u200D \u200D\u06FA \u06FA\u06FA\u06FA</string><comment>sheenDotbelow-ar</comment></test>
   <test label='U+06FB'><string>\u06FB \u06FB\u200D \u200D\u06FB\u200D \u200D\u06FB \u06FB\u06FB\u06FB</string><comment>dadDotbelow-ar</comment></test>
   <test label='U+06FB' stylename='cv20_1'><string>\u06FB \u06FB\u200D \u200D\u06FB\u200D \u200D\u06FB \u06FB\u06FB\u06FB</string><comment>dadDotbelow-ar</comment></test>
@@ -293,6 +302,7 @@
   <test label='U+2219'><string>\u2219</string></test>
   <test label='U+25CC'><string>\u25CC</string></test>
   <test label='U+F130'><string>\uF130 \uF131</string></test>
+  <test label='U+FB7F'><string>\uFB7F \uFB80 \uFB81</string></test>
   <test label='U+FD3E'><string>\uFD3E \uFD3F</string></test>
   <test label='U+FDF2'><string>\uFDF2</string></test>
   <test label='U+FEFF'><string>\uFEFF</string></test>
@@ -413,6 +423,8 @@
     <style name='cv78_2' feats='"cv78" 2'/>
     <style name='cv80_1' feats='"cv80" 1'/>
     <style name='cv80_2' feats='"cv80" 2'/>
+    <style name='cv82_1' feats='"cv82" 1'/>
+    <style name='cv82_2' feats='"cv82" 2'/>
     <style name='cv84_1' feats='"cv84" 1'/>
     <style name='cv90_1' feats='"cv90" 1'/>
     <style name='invs_1' feats='"invs" 1'/>

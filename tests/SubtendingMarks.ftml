@@ -21,6 +21,22 @@
   <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>endofayah-ar+eight-ar</comment></test>
   <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>endofayah-ar+eight-ar</comment></test>
   <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u0668 \u06DD\u0668\u0668 \u06DD\u0668\u0668\u0668 \u06DD\u0661\u0662</string><comment>endofayah-ar+eight-ar</comment></test>
+  <test label='U+0600'><string>\u0628\u0600\u0645 \u0600\u06F8 \u0600\u06F8\u06F8 \u0600\u06F8\u06F8\u06F8 \u0600\u06F1\u06F2</string><comment>number-ar+eight-persian</comment></test>
+  <test label='U+0600'><string>\u0628\u0600\u06F4\u06F6\u06F7</string><comment>number-ar</comment></test>
+  <test label='U+0601'><string>\u0628\u0601\u0645 \u0601\u06F8 \u0601\u06F8\u06F8 \u0601\u06F8\u06F8\u06F8 \u0601\u06F8\u06F8\u06F8\u06F8 \u0601\u06F1\u06F2</string><comment>year-ar+eight-persian</comment></test>
+  <test label='U+0601'><string>\u0628\u0601\u06F4\u06F6\u06F7</string><comment>year-ar</comment></test>
+  <test label='U+0602'><string>\u0628\u0602\u0645 \u0602\u06F8 \u0602\u06F8\u06F8 \u0602\u06F1\u06F2</string><comment>footnotemarker-ar+eight-persian</comment></test>
+  <test label='U+0602'><string>\u0628\u0602\u06F4\u06F6\u06F7</string><comment>footnotemarker-ar</comment></test>
+  <test label='U+0603'><string>\u0628\u0603\u0645 \u0603\u06F8 \u0603\u06F8\u06F8 \u0603\u06F8\u06F8\u06F8 \u0603\u06F8\u06F8\u06F8\u06F8 \u0603\u06F1\u06F2</string><comment>pagenumber-ar+eight-persian</comment></test>
+  <test label='U+0603'><string>\u0628\u0603\u06F4\u06F6\u06F7</string><comment>pagenumber-ar</comment></test>
+  <test label='U+0604'><string>\u0628\u0604\u0645 \u0604\u06F8 \u0604\u06F8\u06F8 \u0604\u06F8\u06F8\u06F8 \u0604\u06F8\u06F8\u06F8\u06F8 \u0604\u06F1\u06F2</string><comment>samvat-ar+eight-persian</comment></test>
+  <test label='U+0604'><string>\u0628\u0604\u06F4\u06F6\u06F7</string><comment>samvat-ar</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>endofayah-ar+eight-persian</comment></test>
+  <test label='U+06DD'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>endofayah-ar</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>endofayah-ar+eight-persian</comment></test>
+  <test label='U+06DD' stylename='cv80_1'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>endofayah-ar</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u0645 \u06DD\u06F8 \u06DD\u06F8\u06F8 \u06DD\u06F8\u06F8\u06F8 \u06DD\u06F1\u06F2</string><comment>endofayah-ar+eight-persian</comment></test>
+  <test label='U+06DD' stylename='cv80_2'><string>\u0628\u06DD\u06F4\u06F6\u06F7</string><comment>endofayah-ar</comment></test>
   </testgroup>
 <head>
   <fontscale>300</fontscale>
