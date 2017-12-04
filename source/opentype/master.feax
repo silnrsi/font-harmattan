@@ -67,8 +67,7 @@ lookup FontCheck {
 
 lookup ltrFina {
   lookupflag IgnoreMarks ;
-    sub @DualLinkIsol by @DualLinkFina ;
-    sub @RightLinkIsol by @RightLinkFina ;
+    sub [@DualLinkIsol @RightLinkIsol] by [@DualLinkFina @RightLinkFina] ;
 } ltrFina;
 
 lookup ltrMedi {
