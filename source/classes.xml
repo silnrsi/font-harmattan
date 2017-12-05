@@ -154,6 +154,8 @@
         yehTwodotsbelowNoonabove-ar.fina yehVabove-ar.fina yehVinverted-farsi.fina zah-ar.fina
     </class>
 
+<!-- The following 6 classes were generated algorithmically based on Unicode properties (see tools/bin/absGenClass) -->
+
     <class name='DualLinkMedi'>
         ain-ar.medi ainThreedots-ar.medi ainThreedotsbelow-ar.medi ainThreedotsdownabove-ar.medi ainTwodotshorizontalabove-ar.medi
         ainTwodotsverticalabove-ar.medi alefMaksura-ar.medi beeh-ar.medi beh-ar.medi behDotless-ar.medi
@@ -630,23 +632,6 @@
     <class name='RehTightenMore'>
         reh-ar zain-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar reh-ar.fina zain-ar.fina rehDotbelow-ar.fina
         rehVbelow-ar.fina rehTwodotsverticalabove-ar.fina rehStroke-ar.fina
-    </class>
-
-    <class name='RightLinkFina'>
-        alefMadda-ar.fina alefMadda-ar.small.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alef-ar.fina alefWasla-ar.fina
-        wawHamzaabove-ar.fina waw-ar.fina oe-ar.fina yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina dal-ar.fina
-        thal-ar.fina dalRing-ar.fina dalDotbelow-ar.fina dalDotbelowTah-ar.fina dahal-ar.fina ddahal-ar.fina dul-ar.fina
-        dalThreedotsdown-ar.fina dalVinvertedabove-ar.fina dalVinvertedbelow-ar.fina dalThreedotsbelow-ar.fina reh-ar.fina zain-ar.fina
-        rehv-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehTwodots-ar.fina jeh-ar.fina rehTwodotsverticalabove-ar.fina zainVinvertedabove-ar.fina
-        rehVinvertedabove-ar.fina rehStroke-ar.fina yehbarree-ar.fina ae-ar.fina tehMarbuta-ar.fina hehHamzaabove-ar.fina
-    </class>
-
-    <class name='RightLinkIsol'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzabelow-ar alef-ar alefWasla-ar wawHamzaabove-ar waw-ar
-        oe-ar yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar dal-ar thal-ar dalRing-ar dalDotbelow-ar
-        dalDotbelowTah-ar dahal-ar ddahal-ar dul-ar dalThreedotsdown-ar dalVinvertedabove-ar dalVinvertedbelow-ar
-        dalThreedotsbelow-ar reh-ar zain-ar rehv-ar rehDotbelow-ar rehVbelow-ar rehTwodots-ar jeh-ar
-        rehTwodotsverticalabove-ar zainVinvertedabove-ar rehVinvertedabove-ar rehStroke-ar yehbarree-ar ae-ar tehMarbuta-ar hehHamzaabove-ar
     </class>
 
     <class name='ShaddaKasraLigatures'>
