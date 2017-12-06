@@ -340,7 +340,7 @@ while (<IN>)
 {
     s/\s+$//o;  # OS-safe chomp
     next if /^\s*(?:\#.*)$/;    # Skip comments and blank lines
-    if (/^Name\tOrder\t/)
+    if (/^Name\t.*Order\t/)
     {
         # this line has our column headers:
         s/Name\t/silname\t/;    # change first "name" to "silname" so we keep these distinct from post names.

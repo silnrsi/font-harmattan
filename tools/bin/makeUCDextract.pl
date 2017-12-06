@@ -2,11 +2,11 @@
 
 # Program to generate subset of UCD data related to our ABS font work:
 
-# Parameter should be folder containing UCD data files. Default to 
-#    "C:\Reference\Unicode\Unicode 6.1\ucd" on Windows
-#    "/Volumes/DariusII/Unicode/Unicode 6.1/ucd" otherwise
+# Parameter should be folder containing UCD data files. 
 
 # Changes
+# 2017-06-30 bh
+#   Change default datafile to 10.0
 # 2016-10-13 bh
 #   Change default datafile to 9.0
 #   Remove now-standardized chars from __DATA__ 
@@ -51,7 +51,7 @@ my ($usv, $name, $gen, $class, $bidi, $decomp, $numtype, $mirror, $jointype, $jo
 my ($u, %chars);
 
 
-my $ucddir = $ARGV[0] || catdir (($^O eq 'MSWin32' ? 'C:' : '/Volumes/DariusII') , 'Reference', 'Unicode',  '9.0.0', 'ucd');
+my $ucddir = $ARGV[0] || catdir (($^O eq 'MSWin32' ? 'C:' : '/Volumes/DariusII') , 'Reference', 'Unicode',  '10.0.0', 'ucd');
 
 sub uopen
 {
