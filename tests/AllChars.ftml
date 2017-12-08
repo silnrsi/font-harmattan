@@ -306,31 +306,31 @@
   <test label='U+FD3E'><string>\uFD3E \uFD3F</string></test>
   <test label='U+FDF2'><string>\uFDF2</string></test>
   <test label='U+FEFF'><string>\uFEFF</string></test>
-  <test label='U+0627'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>absAlefFatha</comment></test>
-  <test label='U+0627' stylename='cv02_1'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>absAlefFatha</comment></test>
-  <test label='U+0627' stylename='cv02_2'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>absAlefFatha</comment></test>
-  <test label='U+0627'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>absAlefKasra</comment></test>
-  <test label='U+0627' stylename='cv02_1'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>absAlefKasra</comment></test>
-  <test label='U+0627' stylename='cv02_2'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>absAlefKasra</comment></test>
-  <test label='U+0654'><string>\u0628\u0654\u064F</string><comment>absHamzaDamma</comment></test>
-  <test label='U+0654' stylename='cv70_1'><string>\u0628\u0654\u064F</string><comment>absHamzaDamma</comment></test>
-  <test label='U+0654' stylename='cv70_2'><string>\u0628\u0654\u064F</string><comment>absHamzaDamma</comment></test>
-  <test label='U+0644'><string>\u0644\u0654\u0627 \u200D\u0644\u0654\u0627</string><comment>absLamHamza</comment></test>
-  <test label='U+0644' stylename='cv02_1'><string>\u0644\u0654\u0627 \u200D\u0644\u0654\u0627</string><comment>absLamHamza</comment></test>
-  <test label='U+0644' stylename='cv02_2'><string>\u0644\u0654\u0627 \u200D\u0644\u0654\u0627</string><comment>absLamHamza</comment></test>
-  <test label='U+0651'><string>\u0628\u0651\u064F</string><comment>absShaddaDamma</comment></test>
-  <test label='U+0651' stylename='cv70_1'><string>\u0628\u0651\u064F</string><comment>absShaddaDamma</comment></test>
-  <test label='U+0651' stylename='cv70_2'><string>\u0628\u0651\u064F</string><comment>absShaddaDamma</comment></test>
-  <test label='U+0651'><string>\u0628\u0651\u064C</string><comment>absShaddaDammatan</comment></test>
-  <test label='U+0651' stylename='cv72_1'><string>\u0628\u0651\u064C</string><comment>absShaddaDammatan</comment></test>
-  <test label='U+0651'><string>\u0628\u0651\u0650</string><comment>absShaddaKasra</comment></test>
-  <test label='U+0651' stylename='cv62_1'><string>\u0628\u0651\u0650</string><comment>absShaddaKasra</comment></test>
-  <test label='U+0651' stylename='sd_'><string>\u0628\u0651\u0650</string><comment>absShaddaKasra</comment></test>
-  <test label='U+0651' stylename='ur_'><string>\u0628\u0651\u0650</string><comment>absShaddaKasra</comment></test>
-  <test label='U+0651'><string>\u0628\u0651\u064D</string><comment>absShaddaKasratan</comment></test>
-  <test label='U+0651' stylename='cv62_1'><string>\u0628\u0651\u064D</string><comment>absShaddaKasratan</comment></test>
-  <test label='U+0651' stylename='sd_'><string>\u0628\u0651\u064D</string><comment>absShaddaKasratan</comment></test>
-  <test label='U+0651' stylename='ur_'><string>\u0628\u0651\u064D</string><comment>absShaddaKasratan</comment></test>
+  <test label='U+0627'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>alef_fatha-ar</comment></test>
+  <test label='U+0627' stylename='cv02_1'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>alef_fatha-ar</comment></test>
+  <test label='U+0627' stylename='cv02_2'><string>\u0627\u064E \u200D\u0627\u064E</string><comment>alef_fatha-ar</comment></test>
+  <test label='U+0627'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>alef_kasra-ar</comment></test>
+  <test label='U+0627' stylename='cv02_1'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>alef_kasra-ar</comment></test>
+  <test label='U+0627' stylename='cv02_2'><string>\u0627\u0650 \u200D\u0627\u0650</string><comment>alef_kasra-ar</comment></test>
+  <test label='U+0654'><string>\u0628\u0654\u064F</string><comment>hamza_damma-ar</comment></test>
+  <test label='U+0654' stylename='cv70_1'><string>\u0628\u0654\u064F</string><comment>hamza_damma-ar</comment></test>
+  <test label='U+0654' stylename='cv70_2'><string>\u0628\u0654\u064F</string><comment>hamza_damma-ar</comment></test>
+  <test label='U+0644'><string>\u0644\u0654\u0627 \u200D\u0644\u0654\u0627</string><comment>lam_hamza-ar</comment></test>
+  <test label='U+0644' stylename='cv02_1'><string>\u0644\u0654\u0627 \u200D\u0644\u0654\u0627</string><comment>lam_hamza-ar</comment></test>
+  <test label='U+0644' stylename='cv02_2'><string>\u0644\u0654\u0627 \u200D\u0644\u0654\u0627</string><comment>lam_hamza-ar</comment></test>
+  <test label='U+0651'><string>\u0628\u0651\u064F</string><comment>shadda_damma-ar</comment></test>
+  <test label='U+0651' stylename='cv70_1'><string>\u0628\u0651\u064F</string><comment>shadda_damma-ar</comment></test>
+  <test label='U+0651' stylename='cv70_2'><string>\u0628\u0651\u064F</string><comment>shadda_damma-ar</comment></test>
+  <test label='U+0651'><string>\u0628\u0651\u064C</string><comment>shadda_dammatan-ar</comment></test>
+  <test label='U+0651' stylename='cv72_1'><string>\u0628\u0651\u064C</string><comment>shadda_dammatan-ar</comment></test>
+  <test label='U+0651'><string>\u0628\u0651\u0650</string><comment>shadda_kasra-ar</comment></test>
+  <test label='U+0651' stylename='cv62_1'><string>\u0628\u0651\u0650</string><comment>shadda_kasra-ar</comment></test>
+  <test label='U+0651' stylename='sd_'><string>\u0628\u0651\u0650</string><comment>shadda_kasra-ar</comment></test>
+  <test label='U+0651' stylename='ur_'><string>\u0628\u0651\u0650</string><comment>shadda_kasra-ar</comment></test>
+  <test label='U+0651'><string>\u0628\u0651\u064D</string><comment>shadda_kasratan-ar</comment></test>
+  <test label='U+0651' stylename='cv62_1'><string>\u0628\u0651\u064D</string><comment>shadda_kasratan-ar</comment></test>
+  <test label='U+0651' stylename='sd_'><string>\u0628\u0651\u064D</string><comment>shadda_kasratan-ar</comment></test>
+  <test label='U+0651' stylename='ur_'><string>\u0628\u0651\u064D</string><comment>shadda_kasratan-ar</comment></test>
   <test label='U+0644+0627'><string>\u0644\u0627 \u200D\u0644\u0627</string><comment>lam-ar+alef-ar</comment></test>
   <test label='U+0644+0622'><string>\u0644\u0622 \u200D\u0644\u0622</string><comment>lam-ar+alefMadda-ar</comment></test>
   <test label='U+0644+0622' stylename='cv60_1'><string>\u0644\u0622 \u200D\u0644\u0622</string><comment>lam-ar+alefMadda-ar</comment></test>
