@@ -10,14 +10,15 @@ use Font::TTF::OTTags qw( %iso639 );
 use File::Basename;
 use File::Spec::Functions;
 use HTML::Entities;
-
+use Text::CSV_XS;
  
 use strict;
 
-our ($help, $family, $omitFeatures, @fonts, $silent, $test, $xslfile);
+our ($help, $family, $glyphsApp, $omitFeatures, @fonts, $silent, $test, $xslfile);
 
 GetOptions (
     'family=s'  => \$family,
+    'glyphsApp' => \$glyphsApp,
     'omit'      => \$omitFeatures,
     'render=s'  => \@fonts,
     'silent'    => \$silent,
@@ -42,6 +43,7 @@ GenTest [-h]  [-f fontID]  [-s]  [-t testname] [-r fontsrc] ttf_file [ap_file]
 
   --help    output extended help message
   --family  a letter representing font family (S = Scheherazade, etc)
+  --glyphsApp if set, assume GlyphsApp-compatible naming rather than ABS
   --omit    omit all feature permutations
   --render  @fontface info for test font(s) that should be included
   --xsl     path to xsl file to render ftml in browser
@@ -94,16 +96,18 @@ Tests currently defined:
 # Developer notes:
 #
 # This code is intended to independent on the actual glyph names in
-# the font so can be used on a production font after SIL glyph names are
+# the font so can be used on a production font after working names are
 # replaced with AGL names, but of course the ap_file won't match then.
 # At this point the attachment point data isn't used for anything anyway.
 #
 # The absGlyphList, which drives some of the test generation, is, of course,
-# in terms of SIL names, so some datastructures and logic utilize these names.
+# in terms of working names, so some datastructures and logic utilize these names.
+# Some ABS projects use the old glyph-naming convention ('absBehIni') while
+# others use the GlyphpsApp convention ('beh-ar.init'). 
 # 
 # To keep the names separate, the actual glyph names from the font will be 
-# referred to as "post" names while the SIL names from the absGlyphList will
-# be called, uh, silnames.
+# referred to as "post" names while the working names from the absGlyphList will
+# be called wrknames.
 
 $test ||= 'all';    # Default to test we are currently designing, if any, or 'all'
 my $ttf_file = shift @ARGV;     # Actual font
@@ -296,7 +300,7 @@ my %features;   # Hash indexed by feature tag returning anonymous hash keyed by:
 my %langs;      # Hash indexed by language tag, returning anonymous hash keyed by:
 #   'uids'      a hash whose keys are UIDs that are impacted by this lang
 #   'specials'  a hash whose keys are silBasenames (from %specials) affected by this lang.
-my %silname2uid;    # Hash mapping SIL basename to Unicode
+my %wrkname2uid;    # Hash mapping SIL basename to Unicode
 my %fontName = (    # hash of known font inventories, bcp47tags supported, default value overrides
     s => ['Scheherazade', qr/^(?:ku|sd|rhg|ug|ur)$/o,   { }         ],
     l => ['Lateef',       qr/^(?:ku|sd|ug|ur)$/o,       { }         ],
@@ -317,6 +321,22 @@ my %specials = (
     'absLamHamza' =>        {'uids' => [0x0644, 0x0654, 0x0627], 'joining' => 'R'},   # for the .preAlef glyphs
     );
 
+if ($glyphsApp) 
+{
+    # convert names of specials to GlyphsApp convention:
+    my %h = (
+        'absShaddaKasra' =>      'shadda_kasra-ar',
+        'absShaddaKasratan' =>   'shadda_kasratan-ar',
+        'absShaddaDamma' =>      'shadda_damma-ar',
+        'absShaddaDammatan' =>   'shadda_dammatan-ar',
+        'absHamzaDamma' =>       'hamza_damma-ar',
+        'absAlefFatha' =>        'alef_fatha-ar',
+        'absAlefKasra' =>        'alef_kasra-ar',
+        'absLamHamza' =>         'lam_hamza-ar');
+    while (my ($a, $g) = each %h)
+    { $specials{$g} = delete($specials{$a}); }
+}
+
 my ($fontRE, $fontID);
 
 if ($family)
@@ -332,113 +352,103 @@ else
 }
 
 
-# find ABSGlyphList.txt -- in current directory or ABSGlyphList subdir of $0
-my $gl = "absGlyphList.txt";
+# find ABSGlyphList.csv -- in current directory or ABSGlyphList subdir of $0
+my $gl = "absGlyphList.csv";
 $gl = catfile(dirname($0), '..', 'absGlyphList', $gl) unless (-f $gl);
-open (IN, $gl) || die "Can't open $gl";
-while (<IN>)
+open my $in, '<', $gl or die "Can't open '$gl': $!";
+my $csv = Text::CSV_XS->new({binary => 1}) or die "".Text::CSV_XS->error_diag ();
+my @cols = map { ($_ eq ($glyphsApp ? 'GlyphsName' : 'Name')) ? 'wrkname' : lc($_) } @{$csv->getline($in)};
+$csv->column_names(@cols);
+while (my $h = $csv->getline_hr($in))
 {
-    s/\s+$//o;  # OS-safe chomp
-    next if /^\s*(?:\#.*)$/;    # Skip comments and blank lines
-    if (/^Name\t.*Order\t/)
+    next unless $h->{'fonts'} =~ $fontRE    # make sure this is in the relevant font
+        && $h->{'wrkname'} !~ /^(?:CR|tab)$/    # and ths isn't one of the low unencoded glyphs
+        && $h->{'wrkname'} =~ /^([^.]+?)(?:Ini|Med|Fin|Medium|Small)?(?:\..+)*$/;   # and the wrkname has a reasonable basename
+    my $silBasename = $1;   
+    # print STDERR "$h->{'wrkname'} \t==> $silBasename\n";
+    $uid = hex($h->{'usv'});        # might be empty string, resulting in uid=0
+    my $isEncoded;
+    if ($uid > 0)
     {
-        # this line has our column headers:
-        s/Name\t/silname\t/;    # change first "name" to "silname" so we keep these distinct from post names.
-        $_ = lc($_);
-        @cols = split("\t");
+        # Keep a mapping of basename to uid:
+        $wrkname2uid{$silBasename} = $uid;
+        $isEncoded = 1;
     }
     else
     {
-        my $h = {};
-        @{$h}{@cols} = split("\t");
-        next unless $h->{'fonts'} =~ $fontRE    # make sure this is in the relevant font
-            && $h->{'silname'} !~ /^(?:CR|tab)$/    # and ths isn't one of the low unencoded glyphs
-            && $h->{'silname'} =~ /^([^.]+?)(?:Ini|Med|Fin|Medium|Small)?(?:\..+)*$/;   # and the silname has a reasonable basename
-        my $silBasename = $1;   
-        # print STDERR "$h->{'silname'} \t==> $silBasename\n";
-        $uid = hex($h->{'usv'});        # might be empty string, resulting in uid=0
-        my $isEncoded;
-        if ($uid > 0)
+        $uid = $wrkname2uid{$silBasename};      # assumes encoded basename appears before contextual form
+        $isEncoded = 0;
+    }
+    
+    if ($h->{'feat'} =~ /^[^#]/)
+    {
+        if ($uid > 0 || defined $specials{$silBasename})
         {
-            # Keep a mapping of basename to uid:
-            $silname2uid{$silBasename} = $uid;
-            $isEncoded = 1;
-        }
-        else
-        {
-            $uid = $silname2uid{$silBasename};      # assumes encoded basename appears before contextual form
-            $isEncoded = 0;
-        }
-        
-        if ($h->{'feat'} =~ /^[^#]/)
-        {
-            if ($uid > 0 || defined $specials{$silBasename})
+            $h->{'feat'} =~ s/\s//og;   # strip any whitespace.
+            $h->{'feat'} = $1 if $h->{'feat'} =~ /^"(.*)"$/oi;  # strip quotes if present.
+            foreach (split(';', $h->{'feat'}))
             {
-                $h->{'feat'} =~ s/\s//og;   # strip any whitespace.
-                $h->{'feat'} = $1 if $h->{'feat'} =~ /^"(.*)"$/oi;  # strip quotes if present.
-                foreach (split(';', $h->{'feat'}))
+                my ($feat, @vals);
+                ($feat, @vals) = (m/^(\w{2,4})(?:=(\d+)(?:,(\d+))*)?$/);        # matches things like 'cv23' or 'cv23=4' or 'cv23=2,3'
+                @vals = grep {defined} @vals;
+                if ($feat ne '' && !$omitFeatures)
                 {
-                    my ($feat, @vals);
-                    ($feat, @vals) = (m/^(\w{2,4})(?:=(\d+)(?:,(\d+))*)?$/);        # matches things like 'cv23' or 'cv23=4' or 'cv23=2,3'
-                    @vals = grep {defined} @vals;
-                    if ($feat ne '' && !$omitFeatures)
+                    if ($isEncoded)
                     {
-                        if ($isEncoded)
-                        {
-                            # Remember the default value for this feature:
-                            $features{$feat}{'defaultVal'} = $vals[0]+0;
-                        }
-                        for (@vals, 1)
-                        {
-                            $features{$feat}{'maxVal'} = $_ if $_ > $features{$feat}{'maxVal'};
-                        }
-                        if (defined $specials{$silBasename})
-                        {
-                            $specials{$silBasename}{'features'}{$feat} = 1;
-                            $features{$feat}{'specials'}{$silBasename} = 1;
-                        }
-                        else
-                        {
-                            $UCD{$uid}{'features'}{$feat} = 1;
-                            $features{$feat}{'uids'}{$uid} = 1;
-                        }
+                        # Remember the default value for this feature:
+                        $features{$feat}{'defaultVal'} = $vals[0]+0;
                     }
-                }
-            }
-            else
-            {
-                warn "Untestable features for glyph $h->{'silname'}: no known USV\n";
-            }
-
-        }
-        if ($h->{'bcp47tags'} ne '')
-        {
-            if ($uid > 0 || defined $specials{$silBasename})
-            {
-                $h->{'bcp47tags'} =~ s/\s//og;  # strip any whitespace.
-                $h->{'bcp47tags'} = $1 if $h->{'bcp47tags'} =~ /^"(.*)"$/oi;    # strip quotes if present.
-                foreach my $tag (split(/,/,  $h->{'bcp47tags'}))
-                {
-                    next if $fontID && $tag !~ $fontName{$fontID}[1];
+                    for (@vals, 1)
+                    {
+                        $features{$feat}{'maxVal'} = $_ if $_ > $features{$feat}{'maxVal'};
+                    }
                     if (defined $specials{$silBasename})
                     {
-                        $specials{$silBasename}{'langs'}{$tag} = 1;
-                        $langs{$tag}{'specials'}{$silBasename} = 1;
+                        $specials{$silBasename}{'features'}{$feat} = 1;
+                        $features{$feat}{'specials'}{$silBasename} = 1;
                     }
                     else
                     {
-                        $UCD{$uid}{'langs'}{$tag} = 1;
-                        $langs{$tag}{'uids'}{$uid} = 1;
+                        $UCD{$uid}{'features'}{$feat} = 1;
+                        $features{$feat}{'uids'}{$uid} = 1;
                     }
-                }   
+                }
             }
-            else
+        }
+        else
+        {
+            warn "Untestable features for glyph $h->{'wrkname'}: no known USV\n";
+        }
+
+    }
+    if ($h->{'bcp47tags'} ne '')
+    {
+        if ($uid > 0 || defined $specials{$silBasename})
+        {
+            $h->{'bcp47tags'} =~ s/\s//og;  # strip any whitespace.
+            $h->{'bcp47tags'} = $1 if $h->{'bcp47tags'} =~ /^"(.*)"$/oi;    # strip quotes if present.
+            foreach my $tag (split(/,/,  $h->{'bcp47tags'}))
             {
-                warn "Untestable langs for absglyph $h->{'silname'}: no known USV\n";
-            }
+                next if $fontID && $tag !~ $fontName{$fontID}[1];
+                if (defined $specials{$silBasename})
+                {
+                    $specials{$silBasename}{'langs'}{$tag} = 1;
+                    $langs{$tag}{'specials'}{$silBasename} = 1;
+                }
+                else
+                {
+                    $UCD{$uid}{'langs'}{$tag} = 1;
+                    $langs{$tag}{'uids'}{$uid} = 1;
+                }
+            }   
+        }
+        else
+        {
+            warn "Untestable langs for absglyph $h->{'wrkname'}: no known USV\n";
         }
     }
 }
+close $in or die "Couldn't close '$gl': $!";
 
 # Some of our fonts have different default values for features.
 # For example Harmattan has kasra low (cv62=1) as the default.
