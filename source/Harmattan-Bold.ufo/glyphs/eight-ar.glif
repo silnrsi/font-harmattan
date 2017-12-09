@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="eight-ar" format="1">
+  <advance width="896"/>
+  <unicode hex="0668"/>
+  <outline>
+    <contour>
+      <point x="778" y="-13" type="curve"/>
+      <point x="825" y="17"/>
+      <point x="875" y="90"/>
+      <point x="878" y="139" type="curve"/>
+      <point x="751" y="350"/>
+      <point x="604" y="693"/>
+      <point x="485" y="1102" type="curve"/>
+      <point x="454" y="1102"/>
+      <point x="390" y="1089"/>
+      <point x="372" y="1060" type="curve"/>
+      <point x="326" y="818"/>
+      <point x="170" y="429"/>
+      <point x="20" y="160" type="curve"/>
+      <point x="8" y="118"/>
+      <point x="65" y="13"/>
+      <point x="101" y="-3" type="curve"/>
+      <point x="265" y="287"/>
+      <point x="391" y="627"/>
+      <point x="437" y="838" type="curve"/>
+      <point x="509" y="551"/>
+      <point x="646" y="213"/>
+    </contour>
+  </outline>
+</glyph>

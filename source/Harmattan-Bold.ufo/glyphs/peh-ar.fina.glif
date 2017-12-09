@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peh-ar.fina" format="1">
+  <advance width="1984"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="_dot3d" xOffset="955" yOffset="-245"/>
+    <contour>
+      <point x="388" y="815" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="993" y="608" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="946" y="-678" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

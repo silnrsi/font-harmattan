@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehThreedotsbelow-ar.fina" format="1">
+  <advance width="1296"/>
+  <outline>
+    <component base="yeh-ar.noDots.fina"/>
+    <component base="_dot3d" xOffset="582" yOffset="-901"/>
+    <contour>
+      <point x="465" y="0" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="762" y="170" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="597" y="-1351" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

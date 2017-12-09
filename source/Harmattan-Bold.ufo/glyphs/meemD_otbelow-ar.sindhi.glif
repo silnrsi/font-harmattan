@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meemDotbelow-ar.sindhi" format="1">
+  <advance width="1213"/>
+  <outline>
+    <component base="meem-ar.sindhi"/>
+    <component base="_dot1" xOffset="863" yOffset="-270"/>
+    <contour>
+      <point x="430" y="474" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="779" y="631" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="860" y="-453" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

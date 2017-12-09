@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="highhamza-ar" format="1">
+  <advance width="396"/>
+  <unicode hex="0674"/>
+  <outline>
+    <component base="hamzaabove-ar" xOffset="-63" yOffset="-300"/>
+    <contour>
+      <point x="167" y="1476" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="209" y="985" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

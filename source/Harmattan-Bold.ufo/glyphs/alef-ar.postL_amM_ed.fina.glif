@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alef-ar.postLamMed.fina" format="1">
+  <advance width="994"/>
+  <outline>
+    <contour>
+      <point x="568" y="467"/>
+      <point x="451" y="786"/>
+      <point x="260" y="1028" type="curve"/>
+      <point x="213" y="982"/>
+      <point x="176" y="912"/>
+      <point x="175" y="834" type="curve"/>
+      <point x="294" y="712"/>
+      <point x="424" y="414"/>
+      <point x="479" y="118" type="curve"/>
+      <point x="541" y="131"/>
+      <point x="566" y="154"/>
+      <point x="593" y="182" type="curve"/>
+    </contour>
+    <contour>
+      <point x="141" y="1096" type="move" name="above"/>
+    </contour>
+    <contour>
+      <point x="101" y="960" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="530" y="-57" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="248" y="-89" type="move" name="dia2B"/>
+    </contour>
+    <contour>
+      <point x="206" y="1114" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="215" y="-89" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="556" y="121" type="move" name="entry"/>
+    </contour>
+  </outline>
+</glyph>

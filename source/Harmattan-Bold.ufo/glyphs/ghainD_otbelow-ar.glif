@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghainDotbelow-ar" format="1">
+  <advance width="822"/>
+  <unicode hex="06FC"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="_dot1" xOffset="535" yOffset="790"/>
+    <component base="_dot1" xOffset="509" yOffset="-263"/>
+    <contour>
+      <point x="341" y="773" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="509" y="958" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="488" y="-703" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

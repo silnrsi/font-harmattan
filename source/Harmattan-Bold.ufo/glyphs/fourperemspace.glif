@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourperemspace" format="1">
+  <advance width="494"/>
+  <unicode hex="2005"/>
+  <outline>
+    <contour>
+      <point x="247" y="186" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="247" y="649" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="247" y="-700" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

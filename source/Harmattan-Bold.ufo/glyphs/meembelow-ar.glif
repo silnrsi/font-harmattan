@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="meembelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="06ED"/>
+  <outline>
+    <component base="meemStopabove-ar" xOffset="-10" yOffset="-2098"/>
+    <contour>
+      <point x="94" y="-380" type="move" name="_dia2B"/>
+    </contour>
+    <contour>
+      <point x="101" y="-380" type="move" name="_diaB"/>
+    </contour>
+  </outline>
+</glyph>

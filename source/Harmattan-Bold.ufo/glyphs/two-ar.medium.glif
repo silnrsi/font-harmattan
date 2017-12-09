@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="two-ar.medium" format="1">
+  <advance width="685"/>
+  <outline>
+    <component base="two-ar" xScale="0.769" yScale="0.769" xOffset="79" yOffset="227"/>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+    <contour>
+      <point x="674" y="0" type="move" name="digit"/>
+    </contour>
+  </outline>
+</glyph>

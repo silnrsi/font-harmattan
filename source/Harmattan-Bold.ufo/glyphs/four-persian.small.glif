@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four-persian.small" format="1">
+  <advance width="494"/>
+  <outline>
+    <component base="four-persian" xScale="0.556" yScale="0.556" xOffset="19" yOffset="364"/>
+    <contour>
+      <point x="0" y="0" type="move" name="_digit"/>
+    </contour>
+    <contour>
+      <point x="494" y="0" type="move" name="digit"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehHamzaabove-ar" format="1">
+  <advance width="1437"/>
+  <unicode hex="0626"/>
+  <outline>
+    <component base="yeh-ar.noDots"/>
+    <component base="hamzaabove-ar" xOffset="716" yOffset="-578"/>
+    <contour>
+      <point x="489" y="323" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="925" y="1165" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="615" y="-401" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

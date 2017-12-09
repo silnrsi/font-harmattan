@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_damma" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="damma-ar" xOffset="-251" yOffset="-1396"/>
+    <contour>
+      <point x="20" y="-100" type="move" name="_above"/>
+    </contour>
+  </outline>
+</glyph>

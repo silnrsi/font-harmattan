@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fatha_meem-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="fatha-ar" xOffset="136" yOffset="-194"/>
+    <component base="meemStopabove-ar" xOffset="81" yOffset="-89"/>
+    <contour>
+      <point x="342" y="1105" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="190" y="1651" type="move" name="diaA"/>
+    </contour>
+  </outline>
+</glyph>

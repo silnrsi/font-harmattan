@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="toneloopbelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08EF"/>
+  <outline>
+    <component base="toneloopabove-ar" xOffset="-20" yOffset="-1860"/>
+    <contour>
+      <point x="193" y="-284" type="move" name="_diaB"/>
+    </contour>
+    <contour>
+      <point x="194" y="-648" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

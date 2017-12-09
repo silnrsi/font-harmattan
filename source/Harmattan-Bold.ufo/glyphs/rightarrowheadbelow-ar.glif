@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rightarrowheadbelow-ar" format="1">
+  <advance width="0"/>
+  <unicode hex="08FA"/>
+  <outline>
+    <component base="rightarrowheadabove-ar" yOffset="-1900"/>
+    <contour>
+      <point x="127" y="-187" type="move" name="_diaB"/>
+    </contour>
+    <contour>
+      <point x="184" y="-687" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafAfrican-ar.medi" format="1">
+  <advance width="797"/>
+  <outline>
+    <component base="fehDotless-ar.medi"/>
+    <component base="_dot1" xOffset="358" yOffset="983"/>
+    <contour>
+      <point x="145" y="960" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="329" y="1147" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="367" y="-121" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

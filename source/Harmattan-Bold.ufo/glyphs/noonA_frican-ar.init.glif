@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonAfrican-ar.init" format="1">
+  <advance width="429"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="_dot1" xOffset="171" yOffset="694"/>
+    <contour>
+      <point x="31" y="784" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="119" y="856" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="217" y="-74" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

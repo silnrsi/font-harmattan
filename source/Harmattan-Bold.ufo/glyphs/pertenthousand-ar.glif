@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pertenthousand-ar" format="1">
+  <advance width="1782"/>
+  <unicode hex="060A"/>
+  <outline>
+    <contour>
+      <point x="1083" y="1417" type="line"/>
+      <point x="995" y="1417" type="line"/>
+      <point x="84" y="-29" type="line"/>
+      <point x="170" y="-29" type="line"/>
+    </contour>
+    <contour>
+      <point x="221" y="1327" type="line"/>
+      <point x="109" y="1188" type="line"/>
+      <point x="119" y="1165"/>
+      <point x="176" y="1114"/>
+      <point x="258" y="1055" type="curve"/>
+      <point x="274" y="1061"/>
+      <point x="322" y="1110"/>
+      <point x="385" y="1196" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1194" y="397" type="line"/>
+      <point x="1081" y="258" type="line"/>
+      <point x="1092" y="236"/>
+      <point x="1149" y="184"/>
+      <point x="1231" y="125" type="curve"/>
+      <point x="1247" y="131"/>
+      <point x="1294" y="180"/>
+      <point x="1358" y="266" type="curve"/>
+    </contour>
+    <contour>
+      <point x="866" y="356" type="line"/>
+      <point x="754" y="217" type="line"/>
+      <point x="764" y="195"/>
+      <point x="821" y="143"/>
+      <point x="903" y="84" type="curve"/>
+      <point x="920" y="90"/>
+      <point x="967" y="139"/>
+      <point x="1030" y="225" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1501" y="459" type="line"/>
+      <point x="1389" y="319" type="line"/>
+      <point x="1399" y="297"/>
+      <point x="1456" y="246"/>
+      <point x="1538" y="186" type="curve"/>
+      <point x="1554" y="193"/>
+      <point x="1602" y="242"/>
+      <point x="1665" y="328" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

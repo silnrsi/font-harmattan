@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="behhamzaabove-ar.fina" format="1">
+  <advance width="1984"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="707" yOffset="-759"/>
+    <component base="_dot1" xOffset="955" yOffset="-263"/>
+    <contour>
+      <point x="388" y="815" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="931" y="977" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="950" y="-442" type="move" name="diaB"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefHamzabelow-ar.warsh.fina" format="1">
+  <advance width="467"/>
+  <outline>
+    <component base="alef-ar.fina" xOffset="8"/>
+    <component base="hamzaabove-ar" xOffset="14" yOffset="-1653"/>
+    <contour>
+      <point x="-23" y="1065" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="197" y="1115" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="259" y="-339" type="move" name="diaB"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_hamza-ar.preAlef.init" format="1">
+  <advance width="801"/>
+  <outline>
+    <component base="lam-ar.preAlef.init"/>
+    <component base="hamzaabove-ar" xOffset="259" yOffset="-207"/>
+    <contour>
+      <point x="336" y="1437" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="514" y="1509" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="573" y="-113" type="move" name="diaB"/>
+    </contour>
+    <contour>
+      <point x="545" y="-12" type="move" name="exit"/>
+    </contour>
+  </outline>
+</glyph>

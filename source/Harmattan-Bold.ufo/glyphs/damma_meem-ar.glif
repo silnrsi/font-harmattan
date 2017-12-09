@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="damma_meem-ar" format="1">
+  <advance width="0"/>
+  <outline>
+    <component base="meemStopabove-ar" xOffset="1" yOffset="-54"/>
+    <component base="damma-ar" xOffset="187" yOffset="-85"/>
+    <contour>
+      <point x="287" y="1143" type="move" name="_diaA"/>
+    </contour>
+    <contour>
+      <point x="282" y="1722" type="move" name="diaA"/>
+    </contour>
+  </outline>
+</glyph>
