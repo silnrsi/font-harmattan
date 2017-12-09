@@ -65,7 +65,7 @@ MAKE_PARAMS = '-o "_above _below _center _ring _through above below center ring 
 
 AP = create('Harmattan-Regular.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/Harmattan-Regular.ufo' ]))
 
-for style in ('-Regular', ):  # '-Bold'):
+for style in ('-Regular', '-Bold'):
     font(target=process(APPNAME + style + '.ttf', 
             cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/' + APPNAME + style + '.ufo']),
             cmd('ttffeatparms -c ${SRC} ${DEP} ${TGT}', ['source/opentype/OTFeatParms.xml'])),
