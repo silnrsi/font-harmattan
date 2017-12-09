@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rehFourdots-ar.fina" format="1">
-  <advance width="674"/>
+<glyph name="noonRing-ar.init" format="1">
+  <advance width="429"/>
   <outline>
-    <component base="reh-ar.fina"/>
-    <component base="_dot4" xOffset="299" yOffset="611"/>
+    <component base="noon-ar.init"/>
+    <component base="_ring" xOffset="218" yOffset="-77"/>
     <contour>
-      <point x="241" y="1026" type="move" name="alef"/>
+      <point x="86" y="822" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="259" y="1040" type="move" name="diaA"/>
+      <point x="105" y="846" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="263" y="-636" type="move" name="diaB"/>
+      <point x="203" y="-303" type="move" name="diaB"/>
     </contour>
   </outline>
   <lib>

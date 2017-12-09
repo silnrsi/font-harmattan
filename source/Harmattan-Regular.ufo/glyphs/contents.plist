@@ -1366,6 +1366,14 @@
   <string>noonD_otbelow-ar.init.glif</string>
   <key>noonDotbelow-ar.medi</key>
   <string>noonD_otbelow-ar.medi.glif</string>
+  <key>noonRing-ar</key>
+  <string>noonR_ing-ar.glif</string>
+  <key>noonRing-ar.fina</key>
+  <string>noonR_ing-ar.fina.glif</string>
+  <key>noonRing-ar.init</key>
+  <string>noonR_ing-ar.init.glif</string>
+  <key>noonRing-ar.medi</key>
+  <string>noonR_ing-ar.medi.glif</string>
   <key>noonThreedotsabove-ar</key>
   <string>noonT_hreedotsabove-ar.glif</string>
   <key>noonThreedotsabove-ar.fina</key>
