@@ -2,5 +2,6 @@
 <glyph name="wordjoiner" format="1">
   <advance width="0"/>
   <unicode hex="2060"/>
-  <outline/>
+  <outline>
+  </outline>
 </glyph>

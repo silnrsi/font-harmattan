@@ -3,11 +3,5 @@
   <advance width="766"/>
   <outline>
     <component base="five-ar" xScale="0.769" yScale="0.769" xOffset="88" yOffset="211"/>
-    <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
-    </contour>
-    <contour>
-      <point x="765" y="0" type="move" name="digit"/>
-    </contour>
   </outline>
 </glyph>

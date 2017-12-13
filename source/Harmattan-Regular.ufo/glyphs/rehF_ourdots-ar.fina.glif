@@ -3,15 +3,15 @@
   <advance width="674"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_dot4" xOffset="299" yOffset="611"/>
+    <component base="_dot4" xOffset="308" yOffset="564"/>
     <contour>
-      <point x="241" y="1026" type="move" name="alef"/>
+      <point x="238" y="908" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="259" y="1040" type="move" name="diaA"/>
+      <point x="282" y="980" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="263" y="-636" type="move" name="diaB"/>
+      <point x="280" y="-636" type="move" name="diaB"/>
     </contour>
   </outline>
   <lib>

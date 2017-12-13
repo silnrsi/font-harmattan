@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehVinvertedabove-ar.fina" format="1">
-  <advance width="674"/>
+  <advance width="673"/>
   <outline>
-    <component base="reh-ar.fina"/>
-    <component base="vinvertedabove-ar"/>
+    <component base="reh-ar.fina" xOffset="-1"/>
+    <component base="vinvertedabove-ar" xOffset="131" yOffset="-540"/>
+    <contour>
+      <point x="208" y="784" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="271" y="830" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="280" y="-636" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

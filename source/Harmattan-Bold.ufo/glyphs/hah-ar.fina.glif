@@ -68,7 +68,7 @@
       <point x="401" y="660" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="502" y="-652" type="move" name="diaB"/>
+      <point x="502" y="-672" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>
