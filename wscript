@@ -63,9 +63,11 @@ ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_00
 # APs to omit:
 MAKE_PARAMS = '-o "_above _below _center _ring _through above below center ring through U L" --cursive "exit=entry,rtl" --cursive "_digit=digit"'
 
-AP = create('Harmattan-Regular.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/Harmattan-Regular.ufo' ]))
 
 for style in ('-Regular', '-Bold'):
+    # When psfmakefea gets integrated into smith, we can use "ap = create(...)" as a paramater to font(), but
+    # for now we explicitly create the file so we can provide it to psfmakefea:
+    AP = create(APPNAME + style + '.xml', cmd('psfexportanchors -g -p checkfix=none ${SRC} ${TGT}', [ 'source/Harmattan-Regular.ufo' ]))
     font(target=process(APPNAME + style + '.ttf', 
             cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/' + APPNAME + style + '.ufo']),
             cmd('ttffeatparms -c ${SRC} ${DEP} ${TGT}', ['source/opentype/OTFeatParms.xml'])),
