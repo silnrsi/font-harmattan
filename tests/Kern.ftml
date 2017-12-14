@@ -131,6 +131,8 @@
   <test label='U+0648,U+06B9'><string>\u0648\u06B9\u200D \u200D\u0648\u06B9\u200D \u0648\u06B9 \u200D\u0648\u06B9</string><comment>waw-ar noonDotbelow-ar</comment></test>
   <test label='U+0631,U+06BA'><string>\u0631\u06BA\u200D \u200D\u0631\u06BA\u200D \u0631\u06BA \u200D\u0631\u06BA</string><comment>reh-ar noonghunna-ar</comment></test>
   <test label='U+0648,U+06BA'><string>\u0648\u06BA\u200D \u200D\u0648\u06BA\u200D \u0648\u06BA \u200D\u0648\u06BA</string><comment>waw-ar noonghunna-ar</comment></test>
+  <test label='U+0631,U+06BC'><string>\u0631\u06BC\u200D \u200D\u0631\u06BC\u200D \u0631\u06BC \u200D\u0631\u06BC</string><comment>reh-ar noonRing-ar</comment></test>
+  <test label='U+0648,U+06BC'><string>\u0648\u06BC\u200D \u200D\u0648\u06BC\u200D \u0648\u06BC \u200D\u0648\u06BC</string><comment>waw-ar noonRing-ar</comment></test>
   <test label='U+0631,U+0767'><string>\u0631\u0767\u200D \u200D\u0631\u0767\u200D \u0631\u0767 \u200D\u0631\u0767</string><comment>reh-ar noonTwodotsbelow-ar</comment></test>
   <test label='U+0648,U+0767'><string>\u0648\u0767\u200D \u200D\u0648\u0767\u200D \u0648\u0767 \u200D\u0648\u0767</string><comment>waw-ar noonTwodotsbelow-ar</comment></test>
   <test label='U+0631,U+0769'><string>\u0631\u0769\u200D \u200D\u0631\u0769\u200D \u0631\u0769 \u200D\u0631\u0769</string><comment>reh-ar noonVabove-ar</comment></test>
@@ -507,6 +509,8 @@
   <test label='U+0648,U+06B9'><string>\u0648\u064B\u06B9\u064B\u064D\u200D \u200D\u0648\u064B\u06B9\u064B\u064D\u200D \u0648\u064B\u06B9\u064B\u064D \u200D\u0648\u064B\u06B9\u064B\u064D</string><comment>waw-ar noonDotbelow-ar</comment></test>
   <test label='U+0631,U+06BA'><string>\u0631\u064B\u06BA\u064B\u064D\u200D \u200D\u0631\u064B\u06BA\u064B\u064D\u200D \u0631\u064B\u06BA\u064B\u064D \u200D\u0631\u064B\u06BA\u064B\u064D</string><comment>reh-ar noonghunna-ar</comment></test>
   <test label='U+0648,U+06BA'><string>\u0648\u064B\u06BA\u064B\u064D\u200D \u200D\u0648\u064B\u06BA\u064B\u064D\u200D \u0648\u064B\u06BA\u064B\u064D \u200D\u0648\u064B\u06BA\u064B\u064D</string><comment>waw-ar noonghunna-ar</comment></test>
+  <test label='U+0631,U+06BC'><string>\u0631\u064B\u06BC\u064B\u064D\u200D \u200D\u0631\u064B\u06BC\u064B\u064D\u200D \u0631\u064B\u06BC\u064B\u064D \u200D\u0631\u064B\u06BC\u064B\u064D</string><comment>reh-ar noonRing-ar</comment></test>
+  <test label='U+0648,U+06BC'><string>\u0648\u064B\u06BC\u064B\u064D\u200D \u200D\u0648\u064B\u06BC\u064B\u064D\u200D \u0648\u064B\u06BC\u064B\u064D \u200D\u0648\u064B\u06BC\u064B\u064D</string><comment>waw-ar noonRing-ar</comment></test>
   <test label='U+0631,U+0767'><string>\u0631\u064B\u0767\u064B\u064D\u200D \u200D\u0631\u064B\u0767\u064B\u064D\u200D \u0631\u064B\u0767\u064B\u064D \u200D\u0631\u064B\u0767\u064B\u064D</string><comment>reh-ar noonTwodotsbelow-ar</comment></test>
   <test label='U+0648,U+0767'><string>\u0648\u064B\u0767\u064B\u064D\u200D \u200D\u0648\u064B\u0767\u064B\u064D\u200D \u0648\u064B\u0767\u064B\u064D \u200D\u0648\u064B\u0767\u064B\u064D</string><comment>waw-ar noonTwodotsbelow-ar</comment></test>
   <test label='U+0631,U+0769'><string>\u0631\u064B\u0769\u064B\u064D\u200D \u200D\u0631\u064B\u0769\u064B\u064D\u200D \u0631\u064B\u0769\u064B\u064D \u200D\u0631\u064B\u0769\u064B\u064D</string><comment>reh-ar noonVabove-ar</comment></test>
@@ -786,6 +790,8 @@
   <fontscale>300</fontscale>
   <fontsrc>local(Harmattan)</fontsrc>
   <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
   <styles>
     <style name='cv02_1' feats='"cv02" 1'/>
     <style name='cv02_2' feats='"cv02" 2'/>

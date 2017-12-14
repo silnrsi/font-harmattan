@@ -8,6 +8,8 @@
   <fontscale>300</fontscale>
   <fontsrc>local(Harmattan)</fontsrc>
   <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
   <styles>
   </styles>
   <title>Empty test</title>

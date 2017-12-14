@@ -39,6 +39,7 @@
   <fontscale>300</fontscale>
   <fontsrc>local(Harmattan)</fontsrc>
   <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
   <styles>
   </styles>
   <title>ABS-505</title>

@@ -180,6 +180,7 @@
   <test label='U+06B8'><string>\u06B8 \u06B8\u200D \u200D\u06B8\u200D \u200D\u06B8 \u06B8\u06B8\u06B8</string><comment>lamThreedotsbelow-ar</comment></test>
   <test label='U+06B9'><string>\u06B9 \u06B9\u200D \u200D\u06B9\u200D \u200D\u06B9 \u06B9\u06B9\u06B9</string><comment>noonDotbelow-ar</comment></test>
   <test label='U+06BA'><string>\u06BA \u06BA\u200D \u200D\u06BA\u200D \u200D\u06BA \u06BA\u06BA\u06BA</string><comment>noonghunna-ar</comment></test>
+  <test label='U+06BC'><string>\u06BC \u06BC\u200D \u200D\u06BC\u200D \u200D\u06BC \u06BC\u06BC\u06BC</string><comment>noonRing-ar</comment></test>
   <test label='U+06BD'><string>\u06BD \u06BD\u200D \u200D\u06BD\u200D \u200D\u06BD \u06BD\u06BD\u06BD</string><comment>noonThreedotsabove-ar</comment></test>
   <test label='U+06BF'><string>\u06BF \u06BF\u200D \u200D\u06BF\u200D \u200D\u06BF \u06BF\u06BF\u06BF</string><comment>tchehDotabove-ar</comment></test>
   <test label='U+06BF' stylename='cv08_1'><string>\u06BF \u06BF\u200D \u200D\u06BF\u200D \u200D\u06BF \u06BF\u06BF\u06BF</string><comment>tchehDotabove-ar</comment></test>
@@ -406,6 +407,8 @@
   <fontscale>300</fontscale>
   <fontsrc>local(Harmattan)</fontsrc>
   <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
   <styles>
     <style name='cv02_1' feats='"cv02" 1'/>
     <style name='cv02_2' feats='"cv02" 2'/>

@@ -96,7 +96,7 @@ for style in ('-Regular', '-Bold'):
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
 
 for testname in AUTOGEN_TESTS:
-    t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -g -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'Harmattan-Regular-src.ttf', 'Harmattan-Regular.xml', 'tools/absGlyphList/absGlyphList.csv']))
+    t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -g -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) -r url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf) -r url(../results/Harmattan-Bold.ttf) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'Harmattan-Regular-src.ttf', 'Harmattan-Regular.xml', 'tools/absGlyphList/absGlyphList.csv']))
 
 def configure(ctx):
     ctx.find_program('ttfautohint')

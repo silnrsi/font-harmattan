@@ -155,6 +155,9 @@
   <test label='U+06BA'><string>\u06BA\u0670 \u06BA\u0670\u200D \u200D\u06BA\u0670\u200D \u200D\u06BA\u0670 \u06BA\u0670\u06BA\u0670\u06BA\u0670</string></test>
   <test label='U+06BA' stylename='cv76_1'><string>\u06BA\u0670 \u06BA\u0670\u200D \u200D\u06BA\u0670\u200D \u200D\u06BA\u0670 \u06BA\u0670\u06BA\u0670\u06BA\u0670</string></test>
   <test label='U+06BA' stylename='cv76_2'><string>\u06BA\u0670 \u06BA\u0670\u200D \u200D\u06BA\u0670\u200D \u200D\u06BA\u0670 \u06BA\u0670\u06BA\u0670\u06BA\u0670</string><comment>noonghunna-ar</comment></test>
+  <test label='U+06BC'><string>\u06BC\u0670 \u06BC\u0670\u200D \u200D\u06BC\u0670\u200D \u200D\u06BC\u0670 \u06BC\u0670\u06BC\u0670\u06BC\u0670</string></test>
+  <test label='U+06BC' stylename='cv76_1'><string>\u06BC\u0670 \u06BC\u0670\u200D \u200D\u06BC\u0670\u200D \u200D\u06BC\u0670 \u06BC\u0670\u06BC\u0670\u06BC\u0670</string></test>
+  <test label='U+06BC' stylename='cv76_2'><string>\u06BC\u0670 \u06BC\u0670\u200D \u200D\u06BC\u0670\u200D \u200D\u06BC\u0670 \u06BC\u0670\u06BC\u0670\u06BC\u0670</string><comment>noonRing-ar</comment></test>
   <test label='U+0767'><string>\u0767\u0670 \u0767\u0670\u200D \u200D\u0767\u0670\u200D \u200D\u0767\u0670 \u0767\u0670\u0767\u0670\u0767\u0670</string></test>
   <test label='U+0767' stylename='cv76_1'><string>\u0767\u0670 \u0767\u0670\u200D \u200D\u0767\u0670\u200D \u200D\u0767\u0670 \u0767\u0670\u0767\u0670\u0767\u0670</string></test>
   <test label='U+0767' stylename='cv76_2'><string>\u0767\u0670 \u0767\u0670\u200D \u200D\u0767\u0670\u200D \u200D\u0767\u0670 \u0767\u0670\u0767\u0670\u0767\u0670</string><comment>noonTwodotsbelow-ar</comment></test>
@@ -571,6 +574,8 @@
   <fontscale>300</fontscale>
   <fontsrc>local(Harmattan)</fontsrc>
   <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+  <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
   <styles>
     <style name='cv02_1' feats='"cv02" 1'/>
     <style name='cv02_1_cv76_1' feats='"cv02" 1, "cv76" 1'/>
