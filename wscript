@@ -72,8 +72,6 @@ for style in ('-Regular', '-Bold'):
             cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/' + APPNAME + style + '.ufo']),
             cmd('ttffeatparms -c ${SRC} ${DEP} ${TGT}', ['source/opentype/OTFeatParms.xml'])),
         source=create(APPNAME + style + '-src.ttf', cmd('psfufo2ttf ${SRC} ${TGT}', ['source/' + APPNAME + style + '.ufo'])),
-#        source='source/' + APPNAME + style + '.ufo',
-#        ap = create(APPNAME + style + '.xml', cmd('psfexportanchors -g ${SRC} ${TGT}', [ 'source/' + APPNAME + style + '.ufo' ])),
         ap = AP,
         version=VERSION,
         graphite=gdl(APPNAME + style + '.gdl',
@@ -83,15 +81,10 @@ for style in ('-Regular', '-Bold'):
         opentype = fea(
                        create(
                               APPNAME + style + '.fea', 
-                              #cmd("psfmakefea -o ${TGT} -i ${SRC[0]} -c ../source/classes.xml ${SRC[1]}", ['source/opentype/master.feax', 'source/' + APPNAME + style + '.ufo'])
-                              cmd("psfmakefea -o ${TGT} -i ${SRC[0]} --omitaps '_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L' -c ../source/classes.xml ${SRC[1]}", ['source/opentype/master.feax', AP])
+                              cmd("psfmakefea -o ${TGT} -i ${SRC[0]} --omitaps '_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L' -c ${SRC[2]} ${SRC[1]}", ['source/opentype/master.feax', AP, '../source/classes.xml' ])
                               ), 
                        no_make = 1
                        ),  
-#        opentype = fea(APPNAME + style + '.fea', 
-#            master = 'source/opentype/master.fea',
-#            preinclude = 'source/opentype/preinclude.fea',
-#            make_params = MAKE_PARAMS + ' -p 0 -z 16'),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
         script='arab',
