@@ -2,7 +2,8 @@
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
 # initial normalization pass
-psfnormalize -p checkfix=fix source/*.ufo
+psfnormalize -p checkfix=fix source/Harmattan-Regular.ufo
+psfnormalize -p checkfix=fix source/Harmattan-Bold.ufo
 
 # sync metadata to other UFOs
 psfsyncmeta source/*Regular.ufo
