@@ -5,7 +5,7 @@
 # smith
 .waf-*
 .lock-*
-results/**
+results*/
 buildlinux2/**
 bin/**
 

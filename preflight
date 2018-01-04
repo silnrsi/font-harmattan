@@ -1,12 +1,8 @@
 #!/bin/sh
 # Script for calling multiple routines on a project, typically prior to committing to a repository.
 
-# initial normalization pass
-psfnormalize -p checkfix=fix source/Harmattan-Regular.ufo
-psfnormalize -p checkfix=fix source/Harmattan-Bold.ufo
-
 # sync metadata to other UFOs
-psfsyncmeta source/*Regular.ufo
+psfsyncmeta source/*Regular.ufo --normalize -p checkfix=fix
 
 # [re-]build woff metadata file
 psfmakewoffmetadata -n Harmattan -i org.sil.fonts source/*-Regular.ufo
