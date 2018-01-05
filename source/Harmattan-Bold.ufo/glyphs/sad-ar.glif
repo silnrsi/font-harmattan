@@ -77,7 +77,7 @@
       <point x="1258" y="671" type="move" name="diaA"/>
     </contour>
     <contour>
-      <point x="734" y="-563" type="move" name="diaB"/>
+      <point x="734" y="-583" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

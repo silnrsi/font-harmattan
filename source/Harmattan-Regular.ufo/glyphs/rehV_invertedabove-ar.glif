@@ -4,7 +4,7 @@
   <unicode hex="06EF"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="vinvertedabove-ar" xOffset="115" yOffset="-540"/>
+    <component base="vinvertedabove-ar" xOffset="314" yOffset="-540"/>
     <contour>
       <point x="181" y="764" type="move" name="alef"/>
     </contour>

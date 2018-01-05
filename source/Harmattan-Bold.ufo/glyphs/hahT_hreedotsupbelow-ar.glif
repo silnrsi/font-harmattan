@@ -4,7 +4,7 @@
   <unicode hex="0758"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="_dot3u" xOffset="546" yOffset="-201"/>
+    <component base="_dot3u" xScale="0.907" yScale="0.907" xOffset="536" yOffset="-229"/>
     <contour>
       <point x="12" y="470" type="move" name="alef"/>
     </contour>

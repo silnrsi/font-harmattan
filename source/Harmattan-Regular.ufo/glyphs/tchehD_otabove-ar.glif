@@ -5,7 +5,7 @@
   <outline>
     <component base="hah-ar"/>
     <component base="_dot1" xOffset="408" yOffset="826"/>
-    <component base="_dot3d" xOffset="546" yOffset="-134"/>
+    <component base="_dot3d" xOffset="516" yOffset="-124"/>
     <contour>
       <point x="107" y="717" type="move" name="alef"/>
     </contour>

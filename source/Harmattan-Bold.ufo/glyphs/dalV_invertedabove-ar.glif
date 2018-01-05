@@ -4,12 +4,12 @@
   <unicode hex="06EE"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="vinvertedabove-ar" xOffset="77" yOffset="-289"/>
+    <component base="vinvertedabove-ar" xOffset="283" yOffset="-238"/>
     <contour>
-      <point x="166" y="1014" type="move" name="alef"/>
+      <point x="136" y="1064" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="217" y="1062" type="move" name="diaA"/>
+      <point x="187" y="1112" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="385" y="-71" type="move" name="diaB"/>

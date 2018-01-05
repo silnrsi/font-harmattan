@@ -4,7 +4,7 @@
   <outline>
     <component base="hah-ar.fina"/>
     <component base="_dot1" xOffset="386" yOffset="826"/>
-    <component base="_dot3d" xOffset="483" yOffset="-35"/>
+    <component base="_dot3d" xScale="0.907" yScale="0.907" xOffset="443" yOffset="-47"/>
     <contour>
       <point x="145" y="761" type="move" name="alef"/>
     </contour>

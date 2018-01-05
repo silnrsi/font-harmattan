@@ -3,7 +3,16 @@
   <advance width="674"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="vinvertedabove-ar"/>
+    <component base="vinvertedabove-ar" xOffset="300" yOffset="-532"/>
+    <contour>
+      <point x="201" y="876" type="move" name="alef"/>
+    </contour>
+    <contour>
+      <point x="219" y="890" type="move" name="diaA"/>
+    </contour>
+    <contour>
+      <point x="263" y="-636" type="move" name="diaB"/>
+    </contour>
   </outline>
   <lib>
     <dict>

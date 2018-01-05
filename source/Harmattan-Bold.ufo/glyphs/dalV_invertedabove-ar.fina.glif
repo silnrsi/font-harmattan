@@ -3,12 +3,12 @@
   <advance width="893"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="vinvertedabove-ar" xOffset="63" yOffset="-122"/>
+    <component base="vinvertedabove-ar" xOffset="253" yOffset="-122"/>
     <contour>
-      <point x="150" y="1191" type="move" name="alef"/>
+      <point x="100" y="1221" type="move" name="alef"/>
     </contour>
     <contour>
-      <point x="213" y="1237" type="move" name="diaA"/>
+      <point x="163" y="1267" type="move" name="diaA"/>
     </contour>
     <contour>
       <point x="385" y="-71" type="move" name="diaB"/>

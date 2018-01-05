@@ -3,7 +3,7 @@
   <advance width="673"/>
   <outline>
     <component base="reh-ar.fina" xOffset="-1"/>
-    <component base="vinvertedabove-ar" xOffset="131" yOffset="-540"/>
+    <component base="vinvertedabove-ar" xOffset="330" yOffset="-540"/>
     <contour>
       <point x="208" y="784" type="move" name="alef"/>
     </contour>
