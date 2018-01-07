@@ -22,11 +22,9 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
 	<key>familyName</key>
 	<string>Harmattan</string>
 	<key>openTypeHeadCreated</key>
-        
+   	<string>2018/01/05 17:42:36</string>     
 	<key>openTypeNameVersion</key>
 	<string>Version 1.024</string>
-
-	<string>2018/01/05 17:42:36</string>
 	<key>openTypeNameDesigner</key>
 	<string>George W. Nuss III and SIL International</string>
 	<key>openTypeNameDesignerURL</key>
