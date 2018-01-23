@@ -64,30 +64,21 @@ ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_00
 OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L"'
 
 for style in ('-Regular', '-Bold'):
-    # When psfmakefea gets integrated into smith, we can use "ap = create(...)" as a paramater to font(), but
-    # for now we explicitly create the file so we can provide it to psfmakefea:
-    AP = create(APPNAME + style + '.xml', 
-                cmd('${PSFEXPORTANCHORS} -g -p checkfix=none ${SRC} ${TGT}', 
-                    ['source/Harmattan-Regular.ufo']))
+    UFO = 'source/' + APPNAME + style + '.ufo'
     font(target=process(APPNAME + style + '.ttf', 
-                        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', 
-                            ['source/' + APPNAME + style + '.ufo']),
-                        cmd('${TTFFEATPARMS} -c ${SRC} ${DEP} ${TGT}', 
-                            ['source/opentype/OTFeatParms.xml'])),
-        source=create(APPNAME + style + '-src.ttf', 
-                      cmd('${PSFUFO2TTF} ${SRC} ${TGT}', 
-                          ['source/' + APPNAME + style + '.ufo'])),
-        ap = AP,
+            cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', [UFO]),
+            cmd('${TTFFEATPARMS} -c ${SRC} ${DEP} ${TGT}', ['source/opentype/OTFeatParms.xml'])
+            ),
+        source=UFO,
+        ap = APPNAME + style + '.xml',
         version=VERSION,
         graphite=gdl(APPNAME + style + '.gdl',
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
             master = 'source/graphite/master.gdl',
             make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"'),
-        opentype = fea(create(APPNAME + style + '.fea', 
-                              cmd("${PSFMAKEFEA} " + OMITAPS + " -o ${TGT} -i ${SRC[0]} -c ${SRC[1]} ${SRC[2]}", 
-                                  ['source/opentype/master.feax', 'source/classes.xml', AP])), 
-                       no_make = 1
-                       ),  
+        opentype = fea(APPNAME + style + '.fea', 
+            master = 'source/opentype/master.feax',
+            make_params = OMITAPS),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
         script='arab',
@@ -98,16 +89,13 @@ for style in ('-Regular', '-Bold'):
 
 AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
 
-for testname in AUTOGEN_TESTS:
-    t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -g -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) -r url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf) -r url(../results/Harmattan-Bold.ttf) ${SRC[1]} ${SRC[2]}', ['tools/bin/absGenFTML', 'Harmattan-Regular-src.ttf', 'Harmattan-Regular.xml', 'tools/absGlyphList/absGlyphList.csv']))
+# Until we figure out how to save a copy of the font prior to glyph name changes, commenting this out:
+# for testname in AUTOGEN_TESTS:
+#    t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -g -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) -r url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf) -r url(../results/Harmattan-Bold.ttf) ${SRC[1]} ${SRC[2]}', 
+#         ['tools/bin/absGenFTML', '../results/' + APPNAME + '-Regular-wn.ttf', APPNAME + '-Regular.xml', 'tools/absGlyphList/absGlyphList.csv']))
 
 def configure(ctx):
-    ctx.find_program('psfexportanchors')
-    ctx.find_program('psfufo2ttf')
-    ctx.find_program('psfmakefea')
     ctx.find_program('psfchangettfglyphnames')
     ctx.find_program('ttffeatparms')
 #    ctx.find_program('ttfautohint')
-#    ctx.env['MAKE_GDL'] = 'perl -I ../tools/perllib -S make_gdl'
-#    ctx.env['MAKE_FEA'] = 'perl -I ../tools/perllib -S make_fea'
 
