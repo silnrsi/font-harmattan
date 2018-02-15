@@ -4,10 +4,10 @@
 # set the default output folders
 out = "results"  # default is currently buildlinux2
 DOCDIR = ["documentation", "web"]  # add "web" to default
-# OUTDIR = "installers"
-# ZIPDIR = "releases"
-# TESTDIR = "tests"
-# TESTRESULTSDIR = "tests"
+OUTDIR = "installers"  # until these are defaults in smith itself we need to keep them
+ZIPDIR = "releases"
+TESTDIR = "tests"
+TESTRESULTSDIR = "tests"
 STANDARDS = "references"  # default is "reference"
 generated = "generated/"
 
