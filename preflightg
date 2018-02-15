@@ -1,0 +1,24 @@
+#!/bin/sh
+# Sample script for calling multiple routines on a project, typically prior to committing to a repository.
+# special script for Glyphs.app usage
+
+echo ""
+echo "Converting .glyphs to UFO3..."
+psfglyphs2ufo source/Harmattan-master.glyphs source
+
+echo ""
+echo "Running other steps from preflight..."
+psfnormalize -p checkfix=fix source/Harmattan-Regular.ufo
+psfnormalize -p checkfix=fix source/Harmattan-Bold.ufo
+
+# Update glyph orders in Regular -- setting both to the same order:
+psfsetglyphorder --gname GlyphsName --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyphInfo.csv source/*-Regular.ufo
+
+# Update production names in Regular:
+psfsetpsnames --gname GlyphsName -i source/glyphInfo.csv source/Harmattan-Regular.ufo
+
+# sync glyph orders, psnames, and other metadata to other UFOs (turned off for now)
+# psfsyncmeta source/*-Regular.ufo -p checkfix=fix
+
+# [re-]build woff metadata file
+psfmakewoffmetadata -n Harmattan -i org.sil.fonts source/*-Regular.ufo
