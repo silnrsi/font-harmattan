@@ -13,7 +13,7 @@ generated = "generated/"
 
 # set package name
 APPNAME = "Harmattan"
-VERSION = "1.020"  # Eventually this will be obtained from UFO
+VERSION = "1.024"  # Eventually this will be obtained from UFO
 
 # set the font family name
 FAMILY = APPNAME
