@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="endofayah-ar.2" format="1">
+<glyph name="endofayah-ar.2" format="2">
   <advance width="2019"/>
+  <anchor x="333" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="954" y="1309"/>
@@ -299,9 +300,6 @@
       <point x="1412" y="-128"/>
       <point x="1271" y="-187"/>
       <point x="1188" y="-199" type="curve"/>
-    </contour>
-    <contour>
-      <point x="333" y="0" type="move" name="digit"/>
     </contour>
   </outline>
 </glyph>

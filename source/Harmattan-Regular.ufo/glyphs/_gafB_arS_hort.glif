@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_gafBarShort" format="1">
-  <advance width="0"/>
+<glyph name="_gafBarShort" format="2">
+  <anchor x="392" y="322" name="_above"/>
   <outline>
     <contour>
       <point x="126" y="66"/>
@@ -15,9 +15,6 @@
       <point x="-41" y="4"/>
       <point x="-12" y="-35"/>
       <point x="2" y="-39" type="curve"/>
-    </contour>
-    <contour>
-      <point x="392" y="322" type="move" name="_above"/>
     </contour>
   </outline>
 </glyph>

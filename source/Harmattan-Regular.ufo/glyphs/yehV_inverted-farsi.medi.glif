@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehVinverted-farsi.medi" format="1">
+<glyph name="yehVinverted-farsi.medi" format="2">
   <advance width="580"/>
+  <anchor x="130" y="835" name="alef"/>
+  <anchor x="193" y="881" name="diaA"/>
+  <anchor x="244" y="-396" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="vinvertedabove-ar" xOffset="41" yOffset="-465"/>
-    <component base="_dot2h" xOffset="275" yOffset="-227"/>
-    <contour>
-      <point x="130" y="835" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="193" y="881" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="244" y="-396" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="275" yOffset="-227"/>
   </outline>
   <lib>
     <dict>

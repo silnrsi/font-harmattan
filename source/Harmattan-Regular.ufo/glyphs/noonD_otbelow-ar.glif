@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="noonDotbelow-ar" format="1">
+<glyph name="noonDotbelow-ar" format="2">
   <advance width="1272"/>
   <unicode hex="06B9"/>
+  <anchor x="277" y="408" name="alef"/>
+  <anchor x="556" y="719" name="diaA"/>
+  <anchor x="584" y="-927" name="diaB"/>
   <outline>
     <component base="noonghunna-ar"/>
-    <component base="_dot1" xOffset="597" yOffset="570"/>
-    <component base="_dot1" xOffset="571" yOffset="-759"/>
-    <contour>
-      <point x="277" y="408" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="556" y="719" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="584" y="-927" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="597" yOffset="570"/>
+    <component base="dotabove-ar" xOffset="571" yOffset="-759"/>
   </outline>
   <lib>
     <dict>

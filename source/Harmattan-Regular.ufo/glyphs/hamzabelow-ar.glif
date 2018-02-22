@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hamzabelow-ar" format="1">
-  <advance width="0"/>
+<glyph name="hamzabelow-ar" format="2">
   <unicode hex="0655"/>
+  <anchor x="302" y="-226" name="_dia2B"/>
+  <anchor x="327" y="-226" name="_diaB"/>
+  <anchor x="335" y="-640" name="diaB"/>
   <outline>
     <component base="hamzaabove-ar" xOffset="60" yOffset="-1955"/>
-    <contour>
-      <point x="302" y="-226" type="move" name="_dia2B"/>
-    </contour>
-    <contour>
-      <point x="327" y="-226" type="move" name="_diaB"/>
-    </contour>
-    <contour>
-      <point x="335" y="-640" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

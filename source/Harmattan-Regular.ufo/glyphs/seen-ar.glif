@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seen-ar" format="1">
+<glyph name="seen-ar" format="2">
   <advance width="1657"/>
   <unicode hex="0633"/>
+  <anchor x="1015" y="532" name="above"/>
+  <anchor x="295" y="287" name="alef"/>
+  <anchor x="1127" y="-89" name="below"/>
+  <anchor x="989" y="583" name="diaA"/>
+  <anchor x="284" y="-654" name="diaB"/>
   <outline>
     <contour>
       <point x="1492" y="529" type="curve"/>
@@ -76,21 +81,6 @@
       <point x="1537" y="282" type="curve" smooth="yes"/>
       <point x="1537" y="357"/>
       <point x="1521" y="442"/>
-    </contour>
-    <contour>
-      <point x="1015" y="532" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="295" y="287" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="1127" y="-89" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="989" y="583" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="284" y="-654" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

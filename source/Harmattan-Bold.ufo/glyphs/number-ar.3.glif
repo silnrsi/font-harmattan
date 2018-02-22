@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="number-ar.3" format="1">
+<glyph name="number-ar.3" format="2">
   <advance width="2885"/>
+  <anchor x="236" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="2041" y="11"/>
@@ -33,9 +34,6 @@
       <point x="2518" y="330"/>
       <point x="2463" y="191"/>
       <point x="2434" y="44" type="curve"/>
-    </contour>
-    <contour>
-      <point x="236" y="0" type="move" name="digit"/>
     </contour>
   </outline>
 </glyph>

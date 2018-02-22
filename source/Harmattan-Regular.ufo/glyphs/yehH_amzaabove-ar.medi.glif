@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehHamzaabove-ar.medi" format="1">
+<glyph name="yehHamzaabove-ar.medi" format="2">
   <advance width="580"/>
+  <anchor x="157" y="923" name="alef"/>
+  <anchor x="179" y="938" name="diaA"/>
+  <anchor x="296" y="-81" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="hamzaabove-ar" xOffset="-36" yOffset="-796"/>
-    <contour>
-      <point x="157" y="923" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="179" y="938" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="296" y="-81" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

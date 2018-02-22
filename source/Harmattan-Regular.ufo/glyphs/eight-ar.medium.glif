@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="eight-ar.medium" format="1">
+<glyph name="eight-ar.medium" format="2">
   <advance width="674"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="674" y="0" name="digit"/>
   <outline>
     <component base="eight-ar" xScale="0.769" yScale="0.769" xOffset="-7" yOffset="206"/>
-    <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
-    </contour>
-    <contour>
-      <point x="674" y="0" type="move" name="digit"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kasratan-ar.lowered" format="1">
-  <advance width="0"/>
+<glyph name="kasratan-ar.lowered" format="2">
+  <anchor x="287" y="-186" name="_diaB"/>
+  <anchor x="308" y="-546" name="diaB"/>
   <outline>
     <contour>
       <point x="126" y="-270"/>
@@ -29,12 +30,6 @@
       <point x="334" y="-406"/>
       <point x="249" y="-418"/>
       <point x="131" y="-425" type="curve"/>
-    </contour>
-    <contour>
-      <point x="287" y="-186" type="move" name="_diaB"/>
-    </contour>
-    <contour>
-      <point x="308" y="-546" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

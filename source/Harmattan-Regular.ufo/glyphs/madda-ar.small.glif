@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="madda-ar.small" format="1">
-  <advance width="0"/>
+<glyph name="madda-ar.small" format="2">
+  <anchor x="249" y="1283" name="_diaA"/>
+  <anchor x="240" y="1524" name="diaA"/>
   <outline>
     <component base="_madda.small" xOffset="134" yOffset="1382"/>
-    <contour>
-      <point x="249" y="1283" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="240" y="1524" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

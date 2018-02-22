@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="jeemabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="jeemabove-ar" format="2">
   <unicode hex="06DA"/>
+  <anchor x="94" y="1081" name="_diaA"/>
   <outline>
     <contour>
       <point x="217" y="1606"/>
@@ -59,9 +59,6 @@
       <point x="133" y="1264"/>
       <point x="156" y="1286"/>
       <point x="185" y="1327" type="curve"/>
-    </contour>
-    <contour>
-      <point x="94" y="1081" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

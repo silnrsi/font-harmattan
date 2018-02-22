@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kehehTwodotshorizontalabove-ar" format="1">
+<glyph name="kehehTwodotshorizontalabove-ar" format="2">
   <advance width="1276"/>
   <unicode hex="063B"/>
+  <anchor x="241" y="661" name="alef"/>
+  <anchor x="664" y="1411" name="diaA"/>
+  <anchor x="663" y="-106" name="diaB"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="_dot2h" xOffset="679" yOffset="1259"/>
-    <contour>
-      <point x="241" y="661" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="664" y="1411" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="663" y="-106" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="679" yOffset="1259"/>
   </outline>
   <lib>
     <dict>

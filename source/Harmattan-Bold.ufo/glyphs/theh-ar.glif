@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="theh-ar" format="1">
+<glyph name="theh-ar" format="2">
   <advance width="1992"/>
   <unicode hex="062B"/>
+  <anchor x="388" y="815" name="alef"/>
+  <anchor x="877" y="1120" name="diaA"/>
+  <anchor x="932" y="-121" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot3u" xOffset="970" yOffset="824"/>
-    <contour>
-      <point x="388" y="815" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="877" y="1120" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="932" y="-121" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="970" yOffset="824"/>
   </outline>
   <lib>
     <dict>

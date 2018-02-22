@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehTwodotsbelowHamzaabove-ar.init" format="1">
+<glyph name="yehTwodotsbelowHamzaabove-ar.init" format="2">
   <advance width="429"/>
+  <anchor x="31" y="876" name="alef"/>
+  <anchor x="117" y="938" name="diaA"/>
+  <anchor x="203" y="-392" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
     <component base="hamzaabove-ar" xOffset="-92" yOffset="-792"/>
-    <component base="_dot2h" xOffset="218" yOffset="-217"/>
-    <contour>
-      <point x="31" y="876" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="117" y="938" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="203" y="-392" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="218" yOffset="-217"/>
   </outline>
   <lib>
     <dict>

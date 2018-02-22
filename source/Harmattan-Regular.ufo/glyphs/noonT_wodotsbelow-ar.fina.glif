@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="noonTwodotsbelow-ar.fina" format="1">
+<glyph name="noonTwodotsbelow-ar.fina" format="2">
   <advance width="1249"/>
+  <anchor x="394" y="610" name="alef"/>
+  <anchor x="568" y="712" name="diaA"/>
+  <anchor x="554" y="-928" name="diaB"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="_dot1" xOffset="602" yOffset="568"/>
-    <component base="_dot2h" xOffset="562" yOffset="-760"/>
-    <contour>
-      <point x="394" y="610" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="568" y="712" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="554" y="-928" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="602" yOffset="568"/>
+    <component base="twodotshorizontalabove-ar" xOffset="562" yOffset="-760"/>
   </outline>
   <lib>
     <dict>

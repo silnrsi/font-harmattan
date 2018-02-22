@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="nine-persian.medium" format="1">
+<glyph name="nine-persian.medium" format="2">
   <advance width="674"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="674" y="0" name="digit"/>
   <outline>
     <component base="nine-ar.medium"/>
-    <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
-    </contour>
-    <contour>
-      <point x="674" y="0" type="move" name="digit"/>
-    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dad-ar.fina" format="1">
+<glyph name="dad-ar.fina" format="2">
   <advance width="1740"/>
+  <anchor x="445" y="229" name="alef"/>
+  <anchor x="1142" y="1017" name="diaA"/>
+  <anchor x="751" y="-563" name="diaB"/>
   <outline>
     <component base="sad-ar.fina"/>
-    <component base="_dot1" xOffset="1197" yOffset="813"/>
-    <contour>
-      <point x="445" y="229" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="1142" y="1017" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="751" y="-563" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="1197" yOffset="813"/>
   </outline>
   <lib>
     <dict>

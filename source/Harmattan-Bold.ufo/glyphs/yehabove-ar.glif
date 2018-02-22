@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="yehabove-ar" format="2">
   <unicode hex="06E7"/>
+  <anchor x="37" y="1180" name="_diaA"/>
   <outline>
     <contour>
       <point x="276" y="1249"/>
@@ -46,9 +46,6 @@
       <point x="166" y="1222"/>
       <point x="221" y="1232"/>
       <point x="259" y="1241" type="curve"/>
-    </contour>
-    <contour>
-      <point x="37" y="1180" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

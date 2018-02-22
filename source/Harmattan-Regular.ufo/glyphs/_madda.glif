@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_madda" format="1">
-  <advance width="0"/>
+<glyph name="_madda" format="2">
+  <anchor x="91" y="-84" name="_above"/>
   <outline>
     <contour>
       <point x="386" y="35"/>
@@ -33,9 +33,6 @@
       <point x="283" y="-31"/>
       <point x="357" y="-5"/>
       <point x="376" y="23" type="curve"/>
-    </contour>
-    <contour>
-      <point x="91" y="-84" type="move" name="_above"/>
     </contour>
   </outline>
 </glyph>

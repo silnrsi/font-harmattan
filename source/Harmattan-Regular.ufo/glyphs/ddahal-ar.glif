@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ddahal-ar" format="1">
+<glyph name="ddahal-ar" format="2">
   <advance width="781"/>
   <unicode hex="068D"/>
+  <anchor x="291" y="683" name="alef"/>
+  <anchor x="317" y="704" name="diaA"/>
+  <anchor x="370" y="-391" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="_dot2h" xOffset="376" yOffset="-236"/>
-    <contour>
-      <point x="291" y="683" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="317" y="704" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="370" y="-391" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="376" yOffset="-236"/>
   </outline>
   <lib>
     <dict>

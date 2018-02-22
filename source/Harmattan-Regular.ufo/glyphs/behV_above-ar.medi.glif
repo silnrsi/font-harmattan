@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="behVabove-ar.medi" format="1">
+<glyph name="behVabove-ar.medi" format="2">
   <advance width="580"/>
+  <anchor x="186" y="871" name="alef"/>
+  <anchor x="217" y="892" name="diaA"/>
+  <anchor x="296" y="-81" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_smallV" xOffset="230" yOffset="648"/>
-    <contour>
-      <point x="186" y="871" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="217" y="892" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="296" y="-81" type="move" name="diaB"/>
-    </contour>
+    <component base="vbelow-ar" xOffset="230" yOffset="648"/>
   </outline>
   <lib>
     <dict>

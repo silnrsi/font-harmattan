@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shadda_damma-ar.short" format="1">
-  <advance width="0"/>
+<glyph name="shadda_damma-ar.short" format="2">
+  <anchor x="292" y="1124" name="_diaA"/>
+  <anchor x="250" y="1980" name="diaA"/>
   <outline>
     <component base="shadda-ar" xOffset="10" yOffset="-163"/>
     <component base="damma-ar.short" xOffset="39" yOffset="208"/>
-    <contour>
-      <point x="292" y="1124" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="250" y="1980" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

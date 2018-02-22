@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehbelow-ar" format="1">
-  <advance width="512"/>
+<glyph name="yehbelow-ar" format="2">
   <unicode hex="06E6"/>
+  <anchor x="285" y="425" name="diaA"/>
+  <anchor x="217" y="-54" name="diaB"/>
   <outline>
     <contour>
       <point x="494" y="56"/>
@@ -47,11 +48,11 @@
       <point x="443" y="43"/>
       <point x="480" y="51" type="curve"/>
     </contour>
-    <contour>
-      <point x="285" y="425" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="217" y="-54" type="move" name="diaB"/>
-    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>512</integer>
+    </dict>
+  </lib>
 </glyph>

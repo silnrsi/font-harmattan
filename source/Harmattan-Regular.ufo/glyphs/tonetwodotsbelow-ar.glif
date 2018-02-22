@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tonetwodotsbelow-ar" format="1">
-  <advance width="0"/>
+<glyph name="tonetwodotsbelow-ar" format="2">
   <unicode hex="08EE"/>
+  <anchor x="145" y="-254" name="_diaB"/>
+  <anchor x="180" y="-581" name="diaB"/>
   <outline>
     <component base="toneonedotabove-ar" xOffset="-60" yOffset="-1840"/>
     <component base="toneonedotabove-ar" xOffset="140" yOffset="-1796"/>
-    <contour>
-      <point x="145" y="-254" type="move" name="_diaB"/>
-    </contour>
-    <contour>
-      <point x="180" y="-581" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

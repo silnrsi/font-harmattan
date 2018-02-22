@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hamza_damma-ar.short" format="1">
-  <advance width="0"/>
+<glyph name="hamza_damma-ar.short" format="2">
+  <anchor x="339" y="1180" name="_diaA"/>
+  <anchor x="268" y="2080" name="diaA"/>
   <outline>
     <component base="damma-ar.short" xOffset="50" yOffset="295"/>
     <component base="hamzaabove-ar" xOffset="60" yOffset="-125"/>
-    <contour>
-      <point x="339" y="1180" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="268" y="2080" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dalVinvertedabove-ar" format="1">
+<glyph name="dalVinvertedabove-ar" format="2">
   <advance width="781"/>
   <unicode hex="06EE"/>
+  <anchor x="136" y="1064" name="alef"/>
+  <anchor x="187" y="1112" name="diaA"/>
+  <anchor x="385" y="-71" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
     <component base="vinvertedabove-ar" xOffset="283" yOffset="-238"/>
-    <contour>
-      <point x="136" y="1064" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="187" y="1112" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="385" y="-71" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

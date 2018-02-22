@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qafThreedotsabove-ar.init" format="1">
-  <advance width="809"/>
+<glyph name="qafThreedotsabove-ar.init" format="2">
+  <advance width="899"/>
+  <anchor x="110" y="1099" name="alef"/>
+  <anchor x="280" y="1354" name="diaA"/>
+  <anchor x="367" y="-121" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="_dot3u" xOffset="358" yOffset="1080"/>
-    <contour>
-      <point x="110" y="1099" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="280" y="1354" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="367" y="-121" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="425" yOffset="-389"/>
   </outline>
   <lib>
     <dict>

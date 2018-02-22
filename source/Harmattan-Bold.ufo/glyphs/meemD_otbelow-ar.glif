@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meemDotbelow-ar" format="1">
+<glyph name="meemDotbelow-ar" format="2">
   <advance width="953"/>
   <unicode hex="0766"/>
+  <anchor x="88" y="324" name="alef"/>
+  <anchor x="513" y="655" name="diaA"/>
+  <anchor x="421" y="-498" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="_dot1" xOffset="577" yOffset="-282"/>
-    <contour>
-      <point x="88" y="324" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="513" y="655" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="421" y="-498" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="577" yOffset="-282"/>
   </outline>
   <lib>
     <dict>

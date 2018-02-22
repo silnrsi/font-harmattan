@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="vinvertedabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="vinvertedabove-ar" format="2">
   <unicode hex="065B"/>
+  <anchor x="7" y="1001" name="_diaA"/>
+  <anchor x="11" y="1385" name="diaA"/>
   <outline>
     <contour>
       <point x="52" y="1162"/>
@@ -22,12 +23,6 @@
       <point x="-127" y="1067"/>
       <point x="-56" y="1152"/>
       <point x="-3" y="1200" type="curve"/>
-    </contour>
-    <contour>
-      <point x="7" y="1001" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="11" y="1385" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

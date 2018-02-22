@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alefHamzabelow-ar.postLamMed.fina" format="1">
+<glyph name="alefHamzabelow-ar.postLamMed.fina" format="2">
   <advance width="994"/>
+  <anchor x="101" y="960" name="alef"/>
+  <anchor x="369" y="-471" name="dia2B"/>
+  <anchor x="206" y="1114" name="diaA"/>
+  <anchor x="378" y="-463" name="diaB"/>
+  <anchor x="556" y="121" name="entry"/>
   <outline>
     <component base="alef-ar.postLamMed.fina"/>
     <component base="hamzaabove-ar" xOffset="99" yOffset="-1795"/>
-    <contour>
-      <point x="101" y="960" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="369" y="-471" type="move" name="dia2B"/>
-    </contour>
-    <contour>
-      <point x="206" y="1114" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="378" y="-463" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="556" y="121" type="move" name="entry"/>
-    </contour>
   </outline>
   <lib>
     <dict>

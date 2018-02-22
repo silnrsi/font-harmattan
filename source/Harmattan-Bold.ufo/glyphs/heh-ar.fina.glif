@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="heh-ar.fina" format="1">
+<glyph name="heh-ar.fina" format="2">
   <advance width="842"/>
+  <anchor x="147" y="577" name="alef"/>
+  <anchor x="385" y="829" name="diaA"/>
+  <anchor x="419" y="-53" name="diaB"/>
   <outline>
     <component base="ae-ar.fina"/>
-    <contour>
-      <point x="147" y="577" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="385" y="829" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="419" y="-53" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

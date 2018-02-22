@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sukun-ar" format="1">
-  <advance width="0"/>
+<glyph name="sukun-ar" format="2">
   <unicode hex="0652"/>
+  <anchor x="164" y="1312" name="_diaA"/>
+  <anchor x="156" y="1718" name="diaA"/>
   <outline>
-    <component base="_ring" xOffset="159" yOffset="1504"/>
-    <contour>
-      <point x="164" y="1312" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="156" y="1718" type="move" name="diaA"/>
-    </contour>
+    <component base="ring-ar" xOffset="159" yOffset="1504"/>
   </outline>
 </glyph>

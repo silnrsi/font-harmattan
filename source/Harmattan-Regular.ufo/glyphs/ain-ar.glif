@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ain-ar" format="1">
+<glyph name="ain-ar" format="2">
   <advance width="822"/>
   <unicode hex="0639"/>
+  <anchor x="535" y="608" name="above"/>
+  <anchor x="138" y="345" name="alef"/>
+  <anchor x="509" y="-89" name="below"/>
+  <anchor x="503" y="608" name="diaA"/>
+  <anchor x="488" y="-703" name="diaB"/>
   <outline>
     <contour>
       <point x="136" y="32"/>
@@ -52,21 +57,6 @@
       <point x="235" y="246"/>
       <point x="268" y="166"/>
       <point x="346" y="104" type="curve"/>
-    </contour>
-    <contour>
-      <point x="535" y="608" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="138" y="345" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="509" y="-89" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="503" y="608" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="488" y="-703" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

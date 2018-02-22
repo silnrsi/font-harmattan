@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ainThreedotsdownabove-ar.medi" format="1">
+<glyph name="ainThreedotsdownabove-ar.medi" format="2">
   <advance width="868"/>
+  <anchor x="116" y="1123" name="alef"/>
+  <anchor x="365" y="1246" name="diaA"/>
+  <anchor x="427" y="-89" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="_dot3d" xOffset="405" yOffset="1098"/>
-    <contour>
-      <point x="116" y="1123" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="365" y="1246" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="427" y="-89" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsdownabove-ar" xOffset="405" yOffset="1098"/>
   </outline>
   <lib>
     <dict>

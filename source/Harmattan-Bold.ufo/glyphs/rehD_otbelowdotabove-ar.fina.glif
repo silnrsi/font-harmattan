@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rehDotbelowdotabove-ar.fina" format="1">
+<glyph name="rehDotbelowdotabove-ar.fina" format="2">
   <advance width="600"/>
+  <anchor x="207" y="709" name="alef"/>
+  <anchor x="251" y="781" name="diaA"/>
+  <anchor x="335" y="-943" name="diaB"/>
   <outline>
     <component base="reh-ar.fina" xOffset="-1"/>
-    <component base="_dot1" xOffset="332" yOffset="-768"/>
-    <component base="_dot1" xOffset="317" yOffset="615"/>
-    <contour>
-      <point x="207" y="709" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="251" y="781" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="335" y="-943" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="332" yOffset="-768"/>
+    <component base="dotabove-ar" xOffset="317" yOffset="615"/>
   </outline>
   <lib>
     <dict>

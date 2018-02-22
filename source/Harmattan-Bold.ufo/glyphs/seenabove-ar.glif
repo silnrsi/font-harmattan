@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seenabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="seenabove-ar" format="2">
   <unicode hex="06DC"/>
+  <anchor x="254" y="1311" name="_diaA"/>
   <outline>
     <contour>
       <point x="207" y="1601" type="line"/>
@@ -81,9 +81,6 @@
       <point x="96" y="1389"/>
       <point x="96" y="1424"/>
       <point x="94" y="1441" type="curve"/>
-    </contour>
-    <contour>
-      <point x="254" y="1311" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

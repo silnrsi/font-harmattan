@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="marksidewaysnoonghunna-ar" format="1">
-  <advance width="0"/>
+<glyph name="marksidewaysnoonghunna-ar" format="2">
   <unicode hex="08FF"/>
+  <anchor x="233" y="1251" name="_diaA"/>
+  <anchor x="223" y="1783" name="diaA"/>
   <outline>
     <contour>
       <point x="399" y="1656"/>
@@ -22,12 +23,6 @@
       <point x="295" y="1297"/>
       <point x="399" y="1395"/>
       <point x="399" y="1527" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="233" y="1251" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="223" y="1783" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

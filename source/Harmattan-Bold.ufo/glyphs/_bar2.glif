@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="_bar2" format="1">
-  <advance width="0"/>
+<glyph name="_bar2" format="2">
+  <anchor x="0" y="0" name="_center"/>
+  <anchor x="0" y="0" name="_through"/>
   <outline>
     <contour>
       <point x="95" y="-74"/>
@@ -29,12 +30,6 @@
       <point x="281" y="112"/>
       <point x="284" y="174"/>
       <point x="284" y="197" type="curve"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="move" name="_center"/>
-    </contour>
-    <contour>
-      <point x="0" y="0" type="move" name="_through"/>
     </contour>
   </outline>
 </glyph>

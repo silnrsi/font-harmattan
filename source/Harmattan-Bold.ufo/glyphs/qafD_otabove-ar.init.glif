@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qafDotabove-ar.init" format="1">
-  <advance width="809"/>
+<glyph name="qafDotabove-ar.init" format="2">
+  <advance width="899"/>
+  <anchor x="148" y="960" name="alef"/>
+  <anchor x="310" y="1144" name="diaA"/>
+  <anchor x="367" y="-121" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="_dot1" xOffset="358" yOffset="983"/>
-    <contour>
-      <point x="148" y="960" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="310" y="1144" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="367" y="-121" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="425" yOffset="-282"/>
   </outline>
   <lib>
     <dict>

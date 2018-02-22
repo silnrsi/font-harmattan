@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tonetwodotsabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="tonetwodotsabove-ar" format="2">
   <unicode hex="08EB"/>
+  <anchor x="248" y="1293" name="_diaA"/>
+  <anchor x="225" y="1577" name="diaA"/>
   <outline>
     <component base="toneonedotabove-ar"/>
     <component base="toneonedotabove-ar" xOffset="200" yOffset="44"/>
-    <contour>
-      <point x="248" y="1293" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="225" y="1577" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

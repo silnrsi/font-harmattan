@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lamThreedotsbelow-ar.medi" format="1">
+<glyph name="lamThreedotsbelow-ar.medi" format="2">
   <advance width="477"/>
+  <anchor x="0" y="804" name="alef"/>
+  <anchor x="232" y="1121" name="diaA"/>
+  <anchor x="271" y="-650" name="diaB"/>
   <outline>
     <component base="lam-ar.medi"/>
-    <component base="_dot3d" xOffset="250" yOffset="-237"/>
-    <contour>
-      <point x="0" y="804" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="232" y="1121" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="271" y="-650" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsdownabove-ar" xOffset="250" yOffset="-237"/>
   </outline>
   <lib>
     <dict>

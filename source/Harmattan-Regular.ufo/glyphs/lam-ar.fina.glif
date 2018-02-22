@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lam-ar.fina" format="1">
+<glyph name="lam-ar.fina" format="2">
   <advance width="1069"/>
+  <anchor x="785" y="1148" name="above"/>
+  <anchor x="283" y="402" name="alef"/>
+  <anchor x="474" y="-538" name="below"/>
+  <anchor x="804" y="1117" name="diaA"/>
+  <anchor x="460" y="-577" name="diaB"/>
+  <anchor x="850" y="644" name="through"/>
   <outline>
     <contour>
       <point x="867" y="1082"/>
@@ -48,24 +54,6 @@
       <point x="981" y="125"/>
       <point x="939" y="143"/>
       <point x="905" y="196" type="curve"/>
-    </contour>
-    <contour>
-      <point x="785" y="1148" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="283" y="402" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="474" y="-538" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="804" y="1117" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="460" y="-577" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="850" y="644" type="move" name="through"/>
     </contour>
   </outline>
 </glyph>

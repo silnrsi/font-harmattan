@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fathatan-ar" format="1">
-  <advance width="0"/>
+<glyph name="fathatan-ar" format="2">
   <unicode hex="064B"/>
+  <anchor x="316" y="1329" name="_diaA"/>
+  <anchor x="299" y="1695" name="diaA"/>
   <outline>
     <contour>
       <point x="126" y="1431"/>
@@ -30,12 +31,6 @@
       <point x="334" y="1634"/>
       <point x="249" y="1622"/>
       <point x="131" y="1615" type="curve"/>
-    </contour>
-    <contour>
-      <point x="316" y="1329" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="299" y="1695" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sukun-ar.leftOpen" format="1">
-  <advance width="0"/>
+<glyph name="sukun-ar.leftOpen" format="2">
+  <anchor x="233" y="1251" name="_diaA"/>
+  <anchor x="223" y="1783" name="diaA"/>
   <outline>
     <component base="marksidewaysnoonghunna-ar"/>
-    <contour>
-      <point x="233" y="1251" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="223" y="1783" type="move" name="diaA"/>
-    </contour>
   </outline>
   <lib>
     <dict>

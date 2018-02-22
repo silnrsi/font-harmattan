@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rhombusStopbelow-ar" format="1">
-  <advance width="0"/>
+<glyph name="rhombusStopbelow-ar" format="2">
   <unicode hex="06EA"/>
+  <anchor x="0" y="-150" name="_dia2B"/>
+  <anchor x="0" y="-232" name="_diaB"/>
   <outline>
     <contour>
       <point x="203" y="-489" type="line"/>
@@ -22,12 +23,6 @@
       <point x="-45" y="-444" type="line"/>
       <point x="0" y="-387" type="line"/>
       <point x="45" y="-444" type="line"/>
-    </contour>
-    <contour>
-      <point x="0" y="-150" type="move" name="_dia2B"/>
-    </contour>
-    <contour>
-      <point x="0" y="-232" type="move" name="_diaB"/>
     </contour>
   </outline>
 </glyph>

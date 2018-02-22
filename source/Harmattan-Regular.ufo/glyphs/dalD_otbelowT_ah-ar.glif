@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dalDotbelowTah-ar" format="1">
+<glyph name="dalDotbelowTah-ar" format="2">
   <advance width="781"/>
   <unicode hex="068B"/>
+  <anchor x="21" y="1164" name="alef"/>
+  <anchor x="189" y="1233" name="diaA"/>
+  <anchor x="391" y="-398" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="_tah" xOffset="251" yOffset="856"/>
-    <component base="_dot1" xOffset="385" yOffset="-235"/>
-    <contour>
-      <point x="21" y="1164" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="189" y="1233" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="391" y="-398" type="move" name="diaB"/>
-    </contour>
+    <component base="tahabove-ar" xOffset="251" yOffset="856"/>
+    <component base="dotabove-ar" xOffset="385" yOffset="-235"/>
   </outline>
   <lib>
     <dict>

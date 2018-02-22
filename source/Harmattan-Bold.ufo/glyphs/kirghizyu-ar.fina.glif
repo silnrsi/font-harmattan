@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kirghizyu-ar.fina" format="1">
+<glyph name="kirghizyu-ar.fina" format="2">
   <advance width="837"/>
+  <anchor x="331" y="983" name="alef"/>
+  <anchor x="349" y="1007" name="diaA"/>
+  <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
     <component base="vinvertedabove-ar" xOffset="188" yOffset="-352"/>
-    <contour>
-      <point x="331" y="983" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="349" y="1007" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="370" y="-625" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

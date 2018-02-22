@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hahThreedotsabove-ar.init" format="1">
+<glyph name="hahThreedotsabove-ar.init" format="2">
   <advance width="1067"/>
+  <anchor x="83" y="895" name="alef"/>
+  <anchor x="268" y="1213" name="diaA"/>
+  <anchor x="388" y="-27" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot3u" xOffset="343" yOffset="910"/>
-    <contour>
-      <point x="83" y="895" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="268" y="1213" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="388" y="-27" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="343" yOffset="910"/>
   </outline>
   <lib>
     <dict>

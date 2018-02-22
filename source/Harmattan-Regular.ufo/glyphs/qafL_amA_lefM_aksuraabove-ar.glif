@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qafLamAlefMaksuraabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="qafLamAlefMaksuraabove-ar" format="2">
   <unicode hex="06D7"/>
+  <anchor x="233" y="1222" name="_diaA"/>
   <outline>
     <contour>
       <point x="550" y="1636" type="line"/>
@@ -111,9 +111,6 @@
       <point x="470" y="1694"/>
       <point x="474" y="1655"/>
       <point x="479" y="1617" type="curve"/>
-    </contour>
-    <contour>
-      <point x="233" y="1222" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

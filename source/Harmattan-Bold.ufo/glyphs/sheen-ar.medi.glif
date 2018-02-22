@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sheen-ar.medi" format="1">
+<glyph name="sheen-ar.medi" format="2">
   <advance width="1355"/>
+  <anchor x="406" y="868" name="alef"/>
+  <anchor x="597" y="1108" name="diaA"/>
+  <anchor x="693" y="-123" name="diaB"/>
   <outline>
     <component base="seen-ar.medi"/>
-    <component base="_dot3u" xOffset="658" yOffset="811"/>
-    <contour>
-      <point x="406" y="868" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="597" y="1108" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="693" y="-123" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="658" yOffset="811"/>
   </outline>
   <lib>
     <dict>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sukunoval-ar" format="1">
-  <advance width="0"/>
+<glyph name="sukunoval-ar" format="2">
   <unicode hex="06E0"/>
+  <anchor x="164" y="1312" name="_diaA"/>
   <outline>
     <contour>
       <point x="224" y="1418"/>
@@ -30,9 +30,6 @@
       <point x="217" y="1344"/>
       <point x="274" y="1383"/>
       <point x="274" y="1514" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="164" y="1312" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

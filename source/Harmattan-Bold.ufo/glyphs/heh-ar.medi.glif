@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="heh-ar.medi" format="1">
+<glyph name="heh-ar.medi" format="2">
   <advance width="803"/>
+  <anchor x="69" y="352" name="alef"/>
+  <anchor x="519" y="685" name="diaA"/>
+  <anchor x="413" y="-502" name="diaB"/>
   <outline>
     <component base="hehDoachashmee-ar.medi"/>
-    <contour>
-      <point x="69" y="352" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="519" y="685" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="413" y="-502" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

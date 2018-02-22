@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="wawSmall-ar" format="1">
+<glyph name="wawSmall-ar" format="2">
   <advance width="345"/>
   <unicode hex="06E5"/>
+  <anchor x="170" y="521" name="diaA"/>
+  <anchor x="154" y="-89" name="diaB"/>
   <outline>
     <contour>
       <point x="24" y="-3"/>
@@ -38,12 +40,6 @@
       <point x="261" y="135"/>
       <point x="173" y="47"/>
       <point x="21" y="19" type="curve"/>
-    </contour>
-    <contour>
-      <point x="170" y="521" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="154" y="-89" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

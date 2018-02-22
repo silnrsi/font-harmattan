@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qafDotless-ar.init" format="1">
+<glyph name="qafDotless-ar.init" format="2">
   <advance width="809"/>
+  <anchor x="315" y="788" name="alef"/>
+  <anchor x="339" y="825" name="diaA"/>
+  <anchor x="367" y="-121" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <contour>
-      <point x="315" y="788" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="339" y="825" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="367" y="-121" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

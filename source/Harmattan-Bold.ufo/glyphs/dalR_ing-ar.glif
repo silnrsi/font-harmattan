@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dalRing-ar" format="1">
+<glyph name="dalRing-ar" format="2">
   <advance width="781"/>
   <unicode hex="0689"/>
+  <anchor x="291" y="683" name="alef"/>
+  <anchor x="298" y="725" name="diaA"/>
+  <anchor x="373" y="-333" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="_ring" xOffset="368" yOffset="-147"/>
-    <contour>
-      <point x="291" y="683" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="298" y="725" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="373" y="-333" type="move" name="diaB"/>
-    </contour>
+    <component base="ring-ar" xOffset="368" yOffset="-147"/>
   </outline>
   <lib>
     <dict>

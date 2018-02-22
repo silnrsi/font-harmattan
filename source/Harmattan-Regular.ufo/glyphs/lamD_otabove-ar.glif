@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lamDotabove-ar" format="1">
+<glyph name="lamDotabove-ar" format="2">
   <advance width="1087"/>
   <unicode hex="06B6"/>
+  <anchor x="283" y="402" name="alef"/>
+  <anchor x="800" y="1496" name="diaA"/>
+  <anchor x="460" y="-577" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="_dot1" xOffset="826" yOffset="1330"/>
-    <contour>
-      <point x="283" y="402" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="800" y="1496" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="460" y="-577" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="826" yOffset="1330"/>
   </outline>
   <lib>
     <dict>

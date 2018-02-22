@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seenTwodotshorizontalabove-ar.init" format="1">
+<glyph name="seenTwodotshorizontalabove-ar.init" format="2">
   <advance width="1277"/>
+  <anchor x="409" y="933" name="alef"/>
+  <anchor x="580" y="1092" name="diaA"/>
+  <anchor x="693" y="-123" name="diaB"/>
   <outline>
     <component base="seen-ar.init"/>
-    <component base="_dot2v" xOffset="658" yOffset="840"/>
-    <contour>
-      <point x="409" y="933" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="580" y="1092" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="693" y="-123" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotsverticalabove-ar" xOffset="658" yOffset="840"/>
   </outline>
   <lib>
     <dict>

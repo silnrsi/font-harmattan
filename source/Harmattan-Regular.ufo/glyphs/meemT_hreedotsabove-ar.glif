@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meemThreedotsabove-ar" format="1">
+<glyph name="meemThreedotsabove-ar" format="2">
   <advance width="953"/>
   <unicode hex="08A7"/>
+  <anchor x="210" y="874" name="alef"/>
+  <anchor x="418" y="1129" name="diaA"/>
+  <anchor x="316" y="-585" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="_dot3u" xOffset="498" yOffset="851"/>
-    <contour>
-      <point x="210" y="874" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="418" y="1129" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="316" y="-585" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="498" yOffset="851"/>
   </outline>
   <lib>
     <dict>

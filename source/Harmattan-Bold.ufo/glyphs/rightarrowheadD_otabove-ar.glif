@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rightarrowheadDotabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="rightarrowheadDotabove-ar" format="2">
   <unicode hex="08FD"/>
+  <anchor x="173" y="1228" name="_diaA"/>
+  <anchor x="144" y="1711" name="diaA"/>
   <outline>
     <component base="toneonedotabove-ar" xOffset="-70" yOffset="107"/>
     <component base="rightarrowheadabove-ar" xOffset="-1"/>
-    <contour>
-      <point x="173" y="1228" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="144" y="1711" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

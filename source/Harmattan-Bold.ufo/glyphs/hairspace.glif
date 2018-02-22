@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hairspace" format="1">
+<glyph name="hairspace" format="2">
   <advance width="165"/>
   <unicode hex="200A"/>
-  <outline>
-    <contour>
-      <point x="82" y="186" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="82" y="649" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="82" y="-700" type="move" name="diaB"/>
-    </contour>
-  </outline>
+  <anchor x="82" y="186" name="alef"/>
+  <anchor x="82" y="649" name="diaA"/>
+  <anchor x="82" y="-700" name="diaB"/>
+  <outline/>
 </glyph>

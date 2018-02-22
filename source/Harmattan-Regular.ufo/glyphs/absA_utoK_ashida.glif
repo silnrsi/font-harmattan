@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="absAutoKashida" format="1">
+<glyph name="absAutoKashida" format="2">
   <advance width="125"/>
+  <anchor x="61" y="452" name="alef"/>
+  <anchor x="62" y="787" name="diaA"/>
+  <anchor x="62" y="-188" name="diaB"/>
   <outline>
     <contour>
       <point x="125" y="-10" type="line"/>
       <point x="125" y="125" type="line"/>
       <point x="0" y="125" type="line"/>
       <point x="0" y="-10" type="line"/>
-    </contour>
-    <contour>
-      <point x="61" y="452" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="62" y="787" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="62" y="-188" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

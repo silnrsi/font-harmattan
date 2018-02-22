@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lamVabove-ar.medi" format="1">
+<glyph name="lamVabove-ar.medi" format="2">
   <advance width="477"/>
+  <anchor x="22" y="1487" name="alef"/>
+  <anchor x="218" y="1486" name="diaA"/>
+  <anchor x="245" y="-129" name="diaB"/>
   <outline>
     <component base="lam-ar.medi"/>
-    <component base="_smallV" xOffset="231" yOffset="1258"/>
-    <contour>
-      <point x="22" y="1487" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="218" y="1486" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="245" y="-129" type="move" name="diaB"/>
-    </contour>
+    <component base="vbelow-ar" xOffset="231" yOffset="1258"/>
   </outline>
   <lib>
     <dict>

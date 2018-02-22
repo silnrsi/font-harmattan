@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="gaf-ar.init" format="1">
+<glyph name="gaf-ar.init" format="2">
   <advance width="1139"/>
+  <anchor x="-24" y="661" name="alef"/>
+  <anchor x="300" y="1109" name="diaA"/>
+  <anchor x="525" y="-106" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
     <component base="_gafBarShort" xOffset="153" yOffset="761"/>
-    <contour>
-      <point x="-24" y="661" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="300" y="1109" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="525" y="-106" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="ghain-ar" format="1">
+<glyph name="ghain-ar" format="2">
   <advance width="822"/>
   <unicode hex="063A"/>
+  <anchor x="302" y="767" name="alef"/>
+  <anchor x="503" y="969" name="diaA"/>
+  <anchor x="488" y="-703" name="diaB"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="_dot1" xOffset="535" yOffset="790"/>
-    <contour>
-      <point x="302" y="767" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="503" y="969" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="488" y="-703" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="535" yOffset="790"/>
   </outline>
   <lib>
     <dict>

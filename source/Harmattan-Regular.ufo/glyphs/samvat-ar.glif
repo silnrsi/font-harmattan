@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="samvat-ar" format="1">
+<glyph name="samvat-ar" format="2">
   <advance width="1921"/>
   <unicode hex="0604"/>
+  <anchor x="186" y="0" name="digit"/>
   <outline>
     <contour>
       <point x="1779" y="273"/>
@@ -81,9 +82,6 @@
       <point x="812" y="-125"/>
       <point x="1017" y="-97"/>
       <point x="1193" y="12" type="curve"/>
-    </contour>
-    <contour>
-      <point x="186" y="0" type="move" name="digit"/>
     </contour>
   </outline>
 </glyph>

@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="noonRing-ar.fina" format="1">
+<glyph name="noonRing-ar.fina" format="2">
   <advance width="1249"/>
+  <anchor x="269" y="408" name="alef"/>
+  <anchor x="560" y="731" name="diaA"/>
+  <anchor x="572" y="-830" name="diaB"/>
   <outline>
     <component base="noon-ar.fina"/>
-    <component base="_ring" xOffset="580" yOffset="-622"/>
-    <contour>
-      <point x="269" y="408" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="560" y="731" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="572" y="-830" type="move" name="diaB"/>
-    </contour>
+    <component base="ring-ar" xOffset="580" yOffset="-622"/>
   </outline>
   <lib>
     <dict>

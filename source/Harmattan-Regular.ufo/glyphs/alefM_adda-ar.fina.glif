@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alefMadda-ar.fina" format="1">
+<glyph name="alefMadda-ar.fina" format="2">
   <advance width="459"/>
+  <anchor x="-58" y="1359" name="alef"/>
+  <anchor x="192" y="1369" name="diaA"/>
+  <anchor x="193" y="-103" name="diaB"/>
   <outline>
     <component base="alef-ar.fina"/>
     <component base="_madda" xOffset="94" yOffset="1196"/>
-    <contour>
-      <point x="-58" y="1359" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="192" y="1369" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="193" y="-103" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

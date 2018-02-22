@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotcenter-ar" format="2">
+  <anchor x="0" y="-182" name="_above"/>
+  <anchor x="0" y="174" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-19" y="124" type="line"/>
+      <point x="-122" y="-4" type="line"/>
+      <point x="-113" y="-24"/>
+      <point x="-60" y="-72"/>
+      <point x="15" y="-126" type="curve"/>
+      <point x="31" y="-121"/>
+      <point x="74" y="-76"/>
+      <point x="132" y="4" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

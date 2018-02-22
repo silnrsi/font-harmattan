@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hahTwodotshorizontalabove-ar" format="1">
+<glyph name="hahTwodotshorizontalabove-ar" format="2">
   <advance width="983"/>
   <unicode hex="0757"/>
+  <anchor x="83" y="747" name="alef"/>
+  <anchor x="377" y="998" name="diaA"/>
+  <anchor x="502" y="-788" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="_dot2h" xOffset="408" yOffset="826"/>
-    <contour>
-      <point x="83" y="747" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="377" y="998" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="502" y="-788" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="408" yOffset="826"/>
   </outline>
   <lib>
     <dict>

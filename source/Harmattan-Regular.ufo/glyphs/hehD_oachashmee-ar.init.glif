@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hehDoachashmee-ar.init" format="1">
+<glyph name="hehDoachashmee-ar.init" format="2">
   <advance width="1169"/>
+  <anchor x="469" y="842" name="above"/>
+  <anchor x="124" y="480" name="alef"/>
+  <anchor x="436" y="-83" name="below"/>
+  <anchor x="499" y="853" name="diaA"/>
+  <anchor x="419" y="-103" name="diaB"/>
   <outline>
     <contour>
       <point x="385" y="535" type="curve" smooth="yes"/>
@@ -55,21 +60,6 @@
       <point x="632" y="287" type="curve" smooth="yes"/>
       <point x="632" y="415"/>
       <point x="546" y="535"/>
-    </contour>
-    <contour>
-      <point x="436" y="821" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="124" y="480" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="449" y="-63" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="444" y="833" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="419" y="-103" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

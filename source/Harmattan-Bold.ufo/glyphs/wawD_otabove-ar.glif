@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="wawDotabove-ar" format="1">
+<glyph name="wawDotabove-ar" format="2">
   <advance width="862"/>
   <unicode hex="06CF"/>
+  <anchor x="286" y="928" name="alef"/>
+  <anchor x="325" y="969" name="diaA"/>
+  <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="_dot1" xOffset="374" yOffset="803"/>
-    <contour>
-      <point x="286" y="928" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="325" y="969" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="370" y="-625" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="374" yOffset="803"/>
   </outline>
   <lib>
     <dict>

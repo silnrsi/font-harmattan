@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="alefHamzabelow-ar.fina" format="1">
+<glyph name="alefHamzabelow-ar.fina" format="2">
   <advance width="467"/>
+  <anchor x="-23" y="1065" name="alef"/>
+  <anchor x="197" y="1115" name="diaA"/>
+  <anchor x="259" y="-481" name="diaB"/>
   <outline>
     <component base="alef-ar.fina" xOffset="8"/>
     <component base="hamzaabove-ar" xOffset="14" yOffset="-1790"/>
-    <contour>
-      <point x="-23" y="1065" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="197" y="1115" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="259" y="-481" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

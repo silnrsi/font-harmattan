@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="toneonedotbelow-ar" format="1">
-  <advance width="0"/>
+<glyph name="toneonedotbelow-ar" format="2">
   <unicode hex="08ED"/>
+  <anchor x="121" y="-283" name="_diaB"/>
+  <anchor x="132" y="-533" name="diaB"/>
   <outline>
     <component base="toneonedotabove-ar" yOffset="-1820"/>
-    <contour>
-      <point x="121" y="-283" type="move" name="_diaB"/>
-    </contour>
-    <contour>
-      <point x="132" y="-533" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

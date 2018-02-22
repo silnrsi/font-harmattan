@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehThreedotsabove-farsi.medi" format="1">
+<glyph name="yehThreedotsabove-farsi.medi" format="2">
   <advance width="580"/>
+  <anchor x="25" y="904" name="alef"/>
+  <anchor x="142" y="1071" name="diaA"/>
+  <anchor x="236" y="-396" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot3u" xOffset="227" yOffset="787"/>
-    <component base="_dot2h" xOffset="275" yOffset="-227"/>
-    <contour>
-      <point x="25" y="904" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="142" y="1071" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="236" y="-396" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="227" yOffset="787"/>
+    <component base="twodotshorizontalabove-ar" xOffset="275" yOffset="-227"/>
   </outline>
   <lib>
     <dict>

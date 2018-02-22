@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="twodotsverticalabove-ar" format="2">
+  <unicode hex="FBBD"/>
+  <anchor x="0" y="-308" name="_above"/>
+  <anchor x="0" y="261" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-46" y="214" type="line"/>
+      <point x="-144" y="93" type="line"/>
+      <point x="-134" y="74"/>
+      <point x="-85" y="28"/>
+      <point x="-14" y="-23" type="curve"/>
+      <point x="1" y="-18"/>
+      <point x="42" y="25"/>
+      <point x="97" y="100" type="curve"/>
+    </contour>
+    <contour>
+      <point x="-17" y="2" type="line"/>
+      <point x="-115" y="-120" type="line"/>
+      <point x="-106" y="-139"/>
+      <point x="-56" y="-184"/>
+      <point x="16" y="-236" type="curve"/>
+      <point x="30" y="-231"/>
+      <point x="71" y="-188"/>
+      <point x="127" y="-113" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

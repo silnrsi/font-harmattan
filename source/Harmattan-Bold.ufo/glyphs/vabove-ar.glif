@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="vabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="vabove-ar" format="2">
   <unicode hex="065A"/>
+  <anchor x="18" y="926" name="_diaA"/>
+  <anchor x="9" y="1274" name="diaA"/>
   <outline>
     <contour>
       <point x="0" y="964" type="curve" smooth="yes"/>
@@ -22,12 +23,6 @@
       <point x="-244" y="1178" type="curve"/>
       <point x="-200" y="1127"/>
       <point x="-33" y="964"/>
-    </contour>
-    <contour>
-      <point x="18" y="926" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="9" y="1274" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

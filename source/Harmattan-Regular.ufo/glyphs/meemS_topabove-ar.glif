@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meemStopabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="meemStopabove-ar" format="2">
   <unicode hex="06E2"/>
+  <anchor x="109" y="1319" name="_diaA"/>
   <outline>
     <contour>
       <point x="7" y="1464" type="line"/>
@@ -47,9 +47,6 @@
       <point x="71" y="1480"/>
       <point x="48" y="1523"/>
       <point x="45" y="1557" type="curve"/>
-    </contour>
-    <contour>
-      <point x="109" y="1319" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

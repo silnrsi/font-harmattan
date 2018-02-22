@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="reh-ar" format="1">
+<glyph name="reh-ar" format="2">
   <advance width="531"/>
   <unicode hex="0631"/>
+  <anchor x="301" y="433" name="above"/>
+  <anchor x="282" y="419" name="alef"/>
+  <anchor x="316" y="-594" name="below"/>
+  <anchor x="25" y="-89" name="center"/>
+  <anchor x="337" y="456" name="diaA"/>
+  <anchor x="264" y="-636" name="diaB"/>
+  <anchor x="393" y="-456" name="ring"/>
+  <anchor x="370" y="-165" name="through"/>
   <outline>
     <contour>
       <point x="290" y="365" type="curve"/>
@@ -22,30 +30,6 @@
       <point x="421" y="401" type="curve"/>
       <point x="377" y="399"/>
       <point x="328" y="387"/>
-    </contour>
-    <contour>
-      <point x="301" y="433" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="282" y="419" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="316" y="-594" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="25" y="-89" type="move" name="center"/>
-    </contour>
-    <contour>
-      <point x="337" y="456" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="264" y="-636" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="393" y="-456" type="move" name="ring"/>
-    </contour>
-    <contour>
-      <point x="370" y="-165" type="move" name="through"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="noonabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="noonabove-ar" format="2">
   <unicode hex="06E8"/>
+  <anchor x="0" y="1180" name="_diaA"/>
   <outline>
     <contour>
       <point x="129" y="1595" type="line"/>
@@ -43,9 +43,6 @@
       <point x="32" y="1631"/>
       <point x="55" y="1653"/>
       <point x="84" y="1694" type="curve"/>
-    </contour>
-    <contour>
-      <point x="0" y="1180" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

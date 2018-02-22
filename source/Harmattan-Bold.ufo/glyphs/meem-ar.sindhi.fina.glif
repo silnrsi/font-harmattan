@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meem-ar.sindhi.fina" format="1">
+<glyph name="meem-ar.sindhi.fina" format="2">
   <advance width="1327"/>
+  <anchor x="785" y="658" name="above"/>
+  <anchor x="430" y="474" name="alef"/>
+  <anchor x="818" y="-122" name="below"/>
+  <anchor x="815" y="670" name="diaA"/>
+  <anchor x="796" y="-144" name="diaB"/>
   <outline>
     <contour>
       <point x="574" y="119" type="line"/>
@@ -67,21 +72,6 @@
       <point x="1219" y="165"/>
       <point x="1177" y="183"/>
       <point x="1143" y="236" type="curve"/>
-    </contour>
-    <contour>
-      <point x="785" y="658" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="430" y="474" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="818" y="-122" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="815" y="670" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="796" y="-144" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

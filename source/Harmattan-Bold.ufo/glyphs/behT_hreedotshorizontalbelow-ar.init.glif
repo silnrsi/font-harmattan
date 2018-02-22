@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="behThreedotshorizontalbelow-ar.init" format="1">
+<glyph name="behThreedotshorizontalbelow-ar.init" format="2">
   <advance width="429"/>
+  <anchor x="147" y="501" name="alef"/>
+  <anchor x="156" y="510" name="diaA"/>
+  <anchor x="213" y="-406" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot3h" xOffset="224" yOffset="-216"/>
-    <contour>
-      <point x="147" y="501" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="156" y="510" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="213" y="-406" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotshorizontalabove-ar" xOffset="224" yOffset="-216"/>
   </outline>
   <lib>
     <dict>

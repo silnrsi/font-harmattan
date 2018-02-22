@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sadabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="sadabove-ar" format="2">
   <unicode hex="0610"/>
+  <anchor x="501" y="1331" name="_diaA"/>
   <outline>
     <contour>
       <point x="695" y="1600"/>
@@ -42,9 +42,6 @@
       <point x="602" y="1383"/>
       <point x="695" y="1437"/>
       <point x="695" y="1539" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="501" y="1331" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

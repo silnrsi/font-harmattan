@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehVabove-ar.fina" format="1">
+<glyph name="yehVabove-ar.fina" format="2">
   <advance width="1296"/>
+  <anchor x="465" y="0" name="alef"/>
+  <anchor x="864" y="580" name="diaA"/>
+  <anchor x="596" y="-749" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="_smallV" xOffset="912" yOffset="321"/>
-    <contour>
-      <point x="465" y="0" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="864" y="580" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="596" y="-749" type="move" name="diaB"/>
-    </contour>
+    <component base="vbelow-ar" xOffset="912" yOffset="321"/>
   </outline>
   <lib>
     <dict>

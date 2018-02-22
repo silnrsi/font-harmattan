@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meemThreedotsabove-ar.sindhi" format="1">
+<glyph name="meemThreedotsabove-ar.sindhi" format="2">
   <advance width="1213"/>
+  <anchor x="468" y="836" name="alef"/>
+  <anchor x="684" y="1141" name="diaA"/>
+  <anchor x="851" y="-106" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi"/>
-    <component base="_dot3u" xOffset="772" yOffset="854"/>
-    <contour>
-      <point x="468" y="836" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="684" y="1141" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="851" y="-106" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="772" yOffset="854"/>
   </outline>
   <lib>
     <dict>

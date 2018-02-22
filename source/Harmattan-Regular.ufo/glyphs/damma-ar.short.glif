@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="damma-ar.short" format="1">
-  <advance width="0"/>
+<glyph name="damma-ar.short" format="2">
+  <anchor x="257" y="1279" name="_diaA"/>
+  <anchor x="198" y="1784" name="diaA"/>
   <outline>
     <contour>
       <point x="275" y="1438" type="line"/>
@@ -31,12 +32,6 @@
       <point x="200" y="1551"/>
       <point x="239" y="1520"/>
       <point x="318" y="1507" type="curve"/>
-    </contour>
-    <contour>
-      <point x="257" y="1279" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="198" y="1784" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

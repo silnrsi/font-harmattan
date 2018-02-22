@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seenbelow-ar" format="1">
-  <advance width="0"/>
+<glyph name="seenbelow-ar" format="2">
   <unicode hex="06E3"/>
+  <anchor x="238" y="-326" name="_dia2B"/>
+  <anchor x="242" y="-346" name="_diaB"/>
   <outline>
     <component base="seenabove-ar" yOffset="-2000"/>
-    <contour>
-      <point x="238" y="-326" type="move" name="_dia2B"/>
-    </contour>
-    <contour>
-      <point x="242" y="-346" type="move" name="_diaB"/>
-    </contour>
   </outline>
 </glyph>

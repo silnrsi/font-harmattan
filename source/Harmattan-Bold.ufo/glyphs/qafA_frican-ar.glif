@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qafAfrican-ar" format="1">
-  <advance width="1266"/>
+<glyph name="qafAfrican-ar" format="2">
+  <advance width="1366"/>
   <unicode hex="08BC"/>
+  <anchor x="813" y="861" name="above"/>
+  <anchor x="414" y="715" name="alef"/>
+  <anchor x="615" y="-325" name="below"/>
+  <anchor x="767" y="856" name="diaA"/>
+  <anchor x="594" y="-289" name="diaB"/>
   <outline>
     <component base="qafDotless-ar"/>
-    <contour>
-      <point x="813" y="861" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="414" y="715" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="615" y="-325" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="767" y="856" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="594" y="-289" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

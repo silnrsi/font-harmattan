@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="toneonedotabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="toneonedotabove-ar" format="2">
   <unicode hex="08EA"/>
+  <anchor x="136" y="1283" name="_diaA"/>
+  <anchor x="129" y="1577" name="diaA"/>
   <outline>
     <contour>
       <point x="59" y="1485" type="line"/>
@@ -14,12 +15,6 @@
       <point x="200" y="1397"/>
       <point x="195" y="1457"/>
       <point x="193" y="1497" type="curve"/>
-    </contour>
-    <contour>
-      <point x="136" y="1283" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="129" y="1577" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

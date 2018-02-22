@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fathaRing-ar" format="1">
-  <advance width="0"/>
+<glyph name="fathaRing-ar" format="2">
   <unicode hex="08F4"/>
+  <anchor x="159" y="1189" name="_diaA"/>
+  <anchor x="161" y="1600" name="diaA"/>
   <outline>
     <contour>
       <point x="50" y="1561"/>
@@ -44,12 +45,6 @@
       <point x="219" y="1435"/>
       <point x="70" y="1420"/>
       <point x="-43" y="1409" type="curve"/>
-    </contour>
-    <contour>
-      <point x="159" y="1189" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="161" y="1600" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="takhallusabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="takhallusabove-ar" format="2">
   <unicode hex="0614"/>
+  <anchor x="366" y="1361" name="_diaA"/>
   <outline>
     <contour>
       <point x="370" y="1498"/>
@@ -48,9 +48,6 @@
       <point x="398" y="1460"/>
       <point x="448" y="1411"/>
       <point x="515" y="1411" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="366" y="1361" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

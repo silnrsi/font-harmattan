@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lam-ar.preAlef.medi" format="1">
+<glyph name="lam-ar.preAlef.medi" format="2">
   <advance width="992"/>
+  <anchor x="715" y="1129" name="above"/>
+  <anchor x="600" y="1082" name="alef"/>
+  <anchor x="744" y="-89" name="below"/>
+  <anchor x="802" y="-130" name="dia2B"/>
+  <anchor x="697" y="1118" name="diaA"/>
+  <anchor x="789" y="-149" name="diaB"/>
+  <anchor x="641" y="-12" name="entry"/>
+  <anchor x="556" y="123" name="exit"/>
+  <anchor x="764" y="569" name="through"/>
   <outline>
     <contour>
       <point x="611" y="193"/>
@@ -36,33 +45,6 @@
       <point x="647" y="913"/>
       <point x="658" y="432"/>
       <point x="662" y="314" type="curve"/>
-    </contour>
-    <contour>
-      <point x="715" y="1129" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="600" y="1082" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="744" y="-89" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="802" y="-130" type="move" name="dia2B"/>
-    </contour>
-    <contour>
-      <point x="697" y="1118" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="789" y="-149" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="641" y="-12" type="move" name="entry"/>
-    </contour>
-    <contour>
-      <point x="556" y="123" type="move" name="exit"/>
-    </contour>
-    <contour>
-      <point x="727" y="845" type="move" name="through"/>
     </contour>
   </outline>
 </glyph>

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lamThreedotsbelow-ar" format="1">
+<glyph name="lamThreedotsbelow-ar" format="2">
   <advance width="1087"/>
   <unicode hex="06B8"/>
+  <anchor x="283" y="402" name="alef"/>
+  <anchor x="812" y="1171" name="diaA"/>
+  <anchor x="471" y="-1132" name="diaB"/>
   <outline>
     <component base="lam-ar"/>
-    <component base="_dot3d" xOffset="474" yOffset="-694"/>
-    <contour>
-      <point x="283" y="402" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="812" y="1171" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="471" y="-1132" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsdownabove-ar" xOffset="474" yOffset="-694"/>
   </outline>
   <lib>
     <dict>

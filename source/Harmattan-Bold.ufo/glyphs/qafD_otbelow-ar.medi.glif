@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="qafDotbelow-ar.medi" format="1">
-  <advance width="797"/>
+<glyph name="qafDotbelow-ar.medi" format="2">
+  <advance width="877"/>
+  <anchor x="74" y="981" name="alef"/>
+  <anchor x="337" y="1157" name="diaA"/>
+  <anchor x="381" y="-446" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
-    <component base="_dot2h" xOffset="358" yOffset="983"/>
-    <component base="_dot1" xOffset="385" yOffset="-272"/>
-    <contour>
-      <point x="74" y="981" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="337" y="1157" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="381" y="-446" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="416" yOffset="-273"/>
+    <component base="dotabove-ar" xOffset="425" yOffset="-282"/>
   </outline>
   <lib>
     <dict>

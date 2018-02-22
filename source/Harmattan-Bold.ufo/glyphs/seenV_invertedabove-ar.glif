@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="seenVinvertedabove-ar" format="1">
+<glyph name="seenVinvertedabove-ar" format="2">
   <advance width="1657"/>
   <unicode hex="077E"/>
+  <anchor x="295" y="287" name="alef"/>
+  <anchor x="982" y="909" name="diaA"/>
+  <anchor x="284" y="-654" name="diaB"/>
   <outline>
     <component base="seen-ar"/>
     <component base="vinvertedabove-ar" xOffset="829" yOffset="-441"/>
-    <contour>
-      <point x="295" y="287" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="982" y="909" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="284" y="-654" type="move" name="diaB"/>
-    </contour>
   </outline>
   <lib>
     <dict>

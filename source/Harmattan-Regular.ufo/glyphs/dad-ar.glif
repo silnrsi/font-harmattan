@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dad-ar" format="1">
+<glyph name="dad-ar" format="2">
   <advance width="1682"/>
   <unicode hex="0636"/>
+  <anchor x="445" y="229" name="alef"/>
+  <anchor x="1153" y="990" name="diaA"/>
+  <anchor x="704" y="-563" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="_dot1" xOffset="1196" yOffset="813"/>
-    <contour>
-      <point x="445" y="229" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="1153" y="990" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="704" y="-563" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="1196" yOffset="813"/>
   </outline>
   <lib>
     <dict>

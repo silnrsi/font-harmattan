@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="jeem-ar.init" format="1">
+<glyph name="jeem-ar.init" format="2">
   <advance width="1067"/>
+  <anchor x="3" y="469" name="alef"/>
+  <anchor x="319" y="636" name="diaA"/>
+  <anchor x="381" y="-349" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot1" xOffset="364" yOffset="-177"/>
-    <contour>
-      <point x="3" y="469" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="319" y="636" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="381" y="-349" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="364" yOffset="-177"/>
   </outline>
   <lib>
     <dict>

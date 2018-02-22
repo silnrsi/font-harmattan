@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meemDotbelow-ar.fina" format="1">
+<glyph name="meemDotbelow-ar.fina" format="2">
   <advance width="997"/>
+  <anchor x="88" y="324" name="alef"/>
+  <anchor x="516" y="625" name="diaA"/>
+  <anchor x="471" y="-482" name="diaB"/>
   <outline>
     <component base="meem-ar.fina"/>
-    <component base="_dot1" xOffset="581" yOffset="-263"/>
-    <contour>
-      <point x="88" y="324" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="516" y="625" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="471" y="-482" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="581" yOffset="-263"/>
   </outline>
   <lib>
     <dict>

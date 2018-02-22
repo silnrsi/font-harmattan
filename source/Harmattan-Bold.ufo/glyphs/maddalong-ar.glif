@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="maddalong-ar" format="1">
-  <advance width="0"/>
+<glyph name="maddalong-ar" format="2">
   <unicode hex="06E4"/>
+  <anchor x="0" y="1212" name="_diaA"/>
   <outline>
     <contour>
       <point x="152" y="1273"/>
@@ -25,9 +25,6 @@
       <point x="70" y="1242"/>
       <point x="130" y="1255"/>
       <point x="151" y="1268" type="curve"/>
-    </contour>
-    <contour>
-      <point x="0" y="1212" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

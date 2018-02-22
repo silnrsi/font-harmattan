@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="fehThreedotsupbelow-ar" format="1">
+<glyph name="fehThreedotsupbelow-ar" format="2">
   <advance width="1746"/>
   <unicode hex="0761"/>
+  <anchor x="501" y="426" name="alef"/>
+  <anchor x="1185" y="882" name="diaA"/>
+  <anchor x="1401" y="-622" name="diaB"/>
   <outline>
     <component base="fehDotless-ar"/>
-    <component base="_dot3u" xOffset="1421" yOffset="-327"/>
-    <contour>
-      <point x="501" y="426" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="1185" y="882" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="1401" y="-622" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="1421" yOffset="-327"/>
   </outline>
   <lib>
     <dict>

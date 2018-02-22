@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="rehHahabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="rehHahabove-ar" format="2">
   <unicode hex="0612"/>
+  <anchor x="351" y="1149" name="_diaA"/>
   <outline>
     <contour>
       <point x="151" y="1267"/>
@@ -64,9 +64,6 @@
       <point x="677" y="1517"/>
       <point x="656" y="1564"/>
       <point x="640" y="1607" type="curve"/>
-    </contour>
-    <contour>
-      <point x="351" y="1149" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

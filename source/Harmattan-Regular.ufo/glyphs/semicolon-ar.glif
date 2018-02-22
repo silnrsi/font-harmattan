@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="semicolon-ar" format="1">
+<glyph name="semicolon-ar" format="2">
   <advance width="565"/>
   <unicode hex="061B"/>
+  <anchor x="280" y="890" name="diaA"/>
+  <anchor x="262" y="-548" name="diaB"/>
   <outline>
     <contour>
       <point x="395" y="302" type="line"/>
@@ -33,12 +35,6 @@
       <point x="346" y="-402"/>
       <point x="399" y="-345"/>
       <point x="399" y="-279" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="280" y="890" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="262" y="-548" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

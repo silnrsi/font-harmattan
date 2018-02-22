@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="sukun-ar.downOpen" format="1">
-  <advance width="0"/>
+<glyph name="sukun-ar.downOpen" format="2">
+  <anchor x="234" y="1343" name="_diaA"/>
+  <anchor x="223" y="1731" name="diaA"/>
   <outline>
     <contour>
       <point x="120" y="1674"/>
@@ -21,12 +22,6 @@
       <point x="470" y="1534"/>
       <point x="381" y="1674"/>
       <point x="252" y="1674" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="234" y="1343" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="223" y="1731" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

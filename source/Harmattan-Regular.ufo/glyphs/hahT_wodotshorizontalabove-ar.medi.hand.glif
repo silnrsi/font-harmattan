@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="hahTwodotshorizontalabove-ar.medi.hand" format="1">
+<glyph name="hahTwodotshorizontalabove-ar.medi.hand" format="2">
   <advance width="949"/>
+  <anchor x="181" y="764" name="alef"/>
+  <anchor x="414" y="856" name="diaA"/>
+  <anchor x="456" y="-382" name="diaB"/>
   <outline>
     <component base="hah-ar.medi.hand"/>
-    <component base="_dot2h" xOffset="439" yOffset="687"/>
-    <contour>
-      <point x="181" y="764" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="414" y="856" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="456" y="-382" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="439" yOffset="687"/>
   </outline>
   <lib>
     <dict>

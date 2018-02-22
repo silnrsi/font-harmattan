@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kasraDotbelow-ar" format="1">
-  <advance width="0"/>
+<glyph name="kasraDotbelow-ar" format="2">
   <unicode hex="08F6"/>
+  <anchor x="295" y="-288" name="_diaB"/>
+  <anchor x="355" y="-653" name="diaB"/>
   <outline>
     <component base="toneonedotabove-ar" xOffset="198" yOffset="-1946"/>
     <component base="kasra-ar" yOffset="-103"/>
-    <contour>
-      <point x="295" y="-288" type="move" name="_diaB"/>
-    </contour>
-    <contour>
-      <point x="355" y="-653" type="move" name="diaB"/>
-    </contour>
   </outline>
 </glyph>

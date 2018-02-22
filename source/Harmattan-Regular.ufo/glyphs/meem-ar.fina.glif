@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="meem-ar.fina" format="1">
+<glyph name="meem-ar.fina" format="2">
   <advance width="1011"/>
+  <anchor x="520" y="610" name="above"/>
+  <anchor x="77" y="356" name="alef"/>
+  <anchor x="581" y="-89" name="below"/>
+  <anchor x="537" y="616" name="diaA"/>
+  <anchor x="246" y="-585" name="diaB"/>
   <outline>
     <contour>
       <point x="283" y="119" type="line"/>
@@ -55,21 +60,6 @@
       <point x="923" y="125"/>
       <point x="881" y="143"/>
       <point x="847" y="196" type="curve"/>
-    </contour>
-    <contour>
-      <point x="520" y="610" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="77" y="356" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="581" y="-89" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="537" y="616" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="246" y="-585" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

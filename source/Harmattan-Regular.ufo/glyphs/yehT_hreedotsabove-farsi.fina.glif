@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yehThreedotsabove-farsi.fina" format="1">
+<glyph name="yehThreedotsabove-farsi.fina" format="2">
   <advance width="1296"/>
+  <anchor x="465" y="0" name="alef"/>
+  <anchor x="816" y="743" name="diaA"/>
+  <anchor x="596" y="-749" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="_dot3u" xOffset="909" yOffset="460"/>
-    <contour>
-      <point x="465" y="0" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="816" y="743" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="596" y="-749" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsupabove-ar" xOffset="909" yOffset="460"/>
   </outline>
   <lib>
     <dict>

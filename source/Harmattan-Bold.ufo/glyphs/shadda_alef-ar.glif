@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shadda_alef-ar" format="1">
-  <advance width="0"/>
+<glyph name="shadda_alef-ar" format="2">
+  <anchor x="265" y="1160" name="_diaA"/>
+  <anchor x="241" y="2101" name="diaA"/>
   <outline>
     <component base="shadda-ar" xOffset="-20" yOffset="-162"/>
     <component base="alefabove-ar" xOffset="15" yOffset="870"/>
-    <contour>
-      <point x="265" y="1160" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="241" y="2101" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

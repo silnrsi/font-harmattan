@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="lamAlefabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="lamAlefabove-ar" format="2">
   <unicode hex="06D9"/>
+  <anchor x="14" y="1366" name="_diaA"/>
   <outline>
     <contour>
       <point x="93" y="1485" type="line"/>
@@ -46,9 +46,6 @@
       <point x="-43" y="1685"/>
       <point x="48" y="1601"/>
       <point x="79" y="1402" type="curve"/>
-    </contour>
-    <contour>
-      <point x="14" y="1366" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

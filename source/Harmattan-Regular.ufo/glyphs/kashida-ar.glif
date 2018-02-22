@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kashida-ar" format="1">
+<glyph name="kashida-ar" format="2">
   <advance width="363"/>
   <unicode hex="0640"/>
+  <anchor x="242" y="315" name="alef"/>
+  <anchor x="177" y="371" name="diaA"/>
+  <anchor x="179" y="-134" name="diaB"/>
   <outline>
     <contour>
-      <point x="382" y="89"/>
-      <point x="382" y="125"/>
-      <point x="342" y="125" type="curve" smooth="yes"/>
-      <point x="20" y="125" type="line" smooth="yes"/>
-      <point x="-20" y="125"/>
-      <point x="-20" y="89"/>
-      <point x="-20" y="58" type="curve" smooth="yes"/>
-      <point x="-20" y="27"/>
-      <point x="-20" y="-10"/>
-      <point x="20" y="-10" type="curve" smooth="yes"/>
-      <point x="342" y="-10" type="line" smooth="yes"/>
-      <point x="382" y="-10"/>
-      <point x="382" y="27"/>
-      <point x="382" y="58" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="242" y="315" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="177" y="371" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="179" y="-134" type="move" name="diaB"/>
+      <point x="383" y="-10" type="line"/>
+      <point x="383" y="125" type="line"/>
+      <point x="-20" y="125" type="line"/>
+      <point x="-20" y="-10" type="line"/>
     </contour>
   </outline>
 </glyph>

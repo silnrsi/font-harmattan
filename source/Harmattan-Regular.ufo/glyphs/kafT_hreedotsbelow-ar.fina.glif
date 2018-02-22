@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="kafThreedotsbelow-ar.fina" format="1">
+<glyph name="kafThreedotsbelow-ar.fina" format="2">
   <advance width="1376"/>
+  <anchor x="468" y="779" name="alef"/>
+  <anchor x="587" y="812" name="diaA"/>
+  <anchor x="605" y="-722" name="diaB"/>
   <outline>
     <component base="kaf-ar.fina"/>
-    <component base="_dot3d" xOffset="593" yOffset="-304"/>
-    <contour>
-      <point x="468" y="779" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="587" y="812" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="605" y="-722" type="move" name="diaB"/>
-    </contour>
+    <component base="threedotsdownabove-ar" xOffset="593" yOffset="-304"/>
   </outline>
   <lib>
     <dict>

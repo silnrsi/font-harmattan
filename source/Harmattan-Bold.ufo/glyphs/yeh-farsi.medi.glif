@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="yeh-farsi.medi" format="1">
+<glyph name="yeh-farsi.medi" format="2">
   <advance width="580"/>
+  <anchor x="248" y="450" name="alef"/>
+  <anchor x="265" y="465" name="diaA"/>
+  <anchor x="257" y="-410" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot2h" xOffset="275" yOffset="-227"/>
-    <contour>
-      <point x="248" y="450" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="265" y="465" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="257" y="-410" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotshorizontalabove-ar" xOffset="275" yOffset="-227"/>
   </outline>
   <lib>
     <dict>

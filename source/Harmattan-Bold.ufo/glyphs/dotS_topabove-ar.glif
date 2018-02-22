@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dotStopabove-ar" format="1">
-  <advance width="0"/>
+<glyph name="dotStopabove-ar" format="2">
   <unicode hex="06EC"/>
+  <anchor x="0" y="1261" name="_diaA"/>
   <outline>
     <contour>
       <point x="115" y="1482"/>
@@ -16,9 +16,6 @@
       <point x="66" y="1306"/>
       <point x="115" y="1355"/>
       <point x="115" y="1418" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="0" y="1261" type="move" name="_diaA"/>
     </contour>
   </outline>
 </glyph>

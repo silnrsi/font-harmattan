@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="one-persian.small" format="1">
+<glyph name="one-persian.small" format="2">
   <advance width="494"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="494" y="0" name="digit"/>
   <outline>
     <component base="one-ar.small"/>
-    <contour>
-      <point x="0" y="0" type="move" name="_digit"/>
-    </contour>
-    <contour>
-      <point x="494" y="0" type="move" name="digit"/>
-    </contour>
   </outline>
 </glyph>

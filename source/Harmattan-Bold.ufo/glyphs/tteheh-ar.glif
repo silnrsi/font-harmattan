@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tteheh-ar" format="1">
+<glyph name="tteheh-ar" format="2">
   <advance width="1992"/>
   <unicode hex="067A"/>
+  <anchor x="388" y="815" name="alef"/>
+  <anchor x="881" y="1116" name="diaA"/>
+  <anchor x="932" y="-121" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot2v" xOffset="970" yOffset="853"/>
-    <contour>
-      <point x="388" y="815" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="881" y="1116" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="932" y="-121" type="move" name="diaB"/>
-    </contour>
+    <component base="twodotsverticalabove-ar" xOffset="970" yOffset="853"/>
   </outline>
   <lib>
     <dict>

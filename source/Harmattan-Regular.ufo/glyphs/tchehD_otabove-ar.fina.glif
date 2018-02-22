@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="tchehDotabove-ar.fina" format="1">
+<glyph name="tchehDotabove-ar.fina" format="2">
   <advance width="944"/>
+  <anchor x="145" y="761" name="alef"/>
+  <anchor x="345" y="1002" name="diaA"/>
+  <anchor x="502" y="-652" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="_dot1" xOffset="386" yOffset="826"/>
-    <component base="_dot3d" xOffset="483" yOffset="-35"/>
-    <contour>
-      <point x="145" y="761" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="345" y="1002" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="502" y="-652" type="move" name="diaB"/>
-    </contour>
+    <component base="dotabove-ar" xOffset="386" yOffset="826"/>
+    <component base="threedotsdownabove-ar" xOffset="483" yOffset="-35"/>
   </outline>
   <lib>
     <dict>

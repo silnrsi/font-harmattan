@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="shadda_kasra-ar" format="1">
-  <advance width="0"/>
+<glyph name="shadda_kasra-ar" format="2">
+  <anchor x="334" y="1138" name="_diaA"/>
+  <anchor x="275" y="1724" name="diaA"/>
   <outline>
     <component base="fatha-ar" xOffset="20" yOffset="-163"/>
     <component base="shadda-ar" xOffset="30" yOffset="2"/>
-    <contour>
-      <point x="334" y="1138" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="275" y="1724" type="move" name="diaA"/>
-    </contour>
   </outline>
 </glyph>

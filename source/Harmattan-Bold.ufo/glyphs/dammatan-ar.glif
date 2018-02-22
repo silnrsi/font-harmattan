@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="dammatan-ar" format="1">
-  <advance width="0"/>
+<glyph name="dammatan-ar" format="2">
   <unicode hex="064C"/>
+  <anchor x="326" y="1276" name="_diaA"/>
+  <anchor x="175" y="1736" name="diaA"/>
   <outline>
     <contour>
       <point x="299" y="1400"/>
@@ -55,12 +56,6 @@
       <point x="201" y="1437"/>
       <point x="199" y="1393"/>
       <point x="183" y="1358" type="curve"/>
-    </contour>
-    <contour>
-      <point x="326" y="1276" type="move" name="_diaA"/>
-    </contour>
-    <contour>
-      <point x="175" y="1736" type="move" name="diaA"/>
     </contour>
   </outline>
 </glyph>

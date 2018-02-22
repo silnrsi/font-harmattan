@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="question-ar" format="1">
+<glyph name="question-ar" format="2">
   <advance width="689"/>
   <unicode hex="061F"/>
+  <anchor x="312" y="1300" name="diaA"/>
+  <anchor x="320" y="-115" name="diaB"/>
   <outline>
     <contour>
       <point x="460" y="1236"/>
@@ -44,12 +46,6 @@
       <point x="428" y="197"/>
       <point x="477" y="149"/>
       <point x="477" y="89" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="312" y="1300" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="320" y="-115" type="move" name="diaB"/>
     </contour>
   </outline>
 </glyph>

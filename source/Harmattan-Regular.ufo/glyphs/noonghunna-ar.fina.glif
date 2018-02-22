@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="noonghunna-ar.fina" format="1">
+<glyph name="noonghunna-ar.fina" format="2">
   <advance width="1249"/>
+  <anchor x="597" y="388" name="above"/>
+  <anchor x="277" y="408" name="alef"/>
+  <anchor x="571" y="-585" name="below"/>
+  <anchor x="605" y="435" name="diaA"/>
+  <anchor x="580" y="-592" name="diaB"/>
+  <anchor x="585" y="-495" name="ring"/>
   <outline>
     <contour>
       <point x="1269" y="-10" type="line"/>
@@ -39,24 +45,6 @@
       <point x="1089" y="15"/>
       <point x="1145" y="-10"/>
       <point x="1249" y="-10" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="597" y="388" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="277" y="408" type="move" name="alef"/>
-    </contour>
-    <contour>
-      <point x="571" y="-585" type="move" name="below"/>
-    </contour>
-    <contour>
-      <point x="605" y="435" type="move" name="diaA"/>
-    </contour>
-    <contour>
-      <point x="580" y="-592" type="move" name="diaB"/>
-    </contour>
-    <contour>
-      <point x="585" y="-495" type="move" name="ring"/>
     </contour>
   </outline>
 </glyph>
