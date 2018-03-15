@@ -556,10 +556,10 @@ absTahTwoDotsAbove,tahTwodotsabove-ar,uni08A3,,459,08A3,AL,690,661,SH
 absTahTwoDotsAboveFin,tahTwodotsabove-ar.fina,uni08A3.fina,,716,,AL,694,662,SH
 absTahTwoDotsAboveMed,tahTwodotsabove-ar.medi,uni08A3.medi,,906,,AL,702,663,SH
 absTahTwoDotsAboveIni,tahTwodotsabove-ar.init,uni08A3.init,,1069,,AL,698,664,SH
-absAin,ain-ar,uni1D25,,460,0639,AL,703,665,*
-absAinFin,ain-ar.fina,uni1D25.fina,,717,,AL,711,666,*
-absAinMed,ain-ar.medi,uni1D25.medi,,907,,AL,727,667,*
-absAinIni,ain-ar.init,uni1D25.init,,1070,,AL,719,668,*
+absAin,ain-ar,uni0639,,460,0639,AL,703,665,*
+absAinFin,ain-ar.fina,uni0639.fina,,717,,AL,711,666,*
+absAinMed,ain-ar.medi,uni0639.medi,,907,,AL,727,667,*
+absAinIni,ain-ar.init,uni0639.init,,1070,,AL,719,668,*
 absAinThreeDotsAbove,ainThreedots-ar,uni06A0,,462,06A0,AL,705,669,SHLM
 absAinThreeDotsAboveFin,ainThreedots-ar.fina,uni06A0.fina,,719,,AL,713,670,SHLM
 absAinThreeDotsAboveMed,ainThreedots-ar.medi,uni06A0.medi,,909,,AL,729,671,SHLM
