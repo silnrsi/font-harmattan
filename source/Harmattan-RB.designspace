@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis name="weight" tag="wght" maximum="700" minimum="400" default="400">
+            <labelname xml:lang="en">Weight</labelname>
+        </axis>
+    </axes>
+    <sources>
+        <source name="Harmattan Regular" familyname="Harmattan" filename="Harmattan-Regular.ufo" stylename="Regular">
+            <lib copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+        </source>
+        <source name="Harmattan Bold" familyname="Harmattan" filename="Harmattan-Bold.ufo" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance name="Harmattan Regular" familyname="Harmattan" filename="instances/Harmattan-Regular.ufo" stylename="Regular">
+            <location>
+                <dimension name="weight" xvalue="400" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance name="Harmattan Bold" familyname="Harmattan" filename="instances/Harmattan-Bold.ufo" stylename="Bold">
+            <location>
+                <dimension name="weight" xvalue="700" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>

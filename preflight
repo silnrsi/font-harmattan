@@ -9,7 +9,7 @@ echo "Updating production names in Regular..."
 psfsetpsnames -q -p checkfix=none --gname GlyphsName -i source/glyphInfo.csv source/Harmattan-Regular.ufo
 
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
-# psfsyncmeta -q -p checkfix=none source/*-Regular.ufo --normalize
+psfsyncmasters source/Harmattan-RB.designspace
 
 echo "Final check and normalize..."
 psfnormalize -p checkfix=fix source/Harmattan-Regular.ufo
@@ -17,3 +17,5 @@ psfnormalize -p checkfix=fix source/Harmattan-Bold.ufo
 
 echo "Updating woff metadata file..."
 psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/*-Regular.ufo
+
+echo "preflight completed!"
