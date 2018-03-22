@@ -56,12 +56,13 @@ for style in ('-Regular', '-Bold'):
         graphite=gdl(generated + FAMILY + style + '.gdl',
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
             master = 'source/graphite/master.gdl',
-            make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"'
+            make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
+            params = '-q',
             ),
         opentype = fea(FAMILY + style + '.fea', 	# Would like to prefix generated but smith won't build at present (smith issue #45)
             master = 'source/opentype/master.feax',
             make_params = OMITAPS,
-            to_ufo = True
+            to_ufo = True,
             ),
         classes = 'source/classes.xml',
         license=ofl('Harmattan', 'SIL'),
