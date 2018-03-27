@@ -48,7 +48,7 @@ for style in ('-Regular', '-Bold'):
     UFO = 'source/' + FAMILY + style + '.ufo'
     font(target=process(FAMILY + style + '.ttf', 
             cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', [UFO]),
-            cmd('${TTFFEATPARMS} -c ${SRC} ${DEP} ${TGT}', ['source/opentype/OTFeatParms.xml'])
+            # cmd('${TTFFEATPARMS} -c ${SRC} ${DEP} ${TGT}', ['source/opentype/OTFeatParms.xml'])
             ),
         source=UFO,
         ap = generated + FAMILY + style + '.xml',

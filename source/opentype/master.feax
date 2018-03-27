@@ -986,44 +986,46 @@ lookup Subtending0604 {
 #********************
 
 feature ccmp {  # Glyph Composition/Decomposition
-            lookup SmallMaddah;
-            lookup FontCheck;
+    # Same for latin & arabic:
+        lookup SmallMaddah;
+        lookup FontCheck;
     script arab;  # Arabic
-            lookup DecomposeForColor;
+        lookup DecomposeForColor;
 } ccmp ;
 
 feature fina {  # Terminal Forms
     script arab;  # Arabic
-            lookup ltrFina;
+        lookup ltrFina;
 } fina ;
 
 feature medi {  # Medial Forms
     script arab;  # Arabic
-            lookup ltrMedi;
+        lookup ltrMedi;
 } medi ;
 
 feature init {  # Initial Forms
     script arab;  # Arabic
-            lookup ltrInit;
+        lookup ltrInit;
 } init ;
 
 feature rlig {  # Required Ligatures
     script arab;  # Arabic
-            lookup LigaturesForWarsh1;
-            lookup LigaturesForWarsh2;
-            lookup LigaturesForWarsh3;
-            lookup Ligatures;
-            lookup ShaddaLigatures;
-            lookup ComposeLowHamzaAbove;
-            lookup HamzaLigatures;
+        lookup LigaturesForWarsh1;
+        lookup LigaturesForWarsh2;
+        lookup LigaturesForWarsh3;
+        lookup Ligatures;
+        lookup ShaddaLigatures;
+        lookup ComposeLowHamzaAbove;
+        lookup HamzaLigatures;
 } rlig ;
 
 feature calt {  # Contextual Alternates
-            lookup SignWith;
-            lookup SignDigits;
+    # Same for latin & arabic:
+        lookup SignWith;
+        lookup SignDigits;
     script arab;  # Arabic
-            lookup ReorderMaddaVowel1;
-            lookup ReorderMaddaVowel2;
+        lookup ReorderMaddaVowel1;
+        lookup ReorderMaddaVowel2;
 } calt ;
 
 # Not sure about the relative order of calt, cvxx and ssxx features --
@@ -1031,55 +1033,121 @@ feature calt {  # Contextual Alternates
 
 feature salt {  # Stylistic Alternates
     script arab;  # Arabic
-            lookup AyahAlternates;
+        lookup AyahAlternates;
 } salt ;
 
 feature cv02 {  # Character Variant 02
     script arab;  # Arabic
-            lookup WarshAlternates;
+        lookup WarshAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Alef diacritic placement" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Hamza touching" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Touching"       ; };
+    } ;
 } cv02 ;
 
 feature cv08 {  # Character Variant 08
     script arab;  # Arabic
-            lookup JeemHahMedAlternates;
+        lookup JeemHahMedAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Jeem/Hah"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Handwritten" ; };
+            } ;
 } cv08 ;
 
 feature cv20 {  # Character Variant 20
     script arab;  # Arabic
-            lookup SadDadAlternates;
+        lookup SadDadAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Sad/Dad"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Half"     ; };
+    } ;
 } cv20 ;
 
 feature cv44 {  # Character Variant 44
     script arab;  # Arabic
-            lookup MeemAlternates;
+        lookup MeemAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Meem"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindi"    ; };
+    } ;
 } cv44 ;
 
 feature cv60 {  # Character Variant 60
-            lookup MaddahAlternates;
+    # Same for latin & arabic:
+        lookup MaddahAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Maddah"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Small"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"    ; };
+    } ;
 } cv60 ;
 
 feature cv70 {  # Character Variant 70
-            lookup DammaAlternates;
+    # Same for latin & arabic:
+        lookup DammaAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
+    } ;
 } cv70 ;
 
 feature cv72 {  # Character Variant 72
-            lookup DammatanAlternates;
+    # Same for latin & arabic:
+        lookup DammatanAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Six-nine" ; };
+    } ;
 } cv72 ;
 
 feature cv76 {  # Character Variant 76
-            lookup DaggerAlefToLarge;
+    # Same for latin & arabic:
+        lookup DaggerAlefToLarge;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Superscript Alef" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
+    } ;
 } cv76 ;
 
 feature cv78 {  # Character Variant 78
-            lookup SukunAlternates;
+    # Same for latin & arabic:
+        lookup SukunAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Sukun"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Open down" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Open left" ; };
+    } ;
 } cv78 ;
 
 feature cv80 {  # Character Variant 80
-            lookup AyahAlternates;
+    # Same for latin & arabic:
+        lookup AyahAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "End of ayah"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Simplified A" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Simplified B" ; };
+    } ;
 } cv80 ;
 
 feature cv84 {  # Character Variant 84
-            lookup CommaAlternates;
+    # Same for latin & arabic:
+        lookup CommaAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Comma"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
+    } ;
 } cv84 ;
 
 #********************
@@ -1088,29 +1156,32 @@ feature cv84 {  # Character Variant 84
 
 feature curs {  # Cursive Positioning
     script arab;  # Arabic
-            lookup cursive_exit_entry;
+        lookup cursive_exit_entry;
 } curs ;
 
 feature kern {  # Kerning
-            lookup SubtendingAyah;
-            lookup Subtending0600;
-            lookup Subtending0601;
-            lookup Subtending0602;
-            lookup Subtending0603;
-            lookup Subtending0604;
+    # Same for latin & arabic:
+        lookup SubtendingAyah;
+        lookup Subtending0600;
+        lookup Subtending0601;
+        lookup Subtending0602;
+        lookup Subtending0603;
+        lookup Subtending0604;
     script arab;  # Arabic
-            lookup Kern;
+        lookup Kern;
 } kern ;
 
 feature mark {  # Mark to base Positioning
-            lookup mark_to_base;
-            lookup alef_to_base;
+    # Same for latin & arabic:
+        lookup mark_to_base;
+        lookup alef_to_base;
     script arab;  # Arabic
-            lookup AlefMark2BelowAfterLam;
-            lookup MarkKern;
+        lookup AlefMark2BelowAfterLam;
+        lookup MarkKern;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning
-            lookup mark_to_mark_above;
-            lookup mark_to_mark_below;
+    # Same for latin & arabic:
+        lookup mark_to_mark_above;
+        lookup mark_to_mark_below;
 } mkmk ;
