@@ -651,7 +651,7 @@
     </class>
 
     <class name='ShaddaLigatureParts'>
-        @ShaddaMarks kasratan-ar kasra-ar shadda-ar
+        @ShaddaMarks @ShaddaKasraMarks shadda-ar
     </class>
 
     <class name='TakesLargeDaggerAlef'>
