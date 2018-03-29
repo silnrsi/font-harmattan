@@ -13,7 +13,6 @@ generated = "generated/"
 
 # set package name
 APPNAME = "Harmattan"
-VERSION = "1.024"  # Eventually this will be obtained from UFO
 
 # set the font family name
 FAMILY = APPNAME
@@ -38,6 +37,9 @@ DESC_SHORT = "Smart Unicode Arabic font for West African languages"
 # LONG_DESC now to be obtained from FONTLOG
 
 DEBPKG = 'fonts-sil-harmattan'
+
+# Get version info from Regular UFO; must be first function call:
+getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 
 ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
@@ -81,6 +83,6 @@ AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks'
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
-    ctx.find_program('ttffeatparms')
+#    ctx.find_program('ttffeatparms')
 #    ctx.find_program('ttfautohint')
 
