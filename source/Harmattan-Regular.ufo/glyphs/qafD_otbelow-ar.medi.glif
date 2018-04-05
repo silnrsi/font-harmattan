@@ -2,17 +2,23 @@
 <glyph name="qafDotbelow-ar.medi" format="2">
   <advance width="797"/>
   <anchor x="74" y="981" name="alef"/>
-  <anchor x="337" y="1157" name="diaA"/>
-  <anchor x="381" y="-446" name="diaB"/>
+  <anchor x="329" y="1142" name="diaA"/>
+  <anchor x="399" y="-428" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
-    <component base="twodotshorizontalabove-ar" xOffset="358" yOffset="983"/>
-    <component base="dotabove-ar" xOffset="385" yOffset="-272"/>
+    <component base="twodotshorizontalabove-ar" xOffset="366" yOffset="965"/>
+    <component base="dotbelow-ar" xOffset="385" yOffset="-272"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

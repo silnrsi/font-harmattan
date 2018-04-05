@@ -10,6 +10,8 @@
   <string>ain-ar.fina.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
+  <key>dal-ar.fina.loclWLF</key>
+  <string>dal-ar.fina.loclW_L_F_.glif</string>
   <key>fehDotless-ar</key>
   <string>fehD_otless-ar.glif</string>
   <key>fehDotless-ar.fina</key>
@@ -18,14 +20,24 @@
   <string>hehD_oachashmee-ar.init.glif</string>
   <key>kaf-ar.init</key>
   <string>kaf-ar.init.glif</string>
+  <key>kaf-ar.init.001</key>
+  <string>kaf-ar.init.001.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
+  <key>kaf-ar.medi.001</key>
+  <string>kaf-ar.medi.001.glif</string>
+  <key>lamAlefabove-ar</key>
+  <string>lamA_lefabove-ar.glif</string>
   <key>meem-ar.init</key>
   <string>meem-ar.init.glif</string>
   <key>meem-ar.medi</key>
   <string>meem-ar.medi.glif</string>
   <key>meem-ar.sindhi</key>
   <string>meem-ar.sindhi.glif</string>
+  <key>meemStopabove-ar</key>
+  <string>meemS_topabove-ar.glif</string>
+  <key>meemabove-ar</key>
+  <string>meemabove-ar.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
   <key>sad-ar.half</key>
@@ -38,7 +50,13 @@
   <string>seen-ar.glif</string>
   <key>seen-ar.fina</key>
   <string>seen-ar.fina.glif</string>
+  <key>seenabove-ar</key>
+  <string>seenabove-ar.glif</string>
+  <key>wawSmall-ar</key>
+  <string>wawS_mall-ar.glif</string>
   <key>yeh-ar.noDots</key>
   <string>yeh-ar.noD_ots.glif</string>
+  <key>yeh-ar.noDots.fina</key>
+  <string>yeh-ar.noD_ots.fina.glif</string>
 </dict>
 </plist>

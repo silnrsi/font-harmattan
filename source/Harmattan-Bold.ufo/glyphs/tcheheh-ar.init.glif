@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcheheh-ar.init" format="2">
-  <advance width="1067"/>
+  <advance width="1097"/>
   <unicode hex="FB80"/>
   <anchor x="3" y="469" name="alef"/>
   <anchor x="319" y="636" name="diaA"/>
   <anchor x="441" y="-573" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="fourdotsabove-ar" xOffset="473" yOffset="-393"/>
+    <component base="fourdotscenter-ar" xOffset="486" yOffset="-375"/>
   </outline>
   <lib>
     <dict>

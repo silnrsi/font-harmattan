@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehThreedotsbelow-ar.init" format="2">
-  <advance width="809"/>
+  <advance width="899"/>
   <anchor x="315" y="788" name="alef"/>
-  <anchor x="339" y="825" name="diaA"/>
-  <anchor x="410" y="-690" name="diaB"/>
+  <anchor x="363" y="865" name="diaA"/>
+  <anchor x="467" y="-690" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="threedotsdownabove-ar" xOffset="385" yOffset="-254"/>
+    <component base="threedotsdownbelow-ar" xOffset="418" yOffset="-203"/>
   </outline>
   <lib>
     <dict>

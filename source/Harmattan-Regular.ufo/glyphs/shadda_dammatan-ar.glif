@@ -4,6 +4,6 @@
   <anchor x="185" y="1945" name="diaA"/>
   <outline>
     <component base="shadda-ar" xOffset="-10" yOffset="-160"/>
-    <component base="dammatan-ar" xOffset="-50" yOffset="220"/>
+    <component base="dammatan-ar" xOffset="-73" yOffset="270"/>
   </outline>
 </glyph>

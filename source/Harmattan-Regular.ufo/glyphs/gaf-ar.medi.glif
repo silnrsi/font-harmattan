@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.medi" format="2">
-  <advance width="1193"/>
-  <anchor x="-10" y="671" name="alef"/>
-  <anchor x="234" y="1089" name="diaA"/>
+  <advance width="943"/>
+  <anchor x="82" y="995" name="alef"/>
+  <anchor x="350" y="1156" name="diaA"/>
   <anchor x="525" y="-106" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_gafBar" xOffset="156" yOffset="761"/>
+    <component base="gafBarShort" xOffset="70" yOffset="800"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

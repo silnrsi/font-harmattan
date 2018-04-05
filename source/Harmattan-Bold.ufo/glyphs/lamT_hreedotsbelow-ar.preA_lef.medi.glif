@@ -4,11 +4,11 @@
   <anchor x="485" y="932" name="alef"/>
   <anchor x="888" y="-667" name="dia2B"/>
   <anchor x="723" y="1124" name="diaA"/>
-  <anchor x="880" y="-667" name="diaB"/>
+  <anchor x="269" y="-727" name="diaB"/>
   <anchor x="556" y="123" name="exit"/>
   <outline>
     <component base="lam-ar.preAlef.medi"/>
-    <component base="threedotsdownabove-ar" xOffset="835" yOffset="-245"/>
+    <component base="threedotsdownbelow-ar" xOffset="744" yOffset="-266"/>
   </outline>
   <lib>
     <dict>

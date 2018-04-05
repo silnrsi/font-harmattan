@@ -2,9 +2,9 @@
 <glyph name="sad-ar" format="2">
   <advance width="1782"/>
   <unicode hex="0635"/>
-  <anchor x="1301" y="681" name="above"/>
+  <anchor x="1241" y="641" name="above"/>
   <anchor x="475" y="279" name="alef"/>
-  <anchor x="1234" y="-110" name="below"/>
+  <anchor x="1284" y="-50" name="below"/>
   <anchor x="1258" y="671" name="diaA"/>
   <anchor x="734" y="-583" name="diaB"/>
   <outline>

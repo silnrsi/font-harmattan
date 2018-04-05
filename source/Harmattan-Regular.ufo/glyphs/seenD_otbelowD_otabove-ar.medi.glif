@@ -7,7 +7,7 @@
   <outline>
     <component base="seen-ar.medi"/>
     <component base="dotabove-ar" xOffset="658" yOffset="714"/>
-    <component base="dotabove-ar" xOffset="690" yOffset="-263"/>
+    <component base="dotabove-ar" xOffset="658" yOffset="714"/>
   </outline>
   <lib>
     <dict>

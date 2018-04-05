@@ -7,6 +7,6 @@
   <anchor x="545" y="-12" name="exit"/>
   <outline>
     <component base="lam-ar.preAlef.init"/>
-    <component base="hamzaabove-ar" xOffset="260" yOffset="-324"/>
+    <component base="hamzaabove-ar" xOffset="225" yOffset="-184"/>
   </outline>
 </glyph>

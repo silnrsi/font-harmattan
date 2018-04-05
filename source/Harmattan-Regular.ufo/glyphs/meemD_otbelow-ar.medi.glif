@@ -3,10 +3,10 @@
   <advance width="937"/>
   <anchor x="69" y="449" name="alef"/>
   <anchor x="418" y="610" name="diaA"/>
-  <anchor x="453" y="-463" name="diaB"/>
+  <anchor x="459" y="-497" name="diaB"/>
   <outline>
     <component base="meem-ar.medi"/>
-    <component base="dotabove-ar" xOffset="460" yOffset="-296"/>
+    <component base="dotbelow-ar" xOffset="460" yOffset="-296"/>
   </outline>
   <lib>
     <dict>

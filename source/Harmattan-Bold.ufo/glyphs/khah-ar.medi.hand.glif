@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khah-ar.medi.hand" format="2">
-  <advance width="949"/>
+  <advance width="989"/>
   <anchor x="166" y="664" name="alef"/>
   <anchor x="418" y="877" name="diaA"/>
   <anchor x="456" y="-382" name="diaB"/>
   <outline>
     <component base="hah-ar.medi.hand"/>
-    <component base="dotabove-ar" xOffset="480" yOffset="709"/>
+    <component base="dotabove-ar" xOffset="503" yOffset="764"/>
   </outline>
   <lib>
     <dict>

@@ -5,6 +5,6 @@
   <anchor x="180" y="-581" name="diaB"/>
   <outline>
     <component base="toneonedotabove-ar" xOffset="-60" yOffset="-1840"/>
-    <component base="toneonedotabove-ar" xOffset="140" yOffset="-1796"/>
+    <component base="toneonedotabove-ar" xOffset="-87" yOffset="-1576"/>
   </outline>
 </glyph>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalVinvertedbelow-ar.loclWLF" format="2">
+  <advance width="871"/>
+  <anchor x="291" y="683" name="alef"/>
+  <anchor x="301" y="721" name="diaA"/>
+  <anchor x="367" y="-435" name="diaB"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="vinvertedbelow-ar" xOffset="475" yOffset="-341"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

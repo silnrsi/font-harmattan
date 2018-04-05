@@ -4,33 +4,7 @@
   <anchor x="287" y="-186" name="_diaB"/>
   <anchor x="308" y="-546" name="diaB"/>
   <outline>
-    <contour>
-      <point x="126" y="-270"/>
-      <point x="118" y="-315"/>
-      <point x="118" y="-348" type="curve"/>
-      <point x="221" y="-339"/>
-      <point x="290" y="-327"/>
-      <point x="484" y="-283" type="curve"/>
-      <point x="491" y="-267"/>
-      <point x="502" y="-232"/>
-      <point x="502" y="-205" type="curve"/>
-      <point x="334" y="-237"/>
-      <point x="249" y="-249"/>
-      <point x="131" y="-256" type="curve"/>
-    </contour>
-    <contour>
-      <point x="126" y="-439"/>
-      <point x="118" y="-484"/>
-      <point x="118" y="-517" type="curve"/>
-      <point x="221" y="-508"/>
-      <point x="290" y="-496"/>
-      <point x="484" y="-452" type="curve"/>
-      <point x="491" y="-436"/>
-      <point x="502" y="-401"/>
-      <point x="502" y="-374" type="curve"/>
-      <point x="334" y="-406"/>
-      <point x="249" y="-418"/>
-      <point x="131" y="-425" type="curve"/>
-    </contour>
+    <component base="fatha-ar" xOffset="35" yOffset="-1874"/>
+    <component base="fatha-ar" xOffset="20" yOffset="-1702"/>
   </outline>
 </glyph>

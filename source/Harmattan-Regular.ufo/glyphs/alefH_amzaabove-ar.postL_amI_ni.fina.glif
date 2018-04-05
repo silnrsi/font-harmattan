@@ -8,6 +8,6 @@
   <anchor x="641" y="-12" name="entry"/>
   <outline>
     <component base="alef-ar.postLamIni.fina"/>
-    <component base="hamzaabove-ar" xOffset="-296" yOffset="-410"/>
+    <component base="hamzaabove-ar" xOffset="-202" yOffset="-309"/>
   </outline>
 </glyph>

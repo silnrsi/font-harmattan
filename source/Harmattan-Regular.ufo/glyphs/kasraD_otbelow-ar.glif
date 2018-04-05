@@ -4,7 +4,7 @@
   <anchor x="295" y="-288" name="_diaB"/>
   <anchor x="355" y="-653" name="diaB"/>
   <outline>
-    <component base="toneonedotabove-ar" xOffset="198" yOffset="-1946"/>
     <component base="kasra-ar" yOffset="-103"/>
+    <component base="toneonedotbelow-ar" xOffset="173" yOffset="-174"/>
   </outline>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="keheh-ar.fina" format="2">
   <advance width="1546"/>
-  <anchor x="1098" y="1018" name="above"/>
+  <anchor x="810" y="901" name="above"/>
   <anchor x="715" y="778" name="alef"/>
-  <anchor x="835" y="-89" name="below"/>
+  <anchor x="835" y="-59" name="below"/>
   <anchor x="1257" y="642" name="center"/>
   <anchor x="1165" y="1085" name="diaA"/>
   <anchor x="775" y="-106" name="diaB"/>

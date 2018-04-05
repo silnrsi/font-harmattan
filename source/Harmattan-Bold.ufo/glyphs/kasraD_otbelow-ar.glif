@@ -2,9 +2,9 @@
 <glyph name="kasraDotbelow-ar" format="2">
   <unicode hex="08F6"/>
   <anchor x="295" y="-288" name="_diaB"/>
-  <anchor x="355" y="-653" name="diaB"/>
+  <anchor x="315" y="-723" name="diaB"/>
   <outline>
-    <component base="toneonedotabove-ar" xOffset="198" yOffset="-1946"/>
     <component base="kasra-ar" yOffset="-103"/>
+    <component base="toneonedotbelow-ar" xOffset="183" yOffset="-186"/>
   </outline>
 </glyph>

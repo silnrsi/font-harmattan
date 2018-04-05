@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalDotbelow-ar.fina" format="2">
   <advance width="893"/>
-  <anchor x="255" y="808" name="alef"/>
-  <anchor x="274" y="831" name="diaA"/>
+  <anchor x="251" y="863" name="alef"/>
+  <anchor x="461" y="952" name="diaA"/>
   <anchor x="375" y="-415" name="diaB"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="dotabove-ar" xOffset="385" yOffset="-235"/>
+    <component base="dotbelow-ar" xOffset="455" yOffset="-225"/>
   </outline>
   <lib>
     <dict>

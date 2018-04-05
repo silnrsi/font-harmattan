@@ -6,13 +6,19 @@
   <anchor x="276" y="-383" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="threedotsupabove-ar" xOffset="227" yOffset="787"/>
-    <component base="dotabove-ar" xOffset="284" yOffset="-226"/>
+    <component base="dotbelow-ar" xOffset="284" yOffset="-226"/>
+    <component base="threedotsupabove-ar" xOffset="227" yOffset="767"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

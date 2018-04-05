@@ -6,13 +6,19 @@
   <anchor x="465" y="-950" name="diaB"/>
   <outline>
     <component base="hah-ar.medi.hand"/>
-    <component base="dotabove-ar" xOffset="447" yOffset="704"/>
-    <component base="threedotsdownabove-ar" xOffset="461" yOffset="-504"/>
+    <component base="dotabove-ar" xOffset="520" yOffset="740"/>
+    <component base="threedotsdownbelow-ar" xOffset="366" yOffset="-526"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

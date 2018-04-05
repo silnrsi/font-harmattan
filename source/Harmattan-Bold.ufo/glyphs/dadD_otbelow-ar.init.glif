@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dadDotbelow-ar.init" format="2">
-  <advance width="1083"/>
+  <advance width="1209"/>
   <anchor x="95" y="381" name="alef"/>
   <anchor x="530" y="996" name="diaA"/>
   <anchor x="568" y="-487" name="diaB"/>
   <outline>
     <component base="sad-ar.init"/>
-    <component base="dotabove-ar" xOffset="584" yOffset="813"/>
-    <component base="dotabove-ar" xOffset="596" yOffset="-283"/>
+    <component base="dotabove-ar" xOffset="638" yOffset="813"/>
+    <component base="dotbelow-ar" xOffset="635" yOffset="-283"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

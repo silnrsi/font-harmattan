@@ -2,12 +2,12 @@
 <glyph name="fehThreedotsupbelow-ar" format="2">
   <advance width="1746"/>
   <unicode hex="0761"/>
-  <anchor x="501" y="426" name="alef"/>
-  <anchor x="1185" y="882" name="diaA"/>
-  <anchor x="1401" y="-622" name="diaB"/>
+  <anchor x="381" y="426" name="alef"/>
+  <anchor x="1235" y="896" name="diaA"/>
+  <anchor x="1475" y="-622" name="diaB"/>
   <outline>
     <component base="fehDotless-ar"/>
-    <component base="threedotsupabove-ar" xOffset="1421" yOffset="-327"/>
+    <component base="threedotsupbelow-ar" xOffset="1472" yOffset="-308"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalThreedotsdown-ar.fina" format="2">
-  <advance width="893"/>
+  <advance width="943"/>
   <anchor x="166" y="1419" name="alef"/>
   <anchor x="185" y="1426" name="diaA"/>
   <anchor x="385" y="-71" name="diaB"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="threedotsdownabove-ar" xOffset="222" yOffset="1271"/>
+    <component base="threedotsdownabove-ar" xOffset="423" yOffset="1389"/>
   </outline>
   <lib>
     <dict>

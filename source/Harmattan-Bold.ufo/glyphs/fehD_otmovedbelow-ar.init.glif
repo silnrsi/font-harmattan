@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotmovedbelow-ar.init" format="2">
-  <advance width="809"/>
+  <advance width="899"/>
   <anchor x="315" y="788" name="alef"/>
   <anchor x="339" y="825" name="diaA"/>
   <anchor x="386" y="-446" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="dotabove-ar" xOffset="385" yOffset="-272"/>
+    <component base="dotbelow-ar" xOffset="407" yOffset="-250"/>
   </outline>
   <lib>
     <dict>

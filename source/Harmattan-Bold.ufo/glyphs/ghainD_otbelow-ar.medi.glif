@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghainDotbelow-ar.medi" format="2">
-  <advance width="868"/>
-  <anchor x="222" y="898" name="alef"/>
-  <anchor x="398" y="1039" name="diaA"/>
+  <advance width="898"/>
+  <anchor x="146" y="898" name="alef"/>
+  <anchor x="434" y="1111" name="diaA"/>
   <anchor x="446" y="-446" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="dotabove-ar" xOffset="432" yOffset="860"/>
-    <component base="dotabove-ar" xOffset="441" yOffset="-263"/>
+    <component base="dotabove-ar" xOffset="446" yOffset="918"/>
+    <component base="dotbelow-ar" xOffset="447" yOffset="-313"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -7,7 +7,7 @@
   <anchor x="263" y="-636" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="vinvertedabove-ar" xOffset="278" yOffset="-532"/>
+    <component base="vinvertedabove-ar" xOffset="340" yOffset="-495"/>
   </outline>
   <lib>
     <dict>

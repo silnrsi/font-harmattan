@@ -7,12 +7,18 @@
   <outline>
     <component base="noonghunna-ar.fina"/>
     <component base="dotabove-ar" xOffset="597" yOffset="570"/>
-    <component base="dotabove-ar" xOffset="571" yOffset="-759"/>
+    <component base="dotbelow-ar" xOffset="571" yOffset="-759"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

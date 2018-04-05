@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nyeh-ar.init" format="2">
-  <advance width="1067"/>
+  <advance width="1097"/>
   <anchor x="3" y="469" name="alef"/>
   <anchor x="319" y="636" name="diaA"/>
   <anchor x="361" y="-357" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="twodotshorizontalabove-ar" xOffset="355" yOffset="-178"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="385" yOffset="-178"/>
   </outline>
   <lib>
     <dict>

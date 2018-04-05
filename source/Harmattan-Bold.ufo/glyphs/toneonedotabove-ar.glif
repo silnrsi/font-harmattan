@@ -2,19 +2,19 @@
 <glyph name="toneonedotabove-ar" format="2">
   <unicode hex="08EA"/>
   <anchor x="136" y="1283" name="_diaA"/>
-  <anchor x="129" y="1577" name="diaA"/>
+  <anchor x="109" y="1547" name="diaA"/>
   <outline>
     <contour>
-      <point x="59" y="1485" type="line"/>
-      <point x="59" y="1479"/>
-      <point x="61" y="1374"/>
-      <point x="72" y="1351" type="curve"/>
-      <point x="79" y="1351"/>
-      <point x="164" y="1351"/>
-      <point x="205" y="1364" type="curve"/>
-      <point x="200" y="1397"/>
-      <point x="195" y="1457"/>
-      <point x="193" y="1497" type="curve"/>
+      <point x="48" y="1494" type="line"/>
+      <point x="48" y="1488"/>
+      <point x="50" y="1366"/>
+      <point x="63" y="1340" type="curve"/>
+      <point x="71" y="1340"/>
+      <point x="169" y="1340"/>
+      <point x="216" y="1355" type="curve"/>
+      <point x="211" y="1393"/>
+      <point x="205" y="1462"/>
+      <point x="202" y="1508" type="curve"/>
     </contour>
   </outline>
 </glyph>

@@ -2,25 +2,25 @@
 <glyph name="rightarrowheadabove-ar" format="2">
   <unicode hex="08F8"/>
   <anchor x="207" y="1223" name="_diaA"/>
-  <anchor x="135" y="1728" name="diaA"/>
+  <anchor x="135" y="1688" name="diaA"/>
   <outline>
     <contour>
       <point x="371" y="1402"/>
       <point x="329" y="1595"/>
       <point x="298" y="1668" type="curve"/>
-      <point x="266" y="1668"/>
-      <point x="225" y="1664"/>
-      <point x="201" y="1659" type="curve"/>
-      <point x="227" y="1573"/>
-      <point x="264" y="1437"/>
-      <point x="264" y="1402" type="curve"/>
-      <point x="229" y="1376"/>
-      <point x="74" y="1342"/>
-      <point x="-28" y="1340" type="curve"/>
-      <point x="-28" y="1312"/>
-      <point x="-25" y="1270"/>
-      <point x="-22" y="1246" type="curve"/>
-      <point x="80" y="1246"/>
+      <point x="276" y="1679"/>
+      <point x="230" y="1679"/>
+      <point x="206" y="1671" type="curve"/>
+      <point x="239" y="1577"/>
+      <point x="274" y="1426"/>
+      <point x="274" y="1391" type="curve"/>
+      <point x="239" y="1365"/>
+      <point x="65" y="1337"/>
+      <point x="-37" y="1335" type="curve"/>
+      <point x="-37" y="1300"/>
+      <point x="-23" y="1274"/>
+      <point x="-8" y="1246" type="curve"/>
+      <point x="94" y="1246"/>
       <point x="311" y="1289"/>
       <point x="371" y="1343" type="curve"/>
     </contour>

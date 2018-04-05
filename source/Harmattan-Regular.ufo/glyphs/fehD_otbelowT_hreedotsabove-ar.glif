@@ -2,18 +2,24 @@
 <glyph name="fehDotbelowThreedotsabove-ar" format="2">
   <advance width="1746"/>
   <unicode hex="08A4"/>
-  <anchor x="501" y="426" name="alef"/>
+  <anchor x="389" y="426" name="alef"/>
   <anchor x="1250" y="1445" name="diaA"/>
-  <anchor x="1407" y="-444" name="diaB"/>
+  <anchor x="1437" y="-424" name="diaB"/>
   <outline>
     <component base="fehDotless-ar"/>
-    <component base="threedotsupabove-ar" xOffset="1326" yOffset="1167"/>
-    <component base="dotabove-ar" xOffset="1421" yOffset="-210"/>
+    <component base="threedotsupabove-ar" xOffset="1328" yOffset="1157"/>
+    <component base="dotbelow-ar" xOffset="1421" yOffset="-210"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.5,0.09,0.79,1</string>
     </dict>

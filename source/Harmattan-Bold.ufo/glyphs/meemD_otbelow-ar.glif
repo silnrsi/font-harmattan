@@ -4,10 +4,10 @@
   <unicode hex="0766"/>
   <anchor x="88" y="324" name="alef"/>
   <anchor x="513" y="655" name="diaA"/>
-  <anchor x="421" y="-498" name="diaB"/>
+  <anchor x="421" y="-548" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="dotabove-ar" xOffset="577" yOffset="-282"/>
+    <component base="dotbelow-ar" xOffset="566" yOffset="-332"/>
   </outline>
   <lib>
     <dict>

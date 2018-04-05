@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dyeh-ar.fina" format="2">
-  <advance width="944"/>
+  <advance width="984"/>
   <anchor x="12" y="470" name="alef"/>
   <anchor x="401" y="660" name="diaA"/>
   <anchor x="502" y="-652" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="twodotsverticalabove-ar" xOffset="483" yOffset="-125"/>
+    <component base="twodotsverticalbelow-ar" xOffset="458" yOffset="-148"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

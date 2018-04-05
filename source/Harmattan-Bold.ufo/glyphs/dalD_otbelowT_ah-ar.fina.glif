@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalDotbelowTah-ar.fina" format="2">
-  <advance width="893"/>
+  <advance width="943"/>
   <anchor x="41" y="1366" name="alef"/>
   <anchor x="189" y="1411" name="diaA"/>
   <anchor x="371" y="-427" name="diaB"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="tahabove-ar" xOffset="237" yOffset="1023"/>
-    <component base="dotabove-ar" xOffset="385" yOffset="-235"/>
+    <component base="tahabove-ar" xOffset="472" yOffset="-360"/>
+    <component base="dotabove-ar" xOffset="433" yOffset="1145"/>
   </outline>
   <lib>
     <dict>

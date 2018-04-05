@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamThreedotsbelow-ar.init" format="2">
-  <advance width="436"/>
+  <advance width="496"/>
   <anchor x="0" y="804" name="alef"/>
   <anchor x="232" y="1121" name="diaA"/>
-  <anchor x="247" y="-621" name="diaB"/>
+  <anchor x="329" y="-737" name="diaB"/>
   <outline>
     <component base="lam-ar.init"/>
-    <component base="threedotsdownabove-ar" xOffset="224" yOffset="-199"/>
+    <component base="threedotsdownbelow-ar" xOffset="287" yOffset="-219"/>
   </outline>
   <lib>
     <dict>

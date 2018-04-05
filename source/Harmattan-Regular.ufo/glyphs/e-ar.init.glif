@@ -6,7 +6,7 @@
   <anchor x="217" y="-571" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="twodotsverticalabove-ar" xOffset="227" yOffset="-303"/>
+    <component base="twodotsverticalbelow-ar" xOffset="227" yOffset="-303"/>
   </outline>
   <lib>
     <dict>

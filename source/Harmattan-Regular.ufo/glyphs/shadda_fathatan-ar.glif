@@ -4,7 +4,7 @@
   <anchor x="224" y="1850" name="diaA"/>
   <outline>
     <component base="fatha-ar" xOffset="-28" yOffset="140"/>
-    <component base="fatha-ar" xOffset="-50" yOffset="288"/>
-    <component base="shadda-ar" xOffset="20" yOffset="-210"/>
+    <component base="fatha-ar" xOffset="-41" yOffset="282"/>
+    <component base="shadda-ar" xOffset="-30" yOffset="437"/>
   </outline>
 </glyph>

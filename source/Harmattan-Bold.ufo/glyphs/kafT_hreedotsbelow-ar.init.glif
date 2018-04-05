@@ -3,10 +3,10 @@
   <advance width="1139"/>
   <anchor x="75" y="661" name="alef"/>
   <anchor x="320" y="999" name="diaA"/>
-  <anchor x="541" y="-659" name="diaB"/>
+  <anchor x="375" y="-728" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="threedotsdownabove-ar" xOffset="544" yOffset="-266"/>
+    <component base="threedotsdownbelow-ar" xOffset="334" yOffset="-236"/>
   </outline>
   <lib>
     <dict>

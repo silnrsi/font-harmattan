@@ -22,24 +22,13 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/03/29 15:19:08</string>
+  <string>2018/04/05 20:45:51</string>
   <key>openTypeHheaAscender</key>
   <integer>2080</integer>
   <key>openTypeHheaDescender</key>
   <integer>-1274</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
-  <key>openTypeNameDescription</key>
-  <string>Copyright (c) 2007-2008, The C&amp;MA Guinea Fulbe Team;
-
-Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
-with the Reserved Font Name "Fouta".
-
-Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
-with Reserved Font Names 'Andika' and 'SIL'.
-
-Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
-with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>openTypeNameDesigner</key>
   <string>George W. Nuss III and SIL International</string>
   <key>openTypeNameDesignerURL</key>

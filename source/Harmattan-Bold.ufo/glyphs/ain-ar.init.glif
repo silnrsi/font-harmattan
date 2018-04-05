@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ain-ar.init" format="2">
   <advance width="802"/>
-  <anchor x="390" y="713" name="above"/>
+  <anchor x="410" y="753" name="above"/>
   <anchor x="36" y="619" name="alef"/>
   <anchor x="394" y="-89" name="below"/>
   <anchor x="354" y="717" name="diaA"/>

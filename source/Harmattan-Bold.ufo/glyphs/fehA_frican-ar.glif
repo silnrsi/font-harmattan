@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehAfrican-ar" format="2">
-  <advance width="1746"/>
+  <advance width="1786"/>
   <unicode hex="08BB"/>
   <anchor x="1326" y="888" name="above"/>
   <anchor x="501" y="426" name="alef"/>

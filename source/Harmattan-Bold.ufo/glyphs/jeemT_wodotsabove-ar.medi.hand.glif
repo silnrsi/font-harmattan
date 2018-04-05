@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar.medi.hand" format="2">
-  <advance width="949"/>
+  <advance width="989"/>
   <anchor x="95" y="687" name="alef"/>
   <anchor x="433" y="887" name="diaA"/>
   <anchor x="444" y="-714" name="diaB"/>
   <outline>
     <component base="hah-ar.medi.hand"/>
-    <component base="twodotshorizontalabove-ar" xOffset="468" yOffset="695"/>
-    <component base="dotabove-ar" xOffset="452" yOffset="-532"/>
+    <component base="twodotshorizontalabove-ar" xOffset="410" yOffset="740"/>
+    <component base="dotbelow-ar" xOffset="460" yOffset="-473"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

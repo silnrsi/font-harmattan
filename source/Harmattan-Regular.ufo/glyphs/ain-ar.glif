@@ -4,7 +4,7 @@
   <unicode hex="0639"/>
   <anchor x="535" y="608" name="above"/>
   <anchor x="138" y="345" name="alef"/>
-  <anchor x="509" y="-89" name="below"/>
+  <anchor x="479" y="-89" name="below"/>
   <anchor x="503" y="608" name="diaA"/>
   <anchor x="488" y="-703" name="diaB"/>
   <outline>

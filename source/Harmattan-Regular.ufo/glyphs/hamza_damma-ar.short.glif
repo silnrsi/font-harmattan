@@ -4,6 +4,6 @@
   <anchor x="268" y="2080" name="diaA"/>
   <outline>
     <component base="damma-ar.short" xOffset="50" yOffset="295"/>
-    <component base="hamzaabove-ar" xOffset="60" yOffset="-125"/>
+    <component base="hamzaabove-ar" xOffset="5" yOffset="733"/>
   </outline>
 </glyph>

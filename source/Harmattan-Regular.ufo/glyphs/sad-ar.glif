@@ -2,10 +2,10 @@
 <glyph name="sad-ar" format="2">
   <advance width="1682"/>
   <unicode hex="0635"/>
-  <anchor x="1271" y="631" name="above"/>
+  <anchor x="1221" y="631" name="above"/>
   <anchor x="445" y="229" name="alef"/>
-  <anchor x="1204" y="-110" name="below"/>
-  <anchor x="1228" y="621" name="diaA"/>
+  <anchor x="1214" y="-50" name="below"/>
+  <anchor x="1198" y="621" name="diaA"/>
   <anchor x="704" y="-563" name="diaB"/>
   <outline>
     <contour>

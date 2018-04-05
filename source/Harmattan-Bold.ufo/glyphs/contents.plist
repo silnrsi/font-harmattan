@@ -140,8 +140,6 @@
   <string>_dot1_smallV_.glif</string>
   <key>_gafBar</key>
   <string>_gafB_ar.glif</string>
-  <key>_gafBarShort</key>
-  <string>_gafB_arS_hort.glif</string>
   <key>_hamza</key>
   <string>_hamza.glif</string>
   <key>_hamzaDamma</key>
@@ -490,38 +488,74 @@
   <string>dahal-ar.glif</string>
   <key>dahal-ar.fina</key>
   <string>dahal-ar.fina.glif</string>
+  <key>dahal-ar.fina.loclWLF</key>
+  <string>dahal-ar.fina.loclW_L_F_.glif</string>
+  <key>dahal-ar.loclWLF</key>
+  <string>dahal-ar.loclW_L_F_.glif</string>
   <key>dal-ar</key>
   <string>dal-ar.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
+  <key>dal-ar.fina.loclWLF</key>
+  <string>dal-ar.fina.loclW_L_F_.glif</string>
+  <key>dal-ar.loclWLF</key>
+  <string>dal-ar.loclW_L_F_.glif</string>
   <key>dalDotbelow-ar</key>
   <string>dalD_otbelow-ar.glif</string>
   <key>dalDotbelow-ar.fina</key>
   <string>dalD_otbelow-ar.fina.glif</string>
+  <key>dalDotbelow-ar.fina.loclWLF</key>
+  <string>dalD_otbelow-ar.fina.loclW_L_F_.glif</string>
+  <key>dalDotbelow-ar.loclWLF</key>
+  <string>dalD_otbelow-ar.loclW_L_F_.glif</string>
   <key>dalDotbelowTah-ar</key>
   <string>dalD_otbelowT_ah-ar.glif</string>
   <key>dalDotbelowTah-ar.fina</key>
   <string>dalD_otbelowT_ah-ar.fina.glif</string>
+  <key>dalDotbelowTah-ar.fina.loclWLF</key>
+  <string>dalD_otbelowT_ah-ar.fina.loclW_L_F_.glif</string>
+  <key>dalDotbelowTah-ar.loclWLF</key>
+  <string>dalD_otbelowT_ah-ar.loclW_L_F_.glif</string>
   <key>dalRing-ar</key>
   <string>dalR_ing-ar.glif</string>
   <key>dalRing-ar.fina</key>
   <string>dalR_ing-ar.fina.glif</string>
+  <key>dalRing-ar.fina.loclWLF</key>
+  <string>dalR_ing-ar.fina.loclW_L_F_.glif</string>
+  <key>dalRing-ar.loclWLF</key>
+  <string>dalR_ing-ar.loclW_L_F_.glif</string>
   <key>dalThreedotsbelow-ar</key>
   <string>dalT_hreedotsbelow-ar.glif</string>
   <key>dalThreedotsbelow-ar.fina</key>
   <string>dalT_hreedotsbelow-ar.fina.glif</string>
+  <key>dalThreedotsbelow-ar.fina.loclWLF</key>
+  <string>dalT_hreedotsbelow-ar.fina.loclW_L_F_.glif</string>
+  <key>dalThreedotsbelow-ar.loclWLF</key>
+  <string>dalT_hreedotsbelow-ar.loclW_L_F_.glif</string>
   <key>dalThreedotsdown-ar</key>
   <string>dalT_hreedotsdown-ar.glif</string>
   <key>dalThreedotsdown-ar.fina</key>
   <string>dalT_hreedotsdown-ar.fina.glif</string>
+  <key>dalThreedotsdown-ar.fina.loclWLF</key>
+  <string>dalT_hreedotsdown-ar.fina.loclW_L_F_.glif</string>
+  <key>dalThreedotsdown-ar.loclWLF</key>
+  <string>dalT_hreedotsdown-ar.loclW_L_F_.glif</string>
   <key>dalVinvertedabove-ar</key>
   <string>dalV_invertedabove-ar.glif</string>
   <key>dalVinvertedabove-ar.fina</key>
   <string>dalV_invertedabove-ar.fina.glif</string>
+  <key>dalVinvertedabove-ar.fina.loclWLF</key>
+  <string>dalV_invertedabove-ar.fina.loclW_L_F_.glif</string>
+  <key>dalVinvertedabove-ar.loclWLF</key>
+  <string>dalV_invertedabove-ar.loclW_L_F_.glif</string>
   <key>dalVinvertedbelow-ar</key>
   <string>dalV_invertedbelow-ar.glif</string>
   <key>dalVinvertedbelow-ar.fina</key>
   <string>dalV_invertedbelow-ar.fina.glif</string>
+  <key>dalVinvertedbelow-ar.fina.loclWLF</key>
+  <string>dalV_invertedbelow-ar.fina.loclW_L_F_.glif</string>
+  <key>dalVinvertedbelow-ar.loclWLF</key>
+  <string>dalV_invertedbelow-ar.loclW_L_F_.glif</string>
   <key>damma-ar</key>
   <string>damma-ar.glif</string>
   <key>damma-ar.short</key>
@@ -542,6 +576,10 @@
   <string>ddahal-ar.glif</string>
   <key>ddahal-ar.fina</key>
   <string>ddahal-ar.fina.glif</string>
+  <key>ddahal-ar.fina.loclWLF</key>
+  <string>ddahal-ar.fina.loclW_L_F_.glif</string>
+  <key>ddahal-ar.loclWLF</key>
+  <string>ddahal-ar.loclW_L_F_.glif</string>
   <key>decimalseparator-ar</key>
   <string>decimalseparator-ar.glif</string>
   <key>degree</key>
@@ -572,6 +610,10 @@
   <string>dul-ar.glif</string>
   <key>dul-ar.fina</key>
   <string>dul-ar.fina.glif</string>
+  <key>dul-ar.fina.loclWLF</key>
+  <string>dul-ar.fina.loclW_L_F_.glif</string>
+  <key>dul-ar.loclWLF</key>
+  <string>dul-ar.loclW_L_F_.glif</string>
   <key>dyeh-ar</key>
   <string>dyeh-ar.glif</string>
   <key>dyeh-ar.fina</key>
@@ -816,6 +858,8 @@
   <string>gaf-ar.init.glif</string>
   <key>gaf-ar.medi</key>
   <string>gaf-ar.medi.glif</string>
+  <key>gafBarShort</key>
+  <string>gafB_arS_hort.glif</string>
   <key>germandbls</key>
   <string>germandbls.glif</string>
   <key>ghain-ar</key>
@@ -996,12 +1040,20 @@
   <string>k.glif</string>
   <key>kaf-ar</key>
   <string>kaf-ar.glif</string>
+  <key>kaf-ar.001</key>
+  <string>kaf-ar.001.glif</string>
   <key>kaf-ar.fina</key>
   <string>kaf-ar.fina.glif</string>
+  <key>kaf-ar.fina.001</key>
+  <string>kaf-ar.fina.001.glif</string>
   <key>kaf-ar.init</key>
   <string>kaf-ar.init.glif</string>
+  <key>kaf-ar.init.001</key>
+  <string>kaf-ar.init.001.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
+  <key>kaf-ar.medi.001</key>
+  <string>kaf-ar.medi.001.glif</string>
   <key>kafDotabove-ar</key>
   <string>kafD_otabove-ar.glif</string>
   <key>kafDotabove-ar.fina</key>
@@ -1990,6 +2042,10 @@
   <string>thal-ar.glif</string>
   <key>thal-ar.fina</key>
   <string>thal-ar.fina.glif</string>
+  <key>thal-ar.fina.loclWLF</key>
+  <string>thal-ar.fina.loclW_L_F_.glif</string>
+  <key>thal-ar.loclWLF</key>
+  <string>thal-ar.loclW_L_F_.glif</string>
   <key>theh-ar</key>
   <string>theh-ar.glif</string>
   <key>theh-ar.fina</key>

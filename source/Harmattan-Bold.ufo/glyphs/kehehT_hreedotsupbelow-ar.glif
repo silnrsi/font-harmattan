@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kehehThreedotsupbelow-ar" format="2">
-  <advance width="1276"/>
+  <advance width="1706"/>
   <unicode hex="0764"/>
   <anchor x="241" y="661" name="alef"/>
   <anchor x="483" y="1008" name="diaA"/>
-  <anchor x="651" y="-678" name="diaB"/>
+  <anchor x="866" y="-678" name="diaB"/>
   <outline>
     <component base="keheh-ar"/>
-    <component base="threedotsupabove-ar" xOffset="667" yOffset="-380"/>
+    <component base="threedotsupbelow-ar" xOffset="879" yOffset="-404"/>
   </outline>
   <lib>
     <dict>

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behTwodotsbelowDotabove-ar" format="2">
-  <advance width="1992"/>
+  <advance width="2032"/>
   <unicode hex="0754"/>
   <anchor x="388" y="815" name="alef"/>
   <anchor x="936" y="920" name="diaA"/>
   <anchor x="925" y="-444" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="dotabove-ar" xOffset="970" yOffset="727"/>
-    <component base="twodotshorizontalabove-ar" xOffset="946" yOffset="-264"/>
+    <component base="dotabove-ar" xOffset="961" yOffset="714"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="986" yOffset="-264"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

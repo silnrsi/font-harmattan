@@ -6,12 +6,17 @@
   <anchor x="455" y="-887" name="diaB"/>
   <outline>
     <component base="hah-ar.medi.hand"/>
-    <component base="twodotsverticalabove-ar" xOffset="451" yOffset="-579"/>
+    <component base="twodotsverticalbelow-ar" xOffset="460" yOffset="-569"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

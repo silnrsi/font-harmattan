@@ -5,6 +5,6 @@
   <anchor x="165" y="-964" name="diaB"/>
   <outline>
     <component base="fatha-ar" xOffset="-229" yOffset="-2280"/>
-    <component base="fatha-ar" xOffset="-78" yOffset="-2072"/>
+    <component base="fatha-ar" xOffset="-242" yOffset="-2138"/>
   </outline>
 </glyph>

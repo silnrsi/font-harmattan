@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotabove-ar" format="2">
-  <advance width="1266"/>
+  <advance width="1366"/>
   <unicode hex="06A7"/>
   <anchor x="587" y="1046" name="alef"/>
   <anchor x="755" y="1201" name="diaA"/>
   <anchor x="594" y="-289" name="diaB"/>
   <outline>
     <component base="qafDotless-ar"/>
-    <component base="dotabove-ar" xOffset="813" yOffset="1043"/>
+    <component base="dotabove-ar" xOffset="846" yOffset="1067"/>
   </outline>
   <lib>
     <dict>

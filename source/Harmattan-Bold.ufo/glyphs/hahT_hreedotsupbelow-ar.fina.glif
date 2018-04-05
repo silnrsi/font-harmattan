@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahThreedotsupbelow-ar.fina" format="2">
-  <advance width="944"/>
+  <advance width="984"/>
   <anchor x="12" y="470" name="alef"/>
   <anchor x="401" y="660" name="diaA"/>
   <anchor x="502" y="-652" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="threedotsupabove-ar" xScale="0.90703" yScale="0.90703" xOffset="483" yOffset="-130"/>
+    <component base="threedotsupbelow-ar" xOffset="506" yOffset="-131"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

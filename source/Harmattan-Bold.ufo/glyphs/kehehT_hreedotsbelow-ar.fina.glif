@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kehehThreedotsbelow-ar.fina" format="2">
-  <advance width="1313"/>
+  <advance width="1633"/>
   <anchor x="180" y="661" name="alef"/>
   <anchor x="504" y="999" name="diaA"/>
-  <anchor x="664" y="-672" name="diaB"/>
+  <anchor x="375" y="-640" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="threedotsdownabove-ar" xOffset="658" yOffset="-266"/>
+    <component base="threedotsdownbelow-ar" xOffset="788" yOffset="-256"/>
   </outline>
   <lib>
     <dict>

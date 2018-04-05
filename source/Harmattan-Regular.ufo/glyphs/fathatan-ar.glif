@@ -4,33 +4,7 @@
   <anchor x="316" y="1329" name="_diaA"/>
   <anchor x="299" y="1695" name="diaA"/>
   <outline>
-    <contour>
-      <point x="126" y="1431"/>
-      <point x="118" y="1382"/>
-      <point x="118" y="1353" type="curve"/>
-      <point x="221" y="1362"/>
-      <point x="290" y="1372"/>
-      <point x="484" y="1416" type="curve"/>
-      <point x="491" y="1432"/>
-      <point x="502" y="1465"/>
-      <point x="502" y="1494" type="curve"/>
-      <point x="334" y="1462"/>
-      <point x="249" y="1452"/>
-      <point x="131" y="1445" type="curve"/>
-    </contour>
-    <contour>
-      <point x="126" y="1601"/>
-      <point x="118" y="1552"/>
-      <point x="118" y="1523" type="curve"/>
-      <point x="221" y="1532"/>
-      <point x="290" y="1544"/>
-      <point x="484" y="1588" type="curve"/>
-      <point x="491" y="1604"/>
-      <point x="502" y="1637"/>
-      <point x="502" y="1666" type="curve"/>
-      <point x="334" y="1634"/>
-      <point x="249" y="1622"/>
-      <point x="131" y="1615" type="curve"/>
-    </contour>
+    <component base="fatha-ar" xOffset="18" yOffset="-4"/>
+    <component base="fatha-ar" xOffset="5" yOffset="138"/>
   </outline>
 </glyph>

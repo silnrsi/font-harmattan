@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalThreedotsdown-ar.fina.loclWLF" format="2">
+  <advance width="883"/>
+  <anchor x="-107" y="1308" name="alef"/>
+  <anchor x="84" y="1338" name="diaA"/>
+  <anchor x="424" y="-161" name="diaB"/>
+  <outline>
+    <component base="threedotsdownabove-ar" xOffset="116" yOffset="1219"/>
+    <component base="dal-ar.fina.loclWLF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

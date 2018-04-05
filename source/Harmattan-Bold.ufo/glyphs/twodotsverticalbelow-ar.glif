@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="twodotsverticalbelow-ar" format="2">
   <unicode hex="FBBE"/>
-  <anchor x="0" y="-318" name="_above"/>
   <anchor x="-30" y="296" name="_below"/>
   <anchor x="-15" y="-7" name="_center"/>
+  <anchor x="0" y="-318" name="above"/>
   <outline>
     <contour>
       <point x="-54" y="252" type="line"/>

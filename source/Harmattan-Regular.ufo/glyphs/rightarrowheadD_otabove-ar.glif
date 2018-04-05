@@ -5,6 +5,6 @@
   <anchor x="144" y="1711" name="diaA"/>
   <outline>
     <component base="toneonedotabove-ar" xOffset="-70" yOffset="107"/>
-    <component base="rightarrowheadabove-ar" xOffset="-1"/>
+    <component base="rightarrowheadabove-ar" xOffset="-158" yOffset="421"/>
   </outline>
 </glyph>

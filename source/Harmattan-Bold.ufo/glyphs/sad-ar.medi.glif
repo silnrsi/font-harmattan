@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.medi" format="2">
   <advance width="1217"/>
-  <anchor x="707" y="631" name="above"/>
+  <anchor x="701" y="641" name="above"/>
   <anchor x="128" y="487" name="alef"/>
-  <anchor x="616" y="-109" name="below"/>
+  <anchor x="676" y="-59" name="below"/>
   <anchor x="679" y="621" name="diaA"/>
-  <anchor x="614" y="-95" name="diaB"/>
+  <anchor x="674" y="-95" name="diaB"/>
   <outline>
     <contour>
       <point x="1217" y="165" type="line" smooth="yes"/>

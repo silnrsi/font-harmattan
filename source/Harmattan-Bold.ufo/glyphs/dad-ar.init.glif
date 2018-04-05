@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dad-ar.init" format="2">
-  <advance width="1083"/>
+  <advance width="1209"/>
   <anchor x="95" y="381" name="alef"/>
   <anchor x="541" y="996" name="diaA"/>
   <anchor x="594" y="-95" name="diaB"/>
   <outline>
     <component base="sad-ar.init"/>
-    <component base="dotabove-ar" xOffset="591" yOffset="813"/>
+    <component base="dotabove-ar" xOffset="684" yOffset="847"/>
   </outline>
   <lib>
     <dict>

@@ -2,18 +2,24 @@
 <glyph name="yehTwodotsbelowDotabove-ar" format="2">
   <advance width="1437"/>
   <unicode hex="08A9"/>
-  <anchor x="489" y="323" name="alef"/>
+  <anchor x="416" y="587" name="alef"/>
   <anchor x="909" y="1092" name="diaA"/>
-  <anchor x="588" y="-779" name="diaB"/>
+  <anchor x="669" y="-759" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots"/>
-    <component base="dotabove-ar" xOffset="979" yOffset="908"/>
-    <component base="twodotshorizontalabove-ar" xOffset="606" yOffset="-592"/>
+    <component base="dotabove-ar" xOffset="962" yOffset="962"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="669" yOffset="-556"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.medi" format="2">
   <advance width="1013"/>
-  <anchor x="550" y="1086" name="above"/>
+  <anchor x="283" y="972" name="above"/>
   <anchor x="89" y="671" name="alef"/>
-  <anchor x="544" y="-89" name="below"/>
-  <anchor x="828" y="673" name="center"/>
+  <anchor x="414" y="-46" name="below"/>
+  <anchor x="700" y="626" name="center"/>
   <anchor x="320" y="999" name="diaA"/>
-  <anchor x="525" y="-106" name="diaB"/>
+  <anchor x="525" y="-60" name="diaB"/>
   <anchor x="558" y="756" name="ring"/>
   <outline>
     <contour>

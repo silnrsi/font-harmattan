@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafTwodotshorizontalabove-ar.fina" format="2">
-  <advance width="1376"/>
+  <advance width="1416"/>
   <anchor x="314" y="978" name="alef"/>
   <anchor x="580" y="1148" name="diaA"/>
   <anchor x="606" y="-185" name="diaB"/>
   <outline>
     <component base="kaf-ar.fina"/>
-    <component base="twodotshorizontalabove-ar" xOffset="584" yOffset="-323"/>
+    <component base="twodotshorizontalabove-ar" xOffset="649" yOffset="996"/>
   </outline>
   <lib>
     <dict>

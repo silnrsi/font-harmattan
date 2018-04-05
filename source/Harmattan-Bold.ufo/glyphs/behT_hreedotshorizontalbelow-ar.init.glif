@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behThreedotshorizontalbelow-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="449"/>
   <anchor x="147" y="501" name="alef"/>
   <anchor x="156" y="510" name="diaA"/>
   <anchor x="213" y="-406" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="threedotshorizontalabove-ar" xOffset="224" yOffset="-216"/>
+    <component base="threedotshorizontalbelow-ar" xOffset="244" yOffset="-216"/>
   </outline>
   <lib>
     <dict>

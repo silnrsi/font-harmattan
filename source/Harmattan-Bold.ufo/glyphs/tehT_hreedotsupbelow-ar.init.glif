@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehThreedotsupbelow-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="449"/>
   <anchor x="119" y="829" name="alef"/>
   <anchor x="145" y="844" name="diaA"/>
   <anchor x="225" y="-621" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="twodotshorizontalabove-ar" xOffset="171" yOffset="694"/>
-    <component base="threedotsupabove-ar" xOffset="227" yOffset="-333"/>
+    <component base="twodotshorizontalabove-ar" xOffset="191" yOffset="724"/>
+    <component base="threedotsupbelow-ar" xOffset="297" yOffset="-373"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

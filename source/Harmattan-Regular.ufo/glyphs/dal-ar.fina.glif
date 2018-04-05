@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dal-ar.fina" format="2">
   <advance width="893"/>
-  <anchor x="441" y="917" name="above"/>
-  <anchor x="391" y="893" name="alef"/>
-  <anchor x="385" y="-61" name="below"/>
+  <anchor x="421" y="917" name="above"/>
+  <anchor x="251" y="863" name="alef"/>
+  <anchor x="455" y="-51" name="below"/>
   <anchor x="461" y="952" name="diaA"/>
-  <anchor x="385" y="-71" name="diaB"/>
-  <anchor x="393" y="-6" name="ring"/>
+  <anchor x="455" y="-71" name="diaB"/>
+  <anchor x="483" y="84" name="ring"/>
   <outline>
     <contour>
       <point x="420" y="769" type="curve"/>

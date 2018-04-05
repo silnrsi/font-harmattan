@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotabove-ar" format="2">
   <unicode hex="FBB2"/>
-  <anchor x="13" y="-202" name="_above"/>
-  <anchor x="0" y="184" name="_below"/>
-  <anchor x="0" y="0" name="_center"/>
+  <anchor x="17" y="-206" name="_above"/>
+  <anchor x="-8" y="213" name="below"/>
   <outline>
     <contour>
       <point x="-9" y="144" type="line"/>

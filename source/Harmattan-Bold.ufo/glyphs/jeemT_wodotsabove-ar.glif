@@ -8,12 +8,18 @@
   <outline>
     <component base="hah-ar"/>
     <component base="twodotshorizontalabove-ar" xOffset="408" yOffset="826"/>
-    <component base="dotabove-ar" xOffset="546" yOffset="-224"/>
+    <component base="dotbelow-ar" xOffset="490" yOffset="-231"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadTwodotsbelow-ar" format="2">
-  <advance width="1682"/>
+  <advance width="1782"/>
   <unicode hex="069D"/>
   <anchor x="445" y="229" name="alef"/>
   <anchor x="1228" y="621" name="diaA"/>
   <anchor x="704" y="-563" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="twodotshorizontalabove-ar" xOffset="1195" yOffset="-285"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="1275" yOffset="-225"/>
   </outline>
   <lib>
     <dict>

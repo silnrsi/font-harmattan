@@ -8,7 +8,7 @@
   <anchor x="556" y="123" name="exit"/>
   <outline>
     <component base="lam-ar.preAlef.medi"/>
-    <component base="threedotsdownabove-ar" xOffset="835" yOffset="-245"/>
+    <component base="threedotsdownbelow-ar" xOffset="744" yOffset="-245"/>
   </outline>
   <lib>
     <dict>

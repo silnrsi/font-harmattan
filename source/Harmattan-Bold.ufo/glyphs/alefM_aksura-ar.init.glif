@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMaksura-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="449"/>
   <anchor x="147" y="501" name="alef"/>
   <anchor x="156" y="510" name="diaA"/>
   <anchor x="217" y="-74" name="diaB"/>

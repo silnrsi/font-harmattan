@@ -2,8 +2,7 @@
 <glyph name="twodotsverticalabove-ar" format="2">
   <unicode hex="FBBD"/>
   <anchor x="0" y="-308" name="_above"/>
-  <anchor x="0" y="261" name="_below"/>
-  <anchor x="0" y="0" name="_center"/>
+  <anchor x="0" y="261" name="below"/>
   <outline>
     <contour>
       <point x="-46" y="214" type="line"/>

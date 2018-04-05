@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalDotbelowTah-ar.fina.loclWLF" format="2">
+  <advance width="883"/>
+  <anchor x="-54" y="999" name="alef"/>
+  <anchor x="129" y="1130" name="diaA"/>
+  <anchor x="492" y="-577" name="diaB"/>
+  <outline>
+    <component base="tahabove-ar" xOffset="529" yOffset="-390"/>
+    <component base="dotabove-ar" xOffset="133" yOffset="954"/>
+    <component base="dal-ar.fina.loclWLF"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

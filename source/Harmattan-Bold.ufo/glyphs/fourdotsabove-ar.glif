@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fourdotsabove-ar" format="2">
   <unicode hex="FBBA"/>
-  <anchor x="0" y="-182" name="_above"/>
-  <anchor x="9" y="345" name="_below"/>
-  <anchor x="2" y="120" name="_center"/>
+  <anchor x="1" y="-164" name="_above"/>
+  <anchor x="-29" y="427" name="below"/>
   <outline>
     <contour>
       <point x="92" y="146" type="line"/>

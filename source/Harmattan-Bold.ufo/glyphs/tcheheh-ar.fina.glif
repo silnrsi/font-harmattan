@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tcheheh-ar.fina" format="2">
-  <advance width="944"/>
+  <advance width="984"/>
   <unicode hex="FB7F"/>
   <anchor x="12" y="470" name="alef"/>
   <anchor x="401" y="660" name="diaA"/>
   <anchor x="502" y="-652" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
-    <component base="fourdotsabove-ar" xScale="0.90703" yScale="0.90703" xOffset="471" yOffset="-261"/>
+    <component base="fourdotscenter-ar" xOffset="471" yOffset="-265"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>

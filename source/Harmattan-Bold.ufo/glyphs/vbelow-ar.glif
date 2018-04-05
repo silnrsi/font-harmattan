@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="vbelow-ar" format="2">
-  <anchor x="-3" y="-140" name="_above"/>
   <anchor x="-3" y="252" name="_below"/>
+  <anchor x="-3" y="-140" name="above"/>
   <outline>
     <contour>
       <point x="0" y="-93" type="curve" smooth="yes"/>

@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotbelow-ar" format="2">
-  <advance width="1746"/>
+  <advance width="1786"/>
   <unicode hex="06A3"/>
-  <anchor x="501" y="426" name="alef"/>
-  <anchor x="1277" y="1239" name="diaA"/>
-  <anchor x="1445" y="-411" name="diaB"/>
+  <anchor x="1066" y="934" name="alef"/>
+  <anchor x="1308" y="1291" name="diaA"/>
+  <anchor x="1462" y="-409" name="diaB"/>
   <outline>
     <component base="fehDotless-ar"/>
-    <component base="dotabove-ar" xOffset="1326" yOffset="1070"/>
-    <component base="dotabove-ar" xOffset="1421" yOffset="-210"/>
+    <component base="dotabove-ar" xOffset="1344" yOffset="1101"/>
+    <component base="dotbelow-ar" xOffset="1450" yOffset="-200"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>8</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.5,0.09,0.79,1</string>
     </dict>

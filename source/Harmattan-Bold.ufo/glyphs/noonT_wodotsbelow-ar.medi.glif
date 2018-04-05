@@ -3,16 +3,22 @@
   <advance width="580"/>
   <anchor x="133" y="793" name="alef"/>
   <anchor x="171" y="865" name="diaA"/>
-  <anchor x="265" y="-402" name="diaB"/>
+  <anchor x="620" y="-943" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="dotabove-ar" xOffset="227" yOffset="690"/>
-    <component base="twodotshorizontalabove-ar" xOffset="275" yOffset="-227"/>
+    <component base="dotabove-ar" xOffset="210" yOffset="694"/>
+    <component base="twodotshorizontalbelow-ar" xOffset="275" yOffset="-227"/>
   </outline>
   <lib>
     <dict>
       <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
       <integer>4</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>-1</integer>
+        <integer>-1</integer>
+      </array>
       <key>public.markColor</key>
       <string>0.67,0.95,0.38,1</string>
     </dict>
