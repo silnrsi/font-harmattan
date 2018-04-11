@@ -35,8 +35,6 @@
   <false/>
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
-  <key>com.schriftgestaltung.font.Disable Last Change</key>
-  <integer>1</integer>
   <key>com.schriftgestaltung.fontMasterID</key>
   <string>58C4FD73-E369-47FC-BB2E-BA826F97CEB5</string>
   <key>com.schriftgestaltung.glyphOrder</key>

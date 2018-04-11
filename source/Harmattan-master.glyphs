@@ -108937,7 +108937,6 @@ arRoundThick = "143";
 arRoundThin = "121";
 };
 };
-"com.schriftgestaltung.font.Disable Last Change" = 1;
 public.postscriptNames = {
 "activateformshaping-ar" = uni206D;
 "ae-ar" = uni06D5;
