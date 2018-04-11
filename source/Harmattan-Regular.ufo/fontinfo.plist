@@ -22,13 +22,24 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/04/05 20:45:47</string>
+  <string>2018/04/11 11:25:54</string>
   <key>openTypeHheaAscender</key>
   <integer>2080</integer>
   <key>openTypeHheaDescender</key>
   <integer>-1274</integer>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
+  <key>openTypeNameDescription</key>
+  <string>Harmattan, named after the trade winds that blow during the winter in West
+Africa, is designed in a Warsh style to suit the needs of languages using
+the Arabic script in West Africa. 
+
+The font does not cover the full Unicode Arabic repertoire. It only supports 
+characters known to be used by languages in West Africa.
+
+This font makes use of state-of-the-art font technologies to support complex 
+typographic issues. Font smarts are implemented using OpenType and Graphite 
+technologies.</string>
   <key>openTypeNameDesigner</key>
   <string>George W. Nuss III and SIL International</string>
   <key>openTypeNameDesignerURL</key>
@@ -96,7 +107,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Harmattan Regular: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>1.024</string>
+  <string>1.025</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -189,7 +200,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>24</integer>
+  <integer>25</integer>
   <key>xHeight</key>
   <integer>778</integer>
 </dict>

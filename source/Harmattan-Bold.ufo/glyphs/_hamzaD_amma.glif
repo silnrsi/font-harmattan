@@ -3,6 +3,6 @@
   <anchor x="0" y="-100" name="_above"/>
   <outline>
     <component base="damma-ar" xOffset="-417" yOffset="-1358"/>
-    <component base="hamzaabove-ar" xOffset="-442" yOffset="-890"/>
+    <component base="hamzaabove-ar" xOffset="-442" yOffset="-860"/>
   </outline>
 </glyph>

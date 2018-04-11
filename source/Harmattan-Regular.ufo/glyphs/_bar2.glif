@@ -3,7 +3,7 @@
   <anchor x="0" y="0" name="_center"/>
   <anchor x="0" y="0" name="_through"/>
   <outline>
-    <component base="bar-ar" xOffset="21" yOffset="77"/>
-    <component base="bar-ar" yOffset="-123"/>
+    <component base="bar-ar"/>
+    <component base="bar-ar"/>
   </outline>
 </glyph>

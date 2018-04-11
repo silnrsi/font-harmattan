@@ -1,5 +1,5 @@
 {
-.appVersion = "1123";
+.appVersion = "1127";
 DisplayStrings = (
 "/zero-ar/zero-ar.medium/zero-ar.small/alef-ar/one-ar/one-ar.medium/one-ar.small/seen-ar.medi/two-ar/two-ar.medium/two-ar.small/three-ar/three-ar.medium/three-ar.small/four-ar/four-ar.medium/four-ar.small/heh-ar/five-ar/five-ar.medium/five-ar.small \012/six-ar/six-ar.medium/six-ar.small/seven-ar/seven-ar.medium/seven-ar.small/eight-ar/eight-ar.medium/eight-ar.small/nine-ar/nine-ar.medium/nine-ar.small/four-persian/four-persian.medium/four-persian.small/five-persian/five-persian.medium/five-persian.small/six-persian/six-persian.medium/six-persian.small",
 "/kaf-ar  /lam-ar/kaf-ar.init/teh-ar.medi/beh-ar  /theh-ar.init/kaf-ar.medi/kaf-ar.fina/alef-ar/kaf-ar.init/keheh-ar.init/keheh-ar.fina  /keheh-ar  \012/kafswash-ar/kafswash-ar.fina/kafswash-ar.medi/kafswash-ar.init  /lam-ar/kaf-ar/noon-ar  /alef-ar/lam-ar/kaf-ar/lam-ar/alef-ar/meem-ar/yeh-ar \012/meem-ar/meem-ar.medi/meem-ar.fina/meem-ar  /meem-ar.sindhi/meem-ar/meem-ar.sindhi.fina/noonghunna-ar/noonghunna-ar.fina  /hehDoachashmee-ar.init/hehDoachashmee-ar.medi/ae-ar/ae-ar/waw-ar/waw-ar.fina \012/yeh-ar.noDots  /yeh-ar.noDots.fina/alef-ar/fehDotless-ar.medi/behDotless-ar.medi/dal-ar.fina/dal-ar/yehbarree-ar  /fehDotless-ar/yehbarree-ar.fina/fatha-ar/allah-ar/alef-ar/lam-ar/lam-ar/ae-ar",
@@ -1524,7 +1524,7 @@ value = "Harmattan is a trademark of SIL International. Fouta New Arabic and Fou
 },
 {
 name = openTypeNameVersion;
-value = "1.024";
+value = "1.025";
 },
 {
 name = openTypeOS2UnicodeRanges;
@@ -1534,11 +1534,15 @@ value = (
 );
 },
 {
+name = openTypeNameDescription;
+value = "Harmattan, named after the trade winds that blow during the winter in West\012Africa, is designed in a Warsh style to suit the needs of languages using\012the Arabic script in West Africa. \012\012The font does not cover the full Unicode Arabic repertoire. It only supports \012characters known to be used by languages in West Africa.\012\012This font makes use of state-of-the-art font technologies to support complex \012typographic issues. Font smarts are implemented using OpenType and Graphite \012technologies.";
+},
+{
 name = "Disable Last Change";
 value = 1;
 }
 );
-date = "2018-01-05 23:42:36 +0000";
+date = "2018-01-06 23:42:36 +0000";
 designer = "George W. Nuss III and SIL International";
 designerURL = "http://scripts.sil.org/ and http://fulbefouta.com/";
 familyName = Harmattan;
@@ -69915,7 +69919,7 @@ transform = "{1, 0, 0, 1, 257, -461}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 277, -227}";
+transform = "{1, 0, 0, 1, -303, -227}";
 }
 );
 layerId = UUID0;
@@ -69947,7 +69951,7 @@ transform = "{1, 0, 0, 1, 247, -461}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 275, -227}";
+transform = "{1, 0, 0, 1, -305, -227}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -69988,7 +69992,7 @@ transform = "{1, 0, 0, 1, 187, -421}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 220, -217}";
+transform = "{1, 0, 0, 1, -209, -217}";
 }
 );
 layerId = UUID0;
@@ -70020,7 +70024,7 @@ transform = "{1, 0, 0, 1, 177, -401}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 238, -217}";
+transform = "{1, 0, 0, 1, -211, -217}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -70061,7 +70065,7 @@ transform = "{1, 0, 0, 1, 718, -578}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 671, -520}";
+transform = "{1, 0, 0, 1, -766, -520}";
 }
 );
 layerId = UUID0;
@@ -70093,7 +70097,7 @@ transform = "{1, 0, 0, 1, 666, -571}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 669, -556}";
+transform = "{1, 0, 0, 1, -768, -556}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -70135,7 +70139,7 @@ transform = "{1, 0, 0, 1, 668, -1108}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 714, -830}";
+transform = "{1, 0, 0, 1, -582, -830}";
 }
 );
 layerId = UUID0;
@@ -70167,7 +70171,7 @@ transform = "{1, 0, 0, 1, 668, -1108}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 719, -867}";
+transform = "{1, 0, 0, 1, -577, -867}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -70208,7 +70212,7 @@ transform = "{1, 0, 0, 1, -8, -851}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 277, -227}";
+transform = "{1, 0, 0, 1, -303, -227}";
 }
 );
 layerId = UUID0;
@@ -70240,7 +70244,7 @@ transform = "{1, 0, 0, 1, -8, -821}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 275, -227}";
+transform = "{1, 0, 0, 1, -305, -227}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -70281,7 +70285,7 @@ transform = "{1, 0, 0, 1, -117, -806}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 220, -217}";
+transform = "{1, 0, 0, 1, -209, -217}";
 }
 );
 layerId = UUID0;
@@ -70313,7 +70317,7 @@ transform = "{1, 0, 0, 1, -97, -776}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 238, -217}";
+transform = "{1, 0, 0, 1, -211, -217}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -70798,7 +70802,7 @@ transform = "{1, 0, 0, 1, 258, -536}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 277, -227}";
+transform = "{1, 0, 0, 1, -303, -227}";
 }
 );
 layerId = UUID0;
@@ -70830,7 +70834,7 @@ transform = "{1, 0, 0, 1, 268, -506}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 275, -227}";
+transform = "{1, 0, 0, 1, -305, -227}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -70871,7 +70875,7 @@ transform = "{1, 0, 0, 1, 149, -491}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 220, -217}";
+transform = "{1, 0, 0, 1, -209, -217}";
 }
 );
 layerId = UUID0;
@@ -70903,7 +70907,7 @@ transform = "{1, 0, 0, 1, 179, -461}";
 },
 {
 name = "twodotshorizontalbelow-ar";
-transform = "{1, 0, 0, 1, 238, -217}";
+transform = "{1, 0, 0, 1, -211, -217}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -75163,7 +75167,6 @@ position = "{196, 1551}";
 components = (
 {
 name = _madda;
-transform = "{1, 0, 0, 1, 114, 1390}";
 }
 );
 layerId = UUID0;
@@ -75183,7 +75186,6 @@ position = "{196, 1551}";
 components = (
 {
 name = _madda;
-transform = "{1, 0, 0, 1, 114, 1390}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -75209,7 +75211,6 @@ position = "{240, 1524}";
 components = (
 {
 name = _madda.small;
-transform = "{1, 0, 0, 1, 134, 1382}";
 }
 );
 layerId = UUID0;
@@ -75229,7 +75230,6 @@ position = "{240, 1524}";
 components = (
 {
 name = _madda.small;
-transform = "{1, 0, 0, 1, 134, 1382}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -103590,11 +103590,9 @@ position = "{0, 0}";
 components = (
 {
 name = "bar-ar";
-transform = "{1, 0, 0, 1, 21, 77}";
 },
 {
 name = "bar-ar";
-transform = "{1, 0, 0, 1, 0, -123}";
 }
 );
 layerId = UUID0;
@@ -103610,11 +103608,9 @@ position = "{0, 50}";
 components = (
 {
 name = "bar-ar";
-transform = "{1, 0, 0, 1, 21, 77}";
 },
 {
 name = "bar-ar";
-transform = "{1, 0, 0, 1, 0, -123}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -104062,7 +104058,7 @@ transform = "{1, 0, 0, 1, -417, -1358}";
 },
 {
 name = "hamzaabove-ar";
-transform = "{1, 0, 0, 1, -442, -890}";
+transform = "{1, 0, 0, 1, -442, -860}";
 }
 );
 layerId = "58C4FD73-E369-47FC-BB2E-BA826F97CEB5";
@@ -110130,5 +110126,5 @@ zerowidthspace = uni200B;
 UFOFormat = 2;
 };
 versionMajor = 1;
-versionMinor = 24;
+versionMinor = 25;
 }
