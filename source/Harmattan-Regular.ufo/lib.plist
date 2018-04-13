@@ -467,28 +467,52 @@
     <string>jeemTwodotsabove-ar.medi.hand</string>
     <string>dal-ar</string>
     <string>dal-ar.fina</string>
+    <string>dal-ar.loclWLF</string>
+    <string>dal-ar.fina.loclWLF</string>
     <string>thal-ar</string>
     <string>thal-ar.fina</string>
+    <string>thal-ar.loclWLF</string>
+    <string>thal-ar.fina.loclWLF</string>
     <string>dahal-ar</string>
     <string>dahal-ar.fina</string>
+    <string>dahal-ar.loclWLF</string>
+    <string>dahal-ar.fina.loclWLF</string>
     <string>ddahal-ar</string>
     <string>ddahal-ar.fina</string>
+    <string>ddahal-ar.loclWLF</string>
+    <string>ddahal-ar.fina.loclWLF</string>
     <string>dalRing-ar</string>
     <string>dalRing-ar.fina</string>
+    <string>dalRing-ar.loclWLF</string>
+    <string>dalRing-ar.fina.loclWLF</string>
     <string>dalDotbelow-ar</string>
     <string>dalDotbelow-ar.fina</string>
+    <string>dalDotbelow-ar.loclWLF</string>
+    <string>dalDotbelow-ar.fina.loclWLF</string>
     <string>dalDotbelowTah-ar</string>
     <string>dalDotbelowTah-ar.fina</string>
+    <string>dalDotbelowTah-ar.loclWLF</string>
+    <string>dalDotbelowTah-ar.fina.loclWLF</string>
     <string>dul-ar</string>
     <string>dul-ar.fina</string>
+    <string>dul-ar.loclWLF</string>
+    <string>dul-ar.fina.loclWLF</string>
     <string>dalThreedotsdown-ar</string>
     <string>dalThreedotsdown-ar.fina</string>
+    <string>dalThreedotsdown-ar.loclWLF</string>
+    <string>dalThreedotsdown-ar.fina.loclWLF</string>
     <string>dalVinvertedabove-ar</string>
     <string>dalVinvertedabove-ar.fina</string>
+    <string>dalVinvertedabove-ar.loclWLF</string>
+    <string>dalVinvertedabove-ar.fina.loclWLF</string>
     <string>dalVinvertedbelow-ar</string>
     <string>dalVinvertedbelow-ar.fina</string>
+    <string>dalVinvertedbelow-ar.loclWLF</string>
+    <string>dalVinvertedbelow-ar.fina.loclWLF</string>
     <string>dalThreedotsbelow-ar</string>
     <string>dalThreedotsbelow-ar.fina</string>
+    <string>dalThreedotsbelow-ar.loclWLF</string>
+    <string>dalThreedotsbelow-ar.fina.loclWLF</string>
     <string>reh-ar</string>
     <string>reh-ar.fina</string>
     <string>zain-ar</string>
@@ -1202,32 +1226,20 @@
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
-    <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
-    <string>_dot1</string>
     <string>_dot1_hat</string>
     <string>_dot1_smallV</string>
-    <string>_dot2h</string>
     <string>_dot2v</string>
-    <string>_dot3d</string>
-    <string>_dot3h</string>
-    <string>_dot3u</string>
-    <string>_dot4</string>
     <string>_gafBar</string>
-    <string>_gafBarShort</string>
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hat</string>
     <string>_highHamza</string>
-    <string>_invSmallV</string>
     <string>_madda</string>
     <string>_madda.small</string>
-    <string>_ring</string>
     <string>_smallV</string>
-    <string>_tah</string>
     <string>_vline</string>
-    <string>_wasla</string>
   </array>
   <key>com.schriftgestaltung.useNiceNames</key>
   <true/>
@@ -1664,28 +1676,52 @@
     <string>jeemTwodotsabove-ar.medi.hand</string>
     <string>dal-ar</string>
     <string>dal-ar.fina</string>
+    <string>dal-ar.loclWLF</string>
+    <string>dal-ar.fina.loclWLF</string>
     <string>thal-ar</string>
     <string>thal-ar.fina</string>
+    <string>thal-ar.loclWLF</string>
+    <string>thal-ar.fina.loclWLF</string>
     <string>dahal-ar</string>
     <string>dahal-ar.fina</string>
+    <string>dahal-ar.loclWLF</string>
+    <string>dahal-ar.fina.loclWLF</string>
     <string>ddahal-ar</string>
     <string>ddahal-ar.fina</string>
+    <string>ddahal-ar.loclWLF</string>
+    <string>ddahal-ar.fina.loclWLF</string>
     <string>dalRing-ar</string>
     <string>dalRing-ar.fina</string>
+    <string>dalRing-ar.loclWLF</string>
+    <string>dalRing-ar.fina.loclWLF</string>
     <string>dalDotbelow-ar</string>
     <string>dalDotbelow-ar.fina</string>
+    <string>dalDotbelow-ar.loclWLF</string>
+    <string>dalDotbelow-ar.fina.loclWLF</string>
     <string>dalDotbelowTah-ar</string>
     <string>dalDotbelowTah-ar.fina</string>
+    <string>dalDotbelowTah-ar.loclWLF</string>
+    <string>dalDotbelowTah-ar.fina.loclWLF</string>
     <string>dul-ar</string>
     <string>dul-ar.fina</string>
+    <string>dul-ar.loclWLF</string>
+    <string>dul-ar.fina.loclWLF</string>
     <string>dalThreedotsdown-ar</string>
     <string>dalThreedotsdown-ar.fina</string>
+    <string>dalThreedotsdown-ar.loclWLF</string>
+    <string>dalThreedotsdown-ar.fina.loclWLF</string>
     <string>dalVinvertedabove-ar</string>
     <string>dalVinvertedabove-ar.fina</string>
+    <string>dalVinvertedabove-ar.loclWLF</string>
+    <string>dalVinvertedabove-ar.fina.loclWLF</string>
     <string>dalVinvertedbelow-ar</string>
     <string>dalVinvertedbelow-ar.fina</string>
+    <string>dalVinvertedbelow-ar.loclWLF</string>
+    <string>dalVinvertedbelow-ar.fina.loclWLF</string>
     <string>dalThreedotsbelow-ar</string>
     <string>dalThreedotsbelow-ar.fina</string>
+    <string>dalThreedotsbelow-ar.loclWLF</string>
+    <string>dalThreedotsbelow-ar.fina.loclWLF</string>
     <string>reh-ar</string>
     <string>reh-ar.fina</string>
     <string>zain-ar</string>
@@ -2399,32 +2435,20 @@
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
-    <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
-    <string>_dot1</string>
     <string>_dot1_hat</string>
     <string>_dot1_smallV</string>
-    <string>_dot2h</string>
     <string>_dot2v</string>
-    <string>_dot3d</string>
-    <string>_dot3h</string>
-    <string>_dot3u</string>
-    <string>_dot4</string>
     <string>_gafBar</string>
-    <string>_gafBarShort</string>
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hat</string>
     <string>_highHamza</string>
-    <string>_invSmallV</string>
     <string>_madda</string>
     <string>_madda.small</string>
-    <string>_ring</string>
     <string>_smallV</string>
-    <string>_tah</string>
     <string>_vline</string>
-    <string>_wasla</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -2698,38 +2722,74 @@
     <string>uni068C</string>
     <key>dahal-ar.fina</key>
     <string>uni068C.fina</string>
+    <key>dahal-ar.fina.loclWLF</key>
+    <string>uni068C.fina.loclWLF</string>
+    <key>dahal-ar.loclWLF</key>
+    <string>uni068C.loclWLF</string>
     <key>dal-ar</key>
     <string>uni062F</string>
     <key>dal-ar.fina</key>
     <string>uni062F.fina</string>
+    <key>dal-ar.fina.loclWLF</key>
+    <string>uni062F.fina.loclWLF</string>
+    <key>dal-ar.loclWLF</key>
+    <string>uni062F.loclWLF</string>
     <key>dalDotbelow-ar</key>
     <string>uni068A</string>
     <key>dalDotbelow-ar.fina</key>
     <string>uni068A.fina</string>
+    <key>dalDotbelow-ar.fina.loclWLF</key>
+    <string>uni068A.fina.loclWLF</string>
+    <key>dalDotbelow-ar.loclWLF</key>
+    <string>uni068A.loclWLF</string>
     <key>dalDotbelowTah-ar</key>
     <string>uni068B</string>
     <key>dalDotbelowTah-ar.fina</key>
     <string>uni068B.fina</string>
+    <key>dalDotbelowTah-ar.fina.loclWLF</key>
+    <string>uni068B.fina.loclWLF</string>
+    <key>dalDotbelowTah-ar.loclWLF</key>
+    <string>uni068B.loclWLF</string>
     <key>dalRing-ar</key>
     <string>uni0689</string>
     <key>dalRing-ar.fina</key>
     <string>uni0689.fina</string>
+    <key>dalRing-ar.fina.loclWLF</key>
+    <string>uni0689.fina.loclWLF</string>
+    <key>dalRing-ar.loclWLF</key>
+    <string>uni0689.loclWLF</string>
     <key>dalThreedotsbelow-ar</key>
     <string>uni08AE</string>
     <key>dalThreedotsbelow-ar.fina</key>
     <string>uni08AE.fina</string>
+    <key>dalThreedotsbelow-ar.fina.loclWLF</key>
+    <string>uni08AE.fina.loclWLF</string>
+    <key>dalThreedotsbelow-ar.loclWLF</key>
+    <string>uni08AE.loclWLF</string>
     <key>dalThreedotsdown-ar</key>
     <string>uni068F</string>
     <key>dalThreedotsdown-ar.fina</key>
     <string>uni068F.fina</string>
+    <key>dalThreedotsdown-ar.fina.loclWLF</key>
+    <string>uni068F.fina.loclWLF</string>
+    <key>dalThreedotsdown-ar.loclWLF</key>
+    <string>uni068F.loclWLF</string>
     <key>dalVinvertedabove-ar</key>
     <string>uni06EE</string>
     <key>dalVinvertedabove-ar.fina</key>
     <string>uni06EE.fina</string>
+    <key>dalVinvertedabove-ar.fina.loclWLF</key>
+    <string>uni06EE.fina.loclWLF</string>
+    <key>dalVinvertedabove-ar.loclWLF</key>
+    <string>uni06EE.loclWLF</string>
     <key>dalVinvertedbelow-ar</key>
     <string>uni075A</string>
     <key>dalVinvertedbelow-ar.fina</key>
     <string>uni075A.fina</string>
+    <key>dalVinvertedbelow-ar.fina.loclWLF</key>
+    <string>uni075A.fina.loclWLF</string>
+    <key>dalVinvertedbelow-ar.loclWLF</key>
+    <string>uni075A.loclWLF</string>
     <key>damma-ar</key>
     <string>uni064F</string>
     <key>damma-ar.short</key>
@@ -2750,6 +2810,10 @@
     <string>uni068D</string>
     <key>ddahal-ar.fina</key>
     <string>uni068D.fina</string>
+    <key>ddahal-ar.fina.loclWLF</key>
+    <string>uni068D.fina.loclWLF</string>
+    <key>ddahal-ar.loclWLF</key>
+    <string>uni068D.loclWLF</string>
     <key>decimalseparator-ar</key>
     <string>uni066B</string>
     <key>dotStopabove-ar</key>
@@ -2766,6 +2830,10 @@
     <string>uni068E</string>
     <key>dul-ar.fina</key>
     <string>uni068E.fina</string>
+    <key>dul-ar.fina.loclWLF</key>
+    <string>uni068E.fina.loclWLF</string>
+    <key>dul-ar.loclWLF</key>
+    <string>uni068E.loclWLF</string>
     <key>dyeh-ar</key>
     <string>uni0684</string>
     <key>dyeh-ar.fina</key>
@@ -4002,6 +4070,10 @@
     <string>uni0630</string>
     <key>thal-ar.fina</key>
     <string>uni0630.fina</string>
+    <key>thal-ar.fina.loclWLF</key>
+    <string>uni0630.fina.loclWLF</string>
+    <key>thal-ar.loclWLF</key>
+    <string>uni0630.loclWLF</string>
     <key>theh-ar</key>
     <string>uni062B</string>
     <key>theh-ar.fina</key>
