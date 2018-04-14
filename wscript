@@ -59,7 +59,7 @@ for style in ('-Regular', '-Bold'):
             depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
             master = 'source/graphite/master.gdl',
             make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
-            params = '-q',
+            params = '-q -e gdlerr' + style + '.txt',
             ),
         opentype = fea(FAMILY + style + '.fea', 	# Would like to prefix generated but smith won't build at present (smith issue #45)
             master = 'source/opentype/master.feax',
