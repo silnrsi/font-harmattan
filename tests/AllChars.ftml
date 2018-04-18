@@ -69,6 +69,7 @@
   <test label='U+062E'><string>\u062E \u062E\u200D \u200D\u062E\u200D \u200D\u062E \u062E\u062E\u062E</string><comment>khah-ar</comment></test>
   <test label='U+062E' stylename='cv08_1'><string>\u062E \u062E\u200D \u200D\u062E\u200D \u200D\u062E \u062E\u062E\u062E</string><comment>khah-ar</comment></test>
   <test label='U+062F'><string>\u062F \u200D\u062F</string><comment>dal-ar</comment></test>
+  <test label='U+062F' stylename='cv12_1'><string>\u062F \u200D\u062F</string><comment>dal-ar</comment></test>
   <test label='U+0630'><string>\u0630 \u200D\u0630</string><comment>thal-ar</comment></test>
   <test label='U+0631'><string>\u0631 \u200D\u0631</string><comment>reh-ar</comment></test>
   <test label='U+0632'><string>\u0632 \u200D\u0632</string><comment>zain-ar</comment></test>
@@ -413,6 +414,7 @@
     <style name='cv02_1' feats='"cv02" 1'/>
     <style name='cv02_2' feats='"cv02" 2'/>
     <style name='cv08_1' feats='"cv08" 1'/>
+    <style name='cv12_1' feats='"cv12" 1'/>
     <style name='cv20_1' feats='"cv20" 1'/>
     <style name='cv44_1' feats='"cv44" 1'/>
     <style name='cv60_1' feats='"cv60" 1'/>

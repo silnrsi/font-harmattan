@@ -218,6 +218,10 @@ pass(4)	// Features, special behaviors
 		endif;
 	endif;
 
+	if (dalAlt == senegal)
+		cno_loclWLF  >  cloclWLF;
+	endif;
+
 	if (jeemHahMedAlt == handwritten)
 		cno_hand > chand;
 	endif;

@@ -17,6 +17,17 @@
 		</value>
 	</feature>
 
+	<feature name="Dal" value="Standard" tag="Dal">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="lookup_add" args="GSUB calt {DalAlternates}"/>	
+			<cmd name="gr_feat" args="{gr_cv12} 1"/>
+		</value>
+	</feature>
+
 	<feature name="Jeem/Hah" value="Standard" tag="JeHa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">

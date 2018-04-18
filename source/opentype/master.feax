@@ -298,6 +298,14 @@ lookup JeemHahMedAlternates {
 } JeemHahMedAlternates;
 
 #********************
+# Dal alternates: cv12
+
+lookup DalAlternates {
+  lookupflag IgnoreMarks ;
+    sub @cno_loclWLF by @c_loclWLF ;
+} DalAlternates;
+
+#********************
 # Sad/Dad "half" form alternates: cv20
 
 lookup SadDadAlternates {
@@ -1056,6 +1064,16 @@ feature cv08 {  # Character Variant 08
         ParamUILabelNameID { name 3 1 0x0409 "Handwritten" ; };
             } ;
 } cv08 ;
+
+feature cv12 {  # Character Variant 12
+    script arab;  # Arabic
+        lookup DalAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Dal"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Alternate" ; };
+            } ;
+} cv12 ;
 
 feature cv20 {  # Character Variant 20
     script arab;  # Arabic

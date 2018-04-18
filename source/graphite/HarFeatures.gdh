@@ -54,6 +54,22 @@ warshDiacritics {
 	default = std;
 }
 
+dalAlt {
+	id = "cv12";  	
+	name.1033 = string("Dal");
+	    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        senegal {
+            value = 1;
+            name.1033 = string("Alternate");
+        }
+    }
+    default = std;
+}
+
 jeemHahMedAlt {
 	id = "cv08";
 	name.1033 = string("Jeem/Hah");
