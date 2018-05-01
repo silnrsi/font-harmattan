@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-persian.urdu.small" format="2">
+  <advance width="490"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="490" y="0" name="digit"/>
+  <outline>
+    <component base="seven-persian.urdu" xScale="0.55684" yScale="0.55684" xOffset="11" yOffset="370"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>seven-ar</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>seven-ar</string>
+    </dict>
+  </lib>
+</glyph>

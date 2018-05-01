@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kafDotbelow-ar" format="2">
+  <advance width="1345"/>
+  <unicode hex="08B4"/>
+  <outline>
+    <component base="kaf-ar"/>
+    <component base="dotbelow-ar" xOffset="723" yOffset="-262"/>
+  </outline>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tehTehabove-ar.medi" format="2">
+  <advance width="600"/>
+  <anchor x="-72" y="1145" name="alef"/>
+  <anchor x="263" y="1148" name="diaA"/>
+  <anchor x="222" y="-121" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="teh-ar" xScale="0.58468" yScale="0.58468" xOffset="-294" yOffset="612"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

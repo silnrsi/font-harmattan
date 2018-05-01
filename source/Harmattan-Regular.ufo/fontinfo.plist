@@ -15,14 +15,14 @@ with the Reserved Font Name "Fouta".
 Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2015, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2018, SIL International (http://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>descender</key>
   <integer>-1274</integer>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/04/13 14:51:49</string>
+  <string>2018/05/01 20:15:31</string>
   <key>openTypeHheaAscender</key>
   <integer>2080</integer>
   <key>openTypeHheaDescender</key>
@@ -107,7 +107,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Harmattan Regular: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>1.025</string>
+  <string>1.026</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -200,7 +200,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>25</integer>
+  <integer>26</integer>
   <key>xHeight</key>
   <integer>778</integer>
 </dict>

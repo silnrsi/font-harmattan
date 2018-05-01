@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedotsbelow-ar.fina" format="2">
+  <advance width="990"/>
+  <anchor x="178" y="623" name="alef"/>
+  <anchor x="553" y="730" name="diaA"/>
+  <anchor x="558" y="-763" name="diaB"/>
+  <outline>
+    <component base="ain-ar.fina"/>
+    <component base="threedotsdownbelow-ar" xScale="0.86384" yScale="0.86384" xOffset="556" yOffset="-148"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

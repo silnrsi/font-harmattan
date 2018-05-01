@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ainThreedotsbelow-ar" format="2">
+  <advance width="822"/>
+  <unicode hex="08B3"/>
+  <anchor x="138" y="345" name="alef"/>
+  <anchor x="503" y="608" name="diaA"/>
+  <anchor x="488" y="-703" name="diaB"/>
+  <outline>
+    <component base="ain-ar"/>
+    <component base="threedotsdownbelow-ar" xScale="0.90703" yScale="0.90703" xOffset="477" yOffset="-167"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>0</integer>
+        <integer>-1</integer>
+      </array>
+    </dict>
+  </lib>
+</glyph>

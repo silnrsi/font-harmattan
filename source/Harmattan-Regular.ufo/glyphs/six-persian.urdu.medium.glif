@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="six-persian.urdu.medium" format="2">
+  <advance width="674"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="674" y="0" name="digit"/>
+  <outline>
+    <component base="six-ar.medium"/>
+  </outline>
+</glyph>
