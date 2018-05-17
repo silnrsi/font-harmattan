@@ -32,7 +32,7 @@
   <key>com.schriftgestaltung.customValue</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
-  <false/>
+  <true/>
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.fontMasterID</key>
@@ -1245,7 +1245,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>100</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1131</string>
+  <string>1138</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
