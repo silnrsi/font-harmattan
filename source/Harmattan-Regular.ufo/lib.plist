@@ -2443,6 +2443,17 @@
     <string>_smallV</string>
     <string>_vline</string>
   </array>
+  <key>public.openTypeMeta</key>
+  <dict>
+    <key>dlng</key>
+    <array>
+      <string>Arab-011</string>
+    </array>
+    <key>slng</key>
+    <array>
+      <string>Arab</string>
+    </array>
+  </dict>
   <key>public.postscriptNames</key>
   <dict>
     <key>activateformshaping-ar</key>
