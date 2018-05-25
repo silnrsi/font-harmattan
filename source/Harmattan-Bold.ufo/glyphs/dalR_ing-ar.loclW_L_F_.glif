@@ -5,8 +5,8 @@
   <anchor x="291" y="967" name="diaA"/>
   <anchor x="373" y="-333" name="diaB"/>
   <outline>
-    <component base="dal-ar"/>
-    <component base="ring-ar" xOffset="494" yOffset="-77"/>
+    <component base="dal-ar.loclWLF"/>
+    <component base="_ring" xOffset="494" yOffset="-77"/>
   </outline>
   <lib>
     <dict>

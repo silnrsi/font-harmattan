@@ -3,6 +3,6 @@
   <advance width="1416"/>
   <outline>
     <component base="kaf-ar.fina"/>
-    <component base="dotbelow-ar" xOffset="680" yOffset="-322"/>
+    <component base="_dot1" xOffset="680" yOffset="-322"/>
   </outline>
 </glyph>

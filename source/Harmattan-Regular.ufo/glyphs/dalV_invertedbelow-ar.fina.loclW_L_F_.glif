@@ -5,7 +5,7 @@
   <anchor x="137" y="818" name="diaA"/>
   <anchor x="461" y="-400" name="diaB"/>
   <outline>
-    <component base="vinvertedbelow-ar" xOffset="455" yOffset="-351"/>
+    <component base="_invSmallV" xOffset="455" yOffset="-351"/>
     <component base="dal-ar.fina.loclWLF"/>
   </outline>
   <lib>

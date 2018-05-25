@@ -4,7 +4,7 @@
   <anchor x="328" y="1012" name="_diaA"/>
   <outline>
     <component base="hah-ar" xScale="0.512" yScale="0.512" xOffset="79" yOffset="1413"/>
-    <component base="dotabove-ar" xScale="0.512" yScale="0.512" xOffset="342" yOffset="1300"/>
+    <component base="_dot1" xScale="0.512" yScale="0.512" xOffset="342" yOffset="1300"/>
   </outline>
   <lib>
     <dict>

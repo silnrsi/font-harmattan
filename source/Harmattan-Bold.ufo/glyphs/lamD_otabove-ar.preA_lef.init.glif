@@ -7,7 +7,7 @@
   <anchor x="545" y="-12" name="exit"/>
   <outline>
     <component base="lam-ar.preAlef.init"/>
-    <component base="dotabove-ar" xOffset="493" yOffset="1331"/>
+    <component base="_dot1" xOffset="493" yOffset="1331"/>
   </outline>
   <lib>
     <dict>

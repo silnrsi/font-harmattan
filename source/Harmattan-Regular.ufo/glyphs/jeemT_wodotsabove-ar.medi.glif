@@ -5,9 +5,9 @@
   <anchor x="321" y="974" name="diaA"/>
   <anchor x="373" y="-365" name="diaB"/>
   <outline>
-    <component base="dotabove-ar" xOffset="389" yOffset="-155"/>
+    <component base="_dot1" xOffset="389" yOffset="-155"/>
     <component base="hah-ar.medi"/>
-    <component base="twodotshorizontalabove-ar" xOffset="343" yOffset="813"/>
+    <component base="_dot2h" xOffset="343" yOffset="813"/>
   </outline>
   <lib>
     <dict>

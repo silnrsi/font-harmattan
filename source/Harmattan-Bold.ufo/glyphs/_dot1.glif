@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_dot1" format="2">
+  <anchor x="17" y="-206" name="_above"/>
+  <anchor x="11" y="224" name="_below"/>
+  <anchor x="0" y="0" name="_center"/>
+  <outline>
+    <contour>
+      <point x="-9" y="144" type="line"/>
+      <point x="-142" y="-14" type="line"/>
+      <point x="-133" y="-34"/>
+      <point x="-60" y="-102"/>
+      <point x="15" y="-156" type="curve"/>
+      <point x="31" y="-151"/>
+      <point x="74" y="-106"/>
+      <point x="162" y="4" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

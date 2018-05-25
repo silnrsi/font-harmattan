@@ -6,6 +6,6 @@
   <anchor x="458" y="-703" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="threedotsdownbelow-ar" xOffset="458" yOffset="-266"/>
+    <component base="_dot3d" xOffset="458" yOffset="-266"/>
   </outline>
 </glyph>

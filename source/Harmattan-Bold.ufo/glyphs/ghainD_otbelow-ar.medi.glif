@@ -6,8 +6,8 @@
   <anchor x="446" y="-446" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="dotabove-ar" xOffset="446" yOffset="918"/>
-    <component base="dotbelow-ar" xOffset="447" yOffset="-313"/>
+    <component base="_dot1" xOffset="446" yOffset="918"/>
+    <component base="_dot1" xOffset="447" yOffset="-313"/>
   </outline>
   <lib>
     <dict>

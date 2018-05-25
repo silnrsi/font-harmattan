@@ -63,6 +63,6 @@
       <point x="561" y="-312"/>
       <point x="559" y="-188"/>
     </contour>
-    <component base="dotabove-ar" xOffset="486" yOffset="1070"/>
+    <component base="_dot1" xOffset="486" yOffset="1070"/>
   </outline>
 </glyph>

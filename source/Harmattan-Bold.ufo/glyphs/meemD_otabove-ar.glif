@@ -7,7 +7,7 @@
   <anchor x="316" y="-585" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="dotabove-ar" xOffset="490" yOffset="861"/>
+    <component base="_dot1" xOffset="490" yOffset="861"/>
   </outline>
   <lib>
     <dict>

@@ -6,7 +6,7 @@
   <anchor x="203" y="-303" name="diaB"/>
   <outline>
     <component base="teh-ar.init"/>
-    <component base="ring-ar" xOffset="350" yOffset="-43"/>
+    <component base="_ring" xOffset="350" yOffset="-43"/>
   </outline>
   <lib>
     <dict>

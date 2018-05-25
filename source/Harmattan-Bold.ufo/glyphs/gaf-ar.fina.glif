@@ -6,7 +6,7 @@
   <anchor x="893" y="-106" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="gafBarShort" xOffset="736" yOffset="837"/>
+    <component base="_gafBarShort" xOffset="736" yOffset="837"/>
   </outline>
   <lib>
     <dict>

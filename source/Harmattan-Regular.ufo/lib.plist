@@ -958,6 +958,8 @@
     <string>yehTwodotsbelowNoonabove-ar.init</string>
     <string>yehbarree-ar</string>
     <string>yehbarree-ar.fina</string>
+    <string>yehbarreeHamzaabove-ar</string>
+    <string>yehbarreeHamzaabove-ar.fina</string>
     <string>allah-ar</string>
     <string>kashida-ar</string>
     <string>absAutoKashida</string>
@@ -1219,23 +1221,38 @@
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
+    <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
+    <string>_dot1</string>
     <string>_dot1_hat</string>
     <string>_dot1_smallV</string>
+    <string>_dot2h</string>
     <string>_dot2v</string>
+    <string>_dot3d</string>
+    <string>_dot3h</string>
+    <string>_dot3u</string>
+    <string>_dot4</string>
     <string>_gafBar</string>
+    <string>_gafBarShort</string>
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hat</string>
     <string>_highHamza</string>
+    <string>_invSmallV</string>
     <string>_madda</string>
     <string>_madda.small</string>
+    <string>_meem</string>
+    <string>_noon</string>
+    <string>_ring</string>
     <string>_smallV</string>
+    <string>_tah</string>
+    <string>_teh</string>
     <string>_vline</string>
+    <string>_wasla</string>
   </array>
   <key>com.schriftgestaltung.useNiceNames</key>
-  <true/>
+  <false/>
   <key>com.schriftgestaltung.weight</key>
   <string>Regular</string>
   <key>com.schriftgestaltung.weightValue</key>
@@ -2167,6 +2184,8 @@
     <string>yehTwodotsbelowNoonabove-ar.init</string>
     <string>yehbarree-ar</string>
     <string>yehbarree-ar.fina</string>
+    <string>yehbarreeHamzaabove-ar</string>
+    <string>yehbarreeHamzaabove-ar.fina</string>
     <string>allah-ar</string>
     <string>kashida-ar</string>
     <string>absAutoKashida</string>
@@ -2428,20 +2447,35 @@
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
+    <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
+    <string>_dot1</string>
     <string>_dot1_hat</string>
     <string>_dot1_smallV</string>
+    <string>_dot2h</string>
     <string>_dot2v</string>
+    <string>_dot3d</string>
+    <string>_dot3h</string>
+    <string>_dot3u</string>
+    <string>_dot4</string>
     <string>_gafBar</string>
+    <string>_gafBarShort</string>
     <string>_hamza</string>
     <string>_hamzaDamma</string>
     <string>_hat</string>
     <string>_highHamza</string>
+    <string>_invSmallV</string>
     <string>_madda</string>
     <string>_madda.small</string>
+    <string>_meem</string>
+    <string>_noon</string>
+    <string>_ring</string>
     <string>_smallV</string>
+    <string>_tah</string>
+    <string>_teh</string>
     <string>_vline</string>
+    <string>_wasla</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -4275,6 +4309,10 @@
     <string>uni06D2</string>
     <key>yehbarree-ar.fina</key>
     <string>uni06D2.fina</string>
+    <key>yehbarreeHamzaabove-ar</key>
+    <string>uni06D3</string>
+    <key>yehbarreeHamzaabove-ar.fina</key>
+    <string>uni06D3.fina</string>
     <key>yehbelow-ar</key>
     <string>uni06E6</string>
     <key>yu-ar</key>

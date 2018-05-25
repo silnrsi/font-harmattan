@@ -37,7 +37,7 @@
       <point x="189.936" y="1729.912"/>
       <point x="164" y="1723"/>
     </contour>
-    <component base="dotabove-ar" xScale="0.56448" yScale="0.56448" xOffset="8" yOffset="1791"/>
+    <component base="_dot1" xScale="0.56448" yScale="0.56448" xOffset="8" yOffset="1791"/>
   </outline>
   <lib>
     <dict>

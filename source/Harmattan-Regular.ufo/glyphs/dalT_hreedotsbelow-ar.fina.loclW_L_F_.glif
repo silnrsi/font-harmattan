@@ -5,7 +5,7 @@
   <anchor x="137" y="818" name="diaA"/>
   <anchor x="507" y="-644" name="diaB"/>
   <outline>
-    <component base="threedotsdownbelow-ar" xOffset="504" yOffset="-207"/>
+    <component base="_dot3d" xOffset="504" yOffset="-207"/>
     <component base="dal-ar.fina.loclWLF"/>
   </outline>
   <lib>

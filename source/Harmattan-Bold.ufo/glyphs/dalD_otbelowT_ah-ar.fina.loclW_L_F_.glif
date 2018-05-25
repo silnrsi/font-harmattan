@@ -5,9 +5,9 @@
   <anchor x="189" y="1411" name="diaA"/>
   <anchor x="371" y="-427" name="diaB"/>
   <outline>
-    <component base="dal-ar.fina"/>
-    <component base="tahabove-ar" xOffset="472" yOffset="-360"/>
-    <component base="dotabove-ar" xOffset="433" yOffset="1145"/>
+    <component base="dal-ar.fina.loclWLF"/>
+    <component base="_tah" xOffset="418" yOffset="1141"/>
+    <component base="_dot1" xOffset="494" yOffset="-245"/>
   </outline>
   <lib>
     <dict>

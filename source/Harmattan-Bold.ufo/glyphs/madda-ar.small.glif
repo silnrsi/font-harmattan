@@ -3,6 +3,6 @@
   <anchor x="249" y="1283" name="_diaA"/>
   <anchor x="240" y="1524" name="diaA"/>
   <outline>
-    <component base="_madda.small"/>
+    <component base="_madda.small" xOffset="134" yOffset="1382"/>
   </outline>
 </glyph>

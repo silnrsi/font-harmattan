@@ -6,7 +6,7 @@
   <anchor x="525" y="-106" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="dotabove-ar" xOffset="240" yOffset="1083"/>
+    <component base="_dot1" xOffset="240" yOffset="1083"/>
   </outline>
   <lib>
     <dict>

@@ -7,8 +7,8 @@
   <anchor x="391" y="-398" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="tahabove-ar" xOffset="372" yOffset="-360"/>
-    <component base="dotabove-ar" xOffset="253" yOffset="1016"/>
+    <component base="_tah" xOffset="241" yOffset="1006"/>
+    <component base="_dot1" xOffset="385" yOffset="-195"/>
   </outline>
   <lib>
     <dict>

@@ -4,6 +4,6 @@
   <anchor x="209" y="1283" name="_diaA"/>
   <anchor x="196" y="1551" name="diaA"/>
   <outline>
-    <component base="_madda"/>
+    <component base="_madda" xOffset="114" yOffset="1390"/>
   </outline>
 </glyph>

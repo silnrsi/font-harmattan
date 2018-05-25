@@ -6,7 +6,7 @@
   <anchor x="569" y="-497" name="diaB"/>
   <outline>
     <component base="meem-ar.fina"/>
-    <component base="dotbelow-ar" xOffset="581" yOffset="-263"/>
+    <component base="_dot1" xOffset="581" yOffset="-263"/>
   </outline>
   <lib>
     <dict>
