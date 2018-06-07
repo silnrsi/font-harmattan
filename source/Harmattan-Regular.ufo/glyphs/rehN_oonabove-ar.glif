@@ -9,13 +9,4 @@
     <component base="reh-ar"/>
     <component base="noonabove-ar" xOffset="266" yOffset="-735"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

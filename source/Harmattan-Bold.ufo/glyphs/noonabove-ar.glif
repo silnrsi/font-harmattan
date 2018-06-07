@@ -39,12 +39,4 @@
     </contour>
     <component base="_dot1" xScale="0.56448" yScale="0.56448" xOffset="4" yOffset="1791"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

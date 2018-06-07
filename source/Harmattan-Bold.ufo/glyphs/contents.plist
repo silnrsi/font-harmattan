@@ -1010,6 +1010,8 @@
   <string>heh-ar.medi.glif</string>
   <key>hehDoachashmee-ar.init</key>
   <string>hehD_oachashmee-ar.init.glif</string>
+  <key>hehDoachashmee-ar.init.001</key>
+  <string>hehD_oachashmee-ar.init.001.glif</string>
   <key>hehDoachashmee-ar.medi</key>
   <string>hehD_oachashmee-ar.medi.glif</string>
   <key>hehHamzaabove-ar</key>
@@ -1144,8 +1146,12 @@
   <string>kasratan-ar.lowered.glif</string>
   <key>keheh-ar</key>
   <string>keheh-ar.glif</string>
+  <key>keheh-ar.001</key>
+  <string>keheh-ar.001.glif</string>
   <key>keheh-ar.fina</key>
   <string>keheh-ar.fina.glif</string>
+  <key>keheh-ar.fina.001</key>
+  <string>keheh-ar.fina.001.glif</string>
   <key>keheh-ar.init</key>
   <string>keheh-ar.init.glif</string>
   <key>keheh-ar.medi</key>

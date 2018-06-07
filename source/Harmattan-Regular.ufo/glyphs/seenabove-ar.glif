@@ -5,12 +5,4 @@
   <outline>
     <component base="seen-ar" xScale="0.512" yScale="0.512" xOffset="-287" yOffset="1400"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

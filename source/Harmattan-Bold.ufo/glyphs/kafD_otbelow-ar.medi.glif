@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafDotbelow-ar.medi" format="2">
-  <advance width="1013"/>
+  <advance width="1503"/>
+  <anchor x="136" y="550" name="alef"/>
+  <anchor x="528" y="901" name="diaA"/>
+  <anchor x="676" y="-448" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
-    <component base="_dot1" xOffset="403" yOffset="-270"/>
+    <component base="_dot1" xOffset="670" yOffset="-222"/>
   </outline>
 </glyph>

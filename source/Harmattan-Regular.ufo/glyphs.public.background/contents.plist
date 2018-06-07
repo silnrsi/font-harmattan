@@ -6,18 +6,24 @@
   <string>ae-ar.glif</string>
   <key>ae-ar.fina</key>
   <string>ae-ar.fina.glif</string>
+  <key>afghani-ar</key>
+  <string>afghani-ar.glif</string>
   <key>ain-ar.fina</key>
   <string>ain-ar.fina.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
   <key>dal-ar.fina.loclWLF</key>
   <string>dal-ar.fina.loclW_L_F_.glif</string>
+  <key>dal-ar.loclWLF</key>
+  <string>dal-ar.loclW_L_F_.glif</string>
   <key>fehDotless-ar</key>
   <string>fehD_otless-ar.glif</string>
   <key>fehDotless-ar.fina</key>
   <string>fehD_otless-ar.fina.glif</string>
   <key>hehDoachashmee-ar.init</key>
   <string>hehD_oachashmee-ar.init.glif</string>
+  <key>hehDoachashmee-ar.init.001</key>
+  <string>hehD_oachashmee-ar.init.001.glif</string>
   <key>kaf-ar.init</key>
   <string>kaf-ar.init.glif</string>
   <key>kaf-ar.init.001</key>
@@ -38,6 +44,8 @@
   <string>meemS_topabove-ar.glif</string>
   <key>meemabove-ar</key>
   <string>meemabove-ar.glif</string>
+  <key>pagenumber-ar</key>
+  <string>pagenumber-ar.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
   <key>sad-ar.half</key>

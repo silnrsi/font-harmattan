@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_gafBarShort" format="2">
-  <anchor x="184" y="113" name="_above"/>
+  <anchor x="310" y="190" name="_above"/>
   <outline>
     <contour>
-      <point x="128" y="214"/>
-      <point x="-34" y="37" type="curve"/>
-      <point x="-30" y="10"/>
-      <point x="-11" y="-29"/>
-      <point x="15" y="-41" type="curve"/>
-      <point x="190" y="148"/>
-      <point x="442" y="276"/>
-      <point x="628" y="347" type="curve"/>
-      <point x="638" y="375"/>
-      <point x="639" y="399"/>
-      <point x="638" y="433" type="curve"/>
-      <point x="404" y="349"/>
+      <point x="118" y="157"/>
+      <point x="-34" y="18" type="curve"/>
+      <point x="-40" y="-9"/>
+      <point x="-21" y="-68"/>
+      <point x="3" y="-76" type="curve"/>
+      <point x="160" y="71"/>
+      <point x="436" y="300"/>
+      <point x="634" y="437" type="curve"/>
+      <point x="629" y="455"/>
+      <point x="617" y="475"/>
+      <point x="601" y="487" type="curve"/>
+      <point x="365" y="359"/>
     </contour>
   </outline>
 </glyph>

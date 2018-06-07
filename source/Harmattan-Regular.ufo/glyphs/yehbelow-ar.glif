@@ -6,10 +6,4 @@
   <outline>
     <component base="yehbarree-ar" xScale="0.512" yScale="0.512"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>621</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -7,12 +7,4 @@
   <outline>
     <component base="waw-ar" xScale="0.48225" yScale="0.48225" xOffset="68" yOffset="191"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

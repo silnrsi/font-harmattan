@@ -2,12 +2,12 @@
 <glyph name="dalVinvertedbelow-ar" format="2">
   <advance width="871"/>
   <unicode hex="075A"/>
-  <anchor x="291" y="683" name="alef"/>
-  <anchor x="301" y="721" name="diaA"/>
-  <anchor x="367" y="-435" name="diaB"/>
+  <anchor x="86" y="676" name="alef"/>
+  <anchor x="351" y="947" name="diaA"/>
+  <anchor x="435" y="-439" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="_invSmallV" xOffset="475" yOffset="-341"/>
+    <component base="_invSmallV" xOffset="465" yOffset="-301"/>
   </outline>
   <lib>
     <dict>

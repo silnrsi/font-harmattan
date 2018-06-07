@@ -8,13 +8,4 @@
     <component base="beh-ar.init"/>
     <component base="meemStopabove-ar" xOffset="106" yOffset="-632"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

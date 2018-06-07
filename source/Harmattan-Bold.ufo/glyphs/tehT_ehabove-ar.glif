@@ -9,13 +9,4 @@
     <component base="behDotless-ar"/>
     <component base="teh-ar" xScale="0.58468" yScale="0.58468" xOffset="416" yOffset="612"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>0</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

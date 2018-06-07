@@ -6,13 +6,4 @@
     <component base="fatha-ar" xOffset="125" yOffset="-199"/>
     <component base="meemStopabove-ar" xOffset="190" yOffset="-37"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

@@ -2,12 +2,12 @@
 <glyph name="dalThreedotsdown-ar" format="2">
   <advance width="871"/>
   <unicode hex="068F"/>
-  <anchor x="175" y="1235" name="alef"/>
-  <anchor x="193" y="1246" name="diaA"/>
+  <anchor x="-105" y="1035" name="alef"/>
+  <anchor x="213" y="1406" name="diaA"/>
   <anchor x="385" y="-71" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="_dot3d" xOffset="286" yOffset="1363"/>
+    <component base="_dot3d" xOffset="236" yOffset="1263"/>
   </outline>
   <lib>
     <dict>

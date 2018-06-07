@@ -9,13 +9,4 @@
     <component base="ain-ar"/>
     <component base="_dot3d" xScale="0.90703" yScale="0.90703" xOffset="477" yOffset="-167"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>0</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

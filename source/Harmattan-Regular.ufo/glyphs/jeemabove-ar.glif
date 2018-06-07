@@ -6,15 +6,4 @@
     <component base="hah-ar" xScale="0.512" yScale="0.512" xOffset="79" yOffset="1413"/>
     <component base="_dot1" xScale="0.512" yScale="0.512" xOffset="342" yOffset="1300"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>503</integer>
-      <key>com.schriftgestaltung.componentsAlignment</key>
-      <array>
-        <integer>-1</integer>
-        <integer>-1</integer>
-      </array>
-    </dict>
-  </lib>
 </glyph>

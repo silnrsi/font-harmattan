@@ -20,14 +20,10 @@
   <string>behD_otless-ar.fina.glif</string>
   <key>fehDotless-ar.init</key>
   <string>fehD_otless-ar.init.glif</string>
-  <key>fourdotsabove-ar</key>
-  <string>fourdotsabove-ar.glif</string>
-  <key>fourdotsbelow-ar</key>
-  <string>fourdotsbelow-ar.glif</string>
-  <key>fourdotscenter-ar</key>
-  <string>fourdotscenter-ar.glif</string>
   <key>hehDoachashmee-ar.init</key>
   <string>hehD_oachashmee-ar.init.glif</string>
+  <key>hehDoachashmee-ar.init.001</key>
+  <string>hehD_oachashmee-ar.init.001.glif</string>
   <key>hehDoachashmee-ar.medi</key>
   <string>hehD_oachashmee-ar.medi.glif</string>
   <key>jeemabove-ar</key>
@@ -46,6 +42,8 @@
   <string>kaf-ar.medi.001.glif</string>
   <key>keheh-ar</key>
   <string>keheh-ar.glif</string>
+  <key>keheh-ar.001</key>
+  <string>keheh-ar.001.glif</string>
   <key>lamAlefabove-ar</key>
   <string>lamA_lefabove-ar.glif</string>
   <key>meem-ar.init</key>
@@ -68,14 +66,6 @@
   <string>tah-ar.init.glif</string>
   <key>tahabove-ar</key>
   <string>tahabove-ar.glif</string>
-  <key>threedotsdownabove-ar</key>
-  <string>threedotsdownabove-ar.glif</string>
-  <key>threedotsdownbelow-ar</key>
-  <string>threedotsdownbelow-ar.glif</string>
-  <key>threedotsupabove-ar</key>
-  <string>threedotsupabove-ar.glif</string>
-  <key>threedotsupbelow-ar</key>
-  <string>threedotsupbelow-ar.glif</string>
   <key>waw-ar</key>
   <string>waw-ar.glif</string>
   <key>wawSmall-ar</key>

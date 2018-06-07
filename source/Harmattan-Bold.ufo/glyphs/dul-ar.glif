@@ -2,12 +2,12 @@
 <glyph name="dul-ar" format="2">
   <advance width="871"/>
   <unicode hex="068E"/>
-  <anchor x="33" y="1079" name="alef"/>
-  <anchor x="179" y="1237" name="diaA"/>
+  <anchor x="-37" y="1079" name="alef"/>
+  <anchor x="239" y="1467" name="diaA"/>
   <anchor x="385" y="-71" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="_dot3u" xOffset="313" yOffset="1192"/>
+    <component base="_dot3u" xOffset="293" yOffset="1162"/>
   </outline>
   <lib>
     <dict>

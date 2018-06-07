@@ -2,12 +2,12 @@
 <glyph name="dalVinvertedabove-ar" format="2">
   <advance width="871"/>
   <unicode hex="06EE"/>
-  <anchor x="136" y="1064" name="alef"/>
-  <anchor x="187" y="1112" name="diaA"/>
+  <anchor x="56" y="1014" name="alef"/>
+  <anchor x="357" y="1252" name="diaA"/>
   <anchor x="385" y="-71" name="diaB"/>
   <outline>
     <component base="dal-ar"/>
-    <component base="vinvertedabove-ar" xOffset="294" yOffset="-34"/>
+    <component base="vinvertedabove-ar" xOffset="344" yOffset="-144"/>
   </outline>
   <lib>
     <dict>
