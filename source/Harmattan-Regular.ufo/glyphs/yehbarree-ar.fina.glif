@@ -5,7 +5,7 @@
   <anchor x="298" y="161" name="alef"/>
   <anchor x="645" y="-518" name="below"/>
   <anchor x="535" y="174" name="diaA"/>
-  <anchor x="614" y="-544" name="diaB"/>
+  <anchor x="614" y="-494" name="diaB"/>
   <outline>
     <contour>
       <point x="307" y="-153" type="curve" smooth="yes"/>

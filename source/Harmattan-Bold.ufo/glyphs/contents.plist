@@ -2380,6 +2380,10 @@
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
   <string>yehbarree-ar.fina.glif</string>
+  <key>yehbarreeHamzaabove-ar</key>
+  <string>yehbarreeH_amzaabove-ar.glif</string>
+  <key>yehbarreeHamzaabove-ar.fina</key>
+  <string>yehbarreeH_amzaabove-ar.fina.glif</string>
   <key>yehbelow-ar</key>
   <string>yehbelow-ar.glif</string>
   <key>yen</key>

@@ -2,11 +2,11 @@
 <glyph name="seenDotbelowDotabove-ar.medi" format="2">
   <advance width="1355"/>
   <anchor x="462" y="809" name="alef"/>
-  <anchor x="617" y="905" name="diaA"/>
+  <anchor x="637" y="955" name="diaA"/>
   <anchor x="706" y="-459" name="diaB"/>
   <outline>
     <component base="seen-ar.medi"/>
-    <component base="_dot1" xOffset="641" yOffset="738"/>
+    <component base="_dot1" xOffset="697" yOffset="-227"/>
     <component base="_dot1" xOffset="641" yOffset="738"/>
   </outline>
   <lib>

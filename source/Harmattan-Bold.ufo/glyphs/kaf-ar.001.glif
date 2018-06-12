@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.001" format="2">
-  <advance width="1415"/>
-  <anchor x="649" y="814" name="above"/>
-  <anchor x="255" y="652" name="alef"/>
+  <advance width="1453"/>
+  <anchor x="649" y="844" name="above"/>
+  <anchor x="255" y="702" name="alef"/>
   <anchor x="661" y="-88" name="below"/>
-  <anchor x="641" y="826" name="diaA"/>
+  <anchor x="641" y="886" name="diaA"/>
   <anchor x="656" y="-108" name="diaB"/>
   <outline>
     <contour>
