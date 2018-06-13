@@ -197,6 +197,7 @@
   <test label='U+06D0'><string>\u06D0 \u06D0\u200D \u200D\u06D0\u200D \u200D\u06D0 \u06D0\u06D0\u06D0</string><comment>e-ar</comment></test>
   <test label='U+06D1'><string>\u06D1 \u06D1\u200D \u200D\u06D1\u200D \u200D\u06D1 \u06D1\u06D1\u06D1</string><comment>yehThreedotsbelow-ar</comment></test>
   <test label='U+06D2'><string>\u06D2 \u200D\u06D2</string><comment>yehbarree-ar</comment></test>
+  <test label='U+06D3'><string>\u06D3 \u200D\u06D3</string><comment>yehbarreeHamzaabove-ar</comment></test>
   <test label='U+06D4'><string>\u06D4</string></test>
   <test label='U+06D5'><string>\u06D5 \u200D\u06D5</string><comment>ae-ar</comment></test>
   <test label='U+06D6'><string>\u0628\u06D6 \u0628\u06D7 \u0628\u06D8 \u0628\u06D9 \u0628\u06DA \u0628\u06DB \u0628\u06DC \u06DD</string></test>
