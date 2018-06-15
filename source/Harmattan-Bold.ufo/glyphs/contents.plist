@@ -502,10 +502,10 @@
   <string>dad-ar.glif</string>
   <key>dad-ar.fina</key>
   <string>dad-ar.fina.glif</string>
+  <key>dad-ar.fina.half</key>
+  <string>dad-ar.fina.half.glif</string>
   <key>dad-ar.half</key>
   <string>dad-ar.half.glif</string>
-  <key>dad-ar.half.fina</key>
-  <string>dad-ar.half.fina.glif</string>
   <key>dad-ar.init</key>
   <string>dad-ar.init.glif</string>
   <key>dad-ar.medi</key>
@@ -514,10 +514,10 @@
   <string>dadD_otbelow-ar.glif</string>
   <key>dadDotbelow-ar.fina</key>
   <string>dadD_otbelow-ar.fina.glif</string>
+  <key>dadDotbelow-ar.fina.half</key>
+  <string>dadD_otbelow-ar.fina.half.glif</string>
   <key>dadDotbelow-ar.half</key>
   <string>dadD_otbelow-ar.half.glif</string>
-  <key>dadDotbelow-ar.half.fina</key>
-  <string>dadD_otbelow-ar.half.fina.glif</string>
   <key>dadDotbelow-ar.init</key>
   <string>dadD_otbelow-ar.init.glif</string>
   <key>dadDotbelow-ar.medi</key>
@@ -1788,10 +1788,10 @@
   <string>sad-ar.glif</string>
   <key>sad-ar.fina</key>
   <string>sad-ar.fina.glif</string>
+  <key>sad-ar.fina.half</key>
+  <string>sad-ar.fina.half.glif</string>
   <key>sad-ar.half</key>
   <string>sad-ar.half.glif</string>
-  <key>sad-ar.half.fina</key>
-  <string>sad-ar.half.fina.glif</string>
   <key>sad-ar.init</key>
   <string>sad-ar.init.glif</string>
   <key>sad-ar.medi</key>
@@ -1802,10 +1802,10 @@
   <string>sadT_hreedots-ar.glif</string>
   <key>sadThreedots-ar.fina</key>
   <string>sadT_hreedots-ar.fina.glif</string>
+  <key>sadThreedots-ar.fina.half</key>
+  <string>sadT_hreedots-ar.fina.half.glif</string>
   <key>sadThreedots-ar.half</key>
   <string>sadT_hreedots-ar.half.glif</string>
-  <key>sadThreedots-ar.half.fina</key>
-  <string>sadT_hreedots-ar.half.fina.glif</string>
   <key>sadThreedots-ar.init</key>
   <string>sadT_hreedots-ar.init.glif</string>
   <key>sadThreedots-ar.medi</key>
@@ -1814,10 +1814,10 @@
   <string>sadT_hreedotsbelow-ar.glif</string>
   <key>sadThreedotsbelow-ar.fina</key>
   <string>sadT_hreedotsbelow-ar.fina.glif</string>
+  <key>sadThreedotsbelow-ar.fina.half</key>
+  <string>sadT_hreedotsbelow-ar.fina.half.glif</string>
   <key>sadThreedotsbelow-ar.half</key>
   <string>sadT_hreedotsbelow-ar.half.glif</string>
-  <key>sadThreedotsbelow-ar.half.fina</key>
-  <string>sadT_hreedotsbelow-ar.half.fina.glif</string>
   <key>sadThreedotsbelow-ar.init</key>
   <string>sadT_hreedotsbelow-ar.init.glif</string>
   <key>sadThreedotsbelow-ar.medi</key>
@@ -1826,10 +1826,10 @@
   <string>sadT_wodotsbelow-ar.glif</string>
   <key>sadTwodotsbelow-ar.fina</key>
   <string>sadT_wodotsbelow-ar.fina.glif</string>
+  <key>sadTwodotsbelow-ar.fina.half</key>
+  <string>sadT_wodotsbelow-ar.fina.half.glif</string>
   <key>sadTwodotsbelow-ar.half</key>
   <string>sadT_wodotsbelow-ar.half.glif</string>
-  <key>sadTwodotsbelow-ar.half.fina</key>
-  <string>sadT_wodotsbelow-ar.half.fina.glif</string>
   <key>sadTwodotsbelow-ar.init</key>
   <string>sadT_wodotsbelow-ar.init.glif</string>
   <key>sadTwodotsbelow-ar.medi</key>

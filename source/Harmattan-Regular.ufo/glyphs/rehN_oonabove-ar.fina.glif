@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehNoonabove-ar.fina" format="2">
-  <advance width="674"/>
-  <anchor x="12" y="1139" name="alef"/>
-  <anchor x="241" y="1246" name="diaA"/>
+  <advance width="714"/>
+  <anchor x="12" y="943" name="alef"/>
+  <anchor x="334" y="1184" name="diaA"/>
   <anchor x="194" y="-636" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="noonabove-ar" xOffset="299" yOffset="-754"/>
+    <component base="noonabove-ar" xOffset="349" yOffset="-754"/>
   </outline>
 </glyph>

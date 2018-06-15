@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalRing-ar.fina.loclWLF" format="2">
-  <advance width="943"/>
-  <anchor x="255" y="808" name="alef"/>
-  <anchor x="274" y="831" name="diaA"/>
-  <anchor x="363" y="-350" name="diaB"/>
+  <advance width="893"/>
+  <anchor x="3" y="808" name="alef"/>
+  <anchor x="242" y="888" name="diaA"/>
+  <anchor x="473" y="-283" name="diaB"/>
   <outline>
     <component base="dal-ar.fina.loclWLF"/>
-    <component base="_ring" xOffset="456" yOffset="-58"/>
+    <component base="_ring" xOffset="516" yOffset="-98"/>
   </outline>
   <lib>
     <dict>

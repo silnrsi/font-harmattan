@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef_kasra-ar.warsh" format="2">
   <advance width="379"/>
-  <anchor x="29" y="887" name="alef"/>
-  <anchor x="192" y="1122" name="diaA"/>
+  <anchor x="-21" y="1070" name="alef"/>
+  <anchor x="202" y="1122" name="diaA"/>
   <anchor x="199" y="-158" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="kasra-ar" xOffset="-83" yOffset="77"/>
+    <component base="kasra-ar" xOffset="-103" yOffset="209"/>
   </outline>
 </glyph>

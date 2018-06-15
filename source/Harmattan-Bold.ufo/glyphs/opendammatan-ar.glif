@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="opendammatan-ar" format="2">
   <unicode hex="08F1"/>
-  <anchor x="164" y="980" name="_diaA"/>
-  <anchor x="105" y="1515" name="diaA"/>
+  <anchor x="-6" y="953" name="_diaA"/>
+  <anchor x="5" y="1499" name="diaA"/>
   <outline>
-    <component base="damma-ar" xOffset="50" yOffset="-270"/>
-    <component base="damma-ar" xOffset="35" yOffset="285"/>
+    <component base="damma-ar" xOffset="-50" yOffset="-249"/>
+    <component base="damma-ar" xOffset="-432" yOffset="-290"/>
   </outline>
 </glyph>

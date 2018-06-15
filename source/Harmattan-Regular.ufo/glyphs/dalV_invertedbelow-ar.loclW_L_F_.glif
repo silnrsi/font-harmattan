@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalVinvertedbelow-ar.loclWLF" format="2">
   <advance width="846"/>
-  <anchor x="-15" y="778" name="alef"/>
-  <anchor x="194" y="818" name="diaA"/>
+  <anchor x="5" y="778" name="alef"/>
+  <anchor x="214" y="818" name="diaA"/>
   <anchor x="412" y="-445" name="diaB"/>
   <outline>
     <component base="_invSmallV" xOffset="426" yOffset="-406"/>

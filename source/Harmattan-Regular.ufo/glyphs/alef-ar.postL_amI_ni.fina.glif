@@ -2,7 +2,7 @@
 <glyph name="alef-ar.postLamIni.fina" format="2">
   <advance width="897"/>
   <anchor x="36" y="1010" name="above"/>
-  <anchor x="-53" y="912" name="alef"/>
+  <anchor x="-93" y="862" name="alef"/>
   <anchor x="550" y="-118" name="below"/>
   <anchor x="133" y="-143" name="dia2B"/>
   <anchor x="71" y="1007" name="diaA"/>

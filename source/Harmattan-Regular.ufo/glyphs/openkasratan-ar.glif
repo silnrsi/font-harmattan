@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="openkasratan-ar" format="2">
   <unicode hex="08F2"/>
-  <anchor x="203" y="-563" name="_diaB"/>
-  <anchor x="165" y="-964" name="diaB"/>
+  <anchor x="33" y="-940" name="_diaA"/>
+  <anchor x="18" y="-555" name="diaA"/>
   <outline>
-    <component base="fatha-ar" xOffset="-229" yOffset="-2280"/>
-    <component base="fatha-ar" xOffset="-242" yOffset="-2138"/>
+    <component base="fatha-ar" xOffset="-322" yOffset="-2288"/>
+    <component base="fatha-ar" xOffset="-195" yOffset="-2096"/>
   </outline>
 </glyph>

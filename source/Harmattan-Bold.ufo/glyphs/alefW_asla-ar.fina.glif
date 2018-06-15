@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefWasla-ar.fina" format="2">
   <advance width="459"/>
-  <anchor x="-10" y="1295" name="alef"/>
+  <anchor x="-110" y="1295" name="alef"/>
   <anchor x="192" y="1454" name="diaA"/>
   <anchor x="193" y="-103" name="diaB"/>
   <outline>

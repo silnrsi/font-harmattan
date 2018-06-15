@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehv-ar.fina" format="2">
-  <advance width="674"/>
-  <anchor x="264" y="822" name="alef"/>
-  <anchor x="292" y="834" name="diaA"/>
+  <advance width="714"/>
+  <anchor x="98" y="778" name="alef"/>
+  <anchor x="371" y="834" name="diaA"/>
   <anchor x="281" y="-636" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="vabove-ar" xOffset="356" yOffset="-489"/>
+    <component base="vabove-ar" xOffset="386" yOffset="-489"/>
   </outline>
   <lib>
     <dict>

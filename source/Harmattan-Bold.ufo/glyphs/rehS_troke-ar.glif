@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehStroke-ar" format="2">
-  <advance width="531"/>
+  <advance width="611"/>
   <unicode hex="075B"/>
-  <anchor x="282" y="419" name="alef"/>
-  <anchor x="304" y="467" name="diaA"/>
-  <anchor x="264" y="-636" name="diaB"/>
+  <anchor x="164" y="348" name="alef"/>
+  <anchor x="394" y="497" name="diaA"/>
+  <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="_bar" xOffset="330" yOffset="-215"/>
+    <component base="_bar" xOffset="410" yOffset="-175"/>
   </outline>
   <lib>
     <dict>

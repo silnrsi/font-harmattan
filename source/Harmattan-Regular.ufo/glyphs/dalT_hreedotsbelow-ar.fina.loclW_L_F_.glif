@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalThreedotsbelow-ar.fina.loclWLF" format="2">
   <advance width="813"/>
-  <anchor x="68" y="778" name="alef"/>
-  <anchor x="277" y="818" name="diaA"/>
+  <anchor x="-2" y="778" name="alef"/>
+  <anchor x="207" y="818" name="diaA"/>
   <anchor x="529" y="-727" name="diaB"/>
   <outline>
     <component base="_dot3d" xOffset="514" yOffset="-337"/>

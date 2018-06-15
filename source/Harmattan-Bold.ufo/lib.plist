@@ -4,7 +4,7 @@
 <dict>
   <key>com.schriftgestaltung.DisplayStrings</key>
   <array>
-    <string>/dal-ar/dal-ar.fina/thal-ar/thal-ar.fina/dahal-ar/dahal-ar.fina/ddahal-ar/ddahal-ar.fina/dalRing-ar/dalRing-ar.fina/dalDotbelow-ar/dalDotbelow-ar.fina/_tah/dalDotbelowTah-ar/dalDotbelowTah-ar.fina/dul-ar/dul-ar.fina/dalThreedotsdown-ar/dalThreedotsdown-ar.fina/dalVinvertedabove-ar/dalVinvertedabove-ar.fina/dalVinvertedbelow-ar/dalVinvertedbelow-ar.fina/dalThreedotsbelow-ar/dalThreedotsbelow-ar.fina/dal-ar.loclWLF/dal-ar.fina.loclWLF/thal-ar.loclWLF/thal-ar.fina.loclWLF/dahal-ar.loclWLF/dahal-ar.fina.loclWLF/ddahal-ar.loclWLF/ddahal-ar.fina.loclWLF/dalRing-ar.fina.loclWLF/dalRing-ar.loclWLF/dalDotbelow-ar.fina.loclWLF/dalDotbelow-ar.loclWLF/dalDotbelowTah-ar.fina.loclWLF/dalDotbelowTah-ar.loclWLF/dul-ar.loclWLF/dul-ar.fina.loclWLF/dalThreedotsdown-ar.fina.loclWLF/dalThreedotsdown-ar.loclWLF/dalVinvertedabove-ar.fina.loclWLF/dalVinvertedabove-ar.loclWLF/dalVinvertedbelow-ar.fina.loclWLF/dalVinvertedbelow-ar.loclWLF/dalThreedotsbelow-ar.fina.loclWLF/dalThreedotsbelow-ar.loclWLF   /waw-ar/noon-ar.init/dal-ar.fina.loclWLF  /dal-ar.loclWLF/seen-ar/reh-ar/ain-ar  </string>
+    <string>/dal-ar/dal-ar.fina/thal-ar/thal-ar.fina/dahal-ar/dahal-ar.fina/ddahal-ar/ddahal-ar.fina/dalRing-ar/dalRing-ar.fina/dalDotbelow-ar/dalDotbelow-ar.fina/_tah/dalDotbelowTah-ar/dalDotbelowTah-ar.fina/dul-ar/dul-ar.fina/dalThreedotsdown-ar/dalThreedotsdown-ar.fina/dalVinvertedabove-ar/dalVinvertedabove-ar.fina/dalVinvertedbelow-ar/dalVinvertedbelow-ar.fina/dalThreedotsbelow-ar/dalThreedotsbelow-ar.fina/dal-ar/dal-ar.fina/dal-ar.loclWLF/dal-ar.fina.loclWLF/thal-ar.loclWLF/thal-ar.fina.loclWLF/dahal-ar.loclWLF/dahal-ar.fina.loclWLF/ddahal-ar.loclWLF/ddahal-ar.fina.loclWLF/dalRing-ar.fina.loclWLF/dalRing-ar.loclWLF/dalDotbelow-ar.fina.loclWLF/dalDotbelow-ar.loclWLF/dalDotbelowTah-ar.fina.loclWLF/dalDotbelowTah-ar.loclWLF/dul-ar.loclWLF/dul-ar.fina.loclWLF/dalThreedotsdown-ar.fina.loclWLF/dalThreedotsdown-ar.loclWLF/dalVinvertedabove-ar.fina.loclWLF/dalVinvertedabove-ar.loclWLF/dalVinvertedbelow-ar.fina.loclWLF/dalVinvertedbelow-ar.loclWLF/dalThreedotsbelow-ar.fina.loclWLF/dalThreedotsbelow-ar.loclWLF   /waw-ar/noon-ar.init/dal-ar.fina.loclWLF  /dal-ar.loclWLF/seen-ar/reh-ar/ain-ar  </string>
     <string>/kaf-ar  /lam-ar/kaf-ar.init/seen-ar.medi/teh-ar.medi/beh-ar  /theh-ar.init/kaf-ar.medi/kaf-ar.fina/alef-ar/kaf-ar.init/keheh-ar.init/keheh-ar.fina  /keheh-ar  /lam-ar/alef-ar/yeh-ar/sheen-ar  
 /kaf-ar  /alef-ar/sheen-ar/hah-ar/reh-ar  /kaf-ar/qaf-ar/waw-ar/ain-ar  /sheen-ar/hah-ar.medi/jeem-ar/kaf-ar/heh-ar/sheen-ar  /kaf-ar/dal-ar  /kaf-ar/ain-ar/yeh-ar/sheen-ar  /hehDoachashmee-ar.init/kaf-ar  /hehDoachashmee-ar.init/heh-ar.medi/heh-ar.fina 
 /kafswash-ar/kafswash-ar.fina/kafswash-ar.medi/kafswash-ar.init  /lam-ar/kaf-ar/noon-ar  /alef-ar/lam-ar/kaf-ar/lam-ar/alef-ar/meem-ar/yeh-ar 
@@ -570,37 +570,37 @@
     <string>sad-ar.medi</string>
     <string>sad-ar.init</string>
     <string>sad-ar.half</string>
-    <string>sad-ar.half.fina</string>
+    <string>sad-ar.fina.half</string>
     <string>sadTwodotsbelow-ar</string>
     <string>sadTwodotsbelow-ar.fina</string>
     <string>sadTwodotsbelow-ar.medi</string>
     <string>sadTwodotsbelow-ar.init</string>
     <string>sadTwodotsbelow-ar.half</string>
-    <string>sadTwodotsbelow-ar.half.fina</string>
+    <string>sadTwodotsbelow-ar.fina.half</string>
     <string>sadThreedots-ar</string>
     <string>sadThreedots-ar.fina</string>
     <string>sadThreedots-ar.medi</string>
     <string>sadThreedots-ar.init</string>
     <string>sadThreedots-ar.half</string>
-    <string>sadThreedots-ar.half.fina</string>
+    <string>sadThreedots-ar.fina.half</string>
     <string>sadThreedotsbelow-ar</string>
     <string>sadThreedotsbelow-ar.fina</string>
     <string>sadThreedotsbelow-ar.medi</string>
     <string>sadThreedotsbelow-ar.init</string>
     <string>sadThreedotsbelow-ar.half</string>
-    <string>sadThreedotsbelow-ar.half.fina</string>
+    <string>sadThreedotsbelow-ar.fina.half</string>
     <string>dad-ar</string>
     <string>dad-ar.fina</string>
     <string>dad-ar.medi</string>
     <string>dad-ar.init</string>
     <string>dad-ar.half</string>
-    <string>dad-ar.half.fina</string>
+    <string>dad-ar.fina.half</string>
     <string>dadDotbelow-ar</string>
     <string>dadDotbelow-ar.fina</string>
     <string>dadDotbelow-ar.medi</string>
     <string>dadDotbelow-ar.init</string>
     <string>dadDotbelow-ar.half</string>
-    <string>dadDotbelow-ar.half.fina</string>
+    <string>dadDotbelow-ar.fina.half</string>
     <string>tah-ar</string>
     <string>tah-ar.fina</string>
     <string>tah-ar.medi</string>
@@ -1796,37 +1796,37 @@
     <string>sad-ar.medi</string>
     <string>sad-ar.init</string>
     <string>sad-ar.half</string>
-    <string>sad-ar.half.fina</string>
+    <string>sad-ar.fina.half</string>
     <string>sadTwodotsbelow-ar</string>
     <string>sadTwodotsbelow-ar.fina</string>
     <string>sadTwodotsbelow-ar.medi</string>
     <string>sadTwodotsbelow-ar.init</string>
     <string>sadTwodotsbelow-ar.half</string>
-    <string>sadTwodotsbelow-ar.half.fina</string>
+    <string>sadTwodotsbelow-ar.fina.half</string>
     <string>sadThreedots-ar</string>
     <string>sadThreedots-ar.fina</string>
     <string>sadThreedots-ar.medi</string>
     <string>sadThreedots-ar.init</string>
     <string>sadThreedots-ar.half</string>
-    <string>sadThreedots-ar.half.fina</string>
+    <string>sadThreedots-ar.fina.half</string>
     <string>sadThreedotsbelow-ar</string>
     <string>sadThreedotsbelow-ar.fina</string>
     <string>sadThreedotsbelow-ar.medi</string>
     <string>sadThreedotsbelow-ar.init</string>
     <string>sadThreedotsbelow-ar.half</string>
-    <string>sadThreedotsbelow-ar.half.fina</string>
+    <string>sadThreedotsbelow-ar.fina.half</string>
     <string>dad-ar</string>
     <string>dad-ar.fina</string>
     <string>dad-ar.medi</string>
     <string>dad-ar.init</string>
     <string>dad-ar.half</string>
-    <string>dad-ar.half.fina</string>
+    <string>dad-ar.fina.half</string>
     <string>dadDotbelow-ar</string>
     <string>dadDotbelow-ar.fina</string>
     <string>dadDotbelow-ar.medi</string>
     <string>dadDotbelow-ar.init</string>
     <string>dadDotbelow-ar.half</string>
-    <string>dadDotbelow-ar.half.fina</string>
+    <string>dadDotbelow-ar.fina.half</string>
     <string>tah-ar</string>
     <string>tah-ar.fina</string>
     <string>tah-ar.medi</string>
@@ -2722,10 +2722,10 @@
     <string>uni0636</string>
     <key>dad-ar.fina</key>
     <string>uni0636.fina</string>
+    <key>dad-ar.fina.half</key>
+    <string>uni0636.fina.half</string>
     <key>dad-ar.half</key>
     <string>uni0636.half</string>
-    <key>dad-ar.half.fina</key>
-    <string>uni0636.half.fina</string>
     <key>dad-ar.init</key>
     <string>uni0636.init</string>
     <key>dad-ar.medi</key>
@@ -2734,10 +2734,10 @@
     <string>uni06FB</string>
     <key>dadDotbelow-ar.fina</key>
     <string>uni06FB.fina</string>
+    <key>dadDotbelow-ar.fina.half</key>
+    <string>uni06FB.fina.half</string>
     <key>dadDotbelow-ar.half</key>
     <string>uni06FB.half</string>
-    <key>dadDotbelow-ar.half.fina</key>
-    <string>uni06FB.half.fina</string>
     <key>dadDotbelow-ar.init</key>
     <string>uni06FB.init</string>
     <key>dadDotbelow-ar.medi</key>
@@ -3792,10 +3792,10 @@
     <string>uni0635</string>
     <key>sad-ar.fina</key>
     <string>uni0635.fina</string>
+    <key>sad-ar.fina.half</key>
+    <string>uni0635.fina.half</string>
     <key>sad-ar.half</key>
     <string>uni0635.half</string>
-    <key>sad-ar.half.fina</key>
-    <string>uni0635.half.fina</string>
     <key>sad-ar.init</key>
     <string>uni0635.init</string>
     <key>sad-ar.medi</key>
@@ -3806,10 +3806,10 @@
     <string>uni069E</string>
     <key>sadThreedots-ar.fina</key>
     <string>uni069E.fina</string>
+    <key>sadThreedots-ar.fina.half</key>
+    <string>uni069E.fina.half</string>
     <key>sadThreedots-ar.half</key>
     <string>uni069E.half</string>
-    <key>sadThreedots-ar.half.fina</key>
-    <string>uni069E.half.fina</string>
     <key>sadThreedots-ar.init</key>
     <string>uni069E.init</string>
     <key>sadThreedots-ar.medi</key>
@@ -3818,10 +3818,10 @@
     <string>uni08AF</string>
     <key>sadThreedotsbelow-ar.fina</key>
     <string>uni08AF.fina</string>
+    <key>sadThreedotsbelow-ar.fina.half</key>
+    <string>uni08AF.fina.half</string>
     <key>sadThreedotsbelow-ar.half</key>
     <string>uni08AF.half</string>
-    <key>sadThreedotsbelow-ar.half.fina</key>
-    <string>uni08AF.half.fina</string>
     <key>sadThreedotsbelow-ar.init</key>
     <string>uni08AF.init</string>
     <key>sadThreedotsbelow-ar.medi</key>
@@ -3830,10 +3830,10 @@
     <string>uni069D</string>
     <key>sadTwodotsbelow-ar.fina</key>
     <string>uni069D.fina</string>
+    <key>sadTwodotsbelow-ar.fina.half</key>
+    <string>uni069D.fina.half</string>
     <key>sadTwodotsbelow-ar.half</key>
     <string>uni069D.half</string>
-    <key>sadTwodotsbelow-ar.half.fina</key>
-    <string>uni069D.half.fina</string>
     <key>sadTwodotsbelow-ar.init</key>
     <string>uni069D.init</string>
     <key>sadTwodotsbelow-ar.medi</key>

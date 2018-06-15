@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef_fatha-ar.warsh" format="2">
   <advance width="379"/>
-  <anchor x="38" y="1180" name="alef"/>
+  <anchor x="-72" y="1180" name="alef"/>
   <anchor x="192" y="1195" name="diaA"/>
   <anchor x="199" y="-109" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="fatha-ar" xOffset="-125" yOffset="-207"/>
+    <component base="fatha-ar" xOffset="-125" yOffset="-306"/>
   </outline>
 </glyph>

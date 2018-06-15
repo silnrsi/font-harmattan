@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefWasla-ar.postLamIni.fina" format="2">
   <advance width="897"/>
-  <anchor x="-66" y="1240" name="alef"/>
+  <anchor x="-236" y="1190" name="alef"/>
   <anchor x="133" y="-143" name="dia2B"/>
-  <anchor x="38" y="1297" name="diaA"/>
+  <anchor x="68" y="1357" name="diaA"/>
   <anchor x="181" y="-145" name="diaB"/>
   <anchor x="641" y="-12" name="entry"/>
   <outline>
     <component base="alef-ar.postLamIni.fina"/>
-    <component base="_wasla" xOffset="25" yOffset="1164"/>
+    <component base="_wasla" xOffset="25" yOffset="1144"/>
   </outline>
   <lib>
     <dict>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="doublerightarrowheadDotabove-ar" format="2">
   <unicode hex="08FC"/>
-  <anchor x="319" y="1157" name="_diaA"/>
-  <anchor x="177" y="2243" name="diaA"/>
+  <anchor x="79" y="1157" name="_diaA"/>
+  <anchor x="-63" y="2105" name="diaA"/>
   <outline>
-    <component base="doublerightarrowheadabove-ar"/>
-    <component base="toneonedotabove-ar" xOffset="24" yOffset="755"/>
+    <component base="doublerightarrowheadabove-ar" xOffset="-240"/>
+    <component base="toneonedotabove-ar" xOffset="-259" yOffset="510"/>
   </outline>
 </glyph>

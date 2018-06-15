@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zain-ar.fina" format="2">
-  <advance width="674"/>
-  <anchor x="207" y="709" name="alef"/>
-  <anchor x="251" y="781" name="diaA"/>
+  <advance width="714"/>
+  <anchor x="151" y="581" name="alef"/>
+  <anchor x="359" y="810" name="diaA"/>
   <anchor x="280" y="-636" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_dot1" xOffset="318" yOffset="615"/>
+    <component base="_dot1" xOffset="391" yOffset="610"/>
   </outline>
   <lib>
     <dict>

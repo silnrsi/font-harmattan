@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathaDotabove-ar" format="2">
   <unicode hex="08F5"/>
-  <anchor x="188" y="1321" name="_diaA"/>
-  <anchor x="161" y="1797" name="diaA"/>
+  <anchor x="28" y="1171" name="_diaA"/>
+  <anchor x="-19" y="1577" name="diaA"/>
   <outline>
-    <component base="toneonedotabove-ar" xOffset="54" yOffset="34"/>
-    <component base="fatha-ar" xOffset="-134" yOffset="232"/>
+    <component base="toneonedotabove-ar" xOffset="-126" yOffset="34"/>
+    <component base="fatha-ar" xOffset="-274" yOffset="-163"/>
   </outline>
 </glyph>

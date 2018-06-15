@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tonetwodotsabove-ar" format="2">
   <unicode hex="08EB"/>
-  <anchor x="248" y="1293" name="_diaA"/>
-  <anchor x="225" y="1577" name="diaA"/>
+  <anchor x="18" y="1293" name="_diaA"/>
+  <anchor x="-5" y="1577" name="diaA"/>
   <outline>
-    <component base="toneonedotabove-ar"/>
-    <component base="toneonedotabove-ar" xOffset="-27" yOffset="264"/>
+    <component base="toneonedotabove-ar" xOffset="-230"/>
+    <component base="toneonedotabove-ar" xOffset="-8" yOffset="33"/>
   </outline>
 </glyph>
