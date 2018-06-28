@@ -54,6 +54,8 @@
   <string>sad-ar.init.glif</string>
   <key>sad-ar.medi</key>
   <string>sad-ar.medi.glif</string>
+  <key>samvat-ar</key>
+  <string>samvat-ar.glif</string>
   <key>seen-ar</key>
   <string>seen-ar.glif</string>
   <key>seen-ar.fina</key>
@@ -62,6 +64,8 @@
   <string>seenabove-ar.glif</string>
   <key>wawSmall-ar</key>
   <string>wawS_mall-ar.glif</string>
+  <key>year-ar</key>
+  <string>year-ar.glif</string>
   <key>yeh-ar.noDots</key>
   <string>yeh-ar.noD_ots.glif</string>
   <key>yeh-ar.noDots.fina</key>

@@ -2,11 +2,31 @@
 <glyph name="tehTehabove-ar" format="2">
   <advance width="2032"/>
   <unicode hex="08B8"/>
-  <anchor x="638" y="1145" name="alef"/>
-  <anchor x="973" y="1148" name="diaA"/>
+  <anchor x="681" y="937" name="alef"/>
+  <anchor x="933" y="1068" name="diaA"/>
   <anchor x="932" y="-121" name="diaB"/>
   <outline>
+    <contour>
+      <point x="932" y="597" type="curve" smooth="yes"/>
+      <point x="1164" y="599"/>
+      <point x="1305" y="680"/>
+      <point x="1208" y="852" type="curve"/>
+      <point x="1184" y="846"/>
+      <point x="1163" y="838"/>
+      <point x="1142" y="821" type="curve"/>
+      <point x="1198" y="709"/>
+      <point x="1095" y="678"/>
+      <point x="925" y="678" type="curve" smooth="yes"/>
+      <point x="727" y="678"/>
+      <point x="659" y="753"/>
+      <point x="741" y="869" type="curve"/>
+      <point x="732" y="886"/>
+      <point x="718" y="898"/>
+      <point x="700" y="903" type="curve"/>
+      <point x="546" y="763"/>
+      <point x="605" y="594"/>
+    </contour>
     <component base="behDotless-ar"/>
-    <component base="teh-ar" xScale="0.58468" yScale="0.58468" xOffset="416" yOffset="612"/>
+    <component base="_dot2h" xScale="0.58468" yScale="0.58468" xOffset="937" yOffset="955"/>
   </outline>
 </glyph>
