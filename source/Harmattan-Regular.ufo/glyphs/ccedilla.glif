@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ccedilla" format="2">
-  <advance width="763"/>
+  <advance width="765"/>
   <unicode hex="00E7"/>
+  <anchor x="405" y="-390" name="L"/>
+  <anchor x="765" y="750" name="R"/>
+  <anchor x="427" y="825" name="U"/>
   <outline>
     <component base="c"/>
-    <component base="cedilla" xOffset="329" yOffset="-16"/>
+    <component base="CombCedilla" xOffset="862"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scaron" format="2">
-  <advance width="722"/>
+  <advance width="723"/>
   <unicode hex="0161"/>
+  <anchor x="371" y="0" name="H"/>
+  <anchor x="371" y="-75" name="L"/>
+  <anchor x="371" y="1226" name="U"/>
   <outline>
     <component base="s"/>
-    <component base="caron" xOffset="45"/>
+    <component base="CombCaron" xOffset="798"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

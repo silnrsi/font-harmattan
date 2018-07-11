@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nonbreakinghyphen" format="2">
-  <advance width="939"/>
+  <advance width="671"/>
   <unicode hex="2011"/>
+  <anchor x="337" y="825" name="U"/>
   <outline>
-    <component base="hyphentwo"/>
+    <component base="hyphen"/>
   </outline>
 </glyph>

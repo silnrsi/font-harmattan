@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="grave" format="2">
-  <advance width="434"/>
+  <advance width="480"/>
   <unicode hex="0060"/>
-  <anchor x="269" y="850" name="_above"/>
+  <anchor x="375" y="1226" name="U"/>
   <outline>
     <contour>
-      <point x="0" y="1197" type="line"/>
-      <point x="314" y="875" type="line"/>
-      <point x="434" y="875" type="line"/>
-      <point x="172" y="1197" type="line"/>
+      <point x="0" y="1200" type="line"/>
+      <point x="300" y="900" type="line"/>
+      <point x="480" y="900" type="line"/>
+      <point x="262" y="1200" type="line"/>
     </contour>
   </outline>
 </glyph>

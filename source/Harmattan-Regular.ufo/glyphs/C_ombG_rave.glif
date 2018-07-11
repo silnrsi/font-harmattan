@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CombGrave" format="2">
+  <anchor x="-412" y="1226" name="U"/>
+  <anchor x="-412" y="825" name="_U"/>
+  <outline>
+    <contour>
+      <point x="-705" y="1200" type="line"/>
+      <point x="-390" y="877" type="line"/>
+      <point x="-270" y="877" type="line"/>
+      <point x="-532" y="1200" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -246,16 +246,23 @@
     <string>Zcaron</string>
     <string>zcaron</string>
     <string>florin</string>
+    <string>colontriangularmod</string>
     <string>grave</string>
-    <string>acute</string>
-    <string>circumflex</string>
-    <string>tilde</string>
     <string>macron</string>
     <string>dieresis</string>
-    <string>ring</string>
-    <string>caron</string>
+    <string>acute</string>
     <string>cedilla</string>
+    <string>circumflex</string>
+    <string>caron</string>
     <string>firsttonechinese</string>
+    <string>breve</string>
+    <string>dotaccent</string>
+    <string>ring</string>
+    <string>ogonek</string>
+    <string>tilde</string>
+    <string>hungarumlaut</string>
+    <string>graphemejoinercomb</string>
+    <string>pi</string>
     <string>hamza-ar</string>
     <string>highhamza-ar</string>
     <string>alef-ar</string>
@@ -952,6 +959,7 @@
     <string>sadabove-ar</string>
     <string>ainabove-ar</string>
     <string>takhallusabove-ar</string>
+    <string>tahabove-ar</string>
     <string>dammasmall-ar</string>
     <string>threedots-ar</string>
     <string>alefabove-ar</string>
@@ -1193,6 +1201,7 @@
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
+    <string>fraction</string>
     <string>wordjoiner</string>
     <string>lefttorightisolate</string>
     <string>righttoleftisolate</string>
@@ -1202,11 +1211,48 @@
     <string>activateformshaping-ar</string>
     <string>euro</string>
     <string>trademark</string>
+    <string>Ohm</string>
+    <string>partialdiff</string>
+    <string>partialdiff.rtl</string>
+    <string>Delta</string>
+    <string>product</string>
+    <string>summation</string>
+    <string>summation.rtl</string>
     <string>minus</string>
     <string>bulletoperator</string>
+    <string>infinity</string>
+    <string>integral</string>
+    <string>integral.rtl</string>
+    <string>approxequal</string>
+    <string>approxequal.rtl</string>
+    <string>notequal</string>
+    <string>notequal.rtl</string>
+    <string>lessequal</string>
+    <string>greaterequal</string>
+    <string>lozenge</string>
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
+    <string>fi</string>
+    <string>fi</string>
+    <string>VS1</string>
+    <string>VS2</string>
+    <string>VS3</string>
+    <string>VS4</string>
+    <string>VS5</string>
+    <string>VS6</string>
+    <string>VS7</string>
+    <string>VS8</string>
+    <string>VS9</string>
+    <string>VS10</string>
+    <string>VS11</string>
+    <string>VS12</string>
+    <string>VS13</string>
+    <string>VS14</string>
+    <string>VS15</string>
+    <string>VS16</string>
+    <string>objectReplacementCharacter</string>
+    <string>replacementCharacter</string>
     <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
@@ -1472,16 +1518,23 @@
     <string>Zcaron</string>
     <string>zcaron</string>
     <string>florin</string>
+    <string>colontriangularmod</string>
     <string>grave</string>
-    <string>acute</string>
-    <string>circumflex</string>
-    <string>tilde</string>
     <string>macron</string>
     <string>dieresis</string>
-    <string>ring</string>
-    <string>caron</string>
+    <string>acute</string>
     <string>cedilla</string>
+    <string>circumflex</string>
+    <string>caron</string>
     <string>firsttonechinese</string>
+    <string>breve</string>
+    <string>dotaccent</string>
+    <string>ring</string>
+    <string>ogonek</string>
+    <string>tilde</string>
+    <string>hungarumlaut</string>
+    <string>graphemejoinercomb</string>
+    <string>pi</string>
     <string>hamza-ar</string>
     <string>highhamza-ar</string>
     <string>alef-ar</string>
@@ -2178,6 +2231,7 @@
     <string>sadabove-ar</string>
     <string>ainabove-ar</string>
     <string>takhallusabove-ar</string>
+    <string>tahabove-ar</string>
     <string>dammasmall-ar</string>
     <string>threedots-ar</string>
     <string>alefabove-ar</string>
@@ -2419,6 +2473,7 @@
     <string>perthousand</string>
     <string>guilsinglleft</string>
     <string>guilsinglright</string>
+    <string>fraction</string>
     <string>wordjoiner</string>
     <string>lefttorightisolate</string>
     <string>righttoleftisolate</string>
@@ -2428,11 +2483,48 @@
     <string>activateformshaping-ar</string>
     <string>euro</string>
     <string>trademark</string>
+    <string>Ohm</string>
+    <string>partialdiff</string>
+    <string>partialdiff.rtl</string>
+    <string>Delta</string>
+    <string>product</string>
+    <string>summation</string>
+    <string>summation.rtl</string>
     <string>minus</string>
     <string>bulletoperator</string>
+    <string>infinity</string>
+    <string>integral</string>
+    <string>integral.rtl</string>
+    <string>approxequal</string>
+    <string>approxequal.rtl</string>
+    <string>notequal</string>
+    <string>notequal.rtl</string>
+    <string>lessequal</string>
+    <string>greaterequal</string>
+    <string>lozenge</string>
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
+    <string>fi</string>
+    <string>fi</string>
+    <string>VS1</string>
+    <string>VS2</string>
+    <string>VS3</string>
+    <string>VS4</string>
+    <string>VS5</string>
+    <string>VS6</string>
+    <string>VS7</string>
+    <string>VS8</string>
+    <string>VS9</string>
+    <string>VS10</string>
+    <string>VS11</string>
+    <string>VS12</string>
+    <string>VS13</string>
+    <string>VS14</string>
+    <string>VS15</string>
+    <string>VS16</string>
+    <string>objectReplacementCharacter</string>
+    <string>replacementCharacter</string>
     <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
@@ -2465,6 +2557,40 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
+    <key>Ohm</key>
+    <string>Omega</string>
+    <key>VS1</key>
+    <string>uniFE00</string>
+    <key>VS10</key>
+    <string>uniFE09</string>
+    <key>VS11</key>
+    <string>uniFE0A</string>
+    <key>VS12</key>
+    <string>uniFE0B</string>
+    <key>VS13</key>
+    <string>uniFE0C</string>
+    <key>VS14</key>
+    <string>uniFE0D</string>
+    <key>VS15</key>
+    <string>uniFE0E</string>
+    <key>VS16</key>
+    <string>uniFE0F</string>
+    <key>VS2</key>
+    <string>uniFE01</string>
+    <key>VS3</key>
+    <string>uniFE02</string>
+    <key>VS4</key>
+    <string>uniFE03</string>
+    <key>VS5</key>
+    <string>uniFE04</string>
+    <key>VS6</key>
+    <string>uniFE05</string>
+    <key>VS7</key>
+    <string>uniFE06</string>
+    <key>VS8</key>
+    <string>uniFE07</string>
+    <key>VS9</key>
+    <string>uniFE08</string>
     <key>activateformshaping-ar</key>
     <string>uni206D</string>
     <key>ae-ar</key>
@@ -2703,6 +2829,8 @@
     <string>uni08A1.medi</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
+    <key>colontriangularmod</key>
+    <string>uni02D0</string>
     <key>comma-ar</key>
     <string>uni060C</string>
     <key>comma-ar.downward</key>
@@ -2989,6 +3117,8 @@
     <string>uni0760.init</string>
     <key>fehTwodotsbelow-ar.medi</key>
     <string>uni0760.medi</string>
+    <key>fi</key>
+    <string>fl</string>
     <key>figurespace</key>
     <string>uni2007</string>
     <key>firststrongisolate</key>
@@ -3057,6 +3187,8 @@
     <string>uni06FC.init</string>
     <key>ghainDotbelow-ar.medi</key>
     <string>uni06FC.medi</string>
+    <key>graphemejoinercomb</key>
+    <string>uni034F</string>
     <key>guillemetleft</key>
     <string>guillemotleft</string>
     <key>guillemetright</key>
@@ -3595,6 +3727,8 @@
     <string>uni0683.medi</string>
     <key>nyeh-ar.medi.hand</key>
     <string>uni0683.medi.hand</string>
+    <key>objectReplacementCharacter</key>
+    <string>uniFFFC</string>
     <key>oe-ar</key>
     <string>uni06C6</string>
     <key>oe-ar.fina</key>
@@ -3759,6 +3893,8 @@
     <string>uni0692</string>
     <key>rehv-ar.fina</key>
     <string>uni0692.fina</string>
+    <key>replacementCharacter</key>
+    <string>uniFFFD</string>
     <key>rhombusStopabove-ar</key>
     <string>uni06EB</string>
     <key>rhombusStopbelow-ar</key>
@@ -4003,6 +4139,8 @@
     <string>uni08A3.init</string>
     <key>tahTwodotsabove-ar.medi</key>
     <string>uni08A3.medi</string>
+    <key>tahabove-ar</key>
+    <string>uni0615</string>
     <key>takhallusabove-ar</key>
     <string>uni0614</string>
     <key>tcheh-ar</key>

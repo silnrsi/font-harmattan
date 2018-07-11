@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="asciicircum" format="2">
-  <advance width="636"/>
+  <advance width="637"/>
   <unicode hex="005E"/>
-  <anchor x="318" y="1223" name="U"/>
+  <anchor x="318" y="1226" name="U"/>
   <outline>
-    <contour>
-      <point x="112" y="875" type="line"/>
-      <point x="318" y="1084" type="line"/>
-      <point x="523" y="875" type="line"/>
-      <point x="636" y="875" type="line"/>
-      <point x="381" y="1197" type="line"/>
-      <point x="255" y="1197" type="line"/>
-      <point x="0" y="875" type="line"/>
-    </contour>
+    <component base="CombCircum" xOffset="746"/>
   </outline>
 </glyph>

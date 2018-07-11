@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="udieresis" format="2">
-  <advance width="886"/>
+  <advance width="933"/>
   <unicode hex="00FC"/>
+  <anchor x="386" y="0" name="H"/>
+  <anchor x="461" y="-75" name="L"/>
+  <anchor x="517" y="0" name="O"/>
+  <anchor x="943" y="750" name="R"/>
+  <anchor x="461" y="1188" name="U"/>
   <outline>
     <component base="u"/>
-    <component base="dieresis" xOffset="180"/>
+    <component base="CombDiaer" xOffset="896"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ntilde" format="2">
-  <advance width="1122"/>
+  <advance width="1125"/>
   <unicode hex="00D1"/>
+  <anchor x="922" y="0" name="H"/>
+  <anchor x="552" y="-75" name="L"/>
+  <anchor x="552" y="1428" name="U"/>
   <outline>
     <component base="N"/>
-    <component base="tilde" xOffset="291" yOffset="300"/>
+    <component base="tilde" xOffset="290" yOffset="322"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

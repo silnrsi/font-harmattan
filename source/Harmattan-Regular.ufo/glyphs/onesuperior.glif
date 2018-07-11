@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="onesuperior" format="2">
-  <advance width="628"/>
+  <advance width="630"/>
   <unicode hex="00B9"/>
-  <anchor x="313" y="460" name="L"/>
-  <anchor x="313" y="1253" name="U"/>
+  <anchor x="314" y="461" name="L"/>
+  <anchor x="314" y="1256" name="U"/>
   <outline>
-    <component base="one" xScale="0.7" yScale="0.65" xOffset="-14" yOffset="508"/>
+    <component base="one" xScale="0.7" yScale="0.65" xOffset="-13" yOffset="510"/>
   </outline>
 </glyph>

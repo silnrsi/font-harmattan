@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="iacute" format="2">
-  <advance width="423"/>
+  <advance width="483"/>
   <unicode hex="00ED"/>
+  <anchor x="240" y="0" name="H"/>
+  <anchor x="240" y="-75" name="L"/>
+  <anchor x="435" y="0" name="O"/>
+  <anchor x="480" y="750" name="R"/>
+  <anchor x="195" y="1226" name="U"/>
   <outline>
     <component base="idotless"/>
-    <component base="acute" xOffset="27"/>
+    <component base="CombAcute" xOffset="645"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

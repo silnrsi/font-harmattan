@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecircumflex" format="2">
-  <advance width="819"/>
+  <advance width="832"/>
   <unicode hex="00EA"/>
+  <anchor x="426" y="0" name="H"/>
+  <anchor x="441" y="-75" name="L"/>
+  <anchor x="675" y="0" name="O"/>
+  <anchor x="847" y="750" name="R"/>
+  <anchor x="429" y="1226" name="U"/>
   <outline>
     <component base="e"/>
-    <component base="circumflex" xOffset="104"/>
+    <component base="CombCircum" xOffset="870"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

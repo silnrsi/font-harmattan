@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="I" format="2">
-  <advance width="730"/>
+  <advance width="731"/>
   <unicode hex="0049"/>
-  <anchor x="360" y="1150" name="above"/>
+  <anchor x="357" y="0" name="H"/>
+  <anchor x="357" y="-75" name="L"/>
+  <anchor x="504" y="0" name="O"/>
+  <anchor x="731" y="900" name="R"/>
+  <anchor x="357" y="1147" name="U"/>
   <outline>
     <contour>
-      <point x="104" y="1092" type="line"/>
-      <point x="104" y="983" type="line"/>
-      <point x="284" y="983" type="line"/>
-      <point x="284" y="108" type="line"/>
-      <point x="104" y="108" type="line"/>
-      <point x="104" y="0" type="line"/>
-      <point x="610" y="0" type="line"/>
-      <point x="610" y="108" type="line"/>
-      <point x="426" y="108" type="line"/>
-      <point x="426" y="983" type="line"/>
-      <point x="610" y="983" type="line"/>
-      <point x="610" y="1092" type="line"/>
+      <point x="105" y="1095" type="line"/>
+      <point x="105" y="986" type="line"/>
+      <point x="285" y="986" type="line"/>
+      <point x="285" y="108" type="line"/>
+      <point x="105" y="108" type="line"/>
+      <point x="105" y="0" type="line"/>
+      <point x="611" y="0" type="line"/>
+      <point x="611" y="108" type="line"/>
+      <point x="427" y="108" type="line"/>
+      <point x="427" y="986" type="line"/>
+      <point x="611" y="986" type="line"/>
+      <point x="611" y="1095" type="line"/>
     </contour>
   </outline>
 </glyph>

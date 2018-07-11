@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ocircumflex" format="2">
-  <advance width="1092"/>
+  <advance width="1125"/>
   <unicode hex="00D4"/>
+  <anchor x="555" y="0" name="H"/>
+  <anchor x="555" y="-75" name="L"/>
+  <anchor x="732" y="0" name="O"/>
+  <anchor x="1110" y="900" name="R"/>
+  <anchor x="549" y="1548" name="U"/>
   <outline>
     <component base="O"/>
-    <component base="circumflex" xOffset="226" yOffset="300"/>
+    <component base="CombCircum" xOffset="990" yOffset="322"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
-      <integer>4</integer>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

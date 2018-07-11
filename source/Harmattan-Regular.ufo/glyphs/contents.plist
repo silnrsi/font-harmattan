@@ -28,6 +28,26 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
+  <key>CombAcute</key>
+  <string>C_ombA_cute.glif</string>
+  <key>CombBreve</key>
+  <string>C_ombB_reve.glif</string>
+  <key>CombCaron</key>
+  <string>C_ombC_aron.glif</string>
+  <key>CombCedilla</key>
+  <string>C_ombC_edilla.glif</string>
+  <key>CombCircum</key>
+  <string>C_ombC_ircum.glif</string>
+  <key>CombDiaer</key>
+  <string>C_ombD_iaer.glif</string>
+  <key>CombGrave</key>
+  <string>C_ombG_rave.glif</string>
+  <key>CombOgonek</key>
+  <string>C_ombO_gonek.glif</string>
+  <key>CombRingAbv</key>
+  <string>C_ombR_ingA_bv.glif</string>
+  <key>CombTildeOverlay.Lrg</key>
+  <string>C_ombT_ildeO_verlay.L_rg.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>E</key>
@@ -50,6 +70,12 @@
   <string>F_ontB_slnS_ideB_rngM_rkrR_t.glif</string>
   <key>G</key>
   <string>G_.glif</string>
+  <key>GrCapDelta</key>
+  <string>G_rC_apD_elta.glif</string>
+  <key>GrCapOmega</key>
+  <string>G_rC_apO_mega.glif</string>
+  <key>GrCapPi</key>
+  <string>G_rC_apP_i.glif</string>
   <key>H</key>
   <string>H_.glif</string>
   <key>I</key>
@@ -68,6 +94,8 @@
   <string>K_.glif</string>
   <key>L</key>
   <string>L_.glif</string>
+  <key>LtnCapEsh</key>
+  <string>L_tnC_apE_sh.glif</string>
   <key>M</key>
   <string>M_.glif</string>
   <key>N</key>
@@ -86,6 +114,8 @@
   <string>O_dieresis.glif</string>
   <key>Ograve</key>
   <string>O_grave.glif</string>
+  <key>Ohm</key>
+  <string>O_hm.glif</string>
   <key>Oslash</key>
   <string>O_slash.glif</string>
   <key>Otilde</key>
@@ -116,6 +146,38 @@
   <string>U_grave.glif</string>
   <key>V</key>
   <string>V_.glif</string>
+  <key>VS1</key>
+  <string>V_S_1.glif</string>
+  <key>VS10</key>
+  <string>V_S_10.glif</string>
+  <key>VS11</key>
+  <string>V_S_11.glif</string>
+  <key>VS12</key>
+  <string>V_S_12.glif</string>
+  <key>VS13</key>
+  <string>V_S_13.glif</string>
+  <key>VS14</key>
+  <string>V_S_14.glif</string>
+  <key>VS15</key>
+  <string>V_S_15.glif</string>
+  <key>VS16</key>
+  <string>V_S_16.glif</string>
+  <key>VS2</key>
+  <string>V_S_2.glif</string>
+  <key>VS3</key>
+  <string>V_S_3.glif</string>
+  <key>VS4</key>
+  <string>V_S_4.glif</string>
+  <key>VS5</key>
+  <string>V_S_5.glif</string>
+  <key>VS6</key>
+  <string>V_S_6.glif</string>
+  <key>VS7</key>
+  <string>V_S_7.glif</string>
+  <key>VS8</key>
+  <string>V_S_8.glif</string>
+  <key>VS9</key>
+  <string>V_S_9.glif</string>
   <key>W</key>
   <string>W_.glif</string>
   <key>X</key>
@@ -342,6 +404,8 @@
   <string>allah-ar.glif</string>
   <key>ampersand</key>
   <string>ampersand.glif</string>
+  <key>approxequal</key>
+  <string>approxequal.glif</string>
   <key>aring</key>
   <string>aring.glif</string>
   <key>asciicircum</key>
@@ -466,6 +530,8 @@
   <string>bracketleft.glif</string>
   <key>bracketright</key>
   <string>bracketright.glif</string>
+  <key>breve</key>
+  <string>breve.glif</string>
   <key>brokenbar</key>
   <string>brokenbar.glif</string>
   <key>bullet</key>
@@ -486,6 +552,8 @@
   <string>circumflex.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
   <key>comma-ar</key>
@@ -634,6 +702,8 @@
   <string>dollar.glif</string>
   <key>dotStopabove-ar</key>
   <string>dotS_topabove-ar.glif</string>
+  <key>dotaccent</key>
+  <string>dotaccent.glif</string>
   <key>dottedCircle</key>
   <string>dottedC_ircle.glif</string>
   <key>dotvowelbelow-ar</key>
@@ -824,6 +894,8 @@
   <string>fehT_wodotsbelow-ar.init.glif</string>
   <key>fehTwodotsbelow-ar.medi</key>
   <string>fehT_wodotsbelow-ar.medi.glif</string>
+  <key>fi</key>
+  <string>fi.glif</string>
   <key>figuredash</key>
   <string>figuredash.glif</string>
   <key>figurespace</key>
@@ -850,6 +922,8 @@
   <string>five.medium.glif</string>
   <key>five.small</key>
   <string>five.small.glif</string>
+  <key>fl</key>
+  <string>fl.glif</string>
   <key>florin</key>
   <string>florin.glif</string>
   <key>footnotemarker-ar</key>
@@ -882,6 +956,8 @@
   <string>four.small.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
+  <key>fraction</key>
+  <string>fraction.glif</string>
   <key>fullstop-ar</key>
   <string>fullstop-ar.glif</string>
   <key>g</key>
@@ -912,10 +988,14 @@
   <string>ghainD_otbelow-ar.init.glif</string>
   <key>ghainDotbelow-ar.medi</key>
   <string>ghainD_otbelow-ar.medi.glif</string>
+  <key>graphemejoinercomb</key>
+  <string>graphemejoinercomb.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>greater</key>
   <string>greater.glif</string>
+  <key>greaterequal</key>
+  <string>greaterequal.glif</string>
   <key>guillemetleft</key>
   <string>guillemetleft.glif</string>
   <key>guillemetright</key>
@@ -1024,6 +1104,8 @@
   <string>highwaw-ar.glif</string>
   <key>horizontalbar</key>
   <string>horizontalbar.glif</string>
+  <key>hungarumlaut</key>
+  <string>hungarumlaut.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
   <key>hyphenationpoint</key>
@@ -1042,8 +1124,14 @@
   <string>idotless.glif</string>
   <key>igrave</key>
   <string>igrave.glif</string>
+  <key>increment</key>
+  <string>increment.glif</string>
+  <key>infinity</key>
+  <string>infinity.glif</string>
   <key>inhibitformshaping-ar</key>
   <string>inhibitformshaping-ar.glif</string>
+  <key>integral</key>
+  <string>integral.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>jeem-ar</key>
@@ -1316,10 +1404,14 @@
   <string>lefttorightoverride.glif</string>
   <key>less</key>
   <string>less.glif</string>
+  <key>lessequal</key>
+  <string>lessequal.glif</string>
   <key>lineseparator</key>
   <string>lineseparator.glif</string>
   <key>logicalnot</key>
   <string>logicalnot.glif</string>
+  <key>lozenge</key>
+  <string>lozenge.glif</string>
   <key>m</key>
   <string>m.glif</string>
   <key>macron</key>
@@ -1498,6 +1590,8 @@
   <string>noonghunna-ar.medi.glif</string>
   <key>noonghunnaabove-ar</key>
   <string>noonghunnaabove-ar.glif</string>
+  <key>notequal</key>
+  <string>notequal.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
   <key>number-ar</key>
@@ -1522,6 +1616,8 @@
   <string>o.glif</string>
   <key>oacute</key>
   <string>oacute.glif</string>
+  <key>objectReplacementCharacter</key>
+  <string>objectR_eplacementC_haracter.glif</string>
   <key>ocircumflex</key>
   <string>ocircumflex.glif</string>
   <key>odieresis</key>
@@ -1532,6 +1628,8 @@
   <string>oe-ar.glif</string>
   <key>oe-ar.fina</key>
   <string>oe-ar.fina.glif</string>
+  <key>ogonek</key>
+  <string>ogonek.glif</string>
   <key>ograve</key>
   <string>ograve.glif</string>
   <key>one</key>
@@ -1594,6 +1692,8 @@
   <string>parenright.glif</string>
   <key>parenright-ar</key>
   <string>parenright-ar.glif</string>
+  <key>partialdiff</key>
+  <string>partialdiff.glif</string>
   <key>peh-ar</key>
   <string>peh-ar.glif</string>
   <key>peh-ar.fina</key>
@@ -1626,6 +1726,8 @@
   <string>perthousand.glif</string>
   <key>perthousand-ar</key>
   <string>perthousand-ar.glif</string>
+  <key>pi</key>
+  <string>pi.glif</string>
   <key>plus</key>
   <string>plus.glif</string>
   <key>plusminus</key>
@@ -1634,6 +1736,8 @@
   <string>popdirectionalformatting.glif</string>
   <key>popdirectionalisolate</key>
   <string>popdirectionalisolate.glif</string>
+  <key>product</key>
+  <string>product.glif</string>
   <key>punctuationspace</key>
   <string>punctuationspace.glif</string>
   <key>q</key>
@@ -1712,6 +1816,8 @@
   <string>quotesingle.glif</string>
   <key>r</key>
   <string>r.glif</string>
+  <key>radical</key>
+  <string>radical.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>reh-ar</key>
@@ -1762,6 +1868,8 @@
   <string>rehv-ar.glif</string>
   <key>rehv-ar.fina</key>
   <string>rehv-ar.fina.glif</string>
+  <key>replacementCharacter</key>
+  <string>replacementC_haracter.glif</string>
   <key>rhombusStopabove-ar</key>
   <string>rhombusS_topabove-ar.glif</string>
   <key>rhombusStopbelow-ar</key>
@@ -2010,6 +2118,8 @@
   <string>sukunoval-ar.glif</string>
   <key>sukunround-ar</key>
   <string>sukunround-ar.glif</string>
+  <key>summation</key>
+  <string>summation.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>tab</key>

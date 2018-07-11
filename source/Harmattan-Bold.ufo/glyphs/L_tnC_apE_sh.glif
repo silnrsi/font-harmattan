@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="LtnCapEsh" format="2">
+  <advance width="937"/>
+  <anchor x="442" y="-75" name="L"/>
+  <anchor x="442" y="1147" name="U"/>
+  <outline>
+    <contour>
+      <point x="575" y="559" type="line"/>
+      <point x="327" y="922" type="line"/>
+      <point x="502" y="922" type="line" smooth="yes"/>
+      <point x="665" y="922"/>
+      <point x="762" y="920"/>
+      <point x="828" y="907" type="curve"/>
+      <point x="828" y="1095" type="line"/>
+      <point x="71" y="1095" type="line"/>
+      <point x="71" y="963" type="line"/>
+      <point x="347" y="558" type="line"/>
+      <point x="48" y="120" type="line"/>
+      <point x="48" y="0" type="line"/>
+      <point x="873" y="0" type="line"/>
+      <point x="873" y="187" type="line"/>
+      <point x="813" y="177"/>
+      <point x="694" y="172"/>
+      <point x="547" y="172" type="curve" smooth="yes"/>
+      <point x="296" y="172" type="line"/>
+    </contour>
+  </outline>
+</glyph>
