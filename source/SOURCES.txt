@@ -6,7 +6,7 @@ family. This information should be distributed along with the Harmattan
 fonts and any derivative works.
 
 These files are part of Harmattan font family (http://software.sil.org/harmattan/) 
-and are Copyright (c) 2014-2015 SIL International (http://www.sil.org/),
+and are Copyright (c) 2014-2018 SIL International (http://www.sil.org/),
 with Reserved Font Names "Harmattan" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -15,7 +15,31 @@ You should have received a copy of the license along with this Font Software.
 If this is not the case, go to (http://scripts.sil.org/OFL) for all the
 details including an FAQ.
 
-Graphite code: See the README.txt file in the graphite/ folder for details.
+Source files and folders included:
 
-OpenType code: See the README.txt file in the opentype/ folder for details.
+graphite/
+    Graphite code: See the graphite/README.txt for details
 
+opentype/
+    OpenType code: See the opentype/README.txt for details
+
+typetuner/
+    TypeTuner code
+
+Harmattan-*.ufo/
+    Font sources in Unified Font Object format
+
+Harmattan-RB.designspace
+    DesignSpace document used to open the UFOs in GlyphsApp
+
+glyph_data.csv
+    Complete list of glyphs (and metadata regarding them) for the project
+
+FromAndika.csv
+    List of glyphs pulled from SIL's Andika font project to provide the 
+    character repertoire recommended by SIL for non-Roman faces. (see 
+    http://scriptsource.org/entry/gg5wm9hhd3 for details)
+
+classes.xml
+    Glyph classes used in by the Graphite and OpenType logic but which
+    cannot be algorithmically generated.
