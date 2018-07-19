@@ -1293,7 +1293,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>0</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1141</string>
+  <string>1143</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
