@@ -15,7 +15,7 @@ USV,new_name,ps_name,glyph_name
 002E,period,period,FullStop
 002F,slash,slash,Solidus
 0030,zero,zero,DigitZero
-0031,one,one,DigitOne
+0031,one,one,DigitOne.NoBase
 0032,two,two,DigitTwo
 0033,three,three,DigitThree
 0034,four,four,DigitFour
