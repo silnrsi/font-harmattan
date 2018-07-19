@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="summation.rtl" format="2">
+  <advance width="937"/>
+  <anchor x="495" y="-75" name="L"/>
+  <anchor x="495" y="1147" name="U"/>
+  <outline>
+    <component base="LtnCapEsh" xScale="-1" xOffset="937"/>
+  </outline>
+</glyph>

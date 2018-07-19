@@ -4,12 +4,6 @@
   <anchor x="190" y="1691" name="diaA"/>
   <outline>
     <contour>
-      <point x="3127.948" y="915.391" type="move"/>
-      <point x="3125.631" y="918.134"/>
-      <point x="3123.313" y="920.877"/>
-      <point x="3120.995" y="923.62" type="curve"/>
-    </contour>
-    <contour>
       <point x="14917.219" y="1509.401" type="move"/>
       <point x="14925.019" y="1512.498"/>
       <point x="14924.172" y="1509.668"/>

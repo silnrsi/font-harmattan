@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven-persian.urdu.small" format="2">
   <advance width="600"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="490" y="0" name="digit"/>
   <outline>
-    <component base="seven-ar.small"/>
+    <component base="seven-persian.urdu" xScale="0.55684" yScale="0.55684" xOffset="11" yOffset="370"/>
   </outline>
   <lib>
     <dict>

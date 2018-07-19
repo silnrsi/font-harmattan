@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight-persian.medium" format="2">
-  <advance width="697"/>
-  <anchor x="11" y="0" name="_digit"/>
-  <anchor x="685" y="0" name="digit"/>
+  <advance width="737"/>
+  <anchor x="15" y="0" name="_digit"/>
+  <anchor x="689" y="0" name="digit"/>
   <outline>
-    <component base="eight-ar.medium" xOffset="11"/>
+    <component base="eight-ar.medium" xOffset="15"/>
   </outline>
   <lib>
     <dict>

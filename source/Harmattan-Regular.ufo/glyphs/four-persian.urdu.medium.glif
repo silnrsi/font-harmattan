@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four-persian.urdu.medium" format="2">
-  <advance width="600"/>
+  <advance width="674"/>
   <anchor x="0" y="0" name="_digit"/>
   <anchor x="674" y="0" name="digit"/>
-  <outline/>
+  <outline>
+    <component base="four-persian.urdu" xScale="0.833" yScale="0.833" xOffset="-40" yOffset="172"/>
+  </outline>
 </glyph>

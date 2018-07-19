@@ -22,7 +22,7 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/07/10 22:26:52</string>
+  <data>2018/07/19 21:25:09</data>
   <key>openTypeHheaAscender</key>
   <integer>2080</integer>
   <key>openTypeHheaDescender</key>
@@ -103,11 +103,11 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredFamilyName</key>
   <string>Harmattan</string>
   <key>openTypeNamePreferredSubfamilyName</key>
-  <string>Regular</string>
+  <data>Regular</data>
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Harmattan Regular: 2018</string>
   <key>openTypeNameVersion</key>
-  <string>Version 1.030</string>
+  <string>Version 1.031</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -161,9 +161,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>1111</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>Harmattan-Regular</string>
-  <key>postscriptFullName</key>
-  <string>Harmattan Regular</string>
+  <data>Harmattan-Regular</data>
   <key>postscriptOtherBlues</key>
   <array>
     <integer>-378</integer>
@@ -200,7 +198,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>30</integer>
+  <integer>31</integer>
   <key>xHeight</key>
   <integer>778</integer>
 </dict>

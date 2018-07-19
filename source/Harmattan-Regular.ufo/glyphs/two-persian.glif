@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="two-persian" format="2">
-  <advance width="685"/>
+  <advance width="755"/>
   <unicode hex="06F2"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="755" y="0" name="digit"/>
   <outline>
     <component base="two-ar"/>
   </outline>

@@ -4,16 +4,15 @@
 <dict>
   <key>com.schriftgestaltung.DisplayStrings</key>
   <array>
-    <string>/ain-ar/number-ar/number-ar.2/number-ar.3/reh-ar/decimalseparator-ar ,/comma-ar/comma-ar.downward/quoteright/thousandseparator-ar */asterisk-ar/parenleft-ar/parenright-ar 
-/seen-ar.medi/year-ar/year-ar.2/year-ar.3/year-ar.4 
-/footnotemarker-ar/footnotemarker-ar/footnotemarker-ar.2/fehDotless-ar 
-/sad-ar/pagenumber-ar/pagenumber-ar.2/pagenumber-ar.3/pagenumber-ar.4  /sad-ar  /seen-ar/samvat-ar/samvat-ar/samvat-ar.2/samvat-ar.3/samvat-ar.4  /seen-ar/afghani-ar/fehDotless-ar 
-/endofayah-ar/endofayah-ar.2/endofayah-ar.3 
-/endofayah-ar.alt 5/three-ar/endofayah-ar.altB/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB.2/endofayah-ar.altB.3</string>
-    <string>/zero-ar/zero-ar.medium/zero-ar.small/one-ar/one-ar.medium/one-ar.small/two-ar/two-ar.medium/two-ar.small/three-ar/three-ar.medium/three-ar.small/four-ar/four-ar.medium/four-ar.small/five-ar/five-ar.medium/five-ar.small/six-ar/six-ar.medium/six-ar.small/seven-ar/seven-ar.medium/seven-ar.small/eight-ar/eight-ar.medium/eight-ar.small/nine-ar/nine-ar.medium/nine-ar.small/zero-persian/zero-persian.medium/zero-persian.small/one-persian/one-persian.medium/one-persian.small/two-persian/two-persian.medium/two-persian.small/three-persian/three-persian.medium/three-persian.small/four-persian/four-persian.medium/four-persian.small/four-persian.urdu/four-persian.urdu.medium/four-persian.urdu.small/five-persian/five-persian.medium/five-persian.small/six-persian/six-persian.medium/six-persian.small/six-persian.urdu/six-persian.urdu.medium/six-persian.urdu.small/seven-persian/seven-persian.medium/seven-persian.small/seven-persian.urdu/seven-persian.urdu.medium/seven-persian.urdu.small/eight-persian/eight-persian.medium/eight-persian.small/nine-persian/nine-persian.medium/nine-persian.small 
-/one-ar/two-ar/three-ar/four-ar/five-ar/six-ar/seven-ar/eight-ar/nine-ar/zero-ar 
-/one-persian/two-persian/three-persian/four-persian/five-persian/six-persian/seven-persian/eight-persian/nine-persian/zero-persian 
-/four-persian.urdu/five-ar/six-persian.urdu/seven-persian.urdu/eight-ar/nine-ar</string>
+    <string>/comma-ar/comma-ar.downward/semicolon-ar/semicolon-ar.downward   ;,/quoteleft/quoteright/quotesinglbase/quotedblleft/quotedblright/quotedblbase</string>
+    <string>/partialdiff/partialdiff.rtl/summation/summation.rtl/integral/integral.rtl/approxequal/approxequal.rtl/notequal/notequal.rtl</string>
+    <string>/heh-ar/sheen-ar/heh-ar/yeh-ar/sheen-ar  /alef-ar/lam-ar/alef-ar/sheen-ar/heh-ar  /one-ar/two-ar  /kaf-ar/alef-ar/seen-ar/yeh-ar/alef-ar/sheen-ar/heh-ar  /yeh-ar/tah-ar/heh-ar  /nine-ar/eight-ar  /yeh-ar/tah-ar/alef-ar/meem-ar  /eight-ar/three-ar 
+/kaf-ar/lam-ar/yeh-ar/tah-ar  /sheen-ar/yeh-ar/alef-ar/heh-ar  /four-ar/three-ar  /yeh-ar/sheen-ar/yeh-ar/alef-ar  79/tah-ar/zain-ar/heh-ar/reh-ar 1 /teh-ar/hah-ar/yeh-ar/waw-ar/tah-ar/one-ar 1 /tah-ar/alef-ar/lam-ar 87 /tah-ar/kaf-ar/lam-ar/kaf-ar   /kaf-ar 54/seen-ar.init/sheen-ar/alef-ar 1/tcheh-ar/lam-ar  90/sad-ar/meem-ar/khah-ar/heh-ar 32 /teh-ar/yeh-ar/khah-ar/alef-ar  /tah-ar/kaf-ar/beh-ar/khah-ar  </string>
+    <string>/zero-ar/zero-ar.medium/zero-ar.small/one-ar/one-ar.medium/one-ar.small/two-ar/two-ar.medium/two-ar.small/three-ar/three-ar.medium/three-ar.small/four-ar/four-ar.medium/four-ar.small/five-ar/five-ar.medium/five-ar.small 
+/six-ar/six-ar.medium/six-ar.small/seven-ar/seven-ar.medium/seven-ar.small/eight-ar/eight-ar.medium/eight-ar.small/nine-ar/nine-ar.medium/nine-ar.small 
+/zero-persian/zero-persian.medium/zero-persian.small/one-persian/one-persian.medium/one-persian.small/two-persian/two-persian.medium/two-persian.small/three-persian/three-persian.medium/three-persian.small/four-persian/four-persian.medium/four-persian.small/four-persian.urdu/four-persian.urdu.medium/four-persian.urdu.small/five-persian/five-persian.medium/five-persian.small 
+/six-persian/six-persian.medium/six-persian.small/six-persian.urdu/six-persian.urdu.medium/six-persian.urdu.small/seven-persian/seven-persian.medium/seven-persian.small/seven-persian.urdu/seven-persian.urdu.medium/seven-persian.urdu.small/eight-persian/eight-persian.medium/eight-persian.small/nine-persian/nine-persian.medium/nine-persian.small</string>
+    <string>0/zero.medium/zero.small 1/one.medium/one.small 2/two.medium/two.small 3/three.medium/three.small 4/four.medium/four.small 5/five.medium/five.small 6/six.medium/six.small 7/seven.medium/seven.small 8/eight.medium/eight.small 9/nine.medium/nine.small ))}{</string>
   </array>
   <key>com.schriftgestaltung.customValue</key>
   <integer>0</integer>
@@ -22,7 +21,9 @@
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.fontMasterID</key>
-  <string>UUID0</string>
+  <data>
+    VVVJRDA=
+    </data>
   <key>com.schriftgestaltung.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -1234,7 +1235,7 @@
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
     <string>fi</string>
-    <string>fi</string>
+    <string>fl</string>
     <string>VS1</string>
     <string>VS2</string>
     <string>VS3</string>
@@ -1294,7 +1295,9 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>0</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1141</string>
+  <data>
+    MTE0MQ==
+    </data>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -2506,7 +2509,7 @@
     <string>FontBslnSideBrngMrkrLft</string>
     <string>FontBslnSideBrngMrkrRt</string>
     <string>fi</string>
-    <string>fi</string>
+    <string>fl</string>
     <string>VS1</string>
     <string>VS2</string>
     <string>VS3</string>
@@ -3117,8 +3120,6 @@
     <string>uni0760.init</string>
     <key>fehTwodotsbelow-ar.medi</key>
     <string>uni0760.medi</string>
-    <key>fi</key>
-    <string>fl</string>
     <key>figurespace</key>
     <string>uni2007</string>
     <key>firststrongisolate</key>

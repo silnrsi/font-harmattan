@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight-persian" format="2">
-  <advance width="896"/>
+  <advance width="936"/>
   <unicode hex="06F8"/>
+  <anchor x="0" y="0" name="_digit"/>
+  <anchor x="936" y="0" name="digit"/>
   <outline>
     <component base="eight-ar"/>
   </outline>

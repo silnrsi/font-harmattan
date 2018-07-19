@@ -30,6 +30,8 @@
   <string>C_cedilla.glif</string>
   <key>CombAcute</key>
   <string>C_ombA_cute.glif</string>
+  <key>CombBreve</key>
+  <string>C_ombB_reve.glif</string>
   <key>CombCaron</key>
   <string>C_ombC_aron.glif</string>
   <key>CombCedilla</key>
@@ -40,10 +42,14 @@
   <string>C_ombD_iaer.glif</string>
   <key>CombGrave</key>
   <string>C_ombG_rave.glif</string>
+  <key>CombOgonek</key>
+  <string>C_ombO_gonek.glif</string>
   <key>CombRingAbv</key>
   <string>C_ombR_ingA_bv.glif</string>
   <key>CombTilde</key>
   <string>C_ombT_ilde.glif</string>
+  <key>CombTildeOverlay.Lrg</key>
+  <string>C_ombT_ildeO_verlay.L_rg.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>E</key>
@@ -66,6 +72,8 @@
   <string>F_ontB_slnS_ideB_rngM_rkrR_t.glif</string>
   <key>G</key>
   <string>G_.glif</string>
+  <key>GrCapDelta</key>
+  <string>G_rC_apD_elta.glif</string>
   <key>GrCapOmega</key>
   <string>G_rC_apO_mega.glif</string>
   <key>GrCapPi</key>
@@ -400,6 +408,8 @@
   <string>ampersand.glif</string>
   <key>approxequal</key>
   <string>approxequal.glif</string>
+  <key>approxequal.rtl</key>
+  <string>approxequal.rtl.glif</string>
   <key>aring</key>
   <string>aring.glif</string>
   <key>asciicircum</key>
@@ -1126,6 +1136,8 @@
   <string>inhibitformshaping-ar.glif</string>
   <key>integral</key>
   <string>integral.glif</string>
+  <key>integral.rtl</key>
+  <string>integral.rtl.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>jeem-ar</key>
@@ -1586,6 +1598,8 @@
   <string>noonghunnaabove-ar.glif</string>
   <key>notequal</key>
   <string>notequal.glif</string>
+  <key>notequal.rtl</key>
+  <string>notequal.rtl.glif</string>
   <key>ntilde</key>
   <string>ntilde.glif</string>
   <key>number-ar</key>
@@ -1688,6 +1702,8 @@
   <string>parenright-ar.glif</string>
   <key>partialdiff</key>
   <string>partialdiff.glif</string>
+  <key>partialdiff.rtl</key>
+  <string>partialdiff.rtl.glif</string>
   <key>peh-ar</key>
   <string>peh-ar.glif</string>
   <key>peh-ar.fina</key>
@@ -1812,6 +1828,8 @@
   <string>r.glif</string>
   <key>radical</key>
   <string>radical.glif</string>
+  <key>radical.rtl</key>
+  <string>radical.rtl.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>reh-ar</key>
@@ -2114,6 +2132,8 @@
   <string>sukunround-ar.glif</string>
   <key>summation</key>
   <string>summation.glif</string>
+  <key>summation.rtl</key>
+  <string>summation.rtl.glif</string>
   <key>t</key>
   <string>t.glif</string>
   <key>tab</key>

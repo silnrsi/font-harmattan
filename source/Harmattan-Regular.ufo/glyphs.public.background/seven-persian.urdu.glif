@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seven-persian.urdu" format="2">
+  <advance width="900"/>
+  <outline>
+    <contour>
+      <point x="563" y="1102" type="move"/>
+      <point x="532" y="1102"/>
+      <point x="468" y="1089"/>
+      <point x="450" y="1060" type="curve"/>
+      <point x="404" y="818"/>
+      <point x="248" y="429"/>
+      <point x="98" y="160" type="curve"/>
+      <point x="86" y="118"/>
+      <point x="143" y="13"/>
+      <point x="179" y="-3" type="curve"/>
+      <point x="343" y="287"/>
+      <point x="469" y="627"/>
+      <point x="515" y="838" type="curve"/>
+    </contour>
+  </outline>
+</glyph>
