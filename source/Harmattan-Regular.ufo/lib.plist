@@ -21,9 +21,7 @@
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.fontMasterID</key>
-  <data>
-    VVVJRDA=
-    </data>
+  <string>UUID0</string>
   <key>com.schriftgestaltung.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -1295,9 +1293,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>0</integer>
   <key>org.sil.glyphsappversion</key>
-  <data>
-    MTE0MQ==
-    </data>
+  <string>1141</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>

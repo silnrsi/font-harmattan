@@ -21,9 +21,7 @@
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.fontMasterID</key>
-  <data>
-    NThDNEZENzMtRTM2OS00N0ZDLUJCMkUtQkE4MjZGOTdDRUI1
-    </data>
+  <string>58C4FD73-E369-47FC-BB2E-BA826F97CEB5</string>
   <key>com.schriftgestaltung.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -1287,9 +1285,7 @@
   <key>com.schriftgestaltung.useNiceNames</key>
   <false/>
   <key>com.schriftgestaltung.weight</key>
-  <data>
-    Qm9sZA==
-    </data>
+  <string>Bold</string>
   <key>com.schriftgestaltung.weightValue</key>
   <integer>700</integer>
   <key>com.schriftgestaltung.width</key>
@@ -1297,9 +1293,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>0</integer>
   <key>org.sil.glyphsappversion</key>
-  <data>
-    MTE0MQ==
-    </data>
+  <string>1141</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
