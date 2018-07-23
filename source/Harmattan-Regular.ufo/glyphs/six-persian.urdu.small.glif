@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six-persian.urdu.small" format="2">
-  <advance width="494"/>
+  <advance width="500"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="495" y="0" name="digit"/>
+  <anchor x="500" y="0" name="digit"/>
   <outline>
-    <component base="six-ar.small"/>
+    <component base="six-ar.small" xOffset="-3"/>
   </outline>
 </glyph>

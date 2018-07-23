@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three-ar.small" format="2">
-  <advance width="494"/>
-  <anchor x="0" y="0" name="_digit"/>
-  <anchor x="494" y="0" name="digit"/>
+  <advance width="500"/>
+  <anchor x="-11" y="0" name="_digit"/>
+  <anchor x="483" y="0" name="digit"/>
   <outline>
-    <component base="three-ar" xScale="0.556" yScale="0.556" xOffset="-27" yOffset="364"/>
+    <component base="three-ar" xScale="0.556" yScale="0.556" xOffset="6" yOffset="364"/>
   </outline>
 </glyph>

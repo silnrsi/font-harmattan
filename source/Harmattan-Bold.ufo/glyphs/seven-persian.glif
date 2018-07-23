@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven-persian" format="2">
-  <advance width="941"/>
+  <advance width="930"/>
   <unicode hex="06F7"/>
-  <anchor x="0" y="0" name="_digit"/>
-  <anchor x="941" y="0" name="digit"/>
   <outline>
     <component base="seven-ar"/>
   </outline>

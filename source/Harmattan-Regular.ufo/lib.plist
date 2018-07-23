@@ -7,12 +7,15 @@
     <string>/comma-ar/comma-ar.downward/semicolon-ar/semicolon-ar.downward   ;,/quoteleft/quoteright/quotesinglbase/quotedblleft/quotedblright/quotedblbase</string>
     <string>/partialdiff/partialdiff.rtl/summation/summation.rtl/integral/integral.rtl/approxequal/approxequal.rtl/notequal/notequal.rtl</string>
     <string>/heh-ar/sheen-ar/heh-ar/yeh-ar/sheen-ar  /alef-ar/lam-ar/alef-ar/sheen-ar/heh-ar  /one-ar/two-ar  /kaf-ar/alef-ar/seen-ar/yeh-ar/alef-ar/sheen-ar/heh-ar  /yeh-ar/tah-ar/heh-ar  /nine-ar/eight-ar  /yeh-ar/tah-ar/alef-ar/meem-ar  /eight-ar/three-ar 
-/kaf-ar/lam-ar/yeh-ar/tah-ar  /sheen-ar/yeh-ar/alef-ar/heh-ar  /four-ar/three-ar  /yeh-ar/sheen-ar/yeh-ar/alef-ar  79/tah-ar/zain-ar/heh-ar/reh-ar 1 /teh-ar/hah-ar/yeh-ar/waw-ar/tah-ar/one-ar 1 /tah-ar/alef-ar/lam-ar 87 /tah-ar/kaf-ar/lam-ar/kaf-ar   /kaf-ar 54/seen-ar.init/sheen-ar/alef-ar 1/tcheh-ar/lam-ar  90/sad-ar/meem-ar/khah-ar/heh-ar 32 /teh-ar/yeh-ar/khah-ar/alef-ar  /tah-ar/kaf-ar/beh-ar/khah-ar  </string>
-    <string>/zero-ar/zero-ar.medium/zero-ar.small/one-ar/one-ar.medium/one-ar.small/two-ar/two-ar.medium/two-ar.small/three-ar/three-ar.medium/three-ar.small/four-ar/four-ar.medium/four-ar.small/five-ar/five-ar.medium/five-ar.small 
+/kaf-ar/lam-ar/yeh-ar/tah-ar  /sheen-ar/yeh-ar/alef-ar/heh-ar  /four-ar/three-ar  /yeh-ar/sheen-ar/yeh-ar/alef-ar  709/three-ar 6/tah-ar/zain-ar/heh-ar/reh-ar 1 /teh-ar/hah-ar/yeh-ar/waw-ar/tah-ar/one-ar 1 /tah-ar/alef-ar/lam-ar 87 /tah-ar/kaf-ar/lam-ar/kaf-ar   /kaf-ar 54/seen-ar.init/sheen-ar/alef-ar 1/tcheh-ar/lam-ar  90/sad-ar/meem-ar/khah-ar/heh-ar 32 /teh-ar/yeh-ar/khah-ar/alef-ar  /tah-ar/kaf-ar/beh-ar/khah-ar  </string>
+    <string>/three-ar/three-ar/three-ar/three-ar.medium/three-ar.medium/three-ar.medium/three-ar.small/three-ar.small/three-ar.small/one-ar/one-ar/one-ar/one-ar.medium/one-ar.medium/one-ar.medium/one-ar.small/one-ar.small/one-ar.small 
+/zero-ar/zero-ar.medium/zero-ar.small/one-ar/one-ar.medium/one-ar.small/two-ar/two-ar.medium/two-ar.small/three-ar/three-ar.medium/three-ar.small/four-ar/four-ar.medium/four-ar.small/five-ar/five-ar.medium/five-ar.small 
 /six-ar/six-ar.medium/six-ar.small/seven-ar/seven-ar.medium/seven-ar.small/eight-ar/eight-ar.medium/eight-ar.small/nine-ar/nine-ar.medium/nine-ar.small 
-/zero-persian/zero-persian.medium/zero-persian.small/one-persian/one-persian.medium/one-persian.small/two-persian/two-persian.medium/two-persian.small/three-persian/three-persian.medium/three-persian.small/four-persian/four-persian.medium/four-persian.small/four-persian.urdu/four-persian.urdu.medium/four-persian.urdu.small/five-persian/five-persian.medium/five-persian.small 
-/six-persian/six-persian.medium/six-persian.small/six-persian.urdu/six-persian.urdu.medium/six-persian.urdu.small/seven-persian/seven-persian.medium/seven-persian.small/seven-persian.urdu/seven-persian.urdu.medium/seven-persian.urdu.small/eight-persian/eight-persian.medium/eight-persian.small/nine-persian/nine-persian.medium/nine-persian.small</string>
-    <string>0/zero.medium/zero.small 1/one.medium/one.small 2/two.medium/two.small 3/three.medium/three.small 4/four.medium/four.small 5/five.medium/five.small 6/six.medium/six.small 7/seven.medium/seven.small 8/eight.medium/eight.small 9/nine.medium/nine.small ))}{</string>
+/zero-persian/zero-persian.medium/zero-persian.small/two-persian/two-persian.medium/two-persian.small/three-persian/three-persian.medium/three-persian.small/four-persian/four-persian.medium/four-persian.small/four-persian.urdu/four-persian.urdu.medium/four-persian.urdu.small/five-persian/five-persian.medium/five-persian.small 
+/six-persian/six-persian.medium/six-persian.small/six-persian.urdu/six-persian.urdu.medium/six-persian.urdu.small/seven-persian/seven-persian.medium/seven-persian.small/seven-persian.urdu/seven-persian.urdu.medium/seven-persian.urdu.small/eight-persian/eight-persian.medium/eight-persian.small/nine-persian/nine-persian.medium/nine-persian.small 
+/zero-ar/five-ar/one-ar  /three-ar/one-ar  /one-ar/three-ar</string>
+    <string>0/three-ar.medium/four-ar.medium/zero.medium/zero.small 1/one.medium/one.small 2/two.medium/two.small 3/three.medium/three.small 4/four.medium/four.small 5/five.medium/five.small 6/six.medium/six.small 7/seven.medium/seven.small 8/eight.medium/eight.small 9/nine.medium/nine.small ))}{88}(88)
+0123456789</string>
   </array>
   <key>com.schriftgestaltung.customValue</key>
   <integer>0</integer>
@@ -1293,7 +1296,7 @@
   <key>com.schriftgestaltung.widthValue</key>
   <integer>0</integer>
   <key>org.sil.glyphsappversion</key>
-  <string>1143</string>
+  <string>1141</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>

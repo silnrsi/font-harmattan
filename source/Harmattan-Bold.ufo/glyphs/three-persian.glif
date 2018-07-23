@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="three-persian" format="2">
-  <advance width="1101"/>
+  <advance width="930"/>
   <unicode hex="06F3"/>
-  <anchor x="0" y="0" name="_digit"/>
-  <anchor x="1101" y="0" name="digit"/>
   <outline>
     <component base="three-ar"/>
   </outline>

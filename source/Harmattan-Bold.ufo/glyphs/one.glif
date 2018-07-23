@@ -6,11 +6,11 @@
   <anchor x="450" y="1147" name="U"/>
   <outline>
     <contour>
-      <point x="575" y="1095" type="line"/>
-      <point x="369" y="1095" type="line"/>
-      <point x="132" y="958" type="line"/>
-      <point x="159" y="763" type="line"/>
-      <point x="369" y="877" type="line"/>
+      <point x="575" y="1075" type="line"/>
+      <point x="369" y="1075" type="line"/>
+      <point x="132" y="938" type="line"/>
+      <point x="159" y="743" type="line"/>
+      <point x="369" y="857" type="line"/>
       <point x="369" y="0" type="line"/>
       <point x="590" y="0" type="line"/>
       <point x="580" y="81"/>

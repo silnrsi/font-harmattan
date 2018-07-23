@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one-persian.medium" format="2">
-  <advance width="674"/>
+  <advance width="690"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="674" y="0" name="digit"/>
+  <anchor x="690" y="0" name="digit"/>
   <outline>
     <component base="one-ar.medium"/>
   </outline>

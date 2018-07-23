@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one-ar.small" format="2">
-  <advance width="494"/>
+  <advance width="500"/>
   <anchor x="0" y="0" name="_digit"/>
   <anchor x="494" y="0" name="digit"/>
   <outline>
-    <component base="one-ar" xScale="0.556" yScale="0.556" xOffset="90" yOffset="356"/>
+    <component base="one-ar" xScale="0.556" yScale="0.556" xOffset="-14" yOffset="356"/>
   </outline>
 </glyph>

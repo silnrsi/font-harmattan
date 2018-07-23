@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eight-ar.medium" format="2">
-  <advance width="674"/>
+  <advance width="750"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="674" y="0" name="digit"/>
+  <anchor x="750" y="0" name="digit"/>
   <outline>
-    <component base="eight-ar" xScale="0.769" yScale="0.769" xOffset="-7" yOffset="206"/>
+    <component base="eight-ar" xScale="0.769" yScale="0.769" xOffset="17" yOffset="206"/>
   </outline>
 </glyph>

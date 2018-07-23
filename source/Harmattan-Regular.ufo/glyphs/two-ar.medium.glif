@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="two-ar.medium" format="2">
-  <advance width="685"/>
+  <advance width="690"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="674" y="0" name="digit"/>
+  <anchor x="690" y="0" name="digit"/>
   <outline>
-    <component base="two-ar" xScale="0.769" yScale="0.769" xOffset="79" yOffset="227"/>
+    <component base="two-ar" xScale="0.769" yScale="0.769" xOffset="-1" yOffset="227"/>
   </outline>
 </glyph>

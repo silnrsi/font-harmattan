@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four.medium" format="2">
-  <advance width="674"/>
+  <advance width="690"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="674" y="0" name="digit"/>
+  <anchor x="690" y="0" name="digit"/>
   <outline>
-    <contour>
-      <point x="631" y="471" type="line"/>
-      <point x="631" y="558" type="line"/>
-      <point x="524" y="558" type="line"/>
-      <point x="524" y="1080" type="line"/>
-      <point x="418" y="1080" type="line"/>
-      <point x="49" y="558" type="line"/>
-      <point x="49" y="471" type="line"/>
-      <point x="418" y="471" type="line"/>
-      <point x="418" y="250" type="line"/>
-      <point x="524" y="250" type="line"/>
-      <point x="524" y="471" type="line"/>
-    </contour>
-    <contour>
-      <point x="418" y="940" type="line"/>
-      <point x="418" y="558" type="line"/>
-      <point x="148" y="558" type="line"/>
-    </contour>
+    <component base="four" xScale="0.769" yScale="0.769" xOffset="-5" yOffset="205"/>
   </outline>
 </glyph>

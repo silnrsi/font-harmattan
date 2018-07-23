@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="one.medium" format="2">
-  <advance width="674"/>
+  <advance width="750"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="674" y="0" name="digit"/>
+  <anchor x="750" y="0" name="digit"/>
   <outline>
-    <contour>
-      <point x="415" y="1069" type="line"/>
-      <point x="308" y="1069" type="line"/>
-      <point x="132" y="954" type="line"/>
-      <point x="146" y="853" type="line"/>
-      <point x="308" y="956" type="line"/>
-      <point x="308" y="250" type="line"/>
-      <point x="426" y="250" type="line"/>
-      <point x="419" y="311"/>
-      <point x="415" y="443"/>
-      <point x="415" y="516" type="curve" smooth="yes"/>
-    </contour>
+    <component base="one" xScale="0.769" yScale="0.769" xOffset="40" yOffset="205"/>
   </outline>
 </glyph>

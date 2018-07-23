@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zero-ar.small" format="2">
-  <advance width="494"/>
+  <advance width="500"/>
   <anchor x="0" y="0" name="_digit"/>
   <anchor x="494" y="0" name="digit"/>
   <outline>

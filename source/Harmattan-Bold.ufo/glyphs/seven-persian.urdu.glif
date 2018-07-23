@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seven-persian.urdu" format="2">
-  <advance width="941"/>
-  <anchor x="0" y="0" name="_digit"/>
-  <anchor x="941" y="0" name="digit"/>
+  <advance width="930"/>
   <outline>
     <contour>
-      <point x="619" y="1016" type="curve"/>
-      <point x="598" y="1070"/>
-      <point x="526" y="1125"/>
-      <point x="471" y="1139" type="curve"/>
-      <point x="396" y="731"/>
-      <point x="223" y="391"/>
+      <point x="609" y="977" type="curve"/>
+      <point x="588" y="1031"/>
+      <point x="516" y="1086"/>
+      <point x="461" y="1100" type="curve"/>
+      <point x="386" y="692"/>
+      <point x="213" y="352"/>
       <point x="79" y="149" type="curve"/>
       <point x="82" y="105"/>
       <point x="91" y="35"/>
@@ -24,8 +22,8 @@
       <point x="683" y="190"/>
       <point x="461" y="193"/>
       <point x="302" y="179" type="curve"/>
-      <point x="404" y="400"/>
-      <point x="537" y="653"/>
+      <point x="394" y="361"/>
+      <point x="527" y="614"/>
     </contour>
   </outline>
 </glyph>

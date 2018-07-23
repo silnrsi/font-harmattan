@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="four-ar.small" format="2">
-  <advance width="494"/>
-  <anchor x="0" y="0" name="_digit"/>
-  <anchor x="494" y="0" name="digit"/>
+  <advance width="550"/>
+  <anchor x="40" y="0" name="_digit"/>
+  <anchor x="590" y="0" name="digit"/>
   <outline>
-    <component base="four-ar" xScale="0.556" yScale="0.556" xOffset="56" yOffset="364"/>
+    <component base="four-ar" xScale="0.556" yScale="0.556" xOffset="26" yOffset="364"/>
   </outline>
 </glyph>

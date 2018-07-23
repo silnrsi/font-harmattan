@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="five-persian.medium" format="2">
-  <advance width="674"/>
+  <advance width="690"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="722" y="0" name="digit"/>
+  <anchor x="690" y="0" name="digit"/>
   <outline>
-    <component base="five-persian" xScale="0.833" yScale="0.833" xOffset="-44" yOffset="172"/>
+    <component base="five-persian" xScale="0.833" yScale="0.833" xOffset="-30" yOffset="172"/>
   </outline>
 </glyph>

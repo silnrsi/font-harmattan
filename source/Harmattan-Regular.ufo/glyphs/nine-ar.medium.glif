@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nine-ar.medium" format="2">
-  <advance width="674"/>
+  <advance width="690"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="674" y="0" name="digit"/>
+  <anchor x="690" y="0" name="digit"/>
   <outline>
-    <component base="nine-ar" xScale="0.769" yScale="0.769" xOffset="63" yOffset="207"/>
+    <component base="nine-ar" xScale="0.769" yScale="0.769" xOffset="13" yOffset="207"/>
   </outline>
 </glyph>

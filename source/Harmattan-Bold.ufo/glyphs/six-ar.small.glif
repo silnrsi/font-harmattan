@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="six-ar.small" format="2">
-  <advance width="494"/>
+  <advance width="550"/>
   <anchor x="0" y="0" name="_digit"/>
-  <anchor x="494" y="0" name="digit"/>
+  <anchor x="550" y="0" name="digit"/>
   <outline>
-    <component base="six-ar" xScale="0.556" yScale="0.556" xOffset="-15" yOffset="359"/>
+    <component base="six-ar" xScale="0.556" yScale="0.556" xOffset="25" yOffset="359"/>
   </outline>
 </glyph>

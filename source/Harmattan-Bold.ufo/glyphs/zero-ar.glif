@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zero-ar" format="2">
-  <advance width="756"/>
+  <advance width="930"/>
   <unicode hex="0660"/>
   <outline>
     <contour>
-      <point x="367" y="738" type="line"/>
-      <point x="182" y="554" type="line"/>
-      <point x="252" y="464"/>
-      <point x="344" y="397"/>
-      <point x="381" y="378" type="curve"/>
-      <point x="425" y="410"/>
-      <point x="501" y="473"/>
-      <point x="568" y="559" type="curve"/>
+      <point x="467" y="738" type="line"/>
+      <point x="282" y="554" type="line"/>
+      <point x="352" y="464"/>
+      <point x="444" y="397"/>
+      <point x="481" y="378" type="curve"/>
+      <point x="525" y="410"/>
+      <point x="601" y="473"/>
+      <point x="668" y="559" type="curve"/>
     </contour>
   </outline>
 </glyph>
