@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar.medi.hand" format="2">
   <advance width="989"/>
-  <anchor x="95" y="687" name="alef"/>
-  <anchor x="433" y="887" name="diaA"/>
+  <anchor x="-13" y="684" name="alef"/>
+  <anchor x="227" y="869" name="diaA"/>
   <anchor x="444" y="-714" name="diaB"/>
   <outline>
     <component base="hah-ar.medi.hand"/>
-    <component base="_dot2h" xOffset="410" yOffset="740"/>
+    <component base="_dot2h" xOffset="360" yOffset="740"/>
     <component base="_dot1" xOffset="460" yOffset="-473"/>
   </outline>
   <lib>

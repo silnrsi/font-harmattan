@@ -2,11 +2,11 @@
 <glyph name="lamDotabove-ar.fina" format="2">
   <advance width="1089"/>
   <anchor x="283" y="402" name="alef"/>
-  <anchor x="761" y="1496" name="diaA"/>
+  <anchor x="771" y="1569" name="diaA"/>
   <anchor x="460" y="-577" name="diaB"/>
   <outline>
     <component base="lam-ar.fina"/>
-    <component base="_dot1" xOffset="748" yOffset="1384"/>
+    <component base="_dot1" xOffset="798" yOffset="1384"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonRing-ar.init" format="2">
   <advance width="449"/>
-  <anchor x="86" y="822" name="alef"/>
-  <anchor x="105" y="846" name="diaA"/>
+  <anchor x="-49" y="784" name="alef"/>
+  <anchor x="169" y="916" name="diaA"/>
   <anchor x="233" y="-273" name="diaB"/>
   <outline>
     <component base="noon-ar.init"/>
-    <component base="_ring" xOffset="240" yOffset="-55"/>
+    <component base="_ring" xOffset="241" yOffset="-55"/>
   </outline>
   <lib>
     <dict>

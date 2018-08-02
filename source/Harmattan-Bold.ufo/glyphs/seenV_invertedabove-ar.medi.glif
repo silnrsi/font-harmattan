@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenVinvertedabove-ar.medi" format="2">
   <advance width="1355"/>
-  <anchor x="427" y="738" name="alef"/>
-  <anchor x="621" y="917" name="diaA"/>
+  <anchor x="209" y="530" name="alef"/>
+  <anchor x="641" y="917" name="diaA"/>
   <anchor x="693" y="-123" name="diaB"/>
   <outline>
     <component base="seen-ar.medi"/>
-    <component base="vinvertedabove-ar" xOffset="653" yOffset="-486"/>
+    <component base="vinvertedabove-ar" xOffset="633" yOffset="-477"/>
   </outline>
   <lib>
     <dict>

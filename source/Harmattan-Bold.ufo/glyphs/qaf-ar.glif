@@ -2,12 +2,12 @@
 <glyph name="qaf-ar" format="2">
   <advance width="1366"/>
   <unicode hex="0642"/>
-  <anchor x="542" y="1120" name="alef"/>
-  <anchor x="791" y="1197" name="diaA"/>
-  <anchor x="594" y="-289" name="diaB"/>
+  <anchor x="434" y="805" name="alef"/>
+  <anchor x="871" y="1187" name="diaA"/>
+  <anchor x="652" y="-376" name="diaB"/>
   <outline>
     <component base="qafDotless-ar"/>
-    <component base="_dot2h" xOffset="863" yOffset="1043"/>
+    <component base="_dot2h" xOffset="873" yOffset="1003"/>
   </outline>
   <lib>
     <dict>

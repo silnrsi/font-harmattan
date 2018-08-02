@@ -2,12 +2,12 @@
 <glyph name="tteheh-ar" format="2">
   <advance width="2032"/>
   <unicode hex="067A"/>
-  <anchor x="388" y="815" name="alef"/>
-  <anchor x="881" y="1116" name="diaA"/>
+  <anchor x="398" y="875" name="alef"/>
+  <anchor x="921" y="1126" name="diaA"/>
   <anchor x="932" y="-121" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot2v" xOffset="1010" yOffset="893"/>
+    <component base="_dot2v" xOffset="980" yOffset="843"/>
   </outline>
   <lib>
     <dict>

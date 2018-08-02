@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenTwodotshorizontalabove-ar.medi" format="2">
   <advance width="1355"/>
-  <anchor x="415" y="859" name="alef"/>
+  <anchor x="229" y="530" name="alef"/>
   <anchor x="588" y="1096" name="diaA"/>
   <anchor x="693" y="-123" name="diaB"/>
   <outline>

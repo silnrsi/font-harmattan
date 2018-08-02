@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonVabove-ar.fina" format="2">
   <advance width="1249"/>
-  <anchor x="376" y="1004" name="alef"/>
+  <anchor x="336" y="1004" name="alef"/>
   <anchor x="587" y="1017" name="diaA"/>
   <anchor x="580" y="-592" name="diaB"/>
   <outline>

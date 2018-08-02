@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehThreedotsdown-ar.fina" format="2">
   <advance width="1984"/>
-  <anchor x="388" y="815" name="alef"/>
-  <anchor x="905" y="1104" name="diaA"/>
+  <anchor x="398" y="875" name="alef"/>
+  <anchor x="903" y="1134" name="diaA"/>
   <anchor x="932" y="-121" name="diaB"/>
   <outline>
     <component base="behDotless-ar.fina"/>
-    <component base="_dot3d" xOffset="943" yOffset="1025"/>
+    <component base="_dot3d" xOffset="933" yOffset="965"/>
   </outline>
   <lib>
     <dict>

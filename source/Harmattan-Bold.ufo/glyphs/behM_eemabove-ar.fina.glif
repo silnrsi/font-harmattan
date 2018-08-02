@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behMeemabove-ar.fina" format="2">
   <advance width="1984"/>
-  <anchor x="788" y="980" name="alef"/>
+  <anchor x="398" y="875" name="alef"/>
   <anchor x="955" y="1045" name="diaA"/>
   <anchor x="948" y="-508" name="diaB"/>
   <outline>

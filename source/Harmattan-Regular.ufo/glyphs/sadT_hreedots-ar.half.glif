@@ -2,8 +2,8 @@
 <glyph name="sadThreedots-ar.half" format="2">
   <advance width="1216"/>
   <anchor x="66" y="276" name="alef"/>
-  <anchor x="633" y="1180" name="diaA"/>
-  <anchor x="238" y="-563" name="diaB"/>
+  <anchor x="703" y="1180" name="diaA"/>
+  <anchor x="130" y="-634" name="diaB"/>
   <outline>
     <component base="sad-ar.half"/>
     <component base="_dot3u" xOffset="755" yOffset="890"/>

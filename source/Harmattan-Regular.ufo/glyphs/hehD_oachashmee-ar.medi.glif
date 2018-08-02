@@ -2,10 +2,10 @@
 <glyph name="hehDoachashmee-ar.medi" format="2">
   <advance width="803"/>
   <anchor x="463" y="677" name="above"/>
-  <anchor x="69" y="352" name="alef"/>
+  <anchor x="69" y="542" name="alef"/>
   <anchor x="485" y="-502" name="below"/>
-  <anchor x="519" y="685" name="diaA"/>
-  <anchor x="413" y="-502" name="diaB"/>
+  <anchor x="449" y="685" name="diaA"/>
+  <anchor x="443" y="-522" name="diaB"/>
   <outline>
     <contour>
       <point x="152" y="3" type="curve"/>

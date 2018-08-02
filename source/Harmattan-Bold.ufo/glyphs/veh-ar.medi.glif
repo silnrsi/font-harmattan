@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="veh-ar.medi" format="2">
   <advance width="877"/>
-  <anchor x="133" y="1102" name="alef"/>
-  <anchor x="284" y="1364" name="diaA"/>
+  <anchor x="24" y="714" name="alef"/>
+  <anchor x="354" y="1404" name="diaA"/>
   <anchor x="367" y="-121" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.medi"/>
-    <component base="_dot3u" xOffset="398" yOffset="1140"/>
+    <component base="_dot3u" xOffset="398" yOffset="1080"/>
   </outline>
   <lib>
     <dict>

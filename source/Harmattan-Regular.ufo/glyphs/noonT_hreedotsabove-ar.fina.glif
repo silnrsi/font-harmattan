@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonThreedotsabove-ar.fina" format="2">
   <advance width="1249"/>
-  <anchor x="347" y="696" name="alef"/>
+  <anchor x="267" y="648" name="alef"/>
   <anchor x="530" y="929" name="diaA"/>
   <anchor x="580" y="-592" name="diaB"/>
   <outline>

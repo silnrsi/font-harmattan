@@ -3,9 +3,9 @@
   <advance width="808"/>
   <anchor x="554" y="212" name="above"/>
   <anchor x="257" y="165" name="alef"/>
-  <anchor x="666" y="-477" name="below"/>
-  <anchor x="606" y="254" name="diaA"/>
-  <anchor x="661" y="-544" name="diaB"/>
+  <anchor x="716" y="-477" name="below"/>
+  <anchor x="616" y="244" name="diaA"/>
+  <anchor x="714" y="-504" name="diaB"/>
   <outline>
     <contour>
       <point x="145" y="-160" type="curve" smooth="yes"/>

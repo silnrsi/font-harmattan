@@ -2,9 +2,9 @@
 <glyph name="yeh-ar.noDots.fina" format="2">
   <advance width="1296"/>
   <anchor x="986" y="207" name="above"/>
-  <anchor x="465" y="251" name="alef"/>
+  <anchor x="495" y="290" name="alef"/>
   <anchor x="728" y="-692" name="below"/>
-  <anchor x="941" y="208" name="diaA"/>
+  <anchor x="942" y="260" name="diaA"/>
   <anchor x="721" y="-719" name="diaB"/>
   <anchor x="721" y="-605" name="ring"/>
   <outline>

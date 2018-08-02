@@ -2,8 +2,8 @@
 <glyph name="yeh-ar" format="2">
   <advance width="1437"/>
   <unicode hex="064A"/>
-  <anchor x="430" y="567" name="alef"/>
-  <anchor x="965" y="730" name="diaA"/>
+  <anchor x="437" y="554" name="alef"/>
+  <anchor x="1015" y="740" name="diaA"/>
   <anchor x="667" y="-659" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots"/>

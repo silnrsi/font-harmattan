@@ -2,12 +2,12 @@
 <glyph name="e-ar" format="2">
   <advance width="1437"/>
   <unicode hex="06D0"/>
-  <anchor x="415" y="593" name="alef"/>
-  <anchor x="965" y="730" name="diaA"/>
-  <anchor x="703" y="-1002" name="diaB"/>
+  <anchor x="423" y="602" name="alef"/>
+  <anchor x="975" y="760" name="diaA"/>
+  <anchor x="703" y="-942" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots"/>
-    <component base="_dot2v" xOffset="708" yOffset="-677"/>
+    <component base="_dot2v" xOffset="688" yOffset="-647"/>
   </outline>
   <lib>
     <dict>

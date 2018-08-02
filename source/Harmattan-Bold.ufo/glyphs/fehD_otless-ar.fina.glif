@@ -2,9 +2,9 @@
 <glyph name="fehDotless-ar.fina" format="2">
   <advance width="1774"/>
   <anchor x="1311" y="879" name="above"/>
-  <anchor x="373" y="547" name="alef"/>
+  <anchor x="371" y="590" name="alef"/>
   <anchor x="1359" y="-26" name="below"/>
-  <anchor x="1274" y="881" name="diaA"/>
+  <anchor x="1274" y="871" name="diaA"/>
   <anchor x="1341" y="-180" name="diaB"/>
   <outline>
     <contour>

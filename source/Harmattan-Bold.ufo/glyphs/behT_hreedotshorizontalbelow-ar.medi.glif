@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behThreedotshorizontalbelow-ar.medi" format="2">
   <advance width="580"/>
-  <anchor x="248" y="450" name="alef"/>
-  <anchor x="265" y="465" name="diaA"/>
-  <anchor x="281" y="-386" name="diaB"/>
+  <anchor x="78" y="450" name="alef"/>
+  <anchor x="265" y="505" name="diaA"/>
+  <anchor x="271" y="-406" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="_dot3h" xOffset="281" yOffset="-226"/>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="theh-ar.medi" format="2">
   <advance width="580"/>
-  <anchor x="25" y="904" name="alef"/>
-  <anchor x="145" y="1074" name="diaA"/>
+  <anchor x="-46" y="1051" name="alef"/>
+  <anchor x="173" y="1104" name="diaA"/>
   <anchor x="296" y="-81" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot3u" xOffset="227" yOffset="817"/>
+    <component base="_dot3u" xOffset="227" yOffset="767"/>
   </outline>
   <lib>
     <dict>

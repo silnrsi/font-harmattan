@@ -2,8 +2,8 @@
 <glyph name="heh-ar" format="2">
   <advance width="801"/>
   <unicode hex="0647"/>
-  <anchor x="112" y="401" name="alef"/>
-  <anchor x="477" y="656" name="diaA"/>
+  <anchor x="82" y="501" name="alef"/>
+  <anchor x="371" y="687" name="diaA"/>
   <anchor x="372" y="-89" name="diaB"/>
   <outline>
     <component base="ae-ar"/>

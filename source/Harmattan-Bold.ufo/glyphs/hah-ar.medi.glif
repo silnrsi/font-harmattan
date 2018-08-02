@@ -2,9 +2,9 @@
 <glyph name="hah-ar.medi" format="2">
   <advance width="989"/>
   <anchor x="363" y="631" name="above"/>
-  <anchor x="326" y="620" name="alef"/>
+  <anchor x="12" y="470" name="alef"/>
   <anchor x="384" y="-3" name="below"/>
-  <anchor x="339" y="636" name="diaA"/>
+  <anchor x="319" y="656" name="diaA"/>
   <anchor x="408" y="-27" name="diaB"/>
   <outline>
     <contour>

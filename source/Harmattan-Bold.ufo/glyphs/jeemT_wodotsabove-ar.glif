@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar" format="2">
-  <advance width="983"/>
+  <advance width="1025"/>
   <unicode hex="08A2"/>
   <anchor x="116" y="847" name="alef"/>
-  <anchor x="381" y="990" name="diaA"/>
-  <anchor x="502" y="-788" name="diaB"/>
+  <anchor x="421" y="990" name="diaA"/>
+  <anchor x="502" y="-808" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
-    <component base="_dot2h" xOffset="408" yOffset="826"/>
-    <component base="_dot1" xOffset="490" yOffset="-231"/>
+    <component base="_dot2h" xOffset="428" yOffset="826"/>
+    <component base="_dot1" xOffset="510" yOffset="-231"/>
   </outline>
   <lib>
     <dict>

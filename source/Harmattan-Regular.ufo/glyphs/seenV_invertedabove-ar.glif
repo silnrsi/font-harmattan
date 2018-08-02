@@ -2,7 +2,7 @@
 <glyph name="seenVinvertedabove-ar" format="2">
   <advance width="1657"/>
   <unicode hex="077E"/>
-  <anchor x="295" y="287" name="alef"/>
+  <anchor x="165" y="227" name="alef"/>
   <anchor x="982" y="909" name="diaA"/>
   <anchor x="284" y="-654" name="diaB"/>
   <outline>

@@ -10,6 +10,10 @@
   <string>afghani-ar.glif</string>
   <key>ain-ar.fina</key>
   <string>ain-ar.fina.glif</string>
+  <key>allah-ar</key>
+  <string>allah-ar.glif</string>
+  <key>allah-ar.alt</key>
+  <string>allah-ar.alt.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
   <key>dal-ar.fina.loclWLF</key>

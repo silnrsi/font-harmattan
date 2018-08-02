@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tchehDotabove-ar.fina" format="2">
   <advance width="944"/>
-  <anchor x="145" y="761" name="alef"/>
+  <anchor x="12" y="810" name="alef"/>
   <anchor x="345" y="1002" name="diaA"/>
   <anchor x="502" y="-652" name="diaB"/>
   <outline>

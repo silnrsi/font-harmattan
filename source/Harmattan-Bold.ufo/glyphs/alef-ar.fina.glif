@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar.fina" format="2">
   <advance width="459"/>
-  <anchor x="155" y="1112" name="above"/>
+  <anchor x="155" y="1152" name="above"/>
   <anchor x="-31" y="968" name="alef"/>
   <anchor x="249" y="-63" name="below"/>
-  <anchor x="159" y="1115" name="diaA"/>
+  <anchor x="159" y="1155" name="diaA"/>
   <anchor x="250" y="-76" name="diaB"/>
   <outline>
     <contour>

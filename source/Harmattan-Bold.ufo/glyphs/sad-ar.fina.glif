@@ -2,10 +2,10 @@
 <glyph name="sad-ar.fina" format="2">
   <advance width="1750"/>
   <anchor x="1231" y="641" name="above"/>
-  <anchor x="445" y="229" name="alef"/>
+  <anchor x="265" y="227" name="alef"/>
   <anchor x="1246" y="-50" name="below"/>
   <anchor x="1224" y="621" name="diaA"/>
-  <anchor x="751" y="-563" name="diaB"/>
+  <anchor x="447" y="-678" name="diaB"/>
   <outline>
     <contour>
       <point x="1488" y="89" type="line"/>

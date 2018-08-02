@@ -2,10 +2,10 @@
 <glyph name="ae-ar" format="2">
   <advance width="801"/>
   <unicode hex="06D5"/>
-  <anchor x="403" y="666" name="above"/>
-  <anchor x="112" y="401" name="alef"/>
+  <anchor x="373" y="666" name="above"/>
+  <anchor x="82" y="501" name="alef"/>
   <anchor x="348" y="-75" name="below"/>
-  <anchor x="431" y="667" name="diaA"/>
+  <anchor x="371" y="687" name="diaA"/>
   <anchor x="372" y="-89" name="diaB"/>
   <outline>
     <contour>

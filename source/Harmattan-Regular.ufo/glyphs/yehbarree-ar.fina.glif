@@ -2,10 +2,10 @@
 <glyph name="yehbarree-ar.fina" format="2">
   <advance width="808"/>
   <anchor x="492" y="133" name="above"/>
-  <anchor x="298" y="161" name="alef"/>
-  <anchor x="645" y="-518" name="below"/>
-  <anchor x="535" y="174" name="diaA"/>
-  <anchor x="614" y="-494" name="diaB"/>
+  <anchor x="248" y="161" name="alef"/>
+  <anchor x="725" y="-518" name="below"/>
+  <anchor x="585" y="214" name="diaA"/>
+  <anchor x="744" y="-494" name="diaB"/>
   <outline>
     <contour>
       <point x="307" y="-153" type="curve" smooth="yes"/>

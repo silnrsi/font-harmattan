@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotbelow-ar.medi" format="2">
   <advance width="797"/>
-  <anchor x="74" y="981" name="alef"/>
+  <anchor x="24" y="714" name="alef"/>
   <anchor x="329" y="1142" name="diaA"/>
   <anchor x="399" y="-428" name="diaB"/>
   <outline>

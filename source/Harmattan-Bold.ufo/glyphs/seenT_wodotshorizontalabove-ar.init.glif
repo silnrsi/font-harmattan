@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenTwodotshorizontalabove-ar.init" format="2">
   <advance width="1277"/>
-  <anchor x="409" y="933" name="alef"/>
-  <anchor x="580" y="1092" name="diaA"/>
+  <anchor x="209" y="530" name="alef"/>
+  <anchor x="610" y="1132" name="diaA"/>
   <anchor x="693" y="-123" name="diaB"/>
   <outline>
     <component base="seen-ar.init"/>

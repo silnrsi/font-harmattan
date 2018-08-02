@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamVabove-ar.preAlef.medi" format="2">
   <advance width="992"/>
-  <anchor x="0" y="804" name="alef"/>
+  <anchor x="420" y="1434" name="alef"/>
   <anchor x="802" y="-130" name="dia2B"/>
-  <anchor x="723" y="1499" name="diaA"/>
+  <anchor x="673" y="1499" name="diaA"/>
   <anchor x="789" y="-149" name="diaB"/>
   <anchor x="556" y="123" name="exit"/>
   <outline>

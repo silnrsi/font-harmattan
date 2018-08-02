@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenDotbelowDotabove-ar.fina" format="2">
   <advance width="1753"/>
-  <anchor x="295" y="287" name="alef"/>
+  <anchor x="135" y="247" name="alef"/>
   <anchor x="974" y="933" name="diaA"/>
   <anchor x="284" y="-654" name="diaB"/>
   <outline>
     <component base="seen-ar.fina"/>
     <component base="_dot1" xOffset="1101" yOffset="-207"/>
-    <component base="_dot1" xOffset="998" yOffset="728"/>
+    <component base="_dot1" xOffset="1008" yOffset="728"/>
   </outline>
   <lib>
     <dict>

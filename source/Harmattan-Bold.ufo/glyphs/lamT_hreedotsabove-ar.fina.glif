@@ -2,11 +2,11 @@
 <glyph name="lamThreedotsabove-ar.fina" format="2">
   <advance width="1089"/>
   <anchor x="283" y="402" name="alef"/>
-  <anchor x="711" y="1704" name="diaA"/>
+  <anchor x="790" y="1759" name="diaA"/>
   <anchor x="460" y="-577" name="diaB"/>
   <outline>
     <component base="lam-ar.fina"/>
-    <component base="_dot3u" xOffset="765" yOffset="1457"/>
+    <component base="_dot3u" xOffset="825" yOffset="1417"/>
   </outline>
   <lib>
     <dict>

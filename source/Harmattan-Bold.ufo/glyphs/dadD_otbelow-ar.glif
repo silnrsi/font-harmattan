@@ -2,13 +2,13 @@
 <glyph name="dadDotbelow-ar" format="2">
   <advance width="1782"/>
   <unicode hex="06FB"/>
-  <anchor x="445" y="229" name="alef"/>
-  <anchor x="1169" y="952" name="diaA"/>
-  <anchor x="704" y="-563" name="diaB"/>
+  <anchor x="265" y="227" name="alef"/>
+  <anchor x="1260" y="1046" name="diaA"/>
+  <anchor x="447" y="-678" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="_dot1" xOffset="1273" yOffset="813"/>
-    <component base="_dot1" xOffset="1273" yOffset="-274"/>
+    <component base="_dot1" xOffset="1273" yOffset="833"/>
+    <component base="_dot1" xOffset="1260" yOffset="-244"/>
   </outline>
   <lib>
     <dict>

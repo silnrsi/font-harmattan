@@ -2,11 +2,12 @@
 <glyph name="wawHamzaabove-ar" format="2">
   <advance width="862"/>
   <unicode hex="0624"/>
-  <anchor x="357" y="1050" name="diaA"/>
+  <anchor x="53" y="684" name="alef"/>
+  <anchor x="371" y="1037" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="hamzaabove-ar" xOffset="118" yOffset="-699"/>
+    <component base="hamzaabove-ar" xOffset="129" yOffset="-720"/>
   </outline>
   <lib>
     <dict>

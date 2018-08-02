@@ -2,9 +2,9 @@
 <glyph name="behDotless-ar.init" format="2">
   <advance width="429"/>
   <anchor x="171" y="512" name="above"/>
-  <anchor x="147" y="501" name="alef"/>
+  <anchor x="-3" y="531" name="alef"/>
   <anchor x="227" y="-42" name="below"/>
-  <anchor x="156" y="510" name="diaA"/>
+  <anchor x="206" y="580" name="diaA"/>
   <anchor x="217" y="-74" name="diaB"/>
   <anchor x="226" y="95" name="ring"/>
   <outline>

@@ -2,12 +2,12 @@
 <glyph name="sadThreedots-ar" format="2">
   <advance width="1782"/>
   <unicode hex="069E"/>
-  <anchor x="445" y="229" name="alef"/>
-  <anchor x="1125" y="1201" name="diaA"/>
-  <anchor x="704" y="-563" name="diaB"/>
+  <anchor x="265" y="227" name="alef"/>
+  <anchor x="1227" y="1249" name="diaA"/>
+  <anchor x="447" y="-678" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="_dot3u" xOffset="1241" yOffset="920"/>
+    <component base="_dot3u" xOffset="1271" yOffset="890"/>
   </outline>
   <lib>
     <dict>

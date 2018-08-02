@@ -2,11 +2,11 @@
 <glyph name="yehbarreeHamzaabove-ar" format="2">
   <advance width="1303"/>
   <unicode hex="06D3"/>
-  <anchor x="142" y="561" name="alef"/>
-  <anchor x="493" y="1221" name="diaA"/>
+  <anchor x="142" y="601" name="alef"/>
+  <anchor x="543" y="1251" name="diaA"/>
   <anchor x="656" y="-74" name="diaB"/>
   <outline>
     <component base="yehbarree-ar" xOffset="20"/>
-    <component base="hamzaabove-ar" xOffset="221" yOffset="-535"/>
+    <component base="hamzaabove-ar" xOffset="281" yOffset="-485"/>
   </outline>
 </glyph>

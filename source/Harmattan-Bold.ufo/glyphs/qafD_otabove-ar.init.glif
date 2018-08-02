@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotabove-ar.init" format="2">
-  <advance width="899"/>
-  <anchor x="148" y="960" name="alef"/>
-  <anchor x="310" y="1144" name="diaA"/>
+  <advance width="869"/>
+  <anchor x="24" y="714" name="alef"/>
+  <anchor x="390" y="1174" name="diaA"/>
   <anchor x="367" y="-121" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>
-    <component base="_dot1" xOffset="381" yOffset="1057"/>
+    <component base="_dot1" xOffset="391" yOffset="997"/>
   </outline>
   <lib>
     <dict>

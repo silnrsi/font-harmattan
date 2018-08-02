@@ -2,12 +2,12 @@
 <glyph name="beh-ar" format="2">
   <advance width="2032"/>
   <unicode hex="0628"/>
-  <anchor x="388" y="815" name="alef"/>
+  <anchor x="398" y="875" name="alef"/>
   <anchor x="993" y="608" name="diaA"/>
-  <anchor x="958" y="-455" name="diaB"/>
+  <anchor x="959" y="-479" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot1" xOffset="984" yOffset="-313"/>
+    <component base="_dot1" xOffset="964" yOffset="-263"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonThreedotsabove-ar.init" format="2">
   <advance width="449"/>
-  <anchor x="-120" y="942" name="alef"/>
-  <anchor x="83" y="1212" name="diaA"/>
-  <anchor x="165" y="-71" name="diaB"/>
+  <anchor x="3" y="581" name="alef"/>
+  <anchor x="212" y="540" name="diaA"/>
+  <anchor x="200" y="-616" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot3u" xOffset="191" yOffset="821"/>
+    <component base="_dot3d" xOffset="210" yOffset="-180"/>
   </outline>
   <lib>
     <dict>

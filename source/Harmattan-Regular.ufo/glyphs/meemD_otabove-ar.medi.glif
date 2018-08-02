@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotabove-ar.medi" format="2">
   <advance width="937"/>
-  <anchor x="193" y="720" name="alef"/>
-  <anchor x="350" y="907" name="diaA"/>
+  <anchor x="143" y="670" name="alef"/>
+  <anchor x="400" y="927" name="diaA"/>
   <anchor x="460" y="-139" name="diaB"/>
   <outline>
     <component base="meem-ar.medi"/>
-    <component base="_dot1" xOffset="408" yOffset="825"/>
+    <component base="_dot1" xOffset="418" yOffset="765"/>
   </outline>
   <lib>
     <dict>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gaf-ar.init" format="2">
   <advance width="1389"/>
-  <anchor x="96" y="504" name="alef"/>
+  <anchor x="96" y="754" name="alef"/>
   <anchor x="394" y="981" name="diaA"/>
   <anchor x="626" y="-115" name="diaB"/>
   <outline>

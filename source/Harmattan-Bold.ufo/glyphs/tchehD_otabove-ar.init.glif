@@ -2,12 +2,12 @@
 <glyph name="tchehDotabove-ar.init" format="2">
   <advance width="1097"/>
   <anchor x="127" y="844" name="alef"/>
-  <anchor x="300" y="986" name="diaA"/>
-  <anchor x="381" y="-597" name="diaB"/>
+  <anchor x="356" y="1042" name="diaA"/>
+  <anchor x="381" y="-617" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot1" xOffset="356" yOffset="837"/>
-    <component base="_dot3d" xOffset="394" yOffset="-180"/>
+    <component base="_dot1" xOffset="356" yOffset="827"/>
+    <component base="_dot3d" xOffset="374" yOffset="-160"/>
   </outline>
   <lib>
     <dict>

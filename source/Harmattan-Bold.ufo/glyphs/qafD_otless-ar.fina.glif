@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotless-ar.fina" format="2">
   <advance width="1362"/>
-  <anchor x="880" y="692" name="above"/>
-  <anchor x="336" y="778" name="alef"/>
+  <anchor x="920" y="642" name="above"/>
+  <anchor x="326" y="778" name="alef"/>
   <anchor x="1013" y="-387" name="below"/>
-  <anchor x="840" y="690" name="diaA"/>
-  <anchor x="647" y="-420" name="diaB"/>
+  <anchor x="880" y="640" name="diaA"/>
+  <anchor x="647" y="-460" name="diaB"/>
   <outline>
     <contour>
       <point x="1257" y="439"/>

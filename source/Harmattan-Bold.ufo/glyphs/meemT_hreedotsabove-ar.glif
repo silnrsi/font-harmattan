@@ -2,12 +2,12 @@
 <glyph name="meemThreedotsabove-ar" format="2">
   <advance width="953"/>
   <unicode hex="08A7"/>
-  <anchor x="210" y="874" name="alef"/>
-  <anchor x="418" y="1129" name="diaA"/>
+  <anchor x="170" y="874" name="alef"/>
+  <anchor x="468" y="1219" name="diaA"/>
   <anchor x="316" y="-585" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="_dot3u" xOffset="507" yOffset="934"/>
+    <component base="_dot3u" xOffset="507" yOffset="914"/>
   </outline>
   <lib>
     <dict>

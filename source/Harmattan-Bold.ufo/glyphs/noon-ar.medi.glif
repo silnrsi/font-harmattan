@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noon-ar.medi" format="2">
   <advance width="580"/>
-  <anchor x="133" y="793" name="alef"/>
-  <anchor x="185" y="849" name="diaA"/>
-  <anchor x="296" y="-81" name="diaB"/>
+  <anchor x="-23" y="538" name="alef"/>
+  <anchor x="227" y="908" name="diaA"/>
+  <anchor x="236" y="-81" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot1" xOffset="210" yOffset="744"/>
+    <component base="_dot1" xOffset="230" yOffset="714"/>
   </outline>
   <lib>
     <dict>

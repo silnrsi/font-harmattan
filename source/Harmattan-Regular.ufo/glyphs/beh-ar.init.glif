@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beh-ar.init" format="2">
   <advance width="429"/>
-  <anchor x="204" y="581" name="alef"/>
-  <anchor x="156" y="552" name="diaA"/>
+  <anchor x="-3" y="531" name="alef"/>
+  <anchor x="206" y="580" name="diaA"/>
   <anchor x="219" y="-376" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>

@@ -3,9 +3,9 @@
   <advance width="898"/>
   <anchor x="58" y="605" name="alef"/>
   <anchor x="433" y="728" name="diaA"/>
-  <anchor x="458" y="-703" name="diaB"/>
+  <anchor x="458" y="-693" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>
-    <component base="_dot3d" xOffset="458" yOffset="-266"/>
+    <component base="_dot3d" xOffset="444" yOffset="-236"/>
   </outline>
 </glyph>

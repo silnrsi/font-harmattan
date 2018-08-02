@@ -2,8 +2,8 @@
 <glyph name="wawTwodots-ar" format="2">
   <advance width="862"/>
   <unicode hex="06CA"/>
-  <anchor x="334" y="936" name="alef"/>
-  <anchor x="350" y="945" name="diaA"/>
+  <anchor x="143" y="854" name="alef"/>
+  <anchor x="411" y="907" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar"/>

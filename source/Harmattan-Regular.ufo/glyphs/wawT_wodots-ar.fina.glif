@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawTwodots-ar.fina" format="2">
   <advance width="837"/>
-  <anchor x="330" y="920" name="alef"/>
-  <anchor x="349" y="933" name="diaA"/>
+  <anchor x="113" y="854" name="alef"/>
+  <anchor x="381" y="907" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>

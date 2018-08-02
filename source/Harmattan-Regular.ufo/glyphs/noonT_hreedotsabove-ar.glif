@@ -2,8 +2,8 @@
 <glyph name="noonThreedotsabove-ar" format="2">
   <advance width="1272"/>
   <unicode hex="06BD"/>
-  <anchor x="382" y="815" name="alef"/>
-  <anchor x="514" y="934" name="diaA"/>
+  <anchor x="267" y="648" name="alef"/>
+  <anchor x="530" y="929" name="diaA"/>
   <anchor x="580" y="-592" name="diaB"/>
   <outline>
     <component base="noonghunna-ar"/>

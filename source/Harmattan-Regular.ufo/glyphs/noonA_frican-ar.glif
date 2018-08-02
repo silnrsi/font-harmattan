@@ -3,7 +3,7 @@
   <advance width="1272"/>
   <unicode hex="08BD"/>
   <anchor x="597" y="388" name="above"/>
-  <anchor x="277" y="408" name="alef"/>
+  <anchor x="367" y="448" name="alef"/>
   <anchor x="571" y="-585" name="below"/>
   <anchor x="605" y="435" name="diaA"/>
   <anchor x="580" y="-592" name="diaB"/>

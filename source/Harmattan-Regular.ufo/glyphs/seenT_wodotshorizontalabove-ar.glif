@@ -2,7 +2,7 @@
 <glyph name="seenTwodotshorizontalabove-ar" format="2">
   <advance width="1657"/>
   <unicode hex="076D"/>
-  <anchor x="295" y="287" name="alef"/>
+  <anchor x="165" y="227" name="alef"/>
   <anchor x="941" y="1092" name="diaA"/>
   <anchor x="284" y="-654" name="diaB"/>
   <outline>

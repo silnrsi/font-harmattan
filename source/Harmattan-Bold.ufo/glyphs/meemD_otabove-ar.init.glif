@@ -2,11 +2,11 @@
 <glyph name="meemDotabove-ar.init" format="2">
   <advance width="857"/>
   <anchor x="142" y="753" name="alef"/>
-  <anchor x="364" y="921" name="diaA"/>
+  <anchor x="436" y="1004" name="diaA"/>
   <anchor x="460" y="-139" name="diaB"/>
   <outline>
     <component base="meem-ar.init"/>
-    <component base="_dot1" xOffset="417" yOffset="899"/>
+    <component base="_dot1" xOffset="440" yOffset="821"/>
   </outline>
   <lib>
     <dict>

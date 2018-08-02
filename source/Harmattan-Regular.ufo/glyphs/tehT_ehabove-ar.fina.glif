@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehTehabove-ar.fina" format="2">
   <advance width="1984"/>
-  <anchor x="651" y="937" name="alef"/>
+  <anchor x="388" y="815" name="alef"/>
   <anchor x="903" y="1068" name="diaA"/>
   <anchor x="932" y="-121" name="diaB"/>
   <outline>

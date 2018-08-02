@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu-ar.fina" format="2">
   <advance width="837"/>
-  <anchor x="220" y="866" name="alef"/>
-  <anchor x="365" y="1061" name="diaA"/>
+  <anchor x="113" y="764" name="alef"/>
+  <anchor x="408" y="1065" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_vline" xOffset="370" yOffset="758"/>
+    <component base="_vline" xOffset="408" yOffset="741"/>
   </outline>
   <lib>
     <dict>

@@ -4,11 +4,11 @@
   <unicode hex="06FC"/>
   <anchor x="341" y="773" name="alef"/>
   <anchor x="509" y="958" name="diaA"/>
-  <anchor x="488" y="-703" name="diaB"/>
+  <anchor x="488" y="-733" name="diaB"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="_dot1" xOffset="528" yOffset="820"/>
-    <component base="_dot1" xOffset="479" yOffset="-263"/>
+    <component base="_dot1" xOffset="518" yOffset="780"/>
+    <component base="_dot1" xOffset="449" yOffset="-263"/>
   </outline>
   <lib>
     <dict>

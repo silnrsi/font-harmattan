@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamBar-ar.preAlef.init" format="2">
   <advance width="801"/>
-  <anchor x="360" y="1026" name="alef"/>
+  <anchor x="270" y="986" name="alef"/>
   <anchor x="498" y="1132" name="diaA"/>
   <anchor x="573" y="-113" name="diaB"/>
   <anchor x="545" y="-12" name="exit"/>

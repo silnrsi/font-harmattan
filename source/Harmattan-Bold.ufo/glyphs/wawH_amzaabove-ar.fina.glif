@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawHamzaabove-ar.fina" format="2">
   <advance width="837"/>
-  <anchor x="361" y="1053" name="diaA"/>
+  <anchor x="53" y="684" name="alef"/>
+  <anchor x="371" y="1037" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="hamzaabove-ar" xOffset="118" yOffset="-699"/>
+    <component base="hamzaabove-ar" xOffset="129" yOffset="-720"/>
   </outline>
   <lib>
     <dict>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehRing-ar.init" format="2">
   <advance width="449"/>
-  <anchor x="166" y="822" name="alef"/>
-  <anchor x="185" y="846" name="diaA"/>
-  <anchor x="203" y="-303" name="diaB"/>
+  <anchor x="-84" y="862" name="alef"/>
+  <anchor x="165" y="896" name="diaA"/>
+  <anchor x="183" y="-263" name="diaB"/>
   <outline>
     <component base="teh-ar.init"/>
-    <component base="_ring" xOffset="350" yOffset="-43"/>
+    <component base="_ring" xOffset="245" yOffset="-53"/>
   </outline>
   <lib>
     <dict>

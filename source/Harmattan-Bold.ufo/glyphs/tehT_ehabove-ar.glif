@@ -2,7 +2,7 @@
 <glyph name="tehTehabove-ar" format="2">
   <advance width="2032"/>
   <unicode hex="08B8"/>
-  <anchor x="681" y="937" name="alef"/>
+  <anchor x="398" y="875" name="alef"/>
   <anchor x="933" y="1068" name="diaA"/>
   <anchor x="932" y="-121" name="diaB"/>
   <outline>

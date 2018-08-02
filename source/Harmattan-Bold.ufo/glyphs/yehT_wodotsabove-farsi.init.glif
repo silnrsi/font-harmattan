@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehTwodotsabove-farsi.init" format="2">
   <advance width="449"/>
-  <anchor x="119" y="829" name="alef"/>
-  <anchor x="145" y="844" name="diaA"/>
+  <anchor x="-74" y="921" name="alef"/>
+  <anchor x="159" y="944" name="diaA"/>
   <anchor x="213" y="-398" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot2h" xOffset="191" yOffset="724"/>
+    <component base="_dot2h" xOffset="159" yOffset="-222"/>
     <component base="_dot2h" xOffset="191" yOffset="724"/>
   </outline>
   <lib>

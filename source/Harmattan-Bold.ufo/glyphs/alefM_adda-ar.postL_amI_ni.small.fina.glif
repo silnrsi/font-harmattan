@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMadda-ar.postLamIni.small.fina" format="2">
   <advance width="897"/>
-  <anchor x="-194" y="1231" name="alef"/>
+  <anchor x="-260" y="1216" name="alef"/>
   <anchor x="133" y="-143" name="dia2B"/>
-  <anchor x="47" y="1241" name="diaA"/>
+  <anchor x="22" y="1304" name="diaA"/>
   <anchor x="181" y="-145" name="diaB"/>
   <anchor x="641" y="-12" name="entry"/>
   <outline>

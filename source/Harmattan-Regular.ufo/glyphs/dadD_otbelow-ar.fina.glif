@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dadDotbelow-ar.fina" format="2">
   <advance width="1740"/>
-  <anchor x="445" y="229" name="alef"/>
-  <anchor x="1120" y="1017" name="diaA"/>
-  <anchor x="751" y="-563" name="diaB"/>
+  <anchor x="265" y="227" name="alef"/>
+  <anchor x="1190" y="1017" name="diaA"/>
+  <anchor x="447" y="-678" name="diaB"/>
   <outline>
     <component base="sad-ar.fina"/>
     <component base="_dot1" xOffset="1221" yOffset="813"/>

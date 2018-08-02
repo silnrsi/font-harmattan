@@ -2,10 +2,10 @@
 <glyph name="yehbarreeHamzaabove-ar.fina" format="2">
   <advance width="808"/>
   <anchor x="81" y="161" name="alef"/>
-  <anchor x="323" y="607" name="diaA"/>
-  <anchor x="614" y="-504" name="diaB"/>
+  <anchor x="503" y="617" name="diaA"/>
+  <anchor x="714" y="-504" name="diaB"/>
   <outline>
     <component base="yehbarree-ar.fina"/>
-    <component base="hamzaabove-ar" xOffset="80" yOffset="-1150"/>
+    <component base="hamzaabove-ar" xOffset="240" yOffset="-1140"/>
   </outline>
 </glyph>

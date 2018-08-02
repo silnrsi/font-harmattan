@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sheenDotbelow-ar.medi" format="2">
   <advance width="1355"/>
-  <anchor x="403" y="827" name="alef"/>
+  <anchor x="229" y="530" name="alef"/>
   <anchor x="592" y="1104" name="diaA"/>
   <anchor x="710" y="-455" name="diaB"/>
   <outline>

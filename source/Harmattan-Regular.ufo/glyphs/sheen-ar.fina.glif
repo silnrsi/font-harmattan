@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sheen-ar.fina" format="2">
   <advance width="1753"/>
-  <anchor x="295" y="287" name="alef"/>
+  <anchor x="165" y="227" name="alef"/>
   <anchor x="946" y="1075" name="diaA"/>
   <anchor x="284" y="-654" name="diaB"/>
   <outline>

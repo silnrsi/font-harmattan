@@ -2,12 +2,12 @@
 <glyph name="dad-ar" format="2">
   <advance width="1782"/>
   <unicode hex="0636"/>
-  <anchor x="445" y="229" name="alef"/>
-  <anchor x="1153" y="990" name="diaA"/>
-  <anchor x="704" y="-563" name="diaB"/>
+  <anchor x="265" y="227" name="alef"/>
+  <anchor x="1254" y="1044" name="diaA"/>
+  <anchor x="447" y="-678" name="diaB"/>
   <outline>
     <component base="sad-ar"/>
-    <component base="_dot1" xOffset="1224" yOffset="847"/>
+    <component base="_dot1" xOffset="1274" yOffset="847"/>
   </outline>
   <lib>
     <dict>

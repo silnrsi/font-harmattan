@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafThreedotsabove-ar.init" format="2">
   <advance width="809"/>
-  <anchor x="110" y="1099" name="alef"/>
-  <anchor x="280" y="1354" name="diaA"/>
+  <anchor x="24" y="714" name="alef"/>
+  <anchor x="320" y="1314" name="diaA"/>
   <anchor x="367" y="-121" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.init"/>

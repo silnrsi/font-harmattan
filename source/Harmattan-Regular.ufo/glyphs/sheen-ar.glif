@@ -2,7 +2,7 @@
 <glyph name="sheen-ar" format="2">
   <advance width="1657"/>
   <unicode hex="0634"/>
-  <anchor x="295" y="287" name="alef"/>
+  <anchor x="165" y="227" name="alef"/>
   <anchor x="933" y="1104" name="diaA"/>
   <anchor x="284" y="-654" name="diaB"/>
   <outline>

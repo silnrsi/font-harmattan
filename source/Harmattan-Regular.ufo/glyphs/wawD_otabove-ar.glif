@@ -2,8 +2,8 @@
 <glyph name="wawDotabove-ar" format="2">
   <advance width="862"/>
   <unicode hex="06CF"/>
-  <anchor x="286" y="928" name="alef"/>
-  <anchor x="325" y="969" name="diaA"/>
+  <anchor x="143" y="854" name="alef"/>
+  <anchor x="411" y="907" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar"/>

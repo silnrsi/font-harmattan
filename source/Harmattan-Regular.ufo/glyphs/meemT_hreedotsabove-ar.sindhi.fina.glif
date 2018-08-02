@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemThreedotsabove-ar.sindhi.fina" format="2">
   <advance width="1277"/>
-  <anchor x="530" y="910" name="alef"/>
-  <anchor x="687" y="1135" name="diaA"/>
+  <anchor x="480" y="854" name="alef"/>
+  <anchor x="747" y="1155" name="diaA"/>
   <anchor x="851" y="-106" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi.fina"/>
-    <component base="_dot3u" xOffset="765" yOffset="887"/>
+    <component base="_dot3u" xOffset="785" yOffset="887"/>
   </outline>
   <lib>
     <dict>

@@ -3,9 +3,9 @@
   <advance width="1746"/>
   <unicode hex="06A1"/>
   <anchor x="1326" y="888" name="above"/>
-  <anchor x="501" y="426" name="alef"/>
+  <anchor x="371" y="590" name="alef"/>
   <anchor x="1421" y="-36" name="below"/>
-  <anchor x="1185" y="882" name="diaA"/>
+  <anchor x="1264" y="898" name="diaA"/>
   <anchor x="910" y="-89" name="diaB"/>
   <outline>
     <contour>
