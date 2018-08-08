@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehDotbelowdotabove-ar.fina" format="2">
   <advance width="714"/>
-  <anchor x="120" y="638" name="alef"/>
-  <anchor x="354" y="780" name="diaA"/>
-  <anchor x="250" y="-995" name="diaB"/>
+  <anchor x="61" y="141" name="alef"/>
+  <anchor x="404" y="457" name="diaA"/>
+  <anchor x="230" y="-945" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_dot1" xOffset="383" yOffset="610"/>
-    <component base="_dot1" xOffset="253" yOffset="-819"/>
+    <component base="_dot1" xOffset="333" yOffset="-769"/>
+    <component base="_dot1" xOffset="114" yOffset="-49"/>
   </outline>
   <lib>
     <dict>

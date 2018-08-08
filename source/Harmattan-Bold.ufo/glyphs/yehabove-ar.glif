@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehabove-ar" format="2">
   <unicode hex="06E7"/>
-  <anchor x="37" y="1180" name="_diaA"/>
+  <anchor x="-13" y="1180" name="_diaA"/>
   <outline>
-    <component base="yehbarree-ar" xScale="0.512" yScale="0.512" xOffset="-302" yOffset="1240"/>
+    <component base="yehbelow-ar" xOffset="-309" yOffset="1288"/>
   </outline>
 </glyph>

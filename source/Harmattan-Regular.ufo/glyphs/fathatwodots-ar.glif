@@ -5,7 +5,7 @@
   <anchor x="44" y="1670" name="diaA"/>
   <outline>
     <component base="fatha-ar" xOffset="-243" yOffset="-8"/>
-    <component base="toneonedotabove-ar" xOffset="-52" yOffset="-160"/>
-    <component base="toneonedotabove-ar" xOffset="-70" yOffset="130"/>
+    <component base="toneonedotabove-ar" xOffset="18" yOffset="-160"/>
+    <component base="toneonedotabove-ar" xOffset="-160" yOffset="140"/>
   </outline>
 </glyph>

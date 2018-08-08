@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamza_fatha-ar" format="2">
-  <anchor x="319" y="1180" name="_diaA"/>
+  <anchor x="319" y="1160" name="_diaA"/>
   <anchor x="276" y="1751" name="diaA"/>
   <outline>
     <component base="fatha-ar" xOffset="-12" yOffset="238"/>
-    <component base="hamzaabove-ar" xOffset="9" yOffset="403"/>
+    <component base="hamzaabove-ar" xOffset="37" yOffset="-157"/>
   </outline>
 </glyph>
