@@ -1156,9 +1156,9 @@
     <string>marksidewaysnoonghunna-ar</string>
     <string>damma_meem-ar</string>
     <string>fatha_meem-ar</string>
+    <string>hamza_fatha-ar</string>
     <string>hamza_damma-ar</string>
     <string>hamza_damma-ar.short</string>
-    <string>hamza_fatha-ar</string>
     <string>kasra_meem-ar</string>
     <string>shadda_alef-ar</string>
     <string>shadda_fathatan-ar</string>
@@ -2428,9 +2428,9 @@
     <string>marksidewaysnoonghunna-ar</string>
     <string>damma_meem-ar</string>
     <string>fatha_meem-ar</string>
+    <string>hamza_fatha-ar</string>
     <string>hamza_damma-ar</string>
     <string>hamza_damma-ar.short</string>
-    <string>hamza_fatha-ar</string>
     <string>kasra_meem-ar</string>
     <string>shadda_alef-ar</string>
     <string>shadda_fathatan-ar</string>
@@ -2726,13 +2726,13 @@
     <key>alefWasla-ar.postLamMed.fina</key>
     <string>uni0671.postLamMed.fina</string>
     <key>alef_fatha-ar</key>
-    <string>uni0627_uni064E</string>
+    <string>uni0627064E</string>
     <key>alef_fatha-ar.warsh</key>
-    <string>uni0627_uni064E.warsh</string>
+    <string>uni0627064E.warsh</string>
     <key>alef_kasra-ar</key>
-    <string>uni0627_uni0650</string>
+    <string>uni06270650</string>
     <key>alef_kasra-ar.warsh</key>
-    <string>uni0627_uni0650.warsh</string>
+    <string>uni06270650.warsh</string>
     <key>alefabove-ar</key>
     <string>uni0670</string>
     <key>alefabove-ar.large</key>
@@ -2948,7 +2948,7 @@
     <key>damma-ar.short</key>
     <string>uni064F.short</string>
     <key>damma_meem-ar</key>
-    <string>uni064F_uni0645</string>
+    <string>uni064F06E2</string>
     <key>dammainverted-ar</key>
     <string>uni0657</string>
     <key>dammareversed-ar</key>
@@ -3052,7 +3052,7 @@
     <key>fathaRing-ar</key>
     <string>uni08F4</string>
     <key>fatha_meem-ar</key>
-    <string>uni064E_uni0645</string>
+    <string>uni064E06E2</string>
     <key>fathatan-ar</key>
     <string>uni064B</string>
     <key>fathatwodots-ar</key>
@@ -3268,11 +3268,11 @@
     <key>hamza-ar</key>
     <string>uni0621</string>
     <key>hamza_damma-ar</key>
-    <string>uni0621_uni064F</string>
+    <string>uni0654064F</string>
     <key>hamza_damma-ar.short</key>
-    <string>uni0621_uni064F.short</string>
+    <string>uni0654064F.short</string>
     <key>hamza_fatha-ar</key>
-    <string>uni0621_uni064E</string>
+    <string>uni0654064E</string>
     <key>hamzaabove-ar</key>
     <string>uni0654</string>
     <key>hamzabelow-ar</key>
@@ -3390,7 +3390,7 @@
     <key>kasraDotbelow-ar</key>
     <string>uni08F6</string>
     <key>kasra_meem-ar</key>
-    <string>uni0650_uni0645</string>
+    <string>uni065006E2</string>
     <key>kasratan-ar</key>
     <string>uni064D</string>
     <key>kasratan-ar.lowered</key>
@@ -3544,9 +3544,9 @@
     <key>lamVabove-ar.preAlef.medi</key>
     <string>uni06B5.preAlef.medi</string>
     <key>lam_hamza-ar.preAlef.init</key>
-    <string>uni0644_uni0621.preAlef.init</string>
+    <string>uni06440654.preAlef.init</string>
     <key>lam_hamza-ar.preAlef.warsh.init</key>
-    <string>uni0644_uni0621.preAlef.warsh.init</string>
+    <string>uni06440654.preAlef.warsh.init</string>
     <key>leftarrowheadabove-ar</key>
     <string>uni08F7</string>
     <key>leftarrowheadbelow-ar</key>
@@ -4052,23 +4052,23 @@
     <key>shadda-ar</key>
     <string>uni0651</string>
     <key>shadda_alef-ar</key>
-    <string>uni0651_uni0627</string>
+    <string>uni06510670</string>
     <key>shadda_damma-ar</key>
-    <string>uni0651_uni064F</string>
+    <string>uni0651064F</string>
     <key>shadda_damma-ar.short</key>
-    <string>uni0651_uni064F.short</string>
+    <string>uni0651064F.short</string>
     <key>shadda_dammatan-ar</key>
-    <string>uni0651_uni064C</string>
+    <string>uni0651064C</string>
     <key>shadda_dammatan-ar.sixNine</key>
-    <string>uni0651_uni064C.sixNine</string>
+    <string>uni0651064C.sixNine</string>
     <key>shadda_fatha-ar</key>
-    <string>uni0651_uni064E</string>
+    <string>uni0651064E</string>
     <key>shadda_fathatan-ar</key>
-    <string>uni0651_uni064B</string>
+    <string>uni0651064B</string>
     <key>shadda_kasra-ar</key>
-    <string>uni0651_uni0650</string>
+    <string>uni06510650</string>
     <key>shadda_kasratan-ar</key>
-    <string>uni0651_uni064D</string>
+    <string>uni0651064D</string>
     <key>sheen-ar</key>
     <string>uni0634</string>
     <key>sheen-ar.fina</key>
