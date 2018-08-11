@@ -8,10 +8,4 @@
     <component base="waw-ar.fina"/>
     <component base="vabove-ar" xOffset="404" yOffset="-330"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

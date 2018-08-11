@@ -8,10 +8,4 @@
     <component base="keheh-ar.fina"/>
     <component base="_dot3u" xOffset="763" yOffset="-314"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

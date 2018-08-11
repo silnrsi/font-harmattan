@@ -10,10 +10,4 @@
     <component base="alef-ar.postLamMed.fina"/>
     <component base="_madda.small" xOffset="65" yOffset="1105"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

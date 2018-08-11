@@ -9,10 +9,4 @@
     <component base="hah-ar"/>
     <component base="hamzaabove-ar" xOffset="148" yOffset="-635"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

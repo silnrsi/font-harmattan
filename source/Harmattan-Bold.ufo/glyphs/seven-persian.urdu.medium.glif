@@ -6,12 +6,4 @@
   <outline>
     <component base="seven-persian.urdu" xScale="0.78353" yScale="0.78353" xOffset="11" yOffset="215"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>seven-ar</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>seven-ar</string>
-    </dict>
-  </lib>
 </glyph>

@@ -9,10 +9,4 @@
     <component base="noon-ar"/>
     <component base="_ring" xOffset="636" yOffset="-641"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

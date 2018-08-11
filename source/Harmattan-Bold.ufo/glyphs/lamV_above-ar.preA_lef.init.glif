@@ -9,10 +9,4 @@
     <component base="lam-ar.preAlef.init"/>
     <component base="vabove-ar" xOffset="480" yOffset="206"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

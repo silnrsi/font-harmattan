@@ -8,10 +8,4 @@
     <component base="ain-ar.init"/>
     <component base="_dot2v" xOffset="390" yOffset="1021"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

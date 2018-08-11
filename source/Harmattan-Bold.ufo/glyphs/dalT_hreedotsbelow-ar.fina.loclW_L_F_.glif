@@ -8,10 +8,4 @@
     <component base="dal-ar.fina.loclWLF"/>
     <component base="_dot3d" xOffset="545" yOffset="-348"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

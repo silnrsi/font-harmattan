@@ -8,10 +8,4 @@
     <component base="seen-ar.init"/>
     <component base="vinvertedabove-ar" xOffset="630" yOffset="-471"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

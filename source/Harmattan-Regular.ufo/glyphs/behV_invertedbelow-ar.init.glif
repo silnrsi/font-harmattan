@@ -8,10 +8,4 @@
     <component base="behDotless-ar.init"/>
     <component base="_invSmallV" xOffset="227" yOffset="-342"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

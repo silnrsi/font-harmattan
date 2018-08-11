@@ -664,6 +664,27 @@
     <key>public.markColor</key>
     <string>0.67,0.95,0.38,1</string>
   </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.eight-persian</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>eight-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>eight-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.eight-persian.medium</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>eight-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>eight-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.eight-persian.small</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>eight-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>eight-ar</string>
+  </dict>
   <key>com.schriftgestaltung.Glyphs.glyphUserData.feh-ar</key>
   <dict>
     <key>public.markColor</key>
@@ -1594,6 +1615,27 @@
     <key>public.markColor</key>
     <string>0.67,0.95,0.38,1</string>
   </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.nine-persian</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>nine-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>nine-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.nine-persian.medium</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>nine-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>nine-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.nine-persian.small</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>nine-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>nine-ar</string>
+  </dict>
   <key>com.schriftgestaltung.Glyphs.glyphUserData.noon-ar</key>
   <dict>
     <key>public.markColor</key>
@@ -2168,6 +2210,41 @@
   <dict>
     <key>public.markColor</key>
     <string>0.67,0.95,0.38,1</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.seven-persian</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>seven-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>seven-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.seven-persian.medium</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>seven-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>seven-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.seven-persian.small</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>seven-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>seven-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.seven-persian.urdu.medium</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>seven-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>seven-ar</string>
+  </dict>
+  <key>com.schriftgestaltung.Glyphs.glyphUserData.seven-persian.urdu.small</key>
+  <dict>
+    <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+    <string>seven-ar</string>
+    <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+    <string>seven-ar</string>
   </dict>
   <key>com.schriftgestaltung.Glyphs.glyphUserData.sheen-ar</key>
   <dict>
@@ -2768,11 +2845,6 @@
   <dict>
     <key>public.markColor</key>
     <string>0.67,0.95,0.38,1</string>
-  </dict>
-  <key>com.schriftgestaltung.Glyphs.glyphUserData.yehbelow-ar</key>
-  <dict>
-    <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-    <integer>642</integer>
   </dict>
   <key>com.schriftgestaltung.Glyphs.glyphUserData.yu-ar</key>
   <dict>

@@ -9,10 +9,4 @@
     <component base="qafDotless-ar"/>
     <component base="_dot3u" xOffset="846" yOffset="1088"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

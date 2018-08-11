@@ -8,10 +8,4 @@
     <component base="dal-ar.loclWLF"/>
     <component base="vinvertedabove-ar" xOffset="189" yOffset="-259"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

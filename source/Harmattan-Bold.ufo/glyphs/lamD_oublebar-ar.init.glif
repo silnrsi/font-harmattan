@@ -8,10 +8,4 @@
     <component base="lam-ar.init"/>
     <component base="_bar2" xOffset="315" yOffset="606"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

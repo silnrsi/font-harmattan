@@ -6,12 +6,4 @@
   <outline>
     <component base="nine-ar.medium" xOffset="-10"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nine-ar</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>nine-ar</string>
-    </dict>
-  </lib>
 </glyph>

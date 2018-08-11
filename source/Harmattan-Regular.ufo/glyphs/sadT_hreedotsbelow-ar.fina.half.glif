@@ -8,10 +8,4 @@
     <component base="sad-ar.fina.half"/>
     <component base="_dot3d" xOffset="743" yOffset="-206"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

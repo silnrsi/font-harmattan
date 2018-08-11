@@ -9,10 +9,4 @@
     <component base="alef-ar"/>
     <component base="_madda" xOffset="100" yOffset="1187"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>
