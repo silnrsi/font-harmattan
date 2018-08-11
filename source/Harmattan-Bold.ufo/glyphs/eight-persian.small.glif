@@ -8,9 +8,9 @@
   </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
       <string>eight-ar</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
       <string>eight-ar</string>
     </dict>
   </lib>
