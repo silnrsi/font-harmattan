@@ -204,6 +204,10 @@ pass(4)	// Features, special behaviors
 
 	cLowHamzaBase  g_hamzaabove_ar  >  cLowHamzaComposed:(1 2)  _;
 	
+	// Allah ligatures:
+	g_alef_ar g_lam_ar_init g_lam_ar_medi g_shadda_ar g_alefabove_ar g_heh_ar_fina > g_allah_ar:(1 2 3 4 5 6) _ _ _ _ _ ;
+	g_alef_ar g_lam_ar_init g_lam_ar_medi g_shadda_ar g_fatha_ar     g_heh_ar_fina > g_allah_ar_alt:(1 2 3 4 5 6) _ _ _ _ _ ;
+	
 	if (warshDiacritics == std)
 		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ / _ cMark1? _ ;
 		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar g_alef_hamzabelow_ar_fina):(A H) _ / _ cMark1? _ ;

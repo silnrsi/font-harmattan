@@ -61,7 +61,7 @@ for style in ('-Regular', '-Bold'):
             make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
             params = '-q -e gdlerr' + style + '.txt',
             ),
-        opentype = fea(FAMILY + style + '.fea', 	# Would like to prefix generated but smith won't build at present (smith issue #45)
+        opentype = fea(generated + FAMILY + style + '.fea',
             master = 'source/opentype/master.feax',
             make_params = OMITAPS,
             to_ufo = True,

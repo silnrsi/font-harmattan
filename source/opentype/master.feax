@@ -63,6 +63,7 @@ lookup FontCheck {
 } FontCheck;
 
 
+#********************
 # Basic Arabic shaping:
 
 lookup ltrFina {
@@ -81,7 +82,10 @@ lookup ltrInit {
 } ltrInit;
 
 #********************
-# required ligatures to implement "touching" Warsh diacritics:
+# required ligatures 
+
+#********
+# implement "touching" Warsh diacritics:
 
 lookup LigaturesForWarsh1 {
   lookupflag UseMarkFilteringSet @HamzaAbove ;
@@ -102,10 +106,11 @@ lookup LigaturesForWarsh3 {
     sub alef-ar fatha-ar by alef_fatha-ar ;
 } LigaturesForWarsh3;
 
+#********
 # Substitutions for Lam-Alef "ligature" (which is actually implemented
 # as cursively connected components, not a ligature).
 
-lookup Ligatures {
+lookup LamAlefLigatures {
   lookupflag IgnoreMarks ;
   # Subtable: Ligatures\Part1
     sub [@LamIni @LamMed]' @AlefFin by [@LamIniBeforeAlef @LamMedBeforeAlef];
@@ -113,9 +118,18 @@ lookup Ligatures {
     sub [@LamIniBeforeAlef lam_hamza-ar.preAlef.init] @AlefFin' by @AlefFinAfterLamIni;
   # Subtable: Ligatures\Part2b
     sub [@LamMedBeforeAlef lam_hamza-ar.preAlef.init] @AlefFin' by @AlefFinAfterLamMed ;
-} Ligatures;
+} LamAlefLigatures;
 
-#********************
+#********
+# Allah ligatures -- we have two!
+
+lookup AllahLigatures {
+  lookupflag ;
+    sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
+	sub alef-ar lam-ar.init lam-ar.medi shadda-ar fatha-ar     heh-ar.fina by allah-ar.alt;
+} AllahLigatures;
+
+#********
 # Ligatures of marks
 
 lookup ShaddaLigatures {
@@ -1021,7 +1035,8 @@ feature rlig {  # Required Ligatures
         lookup LigaturesForWarsh1;
         lookup LigaturesForWarsh2;
         lookup LigaturesForWarsh3;
-        lookup Ligatures;
+        lookup LamAlefLigatures;
+        lookup AllahLigatures;
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
