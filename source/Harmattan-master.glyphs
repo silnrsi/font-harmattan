@@ -1,5 +1,5 @@
 {
-.appVersion = "1143";
+.appVersion = "1165";
 DisplayStrings = (
 "/heh-ar/sheen-ar/heh-ar/yeh-ar/sheen-ar  /alef-ar/lam-ar/alef-ar/sheen-ar/heh-ar  /one-ar/two-ar  /kaf-ar/alef-ar/seen-ar/yeh-ar/alef-ar/sheen-ar/heh-ar  /yeh-ar/tah-ar/heh-ar  /nine-ar/eight-ar  /yeh-ar/tah-ar/alef-ar/meem-ar  /eight-ar/three-ar/kaf-ar/lam-ar/yeh-ar/tah-ar  /sheen-ar/yeh-ar/alef-ar/heh-ar  /four-ar/three-ar  /yeh-ar/sheen-ar/yeh-ar/alef-ar  709/three-ar 6/tah-ar/zain-ar/heh-ar/reh-ar 1 /teh-ar/hah-ar/yeh-ar/waw-ar/tah-ar/one-ar 1 /tah-ar/alef-ar/lam-ar 87/tah-ar/kaf-ar/kaf-ar 54/seen-ar.init/sheen-ar/alef-ar 1/tcheh-ar/lam-ar  90/sad-ar/meem-ar/khah-ar/heh-ar 32 /teh-ar/yeh-ar/khah-ar/alef-ar  /tah-ar/kaf-ar/beh-ar/khah-ar  ",
 "/three-ar/three-ar/three-ar/three-ar.medium/three-ar.medium/three-ar.medium/three-ar.small/three-ar.small/three-ar.small/one-ar/one-ar/one-ar/one-ar.medium/one-ar.medium/one-ar.medium/one-ar.small/one-ar.small/one-ar.small \012/zero-ar/zero-ar.medium/zero-ar.small/one-ar/one-ar.medium/one-ar.small/two-ar/two-ar.medium/two-ar.small/three-ar/three-ar.medium/three-ar.small/four-ar/four-ar.medium/four-ar.small/five-ar/five-ar.medium/five-ar.small \012/six-ar/six-ar.medium/six-ar.small/seven-ar/seven-ar.medium/seven-ar.small/eight-ar/eight-ar.medium/eight-ar.small/nine-ar/nine-ar.medium/nine-ar.small \012/zero-persian/zero-persian.medium/zero-persian.small/two-persian/two-persian.medium/two-persian.small/three-persian/three-persian.medium/three-persian.small/four-persian/four-persian.medium/four-persian.small/four-persian.urdu/four-persian.urdu.medium/four-persian.urdu.small/five-persian/five-persian.medium/five-persian.small \012/six-persian/six-persian.medium/six-persian.small/six-persian.urdu/six-persian.urdu.medium/six-persian.urdu.small/seven-persian/seven-persian.medium/seven-persian.small/seven-persian.urdu/seven-persian.urdu.medium/seven-persian.urdu.small/eight-persian/eight-persian.medium/eight-persian.small/nine-persian/nine-persian.medium/nine-persian.small \012/zero-ar/five-ar/one-ar  /three-ar/one-ar  /one-ar/three-ar",
@@ -10,8 +10,7 @@ DisplayStrings = (
 "/feh-ar  /feh-ar.fina  /feh-ar.medi  /feh-ar.init  /veh-ar  /veh-ar.fina  /veh-ar.medi  /veh-ar.init  /fehDotless-ar  /fehDotless-ar.fina  /fehDotless-ar.medi  /fehDotless-ar.init  /fehDotmovedbelow-ar  /fehDotmovedbelow-ar.fina  /fehDotmovedbelow-ar.medi  /fehDotmovedbelow-ar.init  /_dot1/fehDotbelow-ar  /fehDotbelow-ar.fina  /fehDotbelow-ar.medi  /fehDotbelow-ar.init  /fehThreedotsbelow-ar  /fehThreedotsbelow-ar.fina  /fehThreedotsbelow-ar.medi  /fehThreedotsbelow-ar.init  /fehTwodotsbelow-ar  /fehTwodotsbelow-ar.fina  /fehTwodotsbelow-ar.medi  /fehTwodotsbelow-ar.init  /fehThreedotsupbelow-ar  /fehThreedotsupbelow-ar.fina  /fehThreedotsupbelow-ar.medi  /fehThreedotsupbelow-ar.init  /fehDotbelowThreedotsabove-ar  /fehDotbelowThreedotsabove-ar.fina  /fehDotbelowThreedotsabove-ar.medi  /fehDotbelowThreedotsabove-ar.init  /fehAfrican-ar  /fehAfrican-ar.fina  /fehAfrican-ar.medi  /fehAfrican-ar.init  /qafDotless-ar  /qafDotless-ar.fina  /qafDotless-ar.medi  /qafDotless-ar.init  /qaf-ar  /qaf-ar.fina  /qaf-ar.medi  /qaf-ar.init  /qafDotabove-ar  /qafDotabove-ar.fina  /qafDotabove-ar.medi  /qafDotabove-ar.init  /qafThreedotsabove-ar  /qafThreedotsabove-ar.fina  /qafThreedotsabove-ar.medi  /qafThreedotsabove-ar.init  /qafDotbelow-ar  /qafDotbelow-ar.fina  /qafDotbelow-ar.medi  /qafDotbelow-ar.init  /qafAfrican-ar  /qafAfrican-ar.fina  /qafAfrican-ar.medi  /qafAfrican-ar.init  /kaf-ar  /kaf-ar.fina  /kaf-ar.medi  /kaf-ar.init  /kafDotbelow-ar  /kafDotbelow-ar.fina  /kafDotbelow-ar.medi  /kafDotbelow-ar.init  /keheh-ar  /keheh-ar.fina  /keheh-ar.medi  /keheh-ar.init  /kehehTwodotshorizontalabove-ar  /kehehTwodotshorizontalabove-ar.fina  /kehehTwodotshorizontalabove-ar.medi  /kehehTwodotshorizontalabove-ar.init  /kehehThreedotsbelow-ar  /kehehThreedotsbelow-ar.fina  /kehehThreedotsbelow-ar.medi  /kehehThreedotsbelow-ar.init  /kehehDotabove-ar  /kehehDotabove-ar.fina  /kehehDotabove-ar.medi  /kehehDotabove-ar.init  /kehehThreedotsabove-ar  /kehehThreedotsabove-ar.fina  /kehehThreedotsabove-ar.medi  /kehehThreedotsabove-ar.init  /kehehThreedotsupbelow-ar  /kehehThreedotsupbelow-ar.fina  /kehehThreedotsupbelow-ar.medi  /kehehThreedotsupbelow-ar.init  /gaf-ar  /gaf-ar.fina  /gaf-ar.medi  /gaf-ar.init  /kafswash-ar  /kafswash-ar.fina  /kafswash-ar.medi  /kafswash-ar.init  /kafDotabove-ar  /kafDotabove-ar.fina  /kafDotabove-ar.medi  /kafDotabove-ar.init  /kafTwodotshorizontalabove-ar  /kafTwodotshorizontalabove-ar.fina  /kafTwodotshorizontalabove-ar.medi  /kafTwodotshorizontalabove-ar.init  /kafThreedotsbelow-ar  /kafThreedotsbelow-ar.fina  /kafThreedotsbelow-ar.medi  /kafThreedotsbelow-ar.init  /ng-ar  /ng-ar.fina  /ng-ar.medi  /ng-ar.init",
 "/lam-ar  /lam-ar.fina  /lam-ar.medi  /lam-ar.init  /lam-ar.preAlef.medi  /lam-ar.preAlef.init  /lamVabove-ar  /lamVabove-ar.fina  /lamVabove-ar.medi  /lamVabove-ar.init  /lamVabove-ar.preAlef.medi  /lamVabove-ar.preAlef.init  /lamDotabove-ar  /lamDotabove-ar.fina  /lamDotabove-ar.medi  /lamDotabove-ar.init  /lamDotabove-ar.preAlef.medi  /lamDotabove-ar.preAlef.init  /lamThreedotsabove-ar  /lamThreedotsabove-ar.fina  /lamThreedotsabove-ar.medi  /lamThreedotsabove-ar.init  /lamThreedotsabove-ar.preAlef.medi  /lamThreedotsabove-ar.preAlef.init  /lamThreedotsbelow-ar  /lamThreedotsbelow-ar.fina  /lamThreedotsbelow-ar.medi  /lamThreedotsbelow-ar.init  /lamThreedotsbelow-ar.preAlef.medi  /lamThreedotsbelow-ar.preAlef.init  /lamBar-ar  /lamBar-ar.fina  /lamBar-ar.medi  /lamBar-ar.init  /lamBar-ar.preAlef.medi  /lamBar-ar.preAlef.init  /lamDoublebar-ar  /lamDoublebar-ar.fina  /lamDoublebar-ar.medi  /lamDoublebar-ar.init  /lamDoublebar-ar.preAlef.medi  /lamDoublebar-ar.preAlef.init  /hamzaabove-ar/lam_hamza-ar.preAlef.init  /lam_hamza-ar.preAlef.warsh.init  /meem-ar  /meem-ar.fina  /meem-ar.medi  /meem-ar.init  /meem-ar.sindhi  /meem-ar.sindhi.fina  /meemDotabove-ar  /meemDotabove-ar.fina  /meemDotabove-ar.medi  /meemDotabove-ar.init  /meemDotabove-ar.sindhi  /meemDotabove-ar.sindhi.fina  /meemDotbelow-ar  /meemDotbelow-ar.fina  /meemDotbelow-ar.medi  /meemDotbelow-ar.init  /meemDotbelow-ar.sindhi  /meemDotbelow-ar.sindhi.fina  /meemThreedotsabove-ar  /meemThreedotsabove-ar.fina  /meemThreedotsabove-ar.medi  /meemThreedotsabove-ar.init  /meemThreedotsabove-ar.sindhi  /meemThreedotsabove-ar.sindhi.fina  /noon-ar  /noon-ar.fina  /noon-ar.medi  /noon-ar.init  /noonDotbelow-ar  /noonDotbelow-ar.fina  /noonDotbelow-ar.medi  /noonDotbelow-ar.init  /noonghunna-ar  /noonghunna-ar.fina  /noonghunna-ar.medi  /noonghunna-ar.init  /noonRing-ar  /noonRing-ar.fina  /noonRing-ar.medi  /noonRing-ar.init  /noonThreedotsabove-ar  /noonThreedotsabove-ar.fina  /noonThreedotsabove-ar.medi  /noonThreedotsabove-ar.init  /noonTwodotsbelow-ar  /noonTwodotsbelow-ar.fina  /noonTwodotsbelow-ar.medi  /noonTwodotsbelow-ar.init  /noonVabove-ar  /noonVabove-ar.fina  /noonVabove-ar.medi  /noonVabove-ar.init  /noonAfrican-ar  /noonAfrican-ar.fina  /noonAfrican-ar.medi  /noonAfrican-ar.init  /heh-ar  /heh-ar.fina  /heh-ar.medi  /heh-ar.init  /hehHamzaabove-ar  /hehHamzaabove-ar.fina  /hehDoachashmee-ar.medi  /hehDoachashmee-ar.init  /tehMarbuta-ar  /tehMarbuta-ar.fina  /ae-ar  /ae-ar.fina",
 "/waw-ar  /waw-ar.fina  /wawTwodots-ar  /wawTwodots-ar.fina  /wawDotabove-ar  /wawDotabove-ar.fina  /wawHamzaabove-ar  /wawHamzaabove-ar.fina  /oe-ar  /oe-ar.fina  /yu-ar  /yu-ar.fina  /kirghizyu-ar  /kirghizyu-ar.fina  /ve-ar  /ve-ar.fina  /alefMaksura-ar  /alefMaksura-ar.fina  /alefMaksura-ar.medi  /alefMaksura-ar.init  /yeh-ar  /yeh-ar.fina  /yeh-ar.medi  /yeh-ar.init  /yeh-ar.noDots  /yeh-ar.noDots.fina  /yeh-ar.noDots.medi  /yeh-ar.noDots.init  /yehHamzaabove-ar  /yehHamzaabove-ar.fina  /yehHamzaabove-ar.medi  /yehHamzaabove-ar.init  /yehVabove-ar  /yehVabove-ar.fina  /yehVabove-ar.medi  /yehVabove-ar.init  /yehTwodotsbelowHamzaabove-ar  /yehTwodotsbelowHamzaabove-ar.fina  /yehTwodotsbelowHamzaabove-ar.medi  /yehTwodotsbelowHamzaabove-ar.init  /yehTwodotsbelowDotabove-ar  /yehTwodotsbelowDotabove-ar.fina  /yehTwodotsbelowDotabove-ar.medi  /yehTwodotsbelowDotabove-ar.init  /yehVinverted-farsi  /yehVinverted-farsi.fina  /yehVinverted-farsi.medi  /yehVinverted-farsi.init  /yeh-farsi  /yeh-farsi.fina  /yeh-farsi.medi  /yeh-farsi.init  /yehTwodotsabove-farsi  /yehTwodotsabove-farsi.fina  /yehTwodotsabove-farsi.medi  /yehTwodotsabove-farsi.init  /yehThreedotsabove-farsi  /yehThreedotsabove-farsi.fina  /yehThreedotsabove-farsi.medi  /yehThreedotsabove-farsi.init  /e-ar  /e-ar.fina  /e-ar.medi  /e-ar.init  /yehThreedotsbelow-ar  /yehThreedotsbelow-ar.fina  /yehThreedotsbelow-ar.medi  /yehThreedotsbelow-ar.init  /yehTwodotsbelowNoonabove-ar  /yehTwodotsbelowNoonabove-ar.fina  /yehTwodotsbelowNoonabove-ar.medi  /yehTwodotsbelowNoonabove-ar.init  /yehbarree-ar  /yehbarree-ar.fina  /yehbarreeHamzaabove-ar  /yehbarreeHamzaabove-ar.fina \012 /ae-ar.fina/seen-ar/reh-ar/lam-ar/allah-ar/allah-ar.alt  /alef-ar/lam-ar/lam-ar/heh-ar",
-"/damma-ar.short  /dammainverted-ar  /fathatwodots-ar  /_tah/tahabove-ar  /jeemabove-ar  /meemStopabove-ar/wawSmall-ar/yehbelow-ar  /rehDotbelowdotabove-ar/rehDotbelowdotabove-ar.fina  /reh-ar  ",
-"/rehHahabove-ar   /rehDadabove-ar   /sadabove-ar   /ainabove-ar   /takhallusabove-ar  /tahabove-ar   /hamzaabove-ar  /hamzabelow-ar  /dammatan-ar   /dammatan-ar.sixNine   /damma-ar   /damma-ar.short   /shadda-ar  /sukun-ar  \012/dammainverted-ar  /dammareversed-ar   /sadLamAlefMaksuraabove-ar   /qafLamAlefMaksuraabove-ar   /meemabove-ar   /meemStopabove-ar   /lamAlefabove-ar   /jeemabove-ar   /seen-ar/seenabove-ar  /seenbelow-ar  /wawSmall-ar  /yehbelow-ar  /yehabove-ar  /meembelow-ar"
+"\012 aoºªa1¹½¼"
 );
 copyright = "Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;\012\012Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),\012with the Reserved Font Name \"Fouta\".\012\012Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), \012with Reserved Font Names 'Andika' and 'SIL'.\012\012Copyright (c) 2014-2018, SIL International (http://www.sil.org/).\012with Reserved Font Names \"Harmattan\" and \"SIL\".";
 customParameters = (
@@ -1417,6 +1416,7 @@ verticalStems = (
 82,
 113
 );
+visible = 1;
 weightValue = 400;
 widthValue = 0;
 xHeight = 778;
@@ -1487,6 +1487,7 @@ verticalStems = (
 82,
 113
 );
+visible = 1;
 weight = Bold;
 weightValue = 700;
 widthValue = 0;
@@ -13536,118 +13537,42 @@ unicode = 00AE;
 glyphname = ordfeminine;
 layers = (
 {
+components = (
+{
+name = a;
+transform = "{0.68301, 0, 0, 0.68301, 10, 508}";
+}
+);
 layerId = "ABC2F62C-933B-4CC1-B870-69931642DF5C";
 paths = (
 {
 closed = 1;
 nodes = (
-"577 375 LINE",
-"577 450 LINE",
-"58 450 LINE",
-"58 375 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"454 647 OFFCURVE",
-"463 540 OFFCURVE",
-"478 510 CURVE",
-"570 510 LINE",
-"549 564 OFFCURVE",
-"536 645 OFFCURVE",
-"536 768 CURVE SMOOTH",
-"536 995 LINE",
-"483 1008 OFFCURVE",
-"412 1017 OFFCURVE",
-"344 1017 CURVE SMOOTH",
-"148 1017 OFFCURVE",
-"60 864 OFFCURVE",
-"60 709 CURVE SMOOTH",
-"60 572 OFFCURVE",
-"130 498 OFFCURVE",
-"218 498 CURVE SMOOTH",
-"328 498 OFFCURVE",
-"411 628 OFFCURVE",
-"454 738 CURVE",
-"454 690 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"389 939 OFFCURVE",
-"421 933 OFFCURVE",
-"438 929 CURVE",
-"438 897 LINE SMOOTH",
-"438 828 OFFCURVE",
-"327 580 OFFCURVE",
-"234 580 CURVE SMOOTH",
-"192 580 OFFCURVE",
-"158 634 OFFCURVE",
-"158 709 CURVE SMOOTH",
-"158 827 OFFCURVE",
-"199 939 OFFCURVE",
-"336 939 CURVE SMOOTH"
+"532 375 LINE",
+"532 450 LINE",
+"61 450 LINE",
+"61 375 LINE"
 );
 }
 );
 width = 606;
 },
 {
+components = (
+{
+name = a;
+transform = "{0.68301, 0, 0, 0.68301, -2, 508}";
+}
+);
 layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
 paths = (
 {
 closed = 1;
 nodes = (
-"419 624 OFFCURVE",
-"431 540 OFFCURVE",
-"445 516 CURVE",
-"575 516 LINE",
-"556 570 OFFCURVE",
-"544 652 OFFCURVE",
-"544 776 CURVE SMOOTH",
-"544 1002 LINE",
-"489 1014 OFFCURVE",
-"414 1023 OFFCURVE",
-"345 1023 CURVE SMOOTH",
-"142 1023 OFFCURVE",
-"53 872 OFFCURVE",
-"53 716 CURVE SMOOTH",
-"53 579 OFFCURVE",
-"117 504 OFFCURVE",
-"200 504 CURVE SMOOTH",
-"294 504 OFFCURVE",
-"378 615 OFFCURVE",
-"419 710 CURVE",
-"419 659 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"404 829 OFFCURVE",
-"316 621 OFFCURVE",
-"243 621 CURVE SMOOTH",
-"215 621 OFFCURVE",
-"190 659 OFFCURVE",
-"190 716 CURVE SMOOTH",
-"190 817 OFFCURVE",
-"222 914 OFFCURVE",
-"324 914 CURVE SMOOTH",
-"365 914 OFFCURVE",
-"390 909 OFFCURVE",
-"404 905 CURVE",
-"404 888 LINE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"577 338 LINE",
-"577 450 LINE",
-"60 450 LINE",
-"60 338 LINE"
+"569 338 LINE",
+"569 450 LINE",
+"52 450 LINE",
+"52 338 LINE"
 );
 }
 );
@@ -14224,98 +14149,42 @@ unicode = 00B7;
 glyphname = ordmasculine;
 layers = (
 {
+components = (
+{
+name = o;
+transform = "{0.68301, 0, 0, 0.68301, 13, 508}";
+}
+);
 layerId = "ABC2F62C-933B-4CC1-B870-69931642DF5C";
 paths = (
 {
 closed = 1;
 nodes = (
-"53 588 OFFCURVE",
-"153 498 OFFCURVE",
-"297 498 CURVE SMOOTH",
-"435 498 OFFCURVE",
-"552 588 OFFCURVE",
-"552 756 CURVE SMOOTH",
-"552 924 OFFCURVE",
-"452 1017 OFFCURVE",
-"308 1017 CURVE SMOOTH",
-"170 1017 OFFCURVE",
-"53 924 OFFCURVE",
-"53 756 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"150 870 OFFCURVE",
-"218 939 OFFCURVE",
-"303 939 CURVE SMOOTH",
-"393 939 OFFCURVE",
-"455 870 OFFCURVE",
-"455 756 CURVE SMOOTH",
-"455 642 OFFCURVE",
-"387 576 OFFCURVE",
-"303 576 CURVE SMOOTH",
-"213 576 OFFCURVE",
-"150 642 OFFCURVE",
-"150 756 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"552 375 LINE",
-"552 450 LINE",
-"53 450 LINE",
-"53 375 LINE"
+"546 375 LINE",
+"546 450 LINE",
+"56 450 LINE",
+"56 375 LINE"
 );
 }
 );
 width = 598;
 },
 {
+components = (
+{
+name = o;
+transform = "{0.68301, 0, 0, 0.68301, 3, 508}";
+}
+);
 layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
 paths = (
 {
 closed = 1;
 nodes = (
-"49 589 OFFCURVE",
-"153 498 OFFCURVE",
-"299 498 CURVE SMOOTH",
-"439 498 OFFCURVE",
-"559 589 OFFCURVE",
-"559 756 CURVE SMOOTH",
-"559 924 OFFCURVE",
-"456 1017 OFFCURVE",
-"309 1017 CURVE SMOOTH",
-"169 1017 OFFCURVE",
-"49 924 OFFCURVE",
-"49 756 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"195 851 OFFCURVE",
-"237 906 OFFCURVE",
-"305 906 CURVE SMOOTH",
-"375 906 OFFCURVE",
-"414 851 OFFCURVE",
-"414 756 CURVE SMOOTH",
-"414 664 OFFCURVE",
-"372 607 OFFCURVE",
-"305 607 CURVE SMOOTH",
-"233 607 OFFCURVE",
-"195 664 OFFCURVE",
-"195 756 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"557 338 LINE",
-"557 450 LINE",
-"51 450 LINE",
-"51 338 LINE"
+"554 338 LINE",
+"554 450 LINE",
+"48 450 LINE",
+"48 338 LINE"
 );
 }
 );
@@ -14420,25 +14289,13 @@ name = U;
 position = "{315, 1256}";
 }
 );
-layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"551 624 LINE",
-"389 624 LINE",
-"389 1221 LINE",
-"244 1221 LINE",
-"79 1133 LINE",
-"97 1006 LINE",
-"244 1080 LINE",
-"244 624 LINE",
-"83 624 LINE",
-"83 510 LINE",
-"551 510 LINE"
-);
+name = one;
+transform = "{0.7, 0, 0, 0.65, -13, 510}";
 }
 );
+layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
 width = 630;
 }
 );
@@ -14609,6 +14466,16 @@ unicode = 00B3;
 glyphname = onehalf;
 layers = (
 {
+anchors = (
+{
+name = L;
+position = "{229, 487.5}";
+},
+{
+name = U;
+position = "{229, 1245.14}";
+}
+);
 layerId = "ABC2F62C-933B-4CC1-B870-69931642DF5C";
 paths = (
 {
@@ -14618,22 +14485,6 @@ nodes = (
 "251 -37 LINE",
 "1055 1200 LINE",
 "957 1200 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"60 611 LINE",
-"60 532 LINE",
-"431 532 LINE",
-"431 611 LINE",
-"296 611 LINE",
-"296 1200 LINE",
-"210 1200 LINE",
-"52 1106 LINE",
-"67 1023 LINE",
-"198 1102 LINE",
-"198 611 LINE"
 );
 },
 {
@@ -14666,6 +14517,21 @@ nodes = (
 "1162 0 LINE",
 "1162 86 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"206.68 1200.5 LINE",
+"60.36 1103.78 LINE",
+"72.76 1020.08 LINE",
+"206.68 1106.26 LINE",
+"206.68 534 LINE",
+"305.88 534 LINE",
+"300.3 584.84 OFFCURVE",
+"296.58 695.82 OFFCURVE",
+"296.58 756.58 CURVE SMOOTH",
+"296.58 1200.5 LINE"
+);
 }
 );
 width = 1200;
@@ -14680,22 +14546,6 @@ nodes = (
 "297 -37 LINE",
 "1101 1200 LINE",
 "973 1200 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"45 615 LINE",
-"45 502 LINE",
-"447 502 LINE",
-"447 615 LINE",
-"315 615 LINE",
-"315 1192 LINE",
-"191 1192 LINE",
-"37 1105 LINE",
-"57 981 LINE",
-"191 1053 LINE",
-"191 615 LINE"
 );
 },
 {
@@ -14728,6 +14578,21 @@ nodes = (
 "1257 0 LINE",
 "1257 123 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"232 1198 LINE",
+"85 1114 LINE",
+"102 993 LINE",
+"232 1063 LINE",
+"232 510 LINE",
+"369 510 LINE",
+"363 560 OFFCURVE",
+"360 693 OFFCURVE",
+"360 753 CURVE SMOOTH",
+"360 1198 LINE"
+);
 }
 );
 width = 1294;
@@ -14739,24 +14604,18 @@ unicode = 00BD;
 glyphname = onequarter;
 layers = (
 {
+anchors = (
+{
+name = L;
+position = "{260, 487.5}";
+},
+{
+name = U;
+position = "{260, 1245.14}";
+}
+);
 layerId = "ABC2F62C-933B-4CC1-B870-69931642DF5C";
 paths = (
-{
-closed = 1;
-nodes = (
-"86 611 LINE",
-"86 532 LINE",
-"457 532 LINE",
-"457 611 LINE",
-"322 611 LINE",
-"322 1200 LINE",
-"236 1200 LINE",
-"78 1106 LINE",
-"93 1023 LINE",
-"225 1102 LINE",
-"225 611 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -14789,11 +14648,36 @@ nodes = (
 "941 540 LINE",
 "941 273 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"237.68 1200.5 LINE",
+"91.36 1103.78 LINE",
+"103.76 1020.08 LINE",
+"237.68 1106.26 LINE",
+"237.68 534 LINE",
+"336.88 534 LINE",
+"331.3 584.84 OFFCURVE",
+"327.58 695.82 OFFCURVE",
+"327.58 756.58 CURVE SMOOTH",
+"327.58 1200.5 LINE"
+);
 }
 );
 width = 1200;
 },
 {
+anchors = (
+{
+name = L;
+position = "{239, 478.5}";
+},
+{
+name = U;
+position = "{239, 1236.14}";
+}
+);
 layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
 paths = (
 {
@@ -14803,22 +14687,6 @@ nodes = (
 "342 -37 LINE",
 "1146 1200 LINE",
 "1018 1200 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"45 615 LINE",
-"45 502 LINE",
-"447 502 LINE",
-"447 615 LINE",
-"315 615 LINE",
-"315 1192 LINE",
-"191 1192 LINE",
-"37 1105 LINE",
-"57 981 LINE",
-"191 1053 LINE",
-"191 615 LINE"
 );
 },
 {
@@ -14843,6 +14711,21 @@ nodes = (
 "851 272 LINE",
 "1053 548 LINE",
 "1053 272 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"265 1198 LINE",
+"118 1114 LINE",
+"135 993 LINE",
+"265 1063 LINE",
+"265 510 LINE",
+"402 510 LINE",
+"396 560 OFFCURVE",
+"393 693 OFFCURVE",
+"393 753 CURVE SMOOTH",
+"393 1198 LINE"
 );
 }
 );
@@ -114143,6 +114026,20 @@ layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
 width = 600;
 }
 );
+},
+{
+glyphname = "bismillah-ar";
+layers = (
+{
+layerId = "ABC2F62C-933B-4CC1-B870-69931642DF5C";
+width = 600;
+},
+{
+layerId = "7A9FDB36-6856-450C-A7C7-81DD8492FDAE";
+width = 600;
+}
+);
+unicode = FDFD;
 },
 {
 glyphname = CombAcute;

@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1143</string>
+  <string>1165</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/heh-ar/sheen-ar/heh-ar/yeh-ar/sheen-ar  /alef-ar/lam-ar/alef-ar/sheen-ar/heh-ar  /one-ar/two-ar  /kaf-ar/alef-ar/seen-ar/yeh-ar/alef-ar/sheen-ar/heh-ar  /yeh-ar/tah-ar/heh-ar  /nine-ar/eight-ar  /yeh-ar/tah-ar/alef-ar/meem-ar  /eight-ar/three-ar/kaf-ar/lam-ar/yeh-ar/tah-ar  /sheen-ar/yeh-ar/alef-ar/heh-ar  /four-ar/three-ar  /yeh-ar/sheen-ar/yeh-ar/alef-ar  709/three-ar 6/tah-ar/zain-ar/heh-ar/reh-ar 1 /teh-ar/hah-ar/yeh-ar/waw-ar/tah-ar/one-ar 1 /tah-ar/alef-ar/lam-ar 87/tah-ar/kaf-ar/kaf-ar 54/seen-ar.init/sheen-ar/alef-ar 1/tcheh-ar/lam-ar  90/sad-ar/meem-ar/khah-ar/heh-ar 32 /teh-ar/yeh-ar/khah-ar/alef-ar  /tah-ar/kaf-ar/beh-ar/khah-ar  </string>
@@ -27,9 +27,8 @@
     <string>/lam-ar  /lam-ar.fina  /lam-ar.medi  /lam-ar.init  /lam-ar.preAlef.medi  /lam-ar.preAlef.init  /lamVabove-ar  /lamVabove-ar.fina  /lamVabove-ar.medi  /lamVabove-ar.init  /lamVabove-ar.preAlef.medi  /lamVabove-ar.preAlef.init  /lamDotabove-ar  /lamDotabove-ar.fina  /lamDotabove-ar.medi  /lamDotabove-ar.init  /lamDotabove-ar.preAlef.medi  /lamDotabove-ar.preAlef.init  /lamThreedotsabove-ar  /lamThreedotsabove-ar.fina  /lamThreedotsabove-ar.medi  /lamThreedotsabove-ar.init  /lamThreedotsabove-ar.preAlef.medi  /lamThreedotsabove-ar.preAlef.init  /lamThreedotsbelow-ar  /lamThreedotsbelow-ar.fina  /lamThreedotsbelow-ar.medi  /lamThreedotsbelow-ar.init  /lamThreedotsbelow-ar.preAlef.medi  /lamThreedotsbelow-ar.preAlef.init  /lamBar-ar  /lamBar-ar.fina  /lamBar-ar.medi  /lamBar-ar.init  /lamBar-ar.preAlef.medi  /lamBar-ar.preAlef.init  /lamDoublebar-ar  /lamDoublebar-ar.fina  /lamDoublebar-ar.medi  /lamDoublebar-ar.init  /lamDoublebar-ar.preAlef.medi  /lamDoublebar-ar.preAlef.init  /hamzaabove-ar/lam_hamza-ar.preAlef.init  /lam_hamza-ar.preAlef.warsh.init  /meem-ar  /meem-ar.fina  /meem-ar.medi  /meem-ar.init  /meem-ar.sindhi  /meem-ar.sindhi.fina  /meemDotabove-ar  /meemDotabove-ar.fina  /meemDotabove-ar.medi  /meemDotabove-ar.init  /meemDotabove-ar.sindhi  /meemDotabove-ar.sindhi.fina  /meemDotbelow-ar  /meemDotbelow-ar.fina  /meemDotbelow-ar.medi  /meemDotbelow-ar.init  /meemDotbelow-ar.sindhi  /meemDotbelow-ar.sindhi.fina  /meemThreedotsabove-ar  /meemThreedotsabove-ar.fina  /meemThreedotsabove-ar.medi  /meemThreedotsabove-ar.init  /meemThreedotsabove-ar.sindhi  /meemThreedotsabove-ar.sindhi.fina  /noon-ar  /noon-ar.fina  /noon-ar.medi  /noon-ar.init  /noonDotbelow-ar  /noonDotbelow-ar.fina  /noonDotbelow-ar.medi  /noonDotbelow-ar.init  /noonghunna-ar  /noonghunna-ar.fina  /noonghunna-ar.medi  /noonghunna-ar.init  /noonRing-ar  /noonRing-ar.fina  /noonRing-ar.medi  /noonRing-ar.init  /noonThreedotsabove-ar  /noonThreedotsabove-ar.fina  /noonThreedotsabove-ar.medi  /noonThreedotsabove-ar.init  /noonTwodotsbelow-ar  /noonTwodotsbelow-ar.fina  /noonTwodotsbelow-ar.medi  /noonTwodotsbelow-ar.init  /noonVabove-ar  /noonVabove-ar.fina  /noonVabove-ar.medi  /noonVabove-ar.init  /noonAfrican-ar  /noonAfrican-ar.fina  /noonAfrican-ar.medi  /noonAfrican-ar.init  /heh-ar  /heh-ar.fina  /heh-ar.medi  /heh-ar.init  /hehHamzaabove-ar  /hehHamzaabove-ar.fina  /hehDoachashmee-ar.medi  /hehDoachashmee-ar.init  /tehMarbuta-ar  /tehMarbuta-ar.fina  /ae-ar  /ae-ar.fina</string>
     <string>/waw-ar  /waw-ar.fina  /wawTwodots-ar  /wawTwodots-ar.fina  /wawDotabove-ar  /wawDotabove-ar.fina  /wawHamzaabove-ar  /wawHamzaabove-ar.fina  /oe-ar  /oe-ar.fina  /yu-ar  /yu-ar.fina  /kirghizyu-ar  /kirghizyu-ar.fina  /ve-ar  /ve-ar.fina  /alefMaksura-ar  /alefMaksura-ar.fina  /alefMaksura-ar.medi  /alefMaksura-ar.init  /yeh-ar  /yeh-ar.fina  /yeh-ar.medi  /yeh-ar.init  /yeh-ar.noDots  /yeh-ar.noDots.fina  /yeh-ar.noDots.medi  /yeh-ar.noDots.init  /yehHamzaabove-ar  /yehHamzaabove-ar.fina  /yehHamzaabove-ar.medi  /yehHamzaabove-ar.init  /yehVabove-ar  /yehVabove-ar.fina  /yehVabove-ar.medi  /yehVabove-ar.init  /yehTwodotsbelowHamzaabove-ar  /yehTwodotsbelowHamzaabove-ar.fina  /yehTwodotsbelowHamzaabove-ar.medi  /yehTwodotsbelowHamzaabove-ar.init  /yehTwodotsbelowDotabove-ar  /yehTwodotsbelowDotabove-ar.fina  /yehTwodotsbelowDotabove-ar.medi  /yehTwodotsbelowDotabove-ar.init  /yehVinverted-farsi  /yehVinverted-farsi.fina  /yehVinverted-farsi.medi  /yehVinverted-farsi.init  /yeh-farsi  /yeh-farsi.fina  /yeh-farsi.medi  /yeh-farsi.init  /yehTwodotsabove-farsi  /yehTwodotsabove-farsi.fina  /yehTwodotsabove-farsi.medi  /yehTwodotsabove-farsi.init  /yehThreedotsabove-farsi  /yehThreedotsabove-farsi.fina  /yehThreedotsabove-farsi.medi  /yehThreedotsabove-farsi.init  /e-ar  /e-ar.fina  /e-ar.medi  /e-ar.init  /yehThreedotsbelow-ar  /yehThreedotsbelow-ar.fina  /yehThreedotsbelow-ar.medi  /yehThreedotsbelow-ar.init  /yehTwodotsbelowNoonabove-ar  /yehTwodotsbelowNoonabove-ar.fina  /yehTwodotsbelowNoonabove-ar.medi  /yehTwodotsbelowNoonabove-ar.init  /yehbarree-ar  /yehbarree-ar.fina  /yehbarreeHamzaabove-ar  /yehbarreeHamzaabove-ar.fina 
  /ae-ar.fina/seen-ar/reh-ar/lam-ar/allah-ar/allah-ar.alt  /alef-ar/lam-ar/lam-ar/heh-ar</string>
-    <string>/damma-ar.short  /dammainverted-ar  /fathatwodots-ar  /_tah/tahabove-ar  /jeemabove-ar  /meemStopabove-ar/wawSmall-ar/yehbelow-ar  /rehDotbelowdotabove-ar/rehDotbelowdotabove-ar.fina  /reh-ar  </string>
-    <string>/rehHahabove-ar   /rehDadabove-ar   /sadabove-ar   /ainabove-ar   /takhallusabove-ar  /tahabove-ar   /hamzaabove-ar  /hamzabelow-ar  /dammatan-ar   /dammatan-ar.sixNine   /damma-ar   /damma-ar.short   /shadda-ar  /sukun-ar  
-/dammainverted-ar  /dammareversed-ar   /sadLamAlefMaksuraabove-ar   /qafLamAlefMaksuraabove-ar   /meemabove-ar   /meemStopabove-ar   /lamAlefabove-ar   /jeemabove-ar   /seen-ar/seenabove-ar  /seenbelow-ar  /wawSmall-ar  /yehbelow-ar  /yehabove-ar  /meembelow-ar</string>
+    <string>
+ aoºªa1¹½¼</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -51,10 +50,6 @@
   <integer>700</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
   <integer>0</integer>
-  <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
-  <true/>
-  <key>com.schriftgestaltung.disablesLastChange</key>
-  <true/>
   <key>com.schriftgestaltung.fontMasterOrder</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.glyphOrder</key>
@@ -1325,6 +1320,8 @@
   <integer>700</integer>
   <key>com.schriftgestaltung.width</key>
   <string>Regular</string>
+  <key>org.sil.glyphsappversion</key>
+  <string>1165</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
@@ -2758,7 +2755,7 @@
     <key>alefbelow-ar</key>
     <string>uni0656</string>
     <key>allah-ar</key>
-    <string>uniFDF2</string>
+    <string>uni062706440644065106700647</string>
     <key>asterisk-ar</key>
     <string>uni066D</string>
     <key>beeh-ar</key>

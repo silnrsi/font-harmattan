@@ -2,20 +2,9 @@
 <glyph name="onequarter" format="2">
   <advance width="1200"/>
   <unicode hex="00BC"/>
+  <anchor x="260" y="487.5" name="L"/>
+  <anchor x="260" y="1245.14" name="U"/>
   <outline>
-    <contour>
-      <point x="225" y="611" type="line"/>
-      <point x="86" y="611" type="line"/>
-      <point x="86" y="532" type="line"/>
-      <point x="457" y="532" type="line"/>
-      <point x="457" y="611" type="line"/>
-      <point x="322" y="611" type="line"/>
-      <point x="322" y="1200" type="line"/>
-      <point x="236" y="1200" type="line"/>
-      <point x="78" y="1106" type="line"/>
-      <point x="93" y="1023" type="line"/>
-      <point x="225" y="1102" type="line"/>
-    </contour>
     <contour>
       <point x="983" y="1200" type="line"/>
       <point x="172" y="-37" type="line"/>
@@ -39,6 +28,18 @@
       <point x="941" y="273" type="line"/>
       <point x="750" y="273" type="line"/>
       <point x="941" y="540" type="line"/>
+    </contour>
+    <contour>
+      <point x="327.58" y="1200.5" type="line"/>
+      <point x="237.68" y="1200.5" type="line"/>
+      <point x="91.36" y="1103.78" type="line"/>
+      <point x="103.76" y="1020.08" type="line"/>
+      <point x="237.68" y="1106.26" type="line"/>
+      <point x="237.68" y="534" type="line"/>
+      <point x="336.88" y="534" type="line"/>
+      <point x="331.3" y="584.84"/>
+      <point x="327.58" y="695.82"/>
+      <point x="327.58" y="756.58" type="curve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>
