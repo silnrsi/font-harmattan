@@ -5,7 +5,7 @@
   <key>com.schriftgestaltung.Glyphs.fontUserData</key>
   <dict/>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1165</string>
+  <string>1161</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/heh-ar/sheen-ar/heh-ar/yeh-ar/sheen-ar  /alef-ar/lam-ar/alef-ar/sheen-ar/heh-ar  /one-ar/two-ar  /kaf-ar/alef-ar/seen-ar/yeh-ar/alef-ar/sheen-ar/heh-ar  /yeh-ar/tah-ar/heh-ar  /nine-ar/eight-ar  /yeh-ar/tah-ar/alef-ar/meem-ar  /eight-ar/three-ar/kaf-ar/lam-ar/yeh-ar/tah-ar  /sheen-ar/yeh-ar/alef-ar/heh-ar  /four-ar/three-ar  /yeh-ar/sheen-ar/yeh-ar/alef-ar  709/three-ar 6/tah-ar/zain-ar/heh-ar/reh-ar 1 /teh-ar/hah-ar/yeh-ar/waw-ar/tah-ar/one-ar 1 /tah-ar/alef-ar/lam-ar 87/tah-ar/kaf-ar/kaf-ar 54/seen-ar.init/sheen-ar/alef-ar 1/tcheh-ar/lam-ar  90/sad-ar/meem-ar/khah-ar/heh-ar 32 /teh-ar/yeh-ar/khah-ar/alef-ar  /tah-ar/kaf-ar/beh-ar/khah-ar  </string>
@@ -28,7 +28,7 @@
     <string>/waw-ar  /waw-ar.fina  /wawTwodots-ar  /wawTwodots-ar.fina  /wawDotabove-ar  /wawDotabove-ar.fina  /wawHamzaabove-ar  /wawHamzaabove-ar.fina  /oe-ar  /oe-ar.fina  /yu-ar  /yu-ar.fina  /kirghizyu-ar  /kirghizyu-ar.fina  /ve-ar  /ve-ar.fina  /alefMaksura-ar  /alefMaksura-ar.fina  /alefMaksura-ar.medi  /alefMaksura-ar.init  /yeh-ar  /yeh-ar.fina  /yeh-ar.medi  /yeh-ar.init  /yeh-ar.noDots  /yeh-ar.noDots.fina  /yeh-ar.noDots.medi  /yeh-ar.noDots.init  /yehHamzaabove-ar  /yehHamzaabove-ar.fina  /yehHamzaabove-ar.medi  /yehHamzaabove-ar.init  /yehVabove-ar  /yehVabove-ar.fina  /yehVabove-ar.medi  /yehVabove-ar.init  /yehTwodotsbelowHamzaabove-ar  /yehTwodotsbelowHamzaabove-ar.fina  /yehTwodotsbelowHamzaabove-ar.medi  /yehTwodotsbelowHamzaabove-ar.init  /yehTwodotsbelowDotabove-ar  /yehTwodotsbelowDotabove-ar.fina  /yehTwodotsbelowDotabove-ar.medi  /yehTwodotsbelowDotabove-ar.init  /yehVinverted-farsi  /yehVinverted-farsi.fina  /yehVinverted-farsi.medi  /yehVinverted-farsi.init  /yeh-farsi  /yeh-farsi.fina  /yeh-farsi.medi  /yeh-farsi.init  /yehTwodotsabove-farsi  /yehTwodotsabove-farsi.fina  /yehTwodotsabove-farsi.medi  /yehTwodotsabove-farsi.init  /yehThreedotsabove-farsi  /yehThreedotsabove-farsi.fina  /yehThreedotsabove-farsi.medi  /yehThreedotsabove-farsi.init  /e-ar  /e-ar.fina  /e-ar.medi  /e-ar.init  /yehThreedotsbelow-ar  /yehThreedotsbelow-ar.fina  /yehThreedotsbelow-ar.medi  /yehThreedotsbelow-ar.init  /yehTwodotsbelowNoonabove-ar  /yehTwodotsbelowNoonabove-ar.fina  /yehTwodotsbelowNoonabove-ar.medi  /yehTwodotsbelowNoonabove-ar.init  /yehbarree-ar  /yehbarree-ar.fina  /yehbarreeHamzaabove-ar  /yehbarreeHamzaabove-ar.fina 
  /ae-ar.fina/seen-ar/reh-ar/lam-ar/allah-ar/allah-ar.alt  /alef-ar/lam-ar/lam-ar/heh-ar</string>
     <string>
- aoºªa1¹½¼</string>
+ ao</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -1320,8 +1320,6 @@
   <integer>400</integer>
   <key>com.schriftgestaltung.width</key>
   <string>Regular</string>
-  <key>org.sil.glyphsappversion</key>
-  <string>1165</string>
   <key>public.glyphOrder</key>
   <array>
     <string>.notdef</string>
