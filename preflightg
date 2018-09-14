@@ -3,7 +3,13 @@
 
 echo ""
 echo "Converting .glyphs to UFO3..."
-psfglyphs2ufo --nofea source/Harmattan-master.glyphs source
-
-# Continue with normal preflight
-./preflight
+if psfglyphs2ufo --nofea source/Harmattan-master.glyphs source
+then
+	# Continue with normal preflight
+	./preflight
+else
+	# Something went wrong... abort
+	echo ""
+	echo "psfglyphs2ufo failed ... aborting preflightg."
+	echo ""
+fi
