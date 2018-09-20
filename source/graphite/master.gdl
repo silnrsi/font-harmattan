@@ -132,6 +132,24 @@ pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 	codepoint("G") codepoint("r") codepoint("a") codepoint("p") codepoint("h") codepoint("i") codepoint("t") codepoint("e"):16  / 
 		codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
+	// Subtending marks
+	// This is in a LTR pass because their category (AN) and the digits that follow are collected into
+	// a LTR sequence by the bidi algorithm.
+	
+	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
+		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
+
+	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
+		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
+		
+	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
+		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
+		
+	cSignTakes2 cDigitsAny cDigitsAny  >
+		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
+
+	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
+	
 endpass; // 1
 
 
@@ -180,22 +198,6 @@ pass(3)	// Contextual forms, lam-alef ligature, subtending marks
 		/ _  MARKS ^ _ ;
 ***/
 
-	// Subtending marks
-	
-	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
-		cSign4 cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
-
-	cSignTakes3Medium cDigitsAny cDigitsAny cDigitsAny  >
-		cSign3Medium cDigitsAnyMedium cDigitsAnyMedium cDigitsAnyMedium;
-		
-	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
-		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
-		
-	cSignTakes2 cDigitsAny cDigitsAny  >
-		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
-
-	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
-	
 
 endpass; // 3
 
