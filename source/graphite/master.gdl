@@ -118,12 +118,16 @@ table(substitution)
 pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 
 	
+	// NB: This pass also includes cp1252 compositions
+	
+	// NB: I think that even though this is an ABS decomposition, it can be done in a LTR pass because
+	//     the reverser will make sure the mark always follows the base:
 	// QUESTION: are there more things that need to be decomposed?
 	cAlefPlusMark _ >  g_alef_ar:1  cAlefMark$1:1 ;
 	
-	if (graphite1mirror)
-		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
-	endif;
+//	if (graphite1mirror)    // No longer support Graphite 1 mirroring?
+//		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
+//	endif;
 	
 	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
 	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":

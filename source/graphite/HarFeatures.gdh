@@ -265,11 +265,11 @@ commaAlt {
 }
 
 
-graphite1mirror {
-	id = "gr1m";
-	name.1033 = string("Mirroring for Graphite 1");
-	default = false;
-}
+// graphite1mirror {
+//	id = "gr1m";
+//	name.1033 = string("Mirroring for Graphite 1");
+//	default = false;
+// }
 
 
 invis {
