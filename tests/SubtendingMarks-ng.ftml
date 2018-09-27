@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>local(Harmattan)</fontsrc>
+    <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+    <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv80' 1" name="cv80_1"/>
+      <style feats="'cv80' 2" name="cv80_2"/>
+      <style feats="'cv82' 1" name="cv82_1"/>
+      <style feats="'cv80' 1, 'cv82' 1" name="cv82_1_cv80_1"/>
+      <style feats="'cv80' 2, 'cv82' 1" name="cv82_1_cv80_2"/>
+      <style feats="'cv82' 2" name="cv82_2"/>
+      <style feats="'cv80' 1, 'cv82' 2" name="cv82_2_cv80_1"/>
+      <style feats="'cv80' 2, 'cv82' 2" name="cv82_2_cv80_2"/>
+      <style feats="'cv82' 3" name="cv82_3"/>
+      <style feats="'cv80' 1, 'cv82' 3" name="cv82_3_cv80_1"/>
+      <style feats="'cv80' 2, 'cv82' 3" name="cv82_3_cv80_2"/>
+      <style feats="'cv82' 4" name="cv82_4"/>
+      <style feats="'cv80' 1, 'cv82' 4" name="cv82_4_cv80_1"/>
+      <style feats="'cv80' 2, 'cv82' 4" name="cv82_4_cv80_2"/>
+      <style lang="rhg" name="rhg"/>
+      <style lang="sd" name="sd"/>
+      <style lang="ur" name="ur"/>
+    </styles>
+    <title>Subtending Marks (NG)</title>
+  </head>
+  <testgroup label="Rendering Check">
+    <test label="check">
+      <string>RenderingUnknown</string>
+    </test>
+  </testgroup>
+  <testgroup label="Group">
+    <test label="U+1536" rtl="True">
+      <comment>number-ar</comment>
+      <string>\u0628\u000600\u0645 \u0006002 \u00060022 \u000600222 \u00060012</string>
+    </test>
+    <test label="U+1537" rtl="True">
+      <comment>year-ar</comment>
+      <string>\u0628\u000601\u0645 \u0006012 \u00060122 \u000601222 \u0006012222 \u00060112</string>
+    </test>
+    <test label="U+1538" rtl="True">
+      <comment>footnotemarker-ar</comment>
+      <string>\u0628\u000602\u0645 \u0006022 \u00060222 \u00060212</string>
+    </test>
+    <test label="U+1539" rtl="True">
+      <comment>pagenumber-ar</comment>
+      <string>\u0628\u000603\u0645 \u0006032 \u00060322 \u000603222 \u0006032222 \u00060312</string>
+    </test>
+    <test label="U+1540" rtl="True">
+      <comment>samvat-ar</comment>
+      <string>\u0628\u000604\u0645 \u0006042 \u00060422 \u000604222 \u0006042222 \u00060412</string>
+    </test>
+    <test label="U+1757" rtl="True">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_1">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_2">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
+    </test>
+    <test label="U+1536" rtl="True">
+      <comment>number-ar</comment>
+      <string>\u0628\u000600\u0645 \u000600\u000668 \u000600\u000668\u000668 \u000600\u000668\u000668\u000668 \u000600\u000661\u000662</string>
+    </test>
+    <test label="U+1537" rtl="True">
+      <comment>year-ar</comment>
+      <string>\u0628\u000601\u0645 \u000601\u000668 \u000601\u000668\u000668 \u000601\u000668\u000668\u000668 \u000601\u000668\u000668\u000668\u000668 \u000601\u000661\u000662</string>
+    </test>
+    <test label="U+1538" rtl="True">
+      <comment>footnotemarker-ar</comment>
+      <string>\u0628\u000602\u0645 \u000602\u000668 \u000602\u000668\u000668 \u000602\u000661\u000662</string>
+    </test>
+    <test label="U+1539" rtl="True">
+      <comment>pagenumber-ar</comment>
+      <string>\u0628\u000603\u0645 \u000603\u000668 \u000603\u000668\u000668 \u000603\u000668\u000668\u000668 \u000603\u000668\u000668\u000668\u000668 \u000603\u000661\u000662</string>
+    </test>
+    <test label="U+1540" rtl="True">
+      <comment>samvat-ar</comment>
+      <string>\u0628\u000604\u0645 \u000604\u000668 \u000604\u000668\u000668 \u000604\u000668\u000668\u000668 \u000604\u000668\u000668\u000668\u000668 \u000604\u000661\u000662</string>
+    </test>
+    <test label="U+1757" rtl="True">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_1">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_2">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
+    </test>
+    <test label="U+1536" rtl="True">
+      <comment>number-ar</comment>
+      <string>\u0628\u000600\u0645 \u000600\u0006F8 \u000600\u0006F8\u0006F8 \u000600\u0006F8\u0006F8\u0006F8 \u000600\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1537" rtl="True">
+      <comment>year-ar</comment>
+      <string>\u0628\u000601\u0645 \u000601\u0006F8 \u000601\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8\u0006F8 \u000601\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1538" rtl="True">
+      <comment>footnotemarker-ar</comment>
+      <string>\u0628\u000602\u0645 \u000602\u0006F8 \u000602\u0006F8\u0006F8 \u000602\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1539" rtl="True">
+      <comment>pagenumber-ar</comment>
+      <string>\u0628\u000603\u0645 \u000603\u0006F8 \u000603\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8\u0006F8 \u000603\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1540" rtl="True">
+      <comment>samvat-ar</comment>
+      <string>\u0628\u000604\u0645 \u000604\u0006F8 \u000604\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8\u0006F8 \u000604\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1757" rtl="True">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_1">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_2">
+      <comment>endofayah-ar</comment>
+      <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+1757" rtl="True">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_3">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_4">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_1_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_2_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_3_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_4_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_1_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_2_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_3_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="cv82_4_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="rhg">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="sd">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+1757" rtl="True" stylename="ur">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+  </testgroup>
+</ftml>
