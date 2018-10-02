@@ -379,15 +379,16 @@
 
 	<!-- The next three classes must match for substitution: -->
     <class name='DigitsEastern'>
-        zero-persian one-persian two-persian three-persian four-persian five-persian six-persian seven-persian eight-persian nine-persian
+        zero-persian one-persian two-persian three-persian four-persian four-persian.urdu five-persian 
+        six-persian six-persian.urdu seven-persian seven-persian.urdu eight-persian nine-persian
     </class>
     <class name='DigitsEasternMedium'>
-        zero-persian.medium one-persian.medium two-persian.medium three-persian.medium four-persian.medium five-persian.medium six-persian.medium seven-persian.medium
-        eight-persian.medium nine-persian.medium
+        zero-persian.medium one-persian.medium two-persian.medium three-persian.medium four-persian.medium four-persian.urdu.medium five-persian.medium 
+        six-persian.medium six-persian.urdu.medium seven-persian.medium seven-persian.urdu.medium eight-persian.medium nine-persian.medium
     </class>
     <class name='DigitsEasternSmall'>
-        zero-persian.small one-persian.small two-persian.small three-persian.small four-persian.small five-persian.small six-persian.small seven-persian.small eight-persian.small
-        nine-persian.small
+        zero-persian.small one-persian.small two-persian.small three-persian.small four-persian.small four-persian.urdu.small five-persian.small 
+        six-persian.small six-persian.urdu.small seven-persian.small seven-persian.urdu.small eight-persian.small nine-persian.small
     </class>
 
 	<!-- The next three classes must match for substitution: -->
@@ -488,20 +489,20 @@
 	<!-- The next three classes must match for substitution: -->
 	<class name='EasternDigit'>
 		four-persian              six-persian              seven-persian
-		four-persian.medium       six-persian.medium       seven-persian.edium
+		four-persian.medium       six-persian.medium       seven-persian.medium
 		four-persian.small        six-persian.small        seven-persian.small
 	</class>
 		
 	<class name='EasternDigitUrdu'>
 		four-persian.urdu         six-persian.urdu         seven-persian.urdu
-		four-persian.medium.urdu  six-persian.medium.urdu  seven-persian.medium.urdu
-		four-persian.small.urdu   six-persian.small.urdu   seven-persian.small.urdu
+		four-persian.urdu.medium  six-persian.urdu.medium  seven-persian.urdu.medium
+		four-persian.urdu.small   six-persian.urdu.small   seven-persian.urdu.small
 	</class>
 
 	<class name='EasternDigitSindhi'>
 		four-persian              six-persian.urdu         seven-persian.urdu
-		four-persian.medium       six-persian.medium.urdu  seven-persian.medium.urdu
-		four-persian.small        six-persian.small.urdu   seven-persian.small.urdu
+		four-persian.medium       six-persian.urdu.medium  seven-persian.urdu.medium
+		four-persian.small        six-persian.urdu.small   seven-persian.urdu.small
 	</class>
 
 

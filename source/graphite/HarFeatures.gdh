@@ -248,6 +248,31 @@ endOfAyah {
 }
 
 
+easternDigits {
+    id = "cv82";
+    name.1033 = string("Eastern digits");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+//        rohingya {
+//            value = 4;
+//            name.1033 = string("Rohingya-style");
+//        }
+        sindhi {
+            value = 1;
+            name.1033 = string("Sindhi-style");
+        }
+        urdu {
+            value = 2;
+            name.1033 = string("Urdu-style");
+        }
+    }
+    default = std;
+}
+
+
 commaAlt {
     id = "cv84";	// was 2006;
     name.1033 = string("Comma");

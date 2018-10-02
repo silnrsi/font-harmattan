@@ -283,6 +283,16 @@ pass(4)	// Features, special behaviors
 		cEndOfAyah  >  cEndOfAyahSquare;
 	endif;
 
+	if (easternDigits == sindhi)
+		cEasternDigit  >  cEasternDigitSindhi;
+	endif;
+	if (easternDigits == urdu)
+		cEasternDigit  >  cEasternDigitUrdu;
+	endif;
+	//if (easternDigits == rohingya)
+	//	cEasternDigit  >  cEasternDigitRohingya;
+	//endif;
+
 	if (commaAlt == down)
 		cno_Downward  >  cDownward;
 	endif;

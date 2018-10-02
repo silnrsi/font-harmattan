@@ -89,7 +89,7 @@ cSign1 = (g_year_ar    g_samvat_ar   /* g_numbermark_ar */   g_number_ar    g_pa
 cSignAll = (cSign1 cSign2 cSign3 cSign4);
 
 cSignDigit = (cDigitsArabicMedium cDigitsArabicSmall 
-			 /* cDigitsEasternMedium cDigitsEasternSmall */
+			 cDigitsEasternMedium cDigitsEasternSmall
 			  cDigitsLatinMedium cDigitsLatinSmall) ;
 
 
