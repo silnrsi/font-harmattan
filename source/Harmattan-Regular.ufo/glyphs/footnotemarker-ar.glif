@@ -2,7 +2,7 @@
 <glyph name="footnotemarker-ar" format="2">
   <advance width="1447"/>
   <unicode hex="0602"/>
-  <anchor x="598" y="0" name="digit"/>
+  <anchor x="598" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="268" y="3"/>

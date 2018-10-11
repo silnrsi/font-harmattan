@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="footnotemarker-ar.2" format="2">
   <advance width="2122"/>
-  <anchor x="590" y="0" name="digit"/>
+  <anchor x="590" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="551" y="50" type="curve" smooth="yes"/>

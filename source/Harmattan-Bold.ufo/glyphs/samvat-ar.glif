@@ -2,7 +2,7 @@
 <glyph name="samvat-ar" format="2">
   <advance width="1933"/>
   <unicode hex="0604"/>
-  <anchor x="196" y="0" name="digit"/>
+  <anchor x="196" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="1041" y="150" type="line"/>

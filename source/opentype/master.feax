@@ -161,46 +161,18 @@ lookup HamzaLigatures {
 
 lookup SignWith_4digits_target {
   lookupflag IgnoreMarks ;
-    sub year-ar by year-ar.4 ;
-    sub samvat-ar by samvat-ar.4 ;
-    sub pagenumber-ar by pagenumber-ar.4 ;
+    sub @cno_4 by @c_4 ;
 } SignWith_4digits_target ;
 
 lookup SignWith_3digits_target {
   lookupflag IgnoreMarks ;
-    sub number-ar by number-ar.3 ;
-    sub year-ar by year-ar.3 ;
-    sub samvat-ar by samvat-ar.3 ;
-    sub pagenumber-ar by pagenumber-ar.3 ;
-    sub endofayah-ar by endofayah-ar.3 ;
-    sub endofayah-ar.alt by endofayah-ar.alt.3 ;
-    sub endofayah-ar.altB by endofayah-ar.altB.3 ;
+    sub @cno_3 by @c_3 ;
 } SignWith_3digits_target ;
 
 lookup SignWith_2digits_target {
   lookupflag IgnoreMarks ;
-    sub number-ar by number-ar.2 ;
-    sub year-ar by year-ar.2 ;
-    sub samvat-ar by samvat-ar.2 ;
-    sub footnotemarker-ar by footnotemarker-ar.2 ;
-    sub pagenumber-ar by pagenumber-ar.2 ;
-    sub endofayah-ar by endofayah-ar.2 ;
-    sub endofayah-ar.alt by endofayah-ar.alt.2 ;
-    sub endofayah-ar.altB by endofayah-ar.altB.2 ;
+    sub @cno_2 by @c_2 ;
 } SignWith_2digits_target ;
-
-lookup SignWith {
-  lookupflag IgnoreMarks ;
-  # Subtable: SignWith\4digits
-    sub [ year-ar samvat-ar pagenumber-ar ]' lookup SignWith_4digits_target @DigitsAny @DigitsAny @DigitsAny @DigitsAny ;
-    sub @DigitsAny @DigitsAny @DigitsAny @DigitsAny [ year-ar samvat-ar pagenumber-ar ]' lookup SignWith_4digits_target ;
-  # Subtable: SignWith\3digits
-    sub [ number-ar year-ar samvat-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target @DigitsAny @DigitsAny @DigitsAny ;
-    sub @DigitsAny @DigitsAny @DigitsAny [ number-ar year-ar samvat-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target ;
-  # Subtable: SignWith\2digits
-    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target @DigitsAny @DigitsAny ;
-    sub @DigitsAny @DigitsAny [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target ;
-} SignWith;
 
 lookup SignDigits_ToMedium_target {
   lookupflag IgnoreMarks ;
@@ -212,22 +184,29 @@ lookup SignDigits_ToSmall_target {
     sub @DigitsAny by @DigitsAnySmall ;
 } SignDigits_ToSmall_target ;
 
-lookup SignDigits {
+lookup SignWith {
   lookupflag IgnoreMarks ;
-  # Subtable: SignDigits\ToMedium
-    sub @DigitsAnyMedium @DigitsAny' lookup SignDigits_ToMedium_target ;
-    sub @TakesMediumDigits @DigitsAny' lookup SignDigits_ToMedium_target ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @TakesMediumDigits ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny @TakesMediumDigits ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny @DigitsAny @TakesMediumDigits ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny @DigitsAny @DigitsAny @TakesMediumDigits ;
-  # Subtable: SignDigits\ToSmall
-    sub @DigitsAnySmall @DigitsAny' lookup SignDigits_ToSmall_target ;
-    sub @TakesSmallDigits @DigitsAny' lookup SignDigits_ToSmall_target ;
-    sub @DigitsAny' lookup SignDigits_ToSmall_target @TakesSmallDigits ;
-    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny @TakesSmallDigits ;
-    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny @DigitsAny @TakesSmallDigits ;
-} SignDigits;
+  # Uniscribe or HarfBuzz 'latn'
+    sub [ year-ar samvat-ar pagenumber-ar ]' lookup SignWith_4digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ number-ar year-ar samvat-ar pagenumber-ar ]' lookup SignWith_3digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target 
+        @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target ;
+    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]
+        @DigitsAny' lookup SignDigits_ToMedium_target ;
+  # HarfBuzz 'arab'
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ year-ar samvat-ar pagenumber-ar ]' lookup SignWith_4digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar pagenumber-ar ]' lookup SignWith_3digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  
+        [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target ;
+} SignWith;
 
 
 #********************
@@ -328,22 +307,20 @@ lookup SadDadAlternates {
 } SadDadAlternates;
 
 #********************
-# End of Ayah alternates: cv80
-
-lookup AyahAlternates {
-  lookupflag 0 ;
-    sub endofayah-ar   from [ endofayah-ar.alt endofayah-ar.altB ] ;
-    sub endofayah-ar.2 from [ endofayah-ar.alt.2 endofayah-ar.altB.2 ] ;
-    sub endofayah-ar.3 from [ endofayah-ar.alt.3 endofayah-ar.altB.3 ] ;
-} AyahAlternates;
-
-#********************
 # Meem alternates: cv44
 
 lookup MeemAlternates {
   lookupflag IgnoreMarks ;
     sub @Meem by @Meem.sindhi ;
 } MeemAlternates;
+
+#********************
+# Maddah Alternats: cv60
+
+lookup MaddahAlternates {
+  lookupflag 0 ;
+    sub @Maddah.small by @Maddah ;
+} MaddahAlternates;
 
 #********************
 # Damma alternates: cv70
@@ -360,14 +337,6 @@ lookup DammatanAlternates {
   lookupflag 0 ;
     sub @cno_sixNine by @c_sixNine ;
 } DammatanAlternates;
-
-#********************
-# Maddah Alternats: cv60
-
-lookup MaddahAlternates {
-  lookupflag 0 ;
-    sub @Maddah.small by @Maddah ;
-} MaddahAlternates;
 
 #********************
 # DaggerAlef alternates: cv76
@@ -388,6 +357,32 @@ lookup SukunAlternates {
   lookupflag 0 ;
     sub sukun-ar from [ sukun-ar.downOpen sukun-ar.leftOpen ] ;
 } SukunAlternates;
+
+#********************
+# End of Ayah alternates: cv80
+
+lookup AyahAlternates {
+  lookupflag 0 ;
+    sub endofayah-ar   from [ endofayah-ar.alt endofayah-ar.altB ] ;
+    sub endofayah-ar.2 from [ endofayah-ar.alt.2 endofayah-ar.altB.2 ] ;
+    sub endofayah-ar.3 from [ endofayah-ar.alt.3 endofayah-ar.altB.3 ] ;
+} AyahAlternates;
+
+#********************
+# Eastern digit alternates: cv82
+
+lookup DigitAlternates {
+  lookupflag 0 ;                  #    1 = Sindhi-style          2 = Urdu-style           3 = Kurdish-style    4 = Rohingya-style
+    sub  four-persian        from [  four-persian              four-persian.urdu                                               ];
+    sub  four-persian.medium from [  four-persian.medium       four-persian.urdu.medium                                        ];
+    sub  four-persian.small  from [  four-persian.small        four-persian.urdu.small                                         ];
+    sub   six-persian        from [   six-persian.urdu          six-persian.urdu                                               ];
+    sub   six-persian.medium from [   six-persian.urdu.medium   six-persian.urdu.medium                                        ];
+    sub   six-persian.small  from [   six-persian.urdu.small    six-persian.urdu.small                                         ];
+    sub seven-persian        from [ seven-persian.urdu        seven-persian.urdu                                               ];
+    sub seven-persian.medium from [ seven-persian.urdu.medium seven-persian.urdu.medium                                        ];
+    sub seven-persian.small  from [ seven-persian.urdu.small  seven-persian.urdu.small                                         ];
+} DigitAlternates;
 
 #********************
 # Comma alternates: cv84
@@ -424,13 +419,8 @@ lookup mark_to_mark_below {
   pos mark @diaB_MarkBase mark @_diaB;
 } mark_to_mark_below;
 
-lookup cursive__digit_digit {
-  lookupflag IgnoreMarks;
-  pos cursive @_digit @digit_MarkBase;
-} cursive__digit_digit;
-
 lookup cursive_exit_entry {
-  lookupflag IgnoreMarks RightToLeft;
+  lookupflag IgnoreMarks;
   pos cursive @entry @exit;
 } cursive_exit_entry;
 
@@ -565,436 +555,65 @@ lookup MarkKern {
     pos @YehBarreeMarkLower @MarksBelow'             < 0 -300 0 0> @MarksAbove yehbarree-ar.fina ;
 } MarkKern;
 
-# Subtending mark rules
+# Subtending mark positioning
 
-lookup SubtendingAyah_31_target {
+lookup SubtendingMarks {
   lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnySmall  <-1754 0 -494 0>;
-} SubtendingAyah_31_target ;
+    # Uniscribe or HarfBuzz 'latn'
+    pos @AyahAny @DigitsAnySmall'  <-1754 0 -494 0> @DigitsAnySmall'  <-1260 0 -494 0> @DigitsAnySmall' <-766 0 -494 0> ;
+    pos @AyahAny @DigitsAnyMedium' <-1686 0 -674 0> @DigitsAnyMedium' <-1012 0 -674 0> ;
+    pos @AyahAny @DigitsAnyMedium' <-1346 0 -674 0> ;
 
-lookup SubtendingAyah_32_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnySmall  <-1260 0 -494 0>;
-} SubtendingAyah_32_target ;
+    pos number-ar.3 @DigitsAnyMedium' <-2649 0 -674 0> @DigitsAnyMedium' <-1975 0 -674 0> @DigitsAnyMedium' <-1301 0 -674 0> ;
+    pos number-ar.2 @DigitsAnyMedium' <-1973 0 -674 0> @DigitsAnyMedium' <-1299 0 -674 0> ;
+    pos number-ar   @DigitsAnyMedium' <-1280 0 -674 0> ;
 
-lookup SubtendingAyah_33_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnySmall  <-766 0 -494 0>;
-} SubtendingAyah_33_target ;
+    pos year-ar.4 @DigitsAnyMedium' <-3020 0 -674 0> @DigitsAnyMedium' <-2346 0 -674 0> @DigitsAnyMedium' <-1672 0 -674 0> @DigitsAnyMedium' < -998 0 -674 0> ;
+    pos year-ar.3 @DigitsAnyMedium' <-2310 0 -674 0> @DigitsAnyMedium' <-1636 0 -674 0> @DigitsAnyMedium' < -962 0 -674 0> ;
+    pos year-ar.2 @DigitsAnyMedium' <-1620 0 -674 0> @DigitsAnyMedium' < -946 0 -674 0> ;
+    pos year-ar   @DigitsAnyMedium' < -980 0 -674 0> ;
 
-lookup SubtendingAyah_21_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1686 0 -674 0>;
-} SubtendingAyah_21_target ;
+    pos footnotemarker-ar.2 @DigitsAnyMedium' <-1533 0 -674 0> @DigitsAnyMedium' <-859 0 -674 0> ;
+    pos footnotemarker-ar   @DigitsAnyMedium' < -863 0 -674 0> ;
 
-lookup SubtendingAyah_22_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1012 0 -674 0>;
-} SubtendingAyah_22_target ;
+    pos pagenumber-ar.4 @DigitsAnyMedium' <-3884 0 -674 0> @DigitsAnyMedium' <-3210 0 -674 0> @DigitsAnyMedium' <-2536 0 -674 0> @DigitsAnyMedium' <-1862 0 -674 0> ;
+    pos pagenumber-ar.3 @DigitsAnyMedium' <-3204 0 -674 0> @DigitsAnyMedium' <-2530 0 -674 0> @DigitsAnyMedium' <-1856 0 -674 0> ;
+    pos pagenumber-ar.2 @DigitsAnyMedium' <-2444 0 -674 0> @DigitsAnyMedium' <-1770 0 -674 0> ;
+    pos pagenumber-ar   @DigitsAnyMedium' <-1844 0 -674 0> ;
 
-lookup SubtendingAyah_1_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1346 0 -674 0>;
-} SubtendingAyah_1_target ;
+    pos samvat-ar.4 @DigitsAnyMedium' <-3722 0 -674 0> @DigitsAnyMedium' <-3048 0 -674 0> @DigitsAnyMedium' <-2374 0 -674 0> @DigitsAnyMedium' <-1700 0 -674 0> ;
+    pos samvat-ar.3 @DigitsAnyMedium' <-3040 0 -674 0> @DigitsAnyMedium' <-2366 0 -674 0> @DigitsAnyMedium' <-1692 0 -674 0> ;
+    pos samvat-ar.2 @DigitsAnyMedium' <-2359 0 -674 0> @DigitsAnyMedium' <-1685 0 -674 0> ;
+    pos samvat-ar @DigitsAnyMedium' <-1735 0 -674 0> ;
 
-lookup SubtendingAyah {
-  lookupflag IgnoreMarks ;
-  # Subtable: SubtendingAyah\31
-    pos @AyahAny @DigitsAnySmall' lookup SubtendingAyah_31_target @DigitsAnySmall @DigitsAnySmall ;
-    pos @DigitsAnySmall @DigitsAnySmall @DigitsAnySmall' lookup SubtendingAyah_31_target @AyahAny ;
-  # Subtable: SubtendingAyah\32
-    pos @AyahAny @DigitsAnySmall @DigitsAnySmall' lookup SubtendingAyah_32_target @DigitsAnySmall ;
-    pos @DigitsAnySmall @DigitsAnySmall' lookup SubtendingAyah_32_target @DigitsAnySmall @AyahAny ;
-  # Subtable: SubtendingAyah\33
-    pos @AyahAny @DigitsAnySmall @DigitsAnySmall @DigitsAnySmall' lookup SubtendingAyah_33_target ;
-    pos @DigitsAnySmall' lookup SubtendingAyah_33_target @DigitsAnySmall @DigitsAnySmall @AyahAny ;
-  # Subtable: SubtendingAyah\21
-    pos @AyahAny @DigitsAnyMedium' lookup SubtendingAyah_21_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup SubtendingAyah_21_target @AyahAny ;
-  # Subtable: SubtendingAyah\22
-    pos @AyahAny @DigitsAnyMedium @DigitsAnyMedium' lookup SubtendingAyah_22_target ;
-    pos @DigitsAnyMedium' lookup SubtendingAyah_22_target @DigitsAnyMedium @AyahAny ;
-  # Subtable: SubtendingAyah\1
-    pos @AyahAny @DigitsAnyMedium' lookup SubtendingAyah_1_target ;
-    pos @DigitsAnyMedium' lookup SubtendingAyah_1_target @AyahAny ;
-} SubtendingAyah;
+    # HarfBuzz 'arab'
+    pos @DigitsAnySmall'  < -766 0 -494 0> @DigitsAnySmall'  <-1260 0 -494 0> @DigitsAnySmall' <-1754 0 -494 0> @AyahAny ;
+    pos @DigitsAnyMedium' <-1012 0 -674 0> @DigitsAnyMedium' <-1686 0 -674 0> @AyahAny ;
+    pos @DigitsAnyMedium' <-1346 0 -674 0> @AyahAny ;
 
-lookup Subtending0600_31_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2649 0 -674 0>;
-} Subtending0600_31_target ;
+    pos @DigitsAnyMedium' <-1301 0 -674 0> @DigitsAnyMedium' <-1975 0 -674 0> @DigitsAnyMedium' <-2649 0 -674 0> number-ar.3 ;
+    pos @DigitsAnyMedium' <-1299 0 -674 0> @DigitsAnyMedium' <-1973 0 -674 0> number-ar.2 ;
+    pos @DigitsAnyMedium' <-1280 0 -674 0> number-ar ;
 
-lookup Subtending0600_32_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1975 0 -674 0>;
-} Subtending0600_32_target ;
+    pos @DigitsAnyMedium' <-998 0 -674 0> @DigitsAnyMedium' <-1672 0 -674 0> @DigitsAnyMedium' <-2346 0 -674 0> @DigitsAnyMedium' <-3020 0 -674 0> year-ar.4 ;
+    pos @DigitsAnyMedium' <-962 0 -674 0> @DigitsAnyMedium' <-1636 0 -674 0> @DigitsAnyMedium' <-2310 0 -674 0> year-ar.3 ;
+    pos @DigitsAnyMedium' <-946 0 -674 0> @DigitsAnyMedium' <-1620 0 -674 0> year-ar.2 ;
+    pos @DigitsAnyMedium' <-980 0 -674 0> year-ar ;
 
-lookup Subtending0600_33_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1301 0 -674 0>;
-} Subtending0600_33_target ;
+    pos @DigitsAnyMedium' <-859 0 -674 0> @DigitsAnyMedium' <-1533 0 -674 0> footnotemarker-ar.2 ;
+    pos @DigitsAnyMedium' <-863 0 -674 0> footnotemarker-ar ;
 
-lookup Subtending0600_21_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1973 0 -674 0>;
-} Subtending0600_21_target ;
+    pos @DigitsAnyMedium' <-1862 0 -674 0> @DigitsAnyMedium' <-2536 0 -674 0> @DigitsAnyMedium' <-3210 0 -674 0> @DigitsAnyMedium' <-3884 0 -674 0> pagenumber-ar.4 ;
+    pos @DigitsAnyMedium' <-1856 0 -674 0> @DigitsAnyMedium' <-2530 0 -674 0> @DigitsAnyMedium' <-3204 0 -674 0> pagenumber-ar.3 ;
+    pos @DigitsAnyMedium' <-1770 0 -674 0> @DigitsAnyMedium' <-2444 0 -674 0> pagenumber-ar.2 ;
+    pos @DigitsAnyMedium' <-1844 0 -674 0> pagenumber-ar ;
 
-lookup Subtending0600_22_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1299 0 -674 0>;
-} Subtending0600_22_target ;
+    pos @DigitsAnyMedium' <-1700 0 -674 0> @DigitsAnyMedium' <-2374 0 -674 0> @DigitsAnyMedium' <-3048 0 -674 0> @DigitsAnyMedium' <-3722 0 -674 0> samvat-ar.4 ;
+    pos @DigitsAnyMedium' <-1692 0 -674 0> @DigitsAnyMedium' <-2366 0 -674 0> @DigitsAnyMedium' <-3040 0 -674 0> samvat-ar.3 ;
+    pos @DigitsAnyMedium' <-1685 0 -674 0> @DigitsAnyMedium' <-2359 0 -674 0> samvat-ar.2 ;
+    pos @DigitsAnyMedium' <-1735 0 -674 0> samvat-ar ;
 
-lookup Subtending0600_1_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1280 0 -674 0>;
-} Subtending0600_1_target ;
-
-lookup Subtending0600 {
-  lookupflag IgnoreMarks ;
-  # Subtable: Subtending0600\31
-    pos number-ar.3 @DigitsAnyMedium' lookup Subtending0600_31_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0600_31_target number-ar.3 ;
-  # Subtable: Subtending0600\32
-    pos number-ar.3 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0600_32_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0600_32_target @DigitsAnyMedium number-ar.3 ;
-  # Subtable: Subtending0600\33
-    pos number-ar.3 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0600_33_target ;
-    pos @DigitsAnyMedium' lookup Subtending0600_33_target @DigitsAnyMedium @DigitsAnyMedium number-ar.3 ;
-  # Subtable: Subtending0600\21
-    pos number-ar.2 @DigitsAnyMedium' lookup Subtending0600_21_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0600_21_target number-ar.2 ;
-  # Subtable: Subtending0600\22
-    pos number-ar.2 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0600_22_target ;
-    pos @DigitsAnyMedium' lookup Subtending0600_22_target @DigitsAnyMedium number-ar.2 ;
-  # Subtable: Subtending0600\1
-    pos number-ar @DigitsAnyMedium' lookup Subtending0600_1_target ;
-    pos @DigitsAnyMedium' lookup Subtending0600_1_target number-ar ;
-} Subtending0600;
-
-lookup Subtending0601_41_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3020 0 -674 0>;
-} Subtending0601_41_target ;
-
-lookup Subtending0601_42_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2346 0 -674 0>;
-} Subtending0601_42_target ;
-
-lookup Subtending0601_43_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1672 0 -674 0>;
-} Subtending0601_43_target ;
-
-lookup Subtending0601_44_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-998 0 -674 0>;
-} Subtending0601_44_target ;
-
-lookup Subtending0601_31_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2310 0 -674 0>;
-} Subtending0601_31_target ;
-
-lookup Subtending0601_32_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1636 0 -674 0>;
-} Subtending0601_32_target ;
-
-lookup Subtending0601_33_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-962 0 -674 0>;
-} Subtending0601_33_target ;
-
-lookup Subtending0601_21_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1620 0 -674 0>;
-} Subtending0601_21_target ;
-
-lookup Subtending0601_22_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-946 0 -674 0>;
-} Subtending0601_22_target ;
-
-lookup Subtending0601_1_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-980 0 -674 0>;
-} Subtending0601_1_target ;
-
-lookup Subtending0601 {
-  lookupflag IgnoreMarks ;
-  # Subtable: Subtending0601\41
-    pos year-ar.4 @DigitsAnyMedium' lookup Subtending0601_41_target @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_41_target year-ar.4 ;
-  # Subtable: Subtending0601\42
-    pos year-ar.4 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_42_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_42_target @DigitsAnyMedium year-ar.4 ;
-  # Subtable: Subtending0601\43
-    pos year-ar.4 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_43_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_43_target @DigitsAnyMedium @DigitsAnyMedium year-ar.4 ;
-  # Subtable: Subtending0601\44
-    pos year-ar.4 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_44_target ;
-    pos @DigitsAnyMedium' lookup Subtending0601_44_target @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium year-ar.4 ;
-  # Subtable: Subtending0601\31
-    pos year-ar.3 @DigitsAnyMedium' lookup Subtending0601_31_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_31_target year-ar.3 ;
-  # Subtable: Subtending0601\32
-    pos year-ar.3 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_32_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_32_target @DigitsAnyMedium year-ar.3 ;
-  # Subtable: Subtending0601\33
-    pos year-ar.3 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_33_target ;
-    pos @DigitsAnyMedium' lookup Subtending0601_33_target @DigitsAnyMedium @DigitsAnyMedium year-ar.3 ;
-  # Subtable: Subtending0601\21
-    pos year-ar.2 @DigitsAnyMedium' lookup Subtending0601_21_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_21_target year-ar.2 ;
-  # Subtable: Subtending0601\22
-    pos year-ar.2 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0601_22_target ;
-    pos @DigitsAnyMedium' lookup Subtending0601_22_target @DigitsAnyMedium year-ar.2 ;
-  # Subtable: Subtending0601\1
-    pos year-ar @DigitsAnyMedium' lookup Subtending0601_1_target ;
-    pos @DigitsAnyMedium' lookup Subtending0601_1_target year-ar ;
-} Subtending0601;
-
-lookup Subtending0602_21_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1533 0 -674 0>;
-} Subtending0602_21_target ;
-
-lookup Subtending0602_22_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-859 0 -674 0>;
-} Subtending0602_22_target ;
-
-lookup Subtending0602_1_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-863 0 -674 0>;
-} Subtending0602_1_target ;
-
-lookup Subtending0602 {
-  lookupflag IgnoreMarks ;
-  # Subtable: Subtending0602\21
-    pos footnotemarker-ar.2 @DigitsAnyMedium' lookup Subtending0602_21_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0602_21_target footnotemarker-ar.2 ;
-  # Subtable: Subtending0602\22
-    pos footnotemarker-ar.2 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0602_22_target ;
-    pos @DigitsAnyMedium' lookup Subtending0602_22_target @DigitsAnyMedium footnotemarker-ar.2 ;
-  # Subtable: Subtending0602\1
-    pos footnotemarker-ar @DigitsAnyMedium' lookup Subtending0602_1_target ;
-    pos @DigitsAnyMedium' lookup Subtending0602_1_target footnotemarker-ar ;
-} Subtending0602;
-
-lookup Subtending0603_41_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3884 0 -674 0>;
-} Subtending0603_41_target ;
-
-lookup Subtending0603_42_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3210 0 -674 0>;
-} Subtending0603_42_target ;
-
-lookup Subtending0603_43_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2536 0 -674 0>;
-} Subtending0603_43_target ;
-
-lookup Subtending0603_44_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1862 0 -674 0>;
-} Subtending0603_44_target ;
-
-lookup Subtending0603_31_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3204 0 -674 0>;
-} Subtending0603_31_target ;
-
-lookup Subtending0603_32_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2530 0 -674 0>;
-} Subtending0603_32_target ;
-
-lookup Subtending0603_33_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1856 0 -674 0>;
-} Subtending0603_33_target ;
-
-lookup Subtending0603_21_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2444 0 -674 0>;
-} Subtending0603_21_target ;
-
-lookup Subtending0603_22_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1770 0 -674 0>;
-} Subtending0603_22_target ;
-
-lookup Subtending0603_1_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1844 0 -674 0>;
-} Subtending0603_1_target ;
-
-lookup Subtending0603 {
-  lookupflag IgnoreMarks ;
-  # Subtable: Subtending0603\41
-    pos pagenumber-ar.4 @DigitsAnyMedium' lookup Subtending0603_41_target @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_41_target pagenumber-ar.4 ;
-  # Subtable: Subtending0603\42
-    pos pagenumber-ar.4 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_42_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_42_target @DigitsAnyMedium pagenumber-ar.4 ;
-  # Subtable: Subtending0603\43
-    pos pagenumber-ar.4 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_43_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_43_target @DigitsAnyMedium @DigitsAnyMedium pagenumber-ar.4 ;
-  # Subtable: Subtending0603\44
-    pos pagenumber-ar.4 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_44_target ;
-    pos @DigitsAnyMedium' lookup Subtending0603_44_target @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium pagenumber-ar.4 ;
-  # Subtable: Subtending0603\31
-    pos pagenumber-ar.3 @DigitsAnyMedium' lookup Subtending0603_31_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_31_target pagenumber-ar.3 ;
-  # Subtable: Subtending0603\32
-    pos pagenumber-ar.3 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_32_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_32_target @DigitsAnyMedium pagenumber-ar.3 ;
-  # Subtable: Subtending0603\33
-    pos pagenumber-ar.3 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_33_target ;
-    pos @DigitsAnyMedium' lookup Subtending0603_33_target @DigitsAnyMedium @DigitsAnyMedium pagenumber-ar.3 ;
-  # Subtable: Subtending0603\21
-    pos pagenumber-ar.2 @DigitsAnyMedium' lookup Subtending0603_21_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_21_target pagenumber-ar.2 ;
-  # Subtable: Subtending0603\22
-    pos pagenumber-ar.2 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0603_22_target ;
-    pos @DigitsAnyMedium' lookup Subtending0603_22_target @DigitsAnyMedium pagenumber-ar.2 ;
-  # Subtable: Subtending0603\1
-    pos pagenumber-ar @DigitsAnyMedium' lookup Subtending0603_1_target ;
-    pos @DigitsAnyMedium' lookup Subtending0603_1_target pagenumber-ar ;
-} Subtending0603;
-
-lookup Subtending0604_41_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3722 0 -674 0>;
-} Subtending0604_41_target ;
-
-lookup Subtending0604_42_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3048 0 -674 0>;
-} Subtending0604_42_target ;
-
-lookup Subtending0604_43_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2374 0 -674 0>;
-} Subtending0604_43_target ;
-
-lookup Subtending0604_44_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1700 0 -674 0>;
-} Subtending0604_44_target ;
-
-lookup Subtending0604_31_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-3040 0 -674 0>;
-} Subtending0604_31_target ;
-
-lookup Subtending0604_32_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2366 0 -674 0>;
-} Subtending0604_32_target ;
-
-lookup Subtending0604_33_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1692 0 -674 0>;
-} Subtending0604_33_target ;
-
-lookup Subtending0604_21_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-2359 0 -674 0>;
-} Subtending0604_21_target ;
-
-lookup Subtending0604_22_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1685 0 -674 0>;
-} Subtending0604_22_target ;
-
-lookup Subtending0604_1_target {
-  lookupflag IgnoreMarks ;
-    #  subrule of type ADJUST_SINGLE
-    pos @DigitsAnyMedium  <-1735 0 -674 0>;
-} Subtending0604_1_target ;
-
-lookup Subtending0604 {
-  lookupflag IgnoreMarks ;
-  # Subtable: Subtending0604\41
-    pos samvat-ar.4 @DigitsAnyMedium' lookup Subtending0604_41_target @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_41_target samvat-ar.4 ;
-  # Subtable: Subtending0604\42
-    pos samvat-ar.4 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_42_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_42_target @DigitsAnyMedium samvat-ar.4 ;
-  # Subtable: Subtending0604\43
-    pos samvat-ar.4 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_43_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_43_target @DigitsAnyMedium @DigitsAnyMedium samvat-ar.4 ;
-  # Subtable: Subtending0604\44
-    pos samvat-ar.4 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_44_target ;
-    pos @DigitsAnyMedium' lookup Subtending0604_44_target @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium samvat-ar.4 ;
-  # Subtable: Subtending0604\31
-    pos samvat-ar.3 @DigitsAnyMedium' lookup Subtending0604_31_target @DigitsAnyMedium @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_31_target samvat-ar.3 ;
-  # Subtable: Subtending0604\32
-    pos samvat-ar.3 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_32_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_32_target @DigitsAnyMedium samvat-ar.3 ;
-  # Subtable: Subtending0604\33
-    pos samvat-ar.3 @DigitsAnyMedium @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_33_target ;
-    pos @DigitsAnyMedium' lookup Subtending0604_33_target @DigitsAnyMedium @DigitsAnyMedium samvat-ar.3 ;
-  # Subtable: Subtending0604\21
-    pos samvat-ar.2 @DigitsAnyMedium' lookup Subtending0604_21_target @DigitsAnyMedium ;
-    pos @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_21_target samvat-ar.2 ;
-  # Subtable: Subtending0604\22
-    pos samvat-ar.2 @DigitsAnyMedium @DigitsAnyMedium' lookup Subtending0604_22_target ;
-    pos @DigitsAnyMedium' lookup Subtending0604_22_target @DigitsAnyMedium samvat-ar.2 ;
-  # Subtable: Subtending0604\1
-    pos samvat-ar @DigitsAnyMedium' lookup Subtending0604_1_target ;
-    pos @DigitsAnyMedium' lookup Subtending0604_1_target samvat-ar ;
-} Subtending0604;
+} SubtendingMarks;
 
 
 #**********************************
@@ -1045,7 +664,7 @@ feature rlig {  # Required Ligatures
 feature calt {  # Contextual Alternates
     # Same for latin & arabic:
         lookup SignWith;
-        lookup SignDigits;
+        # lookup SignDigits;
     script arab;  # Arabic
         lookup ReorderMaddaVowel1;
         lookup ReorderMaddaVowel2;
@@ -1173,6 +792,19 @@ feature cv80 {  # Character Variant 80
     } ;
 } cv80 ;
 
+feature cv82 {  # Character Variant 82
+    # Same for latin & arabic:
+        lookup DigitAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
+      # ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
+      # ParamUILabelNameID { name 3 1 0x0409 "Rohingya-style" ; };
+    } ;
+} cv82 ;
+
 feature cv84 {  # Character Variant 84
     # Same for latin & arabic:
         lookup CommaAlternates;
@@ -1187,19 +819,16 @@ feature cv84 {  # Character Variant 84
 # GPOS features     *
 #********************
 
-feature curs {  # Cursive Positioning
-    script arab;  # Arabic
-        lookup cursive_exit_entry;
-} curs ;
+# Would love to be able to do subtending marks as either cursive connection or mark attachment
+# Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
+# same as the subtending mark and unrelated to the widths of the digits.
+# In Firefox at least, mark attachment works for 06DD (end of Ayah) and latin digits, but no other 
+# marks or digits (the digits get reverse ordered by the attachment process).
+# So we're back to using kerning
 
 feature kern {  # Kerning
     # Same for latin & arabic:
-        lookup SubtendingAyah;
-        lookup Subtending0600;
-        lookup Subtending0601;
-        lookup Subtending0602;
-        lookup Subtending0603;
-        lookup Subtending0604;
+        lookup SubtendingMarks;
     script arab;  # Arabic
         lookup Kern;
 } kern ;
