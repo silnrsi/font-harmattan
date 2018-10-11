@@ -44,7 +44,7 @@ getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
-OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L"'
+OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O"'
 
 for style in ('-Regular', '-Bold'):
     UFO = 'source/' + FAMILY + style + '.ufo'
