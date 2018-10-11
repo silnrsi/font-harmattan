@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rnoon-ar.fina" format="2">
+  <advance width="1249"/>
+  <unicode hex="FBA1"/>
+  <anchor x="281" y="506" name="alef"/>
+  <anchor x="571" y="-585" name="below"/>
+  <anchor x="541" y="1109" name="diaA"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="tahabove-ar" xOffset="608" yOffset="-647"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

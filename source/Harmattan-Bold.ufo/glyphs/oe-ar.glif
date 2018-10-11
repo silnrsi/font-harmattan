@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oe-ar" format="2">
-  <advance width="862"/>
+  <advance width="893"/>
   <unicode hex="06C6"/>
   <anchor x="73" y="684" name="alef"/>
   <anchor x="388" y="985" name="diaA"/>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeThreeabove-ar" format="2">
+  <advance width="1303"/>
+  <unicode hex="077B"/>
+  <anchor x="-5" y="530" name="alef"/>
+  <anchor x="672" y="-62" name="below"/>
+  <anchor x="359" y="1380" name="diaA"/>
+  <outline>
+    <component base="yehbarree-ar"/>
+    <component base="_three" xOffset="354" yOffset="1120"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehFourbelow-farsi.fina" format="2">
+  <advance width="1296"/>
+  <anchor x="475" y="260" name="alef"/>
+  <anchor x="942" y="210" name="diaA"/>
+  <anchor x="701" y="-1370" name="diaB"/>
+  <outline>
+    <component base="yeh-ar.noDots.fina"/>
+    <component base="_four" xOffset="694" yOffset="-873"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

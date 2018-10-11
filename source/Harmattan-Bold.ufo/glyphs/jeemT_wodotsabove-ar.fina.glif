@@ -3,10 +3,10 @@
   <advance width="1054"/>
   <anchor x="119" y="871" name="alef"/>
   <anchor x="417" y="990" name="diaA"/>
-  <anchor x="502" y="-752" name="diaB"/>
+  <anchor x="572" y="-812" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
     <component base="_dot2h" xOffset="436" yOffset="826"/>
-    <component base="_dot1" xOffset="450" yOffset="-141"/>
+    <component base="_dot1" xOffset="540" yOffset="-201"/>
   </outline>
 </glyph>

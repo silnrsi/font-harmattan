@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yu-ar" format="2">
-  <advance width="862"/>
+  <advance width="893"/>
   <unicode hex="06C8"/>
   <anchor x="123" y="774" name="alef"/>
   <anchor x="418" y="1075" name="diaA"/>

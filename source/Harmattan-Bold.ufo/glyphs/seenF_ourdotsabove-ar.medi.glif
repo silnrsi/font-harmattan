@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenFourdotsabove-ar.medi" format="2">
+  <advance width="1355"/>
+  <anchor x="209" y="530" name="alef"/>
+  <anchor x="621" y="1112" name="diaA"/>
+  <anchor x="693" y="-123" name="diaB"/>
+  <outline>
+    <component base="seen-ar.medi"/>
+    <component base="_dot4" xOffset="662" yOffset="683"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

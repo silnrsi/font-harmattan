@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehTwoabove-farsi" format="2">
+  <advance width="1437"/>
+  <unicode hex="0775"/>
+  <anchor x="455" y="612" name="alef"/>
+  <anchor x="803" y="1242" name="diaA"/>
+  <anchor x="695" y="-401" name="diaB"/>
+  <outline>
+    <component base="yeh-ar.noDots"/>
+    <component base="_two" xOffset="800" yOffset="1010"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

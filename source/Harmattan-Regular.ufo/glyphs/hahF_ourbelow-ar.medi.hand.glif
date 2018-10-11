@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahFourbelow-ar.medi.hand" format="2">
+  <advance width="949"/>
+  <anchor x="47" y="344" name="alef"/>
+  <anchor x="355" y="619" name="diaA"/>
+  <anchor x="428" y="-1017" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="530" y="-539" type="line"/>
+      <point x="524" y="-467"/>
+      <point x="473" y="-430"/>
+      <point x="419" y="-430" type="curve" smooth="yes"/>
+      <point x="355" y="-430"/>
+      <point x="287" y="-483"/>
+      <point x="287" y="-595" type="curve" smooth="yes"/>
+      <point x="287" y="-704"/>
+      <point x="339" y="-775"/>
+      <point x="339" y="-935" type="curve"/>
+      <point x="357" y="-935"/>
+      <point x="400" y="-932"/>
+      <point x="410" y="-916" type="curve"/>
+      <point x="411" y="-905"/>
+      <point x="411" y="-894"/>
+      <point x="411" y="-884" type="curve" smooth="yes"/>
+      <point x="411" y="-756"/>
+      <point x="368" y="-679"/>
+      <point x="368" y="-598" type="curve" smooth="yes"/>
+      <point x="368" y="-543"/>
+      <point x="388" y="-511"/>
+      <point x="419" y="-511" type="curve" smooth="yes"/>
+      <point x="447" y="-511"/>
+      <point x="465" y="-542"/>
+      <point x="470" y="-600" type="curve" smooth="yes"/>
+      <point x="472" y="-623"/>
+      <point x="472" y="-651"/>
+      <point x="473" y="-682" type="curve"/>
+      <point x="500" y="-682"/>
+      <point x="524" y="-679"/>
+      <point x="545" y="-673" type="curve"/>
+      <point x="541" y="-590"/>
+      <point x="575" y="-505"/>
+      <point x="650" y="-499" type="curve"/>
+      <point x="658" y="-473"/>
+      <point x="662" y="-446"/>
+      <point x="661" y="-420" type="curve"/>
+      <point x="579" y="-420"/>
+      <point x="521" y="-479"/>
+      <point x="514" y="-533" type="curve"/>
+    </contour>
+    <component base="hah-ar.medi.hand"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

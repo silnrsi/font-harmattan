@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="peheh-ar" format="2">
+  <advance width="1800"/>
+  <unicode hex="06A6"/>
+  <anchor x="372" y="590" name="alef"/>
+  <anchor x="1256" y="1533" name="diaA"/>
+  <anchor x="951" y="-89" name="diaB"/>
+  <outline>
+    <component base="fehDotless-ar"/>
+    <component base="_dot4" xOffset="1322" yOffset="1075"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

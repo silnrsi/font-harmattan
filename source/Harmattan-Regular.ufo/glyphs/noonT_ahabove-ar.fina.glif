@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="noonTahabove-ar.fina" format="2">
+  <advance width="1249"/>
+  <anchor x="252" y="736" name="alef"/>
+  <anchor x="512" y="1339" name="diaA"/>
+  <anchor x="580" y="-592" name="diaB"/>
+  <outline>
+    <component base="noonghunna-ar.fina"/>
+    <component base="_dot1" xOffset="597" yOffset="570"/>
+    <component base="_tah" xOffset="551" yOffset="920"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

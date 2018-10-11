@@ -8,6 +8,6 @@
   <outline>
     <component base="hah-ar"/>
     <component base="_dot2h" xOffset="428" yOffset="826"/>
-    <component base="_dot1" xOffset="510" yOffset="-231"/>
+    <component base="_dot1" xOffset="550" yOffset="-261"/>
   </outline>
 </glyph>

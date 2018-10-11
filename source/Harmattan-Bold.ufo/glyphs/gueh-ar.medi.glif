@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gueh-ar.medi" format="2">
+  <advance width="1503"/>
+  <unicode hex="FB99"/>
+  <anchor x="-84" y="754" name="alef"/>
+  <anchor x="272" y="1027" name="diaA"/>
+  <anchor x="726" y="-585" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="_gafBarShort" xOffset="175" yOffset="683"/>
+    <component base="_dot2v" xOffset="730" yOffset="-320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

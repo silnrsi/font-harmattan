@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ngoeh-ar.fina" format="2">
+  <advance width="1577"/>
+  <unicode hex="FB9B"/>
+  <anchor x="46" y="754" name="alef"/>
+  <anchor x="344" y="1211" name="diaA"/>
+  <anchor x="766" y="-115" name="diaB"/>
+  <outline>
+    <component base="keheh-ar.fina"/>
+    <component base="_gafBarShort" xOffset="311" yOffset="668"/>
+    <component base="_dot2h" xOffset="350" yOffset="1040"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

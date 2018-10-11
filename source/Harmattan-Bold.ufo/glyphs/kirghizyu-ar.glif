@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kirghizyu-ar" format="2">
-  <advance width="862"/>
+  <advance width="893"/>
   <unicode hex="06C9"/>
   <anchor x="113" y="664" name="alef"/>
   <anchor x="408" y="965" name="diaA"/>

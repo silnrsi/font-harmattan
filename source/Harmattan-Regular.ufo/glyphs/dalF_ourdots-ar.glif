@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dalFourdots-ar" format="2">
+  <advance width="855"/>
+  <unicode hex="0690"/>
+  <anchor x="-25" y="1081" name="alef"/>
+  <anchor x="278" y="1382" name="diaA"/>
+  <anchor x="399" y="-71" name="diaB"/>
+  <outline>
+    <component base="dal-ar"/>
+    <component base="_dot4" xOffset="327" yOffset="969"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

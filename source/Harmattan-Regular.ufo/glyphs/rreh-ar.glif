@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rreh-ar" format="2">
+  <advance width="601"/>
+  <unicode hex="0691"/>
+  <anchor x="73" y="518" name="alef"/>
+  <anchor x="361" y="1027" name="diaA"/>
+  <anchor x="264" y="-636" name="diaB"/>
+  <outline>
+    <component base="reh-ar"/>
+    <component base="tahabove-ar" xOffset="365" yOffset="-664"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

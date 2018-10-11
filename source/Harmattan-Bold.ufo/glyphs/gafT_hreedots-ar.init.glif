@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gafThreedots-ar.init" format="2">
+  <advance width="1405"/>
+  <anchor x="-214" y="1104" name="alef"/>
+  <anchor x="94" y="1471" name="diaA"/>
+  <anchor x="590" y="-90" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.init"/>
+    <component base="_gafBarShort" xOffset="142" yOffset="683"/>
+    <component base="_dot3u" xOffset="129" yOffset="1177"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

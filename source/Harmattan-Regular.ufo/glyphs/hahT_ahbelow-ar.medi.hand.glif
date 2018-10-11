@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hahTahbelow-ar.medi.hand" format="2">
+  <advance width="949"/>
+  <anchor x="47" y="344" name="alef"/>
+  <anchor x="355" y="619" name="diaA"/>
+  <anchor x="438" y="-807" name="diaB"/>
+  <outline>
+    <component base="hah-ar.medi.hand"/>
+    <component base="tahabove-ar" xOffset="452" yOffset="-1926"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="teheh-ar.medi" format="2">
+  <advance width="580"/>
+  <unicode hex="FB65"/>
+  <anchor x="-142" y="515" name="alef"/>
+  <anchor x="173" y="1118" name="diaA"/>
+  <anchor x="296" y="-81" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="_dot4" xOffset="223" yOffset="667"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

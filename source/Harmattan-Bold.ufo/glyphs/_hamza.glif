@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_hamza" format="2">
-  <anchor x="0" y="-176" name="_above"/>
-  <anchor x="0" y="250" name="_below"/>
+  <anchor x="-3" y="-197" name="_diaA"/>
+  <anchor x="-3" y="281" name="diaA"/>
   <outline>
     <component base="hamzaabove-ar" xOffset="-263" yOffset="-1480"/>
   </outline>

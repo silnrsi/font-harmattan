@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefHamzaabove-ar.postLamIni.warsh.fina" format="2">
   <advance width="897"/>
-  <anchor x="-100" y="1180" name="alef"/>
+  <anchor x="-140" y="1160" name="alef"/>
   <anchor x="133" y="-143" name="dia2B"/>
-  <anchor x="37" y="1221" name="diaA"/>
+  <anchor x="47" y="1231" name="diaA"/>
   <anchor x="181" y="-145" name="diaB"/>
   <anchor x="641" y="-12" name="entry"/>
   <outline>
     <component base="alef-ar.postLamIni.fina"/>
-    <component base="hamzaabove-ar" xOffset="-202" yOffset="-309"/>
+    <component base="hamzaabove-ar" xOffset="-197" yOffset="-513"/>
   </outline>
 </glyph>

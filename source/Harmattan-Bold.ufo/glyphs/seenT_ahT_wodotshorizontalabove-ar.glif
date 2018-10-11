@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="seenTahTwodotshorizontalabove-ar" format="2">
+  <advance width="1657"/>
+  <unicode hex="0770"/>
+  <anchor x="165" y="227" name="alef"/>
+  <anchor x="981" y="1417" name="diaA"/>
+  <anchor x="284" y="-654" name="diaB"/>
+  <outline>
+    <component base="seen-ar"/>
+    <component base="_dot2h_tah" xOffset="1010" yOffset="1005"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

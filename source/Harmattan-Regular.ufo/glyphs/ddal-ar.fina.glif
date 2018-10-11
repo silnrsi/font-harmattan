@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ddal-ar.fina" format="2">
+  <advance width="903"/>
+  <unicode hex="FB89"/>
+  <anchor x="85" y="1151" name="alef"/>
+  <anchor x="388" y="1452" name="diaA"/>
+  <anchor x="465" y="-71" name="diaB"/>
+  <outline>
+    <component base="dal-ar.fina"/>
+    <component base="tahabove-ar" xOffset="388" yOffset="-228"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="beheh-ar.init" format="2">
+  <advance width="429"/>
+  <unicode hex="FB5C"/>
+  <anchor x="-3" y="531" name="alef"/>
+  <anchor x="206" y="580" name="diaA"/>
+  <anchor x="262" y="-591" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="_dot4" xOffset="261" yOffset="-449"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>
