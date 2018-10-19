@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehVinvertedabove-ar.medi" format="2">
-  <advance width="863"/>
+  <advance width="1132"/>
+  <anchor x="77" y="552" name="alef"/>
+  <anchor x="497" y="1192" name="diaA"/>
+  <anchor x="507" y="-176" name="diaB"/>
   <outline>
-    <component base="hehDoachashmee-ar.medi"/>
-    <component base="vinvertedabove-ar"/>
+    <contour>
+      <point x="1152" y="-10" type="curve"/>
+      <point x="1150" y="165" type="line"/>
+      <point x="1142" y="165"/>
+      <point x="826" y="165"/>
+      <point x="820" y="165" type="curve"/>
+      <point x="820" y="-10" type="line"/>
+      <point x="826" y="-10"/>
+      <point x="1146" y="-10"/>
+    </contour>
+    <component base="hehDoachashmee-ar.init"/>
+    <component base="vinvertedabove-ar" xOffset="483" yOffset="-208"/>
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <integer>15</integer>
+            <integer>-180</integer>
+          </array>
+          <key>type</key>
+          <string>Plus</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
       <key>public.markColor</key>
       <string>0.85,0.26,0.06,1</string>
     </dict>

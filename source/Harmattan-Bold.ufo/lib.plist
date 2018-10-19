@@ -37,7 +37,7 @@
 /alefTwoabove-ar/alefTwoabove-ar.fina/alefTwoabove-ar.postLamIni.fina/alefTwoabove-ar.postLamMed.fina/alefThreeabove-ar/alefThreeabove-ar.fina/alefThreeabove-ar.postLamIni.fina/alefThreeabove-ar.postLamMed.fina  /waw-ar  /waw-ar.fina  /alefMaksura-ar  /alefMaksura-ar.fina/behDotless-ar.medi/behDotless-ar.init 
 /highhamza-ar  /highhamzaAlef-ar  /highhamzaAlef-ar.fina  /highhamzaAlef-ar.postLamIni.fina  /highhamzaAlef-ar.postLamMed.fina  /highhamzaWaw-ar  /highhamzaWaw-ar.fina  /highhamzaYeh-ar  /highhamzaYeh-ar.fina/highhamzaYeh-ar.medi  /highhamzaYeh-ar.init 
 /kirghizoe-ar  /kirghizoe-ar.fina  /u-ar  /u-ar.fina  /u-ar.filled  /u-ar.filled.fina  /uHamzaabove-ar  /uHamzaabove-ar.fina  /uHamzaabove-ar.filled  /uHamzaabove-ar.filled.fina 
- /wawDotcenter-ar  /wawDotcenter-ar.fina  /wawStraight-ar  /wawStraight-ar.fina  /wawTwoabove-ar  /wawTwoabove-ar.fina  /wawThreeAbove-ar  /wawThreeAbove-ar.fina  /wawring-ar  /wawring-ar.fina</string>
+/waw-ar  /wawDotcenter-ar  /waw-ar.fina/wawDotcenter-ar.fina  /wawStraight-ar  /wawStraight-ar.fina  /wawTwoabove-ar  /wawTwoabove-ar.fina  /wawThreeAbove-ar  /wawThreeAbove-ar.fina  /wawring-ar  /wawring-ar.fina</string>
     <string>/beheh-ar  /beheh-ar.fina  /beheh-ar.medi  /beheh-ar.init  /behDotless-ar/behDotless-ar/behDotless-ar  /behDotless-ar 
 /teh-ar  /teheh-ar  /teheh-ar.fina  /teheh-ar.medi  /teheh-ar.init  /tteh-ar  /tteh-ar.fina  /tteh-ar.medi  /tteh-ar.init 
 /dal-ar.loclWLF/dal-ar.fina.loclWLF/dal-ar/dal-ar.fina  /ddal-ar/ddal-ar.loclWLF/ddal-ar.fina.loclWLF/ddal-ar.fina  /dalFourdots-ar/dalFourdots-ar.fina/dalFourdots-ar.loclWLF/dalFourdots-ar.fina.loclWLF  /dalTwodotsverticalbelowTah-ar/dalTwodotsverticalbelowTah-ar.fina/dalTwodotsverticalbelowTah-ar.loclWLF/dalTwodotsverticalbelowTah-ar.fina.loclWLF</string>
@@ -50,11 +50,12 @@
 /hahTahbelow-ar  /hahTahbelow-ar.fina  /hahTahbelow-ar.medi  /hahTahbelow-ar.init  /hahTahbelow-ar.medi.hand  /hahTahTwodotshorizontalabove-ar  /hahTahTwodotshorizontalabove-ar.fina  /hahTahTwodotshorizontalabove-ar.medi  /hahTahTwodotshorizontalabove-ar.init  /hahTahTwodotshorizontalabove-ar.medi.hand 
 /damma-ar  /hahFourbelow-ar  /hahFourbelow-ar.fina  /hahFourbelow-ar.medi  /hahFourbelow-ar.init  /hahFourbelow-ar.medi.hand  /hahTahabove-ar  /hahTahabove-ar.fina  /hahTahabove-ar.medi  /hahTahabove-ar.init  /hahTahabove-ar.medi.hand</string>
     <string>/hehDoachashmee-ar.init/heh-ar.init  /heh-ar.medi  /heh-ar.fina  /heh-ar  /behDotless-ar.init 
-/hehgoal-ar  /hehgoal-ar.fina  /hehgoal-ar.medi  /hehgoal-ar.init  /hehgoalHamzaabove-ar  /hehgoalHamzaabove-ar.fina  /hehgoalHamzaabove-ar.medi  /hehgoalHamzaabove-ar.init  
+/hehgoal-ar  /behDotless-ar/hehgoal-ar.fina  /behDotless-ar.init/hehgoal-ar.medi/seen-ar  /hehgoal-ar.init  /hehgoalHamzaabove-ar  /hehgoalHamzaabove-ar.fina  /hehgoalHamzaabove-ar.medi  /hehgoalHamzaabove-ar.init  
 /hehDoachashmee-ar  /hehDoachashmee-ar.fina  /hehVinvertedabove-ar  /hehVinvertedabove-ar.fina  /hehVinvertedabove-ar.medi  /hehVinvertedabove-ar.init 
-/tehMarbutagoal-ar  /tehMarbutagoal-ar.fina</string>
-    <string>/waw-ar/waw-ar.fina/wawTwodots-ar/wawTwodots-ar.fina/wawDotabove-ar/wawDotabove-ar.fina/wawHamzaabove-ar/wawHamzaabove-ar.fina/oe-ar/oe-ar.fina/yu-ar/yu-ar.fina/kirghizyu-ar/kirghizyu-ar.fina/ve-ar/ve-ar.fina</string>
-    <string>/zero.medium/zero.small/one.medium/one.small/two.medium/two.small/three.medium/three.small/four.medium/four.small/five.medium/five.small/six.medium/six.small/seven.medium/seven.small/eight.medium/eight.small/nine.medium/nine.small/zero-ar.medium/zero-ar.small/one-ar.medium/one-ar.small/two-ar.medium/two-ar.small/three-ar.medium/three-ar.small/four-ar.medium/four-ar.small/five-ar.medium/five-ar.small/six-ar.medium/six-ar.small/seven-ar.medium/seven-ar.small/eight-ar.medium/eight-ar.small/nine-ar.medium/nine-ar.small/zero-persian.medium/zero-persian.small/one-persian.medium/one-persian.small/two-persian.medium/two-persian.small/three-persian.medium/three-persian.small/four-persian.medium/four-persian.small/four-persian.urdu.medium/four-persian.urdu.small/five-persian.medium/five-persian.small/six-persian.medium/six-persian.small/six-persian.urdu.medium/six-persian.urdu.small/seven-persian.medium/seven-persian.small/seven-persian.urdu.medium/seven-persian.urdu.small/eight-persian.medium/eight-persian.small/nine-persian.medium/nine-persian.small</string>
+/tehMarbutagoal-ar  /tehMarbutagoal-ar.fina  /lam-ar.preAlef.medi/meem-ar.sindhi  /meem-ar.sindhi.fina</string>
+    <string>/bismillah-ar 
+/bismillah-ar 
+</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawStraight-ar" format="2">
-  <advance width="600"/>
+  <advance width="822"/>
   <unicode hex="08B1"/>
-  <outline/>
+  <anchor x="103" y="554" name="alef"/>
+  <anchor x="371" y="607" name="diaA"/>
+  <anchor x="406" y="-746" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="718" y="89" type="curve" smooth="yes"/>
+      <point x="718" y="383"/>
+      <point x="590" y="525"/>
+      <point x="406" y="525" type="curve" smooth="yes"/>
+      <point x="210" y="525"/>
+      <point x="100" y="372"/>
+      <point x="100" y="224" type="curve" smooth="yes"/>
+      <point x="100" y="38"/>
+      <point x="245" y="-53"/>
+      <point x="419" y="-53" type="curve" smooth="yes"/>
+      <point x="530" y="-53"/>
+      <point x="653" y="-16"/>
+      <point x="758" y="56" type="curve"/>
+      <point x="764" y="82"/>
+      <point x="767" y="108"/>
+      <point x="767" y="134" type="curve" smooth="yes"/>
+      <point x="767" y="157"/>
+      <point x="764" y="181"/>
+      <point x="760" y="204" type="curve"/>
+      <point x="653" y="126"/>
+      <point x="523" y="81"/>
+      <point x="420" y="81" type="curve" smooth="yes"/>
+      <point x="315" y="81"/>
+      <point x="237" y="128"/>
+      <point x="237" y="233" type="curve" smooth="yes"/>
+      <point x="237" y="311"/>
+      <point x="295" y="389"/>
+      <point x="392" y="389" type="curve" smooth="yes"/>
+      <point x="535" y="389"/>
+      <point x="582" y="252"/>
+      <point x="582" y="93" type="curve" smooth="yes"/>
+      <point x="582" y="-219"/>
+      <point x="562" y="-422"/>
+      <point x="504" y="-697" type="curve"/>
+      <point x="555" y="-705"/>
+      <point x="620" y="-694"/>
+      <point x="654" y="-672" type="curve"/>
+      <point x="702" y="-381"/>
+      <point x="718" y="-185"/>
+    </contour>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>

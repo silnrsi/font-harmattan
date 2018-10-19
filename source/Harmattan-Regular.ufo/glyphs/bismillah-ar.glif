@@ -353,26 +353,34 @@
     </contour>
     <contour>
       <point x="15422" y="831" type="curve"/>
-      <point x="15385" y="823"/>
-      <point x="15316" y="777"/>
-      <point x="15296" y="737" type="curve"/>
-      <point x="15454" y="480"/>
-      <point x="15456" y="215"/>
+      <point x="15387" y="823"/>
+      <point x="15329" y="790"/>
+      <point x="15307" y="750" type="curve"/>
+      <point x="15376" y="629"/>
+      <point x="15417" y="499"/>
+      <point x="15417" y="398" type="curve" smooth="yes"/>
+      <point x="15417" y="291"/>
+      <point x="15371" y="215"/>
       <point x="15260" y="215" type="curve" smooth="yes"/>
-      <point x="15192" y="215"/>
+      <point x="15182" y="215"/>
       <point x="15098" y="262"/>
       <point x="15053" y="380" type="curve"/>
       <point x="15016" y="192" type="line"/>
       <point x="15092" y="107"/>
       <point x="15178" y="80"/>
       <point x="15267" y="80" type="curve" smooth="yes"/>
-      <point x="15583" y="80"/>
-      <point x="15640" y="431"/>
+      <point x="15459" y="80"/>
+      <point x="15550" y="210"/>
+      <point x="15550" y="394" type="curve" smooth="yes"/>
+      <point x="15550" y="522"/>
+      <point x="15506" y="676"/>
     </contour>
     <contour>
-      <point x="12885" y="-96" type="curve"/>
-      <point x="13480" y="-116"/>
-      <point x="13928" y="-36"/>
+      <point x="12300" y="-45"/>
+      <point x="12682" y="-101"/>
+      <point x="13066" y="-101" type="curve" smooth="yes"/>
+      <point x="13499" y="-101"/>
+      <point x="13936" y="-30"/>
       <point x="14136" y="126" type="curve"/>
       <point x="14182" y="32"/>
       <point x="14279" y="-18"/>
@@ -404,12 +412,8 @@
       <point x="14601" y="453"/>
       <point x="14539" y="438"/>
       <point x="14506" y="421" type="curve"/>
-      <point x="14510" y="408"/>
-      <point x="14515" y="386"/>
-      <point x="14518" y="364" type="curve" smooth="yes"/>
-      <point x="14521" y="344" type="line"/>
-      <point x="14521" y="335"/>
-      <point x="14522" y="326"/>
+      <point x="14513" y="399"/>
+      <point x="14522" y="345"/>
       <point x="14522" y="317" type="curve" smooth="yes"/>
       <point x="14522" y="173"/>
       <point x="14448" y="112"/>
@@ -433,19 +437,28 @@
       <point x="12297" y="102"/>
       <point x="12162" y="184" type="curve"/>
       <point x="12087" y="59" type="line"/>
-      <point x="12259" y="-25"/>
-      <point x="12631" y="-96"/>
     </contour>
     <contour>
+      <point x="6705" y="5"/>
+      <point x="6782" y="-12"/>
+      <point x="6861" y="-12" type="curve" smooth="yes"/>
+      <point x="6956" y="-12"/>
+      <point x="7053" y="12"/>
+      <point x="7088" y="64" type="curve"/>
+      <point x="7139" y="12"/>
+      <point x="7217" y="-41"/>
+      <point x="7336" y="-41" type="curve" smooth="yes"/>
+      <point x="7477" y="-41"/>
+      <point x="7616" y="45"/>
+      <point x="7616" y="237" type="curve" smooth="yes"/>
+      <point x="7616" y="455"/>
+      <point x="7461" y="565"/>
       <point x="7308" y="565" type="curve" smooth="yes"/>
       <point x="7204" y="565"/>
       <point x="7108" y="527"/>
       <point x="7059" y="433" type="curve" smooth="yes"/>
-      <point x="7027" y="371"/>
-      <point x="7011" y="310"/>
-      <point x="7005" y="215" type="curve" smooth="yes"/>
-      <point x="7004" y="198"/>
-      <point x="7004" y="189"/>
+      <point x="7020" y="358"/>
+      <point x="7004" y="269"/>
       <point x="7004" y="179" type="curve" smooth="yes"/>
       <point x="7004" y="151"/>
       <point x="6948" y="125"/>
@@ -480,25 +493,6 @@
       <point x="6479" y="-553"/>
       <point x="6666" y="-359"/>
       <point x="6669" y="38" type="curve"/>
-      <point x="6698" y="17"/>
-      <point x="6749" y="-10"/>
-      <point x="6840" y="-10" type="curve" smooth="yes"/>
-      <point x="6845" y="-10"/>
-      <point x="6854" y="-10"/>
-      <point x="6860" y="-10" type="curve" smooth="yes"/>
-      <point x="6862" y="-10" type="line"/>
-      <point x="6880" y="-10" type="line" smooth="yes"/>
-      <point x="6969" y="-10"/>
-      <point x="7042" y="12"/>
-      <point x="7088" y="64" type="curve"/>
-      <point x="7139" y="12"/>
-      <point x="7217" y="-41"/>
-      <point x="7336" y="-41" type="curve" smooth="yes"/>
-      <point x="7477" y="-41"/>
-      <point x="7616" y="45"/>
-      <point x="7616" y="237" type="curve" smooth="yes"/>
-      <point x="7616" y="455"/>
-      <point x="7461" y="565"/>
     </contour>
     <contour>
       <point x="7339" y="90" type="curve" smooth="yes"/>
@@ -565,14 +559,14 @@
       <point x="1057" y="102"/>
       <point x="922" y="184" type="curve"/>
       <point x="847" y="59" type="line"/>
-      <point x="1019" y="-25"/>
-      <point x="1391" y="-96"/>
-      <point x="1645" y="-96" type="curve"/>
-      <point x="2240" y="-116"/>
-      <point x="2683" y="-37"/>
+      <point x="1062" y="-46"/>
+      <point x="1432" y="-102"/>
+      <point x="1808" y="-102" type="curve" smooth="yes"/>
+      <point x="2250" y="-102"/>
+      <point x="2699" y="-24"/>
     </contour>
     <component base="shadda-ar" xOffset="10117" yOffset="-488"/>
-    <component base="fatha-ar" xOffset="10086" yOffset="-151"/>
+    <component base="fatha-ar" xOffset="10086" yOffset="-121"/>
     <component base="kasra-ar" xOffset="4986" yOffset="209"/>
     <component base="kasra-ar" xOffset="8967" yOffset="209"/>
     <component base="kasra-ar" xOffset="10801" yOffset="223"/>
@@ -589,7 +583,6 @@
     <component base="kasra-ar" xOffset="15201" yOffset="-97"/>
     <component base="sukun-ar" xOffset="7458" yOffset="-251"/>
     <component base="_dot2h" xOffset="2887" yOffset="-227"/>
-    <component base="kasra-ar" xOffset="9557" yOffset="89"/>
     <component base="kasra-ar" xOffset="6164" yOffset="-423"/>
     <component base="kasra-ar" xOffset="11597" yOffset="-123"/>
     <component base="kasra-ar" xOffset="344" yOffset="-123"/>
@@ -597,4 +590,22 @@
     <component base="kasra-ar" xOffset="9557" yOffset="89"/>
     <component base="kasra-ar" xOffset="3338" yOffset="157"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.annotations</key>
+      <array>
+        <dict>
+          <key>position</key>
+          <array>
+            <real>12878.505</real>
+            <real>-94.496</real>
+          </array>
+          <key>type</key>
+          <string>Plus</string>
+          <key>width</key>
+          <integer>100</integer>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heh-ar.init" format="2">
   <advance width="1169"/>
-  <anchor x="150" y="480" name="alef"/>
-  <anchor x="466" y="779" name="diaA"/>
-  <anchor x="419" y="-103" name="diaB"/>
+  <anchor x="77" y="552" name="alef"/>
+  <anchor x="537" y="812" name="diaA"/>
+  <anchor x="507" y="-176" name="diaB"/>
   <outline>
     <component base="hehDoachashmee-ar.init"/>
   </outline>

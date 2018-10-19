@@ -2,8 +2,7 @@
 <glyph name="hehgoalHamzaabove-ar.medi" format="2">
   <advance width="863"/>
   <outline>
-    <component base="heh-ar.medi"/>
-    <component base="hamzaabove-ar"/>
+    <component base="hamzaabove-ar" xOffset="190" yOffset="-827"/>
   </outline>
   <lib>
     <dict>
