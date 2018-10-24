@@ -9,16 +9,18 @@ and any derivative works.
 Basic Font Information
 ----------------------
 
-Harmattan, named after the trade winds that blow during the winter in West
-Africa, is designed in a Warsh style to suit the needs of languages using
-the Arabic script in West Africa. 
+Harmattan, named after the trade winds that blow during the dry season in 
+West Africa, is designed in a Warsh style to suit the needs of languages 
+using the Arabic script in West Africa.
 
-The font does not cover the full Unicode Arabic repertoire. It only supports 
-characters known to be used by languages in West Africa.
+This font includes full support for Unicode 8.0 Arabic ranges 
+(excluding the Arabic Presentation Forms blocks, which are not recommended 
+for normal use). It also includes many of the characters in the 
+Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
 
-This font makes use of state-of-the-art font technologies to support complex 
-typographic issues. Font smarts are implemented using OpenType and Graphite 
-technologies.
+This font uses state-of-the-art OpenType and Graphite font technologies, 
+including variant glyphs for a number of characters for use in particular 
+contexts. 
 
 This font provides a simplified rendering of Arabic script, using basic 
 connecting glyphs but not including a wide variety of additional ligatures 

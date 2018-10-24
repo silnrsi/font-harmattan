@@ -5,16 +5,14 @@ Harmattan
 Thank you for your interest in the Harmattan font.
 We hope you find it useful!
 
-Harmattan supports a subset of the Unicode 7.0 Arabic character 
-repertoire. It does not include the Arabic Presentation Forms blocks, 
-which are not recommended for normal use. It also does not include 
-some of characters in the "Arabic", "Arabic Supplement", and "Arabic 
-Extended-A" blocks when they are known to be unnecessary in West 
-African languages.
- 
-Font smarts are implemented using OpenType and Graphite technologies. 
-A number of glyph variations are accessible through font features
-available via both OpenType and Graphite technologies. 
+Harmattan includes full support for Unicode 8.0 Arabic ranges 
+(excluding the Arabic Presentation Forms blocks, which are not recommended 
+for normal use). It also includes many of the characters in the 
+Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
+
+This font uses state-of-the-art OpenType and Graphite font technologies, 
+including variant glyphs for a number of characters for use in particular 
+contexts.  
 
 Harmattan is released under the SIL Open Font License.
 Harmattan is a trademark of SIL International.
