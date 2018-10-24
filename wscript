@@ -33,7 +33,7 @@ with Reserved Font Names \"Harmattan\" and \"SIL\".
 LICENSE = 'OFL.txt'
 
 DESC_NAME = "Harmattan"
-DESC_SHORT = "An Arabic font designed to suit the needs of languages in West Africa"
+DESC_SHORT = "An Arabic script font designed for use by languages in West Africa"
 # LONG_DESC now to be obtained from FONTLOG
 
 DEBPKG = 'fonts-sil-harmattan'
