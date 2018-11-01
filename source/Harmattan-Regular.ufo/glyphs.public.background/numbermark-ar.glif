@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="numbermark-ar" format="2">
+  <outline>
+    <component base="three-ar" xOffset="40"/>
+    <component base="one-ar"/>
+  </outline>
+</glyph>

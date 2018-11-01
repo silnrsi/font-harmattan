@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehLoop-ar.fina" format="2">
-  <advance width="600"/>
-  <outline/>
+  <advance width="928"/>
+  <anchor x="306" y="103" name="alef"/>
+  <anchor x="628" y="457" name="diaA"/>
+  <anchor x="526" y="-724" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="714" y="401" type="curve"/>
+      <point x="723" y="91" type="line"/>
+      <point x="764" y="27"/>
+      <point x="837" y="-10"/>
+      <point x="915" y="-10" type="curve" smooth="yes"/>
+      <point x="948" y="-10" type="line"/>
+      <point x="948" y="125" type="line"/>
+      <point x="929" y="125" type="line" smooth="yes"/>
+      <point x="816" y="125"/>
+      <point x="760" y="210"/>
+    </contour>
+    <contour>
+      <point x="240" y="-517" type="curve" smooth="yes"/>
+      <point x="170" y="-517"/>
+      <point x="127" y="-475"/>
+      <point x="127" y="-436" type="curve" smooth="yes"/>
+      <point x="127" y="-396"/>
+      <point x="165" y="-349"/>
+      <point x="248" y="-349" type="curve" smooth="yes"/>
+      <point x="390" y="-349"/>
+      <point x="554" y="-539"/>
+      <point x="641" y="-699" type="curve"/>
+      <point x="687" y="-680"/>
+      <point x="724" y="-649"/>
+      <point x="750" y="-606" type="curve"/>
+      <point x="668" y="-494"/>
+      <point x="488" y="-210"/>
+      <point x="261" y="-210" type="curve" smooth="yes"/>
+      <point x="78" y="-210"/>
+      <point x="-13" y="-327"/>
+      <point x="-13" y="-441" type="curve" smooth="yes"/>
+      <point x="-13" y="-549"/>
+      <point x="70" y="-654"/>
+      <point x="236" y="-654" type="curve" smooth="yes"/>
+      <point x="529" y="-654"/>
+      <point x="757" y="-339"/>
+      <point x="757" y="27" type="curve" smooth="yes"/>
+      <point x="757" y="151"/>
+      <point x="745" y="278"/>
+      <point x="715" y="401" type="curve"/>
+      <point x="671" y="399"/>
+      <point x="622" y="387"/>
+      <point x="584" y="365" type="curve"/>
+      <point x="606" y="252"/>
+      <point x="617" y="134"/>
+      <point x="617" y="20" type="curve" smooth="yes"/>
+      <point x="617" y="-319"/>
+      <point x="417" y="-517"/>
+    </contour>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>

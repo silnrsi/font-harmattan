@@ -2,9 +2,12 @@
 <glyph name="rehHamzaabove-ar" format="2">
   <advance width="611"/>
   <unicode hex="076C"/>
+  <anchor x="22" y="518" name="alef"/>
+  <anchor x="364" y="927" name="diaA"/>
+  <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="hamzaabove-ar"/>
+    <component base="hamzaabove-ar" xOffset="106" yOffset="-848"/>
   </outline>
   <lib>
     <dict>

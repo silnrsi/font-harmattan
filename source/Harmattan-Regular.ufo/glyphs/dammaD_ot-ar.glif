@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dammaDot-ar" format="2">
+  <unicode hex="08FE"/>
+  <anchor x="96" y="1255" name="_diaA"/>
+  <anchor x="-53" y="1731" name="diaA"/>
+  <outline>
+    <component base="damma-ar" xOffset="-130"/>
+    <component base="_dotCircular" xOffset="-130" yOffset="1526"/>
+  </outline>
+</glyph>

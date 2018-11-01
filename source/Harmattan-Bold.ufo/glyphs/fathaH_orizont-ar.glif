@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathaHorizont-ar" format="2">
+  <unicode hex="0659"/>
+  <anchor x="8" y="1326" name="_diaA"/>
+  <anchor x="-7" y="1498" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="-188" y="1445"/>
+      <point x="-201" y="1379"/>
+      <point x="-201" y="1350" type="curve"/>
+      <point x="-97" y="1354"/>
+      <point x="2" y="1359"/>
+      <point x="196" y="1370" type="curve"/>
+      <point x="206" y="1403"/>
+      <point x="214" y="1436"/>
+      <point x="214" y="1465" type="curve"/>
+      <point x="46" y="1461"/>
+      <point x="-64" y="1461"/>
+      <point x="-183" y="1459" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

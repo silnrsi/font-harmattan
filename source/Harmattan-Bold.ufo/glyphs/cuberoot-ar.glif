@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cuberoot-ar" format="2">
+  <advance width="900"/>
+  <unicode hex="0606"/>
+  <outline>
+    <component base="radical" xScale="-1" xOffset="900"/>
+    <component base="three-ar.small" xOffset="265" yOffset="274"/>
+  </outline>
+</glyph>

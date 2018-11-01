@@ -200,6 +200,8 @@
   <string>_bar2.glif</string>
   <key>_damma</key>
   <string>_damma.glif</string>
+  <key>_damma.filled</key>
+  <string>_damma.filled.glif</string>
   <key>_dot1</key>
   <string>_dot1.glif</string>
   <key>_dot1_hat</key>
@@ -222,6 +224,8 @@
   <string>_dot3u.glif</string>
   <key>_dot4</key>
   <string>_dot4.glif</string>
+  <key>_dotCircular</key>
+  <string>_dotC_ircular.glif</string>
   <key>_four</key>
   <string>_four.glif</string>
   <key>_gafBar</key>
@@ -242,6 +246,8 @@
   <string>_hamza.glif</string>
   <key>_hamzaDamma</key>
   <string>_hamzaD_amma.glif</string>
+  <key>_hamzaDamma.filled</key>
+  <string>_hamzaD_amma.filled.glif</string>
   <key>_hat</key>
   <string>_hat.glif</string>
   <key>_highHamza</key>
@@ -380,6 +386,8 @@
   <string>alefH_amzabelow-ar.warsh.glif</string>
   <key>alefHamzabelow-ar.warsh.fina</key>
   <string>alefH_amzabelow-ar.warsh.fina.glif</string>
+  <key>alefLamYehabove-ar</key>
+  <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefMadda-ar</key>
   <string>alefM_adda-ar.glif</string>
   <key>alefMadda-ar.fina</key>
@@ -638,6 +646,8 @@
   <string>comma-ar.downward.glif</string>
   <key>copyright</key>
   <string>copyright.glif</string>
+  <key>cuberoot-ar</key>
+  <string>cuberoot-ar.glif</string>
   <key>currency</key>
   <string>currency.glif</string>
   <key>d</key>
@@ -760,12 +770,20 @@
   <string>dalV_invertedbelow-ar.loclW_L_F_.glif</string>
   <key>damma-ar</key>
   <string>damma-ar.glif</string>
+  <key>damma-ar.filled</key>
+  <string>damma-ar.filled.glif</string>
   <key>damma-ar.short</key>
   <string>damma-ar.short.glif</string>
+  <key>dammaCurly-ar</key>
+  <string>dammaC_urly-ar.glif</string>
+  <key>dammaDot-ar</key>
+  <string>dammaD_ot-ar.glif</string>
   <key>damma_meem-ar</key>
   <string>damma_meem-ar.glif</string>
   <key>dammainverted-ar</key>
   <string>dammainverted-ar.glif</string>
+  <key>dammainverted-ar.open</key>
+  <string>dammainverted-ar.open.glif</string>
   <key>dammareversed-ar</key>
   <string>dammareversed-ar.glif</string>
   <key>dammasmall-ar</key>
@@ -774,6 +792,10 @@
   <string>dammatan-ar.glif</string>
   <key>dammatan-ar.sixNine</key>
   <string>dammatan-ar.sixN_ine.glif</string>
+  <key>dammatanCurly-ar</key>
+  <string>dammatanC_urly-ar.glif</string>
+  <key>dammaturnedbelow-ar</key>
+  <string>dammaturnedbelow-ar.glif</string>
   <key>dateseparator-ar</key>
   <string>dateseparator-ar.glif</string>
   <key>ddahal-ar</key>
@@ -914,14 +936,22 @@
   <string>f.glif</string>
   <key>fatha-ar</key>
   <string>fatha-ar.glif</string>
+  <key>fathaCurly-ar</key>
+  <string>fathaC_urly-ar.glif</string>
   <key>fathaDotabove-ar</key>
   <string>fathaD_otabove-ar.glif</string>
+  <key>fathaHorizont-ar</key>
+  <string>fathaH_orizont-ar.glif</string>
   <key>fathaRing-ar</key>
   <string>fathaR_ing-ar.glif</string>
   <key>fatha_meem-ar</key>
   <string>fatha_meem-ar.glif</string>
+  <key>fathasmall-ar</key>
+  <string>fathasmall-ar.glif</string>
   <key>fathatan-ar</key>
   <string>fathatan-ar.glif</string>
+  <key>fathatanCurly-ar</key>
+  <string>fathatanC_urly-ar.glif</string>
   <key>fathatwodots-ar</key>
   <string>fathatwodots-ar.glif</string>
   <key>feh-ar</key>
@@ -1044,6 +1074,12 @@
   <string>four-persian.glif</string>
   <key>four-persian.medium</key>
   <string>four-persian.medium.glif</string>
+  <key>four-persian.roh</key>
+  <string>four-persian.roh.glif</string>
+  <key>four-persian.roh.medium</key>
+  <string>four-persian.roh.medium.glif</string>
+  <key>four-persian.roh.small</key>
+  <string>four-persian.roh.small.glif</string>
   <key>four-persian.small</key>
   <string>four-persian.small.glif</string>
   <key>four-persian.urdu</key>
@@ -1058,6 +1094,8 @@
   <string>four.small.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
+  <key>fourthroot-ar</key>
+  <string>fourthroot-ar.glif</string>
   <key>fraction</key>
   <string>fraction.glif</string>
   <key>fullstop-ar</key>
@@ -1248,12 +1286,16 @@
   <string>hahT_wodotsverticalabove-ar.medi.glif</string>
   <key>hahTwodotsverticalabove-ar.medi.hand</key>
   <string>hahT_wodotsverticalabove-ar.medi.hand.glif</string>
+  <key>hahabove-ar</key>
+  <string>hahabove-ar.glif</string>
   <key>hairspace</key>
   <string>hairspace.glif</string>
   <key>hamza-ar</key>
   <string>hamza-ar.glif</string>
   <key>hamza_damma-ar</key>
   <string>hamza_damma-ar.glif</string>
+  <key>hamza_damma-ar.filled</key>
+  <string>hamza_damma-ar.filled.glif</string>
   <key>hamza_damma-ar.short</key>
   <string>hamza_damma-ar.short.glif</string>
   <key>hamza_fatha-ar</key>
@@ -1266,8 +1308,20 @@
   <string>heh-ar.glif</string>
   <key>heh-ar.fina</key>
   <string>heh-ar.fina.glif</string>
+  <key>heh-ar.hooked.fina</key>
+  <string>heh-ar.hooked.fina.glif</string>
+  <key>heh-ar.hooked.init</key>
+  <string>heh-ar.hooked.init.glif</string>
+  <key>heh-ar.hooked.medi</key>
+  <string>heh-ar.hooked.medi.glif</string>
   <key>heh-ar.init</key>
   <string>heh-ar.init.glif</string>
+  <key>heh-ar.knotted</key>
+  <string>heh-ar.knotted.glif</string>
+  <key>heh-ar.knottedHigh.fina</key>
+  <string>heh-ar.knottedH_igh.fina.glif</string>
+  <key>heh-ar.knottedHigh.medi</key>
+  <string>heh-ar.knottedH_igh.medi.glif</string>
   <key>heh-ar.medi</key>
   <string>heh-ar.medi.glif</string>
   <key>hehDoachashmee-ar</key>
@@ -1464,14 +1518,20 @@
   <string>kasra-ar.glif</string>
   <key>kasra-ar.lowered</key>
   <string>kasra-ar.lowered.glif</string>
+  <key>kasraCurly-ar</key>
+  <string>kasraC_urly-ar.glif</string>
   <key>kasraDotbelow-ar</key>
   <string>kasraD_otbelow-ar.glif</string>
   <key>kasra_meem-ar</key>
   <string>kasra_meem-ar.glif</string>
+  <key>kasrasmall-ar</key>
+  <string>kasrasmall-ar.glif</string>
   <key>kasratan-ar</key>
   <string>kasratan-ar.glif</string>
   <key>kasratan-ar.lowered</key>
   <string>kasratan-ar.lowered.glif</string>
+  <key>kasratanCurly-ar</key>
+  <string>kasratanC_urly-ar.glif</string>
   <key>keheh-ar</key>
   <string>keheh-ar.glif</string>
   <key>keheh-ar.001</key>
@@ -1864,6 +1924,14 @@
   <string>number-ar.2.glif</string>
   <key>number-ar.3</key>
   <string>number-ar.3.glif</string>
+  <key>numbermark-ar</key>
+  <string>numbermark-ar.glif</string>
+  <key>numbermark-ar.2</key>
+  <string>numbermark-ar.2.glif</string>
+  <key>numbermark-ar.3</key>
+  <string>numbermark-ar.3.glif</string>
+  <key>numbermark-ar.4</key>
+  <string>numbermark-ar.4.glif</string>
   <key>numbersign</key>
   <string>numbersign.glif</string>
   <key>nyeh-ar</key>
@@ -2094,6 +2162,8 @@
   <string>radical.glif</string>
   <key>radical.rtl</key>
   <string>radical.rtl.glif</string>
+  <key>ray-ar</key>
+  <string>ray-ar.glif</string>
   <key>registered</key>
   <string>registered.glif</string>
   <key>reh-ar</key>
@@ -2166,6 +2236,8 @@
   <string>rhombusS_topabove-ar.glif</string>
   <key>rhombusStopbelow-ar</key>
   <string>rhombusS_topbelow-ar.glif</string>
+  <key>rial</key>
+  <string>rial.glif</string>
   <key>rightarrowheadDotabove-ar</key>
   <string>rightarrowheadD_otabove-ar.glif</string>
   <key>rightarrowheadabove-ar</key>
@@ -2366,6 +2438,8 @@
   <string>shadda_alef-ar.glif</string>
   <key>shadda_damma-ar</key>
   <string>shadda_damma-ar.glif</string>
+  <key>shadda_damma-ar.filled</key>
+  <string>shadda_damma-ar.filled.glif</string>
   <key>shadda_damma-ar.short</key>
   <string>shadda_damma-ar.short.glif</string>
   <key>shadda_dammatan-ar</key>
@@ -2726,6 +2800,8 @@
   <string>vinvertedabove-ar.glif</string>
   <key>w</key>
   <string>w.glif</string>
+  <key>wavyhamzabelow-ar</key>
+  <string>wavyhamzabelow-ar.glif</string>
   <key>waw-ar</key>
   <string>waw-ar.glif</string>
   <key>waw-ar.fina</key>
@@ -2970,6 +3046,8 @@
   <string>zainV_invertedabove-ar.glif</string>
   <key>zainVinvertedabove-ar.fina</key>
   <string>zainV_invertedabove-ar.fina.glif</string>
+  <key>zainabove-ar</key>
+  <string>zainabove-ar.glif</string>
   <key>zcaron</key>
   <string>zcaron.glif</string>
   <key>zero</key>

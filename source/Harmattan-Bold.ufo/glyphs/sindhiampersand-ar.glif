@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sindhiampersand-ar" format="2">
-  <advance width="600"/>
+  <advance width="828"/>
   <unicode hex="06FD"/>
-  <outline/>
+  <outline>
+    <component base="hamza-ar" xOffset="-10"/>
+    <component base="_lines" xOffset="402" yOffset="-390"/>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>

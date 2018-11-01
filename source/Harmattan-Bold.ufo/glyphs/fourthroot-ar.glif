@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fourthroot-ar" format="2">
+  <advance width="900"/>
+  <unicode hex="0607"/>
+  <outline>
+    <component base="radical" xScale="-1" xOffset="900"/>
+    <component base="four-ar.small" xOffset="186" yOffset="277"/>
+  </outline>
+</glyph>

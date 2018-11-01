@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="fathatanCurly-ar" format="2">
+  <unicode hex="08E7"/>
+  <anchor x="109" y="1055" name="_diaA"/>
+  <anchor x="-40" y="1531" name="diaA"/>
+  <outline>
+    <component base="fathaCurly-ar"/>
+    <component base="fathaCurly-ar" xOffset="50" yOffset="-250"/>
+  </outline>
+</glyph>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="radical.rtl" format="2">
-  <advance width="600"/>
-  <outline/>
+  <advance width="900"/>
+  <outline>
+    <component base="radical" xScale="-1" xOffset="900"/>
+  </outline>
 </glyph>

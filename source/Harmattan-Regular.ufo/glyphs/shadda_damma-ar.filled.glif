@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="shadda_damma-ar.filled" format="2">
+  <outline>
+    <component base="shadda-ar" xOffset="-250" yOffset="-387"/>
+    <component base="damma-ar.filled" xOffset="-250"/>
+  </outline>
+</glyph>

@@ -8,7 +8,7 @@
   <anchor x="641" y="-12" name="entry"/>
   <outline>
     <component base="alef-ar.postLamIni.fina"/>
-    <component base="_wavyHamza" xOffset="33" yOffset="1153"/>
+    <component base="_wavyHamza" xOffset="33" yOffset="-158"/>
   </outline>
   <lib>
     <dict>

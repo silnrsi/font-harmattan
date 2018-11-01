@@ -7,8 +7,7 @@
   <anchor x="370" y="-663" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="hamzaabove-ar" xOffset="328" yOffset="-688"/>
-    <component base="damma-ar" xOffset="-29" yOffset="-728"/>
+    <component base="_hamzaDamma" xOffset="371" yOffset="-648"/>
   </outline>
   <lib>
     <dict>

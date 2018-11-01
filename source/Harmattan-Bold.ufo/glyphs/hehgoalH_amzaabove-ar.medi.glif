@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoalHamzaabove-ar.medi" format="2">
-  <advance width="863"/>
+  <advance width="1016"/>
+  <anchor x="76" y="260" name="alef"/>
+  <anchor x="464" y="921" name="diaA"/>
+  <anchor x="436" y="-523" name="diaB"/>
   <outline>
+    <component base="hehgoal-ar.medi"/>
     <component base="hamzaabove-ar" xOffset="190" yOffset="-827"/>
   </outline>
   <lib>

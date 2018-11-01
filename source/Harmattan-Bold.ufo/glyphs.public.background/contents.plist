@@ -4,8 +4,6 @@
 <dict>
   <key>_dot1_smallV</key>
   <string>_dot1_smallV_.glif</string>
-  <key>_wavyHamza</key>
-  <string>_wavyH_amza.glif</string>
   <key>ae-ar</key>
   <string>ae-ar.glif</string>
   <key>ain-ar</key>
@@ -54,8 +52,14 @@
   <string>meem-ar.init.glif</string>
   <key>meem-ar.sindhi</key>
   <string>meem-ar.sindhi.glif</string>
+  <key>misraComma-ar</key>
+  <string>misraC_omma-ar.glif</string>
+  <key>numbermark-ar</key>
+  <string>numbermark-ar.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
+  <key>rehLoop-ar</key>
+  <string>rehL_oop-ar.glif</string>
   <key>sad-ar</key>
   <string>sad-ar.glif</string>
   <key>sad-ar.medi</key>

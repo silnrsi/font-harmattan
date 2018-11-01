@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sindhipostpositionmen-ar" format="2">
-  <advance width="600"/>
+  <advance width="1257"/>
   <unicode hex="06FE"/>
-  <outline/>
+  <outline>
+    <component base="_lines" xOffset="732" yOffset="-390"/>
+    <component base="meem-ar.sindhi" xOffset="27"/>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>

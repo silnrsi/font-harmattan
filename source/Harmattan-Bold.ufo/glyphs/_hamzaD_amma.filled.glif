@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_hamzaDamma.filled" format="2">
+  <anchor x="23" y="1209" name="_diaA"/>
+  <anchor x="8" y="1714" name="diaA"/>
+  <outline>
+    <component base="hamzaabove-ar" xOffset="-71" yOffset="-66"/>
+    <component base="damma-ar.filled" xOffset="-382" yOffset="-87"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

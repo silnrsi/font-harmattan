@@ -45,5 +45,6 @@
       <point x="334" y="438"/>
       <point x="488" y="524" type="curve"/>
     </contour>
+    <component base="alef-ar" xOffset="1570"/>
   </outline>
 </glyph>

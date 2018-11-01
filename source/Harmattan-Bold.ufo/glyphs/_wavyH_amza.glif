@@ -1,57 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_wavyHamza" format="2">
-  <anchor x="-3" y="-177" name="_diaA"/>
-  <anchor x="-3" y="271" name="diaA"/>
+  <anchor x="-3" y="1123" name="_diaA"/>
+  <anchor x="-3" y="1571" name="diaA"/>
   <outline>
     <contour>
-      <point x="-351" y="-169" type="curve"/>
-      <point x="-302" y="-120"/>
-      <point x="-276" y="-107"/>
-      <point x="-254" y="-107" type="curve" smooth="yes"/>
-      <point x="-209" y="-107"/>
-      <point x="-178" y="-160"/>
-      <point x="-104" y="-160" type="curve" smooth="yes"/>
-      <point x="-48" y="-160"/>
-      <point x="39" y="-123"/>
-      <point x="141" y="-95" type="curve"/>
-      <point x="154" y="-81"/>
-      <point x="165" y="-38"/>
-      <point x="165" y="-19" type="curve" smooth="yes"/>
-      <point x="165" y="-14"/>
-      <point x="165" y="-10"/>
-      <point x="164" y="-6" type="curve"/>
-      <point x="1" y="29"/>
-      <point x="-44" y="56"/>
-      <point x="-44" y="92" type="curve" smooth="yes"/>
-      <point x="-44" y="124"/>
-      <point x="-16" y="139"/>
-      <point x="15" y="139" type="curve" smooth="yes"/>
-      <point x="53" y="139"/>
-      <point x="86" y="122"/>
-      <point x="123" y="96" type="curve"/>
-      <point x="149" y="108"/>
-      <point x="178" y="132"/>
-      <point x="188" y="168" type="curve"/>
-      <point x="140" y="214"/>
-      <point x="85" y="238"/>
-      <point x="16" y="238" type="curve" smooth="yes"/>
-      <point x="-96" y="238"/>
-      <point x="-158" y="172"/>
-      <point x="-158" y="95" type="curve" smooth="yes"/>
-      <point x="-158" y="44"/>
-      <point x="-110" y="-11"/>
-      <point x="-25" y="-45" type="curve"/>
-      <point x="-46" y="-58"/>
-      <point x="-81" y="-63"/>
-      <point x="-101" y="-63" type="curve" smooth="yes"/>
-      <point x="-160" y="-63"/>
-      <point x="-180" y="-7"/>
-      <point x="-245" y="-7" type="curve" smooth="yes"/>
-      <point x="-294" y="-7"/>
-      <point x="-372" y="-68"/>
-      <point x="-383" y="-81" type="curve"/>
-      <point x="-383" y="-105"/>
-      <point x="-369" y="-146"/>
+      <point x="-351" y="1131" type="curve"/>
+      <point x="-302" y="1180"/>
+      <point x="-276" y="1193"/>
+      <point x="-254" y="1193" type="curve" smooth="yes"/>
+      <point x="-209" y="1193"/>
+      <point x="-178" y="1140"/>
+      <point x="-104" y="1140" type="curve" smooth="yes"/>
+      <point x="-48" y="1140"/>
+      <point x="39" y="1177"/>
+      <point x="141" y="1205" type="curve"/>
+      <point x="154" y="1219"/>
+      <point x="165" y="1262"/>
+      <point x="165" y="1281" type="curve" smooth="yes"/>
+      <point x="165" y="1286"/>
+      <point x="165" y="1290"/>
+      <point x="164" y="1294" type="curve"/>
+      <point x="1" y="1329"/>
+      <point x="-44" y="1356"/>
+      <point x="-44" y="1392" type="curve" smooth="yes"/>
+      <point x="-44" y="1424"/>
+      <point x="-16" y="1439"/>
+      <point x="15" y="1439" type="curve" smooth="yes"/>
+      <point x="53" y="1439"/>
+      <point x="86" y="1422"/>
+      <point x="123" y="1396" type="curve"/>
+      <point x="149" y="1408"/>
+      <point x="178" y="1432"/>
+      <point x="188" y="1468" type="curve"/>
+      <point x="140" y="1514"/>
+      <point x="85" y="1538"/>
+      <point x="16" y="1538" type="curve" smooth="yes"/>
+      <point x="-96" y="1538"/>
+      <point x="-158" y="1472"/>
+      <point x="-158" y="1395" type="curve" smooth="yes"/>
+      <point x="-158" y="1344"/>
+      <point x="-110" y="1289"/>
+      <point x="-25" y="1255" type="curve"/>
+      <point x="-46" y="1242"/>
+      <point x="-81" y="1237"/>
+      <point x="-101" y="1237" type="curve" smooth="yes"/>
+      <point x="-160" y="1237"/>
+      <point x="-180" y="1293"/>
+      <point x="-245" y="1293" type="curve" smooth="yes"/>
+      <point x="-294" y="1293"/>
+      <point x="-372" y="1232"/>
+      <point x="-383" y="1219" type="curve"/>
+      <point x="-383" y="1195"/>
+      <point x="-369" y="1154"/>
     </contour>
   </outline>
   <lib>

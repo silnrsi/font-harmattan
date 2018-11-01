@@ -20,6 +20,8 @@
   <string>dal-ar.fina.loclW_L_F_.glif</string>
   <key>dal-ar.loclWLF</key>
   <string>dal-ar.loclW_L_F_.glif</string>
+  <key>fathaCurly-ar</key>
+  <string>fathaC_urly-ar.glif</string>
   <key>fehDotless-ar</key>
   <string>fehD_otless-ar.glif</string>
   <key>fehDotless-ar.fina</key>
@@ -46,10 +48,16 @@
   <string>meem-ar.sindhi.glif</string>
   <key>meemStopabove-ar</key>
   <string>meemS_topabove-ar.glif</string>
+  <key>numbermark-ar</key>
+  <string>numbermark-ar.glif</string>
+  <key>numbermark-ar.2</key>
+  <string>numbermark-ar.2.glif</string>
   <key>pagenumber-ar</key>
   <string>pagenumber-ar.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
+  <key>rehLoop-ar</key>
+  <string>rehL_oop-ar.glif</string>
   <key>sad-ar.half</key>
   <string>sad-ar.half.glif</string>
   <key>sad-ar.init</key>

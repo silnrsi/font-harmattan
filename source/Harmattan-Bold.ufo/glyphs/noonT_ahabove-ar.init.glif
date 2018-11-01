@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonTahabove-ar.init" format="2">
-  <advance width="600"/>
-  <outline/>
+  <advance width="449"/>
+  <anchor x="-179" y="876" name="alef"/>
+  <anchor x="81" y="1479" name="diaA"/>
+  <anchor x="217" y="-74" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+    <component base="_dot1" xOffset="174" yOffset="728"/>
+    <component base="_tah" xOffset="120" yOffset="1060"/>
+  </outline>
   <lib>
     <dict>
       <key>public.markColor</key>

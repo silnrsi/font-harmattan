@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kasrasmall-ar" format="2">
+  <unicode hex="061A"/>
+  <anchor x="2" y="-206" name="_diaB"/>
+  <anchor x="4" y="-346" name="diaB"/>
+  <outline>
+    <component base="fathasmall-ar" yOffset="-1683"/>
+  </outline>
+</glyph>
