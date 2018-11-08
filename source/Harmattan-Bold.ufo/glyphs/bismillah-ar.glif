@@ -593,4 +593,10 @@
     <component base="kasra-ar" xOffset="10023" yOffset="89"/>
     <component base="kasra-ar" xOffset="3384" yOffset="157"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
 </glyph>

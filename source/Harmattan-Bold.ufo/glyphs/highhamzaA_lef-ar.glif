@@ -2,7 +2,7 @@
 <glyph name="highhamzaAlef-ar" format="2">
   <advance width="446"/>
   <unicode hex="0675"/>
-  <anchor x="29" y="887" name="alef"/>
+  <anchor x="-11" y="887" name="alef"/>
   <anchor x="231" y="1693" name="diaA"/>
   <anchor x="219" y="-109" name="diaB"/>
   <outline>

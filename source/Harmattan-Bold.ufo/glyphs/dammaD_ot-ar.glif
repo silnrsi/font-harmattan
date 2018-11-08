@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammaDot-ar" format="2">
   <unicode hex="08FE"/>
-  <outline/>
+  <anchor x="96" y="1255" name="_diaA"/>
+  <anchor x="-53" y="1731" name="diaA"/>
+  <outline>
+    <component base="damma-ar" xOffset="-130"/>
+    <component base="_dotCircular" xOffset="-130" yOffset="1526"/>
+  </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

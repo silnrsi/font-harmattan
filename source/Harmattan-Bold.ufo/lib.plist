@@ -57,11 +57,14 @@
 /bismillah-ar 
 </string>
     <string>
-/sindhiampersand-ar/increment/radical/radical.rtl/cuberoot-ar/fourthroot-ar/sajdah-ar/sindhipostpositionmen-ar/misraComma-ar/rehLoop-ar/yehTail-ar/ray-ar/qafDotless-ar 
-£$/euro/rial 
+/sindhiampersand-ar/increment/radical/radical.rtl/cuberoot-ar/fourthroot-ar 9/sajdah-ar/sindhipostpositionmen-ar/misraComma-ar/rehLoop-ar/yehTail-ar/ray-ar/qafDotless-ar 
+£$/euro/rial  lg/three-ar/asteriskArt-ar/four-persian.roh 
 /verseComma-ar/number-ar  /numbermark-ar  /numbermark-ar.2  /numbermark-ar.3  /numbermark-ar.4</string>
-    <string>/dammaturnedbelow-ar  /alefLamYehabove-ar  /zainabove-ar  /fatha-ar  /kasra-ar  /fathasmall-ar  /kasrasmall-ar  /_wavyHamza   /wavyhamzabelow-ar  /damma-ar.filled  /damma-ar  /dammatan-ar.sixNine  /shadda_damma-ar.filled     /dammainverted-ar.open  /fathaHorizont-ar  /hahabove-ar  /fathaCurly-ar   /dammaCurly-ar  /kasraCurly-ar   /fathatanCurly-ar   /dammatanCurly-ar  /kasratan-ar  /kasratanCurly-ar  /dammaDot-ar  /_damma.filled  /damma-ar/_dotCircular  /_hamzaDamma.filled   /_hamzaDamma   /fatha-ar  </string>
+    <string>/dammaturnedbelow-ar/sadLamAlefMaksuraabove-ar   /qafLamAlefMaksuraabove-ar  /kasra-ar  /seenbelow-ar/noonabove-ar   /rehHahabove-ar  /alefLamYehabove-ar  /zainabove-ar  /hahabove-ar   /fatha-ar  /kasra-ar/fathasmall-ar  /kasrasmall-ar  /_wavyHamza  /wavyhamzabelow-ar  /damma-ar.filled  /damma-ar  /dammatan-ar.sixNine  /shadda_damma-ar.filled  /dammainverted-ar  /dammainverted-ar.open  /fathaHorizont-ar  /fathaCurly-ar  /dammaCurly-ar  /kasraCurly-ar  /fathatanCurly-ar  /dammatanCurly-ar  /kasratan-ar  /kasratanCurly-ar  /dammaDot-ar  /_damma.filled  /damma-ar/_dotCircular  /_hamzaDamma.filled   /_hamzaDamma   /fatha-ar  /_damma.filled</string>
     <string>/allah-ar</string>
+    <string>/alef-ar/lam-ar/lam-ar/heh-ar/allah-ar/beh-ar.init/alef-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/beh-ar.init/lam-ar.allah1.medi/lam-ar.allah2.medi/heh-ar.allah.fina/alef-ar.allah/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/hehgoal-ar.allah.fina 
+ </string>
+    <string>/fehDotless-ar.medi</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

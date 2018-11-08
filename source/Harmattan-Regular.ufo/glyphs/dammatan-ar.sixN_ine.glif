@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammatan-ar.sixNine" format="2">
-  <anchor x="216" y="1265" name="_diaA"/>
-  <anchor x="160" y="1866" name="diaA"/>
+  <anchor x="66" y="1265" name="_diaA"/>
+  <anchor x="10" y="1906" name="diaA"/>
   <outline>
-    <component base="damma-ar" xScale="0.90909" yScale="0.90909" xOffset="93" yOffset="126"/>
-    <component base="damma-ar" xScale="-0.90688" xyScale="0.06341" yxScale="-0.06341" yScale="-0.90688" xOffset="375" yOffset="2957"/>
+    <component base="damma-ar" xScale="0.90909" yScale="0.90909" xOffset="-57" yOffset="126"/>
+    <component base="damma-ar" xScale="-0.90688" xyScale="0.06341" yxScale="-0.06341" yScale="-0.90688" xOffset="202" yOffset="3007"/>
   </outline>
 </glyph>

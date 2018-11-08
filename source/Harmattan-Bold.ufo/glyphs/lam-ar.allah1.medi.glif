@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam-ar.allah1.medi" format="2">
+  <advance width="418"/>
+  <outline>
+    <contour>
+      <point x="233" y="137" type="curve"/>
+      <point x="184" y="82" type="line"/>
+      <point x="240" y="26"/>
+      <point x="313" y="-10"/>
+      <point x="418" y="-10" type="curve" smooth="yes"/>
+      <point x="438" y="-10" type="line"/>
+      <point x="438" y="165" type="line"/>
+      <point x="418" y="165" type="line" smooth="yes"/>
+      <point x="343" y="165"/>
+      <point x="269" y="197"/>
+      <point x="271" y="306" type="curve" smooth="yes"/>
+      <point x="273" y="433"/>
+      <point x="284" y="587"/>
+      <point x="284" y="712" type="curve" smooth="yes"/>
+      <point x="284" y="840"/>
+      <point x="282" y="914"/>
+      <point x="277" y="956" type="curve"/>
+      <point x="233" y="949"/>
+      <point x="116" y="919"/>
+      <point x="93" y="872" type="curve"/>
+      <point x="96" y="825"/>
+      <point x="101" y="623"/>
+      <point x="101" y="465" type="curve" smooth="yes"/>
+      <point x="101" y="379"/>
+      <point x="98" y="295"/>
+      <point x="94" y="270" type="curve" smooth="yes"/>
+      <point x="80" y="181"/>
+      <point x="46" y="161"/>
+      <point x="0" y="161" type="curve"/>
+      <point x="-60" y="70" type="line"/>
+      <point x="-8" y="-15" type="line"/>
+      <point x="91" y="-15"/>
+      <point x="179" y="25"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

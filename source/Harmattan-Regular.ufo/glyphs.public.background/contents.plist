@@ -10,16 +10,22 @@
   <string>afghani-ar.glif</string>
   <key>ain-ar.fina</key>
   <string>ain-ar.fina.glif</string>
+  <key>alef-ar.allah.fina</key>
+  <string>alef-ar.allah.fina.glif</string>
   <key>allah-ar</key>
   <string>allah-ar.glif</string>
   <key>allah-ar.alt</key>
   <string>allah-ar.alt.glif</string>
+  <key>asteriskArt-ar</key>
+  <string>asteriskA_rt-ar.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
   <key>dal-ar.fina.loclWLF</key>
   <string>dal-ar.fina.loclW_L_F_.glif</string>
   <key>dal-ar.loclWLF</key>
   <string>dal-ar.loclW_L_F_.glif</string>
+  <key>dammainverted-ar</key>
+  <string>dammainverted-ar.glif</string>
   <key>fathaCurly-ar</key>
   <string>fathaC_urly-ar.glif</string>
   <key>fehDotless-ar</key>

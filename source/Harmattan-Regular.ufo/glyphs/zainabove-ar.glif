@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zainabove-ar" format="2">
   <unicode hex="0617"/>
-  <outline/>
+  <anchor x="5" y="1111" name="_diaA"/>
+  <anchor x="-97" y="1784" name="alef"/>
+  <anchor x="13" y="1823" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="22" y="1591" type="curve"/>
+      <point x="30" y="1547"/>
+      <point x="37" y="1502"/>
+      <point x="37" y="1441" type="curve" smooth="yes"/>
+      <point x="37" y="1291"/>
+      <point x="-27" y="1245"/>
+      <point x="-126" y="1209" type="curve"/>
+      <point x="-124" y="1190"/>
+      <point x="-109" y="1158"/>
+      <point x="-87" y="1143" type="curve"/>
+      <point x="83" y="1210"/>
+      <point x="139" y="1344"/>
+      <point x="90" y="1607" type="curve"/>
+      <point x="67" y="1607"/>
+      <point x="41" y="1601"/>
+    </contour>
+    <component base="_dot1" xScale="0.51316" yScale="0.51316" xOffset="39" yOffset="1707"/>
+  </outline>
   <lib>
     <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
     </dict>
   </lib>
 </glyph>

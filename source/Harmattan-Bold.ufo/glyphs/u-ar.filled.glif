@@ -1,45 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u-ar.filled" format="2">
   <advance width="893"/>
-  <anchor x="345" y="559" name="_diaA"/>
   <anchor x="24" y="430" name="alef"/>
   <anchor x="301" y="1100" name="diaA"/>
   <anchor x="370" y="-645" name="diaB"/>
   <outline>
-    <contour>
-      <point x="466" y="813" type="curve" smooth="yes"/>
-      <point x="460" y="813" type="line"/>
-      <point x="469" y="837"/>
-      <point x="473" y="861"/>
-      <point x="473" y="885" type="curve" smooth="yes"/>
-      <point x="473" y="985"/>
-      <point x="403" y="1033"/>
-      <point x="332" y="1033" type="curve" smooth="yes"/>
-      <point x="261" y="1033"/>
-      <point x="190" y="984"/>
-      <point x="190" y="893" type="curve" smooth="yes"/>
-      <point x="190" y="820"/>
-      <point x="234" y="772"/>
-      <point x="310" y="747" type="curve"/>
-      <point x="262" y="708"/>
-      <point x="195" y="678"/>
-      <point x="118" y="655" type="curve"/>
-      <point x="120" y="630"/>
-      <point x="144" y="586"/>
-      <point x="174" y="571" type="curve"/>
-      <point x="279" y="609"/>
-      <point x="360" y="665"/>
-      <point x="411" y="727" type="curve"/>
-      <point x="433" y="726"/>
-      <point x="457" y="725"/>
-      <point x="482" y="725" type="curve"/>
-      <point x="505" y="742"/>
-      <point x="523" y="782"/>
-      <point x="527" y="815" type="curve"/>
-      <point x="505" y="813"/>
-      <point x="485" y="813"/>
-    </contour>
     <component base="waw-ar"/>
+    <component base="damma-ar.filled" xOffset="75" yOffset="-700"/>
   </outline>
   <lib>
     <dict>
