@@ -7,7 +7,7 @@
   <anchor x="189" y="-546" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="_wavyHamza" xOffset="193" yOffset="-357"/>
+    <component base="_wavyHamza" xOffset="203" yOffset="-1627"/>
   </outline>
   <lib>
     <dict>

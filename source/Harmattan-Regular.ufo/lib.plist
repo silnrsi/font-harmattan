@@ -71,6 +71,7 @@
     <string>/alef-ar/lam-ar/lam-ar/heh-ar/allah-ar/beh-ar.init/alef-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/beh-ar.init/lam-ar.allah1.medi/lam-ar.allah2.medi/heh-ar.allah.fina/alef-ar.allah/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/hehgoal-ar.allah.fina 
  </string>
     <string>/fehDotless-ar.medi</string>
+    <string>/endofayah-ar/endofayah-ar.2/endofayah-ar.3/endofayah-ar.alt/endofayah-ar.altB/endofayah-ar.alt.2/endofayah-ar.alt.3/endofayah-ar.altB.2/endofayah-ar.altB.3</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
