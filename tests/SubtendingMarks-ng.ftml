@@ -34,171 +34,183 @@
     </test>
   </testgroup>
   <testgroup label="Group">
-    <test label="U+1536" rtl="True">
+    <test label="U+0600" rtl="True">
       <comment>number-ar</comment>
       <string>\u0628\u000600\u0645 \u0006002 \u00060022 \u000600222 \u00060012</string>
     </test>
-    <test label="U+1537" rtl="True">
+    <test label="U+0601" rtl="True">
       <comment>year-ar</comment>
       <string>\u0628\u000601\u0645 \u0006012 \u00060122 \u000601222 \u0006012222 \u00060112</string>
     </test>
-    <test label="U+1538" rtl="True">
+    <test label="U+0602" rtl="True">
       <comment>footnotemarker-ar</comment>
       <string>\u0628\u000602\u0645 \u0006022 \u00060222 \u00060212</string>
     </test>
-    <test label="U+1539" rtl="True">
+    <test label="U+0603" rtl="True">
       <comment>pagenumber-ar</comment>
       <string>\u0628\u000603\u0645 \u0006032 \u00060322 \u000603222 \u0006032222 \u00060312</string>
     </test>
-    <test label="U+1540" rtl="True">
+    <test label="U+0604" rtl="True">
       <comment>samvat-ar</comment>
       <string>\u0628\u000604\u0645 \u0006042 \u00060422 \u000604222 \u0006042222 \u00060412</string>
     </test>
-    <test label="U+1757" rtl="True">
+    <test label="U+0605" rtl="True">
+      <comment>numbermark-ar</comment>
+      <string>\u0628\u000605\u0645 \u0006052 \u00060522 \u000605222 \u0006052222 \u00060512</string>
+    </test>
+    <test label="U+06DD" rtl="True">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv80_1">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+1536" rtl="True">
+    <test label="U+0600" rtl="True">
       <comment>number-ar</comment>
       <string>\u0628\u000600\u0645 \u000600\u000668 \u000600\u000668\u000668 \u000600\u000668\u000668\u000668 \u000600\u000661\u000662</string>
     </test>
-    <test label="U+1537" rtl="True">
+    <test label="U+0601" rtl="True">
       <comment>year-ar</comment>
       <string>\u0628\u000601\u0645 \u000601\u000668 \u000601\u000668\u000668 \u000601\u000668\u000668\u000668 \u000601\u000668\u000668\u000668\u000668 \u000601\u000661\u000662</string>
     </test>
-    <test label="U+1538" rtl="True">
+    <test label="U+0602" rtl="True">
       <comment>footnotemarker-ar</comment>
       <string>\u0628\u000602\u0645 \u000602\u000668 \u000602\u000668\u000668 \u000602\u000661\u000662</string>
     </test>
-    <test label="U+1539" rtl="True">
+    <test label="U+0603" rtl="True">
       <comment>pagenumber-ar</comment>
       <string>\u0628\u000603\u0645 \u000603\u000668 \u000603\u000668\u000668 \u000603\u000668\u000668\u000668 \u000603\u000668\u000668\u000668\u000668 \u000603\u000661\u000662</string>
     </test>
-    <test label="U+1540" rtl="True">
+    <test label="U+0604" rtl="True">
       <comment>samvat-ar</comment>
       <string>\u0628\u000604\u0645 \u000604\u000668 \u000604\u000668\u000668 \u000604\u000668\u000668\u000668 \u000604\u000668\u000668\u000668\u000668 \u000604\u000661\u000662</string>
     </test>
-    <test label="U+1757" rtl="True">
+    <test label="U+0605" rtl="True">
+      <comment>numbermark-ar</comment>
+      <string>\u0628\u000605\u0645 \u000605\u000668 \u000605\u000668\u000668 \u000605\u000668\u000668\u000668 \u000605\u000668\u000668\u000668\u000668 \u000605\u000661\u000662</string>
+    </test>
+    <test label="U+06DD" rtl="True">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv80_1">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+1536" rtl="True">
+    <test label="U+0600" rtl="True">
       <comment>number-ar</comment>
       <string>\u0628\u000600\u0645 \u000600\u0006F8 \u000600\u0006F8\u0006F8 \u000600\u0006F8\u0006F8\u0006F8 \u000600\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1537" rtl="True">
+    <test label="U+0601" rtl="True">
       <comment>year-ar</comment>
       <string>\u0628\u000601\u0645 \u000601\u0006F8 \u000601\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8\u0006F8 \u000601\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1538" rtl="True">
+    <test label="U+0602" rtl="True">
       <comment>footnotemarker-ar</comment>
       <string>\u0628\u000602\u0645 \u000602\u0006F8 \u000602\u0006F8\u0006F8 \u000602\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1539" rtl="True">
+    <test label="U+0603" rtl="True">
       <comment>pagenumber-ar</comment>
       <string>\u0628\u000603\u0645 \u000603\u0006F8 \u000603\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8\u0006F8 \u000603\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1540" rtl="True">
+    <test label="U+0604" rtl="True">
       <comment>samvat-ar</comment>
       <string>\u0628\u000604\u0645 \u000604\u0006F8 \u000604\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8\u0006F8 \u000604\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1757" rtl="True">
+    <test label="U+0605" rtl="True">
+      <comment>numbermark-ar</comment>
+      <string>\u0628\u000605\u0645 \u000605\u0006F8 \u000605\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8\u0006F8 \u000605\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+06DD" rtl="True">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv80_1">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
     </test>
-    <test label="U+1757" rtl="True">
+    <test label="U+06DD" rtl="True">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_1">
+    <test label="U+06DD" rtl="True" stylename="cv82_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_2">
+    <test label="U+06DD" rtl="True" stylename="cv82_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_3">
+    <test label="U+06DD" rtl="True" stylename="cv82_3">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_4">
+    <test label="U+06DD" rtl="True" stylename="cv82_4">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_1_cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv82_1_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_2_cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv82_2_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_3_cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv82_3_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_4_cv80_1">
+    <test label="U+06DD" rtl="True" stylename="cv82_4_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_1_cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv82_1_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_2_cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv82_2_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_3_cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv82_3_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="cv82_4_cv80_2">
+    <test label="U+06DD" rtl="True" stylename="cv82_4_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="rhg">
+    <test label="U+06DD" rtl="True" stylename="rhg">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="sd">
+    <test label="U+06DD" rtl="True" stylename="sd">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+1757" rtl="True" stylename="ur">
+    <test label="U+06DD" rtl="True" stylename="ur">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
