@@ -1772,7 +1772,7 @@
     </test>
     <test label="U+FDFC">
       <comment>rial</comment>
-      <string>\u00FDFC</string>
+      <string>\u00FDFC \u00FDFD</string>
     </test>
     <test label="U+FE00">
       <comment>VS1</comment>
