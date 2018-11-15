@@ -1412,7 +1412,6 @@
     <string>misraComma-ar</string>
     <string>sindhiampersand-ar</string>
     <string>sindhipostpositionmen-ar</string>
-    <string>rial</string>
     <string>endofayah-ar</string>
     <string>endofayah-ar.2</string>
     <string>endofayah-ar.3</string>
@@ -1422,6 +1421,17 @@
     <string>endofayah-ar.alt.3</string>
     <string>endofayah-ar.altB.2</string>
     <string>endofayah-ar.altB.3</string>
+    <string>allah-ar</string>
+    <string>allah-ar.alt</string>
+    <string>alef-ar.allah</string>
+    <string>alef-ar.allah.fina</string>
+    <string>lam-ar.allah1.init</string>
+    <string>lam-ar.allah1.medi</string>
+    <string>lam-ar.allah2.medi</string>
+    <string>heh-ar.allah.fina</string>
+    <string>hehgoal-ar.allah.fina</string>
+    <string>rial</string>
+    <string>bismillah-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -1468,15 +1478,6 @@
     <string>shadda_damma-ar.short</string>
     <string>shadda_damma-ar.filled</string>
     <string>shadda_kasra-ar</string>
-    <string>allah-ar</string>
-    <string>allah-ar.alt</string>
-    <string>alef-ar.allah</string>
-    <string>alef-ar.allah.fina</string>
-    <string>lam-ar.allah1.init</string>
-    <string>lam-ar.allah1.medi</string>
-    <string>lam-ar.allah2.medi</string>
-    <string>heh-ar.allah.fina</string>
-    <string>hehgoal-ar.allah.fina</string>
     <string>enquad</string>
     <string>emquad</string>
     <string>enspace</string>
@@ -2945,7 +2946,6 @@
     <string>misraComma-ar</string>
     <string>sindhiampersand-ar</string>
     <string>sindhipostpositionmen-ar</string>
-    <string>rial</string>
     <string>endofayah-ar</string>
     <string>endofayah-ar.2</string>
     <string>endofayah-ar.3</string>
@@ -2955,6 +2955,17 @@
     <string>endofayah-ar.alt.3</string>
     <string>endofayah-ar.altB.2</string>
     <string>endofayah-ar.altB.3</string>
+    <string>allah-ar</string>
+    <string>allah-ar.alt</string>
+    <string>alef-ar.allah</string>
+    <string>alef-ar.allah.fina</string>
+    <string>lam-ar.allah1.init</string>
+    <string>lam-ar.allah1.medi</string>
+    <string>lam-ar.allah2.medi</string>
+    <string>heh-ar.allah.fina</string>
+    <string>hehgoal-ar.allah.fina</string>
+    <string>rial</string>
+    <string>bismillah-ar</string>
     <string>dammaturnedbelow-ar</string>
     <string>fathaCurly-ar</string>
     <string>dammaCurly-ar</string>
@@ -3001,15 +3012,6 @@
     <string>shadda_damma-ar.short</string>
     <string>shadda_damma-ar.filled</string>
     <string>shadda_kasra-ar</string>
-    <string>allah-ar</string>
-    <string>allah-ar.alt</string>
-    <string>alef-ar.allah</string>
-    <string>alef-ar.allah.fina</string>
-    <string>lam-ar.allah1.init</string>
-    <string>lam-ar.allah1.medi</string>
-    <string>lam-ar.allah2.medi</string>
-    <string>heh-ar.allah.fina</string>
-    <string>hehgoal-ar.allah.fina</string>
     <string>enquad</string>
     <string>emquad</string>
     <string>enspace</string>
@@ -3477,6 +3479,8 @@
     <string>uni08A1.init</string>
     <key>behhamzaabove-ar.medi</key>
     <string>uni08A1.medi</string>
+    <key>bismillah-ar</key>
+    <string>uniFDFD</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>colontriangularmod</key>

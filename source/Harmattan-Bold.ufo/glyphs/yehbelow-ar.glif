@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbelow-ar" format="2">
+  <advance width="664"/>
   <unicode hex="06E6"/>
   <anchor x="335" y="475" name="diaA"/>
   <anchor x="217" y="-54" name="diaB"/>
@@ -43,10 +44,4 @@
       <point x="395" y="311"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>664</integer>
-    </dict>
-  </lib>
 </glyph>
