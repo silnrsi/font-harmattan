@@ -89,6 +89,10 @@
   <integer>0</integer>
   <key>com.schriftgestaltung.disablesLastChange</key>
   <true/>
+  <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
+  <true/>
+  <key>com.schriftgestaltung.useNiceNames</key>
+  <false/>
   <key>com.schriftgestaltung.fontMasterOrder</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.glyphOrder</key>
