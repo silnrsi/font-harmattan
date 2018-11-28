@@ -281,6 +281,10 @@ pass(4)	// Features, special behaviors
 		g_alefabove_ar  >  g_alefabove_ar_large  /  cTakesLargeDaggerAlef  _;
 	endif;	
 
+	if (ultapeshAlt == hollow)
+		g_dammainverted_ar > g_dammainverted_ar_open;
+	endif;
+
 	if (sukunAlt == jasmDown)
 		cno_downOpen  >  cdownOpen;
 	endif;

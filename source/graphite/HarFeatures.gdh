@@ -212,6 +212,21 @@ dammatanAlt {
     default = std;
 }
 
+ultapeshAlt {
+    id = "cv74";
+    name.1033 = string("Inverted Damma");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        hollow {
+            value = 1;
+            name.1033 = string("Hollow");
+        }
+    }
+    default = std;
+}
 
 daggeralefAlt {
     id = "cv76";
