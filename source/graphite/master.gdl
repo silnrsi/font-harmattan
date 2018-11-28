@@ -263,12 +263,14 @@ pass(4)	// Features, special behaviors
 	endif;
 	
 	// QUESTION: do we really need these if we're doing the reordering above?
-	// TODO: if we use them, make them into real ligatures
 	g_shadda_ar     cShaddaMarks >  _  cShaddaLigatures:(1 2) / _ ^ _ ;
 	g_hamzaabove_ar cHamzaMarks  >  _  cHamzaLigatures:(1 2)  / _ ^ _ ;
 
+	if (dammaAlt == filled)
+		cDamma > cDamma_filled;
+	endif;
 	if (dammaAlt == short)
-		cno_short > cshort;
+		cDamma > cDamma_short;
 	endif;
 
 	if (dammatanAlt == sixNine)
@@ -280,10 +282,10 @@ pass(4)	// Features, special behaviors
 	endif;	
 
 	if (sukunAlt == jasmDown)
-		cno_Sukun  >  cSukunDownOpen;
+		cno_downOpen  >  cdownOpen;
 	endif;
 	if (sukunAlt == jasmLeft)
-		cno_Sukun  >  cSukunLeftOpen;
+		cno_leftOpen  >  cleftOpen;
 	endif;
 
 	if (endOfAyah == circle)
@@ -304,7 +306,7 @@ pass(4)	// Features, special behaviors
 	//endif;
 
 	if (commaAlt == down)
-		cno_Downward  >  cDownward;
+		cno_downward  >  cdownward;
 	endif;
 
 	if (!invis)

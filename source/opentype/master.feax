@@ -338,7 +338,9 @@ lookup MaddahAlternates {
 
 lookup DammaAlternates {
   lookupflag 0 ;
-    sub @cno_short by @c_short;
+    sub damma-ar        from [ damma-ar.filled        damma-ar.short        ] ;
+    sub hamza_damma-ar  from [ hamza_damma-ar.filled  hamza_damma-ar.short  ] ;
+    sub shadda_damma-ar from [ shadda_damma-ar.filled shadda_damma-ar.short ] ;
 } DammaAlternates;
 
 #********************

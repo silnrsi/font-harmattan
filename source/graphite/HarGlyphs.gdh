@@ -99,24 +99,10 @@ cSignDigit = (cDigitsArabicMedium cDigitsArabicSmall
 //	Feature-related variants
 //
 
-cDownward = (g_comma_ar_downward g_semicolon_ar_downward);
-cno_Downward = (g_comma_ar g_semicolon_ar);
+cDamma        = (g_damma_ar        g_shadda_damma_ar        g_hamza_damma_ar       );
+cDamma_filled = (g_damma_ar_filled g_shadda_damma_ar_filled g_hamza_damma_ar_filled);
+cDamma_short  = (g_damma_ar_short  g_shadda_damma_ar_short  g_hamza_damma_ar_short );
 
-cSixNine = (g_dammatan_ar_six_nine);
-cno_SixNine = (g_dammatan_ar);
-
-cno_Sukun = (g_sukun_ar);
-cSukunDownOpen = (g_sukun_ar_down_open);
-cSukunLeftOpen = (g_sukun_ar_left_open);
-
-// cno_OpenLeft = (g_hahabove_ar);
-// cOpenLeft = (g_marksidewaysnoonghunna_ar);
-
-cLargeAlef = (g_alefabove_ar_large);
-cno_LargeAlef = (g_alefabove_ar);
-
-cNoDots = (g_yeh_ar_no_dots g_yeh_ar_no_dots_init g_yeh_ar_no_dots_medi g_yeh_ar_no_dots_fina);
-cno_NoDots = (g_yeh_ar g_yeh_ar_init g_yeh_ar_medi g_yeh_ar_fina);
 
 // The next three class must match for substitution:
 
