@@ -315,6 +315,17 @@ lookup MeemAlternates {
 } MeemAlternates;
 
 #********************
+# Heh alternates: cv48
+
+lookup HehAlternates {
+  lookupflag IgnoreMarks ; # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
+    sub heh-ar from        [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
+    sub heh-ar.init from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
+    sub heh-ar.medi from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
+    sub heh-ar.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+} HehAlternates;
+
+#********************
 # Maddah Alternats: cv60
 
 lookup MaddahAlternates {
@@ -728,6 +739,20 @@ feature cv44 {  # Character Variant 44
         ParamUILabelNameID { name 3 1 0x0409 "Sindi"    ; };
     } ;
 } cv44 ;
+
+feature cv48 {  # Character Variant 48
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup HehAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Heh"      ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindi"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Urdu"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Kurdish"  ; };
+    } ;
+} cv48 ;
+
 
 feature cv60 {  # Character Variant 60
     # Same for latin & arabic:

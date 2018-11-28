@@ -105,7 +105,7 @@ sadDadAlt {
 
 
 meemAlt {
-    id = "cv44";	// was 2002;
+    id = "cv44";
     name.1033 = string("Meem");
     settings {
         std {
@@ -120,6 +120,29 @@ meemAlt {
     default = std;
 }
 
+hehAlt {
+    id = "cv48";
+    name.1033 = string("Heh");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        kurdish {
+            value = 3;			/* this value is correct; features are ordered alphabetically, not by value */
+            name.1033 = string("Kurdish-style");
+        }
+        sindhi {
+            value = 1;
+            name.1033 = string("Sindhi-style");
+        }
+        urdu {
+            value = 2;
+            name.1033 = string("Urdu-style");
+        }
+    }
+    default = std;
+}
 
 maddahAlt {
     id = "cv60";
@@ -174,7 +197,7 @@ dammaAlt {
 }
 
 dammatanAlt {
-    id = "cv72";	// was 2007;
+    id = "cv72";
     name.1033 = string("Dammatan");
     settings {
         std {
@@ -207,7 +230,7 @@ daggeralefAlt {
 }
 
 sukunAlt {
-    id = "cv78";	// was 2005;
+    id = "cv78";
     name.1033 = string("Sukun");
     settings {
         std {
@@ -228,7 +251,7 @@ sukunAlt {
 
 
 endOfAyah {
-    id = "cv80";	// was 2008;
+    id = "cv80";
     name.1033 = string("End of ayah");
     settings {
         std {
@@ -274,7 +297,7 @@ easternDigits {
 
 
 commaAlt {
-    id = "cv84";	// was 2006;
+    id = "cv84";
     name.1033 = string("Comma");
     settings {
         up {

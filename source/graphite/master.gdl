@@ -236,12 +236,22 @@ pass(4)	// Features, special behaviors
 		cno_hand > chand;
 	endif;
 
+	if (sadDadAlt == half)
+		cno_half > chalf;
+	endif;
+
 	if (meemAlt == sindhi)
 		cMeem  >  cMeem_sindhi;
 	endif;
 
-	if (sadDadAlt == half)
-		cno_half > chalf;
+	if (hehAlt == kurdish)
+		cno_Heh  >  cHehKurdish;
+	endif;
+	if (hehAlt == sindhi)
+		cno_Heh  >  cHehSindhi;
+	endif;
+	if (hehAlt == urdu)
+		cno_Heh  >  cHehUrdu;
 	endif;
 
 	if (maddahAlt != large)
