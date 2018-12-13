@@ -451,6 +451,10 @@
       <comment>heh-ar</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647</string>
     </test>
+    <test label="U+0647" stylename="ur">
+      <comment>heh-ar</comment>
+      <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647</string>
+    </test>
     <test label="U+0648">
       <comment>waw-ar</comment>
       <string>\u000648 \u00200D\u000648 </string>
@@ -468,6 +472,10 @@
       <string>\u000628\u00064B \u000628\u00064C</string>
     </test>
     <test label="U+064C" stylename="cv72_1">
+      <comment>dammatan-ar</comment>
+      <string>\u000628\u00064C</string>
+    </test>
+    <test label="U+064C" stylename="sd">
       <comment>dammatan-ar</comment>
       <string>\u000628\u00064C</string>
     </test>
@@ -2010,6 +2018,11 @@ U+064C">
     </test>
     <test label="U+0651
 U+064C" stylename="cv72_1">
+      <comment>shadda-ar dammatan-ar</comment>
+      <string>\u000628\u000651\u00064C</string>
+    </test>
+    <test label="U+0651
+U+064C" stylename="sd">
       <comment>shadda-ar dammatan-ar</comment>
       <string>\u000628\u000651\u00064C</string>
     </test>

@@ -972,9 +972,9 @@ heh-ar.init,uni0647.init,,996,,,
 heh-ar.knotted,uni0647.knotted,,997,"sd,ku","SND,KUR","cv48=1,3"
 heh-ar.knottedHigh.fina,uni0647.knottedHigh.fina,,999,,,"cv48=1,3"
 heh-ar.knottedHigh.medi,uni0647.knottedHigh.medi,,1000,,,"cv48=1,3"
-heh-ar.hooked.fina,uni0647.hooked.fina,,1001,,,cv48=2
-heh-ar.hooked.medi,uni0647.hooked.medi,,1002,,,cv48=2
-heh-ar.hooked.init,uni0647.hooked.init,,1003,,,
+heh-ar.hooked.fina,uni0647.hooked.fina,,1001,ur,URD,cv48=2
+heh-ar.hooked.medi,uni0647.hooked.medi,,1002,ur,URD,cv48=2
+heh-ar.hooked.init,uni0647.hooked.init,,1003,ur,URD,cv48=2
 hehHamzaabove-ar,uni06C0,06C0,1004,,,
 hehHamzaabove-ar.fina,uni06C0.fina,,1005,,,
 hehgoal-ar,uni06C1,06C1,1006,,,
@@ -1150,7 +1150,7 @@ hamzaabove-ar,uni0654,0654,1175,,,
 hamzabelow-ar,uni0655,0655,1176,,,
 fathatan-ar,uni064B,064B,1177,,,
 dammatan-ar,uni064C,064C,1178,,,
-dammatan-ar.sixNine,uni064C.sixNine,,1179,,,cv72=1
+dammatan-ar.sixNine,uni064C.sixNine,,1179,sd,SND,cv72=1
 kasratan-ar,uni064D,064D,1180,,,
 kasratan-ar.lowered,uni064D.lowered,,1181,,,
 fatha-ar,uni064E,064E,1182,,,
@@ -1373,7 +1373,7 @@ kasra_meem-ar,uni065006E2,0650 06E2,1401,,,
 shadda_alef-ar,uni06510670,0651 0670,1402,,,
 shadda_fathatan-ar,uni0651064B,0651 064B,1403,,,
 shadda_dammatan-ar,uni0651064C,0651 064C,1404,,,
-shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,,,cv72=1
+shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,sd,SND,cv72=1
 shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur","SND,URD",cv62
 shadda_fatha-ar,uni0651064E,0651 064E,1407,,,
 shadda_damma-ar,uni0651064F,0651 064F,1408,,,
