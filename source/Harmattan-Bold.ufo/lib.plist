@@ -63,6 +63,7 @@
     <string>/dammaturnedbelow-ar/sadLamAlefMaksuraabove-ar   /qafLamAlefMaksuraabove-ar  /kasra-ar  /seenbelow-ar/noonabove-ar   /rehHahabove-ar  /alefLamYehabove-ar  /zainabove-ar  /hahabove-ar   /fatha-ar  /kasra-ar/fathasmall-ar  /kasrasmall-ar  /_wavyHamza  /wavyhamzabelow-ar  /damma-ar.filled  /damma-ar  /dammatan-ar.sixNine  /shadda_damma-ar.filled  /dammainverted-ar  /dammainverted-ar.open  /fathaHorizont-ar  /fathaCurly-ar  /dammaCurly-ar  /kasraCurly-ar  /fathatanCurly-ar  /dammatanCurly-ar  /kasratan-ar  /kasratanCurly-ar  /dammaDot-ar  /_damma.filled  /damma-ar/_dotCircular  /_hamzaDamma.filled   /_hamzaDamma   /fatha-ar  /_damma.filled</string>
     <string>/alef-ar/lam-ar/lam-ar/heh-ar/allah-ar/beh-ar.init/alef-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/beh-ar.init/lam-ar.allah1.medi/lam-ar.allah2.medi/heh-ar.allah.fina/alef-ar.allah/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/hehgoal-ar.allah.fina 
  </string>
+    <string>/kasraCurly-ar   /kasra-ar  /hahTahTwodotshorizontalabove-ar  /hahTahTwodotshorizontalabove-ar.fina  /hahTahTwodotshorizontalabove-ar.medi  /hahTahTwodotshorizontalabove-ar.medi.hand  /hahTahTwodotshorizontalabove-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
