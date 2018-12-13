@@ -381,8 +381,6 @@ endtable; // feature
 //	Language-specific assignments
 //
 
-#if 0
-
 table(language)
 
 kurdish {
@@ -396,22 +394,14 @@ kurdish {
     hehAlt = kurdish;
 };
 
-rohingya {
-    languages = (
-    	"rhg"	// Rohingya
-    );
-    easternDigits = rohingya;
-    shaddaKasra = sindhiUrdu;
-    dammatanAlt = sixNine;
-};
-
-shina {
-    languages = (
-        "scl",	// Shina
-        "plk"	// Shina, Kohistani
-    );
-    headOfKhahHack = openLeft;
-};
+// rohingya {
+//     languages = (
+//     	"rhg"	// Rohingya
+//     );
+//     easternDigits = rohingya;
+//     shaddaKasra = sindhiUrdu;
+//     dammatanAlt = sixNine;
+// };
 
 sindhi {
     languages = ( "snd", "sd" ); // Sindhi
@@ -430,5 +420,3 @@ urdu {
 
 
 endtable; // language
-
-#endif

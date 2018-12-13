@@ -16,6 +16,9 @@
 #**********************************
 
 languagesystem arab dflt ;
+languagesystem arab KUR  ;
+languagesystem arab SND  ;
+languagesystem arab URD  ;
 languagesystem latn dflt ;
 
 
@@ -156,6 +159,64 @@ lookup HamzaLigatures {
 } HamzaLigatures;
 
 
+
+#********************
+# Reordering of marks
+
+lookup ReorderMaddaVowel1_target {
+  lookupflag 0 ;
+    sub @MarkGroup1A by @MarkGroup1A madda-ar.small ;
+    sub @MarkGroup2A by @MarkGroup2A madda-ar.small ;
+    sub @MarkGroup3A by @MarkGroup3A madda-ar.small ;
+} ReorderMaddaVowel1_target ;
+
+lookup ReorderMaddaVowel1 {
+  lookupflag 0 ;
+    sub madda-ar.small [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]' lookup ReorderMaddaVowel1_target ;
+} ReorderMaddaVowel1;
+
+lookup ReorderMaddaVowel2_target {
+  lookupflag 0 ;
+    sub madda-ar.small @MarkGroup1A by @MarkGroup1A ;
+    sub madda-ar.small @MarkGroup2A by @MarkGroup2A ;
+    sub madda-ar.small @MarkGroup3A by @MarkGroup3A ;
+} ReorderMaddaVowel2_target ;
+
+lookup ReorderMaddaVowel2 {
+  lookupflag 0 ;
+    sub madda-ar.small' lookup ReorderMaddaVowel2_target [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]'  madda-ar.small ;
+} ReorderMaddaVowel2;
+
+#********************
+# Language CALTs
+
+lookup SindhiCALT {
+  lookupflag 0 ;
+    sub heh-ar.medi by heh-ar.knottedHigh.medi ;
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+    sub six-persian by six-persian.urdu ;
+    sub seven-persian by seven-persian.urdu ;
+    sub dammatan-ar by dammatan-ar.sixNine ;
+    sub @Meem by @Meem.sindhi ;
+} SindhiCALT;
+
+lookup UrduCALT {
+  lookupflag IgnoreMarks ;
+    sub heh-ar.init by heh-ar.hooked.init ;
+    sub heh-ar.medi by heh-ar.hooked.medi ;
+    sub heh-ar.fina by heh-ar.hooked.fina ;
+    sub four-persian by four-persian.urdu ;
+    sub six-persian by six-persian.urdu ;
+    sub seven-persian by seven-persian.urdu ;
+} UrduCALT;
+
+lookup KurdishCALT {
+  lookupflag 0 ;
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+} KurdishCALT;
+
 #********************
 # Substitutions for subtendng marks
 
@@ -209,36 +270,10 @@ lookup SignWith {
 } SignWith;
 
 
-#********************
-# Reordering of marks
-
-lookup ReorderMaddaVowel1_target {
-  lookupflag 0 ;
-    sub @MarkGroup1A by @MarkGroup1A madda-ar.small ;
-    sub @MarkGroup2A by @MarkGroup2A madda-ar.small ;
-    sub @MarkGroup3A by @MarkGroup3A madda-ar.small ;
-} ReorderMaddaVowel1_target ;
-
-lookup ReorderMaddaVowel1 {
-  lookupflag 0 ;
-    sub madda-ar.small [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]' lookup ReorderMaddaVowel1_target ;
-} ReorderMaddaVowel1;
-
-lookup ReorderMaddaVowel2_target {
-  lookupflag 0 ;
-    sub madda-ar.small @MarkGroup1A by @MarkGroup1A ;
-    sub madda-ar.small @MarkGroup2A by @MarkGroup2A ;
-    sub madda-ar.small @MarkGroup3A by @MarkGroup3A ;
-} ReorderMaddaVowel2_target ;
-
-lookup ReorderMaddaVowel2 {
-  lookupflag 0 ;
-    sub madda-ar.small' lookup ReorderMaddaVowel2_target [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]'  madda-ar.small ;
-} ReorderMaddaVowel2;
 
 
 #********************
-# User features Features
+# User features
 
 #********************
 # Warsh Alternates: TypeTuner lookups:
@@ -689,6 +724,12 @@ feature calt {  # Contextual Alternates
     script arab;  # Arabic
         lookup ReorderMaddaVowel1;
         lookup ReorderMaddaVowel2;
+      language KUR ; # Kurdish
+        lookup KurdishCALT ;
+      language SND ; # Sindhi
+        lookup SindhiCALT ;
+      language URD ; # Urdu
+        lookup UrduCALT ;
 } calt ;
 
 # Not sure about the relative order of calt, cvxx and ssxx features --
