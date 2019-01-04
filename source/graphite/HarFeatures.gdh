@@ -1,23 +1,23 @@
 ///////////////////////////////////////////////////////////////////////////////////////////
 //
-//	File: HarFeatures.gdl
+//  File: HarFeatures.gdl
 //
-//	Graphite feature definitions for Harmattan.
+//  Graphite feature definitions for Harmattan.
 //
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
-	This file is part of Harmattan font family 
-	(http://scripts.sil.org/Harmattan) and is 
-	Copyright (c) 2014-2015 SIL International (http://www.sil.org/),
-	with Reserved Font Names "Harmattan" and "SIL".
+    This file is part of Harmattan font family 
+    (http://scripts.sil.org/Harmattan) and is 
+    Copyright (c) 2014-2015 SIL International (http://www.sil.org/),
+    with Reserved Font Names "Harmattan" and "SIL".
 
-	This Font Software is licensed under the SIL Open Font License,
-	Version 1.1.
+    This Font Software is licensed under the SIL Open Font License,
+    Version 1.1.
 
-	You should have received a copy of the license along with this Font Software.
-	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
-	details including an FAQ.
+    You should have received a copy of the license along with this Font Software.
+    If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+    details including an FAQ.
 */
 
 
@@ -25,7 +25,7 @@
 
 //------------------------------------------------------------------------------------------
 //
-//	Feature definitions
+//  Feature definitions
 //
 
 table(feature)
@@ -35,29 +35,29 @@ table(feature)
 
 
 warshDiacritics {
-	id = "cv02";
-	name.1033 = string("Alef diacritic placement");
-	settings {
-		std {
-			value = 0;
-			name.1033 = string("Standard");
-		}
-		hamzatouching {
-			value = 1;
-			name.1033 = string("Hamza touching");
-		}
-		touching {
-			value = 2;
-			name.1033 = string("Touching");
-		}
-	}
-	default = std;
+    id = "cv02";
+    name.1033 = string("Alef diacritic placement");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        hamzatouching {
+            value = 1;
+            name.1033 = string("Hamza touching");
+        }
+        touching {
+            value = 2;
+            name.1033 = string("Touching");
+        }
+    }
+    default = std;
 }
 
 dalAlt {
-	id = "cv12";  	
-	name.1033 = string("Dal");
-	    settings {
+    id = "cv12";    
+    name.1033 = string("Dal");
+        settings {
         std {
             value = 0;
             name.1033 = string("Standard");
@@ -71,8 +71,8 @@ dalAlt {
 }
 
 jeemHahMedAlt {
-	id = "cv08";
-	name.1033 = string("Jeem/Hah");
+    id = "cv08";
+    name.1033 = string("Jeem/Hah");
     settings {
         std {
             value = 0;
@@ -88,8 +88,8 @@ jeemHahMedAlt {
 
 
 sadDadAlt {
-	id = "cv20";
-	name.1033 = string("Sad/Dad");
+    id = "cv20";
+    name.1033 = string("Sad/Dad");
     settings {
         std {
             value = 0;
@@ -129,7 +129,7 @@ hehAlt {
             name.1033 = string("Standard");
         }
         kurdish {
-            value = 3;			/* this value is correct; features are ordered alphabetically, not by value */
+            value = 3;          /* this value is correct; features are ordered alphabetically, not by value */
             name.1033 = string("Kurdish-style");
         }
         sindhi {
@@ -329,9 +329,9 @@ commaAlt {
 
 
 // graphite1mirror {
-//	id = "gr1m";
-//	name.1033 = string("Mirroring for Graphite 1");
-//	default = false;
+//  id = "gr1m";
+//  name.1033 = string("Mirroring for Graphite 1");
+//  default = false;
 // }
 
 
@@ -378,25 +378,24 @@ endtable; // feature
 
 //------------------------------------------------------------------------------------------
 //
-//	Language-specific assignments
+//  Language-specific assignments
 //
 
 table(language)
 
 kurdish {
     languages = (
-    	"bdh",	// Behdini - obsolete
-    	"ckb",	// Central Kurdish
-    	"kmr",	// Northern Kurdish/Behdini
-    	"kur",  // Kurmanji
-    	"sdh"	// Southern Kurdish/Sorani
+        "ckb",       // Central Kurdish
+        "kmr",       // Northern Kurdish/Behdini
+        "ku","kur",  // Kurdish (macrolanguage)
+        "sdh"        // Southern Kurdish/Sorani
     );
     hehAlt = kurdish;
 };
 
 // rohingya {
 //     languages = (
-//     	"rhg"	// Rohingya
+//      "rhg"   // Rohingya
 //     );
 //     easternDigits = rohingya;
 //     shaddaKasra = sindhiUrdu;
