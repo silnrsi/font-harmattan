@@ -688,21 +688,37 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup FontCheck;
     script arab;  # Arabic
         lookup DecomposeForColor;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } ccmp ;
 
 feature fina {  # Terminal Forms
     script arab;  # Arabic
         lookup ltrFina;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } fina ;
 
 feature medi {  # Medial Forms
     script arab;  # Arabic
         lookup ltrMedi;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } medi ;
 
 feature init {  # Initial Forms
     script arab;  # Arabic
         lookup ltrInit;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } init ;
 
 feature rlig {  # Required Ligatures
@@ -715,6 +731,10 @@ feature rlig {  # Required Ligatures
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } rlig ;
 
 feature calt {  # Contextual Alternates
@@ -738,11 +758,19 @@ feature calt {  # Contextual Alternates
 feature salt {  # Stylistic Alternates
     script arab;  # Arabic
         lookup AyahAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } salt ;
 
 feature cv02 {  # Character Variant 02
     script arab;  # Arabic
         lookup WarshAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Alef diacritic placement" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
@@ -754,6 +782,10 @@ feature cv02 {  # Character Variant 02
 feature cv08 {  # Character Variant 08
     script arab;  # Arabic
         lookup JeemHahMedAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Jeem/Hah"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
@@ -764,6 +796,10 @@ feature cv08 {  # Character Variant 08
 feature cv12 {  # Character Variant 12
     script arab;  # Arabic
         lookup DalAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dal"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
@@ -774,6 +810,10 @@ feature cv12 {  # Character Variant 12
 feature cv20 {  # Character Variant 20
     script arab;  # Arabic
         lookup SadDadAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Sad/Dad"  ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -784,6 +824,10 @@ feature cv20 {  # Character Variant 20
 feature cv44 {  # Character Variant 44
     script arab;  # Arabic
         lookup MeemAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Meem"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -795,6 +839,10 @@ feature cv48 {  # Character Variant 48
     script arab;  # Arabic
         language dflt;  # Default
             lookup HehAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"      ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -917,6 +965,10 @@ feature kern {  # Kerning
         lookup SubtendingMarks;
     script arab;  # Arabic
         lookup Kern;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } kern ;
 
 feature mark {  # Mark to base Positioning
@@ -926,6 +978,10 @@ feature mark {  # Mark to base Positioning
     script arab;  # Arabic
         lookup AlefMark2BelowAfterLam;
         lookup MarkKern;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning
