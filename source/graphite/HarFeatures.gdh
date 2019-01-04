@@ -408,6 +408,7 @@ sindhi {
     hehAlt = sindhi;
     easternDigits = sindhi;
     shaddaKasra = sindhiUrdu;
+    dammatanAlt = sixNine;
 };
 
 urdu {
