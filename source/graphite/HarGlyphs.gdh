@@ -99,39 +99,6 @@ cSignDigit = (cDigitsArabicMedium cDigitsArabicSmall
 //	Feature-related variants
 //
 
-cDamma        = (g_damma_ar        g_shadda_damma_ar        g_hamza_damma_ar       );
-cDamma_filled = (g_damma_ar_filled g_shadda_damma_ar_filled g_hamza_damma_ar_filled);
-cDamma_short  = (g_damma_ar_short  g_shadda_damma_ar_short  g_hamza_damma_ar_short );
-
-
-// The next three class must match for substitution:
-
-/*
-cEasternDigit = (
-	g_four_persian        g_six_persian        g_seven_persian
-	g_four_persian_medium  g_six_persian_medium  g_seven_persian_medium
-	g_four_persian_small   g_six_persian_small   g_seven_persian_small
-);
-	
-cEasternDigitUrdu = (
-	g_four_persian_urdu        g_six_persian_urdu        g_seven_persian_urdu
-	g_four_persian_urdu_medium  g_six_persian_urdu_medium  g_seven_persian_urdu_medium
-	g_four_persian_urdu_small   g_six_persian_urdu_small   g_seven_persian_urdu_small
-);
-
-cEasternDigitSindhi = (
-	g_four_persian        g_six_persian_urdu        g_seven_persian_urdu
-	g_four_persian_medium  g_six_persian_urdu_medium  g_seven_persian_urdu_medium
-	g_four_persian_small   g_six_persian_urdu_small   g_seven_persian_urdu_small
-);
-
-cEasternDigitRohingya = (
-	g_four_persian_roh        g_six_persian_urdu        g_seven_persian_urdu
-	g_four_persian_roh_medium  g_six_persian_urdu_medium  g_seven_persian_urdu_medium
-	g_four_persian_roh_small   g_six_persian_urdu_small   g_seven_persian_urdu_small
-);
-*/
-	
 
 cno_Heh     = (g_heh_ar           g_heh_ar_init         g_heh_ar_medi               g_heh_ar_fina);
 cHehSindhi  = (g_heh_ar_knotted   g_heh_ar_init         g_heh_ar_knotted_high_medi  g_heh_ar_knotted_high_fina);
