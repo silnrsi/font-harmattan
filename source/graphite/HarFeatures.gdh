@@ -144,6 +144,7 @@ hehAlt {
     default = std;
 }
 
+
 maddahAlt {
     id = "cv60";
     name.1033 = string("Maddah");
@@ -191,6 +192,22 @@ dammaAlt {
         short {
             value = 2;
             name.1033 = string("Short");
+        }
+    }
+    default = std;
+}
+
+UAlt {
+    id = "cv50";
+    name.1033 = string("Arabic U");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        filled {
+            value = 1;
+            name.1033 = string("Filled");
         }
     }
     default = std;

@@ -273,6 +273,10 @@ pass(4)	// Features, special behaviors
 		cDamma > cDamma_short;
 	endif;
 
+	if (UAlt == filled)
+		cU  >  cU_filled;
+	endif;
+
 	if (dammatanAlt == sixNine)
 		cno_sixNine > csixNine;
 	endif;

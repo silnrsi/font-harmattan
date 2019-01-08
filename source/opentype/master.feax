@@ -361,6 +361,14 @@ lookup HehAlternates {
 } HehAlternates;
 
 #********************
+# Arabic U alternates: cv50
+
+lookup UAlternates {
+  lookupflag 0 ;
+    sub @U by @U_filled ;
+} UAlternates;
+
+#********************
 # Maddah Alternats: cv60
 
 lookup MaddahAlternates {
@@ -850,6 +858,20 @@ feature cv48 {  # Character Variant 48
     } ;
 } cv48 ;
 
+feature cv50 {  # Character Variant 50
+    script arab;  # Arabic
+        language dflt;  # Default
+            lookup UAlternates;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Arabic U" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
+    } ;
+} cv50 ;
 
 feature cv60 {  # Character Variant 60
     # Same for latin & arabic:

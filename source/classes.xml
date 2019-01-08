@@ -451,6 +451,17 @@
         meemDotabove-ar.sindhi.fina meemDotbelow-ar.sindhi.fina meemThreedotsabove-ar.sindhi.fina
     </class>
 
+	<!-- cv50 Arabic U -->
+	
+	<!-- The next two classes must match for substitution: -->	
+	<class name='U'>
+		u-ar uHamzaabove-ar u-ar.fina uHamzaabove-ar.fina
+	</class>
+	
+	<class name='U_filled'>
+		u-ar.filled uHamzaabove-ar.filled u-ar.filled.fina uHamzaabove-ar.filled.fina
+	</class>	
+
 	<!-- cv60 Maddah -->
 
 	<!-- The next two classes must match for substitution: -->	
