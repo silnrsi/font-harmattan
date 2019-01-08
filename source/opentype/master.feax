@@ -129,7 +129,7 @@ lookup LamAlefLigatures {
 lookup AllahLigatures {
   lookupflag ;
     sub alef-ar lam-ar.init lam-ar.medi shadda-ar alefabove-ar heh-ar.fina by allah-ar;
-	sub alef-ar lam-ar.init lam-ar.medi shadda-ar fatha-ar     heh-ar.fina by allah-ar.alt;
+    sub alef-ar lam-ar.init lam-ar.medi shadda-ar fatha-ar     heh-ar.fina by allah-ar.alt;
 } AllahLigatures;
 
 #********
