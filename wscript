@@ -27,7 +27,7 @@ with the Reserved Font Name \"Fouta\".
 Copyright (c) 2004-2015, SIL International (http://scripts.sil.org),
 with Reserved Font Names \'Andika\' and \'SIL\'.
 
-Copyright (c) 2014-2017, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
 with Reserved Font Names \"Harmattan\" and \"SIL\".
 """
 LICENSE = 'OFL.txt'
@@ -46,42 +46,36 @@ ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_00
 # APs to omit:
 OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O"'
 
-for style in ('-Regular', '-Bold'):
-    UFO = 'source/' + FAMILY + style + '.ufo'
-    font(target=process(FAMILY + style + '.ttf', 
-            cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', [UFO]),
-            ),
-        source=UFO,
-        ap = generated + FAMILY + style + '.xml',
-        version=VERSION,
-        graphite=gdl(generated + FAMILY + style + '.gdl',
-            depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
-            master = 'source/graphite/master.gdl',
-            make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
-            params = '-q -e gdlerr' + style + '.txt',
-            ),
-        opentype = fea(generated + FAMILY + style + '.fea',
-            master = 'source/opentype/master.feax',
-            make_params = OMITAPS,
-            to_ufo = True,
-            ),
-        classes = 'source/classes.xml',
-        license=ofl('Harmattan', 'SIL'),
-        script='arab',
-        pdf=fret(params='-r'),
-        woff=woff('web/' + FAMILY + style + '.woff', params='-v ' + VERSION + ' -m ../source/' + FAMILY + '-WOFF-metadata.xml'),
-#        typetuner='source/typetuner/feat_all.xml'
-        )
+# iterate over designspace
+designspace('source/Harmattan-RB.designspace',
+    params = '-l ${DS:FILENAME_BASE}_createintance.log',
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+        # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+    ),
+    ap = '${DS:FILENAME_BASE}.xml',
+    version=VERSION,
 
-AUTOGEN_TESTS = ['Empty', 'AllChars', 'DiacTest1', 'Mirrored', 'SubtendingMarks', 'DaggerAlef', 'Kern' ]
-
-# Until we figure out how to save a copy of the font prior to glyph name changes, commenting this out:
-# for testname in AUTOGEN_TESTS:
-#    t = create(testname + '.ftml', cmd('perl ${SRC[0]} -t ' + testname + ' -g -f h -r local(Harmattan) -r url(../results/Harmattan-Regular.ttf) -r url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf) -r url(../results/Harmattan-Bold.ttf) ${SRC[1]} ${SRC[2]}', 
-#         ['tools/bin/absGenFTML', '../results/' + FAMILY + '-Regular-wn.ttf', FAMILY + '-Regular.xml', 'tools/absGlyphList/absGlyphList.csv']))
+    graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
+        depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
+        master = 'source/graphite/master.gdl',
+        make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
+        params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
+        ),
+    opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+        master = 'source/opentype/master.feax',
+        make_params = OMITAPS,
+        to_ufo = True,
+        ),
+    classes = 'source/classes.xml',
+    license=ofl('Harmattan', 'SIL'),
+    script='arab',
+    pdf=fret(params='-r'),
+    woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+#   typetuner='source/typetuner/feat_all.xml'
+    )
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
-#    ctx.find_program('ttffeatparms')
 #    ctx.find_program('ttfautohint')
 
