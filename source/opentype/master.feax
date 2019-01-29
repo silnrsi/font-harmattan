@@ -132,33 +132,6 @@ lookup AllahLigatures {
     sub alef-ar lam-ar.init lam-ar.medi shadda-ar fatha-ar     heh-ar.fina by allah-ar.alt;
 } AllahLigatures;
 
-#********
-# Ligatures of marks
-
-lookup ShaddaLigatures {
-  lookupflag MarkAttachmentType @ShaddaLigatureParts ;
-    sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
-    sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
-} ShaddaLigatures;
-
-lookup ShaddaKasraLigatures {
-  lookupflag MarkAttachmentType @ShaddaLigatureParts ;
-    sub @ShaddaKasraMarks shadda-ar by @ShaddaKasraLigatures ;
-    sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
-} ShaddaKasraLigatures;
-
-lookup ComposeLowHamzaAbove {
-  lookupflag UseMarkFilteringSet @HamzaAbove ;
-    sub @LowHamzaBase hamzaabove-ar by @LowHamzaComposed ;
-} ComposeLowHamzaAbove;
-
-lookup HamzaLigatures {
-  lookupflag UseMarkFilteringSet @HamzaLigatureParts ;
-    sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
-    sub @HamzaMarks hamzaabove-ar by @HamzaLigatures ;
-} HamzaLigatures;
-
-
 
 #********************
 # Reordering of marks
@@ -199,22 +172,26 @@ lookup SindhiCALT {
     sub seven-persian by seven-persian.urdu ;
     sub dammatan-ar by dammatan-ar.sixNine ;
     sub @Meem by @Meem.sindhi ;
+    sub @Kasra by @Kasra_lowered ;
+
 } SindhiCALT;
 
 lookup UrduCALT {
-  lookupflag IgnoreMarks ;
+  lookupflag 0 ;
     sub heh-ar.init by heh-ar.hooked.init ;
     sub heh-ar.medi by heh-ar.hooked.medi ;
     sub heh-ar.fina by heh-ar.hooked.fina ;
     sub four-persian by four-persian.urdu ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
+    sub @Kasra by @Kasra_lowered ;
 } UrduCALT;
 
 lookup KurdishCALT {
   lookupflag 0 ;
     sub heh-ar.fina by heh-ar.knottedHigh.fina ;
     sub heh-ar by heh-ar.knotted ;
+    sub @Kasra_lowered by @Kasra ;
 } KurdishCALT;
 
 #********************
@@ -376,6 +353,17 @@ lookup MaddahAlternates {
     sub @Maddah.small by @Maddah ;
 } MaddahAlternates;
 
+
+#********************
+# Kasra Alternates: cv62
+
+lookup KasraAlternates {
+  lookupflag 0 ;
+    # NB: This is writen so it doesn't matter which shadda-kasra behavior is default.
+    sub @Kasra_lowered from [ @Kasra_lowered @Kasra ];
+    sub @Kasra         from [ @Kasra_lowered @Kasra ];
+} KasraAlternates;
+
 #********************
 # Damma alternates: cv70
 
@@ -453,6 +441,34 @@ lookup CommaAlternates {
   lookupflag IgnoreMarks ;
     sub @cno_downward by @c_downward;
 } CommaAlternates;
+
+
+#********
+# Ligatures of marks
+
+lookup ShaddaLigatures {
+  lookupflag MarkAttachmentType @ShaddaLigatureParts ;
+    sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
+    sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
+} ShaddaLigatures;
+
+lookup ShaddaKasraLigatures {
+  lookupflag MarkAttachmentType @ShaddaLigatureParts ;
+    sub @ShaddaKasraMarks shadda-ar by @ShaddaKasraLigatures ;
+    sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
+} ShaddaKasraLigatures;
+
+lookup ComposeLowHamzaAbove {
+  lookupflag UseMarkFilteringSet @HamzaAbove ;
+    sub @LowHamzaBase hamzaabove-ar by @LowHamzaComposed ;
+} ComposeLowHamzaAbove;
+
+lookup HamzaLigatures {
+  lookupflag UseMarkFilteringSet @HamzaLigatureParts ;
+    sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
+    sub @HamzaMarks hamzaabove-ar by @HamzaLigatures ;
+} HamzaLigatures;
+
 
 #********************
 # Positioning rules *
@@ -692,6 +708,7 @@ feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & arabic:
         lookup SmallMaddah;
         lookup FontCheck;
+        sub @Kasra by @Kasra_lowered;	# Harmattan defaults to lowered kasra
     script arab;  # Arabic
         lookup DecomposeForColor;
       # Force other languages to include Arabic script lookups
@@ -754,6 +771,10 @@ feature rlig {  # Required Ligatures
 } rlig ;
 
 # HB PAUSE
+
+# NB: We use calt for language-specific alternates rather than locl because
+#     the heh localizations don't affect all forms of heh so we need the lookups
+#     to execute after init/medi/fina lookups, but locl executes before.
 
 feature calt {  # Contextual Alternates
     # Same for latin & arabic:
@@ -898,6 +919,17 @@ feature cv60 {  # Character Variant 60
     } ;
 } cv60 ;
 
+feature cv62 {  # Character Variant 62
+    # Same for latin & arabic:
+        lookup KasraAlternates;
+    cvParameters {
+        FeatUILabelNameID  { name 3 1 0x0409 "Kasra"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Lowered" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Raised"  ; };
+    } ;
+} cv62 ;
+
 feature cv70 {  # Character Variant 70
     # Same for latin & arabic:
         lookup DammaAlternates;
@@ -983,6 +1015,22 @@ feature cv84 {  # Character Variant 84
         ParamUILabelNameID { name 3 1 0x0409 "Downward" ; };
     } ;
 } cv84 ;
+
+# In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
+# same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
+# so it has to be part of some other feature. In Harfbuzz, we could use either clig, or liga since they
+# are pulled in from the Horizontal features that follow shaper-specific features and are, therefore
+# executed at the same time as cvXX.
+
+# When rendered with Uniscribe or Word, cv62 is never executed [as of this writing, at any rate].
+# But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't 
+# fire clig, so liga must be the one to use!
+
+feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
+    # Same for latin & arabic:
+        lookup ShaddaKasraLigatures;
+} liga ;
+
 
 #********************
 # GPOS features     *

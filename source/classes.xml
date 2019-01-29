@@ -474,6 +474,17 @@
         alefMadda-ar.postLamMed.small.fina
     </class>
 
+	<!-- cv62 Kasra positioning -->
+	
+    <!-- The next two classes must match for substitution: -->  
+	<class name="Kasra">
+		kasra-ar kasratan-ar
+	</class>
+	
+	<class name="Kasra_lowered">
+		kasra-ar.lowered kasratan-ar.lowered
+	</class>
+
     <!-- cv70 Damma --> 
 
     <!-- The next three class must match for substitution: -->
