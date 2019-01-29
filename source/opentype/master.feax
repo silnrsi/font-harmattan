@@ -682,7 +682,7 @@ lookup SubtendingMarks {
 #  Features
 #**********************************
 
-# as best as I understand, these are arranged in the order MS engines execute:
+# as best as I understand, these are arranged in the order MS & HB engines execute:
 
 #********************
 # GSUB features     *
@@ -700,6 +700,10 @@ feature ccmp {  # Glyph Composition/Decomposition
       language URD  ;
 } ccmp ;
 
+# feature locl
+
+# HB PAUSE
+
 feature fina {  # Terminal Forms
     script arab;  # Arabic
         lookup ltrFina;
@@ -708,6 +712,8 @@ feature fina {  # Terminal Forms
       language SND  ;
       language URD  ;
 } fina ;
+
+# HB PAUSE
 
 feature medi {  # Medial Forms
     script arab;  # Arabic
@@ -718,6 +724,8 @@ feature medi {  # Medial Forms
       language URD  ;
 } medi ;
 
+# HB PAUSE
+
 feature init {  # Initial Forms
     script arab;  # Arabic
         lookup ltrInit;
@@ -726,6 +734,8 @@ feature init {  # Initial Forms
       language SND  ;
       language URD  ;
 } init ;
+
+# HB PAUSE
 
 feature rlig {  # Required Ligatures
     script arab;  # Arabic
@@ -743,6 +753,8 @@ feature rlig {  # Required Ligatures
       language URD  ;
 } rlig ;
 
+# HB PAUSE
+
 feature calt {  # Contextual Alternates
     # Same for latin & arabic:
         lookup SignWith;
@@ -758,8 +770,11 @@ feature calt {  # Contextual Alternates
         lookup UrduCALT ;
 } calt ;
 
-# Not sure about the relative order of calt, cvxx and ssxx features --
-# it may be they are done in one pass.
+# feature rclt
+
+# HB PAUSE
+
+# HB puts everything else (clig, liga, cvXX, ssXX, salt) in one pass:
 
 feature salt {  # Stylistic Alternates
     script arab;  # Arabic
