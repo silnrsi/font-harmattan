@@ -167,14 +167,18 @@ shaddaKasra {
     settings {
         std {
             value = 0;
-            name.1033 = string("Raised");
+            name.1033 = string("Default");
         }
-        sindhiUrdu {
+        lowered {
             value = 1;
             name.1033 = string("Lowered");
         }
+        raised {
+            value = 2;
+            name.1033 = string("Raised");
+        }
     }
-    default = sindhiUrdu;
+    default = std;
 }
 
 dammaAlt {
@@ -408,6 +412,7 @@ kurdish {
         "sdh"        // Southern Kurdish/Sorani
     );
     hehAlt = kurdish;
+    shaddaKasra = raised;
 };
 
 // rohingya {
@@ -424,7 +429,7 @@ sindhi {
     meemAlt = sindhi;
     hehAlt = sindhi;
     easternDigits = sindhi;
-    shaddaKasra = sindhiUrdu;
+    // shaddaKasra = lowered;  // is the default for Harmattan
     dammatanAlt = sixNine;
 };
 
@@ -432,7 +437,7 @@ urdu {
     languages = ( "urd", "ur" ); // Urdu
     hehAlt = urdu;
     easternDigits = urdu;
-    shaddaKasra = sindhiUrdu;
+    // shaddaKasra = lowered;  // is the default for Harmattan
 };
 
 

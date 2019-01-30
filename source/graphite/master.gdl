@@ -258,7 +258,7 @@ pass(4)	// Features, special behaviors
 		cMaddah > cMaddah_small;
 	endif;
 
-	if (shaddaKasra == std)
+	if (shaddaKasra == raised)
 		g_shadda_ar  cShaddaKasraMarks  >  _  cShaddaKasraLigatures:(1 2);
 	endif;
 	
