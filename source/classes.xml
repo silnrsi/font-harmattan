@@ -504,12 +504,14 @@
     <!-- cv76 DaggerAlef alternates -->
 
     <class name='TakesLargeDaggerAlef'>
-        yeh-ar yeh-farsi e-ar yehThreedotsbelow-ar alefMaksura-ar seen-ar sheen-ar seenDotbelowDotabove-ar seenThreedotsbelow-ar
-        sheenThreedotsbelow-ar sheenDotbelow-ar seenTwodotshorizontalabove-ar seenVinvertedabove-ar sad-ar dad-ar sadTwodotsbelow-ar
-        sadThreedots-ar dadDotbelow-ar sadThreedotsbelow-ar yeh-ar.fina yeh-farsi.fina e-ar.fina yehThreedotsbelow-ar.fina
-        alefMaksura-ar.fina seen-ar.fina sheen-ar.fina seenDotbelowDotabove-ar.fina seenThreedotsbelow-ar.fina
-        sheenThreedotsbelow-ar.fina sheenDotbelow-ar.fina seenTwodotshorizontalabove-ar.fina seenVinvertedabove-ar.fina sad-ar.fina dad-ar.fina
-        sadTwodotsbelow-ar.fina sadThreedots-ar.fina dadDotbelow-ar.fina sadThreedotsbelow-ar.fina
+        yeh-ar yeh-farsi e-ar yehThreedotsbelow-ar yehFourbelow-farsi alefMaksura-ar seen-ar sheen-ar seenDotbelowDotabove-ar
+        seenThreedotsbelow-ar sheenThreedotsbelow-ar sheenDotbelow-ar seenFourdotsabove-ar seenTwodotshorizontalabove-ar
+        seenTahTwodotshorizontalabove-ar seenFourabove-ar seenVinvertedabove-ar sad-ar dad-ar sadTwodotsbelow-ar
+        sadThreedots-ar dadDotbelow-ar sadThreedotsbelow-ar
+        yeh-ar.fina yeh-farsi.fina e-ar.fina yehThreedotsbelow-ar.fina yehFourbelow-farsi.fina alefMaksura-ar.fina seen-ar.fina sheen-ar.fina seenDotbelowDotabove-ar.fina
+        seenThreedotsbelow-ar.fina sheenThreedotsbelow-ar.fina sheenDotbelow-ar.fina seenFourdotsabove-ar.fina seenTwodotshorizontalabove-ar.fina
+        seenTahTwodotshorizontalabove-ar.fina seenFourabove-ar.fina seenVinvertedabove-ar.fina sad-ar.fina dad-ar.fina sadTwodotsbelow-ar.fina
+        sadThreedots-ar.fina dadDotbelow-ar.fina sadThreedotsbelow-ar.fina
     </class>
 
     <!-- cv80 End of Ayah -->
