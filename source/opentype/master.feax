@@ -1054,6 +1054,15 @@ feature kern {  # Kerning
       language URD  ;
 } kern ;
 
+feature curs { # Cursive connection
+    script arab; # Arab
+        lookup cursive_exit_entry;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language SND  ;
+      language URD  ;
+} curs ;
+
 feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
         lookup mark_to_base;
