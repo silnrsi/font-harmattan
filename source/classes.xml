@@ -190,24 +190,26 @@
 
     <class name='AlefFin'>
         alefMadda-ar.fina alefMadda-ar.small.fina alefHamzaabove-ar.fina alefHamzabelow-ar.fina alef-ar.fina alefWasla-ar.fina
-        alefWavyhamzaabove-ar.fina highhamzaAlef-ar.fina alefTwoabove-ar.fina alefThreeabove-ar.fina 
+        alefWavyhamzaabove-ar.fina alefWavyhamzabelow-ar.fina highhamzaAlef-ar.fina alefTwoabove-ar.fina alefThreeabove-ar.fina 
     </class>
 
     <class name='AlefIso'>
         alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzabelow-ar alef-ar alefWasla-ar
-        alefWavyhamzaabove-ar highhamzaAlef-ar alefTwoabove-ar alefThreeabove-ar 
+        alefWavyhamzaabove-ar alefWavyhamzabelow-ar highhamzaAlef-ar alefTwoabove-ar alefThreeabove-ar 
     </class>
 
     <class name='AlefFinAfterLamIni'>
         alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina
         alefHamzabelow-ar.postLamIni.fina alef-ar.postLamIni.fina alefWasla-ar.postLamIni.fina
-        alefWavyhamzaabove-ar.postLamIni.fina highhamzaAlef-ar.postLamIni.fina alefTwoabove-ar.postLamIni.fina alefThreeabove-ar.postLamIni.fina 
+        alefWavyhamzaabove-ar.postLamIni.fina alefWavyhamzabelow-ar.postLamIni.fina highhamzaAlef-ar.postLamIni.fina 
+        alefTwoabove-ar.postLamIni.fina alefThreeabove-ar.postLamIni.fina 
     </class>
 
     <class name='AlefFinAfterLamMed'>
         alefMadda-ar.postLamMed.fina alefMadda-ar.postLamMed.small.fina alefHamzaabove-ar.postLamMed.fina
         alefHamzabelow-ar.postLamMed.fina alef-ar.postLamMed.fina alefWasla-ar.postLamMed.fina
-        alefWavyhamzaabove-ar.postLamMed.fina highhamzaAlef-ar.postLamMed.fina alefTwoabove-ar.postLamMed.fina alefThreeabove-ar.postLamMed.fina 
+        alefWavyhamzaabove-ar.postLamMed.fina alefWavyhamzabelow-ar.postLamMed.fina highhamzaAlef-ar.postLamMed.fina 
+        alefTwoabove-ar.postLamMed.fina alefThreeabove-ar.postLamMed.fina 
     </class>
 
     <class name='AllAlefFinAfterLam'>
