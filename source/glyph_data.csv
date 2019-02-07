@@ -1374,12 +1374,12 @@ shadda_alef-ar,uni06510670,0651 0670,1402,,,
 shadda_fathatan-ar,uni0651064B,0651 064B,1403,,,
 shadda_dammatan-ar,uni0651064C,0651 064C,1404,,,
 shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,sd,SND,cv72=1
-shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur","SND,URD",cv62
+shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur,ku","SND,URD,KUR",cv62
 shadda_fatha-ar,uni0651064E,0651 064E,1407,,,
 shadda_damma-ar,uni0651064F,0651 064F,1408,,,
 shadda_damma-ar.short,uni0651064F.short,,1409,,,cv70=2
 shadda_damma-ar.filled,uni0651064F.filled,,1410,,,cv70=1
-shadda_kasra-ar,uni06510650,0651 0650,1411,"sd,ur","SND,URD",cv62
+shadda_kasra-ar,uni06510650,0651 0650,1411,"sd,ur,ku","SND,URD,KUR",cv62
 enquad,uni2000,2000,1412,,,
 emquad,uni2001,2001,1413,,,
 enspace,uni2002,2002,1414,,,
