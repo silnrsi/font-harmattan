@@ -90,14 +90,9 @@ lookup ltrInit {
 #********
 # implement "touching" Warsh diacritics:
 
-lookup LigaturesForWarsh1_target {
-  lookupflag UseMarkFilteringSet @HamzaAbove ;
-    sub lam-ar.init hamzaabove-ar by lam_hamza-ar.preAlef.init;
-} LigaturesForWarsh1_target ;
-
 lookup LigaturesForWarsh1 {
   lookupflag UseMarkFilteringSet @HamzaAbove ;
-    sub lam-ar.init' lookup LigaturesForWarsh1_target hamzaabove-ar' @AlefFin;
+    sub lam-ar.init' hamzaabove-ar' @AlefFin by lam_hamza-ar.preAlef.init;
 } LigaturesForWarsh1;
 
 lookup LigaturesForWarsh2 {
