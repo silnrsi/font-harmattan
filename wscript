@@ -53,7 +53,7 @@ designspace('source/Harmattan-RB.designspace',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
-    ap = '${DS:FILENAME_BASE}.xml',
+    ap = generated + '${DS:FILENAME_BASE}.xml',
     version=VERSION,
 
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
