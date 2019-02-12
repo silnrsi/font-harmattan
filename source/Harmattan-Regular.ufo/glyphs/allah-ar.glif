@@ -3,6 +3,7 @@
   <advance width="1778"/>
   <anchor x="896" y="1793" name="diaA"/>
   <anchor x="897" y="-100" name="diaB"/>
+  <unicode hex="FDF2"/>
   <outline>
     <contour>
       <point x="1678" y="906" type="curve" smooth="yes"/>

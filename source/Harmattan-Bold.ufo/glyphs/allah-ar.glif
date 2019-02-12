@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="allah-ar" format="2">
   <advance width="1806"/>
+  <unicode hex="FDF2"/>
   <outline>
     <contour>
       <point x="1716" y="946" type="curve" smooth="yes"/>

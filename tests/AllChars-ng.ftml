@@ -2804,4 +2804,24 @@ U+0774">
       <string>\u0008A6\u000774 \u00200D\u0008A6\u000774 </string>
     </test>
   </testgroup>
+  <testgroup label="Allah ligatures">
+    <test label="Rule 1">
+      <string>\uFDF2 \u0627\u0644\u0644\u200C \uFDF2 </string>
+    </test>
+    <test label="Rule 2 (daggeralef)">
+      <string>\u0627\u0644\u0644\u0651\u0670\u0647 \u0627\u0644\u0644\u0670\u0651\u0647 \u0627\u0644\u0644\u0651\u0670\u06C1 \u0627\u0644\u0644\u0670\u0651\u06C1</string>
+    </test>
+    <test label="Rule 2 (fatha)">
+      <string>\u0627\u0644\u0644\u0651\u064E\u0647 \u0627\u0644\u0644\u064E\u0651\u0647 \u0627\u0644\u0644\u0651\u064E\u06C1 \u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="Rule 2d">
+      <string> \u0644\u0644\u0651\u064E\u0647 \u0641\u0627\u0644\u0644\u064E\u0651\u06C1 \u0641\u06EB\u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="Rule 3">
+      <string>\u0627\u0644\u0644\u0647 \u0622\u0644\u0644\u0647 \u0623\u0644\u0644\u0647 \u0671\u0644\u0644\u0647 \u0627\u06EB\u0644\u0644\u0647 \u0641\u0627\u0644\u0644\u0647 \u0641\u0644\u0644\u0647</string>
+    </test>
+    <test label="Rule 4a">
+      <string>\u0627\u0644\u200D\u0644\u0651\u0670\u0647</string>
+    </test>
+  </testgroup>
 </ftml>

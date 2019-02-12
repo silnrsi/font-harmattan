@@ -211,8 +211,44 @@ pass(4)	// Features, special behaviors
 	cLowHamzaBase  g_hamzaabove_ar  >  cLowHamzaComposed:(1 2)  _;
 	
 	// Allah ligatures:
-	g_alef_ar g_lam_ar_init g_lam_ar_medi g_shadda_ar g_alefabove_ar g_heh_ar_fina > g_allah_ar:(1 2 3 4 5 6) _ _ _ _ _ ;
-	g_alef_ar g_lam_ar_init g_lam_ar_medi g_shadda_ar g_fatha_ar     g_heh_ar_fina > g_allah_ar_alt:(1 2 3 4 5 6) _ _ _ _ _ ;
+
+	// Rule 3: alefIso-lam-lam-heh
+	g_alef_ar g_lam_ar_init g_lam_ar_medi _ _ (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> g_alef_ar_allah g_lam_ar_allah1_init g_lam_ar_allah2_medi=L g_shadda_ar:L g_alefabove_ar:L (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina) 
+		/ _ MARKS _ _ _ _ _;
+
+	// Rule 3: alef_lam-lam-shadda-alef-heh
+	(g_alef_ar g_alef_ar_fina) g_lam_ar_init g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> (g_alef_ar_allah g_alef_ar_allah_fina) g_lam_ar_allah1_init g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
+		/ _ MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
+
+	// Rule 3: alef-lam-lam-alef-shadda-heh
+	(g_alef_ar g_alef_ar_fina) g_lam_ar_init g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> (g_alef_ar_allah g_alef_ar_allah_fina) g_lam_ar_allah1_init g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
+		/ _ MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
+
+	// Rule 2: lamInit-lam-shadda-alef-heh
+	g_lam_ar_init g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> g_lam_ar_allah1_init g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
+		/ (cRightLinkIsol cRightLinkFina) MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
+
+	// Rule 2: lamInit-lam-alef-shadda-heh
+	g_lam_ar_init g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> g_lam_ar_allah1_init g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
+		/ (cRightLinkIsol cRightLinkFina) MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
+
+	// Rule 2: lamMedi-lam-shadda-alef-heh
+	g_lam_ar_medi g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> g_lam_ar_allah1_medi g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
+		/ (cDualLinkInit cDualLinkMedi) MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
+
+	// Rule 2: lamMedi-lam-alef-shadda-heh
+	g_lam_ar_medi g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
+		> g_lam_ar_allah1_medi g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
+		/ (cDualLinkInit cDualLinkMedi) MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
+
+
+	// Warsh diacritic placement:
 	
 	if (warshDiacritics == std)
 		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ / _ cMark1? _ ;
@@ -227,6 +263,8 @@ pass(4)	// Features, special behaviors
 				g_alef_ar=A (g_fatha_ar g_kasra_ar)=V > (g_alef_fatha_ar_warsh g_alef_kasra_ar_warsh)$V:(A,V) _ / _  cMark1? _ ;
 		endif;
 	endif;
+	
+	// other simple features:
 
 	if (dalAlt == senegal)
 		cno_loclWLF  >  cloclWLF;
