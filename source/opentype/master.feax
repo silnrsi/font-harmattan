@@ -19,6 +19,7 @@ languagesystem arab dflt ;
 languagesystem arab KUR  ;
 languagesystem arab SND  ;
 languagesystem arab URD  ;
+languagesystem arab WLF  ;
 languagesystem latn dflt ;
 
 
@@ -359,6 +360,13 @@ lookup KurdishCALT {
     sub heh-ar by heh-ar.knotted ;
     sub @Kasra_lowered by @Kasra ;
 } KurdishCALT;
+
+lookup WolofCALT {
+  lookupflag 0 ;
+    sub @cno_loclWLF by @c_loclWLF ;
+    sub @Damma by @Damma_short ;
+    sub dammainverted-ar by dammainverted-ar.open ;
+} WolofCALT;
 
 #********************
 # Substitutions for subtendng marks
@@ -886,6 +894,7 @@ feature ccmp {  # Glyph Composition/Decomposition
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } ccmp ;
 
 # feature locl
@@ -899,6 +908,7 @@ feature fina {  # Terminal Forms
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } fina ;
 
 # HB PAUSE
@@ -910,6 +920,7 @@ feature medi {  # Medial Forms
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } medi ;
 
 # HB PAUSE
@@ -921,6 +932,7 @@ feature init {  # Initial Forms
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } init ;
 
 # HB PAUSE
@@ -939,6 +951,7 @@ feature rlig {  # Required Ligatures
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } rlig ;
 
 # HB PAUSE
@@ -960,6 +973,8 @@ feature calt {  # Contextual Alternates
         lookup SindhiCALT ;
       language URD ; # Urdu
         lookup UrduCALT ;
+      language WLF ; # Wolof
+        lookup WolofCALT ;
 } calt ;
 
 # feature rclt
@@ -975,6 +990,7 @@ feature salt {  # Stylistic Alternates
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } salt ;
 
 feature cv02 {  # Character Variant 02
@@ -984,6 +1000,7 @@ feature cv02 {  # Character Variant 02
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Alef diacritic placement" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
@@ -999,6 +1016,7 @@ feature cv08 {  # Character Variant 08
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Jeem/Hah"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
@@ -1013,6 +1031,7 @@ feature cv12 {  # Character Variant 12
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dal"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
@@ -1027,6 +1046,7 @@ feature cv20 {  # Character Variant 20
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Sad/Dad"  ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1041,6 +1061,7 @@ feature cv44 {  # Character Variant 44
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Meem"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1056,6 +1077,7 @@ feature cv48 {  # Character Variant 48
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"      ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1073,6 +1095,7 @@ feature cv50 {  # Character Variant 50
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Arabic U" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1223,6 +1246,7 @@ feature kern {  # Kerning
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } kern ;
 
 feature curs { # Cursive connection
@@ -1232,6 +1256,7 @@ feature curs { # Cursive connection
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } curs ;
 
 feature mark {  # Mark to base Positioning
@@ -1245,6 +1270,7 @@ feature mark {  # Mark to base Positioning
       language KUR  ;
       language SND  ;
       language URD  ;
+      language WLF  ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning

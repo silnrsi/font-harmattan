@@ -479,63 +479,63 @@ jeemTwodotsabove-ar.init,uni08A2.init,,495,,,
 jeemTwodotsabove-ar.medi.hand,uni08A2.medi.hand,,496,,,cv08=1
 dal-ar,uni062F,062F,497,,,
 dal-ar.fina,uni062F.fina,,498,,,
-dal-ar.loclWLF,uni062F.loclWLF,,499,,,cv12=1
+dal-ar.loclWLF,uni062F.loclWLF,,499,wo,WLF,cv12=1
 dal-ar.fina.loclWLF,uni062F.fina.loclWLF,,500,,,
 thal-ar,uni0630,0630,501,,,
 thal-ar.fina,uni0630.fina,,502,,,
-thal-ar.loclWLF,uni0630.loclWLF,,503,,,cv12=1
+thal-ar.loclWLF,uni0630.loclWLF,,503,wo,WLF,cv12=1
 thal-ar.fina.loclWLF,uni0630.fina.loclWLF,,504,,,
 ddal-ar,uni0688,0688,505,,,
 ddal-ar.fina,uni0688.fina,,506,,,
-ddal-ar.loclWLF,uni0688.loclWLF,,507,,,cv12=1
+ddal-ar.loclWLF,uni0688.loclWLF,,507,wo,WLF,cv12=1
 ddal-ar.fina.loclWLF,uni0688.fina.loclWLF,,508,,,
 dahal-ar,uni068C,068C,509,,,
 dahal-ar.fina,uni068C.fina,,510,,,
-dahal-ar.loclWLF,uni068C.loclWLF,,511,,,cv12=1
+dahal-ar.loclWLF,uni068C.loclWLF,,511,wo,WLF,cv12=1
 dahal-ar.fina.loclWLF,uni068C.fina.loclWLF,,512,,,
 ddahal-ar,uni068D,068D,513,,,
 ddahal-ar.fina,uni068D.fina,,514,,,
-ddahal-ar.loclWLF,uni068D.loclWLF,,515,,,cv12=1
+ddahal-ar.loclWLF,uni068D.loclWLF,,515,wo,WLF,cv12=1
 ddahal-ar.fina.loclWLF,uni068D.fina.loclWLF,,516,,,
 dalRing-ar,uni0689,0689,517,,,
 dalRing-ar.fina,uni0689.fina,,518,,,
-dalRing-ar.loclWLF,uni0689.loclWLF,,519,,,cv12=1
+dalRing-ar.loclWLF,uni0689.loclWLF,,519,wo,WLF,cv12=1
 dalRing-ar.fina.loclWLF,uni0689.fina.loclWLF,,520,,,
 dalDotbelow-ar,uni068A,068A,521,,,
 dalDotbelow-ar.fina,uni068A.fina,,522,,,
-dalDotbelow-ar.loclWLF,uni068A.loclWLF,,523,,,cv12=1
+dalDotbelow-ar.loclWLF,uni068A.loclWLF,,523,wo,WLF,cv12=1
 dalDotbelow-ar.fina.loclWLF,uni068A.fina.loclWLF,,524,,,
 dalDotbelowTah-ar,uni068B,068B,525,,,
 dalDotbelowTah-ar.fina,uni068B.fina,,526,,,
-dalDotbelowTah-ar.loclWLF,uni068B.loclWLF,,527,,,cv12=1
+dalDotbelowTah-ar.loclWLF,uni068B.loclWLF,,527,wo,WLF,cv12=1
 dalDotbelowTah-ar.fina.loclWLF,uni068B.fina.loclWLF,,528,,,
 dul-ar,uni068E,068E,529,,,
 dul-ar.fina,uni068E.fina,,530,,,
-dul-ar.loclWLF,uni068E.loclWLF,,531,,,cv12=1
+dul-ar.loclWLF,uni068E.loclWLF,,531,wo,WLF,cv12=1
 dul-ar.fina.loclWLF,uni068E.fina.loclWLF,,532,,,
 dalThreedotsdown-ar,uni068F,068F,533,,,
 dalThreedotsdown-ar.fina,uni068F.fina,,534,,,
-dalThreedotsdown-ar.loclWLF,uni068F.loclWLF,,535,,,cv12=1
+dalThreedotsdown-ar.loclWLF,uni068F.loclWLF,,535,wo,WLF,cv12=1
 dalThreedotsdown-ar.fina.loclWLF,uni068F.fina.loclWLF,,536,,,
 dalFourdots-ar,uni0690,0690,537,,,
 dalFourdots-ar.fina,uni0690.fina,,538,,,
-dalFourdots-ar.loclWLF,uni0690.loclWLF,,539,,,cv12=1
+dalFourdots-ar.loclWLF,uni0690.loclWLF,,539,wo,WLF,cv12=1
 dalFourdots-ar.fina.loclWLF,uni0690.fina.loclWLF,,540,,,
 dalVinvertedabove-ar,uni06EE,06EE,541,,,
 dalVinvertedabove-ar.fina,uni06EE.fina,,542,,,
-dalVinvertedabove-ar.loclWLF,uni06EE.loclWLF,,543,,,cv12=1
+dalVinvertedabove-ar.loclWLF,uni06EE.loclWLF,,543,wo,WLF,cv12=1
 dalVinvertedabove-ar.fina.loclWLF,uni06EE.fina.loclWLF,,544,,,
 dalTwodotsverticalbelowTah-ar,uni0759,0759,545,,,
 dalTwodotsverticalbelowTah-ar.fina,uni0759.fina,,546,,,
-dalTwodotsverticalbelowTah-ar.loclWLF,uni0759.loclWLF,,547,,,cv12=1
+dalTwodotsverticalbelowTah-ar.loclWLF,uni0759.loclWLF,,547,wo,WLF,cv12=1
 dalTwodotsverticalbelowTah-ar.fina.loclWLF,uni0759.fina.loclWLF,,548,,,
 dalVinvertedbelow-ar,uni075A,075A,549,,,
 dalVinvertedbelow-ar.fina,uni075A.fina,,550,,,
-dalVinvertedbelow-ar.loclWLF,uni075A.loclWLF,,551,,,cv12=1
+dalVinvertedbelow-ar.loclWLF,uni075A.loclWLF,,551,wo,WLF,cv12=1
 dalVinvertedbelow-ar.fina.loclWLF,uni075A.fina.loclWLF,,552,,,
 dalThreedotsbelow-ar,uni08AE,08AE,553,,,
 dalThreedotsbelow-ar.fina,uni08AE.fina,,554,,,
-dalThreedotsbelow-ar.loclWLF,uni08AE.loclWLF,,555,,,cv12=1
+dalThreedotsbelow-ar.loclWLF,uni08AE.loclWLF,,555,wo,WLF,cv12=1
 dalThreedotsbelow-ar.fina.loclWLF,uni08AE.fina.loclWLF,,556,,,
 reh-ar,uni0631,0631,557,,,
 reh-ar.fina,uni0631.fina,,558,,,
@@ -1155,8 +1155,8 @@ kasratan-ar,uni064D,064D,1180,,,
 kasratan-ar.lowered,uni064D.lowered,,1181,,,
 fatha-ar,uni064E,064E,1182,,,
 damma-ar,uni064F,064F,1183,,,
-damma-ar.filled,uni064F.filled,,1184,,,cv70=2
-damma-ar.short,uni064F.short,,1185,,,cv70=1
+damma-ar.filled,uni064F.filled,,1184,,,cv70=1
+damma-ar.short,uni064F.short,,1185,wo,WLF,cv70=2
 kasra-ar,uni0650,0650,1186,,,
 kasra-ar.lowered,uni0650.lowered,,1187,,,
 shadda-ar,uni0651,0651,1188,,,
@@ -1167,7 +1167,7 @@ madda-ar,uni0653,0653,1192,,,
 madda-ar.small,uni0653.small,,1193,,,cv60=1
 noonghunnaabove-ar,uni0658,0658,1194,,,
 dammainverted-ar,uni0657,0657,1195,,,
-dammainverted-ar.open,uni0657.open,,1196,,,cv74=1
+dammainverted-ar.open,uni0657.open,,1196,wo,WLF,cv74=1
 fathaHorizont-ar,uni0659,0659,1197,,,
 vabove-ar,uni065A,065A,1198,,,
 vinvertedabove-ar,uni065B,065B,1199,,,
@@ -1367,8 +1367,8 @@ damma_meem-ar,uni064F06E2,064F 06E2,1395,,,
 fatha_meem-ar,uni064E06E2,064E 06E2,1396,,,
 hamza_fatha-ar,uni0654064E,0654 064E,1397,,,
 hamza_damma-ar,uni0654064F,0654 064F,1398,,,
-hamza_damma-ar.short,uni0654064F.short,,1399,,,cv70=2
-hamza_damma-ar.filled,uni0654064F.filled,,1400,,,cv70=1
+hamza_damma-ar.filled,uni0654064F.filled,,1399,,,cv70=1
+hamza_damma-ar.short,uni0654064F.short,,1400,wo,WLF,cv70=2
 kasra_meem-ar,uni065006E2,0650 06E2,1401,,,
 shadda_alef-ar,uni06510670,0651 0670,1402,,,
 shadda_fathatan-ar,uni0651064B,0651 064B,1403,,,
@@ -1377,8 +1377,8 @@ shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,sd,SND,cv72=1
 shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur,ku","SND,URD,KUR",cv62
 shadda_fatha-ar,uni0651064E,0651 064E,1407,,,
 shadda_damma-ar,uni0651064F,0651 064F,1408,,,
-shadda_damma-ar.short,uni0651064F.short,,1409,,,cv70=2
-shadda_damma-ar.filled,uni0651064F.filled,,1410,,,cv70=1
+shadda_damma-ar.filled,uni0651064F.filled,,1409,,,cv70=1
+shadda_damma-ar.short,uni0651064F.short,,1410,wo,WLF,cv70=2
 shadda_kasra-ar,uni06510650,0651 0650,1411,"sd,ur,ku","SND,URD,KUR",cv62
 enquad,uni2000,2000,1412,,,
 emquad,uni2001,2001,1413,,,

@@ -315,7 +315,8 @@ easternDigits {
             value = 0;
             name.1033 = string("Standard");
         }
-//        rohingya {
+//  kurdish-style (value = 3) unneeded as it is same as default
+//        rohingya {	// Not implemented in Harmattan
 //            value = 4;
 //            name.1033 = string("Rohingya-style");
 //        }
@@ -440,5 +441,11 @@ urdu {
     // shaddaKasra = lowered;  // is the default for Harmattan
 };
 
+wolof {
+    languages = ( "wol", "wo"); // Wolof
+    dalAlt = senegal;
+    dammaAlt = short;
+    ultapeshAlt = hollow;
+};
 
 endtable; // language
