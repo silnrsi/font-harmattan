@@ -418,6 +418,8 @@ lookup SignWith {
         [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target ;
     sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
         [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ] ;
 } SignWith;
 
 
