@@ -15,14 +15,14 @@ with the Reserved Font Name "Fouta".
 Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2018, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>descender</key>
   <integer>-1274</integer>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2018/12/13 12:23:24</string>
+  <string>2019/02/21 23:09:55</string>
   <key>openTypeHheaAscender</key>
   <integer>2080</integer>
   <key>openTypeHheaDescender</key>
@@ -30,16 +30,18 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Harmattan, named after the trade winds that blow during the winter in West
-Africa, is designed in a Warsh style to suit the needs of languages using
-the Arabic script in West Africa. 
+  <string>Harmattan, named after the trade winds that blow during the dry season in 
+West Africa, is designed in a Warsh style to suit the needs of languages 
+using the Arabic script in West Africa.
 
-The font does not cover the full Unicode Arabic repertoire. It only supports 
-characters known to be used by languages in West Africa.
+This font includes full support for Unicode 8.0 Arabic ranges 
+(excluding the Arabic Presentation Forms blocks, which are not recommended 
+for normal use). It also includes many of the characters in the 
+Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
 
-This font makes use of state-of-the-art font technologies to support complex 
-typographic issues. Font smarts are implemented using OpenType and Graphite 
-technologies.</string>
+This font uses state-of-the-art OpenType and Graphite font technologies, 
+including variant glyphs for a number of characters for use in particular 
+contexts.</string>
   <key>openTypeNameDesigner</key>
   <string>George W. Nuss III and SIL International</string>
   <key>openTypeNameDesignerURL</key>
@@ -53,7 +55,7 @@ with the Reserved Font Name "Fouta".
 Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".
 
 ----------------------------------------------------
@@ -105,7 +107,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Harmattan Regular: 2018</string>
+  <string>SIL International: Harmattan Regular: 2019</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.040</string>
   <key>openTypeOS2CodePageRanges</key>

@@ -1461,8 +1461,8 @@
     <string>fatha_meem-ar</string>
     <string>hamza_fatha-ar</string>
     <string>hamza_damma-ar</string>
-    <string>hamza_damma-ar.short</string>
     <string>hamza_damma-ar.filled</string>
+    <string>hamza_damma-ar.short</string>
     <string>kasra_meem-ar</string>
     <string>shadda_alef-ar</string>
     <string>shadda_fathatan-ar</string>
@@ -1471,8 +1471,8 @@
     <string>shadda_kasratan-ar</string>
     <string>shadda_fatha-ar</string>
     <string>shadda_damma-ar</string>
-    <string>shadda_damma-ar.short</string>
     <string>shadda_damma-ar.filled</string>
+    <string>shadda_damma-ar.short</string>
     <string>shadda_kasra-ar</string>
     <string>enquad</string>
     <string>emquad</string>
@@ -2995,8 +2995,8 @@
     <string>fatha_meem-ar</string>
     <string>hamza_fatha-ar</string>
     <string>hamza_damma-ar</string>
-    <string>hamza_damma-ar.short</string>
     <string>hamza_damma-ar.filled</string>
+    <string>hamza_damma-ar.short</string>
     <string>kasra_meem-ar</string>
     <string>shadda_alef-ar</string>
     <string>shadda_fathatan-ar</string>
@@ -3005,8 +3005,8 @@
     <string>shadda_kasratan-ar</string>
     <string>shadda_fatha-ar</string>
     <string>shadda_damma-ar</string>
-    <string>shadda_damma-ar.short</string>
     <string>shadda_damma-ar.filled</string>
+    <string>shadda_damma-ar.short</string>
     <string>shadda_kasra-ar</string>
     <string>enquad</string>
     <string>emquad</string>
