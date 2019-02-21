@@ -1,0 +1,4 @@
+#!/bin/sh
+# script to convert UFOs to glyphs file for editing
+
+psfufo2glyphs source/Harmattan-RB.designspace source/Harmattan-RB.glyphs
