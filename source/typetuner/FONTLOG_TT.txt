@@ -16,7 +16,8 @@ using the Arabic script in West Africa.
 This font includes full support for Unicode 8.0 Arabic ranges 
 (excluding the Arabic Presentation Forms blocks, which are not recommended 
 for normal use). It also includes many of the characters in the 
-Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
+Arabic Extended-A block that were added to Unicode 9.0 and 11.0 (no Arabic 
+script characters were added to Unicode 10.0).
 
 This font uses state-of-the-art OpenType and Graphite font technologies, 
 including variant glyphs for a number of characters for use in particular 
@@ -29,9 +30,10 @@ simplified style is often preferred for clarity, especially in non-Arabic
 languages, but may be considered unattractive in more traditional and 
 literate communities.
 
-One font from this typeface family is included in this release:
+Two fonts from this typeface family are included in this release:
 
      * Harmattan Regular
+     * Harmattan Bold
 
 For detailed documentation see the contents of the 'documentation' folder.
 
