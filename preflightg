@@ -3,7 +3,7 @@
 
 echo ""
 echo "Converting .glyphs to UFO3..."
-if psfglyphs2ufo --nofea source/Harmattan-master.glyphs source
+if psfglyphs2ufo --nofea source/Harmattan-RB.glyphs source
 then
 	# Succss. Now fix up the advancewidth of yehbelow-ar
 	psfremovegliflibkeys source/Harmattan-Regular.ufo com.schriftgestaltung.Glyphs.originalWidth
