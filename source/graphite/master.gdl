@@ -93,18 +93,6 @@ quranic marks, so multiples don't work right.
 
 #define alefAttached user1
 
-
-// Now add additional classes we need:
-
-table(glyph)
-
-	cShaddaKasraLigatures {
-		component.shadda = box(bb.left, bb.bottom, bb.right, bb.bottom + bb.height/2);
-		component.kasra  = box(bb.left, bb.bottom + bb.height/2, bb.right, bb.top)
-	};
-
-endtable; // glyph
-
 // Allow a sequence of up to 4 marks.
 #define MARKS [ cAnyMarks [ cAnyMarks [ cAnyMarks cAnyMarks? ]? ]? ]?
 
