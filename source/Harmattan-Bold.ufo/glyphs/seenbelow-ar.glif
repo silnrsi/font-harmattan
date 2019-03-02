@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenbelow-ar" format="2">
   <unicode hex="06E3"/>
-  <anchor x="216" y="-774" name="_dia2B"/>
   <anchor x="241" y="-307" name="_diaB"/>
   <outline>
     <component base="seenabove-ar" yOffset="-2000"/>

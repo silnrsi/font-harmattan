@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammaturnedbelow-ar" format="2">
   <unicode hex="08E3"/>
-  <anchor x="8" y="-832" name="_dia2B"/>
   <anchor x="12" y="-192" name="_diaB"/>
   <outline>
     <component base="dammainverted-ar.open" yOffset="-2040"/>

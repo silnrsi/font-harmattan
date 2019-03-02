@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meembelow-ar" format="2">
   <unicode hex="06ED"/>
-  <anchor x="94" y="-380" name="_dia2B"/>
   <anchor x="101" y="-380" name="_diaB"/>
   <outline>
     <component base="meemStopabove-ar" xOffset="-10" yOffset="-2098"/>

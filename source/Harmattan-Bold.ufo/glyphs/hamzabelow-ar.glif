@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamzabelow-ar" format="2">
   <unicode hex="0655"/>
-  <anchor x="302" y="-226" name="_dia2B"/>
   <anchor x="327" y="-226" name="_diaB"/>
   <anchor x="335" y="-640" name="diaB"/>
   <outline>
