@@ -39,6 +39,9 @@ lookup SmallMaddah {
 
 lookup DecomposeForColor {
   lookupflag IgnoreMarks ;
+    # NB: For Harmattan, the following is doing extra work by decomposing 
+    #     alef+hamza because that will just get recomposed by LigaturesForWarsh but
+    #     I'd rather keep the code in its most applicable form for other projects:
     sub @AlefPlusMark by alef-ar @AlefMark ;
 } DecomposeForColor;
 
@@ -447,27 +450,24 @@ lookup WarshAlternatesTT2 {
     sub alefHamzaabove-ar.fina by alefHamzaabove-ar.warsh.fina ;
     sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
     sub alefHamzabelow-ar.fina by alefHamzabelow-ar.warsh.fina ;
+    sub lam_hamza-ar.preAlef.init by lam_hamza-ar.preAlef.warsh.init ;
     sub alef_fatha-ar by alef_fatha-ar.warsh ;
     sub alef_kasra-ar by alef_kasra-ar.warsh ;
-    # hamza touching alef-after-lam available but not requested by community:
-    # sub alefHamzaabove-ar.postLamIni.fina by alefHamzaabove-ar.postLamIni.warsh.fina  
-    # sub alefHamzaabove-ar.postLamMed.fina by alefHamzaabove-ar.postLamMed.warsh.fina
-    sub lam_hamza-ar.preAlef.init by lam_hamza-ar.preAlef.warsh.init ;
 } WarshAlternatesTT2;
 
 # Warsh alternates: cv02
 
 lookup WarshAlternates {
   lookupflag IgnoreMarks ;
+    # Hamza touching is for cv02=1 or cv02=2 :
     sub alefHamzaabove-ar from [ alefHamzaabove-ar.warsh alefHamzaabove-ar.warsh ] ;
     sub alefHamzaabove-ar.fina from [ alefHamzaabove-ar.warsh.fina alefHamzaabove-ar.warsh.fina ] ;
     sub alefHamzabelow-ar from [ alefHamzabelow-ar.warsh alefHamzabelow-ar.warsh ] ;
     sub alefHamzabelow-ar.fina from [ alefHamzabelow-ar.warsh.fina alefHamzabelow-ar.warsh.fina ] ;
+    sub lam_hamza-ar.preAlef.init from [ lam_hamza-ar.preAlef.warsh.init lam_hamza-ar.preAlef.warsh.init ] ;
+    # fatha and kasra touching isolate alef happens with cv02=2 :
     sub alef_fatha-ar from [ alef_fatha-ar alef_fatha-ar.warsh ] ;
     sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
-    # sub alefHamzaabove-ar.postLamIni.fina from ...
-    # sub alefHamzaabove-ar.postLamMed.fina from ...
-    sub lam_hamza-ar.preAlef.init from [ lam_hamza-ar.preAlef.warsh.init lam_hamza-ar.preAlef.warsh.init ] ;
 } WarshAlternates;
 
 
@@ -816,7 +816,10 @@ lookup Kern {
 # move MarksBelow slightly left on lam-alef when appropriate:
 lookup AlefMark2BelowAfterLam {
   lookupflag UseMarkFilteringSet @MarksBelow ;
-    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @AllAlefFinAfterLam' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
     #pos lamThreedotsbelow-ar.preAlef.init @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
     # Unneeded in Harmattan design:
@@ -1056,6 +1059,7 @@ do if False;
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & arabic:
         lookup SmallMaddah;
+        # DecomposeForColor executes here for Arabic
         lookup FontCheck;
         sub @Kasra by @Kasra_lowered;	# Harmattan defaults to lowered kasra
     script arab;  # Arabic

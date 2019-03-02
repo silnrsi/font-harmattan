@@ -212,9 +212,6 @@
         alefTwoabove-ar.postLamMed.fina alefThreeabove-ar.postLamMed.fina 
     </class>
 
-    <class name='AllAlefFinAfterLam'>
-        @AlefFinAfterLamIni @AlefFinAfterLamMed
-    </class>
 
 
     <!-- class name='Whitespace'> Not used ?
