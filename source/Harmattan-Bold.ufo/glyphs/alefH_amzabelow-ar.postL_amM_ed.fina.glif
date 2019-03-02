@@ -2,12 +2,11 @@
 <glyph name="alefHamzabelow-ar.postLamMed.fina" format="2">
   <advance width="994"/>
   <anchor x="1" y="960" name="alef"/>
-  <anchor x="369" y="-471" name="dia2B"/>
   <anchor x="206" y="1114" name="diaA"/>
-  <anchor x="378" y="-463" name="diaB"/>
+  <anchor x="251" y="-528" name="diaB"/>
   <anchor x="556" y="121" name="entry"/>
   <outline>
     <component base="alef-ar.postLamMed.fina"/>
-    <component base="hamzaabove-ar" xOffset="141" yOffset="-1763"/>
+    <component base="hamzaabove-ar" xOffset="-40" yOffset="-1838"/>
   </outline>
 </glyph>
