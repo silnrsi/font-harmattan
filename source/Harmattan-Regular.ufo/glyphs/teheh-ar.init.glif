@@ -9,10 +9,4 @@
     <component base="behDotless-ar.init"/>
     <component base="_dot4" xOffset="203" yOffset="717"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

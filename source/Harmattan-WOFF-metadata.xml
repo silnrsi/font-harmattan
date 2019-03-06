@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.Harmattan.1.040" />
+  <uniqueid id="org.sil.fonts.Harmattan.1.041" />
   <vendor name="SIL International" url="http://www.sil.org/" />
   <credits>
     <credit
@@ -33,7 +33,8 @@
       This font includes full support for Unicode 8.0 Arabic ranges
       (excluding the Arabic Presentation Forms blocks, which are not recommended
       for normal use). It also includes many of the characters in the
-      Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
+      Arabic Extended-A block that were added to Unicode 9.0 and 11.0 (no Arabic
+      script characters were added to Unicode 10.0).
       
       This font uses state-of-the-art OpenType and Graphite font technologies,
       including variant glyphs for a number of characters for use in particular
@@ -142,7 +143,7 @@
       Copyright (c) 2004-2015, SIL International (http://scripts.sil.org), 
       with Reserved Font Names 'Andika' and 'SIL'.
       
-      Copyright (c) 2014-2016, SIL International (http://www.sil.org/).
+      Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
       with Reserved Font Names "Harmattan" and "SIL".
       
       ----------------------------------------------------
@@ -192,10 +193,10 @@
       Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
       with the Reserved Font Name "Fouta".
       
-      Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
+      Copyright (c) 2004-2016, SIL International (http://www.sil.org), 
       with Reserved Font Names 'Andika' and 'SIL'.
       
-      Copyright (c) 2014-2018, SIL International (http://www.sil.org/).
+      Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
       with Reserved Font Names "Harmattan" and "SIL".
     </text>
   </copyright>

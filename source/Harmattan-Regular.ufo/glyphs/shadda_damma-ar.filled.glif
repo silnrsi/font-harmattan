@@ -6,10 +6,4 @@
     <component base="shadda-ar" xOffset="-250" yOffset="-387"/>
     <component base="damma-ar.filled" xOffset="-250"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

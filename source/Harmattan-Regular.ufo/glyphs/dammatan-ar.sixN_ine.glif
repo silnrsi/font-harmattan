@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammatan-ar.sixNine" format="2">
-  <anchor x="66" y="1265" name="_diaA"/>
-  <anchor x="10" y="1906" name="diaA"/>
+  <anchor x="16" y="1245" name="_diaA"/>
+  <anchor x="30" y="1916" name="diaA"/>
   <outline>
     <component base="damma-ar" xScale="0.90909" yScale="0.90909" xOffset="-57" yOffset="126"/>
     <component base="damma-ar" xScale="-0.90688" xyScale="0.06341" yxScale="-0.06341" yScale="-0.90688" xOffset="202" yOffset="3007"/>

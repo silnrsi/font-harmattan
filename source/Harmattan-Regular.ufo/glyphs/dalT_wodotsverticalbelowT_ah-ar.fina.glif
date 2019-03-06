@@ -9,10 +9,4 @@
     <component base="tahabove-ar" xOffset="388" yOffset="-228"/>
     <component base="_dot2v" xOffset="425" yOffset="-293"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

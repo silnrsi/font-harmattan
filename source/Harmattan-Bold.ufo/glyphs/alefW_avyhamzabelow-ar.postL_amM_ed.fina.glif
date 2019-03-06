@@ -3,18 +3,12 @@
   <advance width="994"/>
   <anchor x="1" y="960" name="alef"/>
   <anchor x="530" y="-57" name="below"/>
-  <anchor x="268" y="-549" name="diaB"/>
-  <anchor x="206" y="1114" name="diaA"/>
   <anchor x="235" y="-549" name="dia2B"/>
+  <anchor x="206" y="1114" name="diaA"/>
+  <anchor x="268" y="-549" name="diaB"/>
   <anchor x="556" y="121" name="entry"/>
   <outline>
     <component base="alef-ar.postLamMed.fina"/>
-    <component base="_wavyHamza" xOffset="313" yOffset="-327"/>
+    <component base="_wavyHamza" xOffset="313" yOffset="-1577"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

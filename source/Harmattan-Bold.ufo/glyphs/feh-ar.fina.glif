@@ -2,7 +2,7 @@
 <glyph name="feh-ar.fina" format="2">
   <advance width="1774"/>
   <anchor x="371" y="590" name="alef"/>
-  <anchor x="1261" y="1189" name="diaA"/>
+  <anchor x="1261" y="1199" name="diaA"/>
   <anchor x="1196" y="-216" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.fina"/>

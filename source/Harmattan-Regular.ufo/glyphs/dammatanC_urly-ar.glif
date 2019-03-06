@@ -7,10 +7,4 @@
     <component base="dammaCurly-ar" xScale="-0.90909" yScale="-0.90909" xOffset="-156" yOffset="2938"/>
     <component base="dammaCurly-ar" xScale="0.90909" yScale="0.90909" xOffset="82" yOffset="-89"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -8,12 +8,6 @@
   <anchor x="556" y="121" name="entry"/>
   <outline>
     <component base="alef-ar.postLamMed.fina"/>
-    <component base="_wavyHamza" xOffset="343" yOffset="-327"/>
+    <component base="_wavyHamza" xOffset="343" yOffset="-1538"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

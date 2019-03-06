@@ -8,10 +8,4 @@
     <component base="reh-ar.fina"/>
     <component base="_dot2h_tah" xOffset="396" yOffset="910"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

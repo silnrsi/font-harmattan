@@ -12,7 +12,7 @@
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name "Fouta".
 
-Copyright (c) 2004-2016, SIL International (http://scripts.sil.org), 
+Copyright (c) 2004-2016, SIL International (http://www.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
 
 Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
@@ -22,7 +22,7 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/02/21 23:11:00</string>
+  <string>2019/03/06 09:51:03</string>
   <key>openTypeHheaAscender</key>
   <integer>2080</integer>
   <key>openTypeHheaDescender</key>
@@ -45,7 +45,7 @@ contexts.</string>
   <key>openTypeNameDesigner</key>
   <string>George W. Nuss III and SIL International</string>
   <key>openTypeNameDesignerURL</key>
-  <string>http://scripts.sil.org/ and http://fulbefouta.com/</string>
+  <string>http://www.fulbefouta.com</string>
   <key>openTypeNameLicense</key>
   <string>Copyright (c) 2007-2008, The C&amp;MA Guinea Fulbe Team;
 
@@ -200,7 +200,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>versionMajor</key>
   <integer>1</integer>
   <key>versionMinor</key>
-  <integer>40</integer>
+  <integer>41</integer>
   <key>xHeight</key>
   <integer>778</integer>
 </dict>

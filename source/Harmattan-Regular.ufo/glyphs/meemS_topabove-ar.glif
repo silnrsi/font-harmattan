@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemStopabove-ar" format="2">
   <unicode hex="06E2"/>
-  <anchor x="129" y="1327" name="_diaA"/>
-  <anchor x="110" y="1737" name="diaA"/>
+  <anchor x="209" y="1167" name="_diaA"/>
+  <anchor x="110" y="1807" name="diaA"/>
   <outline>
     <contour>
       <point x="-22.104" y="1465.928" type="line"/>

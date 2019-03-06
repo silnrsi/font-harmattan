@@ -2,18 +2,12 @@
 <glyph name="alefTwoabove-ar.postLamMed.fina" format="2">
   <advance width="994"/>
   <anchor x="-41" y="1470" name="alef"/>
-  <anchor x="248" y="-89" name="diaB"/>
-  <anchor x="212" y="1532" name="diaA"/>
   <anchor x="215" y="-89" name="dia2B"/>
+  <anchor x="212" y="1532" name="diaA"/>
+  <anchor x="248" y="-89" name="diaB"/>
   <anchor x="556" y="121" name="entry"/>
   <outline>
     <component base="alef-ar.postLamMed.fina"/>
     <component base="_two" xOffset="120" yOffset="1290"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>

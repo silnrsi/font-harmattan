@@ -2,17 +2,11 @@
 <glyph name="teheh-ar.medi" format="2">
   <advance width="580"/>
   <unicode hex="FB65"/>
-  <anchor x="-152" y="535" name="alef"/>
+  <anchor x="-116" y="1111" name="alef"/>
   <anchor x="183" y="1138" name="diaA"/>
   <anchor x="296" y="-81" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
     <component base="_dot4" xOffset="233" yOffset="687"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.85,0.26,0.06,1</string>
-    </dict>
-  </lib>
 </glyph>
