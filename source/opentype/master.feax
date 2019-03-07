@@ -307,7 +307,7 @@ lookup LamAlefLigatures {
 
 
 #********************
-# Reordering of marks
+# Reordering of madda: moving it beyond anything in groups 1A, 2A, or 3A
 
 lookup ReorderMaddaVowel1_target {
   lookupflag 0 ;
