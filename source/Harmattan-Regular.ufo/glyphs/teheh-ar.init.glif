@@ -2,7 +2,7 @@
 <glyph name="teheh-ar.init" format="2">
   <advance width="429"/>
   <unicode hex="FB64"/>
-  <anchor x="-182" y="515" name="alef"/>
+  <anchor x="-85" y="1050" name="alef"/>
   <anchor x="153" y="1168" name="diaA"/>
   <anchor x="217" y="-74" name="diaB"/>
   <outline>

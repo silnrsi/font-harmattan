@@ -68,6 +68,7 @@
  </string>
     <string>/kasraCurly-ar   /kasra-ar  /hahTahTwodotshorizontalabove-ar  /hahTahTwodotshorizontalabove-ar.fina  /hahTahTwodotshorizontalabove-ar.medi  /hahTahTwodotshorizontalabove-ar.medi.hand  /hahTahTwodotshorizontalabove-ar.init</string>
     <string>/lam-ar.preAlef.init/alef-ar.postLamIni.fina/lam-ar.preAlef.init/alefHamzabelow-ar.postLamIni.fina  /lam-ar.preAlef.medi/alef-ar.postLamMed.fina/lam-ar.preAlef.medi/alefHamzabelow-ar.postLamMed.fina  /lamVabove-ar.preAlef.init/alefWavyhamzabelow-ar.postLamIni.fina  /lamVabove-ar.preAlef.medi/alefWavyhamzabelow-ar.postLamMed.fina</string>
+    <string>/teheh-ar.medi/teheh-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
