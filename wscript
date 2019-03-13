@@ -24,7 +24,7 @@ Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name \"Fouta\".
 
-Copyright (c) 2004-2017, SIL International (http://www.sil.org),
+Copyright (c) 2004-2019, SIL International (http://www.sil.org),
 with Reserved Font Names \'Andika\' and \'SIL\'.
 
 Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
