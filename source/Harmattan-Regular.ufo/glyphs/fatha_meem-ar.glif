@@ -4,10 +4,10 @@
   <anchor x="190" y="1691" name="diaA"/>
   <outline>
     <contour>
-      <point x="14917.219" y="1509.401" type="move"/>
-      <point x="14925.019" y="1512.498"/>
-      <point x="14924.172" y="1509.668"/>
-      <point x="14924.172" y="1514.896" type="curve"/>
+      <point x="14917" y="1509" type="move"/>
+      <point x="14925" y="1512"/>
+      <point x="14924" y="1510"/>
+      <point x="14924" y="1515" type="curve"/>
     </contour>
     <component base="fatha-ar" xOffset="125" yOffset="-199"/>
     <component base="meemStopabove-ar" xOffset="190" yOffset="-37"/>

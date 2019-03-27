@@ -2,8 +2,8 @@
 <glyph name="onequarter" format="2">
   <advance width="1294"/>
   <unicode hex="00BC"/>
-  <anchor x="239" y="478.5" name="L"/>
-  <anchor x="239" y="1236.14" name="U"/>
+  <anchor x="239" y="479" name="L"/>
+  <anchor x="239" y="1236" name="U"/>
   <outline>
     <contour>
       <point x="1018" y="1200" type="line"/>
