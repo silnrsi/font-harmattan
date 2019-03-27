@@ -272,13 +272,15 @@ lookup AllahLigatures {
 #********
 # "touching" Warsh diacritics (implemented as ligatures)
 
+@WarshMarkFilter = [ @MarkGroup1A @MarkGroup1B @MarkGroup2A ];
+
 lookup LigaturesForWarsh1 {
-  lookupflag UseMarkFilteringSet @HamzaAbove ;
+  lookupflag UseMarkFilteringSet @WarshMarkFilter ;
     sub lam-ar.init' hamzaabove-ar' @AlefFin by lam_hamza-ar.preAlef.init;
 } LigaturesForWarsh1;
 
 lookup LigaturesForWarsh2 {
-  lookupflag UseMarkFilteringSet @HamzaAny ;
+  lookupflag UseMarkFilteringSet @WarshMarkFilter ;
     sub alef-ar hamzaabove-ar by alefHamzaabove-ar ;
     sub alef-ar.fina hamzaabove-ar by alefHamzaabove-ar.fina ;
     sub alef-ar hamzabelow-ar by alefHamzabelow-ar ;
@@ -286,7 +288,7 @@ lookup LigaturesForWarsh2 {
 } LigaturesForWarsh2;
 
 lookup LigaturesForWarsh3 {
-  lookupflag UseMarkFilteringSet @HamzaKasraFatha ;
+  lookupflag UseMarkFilteringSet @WarshMarkFilter ;
     sub alef-ar kasra-ar by alef_kasra-ar ;
     sub alef-ar fatha-ar by alef_fatha-ar ;
 } LigaturesForWarsh3;
@@ -330,7 +332,7 @@ lookup ReorderMaddaVowel2_target {
 
 lookup ReorderMaddaVowel2 {
   lookupflag 0 ;
-    sub madda-ar.small' lookup ReorderMaddaVowel2_target [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]'  madda-ar.small ;
+    sub madda-ar.small' lookup ReorderMaddaVowel2_target [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]  madda-ar.small ;
 } ReorderMaddaVowel2;
 
 #********************
@@ -1062,6 +1064,8 @@ feature ccmp {  # Glyph Composition/Decomposition
         # DecomposeForColor executes here for Arabic
         lookup FontCheck;
         sub @Kasra by @Kasra_lowered;	# Harmattan defaults to lowered kasra
+        lookup ReorderMaddaVowel1;
+        lookup ReorderMaddaVowel2;
     script arab;  # Arabic
         lookup DecomposeForColor;
       # Force other languages to include Arabic script lookups
@@ -1139,8 +1143,6 @@ feature calt {  # Contextual Alternates
         lookup SignWithDigits;
         # lookup SignDigits;
     script arab;  # Arabic
-        lookup ReorderMaddaVowel1;
-        lookup ReorderMaddaVowel2;
       language KUR ; # Kurdish
         lookup KurdishCALT ;
       language SND ; # Sindhi

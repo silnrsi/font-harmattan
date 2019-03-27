@@ -154,9 +154,9 @@ pass(2)	// Reorder marks to "logical" order (this allows for arbitrary order inp
 	// We don't swap the glyphs, because that would mess up the original order,
 	// rather we delete and insert.
 	
-	_  cMark234  cMark1  >  @5:5  @2  _  / _  _  ^  [ cMark234 cMark234? ]?  _;
-	_  cMark34   cMark2  >  @5:5  @2  _  / _  _  ^  [ cMark34  cMark34?  ]?  _;
-	_  cMark4    cMark3  >  @5:5  @2  _  / _  _  ^  [ cMark4   cMark4?   ]?  _;
+	_  cMark234  cMark1  >  @5:5  @2  _  / _  ^  _  [ cMark234 cMark234? ]?  _;
+	_  cMark34   cMark2  >  @5:5  @2  _  / _  ^  _  [ cMark34  cMark34?  ]?  _;
+	_  cMark4    cMark3  >  @5:5  @2  _  / _  ^  _  [ cMark4   cMark4?   ]?  _;
 	
 	// Note: Jonathan says inserting circles is a bad idea for minority language support.
 
