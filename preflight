@@ -21,4 +21,9 @@ psfnormalize -p checkfix=fix source/*-Bold.ufo
 echo "Updating woff metadata file..."
 psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/*-Regular.ufo
 
+echo "Building internal fea..."
+psfmakefea -o source/Harmattan-Regular.ufo/features.fea -l Harmattan-Regular-psfmakefea.log -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" source/*-Regular.ufo &
+psfmakefea -o source/Harmattan-Bold.ufo/features.fea    -l Harmattan-Bold-psfmakefea.log    -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" source/*-Bold.ufo    &
+wait
+
 echo "preflight completed!"
