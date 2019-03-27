@@ -67,6 +67,7 @@ $RECYCLE.BIN/
 # Opaque formats to keep out of git
 *.fog
 *.vfc
+*.glyphs
 
 # generated releases
 *.zip
