@@ -347,9 +347,7 @@
     </class>
 
 
-    <class name='HamzaKasraFatha'>
-        fatha-ar kasra-ar hamzaabove-ar hamzabelow-ar
-    </class>
+    <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
     <class name='HamzaLigatures'>
         hamza_fatha-ar hamza_damma-ar hamza_damma-ar.short
@@ -359,6 +357,7 @@
         fatha-ar damma-ar damma-ar.short
     </class>
 
+
     <class name='HamzaAbove'>
         hamzaabove-ar
     </class>
@@ -366,7 +365,6 @@
     <class name='HamzaLigatureParts'>
         @HamzaAbove @HamzaMarks
     </class>
-
 
     <class name='HamzaAny'>
         hamzaabove-ar hamzabelow-ar
