@@ -51,6 +51,8 @@ designspace('source/Harmattan-RB.designspace',
     params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+        cmd('${TYPETUNER} -o {$TGT} add ${SRC} ${DEP}', [ create( generated + '${DS:FILENAME_BASE}_feat.xml', 
+        	cmd('${PSFTUNERALIASES} -m '+ generated + '${DS:FILENAME_BASE}.map -f ${DS:FILENAME_BASE}.ttf ${SRC} ${TGT}', ['source/typetuner/feat_all.xml'], late=1))], late=1),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
@@ -72,10 +74,11 @@ designspace('source/Harmattan-RB.designspace',
     script='arab',
     pdf=fret(params='-r'),
     woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
-#   typetuner='source/typetuner/feat_all.xml'
     )
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
+    ctx.find_program('typetuner')
+    ctx.find_program('psftuneraliases')
 #    ctx.find_program('ttfautohint')
 
