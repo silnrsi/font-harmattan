@@ -52,7 +52,7 @@ designspace('source/Harmattan-RB.designspace',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
         cmd('${TYPETUNER} -o {$TGT} add ${SRC} ${DEP}', [ create( generated + '${DS:FILENAME_BASE}_feat.xml', 
-        	cmd('${PSFTUNERALIASES} -m '+ generated + '${DS:FILENAME_BASE}.map -f ${DS:FILENAME_BASE}.ttf ${SRC} ${TGT}', ['source/typetuner/feat_all.xml'], late=1))], late=1),
+        	cmd('${PSFTUNERALIASES} -m ${SRC[1]} -f ${SRC[2]} ${SRC[0]} ${TGT}', ['source/typetuner/feat_all.xml', generated + '${DS:FILENAME_BASE}.map', '${DS:FILENAME_BASE}.ttf'], taskgens=["${DS:FILENAME_BASE}.ttf_fea"]))], ),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
