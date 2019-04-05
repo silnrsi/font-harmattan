@@ -350,30 +350,6 @@ commaAlt {
 }
 
 
-// graphite1mirror {
-//  id = "gr1m";
-//  name.1033 = string("Mirroring for Graphite 1");
-//  default = false;
-// }
-
-
-invis {
-    id = "invs";
-    name.1033 = string("Show invisible characters");
-    settings {
-        off {
-            value = 0;
-            name.1033 = string("False");
-        }
-        on {
-            value = 1;
-            name.1033 = string("True");
-        }
-    }
-    default = off;
-
-}
-
 #if 0
 
 debug {

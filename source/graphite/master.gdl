@@ -348,12 +348,6 @@ pass(4)	// Features, special behaviors
 	if (commaAlt == down)
 		cno_downward  >  cdownward;
 	endif;
-
-	if (!invis)
-		// Note that substitution changes the directionality to the defaults for the
-		// substituted glyph. :-( So be sure to fix it:
-		cInvisible > zeroWidthSpace {directionality = @1.directionality};
-	endif; 
 	
 endpass; // 4
 

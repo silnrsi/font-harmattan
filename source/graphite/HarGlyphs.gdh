@@ -124,12 +124,6 @@ firstStrongIsolate = postscript("firststrongisolate") {dir = DIR_FSI} ;
 popDirectionalIsolate = postscript("popdirectionalisolate") {dir = DIR_PDI} ;
 arabicLetterMark = postscript("mark-ar") {dir = DIR_ARABIC} ;
 
-cInvisible = (zeroWidthJoiner zeroWidthNonJoiner leftToRightMark rightToLeftMark leftToRightEmbedding
-	rightToLeftEmbedding popDirectionalFormatting leftToRightOverride rightToLeftOverride
-	leftToRightIsolate rightToLeftIsolate firstStrongIsolate popDirectionalIsolate arabicLetterMark);
-
-zeroWidthSpace = postscript("zerowidthspace");
-
 
 //------------------------------------------------------------------------------------------
 //
