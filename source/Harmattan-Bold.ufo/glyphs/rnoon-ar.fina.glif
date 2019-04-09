@@ -2,7 +2,7 @@
 <glyph name="rnoon-ar.fina" format="2">
   <advance width="1379"/>
   <unicode hex="FBA1"/>
-  <anchor x="331" y="506" name="alef"/>
+  <anchor x="331" y="566" name="alef"/>
   <anchor x="591" y="1109" name="diaA"/>
   <anchor x="660" y="-622" name="diaB"/>
   <outline>

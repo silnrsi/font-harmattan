@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khah-ar.init" format="2">
   <advance width="1067"/>
-  <anchor x="113" y="830" name="alef"/>
+  <anchor x="73" y="800" name="alef"/>
   <anchor x="300" y="986" name="diaA"/>
   <anchor x="388" y="-27" name="diaB"/>
   <outline>

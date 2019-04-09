@@ -2,9 +2,9 @@
 <glyph name="rnoon-ar.fina" format="2">
   <advance width="1249"/>
   <unicode hex="FBA1"/>
-  <anchor x="281" y="506" name="alef"/>
-  <anchor x="571" y="-585" name="below"/>
+  <anchor x="291" y="566" name="alef"/>
   <anchor x="541" y="1109" name="diaA"/>
+  <anchor x="580" y="-592" name="diaB"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
     <component base="tahabove-ar" xOffset="608" yOffset="-647"/>

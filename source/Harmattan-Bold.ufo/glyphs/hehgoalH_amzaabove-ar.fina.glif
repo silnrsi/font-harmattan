@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoalHamzaabove-ar.fina" format="2">
   <advance width="860"/>
-  <anchor x="18" y="240" name="alef"/>
+  <anchor x="18" y="690" name="alef"/>
   <anchor x="333" y="884" name="diaA"/>
   <anchor x="393" y="-131" name="diaB"/>
   <outline>

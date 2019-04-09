@@ -2,7 +2,7 @@
 <glyph name="rnoon-ar.init" format="2">
   <advance width="449"/>
   <unicode hex="FBA2"/>
-  <anchor x="-149" y="586" name="alef"/>
+  <anchor x="-149" y="646" name="alef"/>
   <anchor x="111" y="1189" name="diaA"/>
   <anchor x="217" y="-74" name="diaB"/>
   <outline>

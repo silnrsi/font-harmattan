@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefHamzaabove-ar.warsh" format="2">
   <advance width="379"/>
-  <anchor x="-45" y="1286" name="alef"/>
+  <anchor x="20" y="1415" name="alef"/>
   <anchor x="185" y="1441" name="diaA"/>
   <anchor x="185" y="-119" name="diaB"/>
   <outline>

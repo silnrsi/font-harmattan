@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghain-ar.init" format="2">
   <advance width="802"/>
-  <anchor x="158" y="985" name="alef"/>
-  <anchor x="357" y="1055" name="diaA"/>
+  <anchor x="140" y="920" name="alef"/>
+  <anchor x="384" y="1140" name="diaA"/>
   <anchor x="357" y="-89" name="diaB"/>
   <outline>
     <component base="ain-ar.init"/>
-    <component base="_dot1" xOffset="393" yOffset="959"/>
+    <component base="_dot1" xOffset="391" yOffset="956"/>
   </outline>
 </glyph>

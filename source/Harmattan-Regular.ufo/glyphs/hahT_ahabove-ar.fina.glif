@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahTahabove-ar.fina" format="2">
   <advance width="944"/>
-  <anchor x="-8" y="580" name="alef"/>
+  <anchor x="62" y="950" name="alef"/>
   <anchor x="371" y="1181" name="diaA"/>
   <anchor x="502" y="-702" name="diaB"/>
   <outline>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahThreedotsabove-ar.fina" format="2">
   <advance width="944"/>
-  <anchor x="110" y="954" name="alef"/>
+  <anchor x="114" y="994" name="alef"/>
   <anchor x="312" y="1217" name="diaA"/>
   <anchor x="502" y="-742" name="diaB"/>
   <outline>

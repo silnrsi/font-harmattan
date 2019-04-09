@@ -2,7 +2,7 @@
 <glyph name="khah-ar" format="2">
   <advance width="983"/>
   <unicode hex="062E"/>
-  <anchor x="139" y="747" name="alef"/>
+  <anchor x="79" y="797" name="alef"/>
   <anchor x="361" y="1010" name="diaA"/>
   <anchor x="502" y="-788" name="diaB"/>
   <outline>

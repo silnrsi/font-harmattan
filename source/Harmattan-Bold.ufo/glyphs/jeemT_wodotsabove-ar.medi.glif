@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar.medi" format="2">
   <advance width="989"/>
-  <anchor x="47" y="894" name="alef"/>
+  <anchor x="-4" y="817" name="alef"/>
   <anchor x="351" y="984" name="diaA"/>
   <anchor x="373" y="-365" name="diaB"/>
   <outline>

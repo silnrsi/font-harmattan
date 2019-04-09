@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehVinvertedabove-ar.fina" format="2">
   <advance width="1274"/>
-  <anchor x="333" y="629" name="alef"/>
+  <anchor x="361" y="679" name="alef"/>
   <anchor x="697" y="1109" name="diaA"/>
   <anchor x="601" y="-163" name="diaB"/>
   <outline>

@@ -2,7 +2,7 @@
 <glyph name="highhamzaYeh-ar.fina" format="2">
   <advance width="1296"/>
   <anchor x="475" y="260" name="alef"/>
-  <anchor x="842" y="670" name="diaA"/>
+  <anchor x="1189" y="670" name="diaA"/>
   <anchor x="716" y="-749" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>

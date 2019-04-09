@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tchehDotabove-ar.init" format="2">
   <advance width="1097"/>
-  <anchor x="127" y="844" name="alef"/>
-  <anchor x="356" y="1042" name="diaA"/>
+  <anchor x="7" y="827" name="alef"/>
+  <anchor x="350" y="1041" name="diaA"/>
   <anchor x="381" y="-617" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
