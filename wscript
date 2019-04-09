@@ -50,9 +50,7 @@ OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,above,below,center,ri
 designspace('source/Harmattan-RB.designspace',
     params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-#        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-#        cmd('${TYPETUNER} -o {$TGT} add ${SRC} ${DEP}', [ create( generated + '${DS:FILENAME_BASE}_feat.xml', 
-#        	cmd('${PSFTUNERALIASES} -m ${SRC[1]} -f ${SRC[2]} ${SRC[0]} ${TGT}', ['source/typetuner/feat_all.xml', generated + '${DS:FILENAME_BASE}.map', '${DS:FILENAME_BASE}.ttf'], run_after=["${DS:FILENAME_BASE}.ttf_fea"]))], ),
+        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
