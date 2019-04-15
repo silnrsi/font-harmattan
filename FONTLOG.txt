@@ -64,12 +64,31 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+2019-04-26 (SIL WSTech team) Harmattan beta Version 2.000 (test release)
+  - Added a bold typeface
+  - Added support for all characters in the Arabic and Arabic Supplement blocks
+  - Added support for all base characters in the Arabic Extended-A block
+  - Added U+FDFC, U+FDFD (bismillah)
+  - Added U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+034F, U+03C0, U+2044, U+2126, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265 
+  - Added language support for Wolof, Kurdish, Urdu, and Sindhi variants
+  - Added Dal, Heh, Arabic U, Inverted Damma, and Eastern Digits features
+  - Improved support for Shaddah+kasra placement feature
+  - Removed "Show invisible characters" feature
+  - Added UI name strings for Graphite and OpenType features
+  - Improvements to the design of dal- keheh-, yeh-, qaf-, ain-, heh doachashmee-, swash kaf-, and yeh barree-based characters
+  - Improvements to the design of rohingya yeh
+  - Improvements to the design and size of digits (latin and arabic)
+  - Adjustments to attachment points
+  - Implemented new Allah ligature rules
+  - Modified underline and strikethrough position (for application use)
+  - Modified superscript and subscript size and positioning (for application use)
+
 2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
-- Changed internal font names
-- changed space of U+00A0 to match regular space
+  - Changed internal font names
+  - changed space of U+00A0 to match regular space
 
 2015-03-25 (SIL NRSI team) Harmattan Version 1.00 (production release)
-- Further improvements to kerning.
+  - Further improvements to kerning.
 
 2014-12-11 (SIL NRSI team) Harmattan alpha Version 0.119 (test release)
   - Improved kerning logic in OpenType (via GPOS) and Graphite
