@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beheh-ar.fina" format="2">
   <advance width="1984"/>
-  <unicode hex="FB5B"/>
   <anchor x="398" y="875" name="alef"/>
   <anchor x="993" y="638" name="diaA"/>
   <anchor x="982" y="-611" name="diaB"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tteh-ar.medi" format="2">
   <advance width="580"/>
-  <unicode hex="FB69"/>
   <anchor x="-102" y="525" name="alef"/>
   <anchor x="243" y="1068" name="diaA"/>
   <anchor x="296" y="-81" name="diaB"/>

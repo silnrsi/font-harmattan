@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gueh-ar.init" format="2">
   <advance width="1389"/>
-  <unicode hex="FB98"/>
   <anchor x="-34" y="754" name="alef"/>
   <anchor x="284" y="981" name="diaA"/>
   <anchor x="686" y="-565" name="diaB"/>

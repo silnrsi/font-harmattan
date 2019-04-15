@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoal-ar.fina" format="2">
   <advance width="860"/>
-  <unicode hex="FBA7"/>
   <anchor x="33" y="366" name="alef"/>
   <anchor x="353" y="484" name="diaA"/>
   <anchor x="393" y="-131" name="diaB"/>

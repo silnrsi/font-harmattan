@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ngoeh-ar.fina" format="2">
   <advance width="1630"/>
-  <unicode hex="FB9B"/>
   <anchor x="24" y="814" name="alef"/>
   <anchor x="330" y="1267" name="diaA"/>
   <anchor x="770" y="-90" name="diaB"/>

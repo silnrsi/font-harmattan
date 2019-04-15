@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rnoon-ar.medi" format="2">
   <advance width="580"/>
-  <unicode hex="FBA3"/>
   <anchor x="-79" y="576" name="alef"/>
   <anchor x="181" y="1119" name="diaA"/>
   <anchor x="296" y="-81" name="diaB"/>
