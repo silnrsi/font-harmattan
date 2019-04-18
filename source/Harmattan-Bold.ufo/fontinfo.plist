@@ -114,6 +114,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <array>
     <integer>0</integer>
     <integer>6</integer>
+    <integer>29</integer>
   </array>
   <key>openTypeOS2Panose</key>
   <array>
@@ -159,10 +160,19 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeOS2UnicodeRanges</key>
   <array>
     <integer>0</integer>
+    <integer>1</integer>
+    <integer>2</integer>
+    <integer>3</integer>
+    <integer>5</integer>
     <integer>13</integer>
+    <integer>31</integer>
+    <integer>33</integer>
+    <integer>35</integer>
+    <integer>38</integer>
+    <integer>63</integer>
   </array>
   <key>openTypeOS2VendorID</key>
-  <string>SIL</string>
+  <string>SIL </string>
   <key>openTypeOS2WeightClass</key>
   <integer>700</integer>
   <key>openTypeOS2WidthClass</key>
