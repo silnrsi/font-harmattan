@@ -10,7 +10,7 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1213</string>
+  <string>1230</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/jeem-ar  /jeem-ar.fina  /jeem-ar.medi  /jeem-ar.init  /jeem-ar.medi.hand  /tcheh-ar  /tcheh-ar.fina  /tcheh-ar.medi  /tcheh-ar.init  /tcheh-ar.medi.hand  /tcheheh-ar  /tcheheh-ar.fina  /tcheheh-ar.medi  /tcheheh-ar.init  /tcheheh-ar.medi.hand  /tchehDotabove-ar  /tchehDotabove-ar.fina  /tchehDotabove-ar.medi  /tchehDotabove-ar.init  /tchehDotabove-ar.medi.hand  /nyeh-ar  /nyeh-ar.fina  /nyeh-ar.medi  /nyeh-ar.init  /nyeh-ar.medi.hand  /dyeh-ar  /dyeh-ar.fina  /dyeh-ar.medi  /dyeh-ar.init  /dyeh-ar.medi.hand  /hah-ar  /hah-ar.fina  /hah-ar.medi  /hah-ar.init  /hah-ar.medi.hand  /hahHamzaabove-ar  /hahHamzaabove-ar.fina  /hahHamzaabove-ar.medi  /hahHamzaabove-ar.init  /hahHamzaabove-ar.medi.hand  /hahTwodotsverticalabove-ar  /hahTwodotsverticalabove-ar.fina  /hahTwodotsverticalabove-ar.medi  /hahTwodotsverticalabove-ar.init  /hahTwodotsverticalabove-ar.medi.hand  /hahTwodotshorizontalabove-ar  /hahTwodotshorizontalabove-ar.fina  /hahTwodotshorizontalabove-ar.medi  /hahTwodotshorizontalabove-ar.init  /hahTwodotshorizontalabove-ar.medi.hand  /hahThreedotsabove-ar  /hahThreedotsabove-ar.fina  /hahThreedotsabove-ar.medi  /hahThreedotsabove-ar.init  /hahThreedotsabove-ar.medi.hand  /hahThreedotsupbelow-ar  /hahThreedotsupbelow-ar.fina  /hahThreedotsupbelow-ar.medi  /hahThreedotsupbelow-ar.init  /hahThreedotsupbelow-ar.medi.hand  /khah-ar  /khah-ar.fina  /khah-ar.medi  /khah-ar.init  /khah-ar.medi.hand  /jeemTwodotsabove-ar  /jeemTwodotsabove-ar.fina  /jeemTwodotsabove-ar.medi  /jeemTwodotsabove-ar.init  /jeemTwodotsabove-ar.medi.hand  
@@ -61,8 +61,6 @@
 £$/euro/rial  lg/three-ar/asteriskArt-ar/four-persian.roh 
 /verseComma-ar/number-ar  /numbermark-ar  /numbermark-ar.2  /numbermark-ar.3  /numbermark-ar.4</string>
     <string>/dammaturnedbelow-ar/sadLamAlefMaksuraabove-ar   /qafLamAlefMaksuraabove-ar  /kasra-ar  /seenbelow-ar/noonabove-ar   /rehHahabove-ar  /alefLamYehabove-ar  /zainabove-ar  /hahabove-ar   /fatha-ar  /kasra-ar/fathasmall-ar  /kasrasmall-ar  /_wavyHamza  /wavyhamzabelow-ar  /damma-ar.filled  /damma-ar  /dammatan-ar.sixNine  /shadda_damma-ar.filled  /dammainverted-ar  /dammainverted-ar.open  /fathaHorizont-ar  /fathaCurly-ar  /dammaCurly-ar  /kasraCurly-ar  /fathatanCurly-ar  /dammatanCurly-ar  /kasratan-ar  /kasratanCurly-ar  /dammaDot-ar  /_damma.filled  /damma-ar/_dotCircular  /_hamzaDamma.filled   /_hamzaDamma   /fatha-ar  /_damma.filled</string>
-    <string>/alef-ar/lam-ar/lam-ar/heh-ar/allah-ar/beh-ar.init/alef-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/beh-ar.init/lam-ar.allah1.medi/lam-ar.allah2.medi/heh-ar.allah.fina/alef-ar.allah/lam-ar.allah1.init/lam-ar.allah2.medi/heh-ar.allah.fina/lam-ar.allah1.init/lam-ar.allah2.medi/hehgoal-ar.allah.fina 
- </string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
