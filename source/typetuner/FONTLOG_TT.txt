@@ -64,12 +64,13 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of Harmattan beta Version 2.000 (test release)
+%ISODATE% (SIL TypeTuner) Tuned version of Harmattan beta Version 1.900 (test release)
 - Tuned and delivered by SIL TypeTuner 
   (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
-2019-04-26 (SIL WSTech team) Harmattan beta Version 2.000 (test release)
+2019-04-24 (SIL WSTech team) Harmattan beta Version 1.900 (test release)
+  - KNOWN ISSUE: lam/alef ligature is not shaping in InDesign
   - Added a bold typeface
   - Added support for all characters in the Arabic and Arabic Supplement blocks
   - Added support for all base characters in the Arabic Extended-A block
