@@ -659,43 +659,13 @@ lookup ShaddaKasraLigatures {
 #********************
 
 #********************
-# Mark attachment
-
-lookup mark_to_base {
-  lookupflag 0;
-  pos base @diaA mark @_diaA;
-  pos base @diaB mark @_diaB;
-} mark_to_base;
-
-lookup alef_to_base {
-  lookupflag 0;
-  pos base @alef mark @_alef;
-} alef_to_base;
-
-lookup mark2_to_base {
-  lookupflag 0;
-  pos base @dia2B mark @_diaB;
-} mark2_to_base;
-
-@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
-lookup mark_to_mark_above {
-  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
-  pos mark @diaA_MarkBase mark @_diaA;
-} mark_to_mark_above;
-
-@MarkFilter_diaB = [@diaB_MarkBase @_diaB];
-lookup mark_to_mark_below {
-  lookupflag UseMarkFilteringSet @MarkFilter_diaB;
-  pos mark @diaB_MarkBase mark @_diaB;
-} mark_to_mark_below;
-
-#********************
 # Cursive connection
 
 lookup cursive_exit_entry {
-  lookupflag IgnoreMarks;
+  lookupflag IgnoreMarks RightToLeft;
   pos cursive @entry @exit;
 } cursive_exit_entry;
+
 
 #********************
 # Kerning
@@ -811,6 +781,36 @@ lookup Kern {
     pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @MarksAny @NarrowIni @MarksAny @MarksAbove ;
 } Kern;
 
+#********************
+# Mark attachment
+
+lookup mark_to_base {
+  lookupflag 0;
+  pos base @diaA mark @_diaA;
+  pos base @diaB mark @_diaB;
+} mark_to_base;
+
+lookup alef_to_base {
+  lookupflag 0;
+  pos base @alef mark @_alef;
+} alef_to_base;
+
+lookup mark2_to_base {
+  lookupflag 0;
+  pos base @dia2B mark @_diaB;
+} mark2_to_base;
+
+@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
+lookup mark_to_mark_above {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
+  pos mark @diaA_MarkBase mark @_diaA;
+} mark_to_mark_above;
+
+@MarkFilter_diaB = [@diaB_MarkBase @_diaB];
+lookup mark_to_mark_below {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaB;
+  pos mark @diaB_MarkBase mark @_diaB;
+} mark_to_mark_below;
 
 #********************
 # Mark adjustments after attachment:
