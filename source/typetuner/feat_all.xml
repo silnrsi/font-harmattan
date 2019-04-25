@@ -181,7 +181,7 @@
 		
 	</cmd_blocks>
 
-	<!-- Alias definitions will be inserted by volt2ttf -->
+	<!-- Alias definitions for OpenType will be inserted by smith (using psftuneraliases) -->
 	<aliases/>
 	
 	<old_names>

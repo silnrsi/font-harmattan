@@ -54,6 +54,7 @@ designspace('source/Harmattan-RB.designspace',
         # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
+    shortcircuit=True,
     version=VERSION,
 
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
@@ -63,19 +64,22 @@ designspace('source/Harmattan-RB.designspace',
         params = '-q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+        mapfile = generated + "${DS:FILENAME_BASE}.map",
         master = 'source/opentype/master.feax',
         make_params = OMITAPS,
-        params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
+        # params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
         ),
+    typetuner = typetuner("source/typetuner/feat_all.xml"),
     classes = 'source/classes.xml',
     license=ofl('Harmattan', 'SIL'),
     script='arab',
     pdf=fret(params='-r'),
     woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
-#   typetuner='source/typetuner/feat_all.xml'
     )
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
+    ctx.find_program('typetuner')
+    ctx.find_program('psftuneraliases')
 #    ctx.find_program('ttfautohint')
 
