@@ -51,7 +51,7 @@ designspace('source/Harmattan-RB.designspace',
     params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-        # cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
     shortcircuit=True,
@@ -78,5 +78,5 @@ designspace('source/Harmattan-RB.designspace',
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
-#    ctx.find_program('ttfautohint')
+    ctx.find_program('ttfautohint')
 
