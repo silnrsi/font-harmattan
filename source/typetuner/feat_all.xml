@@ -182,25 +182,7 @@
 	</cmd_blocks>
 
 	<!-- Alias definitions for OpenType will be inserted by smith (using psftuneraliases) -->
-	<aliases>
-		<alias name="gr_cv02" value="1668689970" />
-		<alias name="gr_cv08" value="1668689976" />
-		<alias name="gr_cv12" value="1668690226" />
-		<alias name="gr_cv20" value="1668690480" />
-		<alias name="gr_cv44" value="1668690996" />
-		<alias name="gr_cv48" value="1668691000" />
-		<alias name="gr_cv50" value="1668691248" />
-		<alias name="gr_cv60" value="1668691504" />
-		<alias name="gr_cv62" value="1668691506" />
-		<alias name="gr_cv70" value="1668691760" />
-		<alias name="gr_cv72" value="1668691762" />
-		<alias name="gr_cv74" value="1668691764" />
-		<alias name="gr_cv76" value="1668691766" />
-		<alias name="gr_cv78" value="1668691768" />
-		<alias name="gr_cv80" value="1668692016" />
-		<alias name="gr_cv82" value="1668692018" />
-		<alias name="gr_cv84" value="1668692020" />
-	</aliases>
+	<aliases/>
 	
 	<old_names>
 		<old_feature  name="Six-nine dammatan" tag="Dmtan"/>
