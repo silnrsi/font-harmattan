@@ -181,7 +181,7 @@
 		
 	</cmd_blocks>
 
-	<!-- Alias definitions for OpenType will be inserted by smith (using psftuneraliases) -->
+	<!-- Alias definitions will be inserted by smith (using psftuneraliases) -->
 	<aliases/>
 	
 	<old_names>

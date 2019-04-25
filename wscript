@@ -55,7 +55,7 @@ designspace('source/Harmattan-RB.designspace',
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
     shortcircuit=True,
-    version=VERSION,
+    version=VERSION,  # Needed to ensure dev information on version string
 
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
         depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
@@ -67,7 +67,6 @@ designspace('source/Harmattan-RB.designspace',
         mapfile = generated + "${DS:FILENAME_BASE}.map",
         master = 'source/opentype/master.feax',
         make_params = OMITAPS,
-        # params = '-m ' + generated + '${DS:FILENAME_BASE}.map',
         ),
     typetuner = typetuner("source/typetuner/feat_all.xml"),
     classes = 'source/classes.xml',
@@ -79,7 +78,5 @@ designspace('source/Harmattan-RB.designspace',
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
-    ctx.find_program('typetuner')
-    ctx.find_program('psftuneraliases')
 #    ctx.find_program('ttfautohint')
 
