@@ -40,6 +40,7 @@ DEBPKG = 'fonts-sil-harmattan'
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
+BUILDLABEL = 'beta'
 
 ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
