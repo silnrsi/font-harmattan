@@ -40,7 +40,7 @@ DEBPKG = 'fonts-sil-harmattan'
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
-BUILDLABEL = 'beta'
+# BUILDLABEL = 'beta'
 
 ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
@@ -69,7 +69,7 @@ designspace('source/Harmattan-RB.designspace',
         master = 'source/opentype/master.feax',
         make_params = OMITAPS,
         ),
-#    typetuner = typetuner("source/typetuner/feat_all.xml"),
+    typetuner = typetuner("source/typetuner/feat_all.xml"),
     classes = 'source/classes.xml',
     license=ofl('Harmattan', 'SIL'),
     script='arab',
