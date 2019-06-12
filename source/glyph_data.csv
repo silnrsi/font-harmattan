@@ -235,7 +235,7 @@ ring,ring,02DA,237,,,
 ogonek,ogonek,02DB,238,,,
 tilde,tilde,02DC,239,,,
 hungarumlaut,hungarumlaut,02DD,240,,,
-graphemejoinercomb,uni034F,034F,241,,,invs
+graphemejoinercomb,uni034F,034F,241,,,# invs
 pi,pi,03C0,242,,,
 hamza-ar,uni0621,0621,243,,,
 highhamza-ar,uni0674,0674,244,,,
@@ -557,7 +557,7 @@ rehDotbelowdotabove-ar,uni0696,0696,573,,,
 rehDotbelowdotabove-ar.fina,uni0696.fina,,574,,,
 rehTwodots-ar,uni0697,0697,575,,,
 rehTwodots-ar.fina,uni0697.fina,,576,,,
-jeh-ar,uni0698,0698,577,,,cv90
+jeh-ar,uni0698,0698,577,,,# cv90
 jeh-ar.fina,uni0698.fina,,578,,,
 rehFourdots-ar,uni0699,0699,579,,,
 rehFourdots-ar.fina,uni0699.fina,,580,,,
@@ -1185,7 +1185,7 @@ seenabove-ar,uni06DC,06DC,1210,,,
 asteriskArt-ar,uni06DE,06DE,1211,,,
 sukunround-ar,uni06DF,06DF,1212,,,
 sukunoval-ar,uni06E0,06E0,1213,,,
-hahabove-ar,uni06E1,06E1,1214,,,cv92
+hahabove-ar,uni06E1,06E1,1214,,,# cv92
 seenbelow-ar,uni06E3,06E3,1215,,,
 maddalong-ar,uni06E4,06E4,1216,,,
 wawSmall-ar,uni06E5,06E5,1217,,,
@@ -1274,7 +1274,7 @@ comma-ar,uni060C,060C,1299,,,
 comma-ar.downward,uni060C.downward,,1300,,,cv84=1
 semicolon-ar,uni061B,061B,1301,,,
 semicolon-ar.downward,uni061B.downward,,1302,,,cv84=1
-mark-ar,uni061C,061C,1303,,,invs
+mark-ar,uni061C,061C,1303,,,# invs
 question-ar,uni061F,061F,1304,,,
 percent-ar,uni066A,066A,1305,,,
 number-ar,uni0600,0600,1306,,,
@@ -1374,12 +1374,12 @@ shadda_alef-ar,uni06510670,0651 0670,1402,,,
 shadda_fathatan-ar,uni0651064B,0651 064B,1403,,,
 shadda_dammatan-ar,uni0651064C,0651 064C,1404,,,
 shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,sd,SND,cv72=1
-shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur,ku","SND,URD,KUR",cv62
+shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur,ku","SND,URD,KUR",cv62=2
 shadda_fatha-ar,uni0651064E,0651 064E,1407,,,
 shadda_damma-ar,uni0651064F,0651 064F,1408,,,
 shadda_damma-ar.filled,uni0651064F.filled,,1409,,,cv70=1
 shadda_damma-ar.short,uni0651064F.short,,1410,wo,WLF,cv70=2
-shadda_kasra-ar,uni06510650,0651 0650,1411,"sd,ur,ku","SND,URD,KUR",cv62
+shadda_kasra-ar,uni06510650,0651 0650,1411,"sd,ur,ku","SND,URD,KUR",cv62=2
 enquad,uni2000,2000,1412,,,
 emquad,uni2001,2001,1413,,,
 enspace,uni2002,2002,1414,,,
@@ -1392,11 +1392,11 @@ punctuationspace,uni2008,2008,1420,,,
 thinspace,uni2009,2009,1421,,,
 hairspace,uni200A,200A,1422,,,
 zerowidthspace,uni200B,200B,1423,,,
-zerowidthnonjoiner,uni200C,200C,1424,,,invs
-zerowidthjoiner,uni200D,200D,1425,,,invs
+zerowidthnonjoiner,uni200C,200C,1424,,,# invs
+zerowidthjoiner,uni200D,200D,1425,,,# invs
 zeroWidthNoBreakSpace,uniFEFF,FEFF,1426,,,
-lefttorightmark,uni200E,200E,1427,,,invs
-righttoleftmark,uni200F,200F,1428,,,invs
+lefttorightmark,uni200E,200E,1427,,,# invs
+righttoleftmark,uni200F,200F,1428,,,# invs
 nonbreakinghyphen,uni2011,2011,1429,,,
 figuredash,figuredash,2012,1430,,,
 endash,endash,2013,1431,,,
@@ -1415,21 +1415,21 @@ ellipsis,ellipsis,2026,1447,,,
 hyphenationpoint,uni2027,2027,1448,,,
 lineseparator,uni2028,2028,1449,,,
 paragraphseparator,uni2029,2029,1450,,,
-lefttorightembedding,uni202A,202A,1451,,,invs
-righttoleftembedding,uni202B,202B,1452,,,invs
-popdirectionalformatting,uni202C,202C,1453,,,invs
-lefttorightoverride,uni202D,202D,1454,,,invs
-righttoleftoverride,uni202E,202E,1455,,,invs
+lefttorightembedding,uni202A,202A,1451,,,# invs
+righttoleftembedding,uni202B,202B,1452,,,# invs
+popdirectionalformatting,uni202C,202C,1453,,,# invs
+lefttorightoverride,uni202D,202D,1454,,,# invs
+righttoleftoverride,uni202E,202E,1455,,,# invs
 narrownbspace,uni202F,202F,1456,,,
 perthousand,perthousand,2030,1457,,,
 guilsinglleft,guilsinglleft,2039,1458,,,
 guilsinglright,guilsinglright,203A,1459,,,
 fraction,fraction,2044,1460,,,
 wordjoiner,uni2060,2060,1461,,,
-lefttorightisolate,uni2066,2066,1462,,,invs
-righttoleftisolate,uni2067,2067,1463,,,invs
-firststrongisolate,uni2068,2068,1464,,,invs
-popdirectionalisolate,uni2069,2069,1465,,,invs
+lefttorightisolate,uni2066,2066,1462,,,# invs
+righttoleftisolate,uni2067,2067,1463,,,# invs
+firststrongisolate,uni2068,2068,1464,,,# invs
+popdirectionalisolate,uni2069,2069,1465,,,# invs
 inhibitformshaping-ar,uni206C,206C,1466,,,
 activateformshaping-ar,uni206D,206D,1467,,,
 euro,Euro,20AC,1468,,,
@@ -1460,22 +1460,22 @@ FontBslnSideBrngMrkrLft,FontBslnSideBrngMrkrLft,F130,1492,,,
 FontBslnSideBrngMrkrRt,FontBslnSideBrngMrkrRt,F131,1493,,,
 fi,fi,FB01,1494,,,
 fl,fl,FB02,1495,,,
-VS1,uniFE00,FE00,1496,,,invs
-VS2,uniFE01,FE01,1497,,,invs
-VS3,uniFE02,FE02,1498,,,invs
-VS4,uniFE03,FE03,1499,,,invs
-VS5,uniFE04,FE04,1500,,,invs
-VS6,uniFE05,FE05,1501,,,invs
-VS7,uniFE06,FE06,1502,,,invs
-VS8,uniFE07,FE07,1503,,,invs
-VS9,uniFE08,FE08,1504,,,invs
-VS10,uniFE09,FE09,1505,,,invs
-VS11,uniFE0A,FE0A,1506,,,invs
-VS12,uniFE0B,FE0B,1507,,,invs
-VS13,uniFE0C,FE0C,1508,,,invs
-VS14,uniFE0D,FE0D,1509,,,invs
-VS15,uniFE0E,FE0E,1510,,,invs
-VS16,uniFE0F,FE0F,1511,,,invs
+VS1,uniFE00,FE00,1496,,,# invs
+VS2,uniFE01,FE01,1497,,,# invs
+VS3,uniFE02,FE02,1498,,,# invs
+VS4,uniFE03,FE03,1499,,,# invs
+VS5,uniFE04,FE04,1500,,,# invs
+VS6,uniFE05,FE05,1501,,,# invs
+VS7,uniFE06,FE06,1502,,,# invs
+VS8,uniFE07,FE07,1503,,,# invs
+VS9,uniFE08,FE08,1504,,,# invs
+VS10,uniFE09,FE09,1505,,,# invs
+VS11,uniFE0A,FE0A,1506,,,# invs
+VS12,uniFE0B,FE0B,1507,,,# invs
+VS13,uniFE0C,FE0C,1508,,,# invs
+VS14,uniFE0D,FE0D,1509,,,# invs
+VS15,uniFE0E,FE0E,1510,,,# invs
+VS16,uniFE0F,FE0F,1511,,,# invs
 objectReplacementCharacter,uniFFFC,FFFC,1512,,,
 replacementCharacter,uniFFFD,FFFD,1513,,,
 _bar,_bar,,1514,,,

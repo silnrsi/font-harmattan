@@ -4,7 +4,7 @@
   <head>
     <fontscale>300</fontscale>
     <fontsrc>local(Scheherazade)</fontsrc>
-    <fontsrc>local(Harmattan)</fontsrc>
+    <fontsrc>url(fonts/HarmattanV1-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
@@ -27,7 +27,7 @@
       <style lang="sd" name="sd"/>
       <style lang="ur" name="ur"/>
     </styles>
-    <title>SubtendingMarks (NG)</title>
+    <title>Subtending Marks (NG)</title>
   </head>
   <testgroup label="Rendering Check">
     <test label="check">
@@ -35,183 +35,183 @@
     </test>
   </testgroup>
   <testgroup label="Group">
-    <test label="U+0600 latn">
+    <test label="U+0600 latn" rtl="True">
       <comment>number-ar</comment>
       <string>\u0628\u000600\u0645 \u0006002 \u00060022 \u000600222 \u00060012</string>
     </test>
-    <test label="U+0601 latn">
+    <test label="U+0601 latn" rtl="True">
       <comment>year-ar</comment>
       <string>\u0628\u000601\u0645 \u0006012 \u00060122 \u000601222 \u0006012222 \u00060112</string>
     </test>
-    <test label="U+0602 latn">
+    <test label="U+0602 latn" rtl="True">
       <comment>footnotemarker-ar</comment>
       <string>\u0628\u000602\u0645 \u0006022 \u00060222 \u00060212</string>
     </test>
-    <test label="U+0603 latn">
+    <test label="U+0603 latn" rtl="True">
       <comment>pagenumber-ar</comment>
       <string>\u0628\u000603\u0645 \u0006032 \u00060322 \u000603222 \u0006032222 \u00060312</string>
     </test>
-    <test label="U+0604 latn">
+    <test label="U+0604 latn" rtl="True">
       <comment>samvat-ar</comment>
       <string>\u0628\u000604\u0645 \u0006042 \u00060422 \u000604222 \u0006042222 \u00060412</string>
     </test>
-    <test label="U+0605 latn">
+    <test label="U+0605 latn" rtl="True">
       <comment>numbermark-ar</comment>
       <string>\u0628\u000605\u0645 \u0006052 \u00060522 \u000605222 \u0006052222 \u00060512</string>
     </test>
-    <test label="U+06DD latn">
+    <test label="U+06DD latn" rtl="True">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+06DD latn" stylename="cv80_1">
+    <test label="U+06DD latn" rtl="True" stylename="cv80_1">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+06DD latn" stylename="cv80_2">
+    <test label="U+06DD latn" rtl="True" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
     </test>
-    <test label="U+0600 arab">
+    <test label="U+0600 arab" rtl="True">
       <comment>number-ar</comment>
       <string>\u0628\u000600\u0645 \u000600\u000668 \u000600\u000668\u000668 \u000600\u000668\u000668\u000668 \u000600\u000661\u000662</string>
     </test>
-    <test label="U+0601 arab">
+    <test label="U+0601 arab" rtl="True">
       <comment>year-ar</comment>
       <string>\u0628\u000601\u0645 \u000601\u000668 \u000601\u000668\u000668 \u000601\u000668\u000668\u000668 \u000601\u000668\u000668\u000668\u000668 \u000601\u000661\u000662</string>
     </test>
-    <test label="U+0602 arab">
+    <test label="U+0602 arab" rtl="True">
       <comment>footnotemarker-ar</comment>
       <string>\u0628\u000602\u0645 \u000602\u000668 \u000602\u000668\u000668 \u000602\u000661\u000662</string>
     </test>
-    <test label="U+0603 arab">
+    <test label="U+0603 arab" rtl="True">
       <comment>pagenumber-ar</comment>
       <string>\u0628\u000603\u0645 \u000603\u000668 \u000603\u000668\u000668 \u000603\u000668\u000668\u000668 \u000603\u000668\u000668\u000668\u000668 \u000603\u000661\u000662</string>
     </test>
-    <test label="U+0604 arab">
+    <test label="U+0604 arab" rtl="True">
       <comment>samvat-ar</comment>
       <string>\u0628\u000604\u0645 \u000604\u000668 \u000604\u000668\u000668 \u000604\u000668\u000668\u000668 \u000604\u000668\u000668\u000668\u000668 \u000604\u000661\u000662</string>
     </test>
-    <test label="U+0605 arab">
+    <test label="U+0605 arab" rtl="True">
       <comment>numbermark-ar</comment>
       <string>\u0628\u000605\u0645 \u000605\u000668 \u000605\u000668\u000668 \u000605\u000668\u000668\u000668 \u000605\u000668\u000668\u000668\u000668 \u000605\u000661\u000662</string>
     </test>
-    <test label="U+06DD arab">
+    <test label="U+06DD arab" rtl="True">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+06DD arab" stylename="cv80_1">
+    <test label="U+06DD arab" rtl="True" stylename="cv80_1">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+06DD arab" stylename="cv80_2">
+    <test label="U+06DD arab" rtl="True" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
     </test>
-    <test label="U+0600 urdu">
+    <test label="U+0600 urdu" rtl="True">
       <comment>number-ar</comment>
       <string>\u0628\u000600\u0645 \u000600\u0006F8 \u000600\u0006F8\u0006F8 \u000600\u0006F8\u0006F8\u0006F8 \u000600\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0601 urdu">
+    <test label="U+0601 urdu" rtl="True">
       <comment>year-ar</comment>
       <string>\u0628\u000601\u0645 \u000601\u0006F8 \u000601\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8 \u000601\u0006F8\u0006F8\u0006F8\u0006F8 \u000601\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0602 urdu">
+    <test label="U+0602 urdu" rtl="True">
       <comment>footnotemarker-ar</comment>
       <string>\u0628\u000602\u0645 \u000602\u0006F8 \u000602\u0006F8\u0006F8 \u000602\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0603 urdu">
+    <test label="U+0603 urdu" rtl="True">
       <comment>pagenumber-ar</comment>
       <string>\u0628\u000603\u0645 \u000603\u0006F8 \u000603\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8 \u000603\u0006F8\u0006F8\u0006F8\u0006F8 \u000603\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0604 urdu">
+    <test label="U+0604 urdu" rtl="True">
       <comment>samvat-ar</comment>
       <string>\u0628\u000604\u0645 \u000604\u0006F8 \u000604\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8 \u000604\u0006F8\u0006F8\u0006F8\u0006F8 \u000604\u0006F1\u0006F2</string>
     </test>
-    <test label="U+0605 urdu">
+    <test label="U+0605 urdu" rtl="True">
       <comment>numbermark-ar</comment>
       <string>\u0628\u000605\u0645 \u000605\u0006F8 \u000605\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8\u0006F8 \u000605\u0006F1\u0006F2</string>
     </test>
-    <test label="U+06DD urdu">
+    <test label="U+06DD urdu" rtl="True">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv80_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv80_1">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv80_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u0628\u0006DD\u0645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
     </test>
-    <test label="U+06DD urdu">
+    <test label="U+06DD urdu" rtl="True">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_3">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_3">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_4">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_4">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv80_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_1_cv80_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_1_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_2_cv80_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_2_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_3_cv80_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_3_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_4_cv80_1">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_4_cv80_1">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv80_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_1_cv80_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_1_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_2_cv80_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_2_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_3_cv80_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_3_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="cv82_4_cv80_2">
+    <test label="U+06DD urdu" rtl="True" stylename="cv82_4_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="rhg">
+    <test label="U+06DD urdu" rtl="True" stylename="rhg">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="sd">
+    <test label="U+06DD urdu" rtl="True" stylename="sd">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="ur">
+    <test label="U+06DD urdu" rtl="True" stylename="ur">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
