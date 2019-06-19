@@ -272,25 +272,30 @@ lookup AllahLigatures {
 #********
 # "touching" Warsh diacritics (implemented as ligatures)
 
-@WarshMarkFilter = [ @MarkGroup1A @MarkGroup1B @MarkGroup2A ];
+# Make sure these sequences get ligated so the subsequent (optional) substitutions work
+
+@HamzaAny = [ hamzaabove-ar hamzabelow-ar ];
 
 lookup LigaturesForWarsh1 {
-  lookupflag UseMarkFilteringSet @WarshMarkFilter ;
+  lookupflag UseMarkFilteringSet @HamzaAny;
     sub lam-ar.init' hamzaabove-ar' @AlefFin by lam_hamza-ar.preAlef.init;
 } LigaturesForWarsh1;
 
 lookup LigaturesForWarsh2 {
-  lookupflag UseMarkFilteringSet @WarshMarkFilter ;
+  lookupflag UseMarkFilteringSet @HamzaAny ;
     sub alef-ar hamzaabove-ar by alefHamzaabove-ar ;
     sub alef-ar.fina hamzaabove-ar by alefHamzaabove-ar.fina ;
     sub alef-ar hamzabelow-ar by alefHamzabelow-ar ;
     sub alef-ar.fina hamzabelow-ar by alefHamzabelow-ar.fina ;
 } LigaturesForWarsh2;
 
+@HamzaKasraFatha = [ @HamzaAny kasra-ar kasra-ar.lowered fatha-ar ] ;
+
 lookup LigaturesForWarsh3 {
-  lookupflag UseMarkFilteringSet @WarshMarkFilter ;
-    sub alef-ar kasra-ar by alef_kasra-ar ;
-    sub alef-ar fatha-ar by alef_fatha-ar ;
+  lookupflag UseMarkFilteringSet @HamzaKasraFatha ;
+    sub alef-ar kasra-ar         by alef_kasra-ar ;
+    sub alef-ar kasra-ar.lowered by alef_kasra-ar ;
+    sub alef-ar fatha-ar         by alef_fatha-ar ;
 } LigaturesForWarsh3;
 
 #********
@@ -374,6 +379,7 @@ lookup WolofCALT {
     sub @cno_loclWLF by @c_loclWLF ;
     sub @Damma by @Damma_short ;
     sub dammainverted-ar by dammainverted-ar.open ;
+    sub @Kasra_lowered by @Kasra ;
 } WolofCALT;
 
 #********************
@@ -474,71 +480,102 @@ lookup WarshAlternates {
 
 
 #********************
-# Jeem/Hah medial alternates: cv08
+# Jeem/Hah medial alternate: cv08
 
-lookup JeemHahMedAlternates {
+lookup JeemHahMedAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_hand by @c_hand ;
-} JeemHahMedAlternates;
+} JeemHahMedAlternate;
 
 #********************
-# Dal alternates: cv12
+# Dal alternate: cv12
 
-lookup DalAlternates {
+lookup DalAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_loclWLF by @c_loclWLF ;
-} DalAlternates;
+} DalAlternate;
 
 #********************
-# Sad/Dad "half" form alternates: cv20
+# Sad/Dad "half" form alternate: cv20
 
-lookup SadDadAlternates {
+lookup SadDadAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_half by @c_half ;
-} SadDadAlternates;
+} SadDadAlternate;
 
 #********************
-# Meem alternates: cv44
+# Meem alternate: cv44
 
-lookup MeemAlternates {
+lookup MeemAlternate {
   lookupflag IgnoreMarks ;
     sub @Meem by @Meem.sindhi ;
-} MeemAlternates;
+} MeemAlternate;
 
 #********************
+# Heh Alternates: TypeTuner lookups:
+
+lookup SindhiHeh {
+    sub heh-ar.medi by heh-ar.knottedHigh.medi ;
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+} SindhiHeh;
+
+lookup UrduHeh {
+    sub heh-ar.init by heh-ar.hooked.init ;
+    sub heh-ar.medi by heh-ar.hooked.medi ;
+    sub heh-ar.fina by heh-ar.hooked.fina ;
+} UrduHeh;
+
+lookup KurdishHeh {
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+} KurdishHeh;
+
 # Heh alternates: cv48
 
 lookup HehAlternates {
   lookupflag IgnoreMarks ; # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
-    sub heh-ar from        [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
+    sub heh-ar      from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
     sub heh-ar.init from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
     sub heh-ar.medi from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
     sub heh-ar.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
 } HehAlternates;
 
 #********************
-# Arabic U alternates: cv50
+# Arabic U alternate: cv50
 
-lookup UAlternates {
+lookup UAlternate {
   lookupflag 0 ;
     sub @U by @U_filled ;
-} UAlternates;
+} UAlternate;
 
 #********************
-# Maddah Alternats: cv60
+# Maddah Alternate: cv60
 
-lookup MaddahAlternates {
+lookup MaddahAlternate {
   lookupflag 0 ;
     sub @Maddah.small by @Maddah ;
-} MaddahAlternates;
+} MaddahAlternate;
 
 
 #********************
+# Kasra Alternates: TypeTuner lookups
+
+lookup KasraLow {
+  lookupflag 0 ;
+    sub @Kasra by @Kasra_lowered;
+} KasraLow;
+
+lookup KasraHigh {
+  lookupflag 0 ;
+    sub @Kasra_lowered by @Kasra;
+} KasraHigh;
+
 # Kasra Alternates: cv62
 
 lookup KasraAlternates {
   lookupflag 0 ;
-    # NB: This is writen so it doesn't matter which shadda-kasra behavior is default.
+    # NB: This is writen so it doesn't matter which shadda-kasra behavior is active.
     sub @Kasra_lowered from [ @Kasra_lowered @Kasra ];
     sub @Kasra         from [ @Kasra_lowered @Kasra ];
 } KasraAlternates;
@@ -554,18 +591,18 @@ lookup DammaAlternates {
 #********************
 # SixNine Dammatan: cv72
 
-lookup DammatanAlternates {
+lookup DammatanAlternate {
   lookupflag 0 ;
     sub @cno_sixNine by @c_sixNine ;
-} DammatanAlternates;
+} DammatanAlternate;
 
 #********************
 # Inverted Damma alternates: cv74
 
-lookup UltapeshAlternates {
+lookup UntapeshAlternate {
   lookupflag 0 ;
     sub dammainverted-ar by dammainverted-ar.open ;
-} UltapeshAlternates;
+} UntapeshAlternate;
 
 #********************
 # DaggerAlef alternates: cv76
@@ -616,10 +653,10 @@ lookup DigitAlternates {
 #********************
 # Comma alternates: cv84
 
-lookup CommaAlternates {
+lookup CommaAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_downward by @c_downward;
-} CommaAlternates;
+} CommaAlternate;
 
 
 #********
@@ -1187,7 +1224,7 @@ feature cv02 {  # Character Variant 02
 
 feature cv08 {  # Character Variant 08
     script arab;  # Arabic
-        lookup JeemHahMedAlternates;
+        lookup JeemHahMedAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
@@ -1202,7 +1239,7 @@ feature cv08 {  # Character Variant 08
 
 feature cv12 {  # Character Variant 12
     script arab;  # Arabic
-        lookup DalAlternates;
+        lookup DalAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
@@ -1217,7 +1254,7 @@ feature cv12 {  # Character Variant 12
 
 feature cv20 {  # Character Variant 20
     script arab;  # Arabic
-        lookup SadDadAlternates;
+        lookup SadDadAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
@@ -1232,7 +1269,7 @@ feature cv20 {  # Character Variant 20
 
 feature cv44 {  # Character Variant 44
     script arab;  # Arabic
-        lookup MeemAlternates;
+        lookup MeemAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
@@ -1266,7 +1303,7 @@ feature cv48 {  # Character Variant 48
 feature cv50 {  # Character Variant 50
     script arab;  # Arabic
         language dflt;  # Default
-            lookup UAlternates;
+            lookup UAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
@@ -1281,7 +1318,7 @@ feature cv50 {  # Character Variant 50
 
 feature cv60 {  # Character Variant 60
     # Same for latin & arabic:
-        lookup MaddahAlternates;
+        lookup MaddahAlternate;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Maddah"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Small"    ; };
@@ -1313,7 +1350,7 @@ feature cv70 {  # Character Variant 70
 
 feature cv72 {  # Character Variant 72
     # Same for latin & arabic:
-        lookup DammatanAlternates;
+        lookup DammatanAlternate;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1323,7 +1360,7 @@ feature cv72 {  # Character Variant 72
 
 feature cv74 {  # Character Variant 74
     # Same for latin & arabic:
-        lookup UltapeshAlternates;
+        lookup UntapeshAlternate;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
@@ -1378,7 +1415,7 @@ feature cv82 {  # Character Variant 82
 
 feature cv84 {  # Character Variant 84
     # Same for latin & arabic:
-        lookup CommaAlternates;
+        lookup CommaAlternate;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Comma"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };

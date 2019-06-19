@@ -422,6 +422,7 @@ wolof {
     dalAlt = senegal;
     dammaAlt = short;
     ultapeshAlt = hollow;
+    shaddaKasra = raised;
 };
 
 endtable; // language
