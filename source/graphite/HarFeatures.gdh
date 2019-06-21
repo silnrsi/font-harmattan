@@ -239,11 +239,15 @@ ultapeshAlt {
     settings {
         std {
             value = 0;
-            name.1033 = string("Standard");
+            name.1033 = string("Default");
         }
         hollow {
             value = 1;
             name.1033 = string("Hollow");
+        }
+        filled {
+            value = 2;
+            name.1033 = string("Filled");
         }
     }
     default = std;
@@ -421,7 +425,6 @@ wolof {
     languages = ( "wol", "wo"); // Wolof
     dalAlt = senegal;
     dammaAlt = short;
-    ultapeshAlt = hollow;
     shaddaKasra = raised;
 };
 

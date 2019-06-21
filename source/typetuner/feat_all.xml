@@ -33,8 +33,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {WolofCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv12} 1"/>	# dal alternates
 			<cmd name="gr_feat" args="{gr_cv62} 2"/>	# shadda-kasra raised
-			<cmd name="gr_feat" args="{gr_cv70} 2"/>	# damma filled
-			<cmd name="gr_feat" args="{gr_cv74} 1"/>	# inverted damma hollow
+			<cmd name="gr_feat" args="{gr_cv70} 2"/>	# damma short
 		</value>
 	</feature>
 
@@ -175,13 +174,16 @@
 		</value>
 	</feature>
 
-	<feature name="Inverted Damma" value="Standard" tag="InvDma">
+	<feature name="Inverted Damma" value="Default" tag="InvDma">
 		<!-- see also the interactions section -->
-		<value name="Standard" tag="Std">
+		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Hollow" tag="Ho">
-			<cmd name="encode" args="0657 uni0657.open"/>
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Filled" tag="Fi">
+			<cmd name="encode" args="0657 uni0657.filled"/>
 		</value>
 	</feature>
 

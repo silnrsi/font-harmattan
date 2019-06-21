@@ -378,7 +378,6 @@ lookup WolofCALT {
   lookupflag 0 ;
     sub @cno_loclWLF by @c_loclWLF ;
     sub @Damma by @Damma_short ;
-    sub dammainverted-ar by dammainverted-ar.open ;
     sub @Kasra_lowered by @Kasra ;
 } WolofCALT;
 
@@ -599,10 +598,10 @@ lookup DammatanAlternate {
 #********************
 # Inverted Damma alternates: cv74
 
-lookup UntapeshAlternate {
+lookup UntapeshAlternates {
   lookupflag 0 ;
-    sub dammainverted-ar by dammainverted-ar.open ;
-} UntapeshAlternate;
+    sub dammainverted-ar from [dammainverted-ar dammainverted-ar.filled] ;
+} UntapeshAlternates;
 
 #********************
 # DaggerAlef alternates: cv76
