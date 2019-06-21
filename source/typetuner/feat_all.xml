@@ -52,17 +52,6 @@
 		</value>
 	</feature>
 
-	<feature name="Dal" value="Standard" tag="Dal">
-		<!-- see also the interactions section -->
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Alternate" tag="Alt">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DalAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv12} 1"/>
-		</value>
-	</feature>
-
 	<feature name="Jeem/Hah" value="Standard" tag="JeHa">
 		<!-- see also the interactions section -->
 		<value name="Standard" tag="Std">
@@ -71,6 +60,17 @@
 		<value name="Handwritten" tag="Hand">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {JeemHahMedAlternate}"/>	
 			<cmd name="gr_feat" args="{gr_cv08} 1"/>
+		</value>
+	</feature>
+
+	<feature name="Dal" value="Standard" tag="Dal">
+		<!-- see also the interactions section -->
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Alternate" tag="Alt">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DalAlternate}"/>	
+			<cmd name="gr_feat" args="{gr_cv12} 1"/>
 		</value>
 	</feature>
 
@@ -143,17 +143,17 @@
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
+		<value name="Lowered" tag="Low">
+			<cmd name="null" args="null"/>
+		</value>
 		<value name="Raised" tag="High">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraHigh}"/>
 			<cmd name="gr_feat" args="{gr_cv62} 2"/>
 		</value>
-		<value name="Lowered" tag="Low">
-			<cmd name="null" args="null"/>
-		</value>
 	</feature>
 
-	<feature name="Damma" value="Standard" tag="Dma">
-		<value name="Standard" tag="Std">
+	<feature name="Damma" value="Default" tag="Dma">
+		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Filled" tag="Fi">
@@ -213,6 +213,18 @@
 		</value>	
 	</feature>
 
+	<feature name="End of ayah" value="Standard" tag="Ayah">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Simplified A" tag="A">
+			<cmd name="encode" args="06DD uni06DD.alt"/>
+		</value>
+		<value name="Simplified B" tag="B">
+			<cmd name="encode" args="06DD uni06DD.altB"/>
+		</value>
+	</feature>
+
 	<feature name="Eastern digits" value="Standard" tag="Dig">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -233,17 +245,6 @@
 		</value>
 	</feature>
 
-	<feature name="End of ayah" value="Standard" tag="Ayah">
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Simplified A" tag="A">
-			<cmd name="encode" args="06DD uni06DD.alt"/>
-		</value>
-		<value name="Simplified B" tag="B">
-			<cmd name="encode" args="06DD uni06DD.altB"/>
-		</value>
-	</feature>
 
 	<feature name="Comma" value="Upward" tag="Cma"> 		<!-- was "Downward comma", "Dc" -->
 		<value name="Upward" tag="Up">						<!-- was "False", "F" -->

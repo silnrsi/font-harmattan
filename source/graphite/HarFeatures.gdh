@@ -54,22 +54,6 @@ warshDiacritics {
     default = std;
 }
 
-dalAlt {
-    id = "cv12";    
-    name.1033 = string("Dal");
-        settings {
-        std {
-            value = 0;
-            name.1033 = string("Standard");
-        }
-        senegal {
-            value = 1;
-            name.1033 = string("Alternate");
-        }
-    }
-    default = std;
-}
-
 jeemHahMedAlt {
     id = "cv08";
     name.1033 = string("Jeem/Hah");
@@ -81,6 +65,22 @@ jeemHahMedAlt {
         handwritten {
             value = 1;
             name.1033 = string("Handwritten");
+        }
+    }
+    default = std;
+}
+
+dalAlt {
+    id = "cv12";    
+    name.1033 = string("Dal");
+        settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        senegal {
+            value = 1;
+            name.1033 = string("Alternate");
         }
     }
     default = std;
@@ -144,6 +144,21 @@ hehAlt {
     default = std;
 }
 
+UAlt {
+    id = "cv50";
+    name.1033 = string("Arabic U");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        filled {
+            value = 1;
+            name.1033 = string("Filled");
+        }
+    }
+    default = std;
+}
 
 maddahAlt {
     id = "cv60";
@@ -187,7 +202,7 @@ dammaAlt {
     settings {
         std {
             value = 0;
-            name.1033 = string("Standard");
+            name.1033 = string("Default");
         }
         filled {
             value = 1;
@@ -196,22 +211,6 @@ dammaAlt {
         short {
             value = 2;
             name.1033 = string("Short");
-        }
-    }
-    default = std;
-}
-
-UAlt {
-    id = "cv50";
-    name.1033 = string("Arabic U");
-    settings {
-        std {
-            value = 0;
-            name.1033 = string("Standard");
-        }
-        filled {
-            value = 1;
-            name.1033 = string("Filled");
         }
     }
     default = std;

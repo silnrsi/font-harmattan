@@ -1275,9 +1275,9 @@ feature cv44 {  # Character Variant 44
       language URD  ;
       language WLF  ;
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Meem"     ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Sindi"    ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Meem"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"   ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindi-style"; };
     } ;
 } cv44 ;
 
@@ -1291,11 +1291,11 @@ feature cv48 {  # Character Variant 48
       language URD  ;
       language WLF  ;
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Heh"      ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Sindi"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Urdu"     ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Kurdish"  ; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindi-style"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
     } ;
 } cv48 ;
 
@@ -1341,7 +1341,7 @@ feature cv70 {  # Character Variant 70
         lookup DammaAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
     } ;
@@ -1359,11 +1359,12 @@ feature cv72 {  # Character Variant 72
 
 feature cv74 {  # Character Variant 74
     # Same for latin & arabic:
-        lookup UntapeshAlternate;
+        lookup UntapeshAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
         ParamUILabelNameID { name 3 1 0x0409 "Hollow"         ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"         ; };
     } ;
 } cv74 ;
 
