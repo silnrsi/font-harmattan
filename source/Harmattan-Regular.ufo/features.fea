@@ -4742,7 +4742,7 @@ feature cv44 {
         };
 
                 ParamUILabelNameID {
-            name "Sindi";
+            name "Sindi-style";
         };
 
     };
@@ -4771,15 +4771,15 @@ feature cv48 {
         };
 
                 ParamUILabelNameID {
-            name "Sindi";
+            name "Sindi-style";
         };
 
                 ParamUILabelNameID {
-            name "Urdu";
+            name "Urdu-style";
         };
 
                 ParamUILabelNameID {
-            name "Kurdish";
+            name "Kurdish-style";
         };
 
     };
@@ -4871,7 +4871,7 @@ feature cv70 {
         };
 
                 ParamUILabelNameID {
-            name "Standard";
+            name "Default";
         };
 
                 ParamUILabelNameID {
