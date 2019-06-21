@@ -789,7 +789,7 @@
 <head>
   <fontscale>300</fontscale>
   <fontsrc>local(Harmattan)</fontsrc>
-  <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+  <fontsrc>url(../references/Harmattan-Regular-1_001.ttf)</fontsrc>
   <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
   <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
   <styles>

@@ -4,8 +4,9 @@
   <head>
     <fontscale>300</fontscale>
     <fontsrc>local(Scheherazade)</fontsrc>
-    <fontsrc>url(fonts/HarmattanV1-Regular.ttf)</fontsrc>
+    <fontsrc>url(../references/Harmattan-Regular-1_001.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
