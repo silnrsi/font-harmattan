@@ -202,7 +202,7 @@
 	</feature>
 
 	<feature name="Sukun" value="Closed" tag="Su">
-		<value name="Closed" tag="Su">
+		<value name="Closed" tag="Cl">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Open down" tag="Dn">
