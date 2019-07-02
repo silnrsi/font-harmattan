@@ -28,6 +28,7 @@
       <style feats="'cv70' 2" name="cv70_2"/>
       <style feats="'cv72' 1" name="cv72_1"/>
       <style feats="'cv74' 1" name="cv74_1"/>
+      <style feats="'cv74' 2" name="cv74_2"/>
       <style feats="'cv76' 1" name="cv76_1"/>
       <style feats="'cv76' 2" name="cv76_2"/>
       <style feats="'cv78' 1" name="cv78_1"/>
@@ -585,6 +586,10 @@
       <string>\u000628\u000654 \u000628\u000655 \u000628\u000656 \u000628\u000657</string>
     </test>
     <test label="U+0657" stylename="cv74_1">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="cv74_2">
       <comment>dammainverted-ar</comment>
       <string>\u000628\u000657</string>
     </test>

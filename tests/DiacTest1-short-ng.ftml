@@ -24,6 +24,7 @@
       <style feats="'cv70' 2" name="cv70_2"/>
       <style feats="'cv72' 1" name="cv72_1"/>
       <style feats="'cv74' 1" name="cv74_1"/>
+      <style feats="'cv74' 2" name="cv74_2"/>
       <style feats="'cv76' 1" name="cv76_1"/>
       <style feats="'cv76' 2" name="cv76_2"/>
       <style feats="'cv78' 1" name="cv78_1"/>
@@ -3130,6 +3131,11 @@ U+0657" stylename="cv74_1">
       <comment>alef-ar dammainverted-ar</comment>
       <string>\u000627\u000657 \u00200D\u000627\u000657 </string>
     </test>
+    <test label="U+0627
+U+0657" stylename="cv74_2">
+      <comment>alef-ar dammainverted-ar</comment>
+      <string>\u000627\u000657 \u00200D\u000627\u000657 </string>
+    </test>
     <test label="U+0628
 U+0657">
       <comment>beh-ar dammainverted-ar</comment>
@@ -3137,6 +3143,11 @@ U+0657">
     </test>
     <test label="U+0628
 U+0657" stylename="cv74_1">
+      <comment>beh-ar dammainverted-ar</comment>
+      <string>\u000628\u000657 \u000628\u000657\u00200D \u00200D\u000628\u000657\u00200D \u00200D\u000628\u000657 \u000628\u000657\u000628\u000657\u000628\u000657</string>
+    </test>
+    <test label="U+0628
+U+0657" stylename="cv74_2">
       <comment>beh-ar dammainverted-ar</comment>
       <string>\u000628\u000657 \u000628\u000657\u00200D \u00200D\u000628\u000657\u00200D \u00200D\u000628\u000657 \u000628\u000657\u000628\u000657\u000628\u000657</string>
     </test>
