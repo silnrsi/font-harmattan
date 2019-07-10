@@ -3,18 +3,18 @@
   <anchor x="394" y="325" name="_above"/>
   <outline>
     <contour>
-      <point x="604" y="515" type="curve"/>
-      <point x="368" y="382"/>
-      <point x="78" y="167"/>
-      <point x="-74" y="34" type="curve"/>
-      <point x="-77" y="-13"/>
-      <point x="-54" y="-73"/>
       <point x="-20" y="-91" type="curve"/>
       <point x="137" y="59"/>
       <point x="453" y="303"/>
       <point x="651" y="440" type="curve"/>
       <point x="644" y="468"/>
       <point x="620" y="503"/>
+      <point x="604" y="515" type="curve"/>
+      <point x="368" y="382"/>
+      <point x="78" y="167"/>
+      <point x="-74" y="34" type="curve"/>
+      <point x="-77" y="-13"/>
+      <point x="-54" y="-73"/>
     </contour>
   </outline>
 </glyph>

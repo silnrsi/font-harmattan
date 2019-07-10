@@ -8,6 +8,22 @@
   <anchor x="357" y="-89" name="diaB"/>
   <outline>
     <contour>
+      <point x="646" y="-23" type="curve"/>
+      <point x="685" y="8"/>
+      <point x="736" y="83"/>
+      <point x="762" y="146" type="curve"/>
+      <point x="507" y="258"/>
+      <point x="286" y="344"/>
+      <point x="286" y="444" type="curve" smooth="yes"/>
+      <point x="286" y="505"/>
+      <point x="337" y="553"/>
+      <point x="407" y="553" type="curve" smooth="yes"/>
+      <point x="481" y="553"/>
+      <point x="547" y="520"/>
+      <point x="609" y="448" type="curve"/>
+      <point x="660" y="468"/>
+      <point x="710" y="516"/>
+      <point x="732" y="567" type="curve"/>
       <point x="670" y="659"/>
       <point x="555" y="730"/>
       <point x="412" y="730" type="curve" smooth="yes"/>
@@ -25,22 +41,6 @@
       <point x="0" y="-10" type="line" smooth="yes"/>
       <point x="290" y="-10"/>
       <point x="489" y="-10"/>
-      <point x="646" y="-23" type="curve"/>
-      <point x="685" y="8"/>
-      <point x="736" y="83"/>
-      <point x="762" y="146" type="curve"/>
-      <point x="507" y="258"/>
-      <point x="286" y="344"/>
-      <point x="286" y="444" type="curve" smooth="yes"/>
-      <point x="286" y="505"/>
-      <point x="337" y="553"/>
-      <point x="407" y="553" type="curve" smooth="yes"/>
-      <point x="481" y="553"/>
-      <point x="547" y="520"/>
-      <point x="609" y="448" type="curve"/>
-      <point x="660" y="468"/>
-      <point x="710" y="516"/>
-      <point x="732" y="567" type="curve"/>
     </contour>
   </outline>
 </glyph>

@@ -8,9 +8,6 @@
   <anchor x="836" y="-124" name="diaB"/>
   <outline>
     <contour>
-      <point x="574" y="119" type="line"/>
-      <point x="617" y="58"/>
-      <point x="704" y="-41"/>
       <point x="867" y="-41" type="curve" smooth="yes"/>
       <point x="1008" y="-41"/>
       <point x="1170" y="57"/>
@@ -60,11 +57,11 @@
       <point x="779" y="131"/>
       <point x="681" y="179"/>
       <point x="649" y="297" type="curve"/>
+      <point x="574" y="119" type="line"/>
+      <point x="617" y="58"/>
+      <point x="704" y="-41"/>
     </contour>
     <contour>
-      <point x="1055" y="89" type="line"/>
-      <point x="1112" y="30"/>
-      <point x="1164" y="-10"/>
       <point x="1327" y="-10" type="curve" smooth="yes"/>
       <point x="1347" y="-10" type="line"/>
       <point x="1347" y="165" type="line"/>
@@ -72,6 +69,9 @@
       <point x="1219" y="165"/>
       <point x="1177" y="183"/>
       <point x="1143" y="236" type="curve"/>
+      <point x="1055" y="89" type="line"/>
+      <point x="1112" y="30"/>
+      <point x="1164" y="-10"/>
     </contour>
   </outline>
 </glyph>

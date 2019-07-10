@@ -9,6 +9,14 @@
   <anchor x="226" y="95" name="ring"/>
   <outline>
     <contour>
+      <point x="-20" y="-10" type="line"/>
+      <point x="10" y="-10" type="line" smooth="yes"/>
+      <point x="233" y="-10"/>
+      <point x="339" y="94"/>
+      <point x="339" y="269" type="curve" smooth="yes"/>
+      <point x="339" y="334"/>
+      <point x="325" y="410"/>
+      <point x="296" y="493" type="curve"/>
       <point x="257" y="491"/>
       <point x="194" y="470"/>
       <point x="165" y="456" type="curve"/>
@@ -19,14 +27,6 @@
       <point x="151" y="125"/>
       <point x="10" y="125" type="curve" smooth="yes"/>
       <point x="-20" y="125" type="line"/>
-      <point x="-20" y="-10" type="line"/>
-      <point x="10" y="-10" type="line" smooth="yes"/>
-      <point x="233" y="-10"/>
-      <point x="339" y="94"/>
-      <point x="339" y="269" type="curve" smooth="yes"/>
-      <point x="339" y="334"/>
-      <point x="325" y="410"/>
-      <point x="296" y="493" type="curve"/>
     </contour>
   </outline>
 </glyph>

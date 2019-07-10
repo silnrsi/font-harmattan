@@ -6,14 +6,14 @@
   <anchor x="710" y="-176" name="diaB"/>
   <outline>
     <contour>
+      <point x="1023" y="-10" type="line"/>
+      <point x="1029" y="-10"/>
+      <point x="1349" y="-10"/>
       <point x="1355" y="-10" type="curve"/>
       <point x="1353" y="165" type="line"/>
       <point x="1345" y="165"/>
       <point x="1029" y="165"/>
       <point x="1023" y="165" type="curve"/>
-      <point x="1023" y="-10" type="line"/>
-      <point x="1029" y="-10"/>
-      <point x="1349" y="-10"/>
     </contour>
     <component base="hehDoachashmee-ar"/>
     <component base="vinvertedabove-ar" xOffset="686" yOffset="-208"/>

@@ -6,10 +6,10 @@
   <anchor x="322" y="-262" name="diaB"/>
   <outline>
     <contour>
-      <point x="455" y="125" type="line"/>
-      <point x="205" y="125" type="line"/>
       <point x="174" y="0" type="line"/>
       <point x="426" y="0" type="line"/>
+      <point x="455" y="125" type="line"/>
+      <point x="205" y="125" type="line"/>
     </contour>
   </outline>
 </glyph>

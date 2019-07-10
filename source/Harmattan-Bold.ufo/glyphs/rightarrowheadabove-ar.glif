@@ -5,6 +5,10 @@
   <anchor x="125" y="1688" name="diaA"/>
   <outline>
     <contour>
+      <point x="-18" y="1236" type="curve"/>
+      <point x="84" y="1236"/>
+      <point x="311" y="1284"/>
+      <point x="371" y="1338" type="curve"/>
       <point x="371" y="1397"/>
       <point x="329" y="1608"/>
       <point x="298" y="1681" type="curve"/>
@@ -19,10 +23,6 @@
       <point x="-51" y="1336" type="curve"/>
       <point x="-51" y="1301"/>
       <point x="-33" y="1264"/>
-      <point x="-18" y="1236" type="curve"/>
-      <point x="84" y="1236"/>
-      <point x="311" y="1284"/>
-      <point x="371" y="1338" type="curve"/>
     </contour>
   </outline>
 </glyph>

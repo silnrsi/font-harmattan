@@ -12,15 +12,6 @@
   <anchor x="420" y="-215" name="through"/>
   <outline>
     <contour>
-      <point x="340" y="365" type="curve"/>
-      <point x="362" y="252"/>
-      <point x="373" y="134"/>
-      <point x="373" y="20" type="curve" smooth="yes"/>
-      <point x="373" y="-213"/>
-      <point x="298" y="-427"/>
-      <point x="-27" y="-540" type="curve"/>
-      <point x="-23" y="-583"/>
-      <point x="2" y="-631"/>
       <point x="49" y="-666" type="curve"/>
       <point x="411" y="-523"/>
       <point x="513" y="-258"/>
@@ -30,6 +21,15 @@
       <point x="471" y="401" type="curve"/>
       <point x="427" y="399"/>
       <point x="378" y="387"/>
+      <point x="340" y="365" type="curve"/>
+      <point x="362" y="252"/>
+      <point x="373" y="134"/>
+      <point x="373" y="20" type="curve" smooth="yes"/>
+      <point x="373" y="-213"/>
+      <point x="298" y="-427"/>
+      <point x="-27" y="-540" type="curve"/>
+      <point x="-23" y="-583"/>
+      <point x="2" y="-631"/>
     </contour>
   </outline>
 </glyph>

@@ -4,24 +4,24 @@
   <anchor x="-2" y="1268" name="_diaA"/>
   <outline>
     <contour>
+      <point x="-2" y="1298" type="line"/>
+      <point x="95" y="1414" type="line"/>
       <point x="211" y="1511" type="line"/>
       <point x="95" y="1608" type="line"/>
       <point x="-2" y="1726" type="line"/>
       <point x="-99" y="1608" type="line"/>
       <point x="-217" y="1511" type="line"/>
       <point x="-99" y="1414" type="line"/>
-      <point x="-2" y="1298" type="line"/>
-      <point x="95" y="1414" type="line"/>
     </contour>
     <contour>
-      <point x="93" y="1511" type="line"/>
-      <point x="41" y="1468" type="line"/>
       <point x="-2" y="1416" type="line"/>
       <point x="-45" y="1468" type="line"/>
       <point x="-99" y="1511" type="line"/>
       <point x="-45" y="1554" type="line"/>
       <point x="-2" y="1609" type="line"/>
       <point x="41" y="1554" type="line"/>
+      <point x="93" y="1511" type="line"/>
+      <point x="41" y="1468" type="line"/>
     </contour>
   </outline>
 </glyph>

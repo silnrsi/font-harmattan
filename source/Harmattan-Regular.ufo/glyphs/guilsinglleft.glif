@@ -4,12 +4,12 @@
   <unicode hex="2039"/>
   <outline>
     <contour>
+      <point x="382" y="0" type="line"/>
       <point x="506" y="0" type="line"/>
       <point x="228" y="382" type="line"/>
       <point x="506" y="765" type="line"/>
       <point x="382" y="765" type="line"/>
       <point x="56" y="382" type="line"/>
-      <point x="382" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

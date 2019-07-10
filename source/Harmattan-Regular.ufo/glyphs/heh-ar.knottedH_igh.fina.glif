@@ -6,14 +6,14 @@
   <anchor x="719" y="-163" name="diaB"/>
   <outline>
     <contour>
+      <point x="1000" y="-10" type="line"/>
+      <point x="1006" y="-10"/>
+      <point x="1296" y="-10"/>
       <point x="1302" y="-10" type="curve"/>
       <point x="1300" y="125" type="line"/>
       <point x="1292" y="125"/>
       <point x="1006" y="125"/>
       <point x="1000" y="125" type="curve"/>
-      <point x="1000" y="-10" type="line"/>
-      <point x="1006" y="-10"/>
-      <point x="1296" y="-10"/>
     </contour>
     <component base="hehDoachashmee-ar"/>
   </outline>

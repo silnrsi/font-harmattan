@@ -9,11 +9,6 @@
   <anchor x="390" y="1147" name="U"/>
   <outline>
     <contour>
-      <point x="97" y="1095" type="line"/>
-      <point x="97" y="941" type="line"/>
-      <point x="277" y="941" type="line"/>
-      <point x="277" y="153" type="line"/>
-      <point x="97" y="153" type="line"/>
       <point x="97" y="0" type="line"/>
       <point x="671" y="0" type="line"/>
       <point x="671" y="153" type="line"/>
@@ -21,6 +16,11 @@
       <point x="491" y="941" type="line"/>
       <point x="671" y="941" type="line"/>
       <point x="671" y="1095" type="line"/>
+      <point x="97" y="1095" type="line"/>
+      <point x="97" y="941" type="line"/>
+      <point x="277" y="941" type="line"/>
+      <point x="277" y="153" type="line"/>
+      <point x="97" y="153" type="line"/>
     </contour>
   </outline>
 </glyph>

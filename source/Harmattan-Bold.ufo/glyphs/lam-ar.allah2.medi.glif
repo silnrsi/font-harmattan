@@ -5,6 +5,13 @@
   <anchor x="160" y="-76" name="diaB"/>
   <outline>
     <contour>
+      <point x="-11" y="-17" type="line"/>
+      <point x="79" y="-17"/>
+      <point x="156" y="15"/>
+      <point x="204" y="98" type="curve"/>
+      <point x="126" y="132" type="line"/>
+      <point x="161" y="39"/>
+      <point x="232" y="-15"/>
       <point x="333" y="-15" type="curve"/>
       <point x="386" y="82" type="line"/>
       <point x="341" y="161" type="line"/>
@@ -30,13 +37,6 @@
       <point x="57" y="159"/>
       <point x="0" y="159" type="curve"/>
       <point x="-50" y="92" type="line"/>
-      <point x="-11" y="-17" type="line"/>
-      <point x="79" y="-17"/>
-      <point x="156" y="15"/>
-      <point x="204" y="98" type="curve"/>
-      <point x="126" y="132" type="line"/>
-      <point x="161" y="39"/>
-      <point x="232" y="-15"/>
     </contour>
   </outline>
 </glyph>

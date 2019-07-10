@@ -19,13 +19,13 @@
       <point x="202" y="562" type="curve"/>
     </contour>
     <contour>
+      <point x="37" y="0" type="curve"/>
+      <point x="206" y="0" type="line"/>
+      <point x="417" y="303" type="line"/>
       <point x="366" y="462" type="line"/>
       <point x="187" y="202" type="line" smooth="yes"/>
       <point x="141" y="136"/>
       <point x="120" y="107"/>
-      <point x="37" y="0" type="curve"/>
-      <point x="206" y="0" type="line"/>
-      <point x="417" y="303" type="line"/>
     </contour>
     <contour>
       <point x="438" y="303" type="line"/>

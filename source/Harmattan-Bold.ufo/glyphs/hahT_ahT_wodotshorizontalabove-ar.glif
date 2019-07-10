@@ -7,9 +7,6 @@
   <anchor x="534" y="-838" name="diaB"/>
   <outline>
     <contour>
-      <point x="358" y="-311" type="curve"/>
-      <point x="415" y="-311"/>
-      <point x="488" y="-324"/>
       <point x="568" y="-324" type="curve" smooth="yes"/>
       <point x="703" y="-324"/>
       <point x="745" y="-248"/>
@@ -25,22 +22,26 @@
       <point x="341" y="-204" type="curve"/>
       <point x="343" y="-232"/>
       <point x="348" y="-289"/>
+      <point x="358" y="-311" type="curve"/>
+      <point x="415" y="-311"/>
+      <point x="488" y="-324"/>
     </contour>
     <contour>
-      <point x="608" y="-160" type="curve" smooth="yes"/>
-      <point x="641" y="-160"/>
-      <point x="654" y="-175"/>
-      <point x="654" y="-187" type="curve" smooth="yes"/>
-      <point x="654" y="-209"/>
-      <point x="634" y="-232"/>
       <point x="578" y="-232" type="curve" smooth="yes"/>
       <point x="547" y="-232"/>
       <point x="516" y="-230"/>
       <point x="498" y="-229" type="curve"/>
       <point x="527" y="-193"/>
       <point x="571" y="-160"/>
+      <point x="608" y="-160" type="curve" smooth="yes"/>
+      <point x="641" y="-160"/>
+      <point x="654" y="-175"/>
+      <point x="654" y="-187" type="curve" smooth="yes"/>
+      <point x="654" y="-209"/>
+      <point x="634" y="-232"/>
     </contour>
     <contour>
+      <point x="420" y="-222" type="curve"/>
       <point x="500" y="-161" type="line"/>
       <point x="502" y="-77"/>
       <point x="508" y="-8"/>
@@ -50,7 +51,6 @@
       <point x="409" y="25" type="curve"/>
       <point x="411" y="-35"/>
       <point x="418" y="-108"/>
-      <point x="420" y="-222" type="curve"/>
     </contour>
     <component base="hah-ar"/>
     <component base="_dot2h" xScale="0.90573" yScale="0.90573" xOffset="588" yOffset="-453"/>
