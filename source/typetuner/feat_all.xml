@@ -8,7 +8,7 @@
 		<value name="Kurdish" tag="Kur">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv62} 2"/>	# shadda-kasra raised
-			<cmd name="gr_feat" args="{gr_cv48} 3"/>
+			<cmd name="gr_feat" args="{gr_cv48} 3"/>	# heh
 		</value>
 		<!-- value name="Rohingya" tag="Rhg">
 			<cmd name="encode" args="06F4 uni06F4.roh"/>
@@ -31,7 +31,6 @@
 		<value name="Wolof" tag="Wol">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {WolofCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv12} 1"/>	# dal alternates
-			<cmd name="gr_feat" args="{gr_cv62} 2"/>	# shadda-kasra raised
 			<cmd name="gr_feat" args="{gr_cv70} 2"/>	# damma short
 		</value>
 	</feature>

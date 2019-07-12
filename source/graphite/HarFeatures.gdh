@@ -423,7 +423,7 @@ wolof {
     languages = ( "wol", "wo"); // Wolof
     dalAlt = senegal;
     dammaAlt = short;
-    shaddaKasra = raised;
+    // shaddaKasra = lowered;  // is the default for Harmattan
 };
 
 endtable; // language

@@ -377,7 +377,7 @@ lookup WolofCALT {
   lookupflag 0 ;
     sub @cno_loclWLF by @c_loclWLF ;
     sub @Damma by @Damma_short ;
-    sub @Kasra_lowered by @Kasra ;
+    sub @Kasra by @Kasra_lowered ;
 } WolofCALT;
 
 #********************
