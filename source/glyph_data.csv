@@ -1150,7 +1150,7 @@ hamzaabove-ar,uni0654,0654,1175,,,
 hamzabelow-ar,uni0655,0655,1176,,,
 fathatan-ar,uni064B,064B,1177,,,
 dammatan-ar,uni064C,064C,1178,,,
-dammatan-ar.sixNine,uni064C.sixNine,,1179,sd,SND,cv72=1
+dammatan-ar.sixNine,uni064C.sixNine,,1179,,,cv72=1
 kasratan-ar,uni064D,064D,1180,,,
 kasratan-ar.lowered,uni064D.lowered,,1181,,,
 fatha-ar,uni064E,064E,1182,,,
@@ -1373,7 +1373,7 @@ kasra_meem-ar,uni065006E2,0650 06E2,1401,,,
 shadda_alef-ar,uni06510670,0651 0670,1402,,,
 shadda_fathatan-ar,uni0651064B,0651 064B,1403,,,
 shadda_dammatan-ar,uni0651064C,0651 064C,1404,,,
-shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,sd,SND,cv72=1
+shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1405,,,cv72=1
 shadda_kasratan-ar,uni0651064D,0651 064D,1406,"sd,ur,ku","SND,URD,KUR",cv62=2
 shadda_fatha-ar,uni0651064E,0651 064E,1407,,,
 shadda_damma-ar,uni0651064F,0651 064F,1408,,,
@@ -1454,6 +1454,7 @@ notequal,notequal,2260,1486,,,
 notequal.rtl,notequal.rtl,,1487,,,
 lessequal,lessequal,2264,1488,,,
 greaterequal,greaterequal,2265,1489,,,
+blank,blank,2423,1489.1,,,
 lozenge,lozenge,25CA,1490,,,
 dottedCircle,uni25CC,25CC,1491,,,
 FontBslnSideBrngMrkrLft,FontBslnSideBrngMrkrLft,F130,1492,,,
