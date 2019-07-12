@@ -21,7 +21,6 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>	# meem alternates
 			<cmd name="gr_feat" args="{gr_cv48} 1"/>	# heh
-			<cmd name="gr_feat" args="{gr_cv72} 1"/>	# dammatan 69
 			<cmd name="gr_feat" args="{gr_cv82} 1"/>	# eastern digits
 		</value>
 		<value name="Urdu" tag="Urd">

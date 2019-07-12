@@ -350,7 +350,6 @@ lookup SindhiCALT {
     sub heh-ar by heh-ar.knotted ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
-    sub dammatan-ar by dammatan-ar.sixNine ;
     sub @Meem by @Meem.sindhi ;
     sub @Kasra by @Kasra_lowered ;
 

@@ -410,7 +410,6 @@ sindhi {
     hehAlt = sindhi;
     easternDigits = sindhi;
     // shaddaKasra = lowered;  // is the default for Harmattan
-    dammatanAlt = sixNine;
 };
 
 urdu {
