@@ -1242,7 +1242,7 @@ feature cv12 {  # Character Variant 12
       language KUR  ;
       language SND  ;
       language URD  ;
-      language WLF  ;
+      # language WLF  ;  But not this one since we enable it in the WolofCALT
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dal"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
@@ -1270,7 +1270,7 @@ feature cv44 {  # Character Variant 44
         lookup MeemAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
-      language SND  ;
+      # language SND  ;  But not this one since we enable it in SindhiCALT
       language URD  ;
       language WLF  ;
     cvParameters {
@@ -1285,9 +1285,9 @@ feature cv48 {  # Character Variant 48
         language dflt;  # Default
             lookup HehAlternates;
       # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language SND  ;
-      language URD  ;
+      # language KUR  ;  But not this one since we enable it in KurdishCALT
+      # language SND  ;  But not this one since we enable it in SindhiCALT
+      # language URD  ;  But not this one since we enable it in UrduCALT
       language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
@@ -1338,6 +1338,9 @@ feature cv62 {  # Character Variant 62
 feature cv70 {  # Character Variant 70
     # Same for latin & arabic:
         lookup DammaAlternates;
+    # Except Wolof where it is already set to short
+    script arab ;
+        language WLF exclude_dflt ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
@@ -1402,6 +1405,11 @@ feature cv80 {  # Character Variant 80
 feature cv82 {  # Character Variant 82
     # Same for latin & arabic:
         lookup DigitAlternates;
+    # Except Sindhi, Urdu, and, if we had it, Rohingya
+    script arab ;
+        language KUR exclude_dflt ;
+        language SND exclude_dflt ;
+        language URD exclude_dflt ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
