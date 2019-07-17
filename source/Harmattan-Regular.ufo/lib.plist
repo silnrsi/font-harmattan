@@ -1502,6 +1502,7 @@
     <string>notequal.rtl</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>blank</string>
     <string>lozenge</string>
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
@@ -3036,6 +3037,7 @@
     <string>notequal.rtl</string>
     <string>lessequal</string>
     <string>greaterequal</string>
+    <string>blank</string>
     <string>lozenge</string>
     <string>dottedCircle</string>
     <string>FontBslnSideBrngMrkrLft</string>
