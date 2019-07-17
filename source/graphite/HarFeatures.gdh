@@ -319,10 +319,10 @@ easternDigits {
             name.1033 = string("Standard");
         }
 //  kurdish-style (value = 3) unneeded as it is same as default
-//        rohingya {	// Not implemented in Harmattan
-//            value = 4;
-//            name.1033 = string("Rohingya-style");
-//        }
+        rohingya {
+            value = 4;
+            name.1033 = string("Rohingya-style");
+        }
         sindhi {
             value = 1;
             name.1033 = string("Sindhi-style");
@@ -395,14 +395,13 @@ kurdish {
     shaddaKasra = raised;
 };
 
-// rohingya {
-//     languages = (
-//      "rhg"   // Rohingya
-//     );
-//     easternDigits = rohingya;
-//     shaddaKasra = sindhiUrdu;
-//     dammatanAlt = sixNine;
-// };
+rohingya {
+    languages = (
+     "rhg"   // Rohingya
+    );
+    easternDigits = rohingya;
+    // shaddaKasra = lowered;  // is the default for Harmattan
+};
 
 sindhi {
     languages = ( "snd", "sd" ); // Sindhi

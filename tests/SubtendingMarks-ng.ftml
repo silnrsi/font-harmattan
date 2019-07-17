@@ -24,6 +24,7 @@
       <style feats="'cv80' 1, 'cv82' 4" name="cv82_4_cv80_1"/>
       <style feats="'cv80' 2, 'cv82' 4" name="cv82_4_cv80_2"/>
       <style lang="ku" name="ku"/>
+      <style lang="rhg" name="rhg"/>
       <style lang="sd" name="sd"/>
       <style lang="ur" name="ur"/>
       <style lang="wo" name="wo"/>
@@ -217,6 +218,10 @@
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>
     <test label="U+06DD urdu" rtl="True" stylename="wo">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u06F4\u06F6\u06F7</string>
+    </test>
+    <test label="U+06DD urdu" rtl="True" stylename="rhg">
       <comment>4 6 7</comment>
       <string>\u0006DD\u06F4\u06F6\u06F7</string>
     </test>

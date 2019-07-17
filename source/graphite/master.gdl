@@ -341,9 +341,9 @@ pass(4)	// Features, special behaviors
 	if (easternDigits == urdu)
 		cEasternDigit  >  cEasternDigitUrdu;
 	endif;
-	//if (easternDigits == rohingya)
-	//	cEasternDigit  >  cEasternDigitRohingya;
-	//endif;
+	if (easternDigits == rohingya)
+		cEasternDigit  >  cEasternDigitRohingya;
+	endif;
 
 	if (commaAlt == down)
 		cno_downward  >  cdownward;

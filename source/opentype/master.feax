@@ -627,25 +627,15 @@ lookup SukunAlternates {
 
 lookup AyahAlternates {
   lookupflag 0 ;
-    sub endofayah-ar   from [ endofayah-ar.alt endofayah-ar.altB ] ;
-    sub endofayah-ar.2 from [ endofayah-ar.alt.2 endofayah-ar.altB.2 ] ;
-    sub endofayah-ar.3 from [ endofayah-ar.alt.3 endofayah-ar.altB.3 ] ;
+    sub @Ayah from [ @Ayah.alt  @Ayah.altB ] ;
 } AyahAlternates;
 
 #********************
 # Eastern digit alternates: cv82
 
 lookup DigitAlternates {
-  lookupflag 0 ;                  #    1 = Sindhi-style          2 = Urdu-style           3 = Kurdish-style    4 = Rohingya-style
-    sub  four-persian        from [  four-persian              four-persian.urdu                                               ];
-    sub  four-persian.medium from [  four-persian.medium       four-persian.urdu.medium                                        ];
-    sub  four-persian.small  from [  four-persian.small        four-persian.urdu.small                                         ];
-    sub   six-persian        from [   six-persian.urdu          six-persian.urdu                                               ];
-    sub   six-persian.medium from [   six-persian.urdu.medium   six-persian.urdu.medium                                        ];
-    sub   six-persian.small  from [   six-persian.urdu.small    six-persian.urdu.small                                         ];
-    sub seven-persian        from [ seven-persian.urdu        seven-persian.urdu                                               ];
-    sub seven-persian.medium from [ seven-persian.urdu.medium seven-persian.urdu.medium                                        ];
-    sub seven-persian.small  from [ seven-persian.urdu.small  seven-persian.urdu.small                                         ];
+  lookupflag 0 ;        #    1 = Sindhi-style      2 = Urdu-style      3 = Kurdish-style   4 = Rohingya-style
+    sub @EasternDigit from [ @EasternDigitSindhi   @EasternDigitUrdu   @EasternDigit       @EasternDigitRohingya ] ;
 } DigitAlternates;
 
 #********************

@@ -405,15 +405,15 @@
 
     <!-- *NEXT 3 CLASSES MUST MATCH* -->
     <class name='DigitsEastern'>
-        zero-persian one-persian two-persian three-persian four-persian four-persian.urdu five-persian 
+        zero-persian one-persian two-persian three-persian four-persian four-persian.urdu four-persian.roh five-persian 
         six-persian six-persian.urdu seven-persian seven-persian.urdu eight-persian nine-persian
     </class>
     <class name='DigitsEasternMedium'>
-        zero-persian.medium one-persian.medium two-persian.medium three-persian.medium four-persian.medium four-persian.urdu.medium five-persian.medium 
+        zero-persian.medium one-persian.medium two-persian.medium three-persian.medium four-persian.medium four-persian.urdu.medium four-persian.roh.medium five-persian.medium 
         six-persian.medium six-persian.urdu.medium seven-persian.medium seven-persian.urdu.medium eight-persian.medium nine-persian.medium
     </class>
     <class name='DigitsEasternSmall'>
-        zero-persian.small one-persian.small two-persian.small three-persian.small four-persian.small four-persian.urdu.small five-persian.small 
+        zero-persian.small one-persian.small two-persian.small three-persian.small four-persian.small four-persian.urdu.small four-persian.roh.small five-persian.small 
         six-persian.small six-persian.urdu.small seven-persian.small seven-persian.urdu.small eight-persian.small nine-persian.small
     </class>
 
@@ -577,6 +577,11 @@
         four-persian.small        six-persian.urdu.small   seven-persian.urdu.small
     </class>
 
+    <class name='EasternDigitRohingya'>
+        four-persian.roh         six-persian.urdu         seven-persian.urdu
+        four-persian.roh.medium  six-persian.urdu.medium  seven-persian.urdu.medium
+        four-persian.roh.small   six-persian.urdu.small   seven-persian.urdu.small
+    </class>
 
     <!-- 
     ===============================
