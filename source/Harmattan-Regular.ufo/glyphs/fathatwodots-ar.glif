@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathatwodots-ar" format="2">
   <unicode hex="065E"/>
-  <anchor x="67" y="1164" name="_diaA"/>
-  <anchor x="44" y="1670" name="diaA"/>
+  <anchor x="67" y="1154" name="_diaA"/>
+  <anchor x="44" y="1680" name="diaA"/>
   <outline>
     <component base="fatha-ar" xOffset="-243" yOffset="-8"/>
     <component base="toneonedotabove-ar" xOffset="18" yOffset="-160"/>
