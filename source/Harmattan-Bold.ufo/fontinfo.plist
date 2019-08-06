@@ -169,7 +169,9 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>33</integer>
     <integer>35</integer>
     <integer>38</integer>
+    <integer>45</integer>
     <integer>63</integer>
+    <integer>67</integer>
   </array>
   <key>openTypeOS2VendorID</key>
   <string>SIL </string>
