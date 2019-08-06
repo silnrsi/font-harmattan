@@ -17,24 +17,8 @@ APPNAME = "Harmattan"
 # set the font family name
 FAMILY = APPNAME
 
-# licensing will eventually be obtained from UFO
-COPYRIGHT = """
-Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team;
-
-Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
-with the Reserved Font Name \"Fouta\".
-
-Copyright (c) 2004-2019, SIL International (http://www.sil.org),
-with Reserved Font Names \'Andika\' and \'SIL\'.
-
-Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
-with Reserved Font Names \"Harmattan\" and \"SIL\".
-"""
-LICENSE = 'OFL.txt'
-
 DESC_NAME = "Harmattan"
 DESC_SHORT = "An Arabic script font designed for use by languages in West Africa"
-# LONG_DESC now to be obtained from FONTLOG
 
 DEBPKG = 'fonts-sil-harmattan'
 
@@ -52,10 +36,10 @@ designspace('source/Harmattan-RB.designspace',
     params = '-l ${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+#        ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
-    shortcircuit=True,
     version=VERSION,  # Needed to ensure dev information on version string
 
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
@@ -71,7 +55,6 @@ designspace('source/Harmattan-RB.designspace',
         ),
     typetuner = typetuner("source/typetuner/feat_all.xml"),
     classes = 'source/classes.xml',
-    license=ofl('Harmattan', 'SIL'),
     script='arab',
     pdf=fret(params='-r'),
     woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
@@ -79,5 +62,5 @@ designspace('source/Harmattan-RB.designspace',
 
 def configure(ctx):
     ctx.find_program('psfchangettfglyphnames')
-    ctx.find_program('ttfautohint')
+#    ctx.find_program('ttfautohint')
 
