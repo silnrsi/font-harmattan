@@ -125,7 +125,7 @@ pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 		codepoint("R") codepoint("e") codepoint("n") codepoint("d") codepoint("e") codepoint("r") codepoint("i") codepoint("n") codepoint("g")  _ _ _ _ _ _ _ _;
 
 	// Subtending marks
-	// This is in a LTR pass because their category (AN) and the digits that follow are collected into
+	// This is in a LTR pass because they are category (AN) and the digits that follow are collected into
 	// a LTR sequence by the bidi algorithm.
 	
 	cSignTakes4 cDigitsAny cDigitsAny cDigitsAny cDigitsAny  >
@@ -438,6 +438,9 @@ pass(2)
 endpass; // 2
 
 pass(3)
+
+#if 0   // disable most kerning for now
+
 	// Kerning of reh-like and waw-like
 	
 	// tighten to following gaf-like, allowing intervening marks below
@@ -487,6 +490,7 @@ pass(3)
 	cNarrowIni {advance.x +=150m} / g_alef_hamzaabove_ar_post_lam_ini_fina            MARKS _ MARKS cAnyMarksAbove;
 	cNarrowIni {advance.x +=170m} / g_alef_wasla_ar_post_lam_ini_fina                 MARKS _ MARKS cAnyMarksAbove;
 
+#endif
 	
 	// lower marksBelow on certain bases when followed by yehbarree
 	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS g_yehbarree_ar_fina ;
