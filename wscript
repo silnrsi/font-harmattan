@@ -33,10 +33,10 @@ OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,
 
 # iterate over designspace
 designspace('source/Harmattan-RB.designspace',
-    params = '-l ${DS:FILENAME_BASE}_createintance.log',
+    instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-#        ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
+#        Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
