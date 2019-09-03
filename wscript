@@ -26,7 +26,7 @@ DEBPKG = 'fonts-sil-harmattan'
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 # BUILDLABEL = 'beta'
 
-ftmlTest('tests/ftml-padauk.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
+ftmlTest('tests/ftml-smith.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
 OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
