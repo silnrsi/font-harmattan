@@ -56,7 +56,7 @@ designspace('source/Harmattan-RB.designspace',
     typetuner = typetuner("source/typetuner/feat_all.xml"),
     classes = 'source/classes.xml',
     script='arab',
-    pdf=fret(params='-r'),
+    pdf=fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-r -o i -m 48'),
     woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
     )
 
