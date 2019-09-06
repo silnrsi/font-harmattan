@@ -3103,6 +3103,10 @@
   </array>
   <key>public.postscriptNames</key>
   <dict>
+    <key>FontBslnSideBrngMrkrLft</key>
+    <string>uniF130</string>
+    <key>FontBslnSideBrngMrkrRt</key>
+    <string>uniF131</string>
     <key>Ohm</key>
     <string>Omega</string>
     <key>VS1</key>
@@ -3436,7 +3440,7 @@
     <key>comma-ar.downward</key>
     <string>uni060C.downward</string>
     <key>cuberoot-ar</key>
-    <string>uni221B</string>
+    <string>uni0606</string>
     <key>dad-ar</key>
     <string>uni0636</string>
     <key>dad-ar.fina</key>
@@ -3814,7 +3818,7 @@
     <key>fourperemspace</key>
     <string>uni2005</string>
     <key>fourthroot-ar</key>
-    <string>uni221C</string>
+    <string>uni0607</string>
     <key>fullstop-ar</key>
     <string>uni06D4</string>
     <key>gaf-ar</key>
@@ -4644,7 +4648,7 @@
     <key>percent-ar</key>
     <string>uni066A</string>
     <key>pertenthousand-ar</key>
-    <string>uni2031</string>
+    <string>uni060A</string>
     <key>perthousand-ar</key>
     <string>uni0609</string>
     <key>popdirectionalformatting</key>
