@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kirghizyu-ar" format="2">
-  <advance width="862"/>
+  <advance width="813"/>
   <unicode hex="06C9"/>
-  <anchor x="133" y="664" name="alef"/>
-  <anchor x="428" y="965" name="diaA"/>
+  <anchor x="53" y="544" name="alef"/>
+  <anchor x="368" y="965" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="vinvertedabove-ar" xOffset="425" yOffset="-405"/>
+    <component base="vinvertedabove-ar" xOffset="365" yOffset="-405"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

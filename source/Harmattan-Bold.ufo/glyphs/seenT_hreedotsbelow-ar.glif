@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenThreedotsbelow-ar" format="2">
-  <advance width="1657"/>
+  <advance width="1817"/>
   <unicode hex="069B"/>
-  <anchor x="135" y="247" name="alef"/>
-  <anchor x="989" y="583" name="diaA"/>
-  <anchor x="284" y="-654" name="diaB"/>
+  <anchor x="315" y="247" name="alef"/>
+  <anchor x="1169" y="583" name="diaA"/>
+  <anchor x="464" y="-654" name="diaB"/>
   <outline>
     <component base="seen-ar"/>
-    <component base="_dot3d" xOffset="1127" yOffset="-256"/>
+    <component base="_dot3d" xOffset="1307" yOffset="-256"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

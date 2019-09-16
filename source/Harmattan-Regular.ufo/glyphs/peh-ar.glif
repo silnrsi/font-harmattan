@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="peh-ar" format="2">
-  <advance width="1992"/>
+  <advance width="2030"/>
   <unicode hex="067E"/>
   <anchor x="388" y="815" name="alef"/>
   <anchor x="993" y="608" name="diaA"/>
-  <anchor x="963" y="-676" name="diaB"/>
+  <anchor x="993" y="-676" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot3d" xOffset="955" yOffset="-245"/>
+    <component base="_dot3d" xOffset="1005" yOffset="-245"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

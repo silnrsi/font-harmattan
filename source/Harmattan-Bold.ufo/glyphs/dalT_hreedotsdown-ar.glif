@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalThreedotsdown-ar" format="2">
-  <advance width="871"/>
+  <advance width="828"/>
   <unicode hex="068F"/>
   <anchor x="-45" y="1335" name="alef"/>
   <anchor x="223" y="1406" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="dal-ar"/>
     <component base="_dot3d" xOffset="236" yOffset="1263"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

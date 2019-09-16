@@ -9,4 +9,10 @@
     <component base="_dot2h" xOffset="271" yOffset="-231"/>
     <component base="vabove-ar" xOffset="243" yOffset="-451"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>

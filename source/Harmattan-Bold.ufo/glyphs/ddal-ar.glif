@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ddal-ar" format="2">
-  <advance width="871"/>
+  <advance width="828"/>
   <unicode hex="0688"/>
   <anchor x="-75" y="1093" name="alef"/>
   <anchor x="228" y="1394" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="dal-ar"/>
     <component base="tahabove-ar" xOffset="228" yOffset="-286"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

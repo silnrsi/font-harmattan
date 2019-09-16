@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotbelowThreedotsabove-ar" format="2">
-  <advance width="1800"/>
+  <advance width="1850"/>
   <unicode hex="08A4"/>
   <anchor x="371" y="590" name="alef"/>
   <anchor x="1310" y="1475" name="diaA"/>
@@ -10,4 +10,10 @@
     <component base="_dot3u" xOffset="1356" yOffset="1167"/>
     <component base="_dot1" xOffset="1428" yOffset="-220"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

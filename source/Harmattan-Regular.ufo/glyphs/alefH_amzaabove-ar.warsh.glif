@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefHamzaabove-ar.warsh" format="2">
-  <advance width="379"/>
+  <advance width="329"/>
   <anchor x="20" y="1415" name="alef"/>
   <anchor x="185" y="1441" name="diaA"/>
   <anchor x="185" y="-119" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="alef-ar"/>
     <component base="hamzaabove-ar" xOffset="-81" yOffset="-306"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behhamzaabove-ar" format="2">
-  <advance width="2032"/>
+  <advance width="2100"/>
   <unicode hex="08A1"/>
   <anchor x="398" y="875" name="alef"/>
-  <anchor x="981" y="1067" name="diaA"/>
-  <anchor x="959" y="-479" name="diaB"/>
+  <anchor x="1021" y="1067" name="diaA"/>
+  <anchor x="1029" y="-479" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot1" xOffset="964" yOffset="-283"/>
-    <component base="hamzaabove-ar" xOffset="720" yOffset="-728"/>
+    <component base="_dot1" xOffset="1024" yOffset="-283"/>
+    <component base="hamzaabove-ar" xOffset="747" yOffset="-708"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

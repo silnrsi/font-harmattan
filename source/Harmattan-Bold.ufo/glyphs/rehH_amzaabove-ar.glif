@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehHamzaabove-ar" format="2">
-  <advance width="611"/>
+  <advance width="635"/>
   <unicode hex="076C"/>
   <anchor x="22" y="518" name="alef"/>
-  <anchor x="364" y="927" name="diaA"/>
+  <anchor x="334" y="927" name="diaA"/>
   <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="hamzaabove-ar" xOffset="106" yOffset="-848"/>
+    <component base="hamzaabove-ar" xOffset="86" yOffset="-848"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

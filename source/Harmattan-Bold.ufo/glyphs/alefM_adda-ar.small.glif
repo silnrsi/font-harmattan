@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMadda-ar.small" format="2">
-  <advance width="379"/>
+  <advance width="402"/>
   <anchor x="-68" y="1407" name="alef"/>
   <anchor x="182" y="1449" name="diaA"/>
-  <anchor x="193" y="-103" name="diaB"/>
+  <anchor x="213" y="-103" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="_madda.small" xOffset="80" yOffset="1187"/>
+    <component base="_madda.small" xOffset="90" yOffset="1197"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

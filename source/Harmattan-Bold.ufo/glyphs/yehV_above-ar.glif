@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehVabove-ar" format="2">
-  <advance width="1437"/>
+  <advance width="1425"/>
   <unicode hex="06CE"/>
   <anchor x="410" y="618" name="alef"/>
   <anchor x="982" y="1146" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="yeh-ar.noDots"/>
     <component base="vabove-ar" xOffset="961" yOffset="-181"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

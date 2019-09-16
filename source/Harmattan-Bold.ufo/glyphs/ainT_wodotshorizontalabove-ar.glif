@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainTwodotshorizontalabove-ar" format="2">
-  <advance width="848"/>
+  <advance width="918"/>
   <unicode hex="075D"/>
   <anchor x="222" y="747" name="alef"/>
   <anchor x="538" y="968" name="diaA"/>
   <anchor x="487" y="-776" name="diaB"/>
   <outline>
     <component base="ain-ar"/>
-    <component base="_dot2h" xOffset="545" yOffset="809"/>
+    <component base="_dot2h" xOffset="555" yOffset="799"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

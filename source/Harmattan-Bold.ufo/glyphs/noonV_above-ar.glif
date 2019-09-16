@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonVabove-ar" format="2">
-  <advance width="1342"/>
+  <advance width="1217"/>
   <unicode hex="0769"/>
-  <anchor x="255" y="599" name="alef"/>
-  <anchor x="655" y="1108" name="diaA"/>
-  <anchor x="660" y="-622" name="diaB"/>
+  <anchor x="205" y="599" name="alef"/>
+  <anchor x="605" y="1098" name="diaA"/>
+  <anchor x="610" y="-622" name="diaB"/>
   <outline>
     <component base="noonghunna-ar"/>
-    <component base="_dot1_smallV" xOffset="667" yOffset="592"/>
+    <component base="_dot1_smallV" xOffset="597" yOffset="592"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

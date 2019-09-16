@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeh-ar" format="2">
-  <advance width="611"/>
+  <advance width="635"/>
   <unicode hex="0698"/>
   <anchor x="36" y="732" name="alef"/>
-  <anchor x="343" y="1059" name="diaA"/>
+  <anchor x="323" y="1059" name="diaA"/>
   <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="_dot3u" xOffset="381" yOffset="742"/>
+    <component base="_dot3u" xOffset="361" yOffset="742"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

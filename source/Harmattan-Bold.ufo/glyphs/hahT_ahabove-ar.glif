@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahTahabove-ar" format="2">
-  <advance width="1025"/>
+  <advance width="1140"/>
   <unicode hex="0772"/>
   <anchor x="92" y="949" name="alef"/>
   <anchor x="433" y="1222" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="hah-ar"/>
     <component base="tahabove-ar" xOffset="427" yOffset="-461"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

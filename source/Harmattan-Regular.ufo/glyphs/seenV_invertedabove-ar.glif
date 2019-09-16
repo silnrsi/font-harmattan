@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seenVinvertedabove-ar" format="2">
-  <advance width="1657"/>
+  <advance width="1772"/>
   <unicode hex="077E"/>
-  <anchor x="165" y="227" name="alef"/>
-  <anchor x="982" y="909" name="diaA"/>
-  <anchor x="284" y="-654" name="diaB"/>
+  <anchor x="265" y="227" name="alef"/>
+  <anchor x="1082" y="909" name="diaA"/>
+  <anchor x="384" y="-654" name="diaB"/>
   <outline>
     <component base="seen-ar"/>
-    <component base="vinvertedabove-ar" xOffset="982" yOffset="-418"/>
+    <component base="vinvertedabove-ar" xOffset="1082" yOffset="-418"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotabove-ar.sindhi" format="2">
-  <advance width="1213"/>
+  <advance width="1232"/>
   <anchor x="544" y="806" name="alef"/>
-  <anchor x="816" y="1004" name="diaA"/>
+  <anchor x="786" y="1004" name="diaA"/>
   <anchor x="851" y="-106" name="diaB"/>
   <outline>
     <component base="meem-ar.sindhi"/>
-    <component base="_dot1" xOffset="820" yOffset="821"/>
+    <component base="_dot1" xOffset="796" yOffset="821"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

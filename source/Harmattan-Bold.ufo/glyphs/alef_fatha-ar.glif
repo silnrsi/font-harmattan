@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef_fatha-ar" format="2">
-  <advance width="379"/>
+  <advance width="402"/>
   <anchor x="-71" y="1273" name="alef"/>
   <anchor x="192" y="1362" name="diaA"/>
-  <anchor x="199" y="-109" name="diaB"/>
+  <anchor x="213" y="-103" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="fatha-ar" xOffset="-125" yOffset="-207"/>
+    <component base="fatha-ar" xOffset="-95" yOffset="-207"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalVinvertedbelow-ar" format="2">
-  <advance width="871"/>
+  <advance width="828"/>
   <unicode hex="075A"/>
   <anchor x="86" y="676" name="alef"/>
   <anchor x="351" y="947" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="dal-ar"/>
     <component base="_invSmallV" xOffset="465" yOffset="-301"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

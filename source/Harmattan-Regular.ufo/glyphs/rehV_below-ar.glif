@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehVbelow-ar" format="2">
-  <advance width="601"/>
+  <advance width="555"/>
   <unicode hex="0695"/>
   <anchor x="124" y="308" name="alef"/>
   <anchor x="354" y="457" name="diaA"/>
-  <anchor x="314" y="-1064" name="diaB"/>
+  <anchor x="254" y="-1064" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="_smallV" xOffset="319" yOffset="-936"/>
+    <component base="_smallV" xOffset="249" yOffset="-936"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

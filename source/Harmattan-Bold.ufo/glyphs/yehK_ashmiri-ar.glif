@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehKashmiri-ar" format="2">
-  <advance width="1177"/>
+  <advance width="1140"/>
   <unicode hex="0620"/>
   <anchor x="719" y="756" name="above"/>
   <anchor x="345" y="433" name="alef"/>
@@ -40,4 +40,10 @@
       <point x="216" y="-352"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

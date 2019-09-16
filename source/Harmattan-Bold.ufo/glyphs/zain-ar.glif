@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zain-ar" format="2">
-  <advance width="611"/>
+  <advance width="635"/>
   <unicode hex="0632"/>
   <anchor x="75" y="621" name="alef"/>
   <anchor x="343" y="850" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="reh-ar"/>
     <component base="_dot1" xOffset="345" yOffset="650"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

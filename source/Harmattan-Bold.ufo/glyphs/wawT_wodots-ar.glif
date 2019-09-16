@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawTwodots-ar" format="2">
-  <advance width="893"/>
+  <advance width="894"/>
   <unicode hex="06CA"/>
   <anchor x="93" y="874" name="alef"/>
   <anchor x="391" y="977" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="waw-ar"/>
     <component base="_dot2h" xOffset="407" yOffset="779"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

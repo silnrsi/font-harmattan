@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarreeHamzaabove-ar" format="2">
-  <advance width="1303"/>
+  <advance width="1367"/>
   <unicode hex="06D3"/>
-  <anchor x="142" y="601" name="alef"/>
-  <anchor x="543" y="1251" name="diaA"/>
-  <anchor x="656" y="-74" name="diaB"/>
+  <anchor x="122" y="601" name="alef"/>
+  <anchor x="523" y="1251" name="diaA"/>
+  <anchor x="636" y="-74" name="diaB"/>
   <outline>
-    <component base="yehbarree-ar" xOffset="20"/>
-    <component base="hamzaabove-ar" xOffset="281" yOffset="-485"/>
+    <component base="yehbarree-ar"/>
+    <component base="hamzaabove-ar" xOffset="261" yOffset="-485"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

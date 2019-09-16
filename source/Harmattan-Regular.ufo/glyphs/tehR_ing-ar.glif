@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehRing-ar" format="2">
-  <advance width="1992"/>
+  <advance width="2030"/>
   <unicode hex="067C"/>
   <anchor x="388" y="815" name="alef"/>
   <anchor x="946" y="885" name="diaA"/>
-  <anchor x="943" y="-313" name="diaB"/>
+  <anchor x="1003" y="-313" name="diaB"/>
   <outline>
-    <component base="teh-ar"/>
-    <component base="_ring" xOffset="954" yOffset="-114"/>
+    <component base="teh-ar" xOffset="30"/>
+    <component base="_ring" xOffset="1004" yOffset="-114"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

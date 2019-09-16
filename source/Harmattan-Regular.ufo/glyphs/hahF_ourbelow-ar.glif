@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahFourbelow-ar" format="2">
-  <advance width="983"/>
+  <advance width="1054"/>
   <unicode hex="077C"/>
   <anchor x="12" y="470" name="alef"/>
   <anchor x="401" y="681" name="diaA"/>
@@ -21,7 +21,7 @@
       <point x="478" y="-101"/>
       <point x="509" y="-101" type="curve" smooth="yes"/>
       <point x="537" y="-101"/>
-      <point x="556" y="-132"/>
+      <point x="555" y="-132"/>
       <point x="560" y="-190" type="curve" smooth="yes"/>
       <point x="562" y="-213"/>
       <point x="562" y="-241"/>
@@ -50,4 +50,10 @@
     </contour>
     <component base="hah-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

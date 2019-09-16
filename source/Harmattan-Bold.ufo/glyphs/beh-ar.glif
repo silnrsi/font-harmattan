@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="beh-ar" format="2">
-  <advance width="2032"/>
+  <advance width="2100"/>
   <unicode hex="0628"/>
   <anchor x="398" y="875" name="alef"/>
   <anchor x="993" y="608" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="behDotless-ar"/>
     <component base="_dot1" xOffset="964" yOffset="-263"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehHamzaabove-ar" format="2">
-  <advance width="801"/>
+  <advance width="722"/>
   <unicode hex="06C0"/>
   <anchor x="76" y="984" name="alef"/>
   <anchor x="346" y="1117" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="ae-ar"/>
     <component base="hamzaabove-ar" xOffset="98" yOffset="-649"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

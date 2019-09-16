@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ve-ar" format="2">
-  <advance width="862"/>
+  <advance width="813"/>
   <unicode hex="06CB"/>
-  <anchor x="103" y="814" name="alef"/>
-  <anchor x="378" y="1115" name="diaA"/>
+  <anchor x="23" y="814" name="alef"/>
+  <anchor x="298" y="1115" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="_dot3u" xOffset="422" yOffset="833"/>
+    <component base="_dot3u" xOffset="342" yOffset="833"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

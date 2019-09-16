@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalFourdots-ar.loclWLF" format="2">
-  <advance width="846"/>
+  <advance width="773"/>
   <anchor x="-155" y="1081" name="alef"/>
   <anchor x="148" y="1382" name="diaA"/>
   <anchor x="407" y="-188" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="dal-ar.loclWLF"/>
     <component base="_dot4" xOffset="197" yOffset="969"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

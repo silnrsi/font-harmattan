@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behThreedotshorizontalbelow-ar" format="2">
-  <advance width="2032"/>
+  <advance width="2100"/>
   <unicode hex="0750"/>
   <anchor x="398" y="875" name="alef"/>
   <anchor x="993" y="608" name="diaA"/>
   <anchor x="982" y="-449" name="diaB"/>
   <outline>
     <component base="behDotless-ar"/>
-    <component base="_dot3h" xOffset="982" yOffset="-252"/>
+    <component base="_dot3h" xOffset="1032" yOffset="-252"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

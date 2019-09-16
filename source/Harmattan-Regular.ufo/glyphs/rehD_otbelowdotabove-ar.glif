@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehDotbelowdotabove-ar" format="2">
-  <advance width="601"/>
+  <advance width="555"/>
   <unicode hex="0696"/>
   <anchor x="61" y="141" name="alef"/>
   <anchor x="404" y="457" name="diaA"/>
-  <anchor x="230" y="-945" name="diaB"/>
+  <anchor x="190" y="-985" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
     <component base="_dot1" xOffset="114" yOffset="-49"/>
-    <component base="_dot1" xOffset="333" yOffset="-769"/>
+    <component base="_dot1" xOffset="293" yOffset="-809"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

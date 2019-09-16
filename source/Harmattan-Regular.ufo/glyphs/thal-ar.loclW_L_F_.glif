@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="thal-ar.loclWLF" format="2">
-  <advance width="846"/>
+  <advance width="773"/>
   <anchor x="-5" y="1066" name="alef"/>
   <anchor x="164" y="1145" name="diaA"/>
   <anchor x="407" y="-177" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="_dot1" xOffset="194" yOffset="952"/>
     <component base="dal-ar.loclWLF"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

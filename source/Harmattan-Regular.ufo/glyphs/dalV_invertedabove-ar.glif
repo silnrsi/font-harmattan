@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalVinvertedabove-ar" format="2">
-  <advance width="781"/>
+  <advance width="766"/>
   <unicode hex="06EE"/>
   <anchor x="49" y="988" name="alef"/>
   <anchor x="320" y="1207" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="dal-ar"/>
     <component base="vinvertedabove-ar" xOffset="317" yOffset="-222"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

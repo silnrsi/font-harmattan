@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefThreeabove-ar" format="2">
-  <advance width="379"/>
+  <advance width="329"/>
   <unicode hex="0774"/>
   <anchor x="-81" y="1560" name="alef"/>
   <anchor x="172" y="1622" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="alef-ar"/>
     <component base="_three" xOffset="150" yOffset="1360"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

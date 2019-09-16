@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehMarbutagoal-ar" format="2">
-  <advance width="801"/>
+  <advance width="759"/>
   <unicode hex="06C3"/>
   <anchor x="27" y="924" name="alef"/>
   <anchor x="348" y="1020" name="diaA"/>
@@ -8,4 +8,10 @@
   <outline>
     <component base="tehMarbuta-ar"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

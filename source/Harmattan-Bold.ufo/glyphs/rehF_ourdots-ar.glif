@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehFourdots-ar" format="2">
-  <advance width="611"/>
+  <advance width="635"/>
   <unicode hex="0699"/>
   <anchor x="41" y="946" name="alef"/>
   <anchor x="339" y="1080" name="diaA"/>
@@ -9,4 +9,10 @@
     <component base="reh-ar"/>
     <component base="_dot4" xOffset="370" yOffset="647"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

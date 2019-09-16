@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehStroke-ar" format="2">
-  <advance width="611"/>
+  <advance width="635"/>
   <unicode hex="075B"/>
   <anchor x="164" y="348" name="alef"/>
   <anchor x="394" y="497" name="diaA"/>
   <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="_bar" xOffset="410" yOffset="-175"/>
+    <component base="_bar" xOffset="410" yOffset="-195"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

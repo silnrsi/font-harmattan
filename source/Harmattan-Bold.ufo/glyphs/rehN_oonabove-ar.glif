@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehNoonabove-ar" format="2">
-  <advance width="611"/>
+  <advance width="635"/>
   <unicode hex="08B9"/>
   <anchor x="12" y="1029" name="alef"/>
   <anchor x="261" y="1206" name="diaA"/>
   <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar"/>
-    <component base="noonabove-ar" xOffset="266" yOffset="-735"/>
+    <component base="noonabove-ar" xOffset="296" yOffset="-735"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

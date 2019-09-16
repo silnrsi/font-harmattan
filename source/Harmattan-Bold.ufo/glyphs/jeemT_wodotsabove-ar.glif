@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemTwodotsabove-ar" format="2">
-  <advance width="1025"/>
+  <advance width="1140"/>
   <unicode hex="08A2"/>
   <anchor x="56" y="827" name="alef"/>
   <anchor x="421" y="990" name="diaA"/>
@@ -8,6 +8,12 @@
   <outline>
     <component base="hah-ar"/>
     <component base="_dot2h" xOffset="428" yOffset="826"/>
-    <component base="_dot1" xOffset="550" yOffset="-261"/>
+    <component base="_dot1" xOffset="630" yOffset="-261"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

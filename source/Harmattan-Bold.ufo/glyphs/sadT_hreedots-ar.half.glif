@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadThreedots-ar.half" format="2">
-  <advance width="1226"/>
-  <anchor x="-49" y="276" name="alef"/>
-  <anchor x="727" y="1221" name="diaA"/>
+  <advance width="1394"/>
+  <anchor x="318" y="521" name="alef"/>
+  <anchor x="797" y="1231" name="diaA"/>
   <anchor x="133" y="-634" name="diaB"/>
   <outline>
     <component base="sad-ar.half"/>
-    <component base="_dot3u" xOffset="770" yOffset="882"/>
+    <component base="_dot3u" xOffset="840" yOffset="882"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

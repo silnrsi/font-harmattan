@@ -10,9 +10,26 @@
     <array/>
   </dict>
   <key>com.schriftgestaltung.appVersion</key>
-  <string>1230</string>
+  <string>1264</string>
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
-  <string/>
+  <array>
+    <string>/ain-ar/waw-ar/ghain-ar/ainThreedots-ar/ghainDotbelow-ar/ainTwodotshorizontalabove-ar/ainThreedotsdownabove-ar/ainTwodotsverticalabove-ar/ainThreedotsbelow-ar/alefMadda-ar/alefHamzaabove-ar/alefHamzabelow-ar/alef-ar/reh-ar/waw-ar/alef_fatha-ar/alef_kasra-ar/alefWasla-ar/alefWavyhamzaabove-ar/alefWavyhamzabelow-ar/highhamzaAlef-ar/alefTwoabove-ar/alefThreeabove-ar/alef-ar.allah/alefMadda-ar.small/alefHamzaabove-ar.warsh/alefHamzabelow-ar.warsh/alef_fatha-ar.warsh/alef_kasra-ar.warsh 
+/beh-ar/waw-ar/teh-ar/theh-ar/behDotless-ar/tteh-ar/tteheh-ar/beeh-ar/tehRing-ar/tehThreedotsdown-ar/peh-ar/teheh-ar/beheh-ar/behThreedotshorizontalbelow-ar/behThreedotsupabove-ar/behThreedotsupbelow-ar/tehThreedotsupbelow-ar/behTwodotsbelowDotabove-ar/behVinvertedbelow-ar/behVabove-ar/behVbelow-ar/behhamzaabove-ar/behMeemabove-ar/pehMeemabove-ar/tehTehabove-ar</string>
+    <string>/wawHamzaabove-ar/waw-ar/highhamzaWaw-ar/uHamzaabove-ar/wawring-ar/kirghizoe-ar/oe-ar/u-ar/yu-ar/kirghizyu-ar/wawTwodots-ar/ve-ar/wawDotabove-ar/wawTwoabove-ar/wawThreeAbove-ar/wawDotcenter-ar/uHamzaabove-ar.filled/u-ar.filled/wawStraight-ar/dal-ar</string>
+    <string>/yehKashmiri-ar/yehHamzaabove-ar/yehVinverted-farsi/yehTwodotsabove-farsi/yehThreedotsabove-farsi/alefMaksura-ar/waw-ar/yeh-ar/highhamzaYeh-ar/yeh-farsi/yehVabove-ar/e-ar/yehThreedotsbelow-ar/yehTwoabove-farsi/yehThreeabove-farsi/yehFourbelow-farsi/yehTwodotsbelowHamzaabove-ar/yehTwodotsbelowDotabove-ar/yehTwodotsbelowNoonabove-ar/yeh-ar.noDots/noon-ar/noonDotbelow-ar/noonghunna-ar/rnoon-ar/noonRing-ar/noonThreedotsabove-ar/noonTwodotsbelow-ar/noonTahabove-ar/noonVabove-ar/noonAfrican-ar/waw-ar/sad-ar/waw-ar/dad-ar/sadTwodotsbelow-ar/sadThreedots-ar/dadDotbelow-ar/sadThreedotsbelow-ar/sad-ar.half/waw-ar/dad-ar.half/sadTwodotsbelow-ar.half/sadThreedots-ar.half/dadDotbelow-ar.half/sadThreedotsbelow-ar.half/seen-ar/waw-ar/sheen-ar/seenDotbelowDotabove-ar/seenThreedotsbelow-ar/sheenThreedotsbelow-ar/sheenDotbelow-ar/seenFourdotsabove-ar/seenTwodotshorizontalabove-ar/seenTahTwodotshorizontalabove-ar/seenFourabove-ar/seenVinvertedabove-ar 
+/yehTail-ar/yehRohingya-ar/waw-ar/yehbarree-ar/waw-ar/yehbarreeHamzaabove-ar/yehbarreeTwoabove-ar/yehbarreeThreeabove-ar</string>
+    <string>/waw-ar/dal-ar/waw-ar/thal-ar/ddal-ar/dalRing-ar/dalDotbelow-ar/dalDotbelowTah-ar/dahal-ar/ddahal-ar/dul-ar/dalThreedotsdown-ar/dalFourdots-ar/dalVinvertedabove-ar/dalTwodotsverticalbelowTah-ar/dalVinvertedbelow-ar/dalThreedotsbelow-ar 
+/waw-ar/dal-ar.loclWLF/waw-ar/thal-ar.loclWLF/ddal-ar.loclWLF/dalRing-ar.loclWLF/dalDotbelow-ar.loclWLF/dalDotbelowTah-ar.loclWLF/dahal-ar.loclWLF/ddahal-ar.loclWLF/dul-ar.loclWLF/dalThreedotsdown-ar.loclWLF/dalFourdots-ar.loclWLF/dalVinvertedabove-ar.loclWLF/dalTwodotsverticalbelowTah-ar.loclWLF/dalVinvertedbelow-ar.loclWLF/dalThreedotsbelow-ar.loclWLF 
+/feh-ar/waw-ar/fehDotless-ar/waw-ar/fehDotmovedbelow-ar/fehDotbelow-ar/veh-ar/fehThreedotsbelow-ar/peheh-ar/fehTwodotsbelow-ar/fehThreedotsupbelow-ar/fehDotbelowThreedotsabove-ar/fehAfrican-ar 
+/kehehTwodotshorizontalabove-ar/kehehThreedotsbelow-ar/waw-ar/kaf-ar/waw-ar/keheh-ar/waw-ar/kafRing-ar/kafDotabove-ar/ng-ar/kafThreedotsbelow-ar/gaf-ar/gafRing-ar/ngoeh-ar/gafTwodotsbelow-ar/gueh-ar/gafThreedots-ar/kehehDotabove-ar/kehehThreedotsabove-ar/kehehThreedotsupbelow-ar/kafTwodotshorizontalabove-ar/gafInvertedstroke-ar/kafDotbelow-ar 
+/jeem-ar/waw-ar/hah-ar/waw-ar/khah-ar/hahHamzaabove-ar/hahTwodotsverticalabove-ar/nyeh-ar/dyeh-ar/hahThreedotsabove-ar/tcheh-ar/tcheheh-ar/tchehDotabove-ar/hahTwodotshorizontalabove-ar/hahThreedotsupbelow-ar/hahTahbelow-ar/hahTahTwodotshorizontalabove-ar/hahTahabove-ar/hahFourbelow-ar/jeemTwodotsabove-ar 
+/waw-ar/heh-ar/waw-ar/heh-ar.knotted/waw-ar/hehgoal-ar/hehgoalHamzaabove-ar/tehMarbuta-ar/hehHamzaabove-ar/ae-ar/tehMarbutagoal-ar/hehDoachashmee-ar/hehVinvertedabove-ar 
+/waw-ar/lam-ar/waw-ar/lamVabove-ar/lamDotabove-ar/lamThreedotsabove-ar/lamThreedotsbelow-ar/lamBar-ar/lamDoublebar-ar 
+/waw-ar/meem-ar/waw-ar/meemDotabove-ar/meemDotbelow-ar/meemThreedotsabove-ar/waw-ar/meem-ar.sindhi/waw-ar/meemDotabove-ar.sindhi/meemDotbelow-ar.sindhi/meemThreedotsabove-ar.sindhi 
+/qaf-ar/waw-ar/qafDotless-ar/waw-ar/fehDotless-ar/waw-ar/qafDotabove-ar/qafThreedotsabove-ar/qafDotbelow-ar/qafAfrican-ar</string>
+    <string>/waw-ar/reh-ar/waw-ar/zain-ar/rreh-ar/rehv-ar/rehRing-ar/rehDotbelow-ar/rehVbelow-ar/rehDotbelowdotabove-ar/rehTwodots-ar/jeh-ar/rehFourdots-ar/rehVinvertedabove-ar/rehStroke-ar/waw-ar/rehHamzaabove-ar/rehTwodotshorizontalaboveTahabove-ar/rehLoop-ar/waw-ar/zainVinvertedabove-ar/rehNoonabove-ar 
+/kafswash-ar/waw-ar/tah-ar/waw-ar/zah-ar/tahThreedots-ar/tahTwodotsabove-ar</string>
+  </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>

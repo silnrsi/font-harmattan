@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sheenThreedotsbelow-ar" format="2">
-  <advance width="1657"/>
+  <advance width="1817"/>
   <unicode hex="069C"/>
-  <anchor x="135" y="247" name="alef"/>
-  <anchor x="967" y="1178" name="diaA"/>
-  <anchor x="284" y="-654" name="diaB"/>
+  <anchor x="322" y="247" name="alef"/>
+  <anchor x="1154" y="1178" name="diaA"/>
+  <anchor x="471" y="-654" name="diaB"/>
   <outline>
     <component base="seen-ar"/>
-    <component base="_dot3u" xOffset="1015" yOffset="841"/>
-    <component base="_dot3d" xOffset="1126" yOffset="-251"/>
+    <component base="_dot3u" xOffset="1202" yOffset="841"/>
+    <component base="_dot3d" xOffset="1313" yOffset="-251"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

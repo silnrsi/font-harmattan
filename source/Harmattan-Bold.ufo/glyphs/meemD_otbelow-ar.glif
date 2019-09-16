@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotbelow-ar" format="2">
-  <advance width="953"/>
+  <advance width="1014"/>
   <unicode hex="0766"/>
   <anchor x="88" y="324" name="alef"/>
   <anchor x="513" y="655" name="diaA"/>
   <anchor x="361" y="-548" name="diaB"/>
   <outline>
     <component base="meem-ar"/>
-    <component base="_dot1" xOffset="566" yOffset="-292"/>
+    <component base="_dot1" xOffset="626" yOffset="-262"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

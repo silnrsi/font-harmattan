@@ -8,4 +8,10 @@
     <component base="yeh-ar.medi"/>
     <component base="noonabove-ar" xOffset="270" yOffset="-726"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
 </glyph>
