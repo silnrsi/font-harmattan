@@ -154,14 +154,14 @@ def org_sil_software_check_aglfn_compliant(ttFont, adobe_glyphlist, adobe_aglfn)
   # match names like 'u12345' or 'uni1234abcd'
   uniRE = re.compile(r'(?:u([0-9a-fA-F]{4,6})$)|(?:uni((?:[0-9a-fA-F]{4,4})+)$)')
 
-  # Possible status bits:
+  # Possible status bits from agl_decode:
   AGL_OK = 0
   NON_AGL = 0x1     # One ore more components in the glyphname are not agl
   NON_AGLFN = 0x2   # One ore more components in the glyphname are not aglfn
-  MISENCODED = 0x4  # The glyph is encoded but doesn't match agl
+
   def agl_decode(glyphname):
-    """ parses a glyph name and returns a tuple containing
-    a status value and a tuple of USVs"""
+    """ parses a glyph name and returns a tuple containing a
+    status value and a tuple of USVs (some of which could be None)"""
     usvs = []
     status = AGL_OK
     # discard everything after first '.':
@@ -182,19 +182,15 @@ def org_sil_software_check_aglfn_compliant(ttFont, adobe_glyphlist, adobe_aglfn)
         usvs.extend(adobe_glyphlist[c])
         if c not in adobe_aglfn:
           status |= NON_AGLFN
-    if len(usvs) == 1 and usvs[0] is not None \
-            and glyphname in cmap_gname2usv \
-            and usvs[0] != cmap_gname2usv[glyphname]:
-      status |= MISENCODED
-
     return (status,usvs)
 
-  failed = False
-  component_names_unencoded = []    # These cause WARN
-  component_names_encoded = []      # These cause FAIL
-  non_agl_names = []                # These cause FAIL
-  non_aglfn_names = []              # These cause WARN
-  misencoded_glyphs = []            # name is ok but encoded differently than agl; causes FAIL
+  passed = True
+  component_names_unencoded = []  # These cause WARN
+  component_names_encoded = []    # These cause FAIL
+  non_agl_names_unencoded = []    # These cause WARN
+  non_agl_names_encoded = []      # These cause FAIL
+  non_aglfn_names = []            # These cause WARN
+  misencoded_glyphs = []          # name is agl but encoded differently than agl; causes FAIL
   for glyphname in ttFont.getGlyphOrder():
     if glyphname in [".null", ".notdef", "nonmarkingreturn", "tab", ".ttfautohint"]:
       # These names are explicit exceptions in the glyph naming rules
@@ -204,15 +200,23 @@ def org_sil_software_check_aglfn_compliant(ttFont, adobe_glyphlist, adobe_aglfn)
       # but they must not be encoded.
       if glyphname in cmap_gname2usv:
         component_names_encoded.append(glyphname)
-        failed = True
+        passed = False
       else:
         component_names_unencoded.append(glyphname)
       continue
     status,usvs = agl_decode(glyphname)
-    if status & NON_AGL:    non_agl_names.append(glyphname)
-    if status & NON_AGLFN:  non_aglfn_names.append(glyphname)
-    if status & MISENCODED: misencoded_glyphs.append(glyphname)
-    if status: failed = True
+    if status & NON_AGLFN:
+      non_aglfn_names.append(glyphname)
+    if status & NON_AGL:
+      if len(usvs) == 1 and glyphname in cmap_gname2usv:
+        non_agl_names_encoded.append(glyphname)
+      else:
+        non_agl_names_unencoded.append(glyphname)
+    else:
+      if len(usvs) == 1 and glyphname in cmap_gname2usv and cmap_gname2usv[glyphname] != usvs[0]:
+        misencoded_glyphs.append(glyphname)
+    if status:
+      passed = False
 
   if len(component_names_unencoded):
     yield WARN, \
@@ -233,17 +237,25 @@ def org_sil_software_check_aglfn_compliant(ttFont, adobe_glyphlist, adobe_aglfn)
           Message('bad_glyphname',
                   f'The following glyph names, though recognized by the Adobe Glyph List algorithm,' 
                   f' are not recommended for use in new fonts: {", ".join(non_aglfn_names)}.')
-  if len(non_agl_names):
+  if len(non_agl_names_unencoded):
+    yield WARN, \
+          Message('bad_glyphname',
+                  f'The following unencoded glyphs have names that will not be recognized by the'
+                  f' Adobe Glyph List algorithm. These names should be changed unless the glyphs'
+                  f' never directly enter the glyph stream (for example are used only as component'
+                  f' glyphs): {", ".join(non_agl_names_unencoded)}.')
+  if len(non_agl_names_encoded):
     yield FAIL, \
           Message('bad_glyphname',
-                  f'The following glyph names will not be recognized by the Adobe Glyph List algorithm'
-                  f' and should be changed: {", ".join(non_agl_names)}.')
+                  f'The following encoded glyphs have names that will not be recognized by the'
+                  f' Adobe Glyph List algorithm. These names should be changed to be AGL-compliant:'
+                  f' {", ".join(non_agl_names_encoded)}.')
   if len(misencoded_glyphs):
     yield FAIL, \
           Message('bad_encoding',
                   f'The following glyph names will be recognized by the Adobe Glyph List algorithm'
                   f' as a different codepoint than is indicated in the cmap: {", ".join(misencoded_glyphs)}.')
-  if not failed:
+  if passed:
     t =  ' non-component '  if len(component_names_unencoded) else ' '
     yield PASS, f'All{t}glyph names compliant with Adobe Glyph List for New Fonts'
 
