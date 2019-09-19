@@ -64,25 +64,29 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2019-04-25 (SIL WSTech team) Harmattan beta Version 1.900 (test release)
-  - KNOWN ISSUE: No TypeTuner support
+2019-10-18 (SIL WSTech team) Harmattan Version 2.000 (production release)
   - Added a bold typeface
   - Added support for all characters in the Arabic and Arabic Supplement blocks
-  - Added support for all base characters in the Arabic Extended-A block
+  - Added support for all base characters in the Arabic Extended-A block and U+08E3
   - Added U+FDFC, U+FDFD (bismillah)
-  - Added U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+034F, U+03C0, U+2044, U+2126, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265 
-  - Added language support for Wolof, Kurdish, Urdu, and Sindhi variants
+  - Added U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+034F, U+03C0, U+2044, U+2126, U+2202, 
+    U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265, U+2423 
+  - Added language support for Wolof, Kurdish, Rohingya, Sindhi, Urdu, and Wolof variants
   - Added Dal, Heh, Arabic U, Inverted Damma, and Eastern Digits features
   - Improved support for Shaddah+kasra placement feature
   - Removed "Show invisible characters" feature
   - Added UI name strings for Graphite and OpenType features
-  - Improvements to the design of dal- keheh-, yeh-, qaf-, ain-, heh doachashmee-, swash kaf-, and yeh barree-based characters
+  - Improvements to the design of dal- keheh-, yeh-, qaf-, ain-, heh doachashmee-, swash kaf-, 
+    and yeh barree-based characters
   - Improvements to the design of rohingya yeh
   - Improvements to the design and size of digits (latin and arabic)
   - Adjustments to attachment points
+  - Adjustments to spacing around many Arabic script characters
+  - Rework kerning logic based on new spacing around characters 
+  - Improved line spacing to support added characters
   - Implemented new Allah ligature rules
-  - Modified underline and strikethrough position (for application use)
-  - Modified superscript and subscript size and positioning (for application use)
+  - Modified underline and strikethrough position (used by some applications)
+  - Modified superscript and subscript size and positioning (used by some applications)
 
 2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
   - Changed internal font names
