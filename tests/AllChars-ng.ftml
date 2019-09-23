@@ -3101,22 +3101,91 @@ U+0774">
     </test>
   </testgroup>
   <testgroup label="Allah ligatures">
-    <test label="Rule 1">
-      <string>\uFDF2 \u0627\u0644\u0644\u200C \uFDF2 </string>
+    <test label="U+FDF2">
+      <comment>Rule 1</comment>
+      <string>\uFDF2</string>
     </test>
-    <test label="Rule 2 (daggeralef)">
-      <string>\u0627\u0644\u0644\u0651\u0670\u0647 \u0627\u0644\u0644\u0670\u0651\u0647 \u0627\u0644\u0644\u0651\u0670\u06C1 \u0627\u0644\u0644\u0670\u0651\u06C1</string>
+    <test label="f-l-l-h">
+      <comment>shouldn't match</comment>
+      <string>\u0641\u0644\u0644\u0647</string>
     </test>
-    <test label="Rule 2 (fatha)">
-      <string>\u0627\u0644\u0644\u0651\u064E\u0647 \u0627\u0644\u0644\u064E\u0651\u0647 \u0627\u0644\u0644\u0651\u064E\u06C1 \u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    <test label="a-l-l-s-da-hf">
+      <comment>Rule 2 (daggeralef)</comment>
+      <string>\u0627\u0644\u0644\u0651\u0670\u0647</string>
     </test>
-    <test label="Rule 2d">
-      <string> \u0644\u0644\u0651\u064E\u0647 \u0641\u0627\u0644\u0644\u064E\u0651\u06C1 \u0641\u06EB\u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    <test label="a-l-l-da-s-hf">
+      <string>\u0627\u0644\u0644\u0670\u0651\u0647</string>
     </test>
-    <test label="Rule 3">
-      <string>\u0627\u0644\u0644\u0647 \u0622\u0644\u0644\u0647 \u0623\u0644\u0644\u0647 \u0671\u0644\u0644\u0647 \u0627\u06EB\u0644\u0644\u0647 \u0641\u0627\u0644\u0644\u0647 \u0641\u0644\u0644\u0647</string>
+    <test label="a-l-l-s-da-hgf">
+      <string>\u0627\u0644\u0644\u0651\u0670\u06C1</string>
     </test>
-    <test label="Rule 4a">
+    <test label="a-l-l-da-s-hgf">
+      <string>\u0627\u0644\u0644\u0670\u0651\u06C1</string>
+    </test>
+    <test label="a-l-l-s-f-hf">
+      <comment>Rule 2 (fatha)</comment>
+      <string>\u0627\u0644\u0644\u0651\u064E\u0647</string>
+    </test>
+    <test label="a-l-l-f-s-hf">
+      <string>\u0627\u0644\u0644\u064E\u0651\u0647</string>
+    </test>
+    <test label="a-l-l-s-f-hgf">
+      <string>\u0627\u0644\u0644\u0651\u064E\u06C1</string>
+    </test>
+    <test label="a-l-l-f-s-hgf">
+      <string>\u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="a-l-M-l-s-da-hgf">
+      <comment>Rule 2c: shouldn't match</comment>
+      <string>\u0627\u0644\u06EB\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="f-l-l-s-da-hgf">
+      <comment>Rule 2d: non-alef</comment>
+      <string>\u0641\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="f-a-l-l-s-da-hgf">
+      <comment>Rule 2d: not isolate alef</comment>
+      <string>\u0641\u0627\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="a-M-l-l-s-da-hgf">
+      <comment>Rule 2d: Mark</comment>
+      <string>\u0627\u06EB\u0644\u0644\u064E\u0651\u06C1</string>
+    </test>
+    <test label="space-l-l-s-da-hf">
+      <comment>Rule 2d: shouldn't match</comment>
+      <string> \u0644\u0644\u0651\u064E\u0647</string>
+    </test>
+    <test label="a-l-l-h">
+      <comment>Rule 3</comment>
+      <string>\u0627\u0644\u0644\u0647</string>
+    </test>
+    <test label="aM-l-l-h">
+      <string>\u0622\u0644\u0644\u0647</string>
+    </test>
+    <test label="aH-l-l-h">
+      <string>\u0623\u0644\u0644\u0647</string>
+    </test>
+    <test label="aW-l-l-h">
+      <comment>won't work</comment>
+      <string>\u0671\u0644\u0644\u0647</string>
+    </test>
+    <test label="a-M-l-l-h">
+      <string>\u0627\u06EB\u0644\u0644\u0647</string>
+    </test>
+    <test label="f-a-l-l-h">
+      <comment>Rule 3a: shouldn't match</comment>
+      <string>\u0641\u0627\u0644\u0644\u0647</string>
+    </test>
+    <test label="a-l-M-l-h">
+      <comment>Rule 3d: shouldn't match</comment>
+      <string>\u0627\u0644\u06EB\u0644\u0647</string>
+    </test>
+    <test label="a-l-zwj-l-h">
+      <comment>Rule 4a: shouldn't match</comment>
+      <string>\u0627\u0644\u200D\u0644\u0647</string>
+    </test>
+    <test label="a-l-zwj-l-s-da-h">
+      <comment>Rule 4a: shouldn't match</comment>
       <string>\u0627\u0644\u200D\u0644\u0651\u0670\u0647</string>
     </test>
   </testgroup>
