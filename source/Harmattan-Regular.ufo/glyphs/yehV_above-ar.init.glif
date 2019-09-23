@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehVabove-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="409"/>
   <anchor x="6" y="901" name="alef"/>
   <anchor x="239" y="924" name="diaA"/>
   <anchor x="215" y="-400" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="vabove-ar" xOffset="187" yOffset="-421"/>
+    <component base="vabove-ar" xOffset="177" yOffset="-421"/>
     <component base="_dot2h" xOffset="161" yOffset="-217"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

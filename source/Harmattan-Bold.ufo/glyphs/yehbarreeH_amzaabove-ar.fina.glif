@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarreeHamzaabove-ar.fina" format="2">
-  <advance width="808"/>
+  <advance width="775"/>
   <anchor x="81" y="161" name="alef"/>
   <anchor x="503" y="617" name="diaA"/>
   <anchor x="714" y="-654" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="yehbarree-ar.fina"/>
     <component base="hamzaabove-ar" xOffset="240" yOffset="-1140"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

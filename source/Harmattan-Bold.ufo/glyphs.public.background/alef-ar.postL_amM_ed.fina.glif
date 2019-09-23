@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alef-ar.postLamMed.fina" format="2">
   <outline>
-    <component base="lam-ar.preAlef.medi"/>
+    <component base="lam-ar.preAlef.medi" xOffset="-45"/>
   </outline>
 </glyph>

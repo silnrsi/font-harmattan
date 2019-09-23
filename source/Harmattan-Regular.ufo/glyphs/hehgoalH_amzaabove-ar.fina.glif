@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hehgoalHamzaabove-ar.fina" format="2">
-  <advance width="860"/>
-  <anchor x="18" y="700" name="alef"/>
-  <anchor x="343" y="844" name="diaA"/>
+  <advance width="796"/>
+  <anchor x="-2" y="700" name="alef"/>
+  <anchor x="263" y="844" name="diaA"/>
   <anchor x="393" y="-131" name="diaB"/>
   <outline>
     <component base="hehgoal-ar.fina"/>
-    <component base="hamzaabove-ar" xOffset="72" yOffset="-913"/>
+    <component base="hamzaabove-ar" xOffset="-8" yOffset="-913"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

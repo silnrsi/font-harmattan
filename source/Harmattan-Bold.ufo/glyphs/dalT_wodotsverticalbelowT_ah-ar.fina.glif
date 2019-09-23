@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalTwodotsverticalbelowTah-ar.fina" format="2">
-  <advance width="943"/>
+  <advance width="939"/>
   <anchor x="105" y="1173" name="alef"/>
   <anchor x="408" y="1474" name="diaA"/>
-  <anchor x="442" y="-649" name="diaB"/>
+  <anchor x="482" y="-649" name="diaB"/>
   <outline>
     <component base="dal-ar.fina"/>
-    <component base="_dot2v" xOffset="455" yOffset="-333"/>
+    <component base="_dot2v" xOffset="475" yOffset="-333"/>
     <component base="tahabove-ar" xOffset="408" yOffset="-206"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehVinverted-farsi.fina" format="2">
-  <advance width="1296"/>
+  <advance width="1281"/>
   <anchor x="495" y="290" name="alef"/>
-  <anchor x="844" y="560" name="diaA"/>
+  <anchor x="924" y="600" name="diaA"/>
   <anchor x="706" y="-749" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="vinvertedabove-ar" xOffset="944" yOffset="-793"/>
+    <component base="vinvertedabove-ar" xOffset="914" yOffset="-793"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behVinvertedbelow-ar.fina" format="2">
-  <advance width="1984"/>
+  <advance width="2057"/>
   <anchor x="398" y="875" name="alef"/>
   <anchor x="993" y="608" name="diaA"/>
-  <anchor x="937" y="-487" name="diaB"/>
+  <anchor x="977" y="-487" name="diaB"/>
   <outline>
     <component base="behDotless-ar.fina"/>
-    <component base="_invSmallV" xOffset="955" yOffset="-389"/>
+    <component base="_invSmallV" xOffset="995" yOffset="-389"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

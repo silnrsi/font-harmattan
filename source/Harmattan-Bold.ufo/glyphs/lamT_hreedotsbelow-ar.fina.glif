@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamThreedotsbelow-ar.fina" format="2">
-  <advance width="1089"/>
+  <advance width="1148"/>
   <anchor x="283" y="402" name="alef"/>
   <anchor x="812" y="1171" name="diaA"/>
-  <anchor x="501" y="-1182" name="diaB"/>
+  <anchor x="541" y="-1182" name="diaB"/>
   <outline>
     <component base="lam-ar.fina"/>
-    <component base="_dot3d" xOffset="474" yOffset="-705"/>
+    <component base="_dot3d" xOffset="524" yOffset="-705"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

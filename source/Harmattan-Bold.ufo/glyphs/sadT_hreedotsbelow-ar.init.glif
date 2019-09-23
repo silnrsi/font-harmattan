@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadThreedotsbelow-ar.init" format="2">
-  <advance width="1209"/>
+  <advance width="1190"/>
   <anchor x="187" y="501" name="alef"/>
   <anchor x="711" y="671" name="diaA"/>
   <anchor x="590" y="-698" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="sad-ar.init"/>
     <component base="_dot3d" xOffset="616" yOffset="-216"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

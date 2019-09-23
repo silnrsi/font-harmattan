@@ -1,20 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="heh-ar.knottedHigh.fina" format="2">
-  <advance width="1282"/>
-  <anchor x="264" y="480" name="alef"/>
-  <anchor x="659" y="763" name="diaA"/>
-  <anchor x="719" y="-163" name="diaB"/>
+  <advance width="1209"/>
+  <anchor x="254" y="480" name="alef"/>
+  <anchor x="649" y="763" name="diaA"/>
+  <anchor x="709" y="-163" name="diaB"/>
   <outline>
     <contour>
-      <point x="1000" y="-10" type="line"/>
-      <point x="1006" y="-10"/>
-      <point x="1296" y="-10"/>
-      <point x="1302" y="-10" type="curve"/>
-      <point x="1300" y="125" type="line"/>
-      <point x="1292" y="125"/>
-      <point x="1006" y="125"/>
-      <point x="1000" y="125" type="curve"/>
+      <point x="927" y="-10" type="line"/>
+      <point x="933" y="-10"/>
+      <point x="1223" y="-10"/>
+      <point x="1229" y="-10" type="curve"/>
+      <point x="1227" y="125" type="line"/>
+      <point x="1219" y="125"/>
+      <point x="933" y="125"/>
+      <point x="927" y="125" type="curve"/>
     </contour>
-    <component base="hehDoachashmee-ar"/>
+    <component base="hehDoachashmee-ar" xOffset="-10"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

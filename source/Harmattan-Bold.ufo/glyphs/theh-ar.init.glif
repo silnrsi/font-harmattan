@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="theh-ar.init" format="2">
-  <advance width="449"/>
+  <advance width="444"/>
   <anchor x="-86" y="1081" name="alef"/>
   <anchor x="133" y="1134" name="diaA"/>
   <anchor x="217" y="-74" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="behDotless-ar.init"/>
     <component base="_dot3u" xOffset="187" yOffset="787"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

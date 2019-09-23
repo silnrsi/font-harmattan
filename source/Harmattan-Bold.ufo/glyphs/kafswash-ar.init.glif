@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafswash-ar.init" format="2">
-  <advance width="1942"/>
+  <advance width="1925"/>
   <anchor x="250" y="653" name="alef"/>
   <anchor x="683" y="978" name="diaA"/>
   <anchor x="1020" y="-157" name="diaB"/>
@@ -48,4 +48,10 @@
       <point x="-20" y="165" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

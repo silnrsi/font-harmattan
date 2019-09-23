@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hah-ar.init" format="2">
-  <advance width="1097"/>
+  <advance width="1103"/>
   <anchor x="373" y="631" name="above"/>
   <anchor x="33" y="469" name="alef"/>
   <anchor x="394" y="-3" name="below"/>
@@ -42,4 +42,10 @@
       <point x="-20" y="165" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

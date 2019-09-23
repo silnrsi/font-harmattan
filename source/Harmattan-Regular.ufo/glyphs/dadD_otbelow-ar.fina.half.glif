@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dadDotbelow-ar.fina.half" format="2">
-  <advance width="1227"/>
-  <anchor x="66" y="276" name="alef"/>
-  <anchor x="710" y="999" name="diaA"/>
+  <advance width="1293"/>
+  <anchor x="311" y="432" name="alef"/>
+  <anchor x="760" y="959" name="diaA"/>
   <anchor x="130" y="-634" name="diaB"/>
   <outline>
     <component base="sad-ar.fina.half"/>
-    <component base="_dot1" xOffset="736" yOffset="813"/>
-    <component base="_dot1" xOffset="743" yOffset="-224"/>
+    <component base="_dot1" xOffset="776" yOffset="773"/>
+    <component base="_dot1" xOffset="813" yOffset="-224"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

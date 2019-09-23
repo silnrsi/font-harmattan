@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="qafDotbelow-ar.fina" format="2">
-  <advance width="1362"/>
+  <advance width="1452"/>
   <anchor x="326" y="778" name="alef"/>
-  <anchor x="871" y="916" name="diaA"/>
+  <anchor x="931" y="916" name="diaA"/>
   <anchor x="987" y="-700" name="diaB"/>
   <outline>
     <component base="qafDotless-ar.fina"/>
-    <component base="_dot2h" xOffset="899" yOffset="741"/>
+    <component base="_dot2h" xOffset="949" yOffset="741"/>
     <component base="_dot1" xOffset="992" yOffset="-480"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

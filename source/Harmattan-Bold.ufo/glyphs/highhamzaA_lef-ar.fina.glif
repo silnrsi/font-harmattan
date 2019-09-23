@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaAlef-ar.fina" format="2">
-  <advance width="459"/>
+  <advance width="474"/>
   <anchor x="-51" y="887" name="alef"/>
   <anchor x="172" y="1661" name="diaA"/>
   <anchor x="169" y="-109" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="alef-ar.fina"/>
     <component base="highhamza-ar" xOffset="244" yOffset="182"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

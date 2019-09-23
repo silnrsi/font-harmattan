@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamThreedotsbelow-ar.preAlef.medi" format="2">
-  <advance width="992"/>
+  <advance width="977"/>
   <anchor x="485" y="932" name="alef"/>
   <anchor x="723" y="1124" name="diaA"/>
   <anchor x="760" y="-687" name="diaB"/>

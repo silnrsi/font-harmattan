@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefMadda-ar.postLamIni.small.fina" format="2">
-  <advance width="897"/>
+  <advance width="802"/>
   <anchor x="-194" y="1211" name="alef"/>
   <anchor x="133" y="-89" name="dia2B"/>
   <anchor x="47" y="1221" name="diaA"/>
@@ -8,6 +8,12 @@
   <anchor x="641" y="-12" name="entry"/>
   <outline>
     <component base="alef-ar.postLamIni.fina"/>
-    <component base="_madda.small" xOffset="-55" yOffset="1055"/>
+    <component base="_madda.small" xOffset="-75" yOffset="1065"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

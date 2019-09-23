@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="meemDotbelow-ar.init" format="2">
-  <advance width="831"/>
+  <advance width="816"/>
   <anchor x="69" y="449" name="alef"/>
   <anchor x="430" y="610" name="diaA"/>
   <anchor x="459" y="-467" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="meem-ar.init"/>
     <component base="_dot1" xOffset="450" yOffset="-286"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

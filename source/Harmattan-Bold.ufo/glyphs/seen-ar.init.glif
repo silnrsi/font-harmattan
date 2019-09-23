@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="seen-ar.init" format="2">
-  <advance width="1277"/>
+  <advance width="1250"/>
   <anchor x="658" y="532" name="above"/>
   <anchor x="209" y="530" name="alef"/>
   <anchor x="716" y="-89" name="below"/>
@@ -60,4 +60,10 @@
       <point x="-20" y="165" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

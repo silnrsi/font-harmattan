@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behMeemabove-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="409"/>
   <anchor x="68" y="1067" name="alef"/>
   <anchor x="235" y="1132" name="diaA"/>
   <anchor x="238" y="-388" name="diaB"/>
   <outline>
     <component base="beh-ar.init"/>
-    <component base="meemStopabove-ar" xOffset="106" yOffset="-632"/>
+    <component base="meemStopabove-ar" xOffset="86" yOffset="-632"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

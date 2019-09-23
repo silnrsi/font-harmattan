@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefWasla-ar.postLamIni.fina" format="2">
-  <advance width="897"/>
+  <advance width="802"/>
   <anchor x="-222" y="1153" name="alef"/>
   <anchor x="133" y="-89" name="dia2B"/>
   <anchor x="12" y="1321" name="diaA"/>
@@ -10,4 +10,10 @@
     <component base="alef-ar.postLamIni.fina"/>
     <component base="_wasla" xOffset="23" yOffset="1143"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

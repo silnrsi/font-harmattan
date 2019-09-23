@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="khah-ar.init" format="2">
-  <advance width="1097"/>
+  <advance width="1103"/>
   <anchor x="-3" y="827" name="alef"/>
-  <anchor x="340" y="1041" name="diaA"/>
+  <anchor x="320" y="1041" name="diaA"/>
   <anchor x="388" y="-27" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="_dot1" xOffset="356" yOffset="837"/>
+    <component base="_dot1" xOffset="336" yOffset="837"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

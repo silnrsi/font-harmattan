@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehVbelow-ar.fina" format="2">
-  <advance width="734"/>
+  <advance width="741"/>
   <anchor x="164" y="348" name="alef"/>
   <anchor x="394" y="497" name="diaA"/>
   <anchor x="334" y="-1124" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_smallV" xOffset="339" yOffset="-986"/>
+    <component base="_smallV" xOffset="319" yOffset="-966"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

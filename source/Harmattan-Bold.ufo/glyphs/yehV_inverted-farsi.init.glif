@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehVinverted-farsi.init" format="2">
-  <advance width="449"/>
+  <advance width="444"/>
   <anchor x="-44" y="901" name="alef"/>
   <anchor x="189" y="924" name="diaA"/>
   <anchor x="213" y="-396" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="vinvertedabove-ar" xOffset="179" yOffset="-461"/>
-    <component base="_dot2h" xOffset="191" yOffset="-197"/>
+    <component base="vinvertedabove-ar" xOffset="169" yOffset="-461"/>
+    <component base="_dot2h" xOffset="181" yOffset="-197"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

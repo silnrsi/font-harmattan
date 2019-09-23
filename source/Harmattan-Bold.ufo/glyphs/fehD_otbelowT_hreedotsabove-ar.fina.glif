@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fehDotbelowThreedotsabove-ar.fina" format="2">
-  <advance width="1774"/>
+  <advance width="1800"/>
   <anchor x="371" y="590" name="alef"/>
   <anchor x="1258" y="1444" name="diaA"/>
   <anchor x="1341" y="-479" name="diaB"/>
   <outline>
     <component base="fehDotless-ar.fina"/>
     <component base="_dot3u" xOffset="1300" yOffset="1091"/>
-    <component base="_dot1" xOffset="1348" yOffset="-280"/>
+    <component base="_dot1" xOffset="1358" yOffset="-280"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

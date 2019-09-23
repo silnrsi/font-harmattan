@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehTehabove-ar.init" format="2">
-  <advance width="449"/>
-  <anchor x="-59" y="937" name="alef"/>
-  <anchor x="193" y="1068" name="diaA"/>
+  <advance width="444"/>
+  <anchor x="-101" y="937" name="alef"/>
+  <anchor x="151" y="1068" name="diaA"/>
   <anchor x="132" y="-121" name="diaB"/>
   <outline>
     <contour>
-      <point x="192" y="597" type="curve" smooth="yes"/>
-      <point x="424" y="599"/>
-      <point x="565" y="680"/>
-      <point x="468" y="852" type="curve"/>
-      <point x="444" y="846"/>
-      <point x="423" y="838"/>
-      <point x="402" y="821" type="curve"/>
-      <point x="458" y="709"/>
-      <point x="355" y="678"/>
-      <point x="185" y="678" type="curve" smooth="yes"/>
-      <point x="-13" y="678"/>
-      <point x="-81" y="753"/>
-      <point x="1" y="869" type="curve"/>
-      <point x="-8" y="886"/>
-      <point x="-22" y="898"/>
-      <point x="-40" y="903" type="curve"/>
-      <point x="-194" y="763"/>
-      <point x="-135" y="594"/>
+      <point x="150" y="597" type="curve" smooth="yes"/>
+      <point x="382" y="599"/>
+      <point x="523" y="680"/>
+      <point x="426" y="852" type="curve"/>
+      <point x="402" y="846"/>
+      <point x="381" y="838"/>
+      <point x="360" y="821" type="curve"/>
+      <point x="416" y="709"/>
+      <point x="313" y="678"/>
+      <point x="143" y="678" type="curve" smooth="yes"/>
+      <point x="-55" y="678"/>
+      <point x="-123" y="753"/>
+      <point x="-41" y="869" type="curve"/>
+      <point x="-50" y="886"/>
+      <point x="-64" y="898"/>
+      <point x="-82" y="903" type="curve"/>
+      <point x="-236" y="763"/>
+      <point x="-177" y="594"/>
     </contour>
     <component base="behDotless-ar.init"/>
-    <component base="_dot2h" xScale="0.58468" yScale="0.58468" xOffset="197" yOffset="955"/>
+    <component base="_dot2h" xScale="0.58468" yScale="0.58468" xOffset="155" yOffset="955"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

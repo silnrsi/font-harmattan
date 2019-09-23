@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sad-ar.init" format="2">
-  <advance width="1209"/>
+  <advance width="1190"/>
   <anchor x="701" y="641" name="above"/>
   <anchor x="187" y="501" name="alef"/>
   <anchor x="646" y="-59" name="below"/>
@@ -54,4 +54,10 @@
       <point x="836" y="151"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

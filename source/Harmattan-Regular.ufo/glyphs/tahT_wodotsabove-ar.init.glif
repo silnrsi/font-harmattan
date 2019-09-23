@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tahTwodotsabove-ar.init" format="2">
-  <advance width="1036"/>
+  <advance width="1044"/>
   <anchor x="75" y="769" name="alef"/>
   <anchor x="299" y="1114" name="diaA"/>
   <anchor x="574" y="-89" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="tah-ar.init"/>
     <component base="_dot2h" xOffset="697" yOffset="790"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

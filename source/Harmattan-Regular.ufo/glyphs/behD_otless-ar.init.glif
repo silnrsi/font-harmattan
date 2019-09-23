@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behDotless-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="409"/>
   <anchor x="171" y="512" name="above"/>
   <anchor x="-3" y="531" name="alef"/>
   <anchor x="227" y="-42" name="below"/>
@@ -29,4 +29,10 @@
       <point x="-20" y="125" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

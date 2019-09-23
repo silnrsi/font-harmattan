@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="keheh-ar.init" format="2">
-  <advance width="1389"/>
+  <advance width="1334"/>
   <anchor x="75" y="661" name="alef"/>
   <anchor x="320" y="904" name="diaA"/>
   <anchor x="525" y="-106" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

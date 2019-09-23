@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonAfrican-ar.fina" format="2">
-  <advance width="1249"/>
+  <advance width="1262"/>
   <anchor x="367" y="448" name="alef"/>
   <anchor x="571" y="-585" name="below"/>
   <anchor x="605" y="435" name="diaA"/>
@@ -8,4 +8,10 @@
   <outline>
     <component base="noonghunna-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="wawThreeAbove-ar.fina" format="2">
-  <advance width="837"/>
+  <advance width="828"/>
   <anchor x="-102" y="399" name="alef"/>
   <anchor x="241" y="1111" name="diaA"/>
   <anchor x="370" y="-645" name="diaB"/>
   <outline>
     <component base="waw-ar.fina"/>
-    <component base="_three" xOffset="229" yOffset="898"/>
+    <component base="_three" xOffset="219" yOffset="898"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

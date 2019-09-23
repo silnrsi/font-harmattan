@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalFourdots-ar.fina.loclWLF" format="2">
-  <advance width="893"/>
-  <anchor x="-55" y="1151" name="alef"/>
-  <anchor x="248" y="1452" name="diaA"/>
+  <advance width="874"/>
+  <anchor x="-135" y="1121" name="alef"/>
+  <anchor x="168" y="1422" name="diaA"/>
   <anchor x="483" y="-129" name="diaB"/>
   <outline>
     <component base="dal-ar.fina.loclWLF"/>
-    <component base="_dot4" xOffset="297" yOffset="1039"/>
+    <component base="_dot4" xOffset="217" yOffset="1009"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

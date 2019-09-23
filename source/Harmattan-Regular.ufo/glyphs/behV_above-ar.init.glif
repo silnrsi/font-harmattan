@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="behVabove-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="409"/>
   <anchor x="-52" y="877" name="alef"/>
   <anchor x="191" y="882" name="diaA"/>
   <anchor x="207" y="-74" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="behDotless-ar.init"/>
     <component base="_smallV" xOffset="188" yOffset="623"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

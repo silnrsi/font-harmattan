@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaAlef-ar.postLamIni.fina" format="2">
-  <advance width="897"/>
+  <advance width="852"/>
   <anchor x="-161" y="988" name="alef"/>
   <anchor x="133" y="-143" name="dia2B"/>
   <anchor x="97" y="1472" name="diaA"/>
@@ -10,4 +10,10 @@
     <component base="highhamza-ar" xOffset="90"/>
     <component base="alef-ar.postLamIni.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

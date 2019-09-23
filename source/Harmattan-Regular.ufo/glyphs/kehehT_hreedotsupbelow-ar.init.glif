@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kehehThreedotsupbelow-ar.init" format="2">
-  <advance width="1389"/>
+  <advance width="1334"/>
   <anchor x="81" y="515" name="alef"/>
   <anchor x="486" y="933" name="diaA"/>
-  <anchor x="621" y="-596" name="diaB"/>
+  <anchor x="691" y="-596" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="_dot3u" xOffset="623" yOffset="-314"/>
+    <component base="_dot3u" xOffset="693" yOffset="-314"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

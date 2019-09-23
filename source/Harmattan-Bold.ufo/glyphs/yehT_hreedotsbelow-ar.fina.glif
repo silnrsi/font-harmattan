@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehThreedotsbelow-ar.fina" format="2">
-  <advance width="1296"/>
-  <anchor x="495" y="290" name="alef"/>
-  <anchor x="942" y="260" name="diaA"/>
-  <anchor x="727" y="-1321" name="diaB"/>
+  <advance width="1281"/>
+  <anchor x="480" y="290" name="alef"/>
+  <anchor x="927" y="260" name="diaA"/>
+  <anchor x="712" y="-1321" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots.fina"/>
-    <component base="_dot3d" xOffset="698" yOffset="-849"/>
+    <component base="yeh-ar.noDots.fina" xOffset="-15"/>
+    <component base="_dot3d" xOffset="683" yOffset="-849"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hahTwodotsverticalabove-ar.init" format="2">
-  <advance width="1097"/>
+  <advance width="1103"/>
   <anchor x="57" y="1010" name="alef"/>
   <anchor x="302" y="1215" name="diaA"/>
   <anchor x="388" y="-27" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="hah-ar.init"/>
     <component base="_dot2v" xOffset="348" yOffset="929"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

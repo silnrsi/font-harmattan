@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ng-ar.init" format="2">
-  <advance width="1405"/>
+  <advance width="1370"/>
   <anchor x="4" y="571" name="alef"/>
   <anchor x="315" y="1452" name="diaA"/>
   <anchor x="604" y="-106" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="kaf-ar.init"/>
     <component base="_dot3u" xOffset="365" yOffset="1100"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yeh-farsi.fina" format="2">
-  <advance width="1296"/>
-  <anchor x="475" y="260" name="alef"/>
+  <advance width="1226"/>
+  <anchor x="359" y="260" name="alef"/>
   <anchor x="942" y="210" name="diaA"/>
   <anchor x="716" y="-749" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

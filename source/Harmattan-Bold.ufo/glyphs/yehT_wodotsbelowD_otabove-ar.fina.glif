@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehTwodotsbelowDotabove-ar.fina" format="2">
-  <advance width="1296"/>
+  <advance width="1281"/>
   <anchor x="473" y="265" name="alef"/>
-  <anchor x="979" y="602" name="diaA"/>
+  <anchor x="929" y="632" name="diaA"/>
   <anchor x="722" y="-1044" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
     <component base="_dot2h" xOffset="719" yOffset="-867"/>
-    <component base="_dot1" xOffset="981" yOffset="432"/>
+    <component base="_dot1" xOffset="921" yOffset="402"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dul-ar.fina" format="2">
-  <advance width="903"/>
+  <advance width="872"/>
   <anchor x="127" y="1197" name="alef"/>
   <anchor x="360" y="1447" name="diaA"/>
   <anchor x="385" y="-71" name="diaB"/>
@@ -8,4 +8,10 @@
     <component base="dal-ar.fina"/>
     <component base="_dot3u" xOffset="420" yOffset="1157"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

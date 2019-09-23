@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamDotabove-ar.preAlef.medi" format="2">
-  <advance width="992"/>
+  <advance width="977"/>
   <anchor x="458" y="1340" name="alef"/>
   <anchor x="683" y="1501" name="diaA"/>
   <anchor x="789" y="-149" name="diaB"/>

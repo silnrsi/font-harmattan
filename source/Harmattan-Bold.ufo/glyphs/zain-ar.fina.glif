@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="zain-ar.fina" format="2">
-  <advance width="734"/>
+  <advance width="741"/>
   <anchor x="61" y="621" name="alef"/>
   <anchor x="329" y="850" name="diaA"/>
   <anchor x="344" y="-686" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="_dot1" xOffset="331" yOffset="650"/>
+    <component base="_dot1" xOffset="332" yOffset="650"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

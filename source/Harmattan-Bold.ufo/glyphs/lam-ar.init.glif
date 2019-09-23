@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.init" format="2">
-  <advance width="496"/>
+  <advance width="456"/>
   <anchor x="266" y="1156" name="above"/>
   <anchor x="60" y="804" name="alef"/>
   <anchor x="287" y="-42" name="below"/>
@@ -32,4 +32,10 @@
       <point x="-20" y="165" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

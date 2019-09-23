@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ainTwodotsverticalabove-ar.init" format="2">
-  <advance width="802"/>
+  <advance width="775"/>
   <anchor x="116" y="999" name="alef"/>
   <anchor x="321" y="1282" name="diaA"/>
   <anchor x="357" y="-89" name="diaB"/>
   <outline>
     <component base="ain-ar.init"/>
-    <component base="_dot2v" xOffset="390" yOffset="1021"/>
+    <component base="_dot2v" xOffset="360" yOffset="1011"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

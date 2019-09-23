@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kehehDotabove-ar.init" format="2">
-  <advance width="1389"/>
+  <advance width="1334"/>
   <anchor x="61" y="515" name="alef"/>
-  <anchor x="377" y="1153" name="diaA"/>
+  <anchor x="347" y="1153" name="diaA"/>
   <anchor x="623" y="-106" name="diaB"/>
   <outline>
     <component base="kaf-ar.init"/>
-    <component base="_dot1" xOffset="396" yOffset="959"/>
+    <component base="_dot1" xOffset="366" yOffset="959"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

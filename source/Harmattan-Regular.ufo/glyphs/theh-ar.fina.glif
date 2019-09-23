@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="theh-ar.fina" format="2">
-  <advance width="1984"/>
+  <advance width="2042"/>
   <anchor x="388" y="815" name="alef"/>
-  <anchor x="882" y="1098" name="diaA"/>
+  <anchor x="982" y="1098" name="diaA"/>
   <anchor x="932" y="-121" name="diaB"/>
   <outline>
     <component base="behDotless-ar.fina"/>
-    <component base="_dot3u" xOffset="970" yOffset="804"/>
+    <component base="_dot3u" xOffset="1000" yOffset="804"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

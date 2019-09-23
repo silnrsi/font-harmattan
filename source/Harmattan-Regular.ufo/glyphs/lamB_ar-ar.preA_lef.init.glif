@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamBar-ar.preAlef.init" format="2">
-  <advance width="801"/>
+  <advance width="684"/>
   <anchor x="270" y="986" name="alef"/>
   <anchor x="498" y="1132" name="diaA"/>
   <anchor x="573" y="-113" name="diaB"/>
@@ -9,4 +9,10 @@
     <component base="lam-ar.preAlef.init"/>
     <component base="_bar" xOffset="566" yOffset="876"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

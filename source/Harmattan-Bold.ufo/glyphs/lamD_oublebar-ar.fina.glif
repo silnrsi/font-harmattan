@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamDoublebar-ar.fina" format="2">
-  <advance width="1089"/>
+  <advance width="1148"/>
   <anchor x="283" y="402" name="alef"/>
   <anchor x="812" y="1171" name="diaA"/>
   <anchor x="460" y="-577" name="diaB"/>
   <outline>
     <component base="lam-ar.fina"/>
-    <component base="_bar2" xOffset="850" yOffset="656"/>
+    <component base="_bar2" xOffset="880" yOffset="656"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

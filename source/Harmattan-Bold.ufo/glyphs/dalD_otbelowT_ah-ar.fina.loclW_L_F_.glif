@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dalDotbelowTah-ar.fina.loclWLF" format="2">
-  <advance width="893"/>
+  <advance width="874"/>
   <anchor x="-63" y="1111" name="alef"/>
   <anchor x="251" y="1450" name="diaA"/>
   <anchor x="508" y="-477" name="diaB"/>
   <outline>
     <component base="dal-ar.fina.loclWLF"/>
     <component base="_dot1" xOffset="494" yOffset="-245"/>
-    <component base="_tah" xOffset="241" yOffset="1055"/>
+    <component base="_tah" xOffset="211" yOffset="1025"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

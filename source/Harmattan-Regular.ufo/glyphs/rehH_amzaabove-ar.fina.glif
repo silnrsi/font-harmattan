@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehHamzaabove-ar.fina" format="2">
-  <advance width="714"/>
+  <advance width="696"/>
   <anchor x="103" y="488" name="alef"/>
   <anchor x="403" y="871" name="diaA"/>
   <anchor x="281" y="-636" name="diaB"/>
   <outline>
     <component base="reh-ar.fina"/>
-    <component base="hamzaabove-ar" xOffset="147" yOffset="-891"/>
+    <component base="hamzaabove-ar" xOffset="117" yOffset="-891"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

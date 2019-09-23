@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonThreedotsabove-ar.init" format="2">
-  <advance width="449"/>
+  <advance width="444"/>
   <anchor x="3" y="581" name="alef"/>
   <anchor x="212" y="540" name="diaA"/>
   <anchor x="200" y="-616" name="diaB"/>
   <outline>
     <component base="behDotless-ar.init"/>
-    <component base="_dot3d" xOffset="210" yOffset="-180"/>
+    <component base="_dot3d" xOffset="180" yOffset="-180"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

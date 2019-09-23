@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tehRing-ar.init" format="2">
-  <advance width="429"/>
+  <advance width="409"/>
   <anchor x="-84" y="842" name="alef"/>
   <anchor x="165" y="876" name="diaA"/>
-  <anchor x="173" y="-233" name="diaB"/>
+  <anchor x="203" y="-233" name="diaB"/>
   <outline>
     <component base="teh-ar.init"/>
-    <component base="_ring" xOffset="238" yOffset="-55"/>
+    <component base="_ring" xOffset="199" yOffset="-65"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

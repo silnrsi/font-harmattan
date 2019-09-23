@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghainDotbelow-ar.fina" format="2">
-  <advance width="990"/>
+  <advance width="996"/>
   <anchor x="295" y="902" name="alef"/>
   <anchor x="548" y="1111" name="diaA"/>
   <anchor x="547" y="-776" name="diaB"/>
@@ -9,4 +9,10 @@
     <component base="_dot1" xOffset="543" yOffset="918"/>
     <component base="_dot1" xOffset="538" yOffset="-233"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

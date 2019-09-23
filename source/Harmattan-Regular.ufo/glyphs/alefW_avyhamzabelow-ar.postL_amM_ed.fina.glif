@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefWavyhamzabelow-ar.postLamMed.fina" format="2">
-  <advance width="994"/>
+  <advance width="583"/>
   <anchor x="-5" y="912" name="alef"/>
   <anchor x="206" y="1114" name="diaA"/>
   <anchor x="283" y="-537" name="diaB"/>
@@ -9,4 +9,10 @@
     <component base="alef-ar.postLamMed.fina"/>
     <component base="_wavyHamza" xOffset="343" yOffset="-1631"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

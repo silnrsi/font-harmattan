@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_hamza-ar.preAlef.warsh.init" format="2">
-  <advance width="801"/>
-  <anchor x="300" y="1255" name="alef"/>
-  <anchor x="512" y="1406" name="diaA"/>
+  <advance width="684"/>
+  <anchor x="250" y="1255" name="alef"/>
+  <anchor x="482" y="1416" name="diaA"/>
   <anchor x="573" y="-113" name="diaB"/>
   <anchor x="545" y="-12" name="exit"/>
   <outline>
     <component base="lam-ar.preAlef.init"/>
-    <component base="hamzaabove-ar" xOffset="265" yOffset="-325"/>
+    <component base="hamzaabove-ar" xOffset="245" yOffset="-325"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

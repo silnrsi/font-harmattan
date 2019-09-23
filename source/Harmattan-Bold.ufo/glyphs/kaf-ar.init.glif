@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kaf-ar.init" format="2">
-  <advance width="1405"/>
+  <advance width="1370"/>
   <anchor x="455" y="919" name="above"/>
   <anchor x="38" y="559" name="alef"/>
   <anchor x="632" y="-96" name="below"/>
@@ -60,4 +60,10 @@
       <point x="-20" y="165" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

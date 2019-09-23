@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ng-ar.fina" format="2">
-  <advance width="1406"/>
+  <advance width="1381"/>
   <anchor x="206" y="624" name="alef"/>
   <anchor x="571" y="1344" name="diaA"/>
   <anchor x="640" y="-101" name="diaB"/>
   <outline>
-    <component base="_dot3u" xOffset="625" yOffset="1050"/>
+    <component base="_dot3u" xOffset="635" yOffset="1050"/>
     <component base="kaf-ar.fina"/>
   </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>
