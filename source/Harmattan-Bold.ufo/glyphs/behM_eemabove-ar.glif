@@ -10,10 +10,4 @@
     <component base="_dot1" xOffset="1004" yOffset="-263"/>
     <component base="meemStopabove-ar" xOffset="904" yOffset="-701"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

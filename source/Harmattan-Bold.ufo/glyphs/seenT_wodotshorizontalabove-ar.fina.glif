@@ -8,10 +8,4 @@
     <component base="seen-ar.fina"/>
     <component base="_dot2v" xOffset="1195" yOffset="850"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

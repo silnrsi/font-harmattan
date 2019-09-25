@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammaturnedbelow-ar" format="2">
   <unicode hex="08E3"/>
-  <anchor x="12" y="-192" name="_diaB"/>
+  <anchor x="12" y="-162" name="_diaB"/>
+  <anchor x="-1" y="-780" name="diaB"/>
   <outline>
-    <component base="dammainverted-ar.open" yOffset="-2040"/>
+    <component base="damma-ar" xScale="-1" yScale="-1" xOffset="272" yOffset="1058"/>
   </outline>
 </glyph>

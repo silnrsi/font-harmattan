@@ -9,10 +9,4 @@
     <component base="vinvertedabove-ar" xOffset="149" yOffset="-491"/>
     <component base="_dot2h" xOffset="161" yOffset="-197"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

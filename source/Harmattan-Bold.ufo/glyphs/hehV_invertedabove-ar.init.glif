@@ -8,10 +8,4 @@
     <component base="hehDoachashmee-ar.init"/>
     <component base="vinvertedabove-ar" xOffset="483" yOffset="-208"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

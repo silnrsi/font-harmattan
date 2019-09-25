@@ -9,10 +9,4 @@
     <component base="yeh-ar.noDots"/>
     <component base="_dot3d" xOffset="698" yOffset="-501"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

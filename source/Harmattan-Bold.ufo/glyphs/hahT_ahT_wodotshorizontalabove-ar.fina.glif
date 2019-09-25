@@ -54,10 +54,4 @@
     <component base="hah-ar.fina"/>
     <component base="_dot2h" xScale="0.90573" yScale="0.90573" xOffset="688" yOffset="-404"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

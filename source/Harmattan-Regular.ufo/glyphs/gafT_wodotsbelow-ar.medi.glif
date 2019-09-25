@@ -9,10 +9,4 @@
     <component base="_gafBarShort" xOffset="161" yOffset="668"/>
     <component base="_dot2h" xOffset="690" yOffset="-230"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

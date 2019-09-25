@@ -9,10 +9,4 @@
     <component base="ain-ar"/>
     <component base="_dot3d" xScale="0.86505" yScale="0.86505" xOffset="568" yOffset="-186"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

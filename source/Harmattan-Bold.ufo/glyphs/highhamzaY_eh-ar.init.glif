@@ -8,10 +8,4 @@
     <component base="highhamza-ar" xOffset="225" yOffset="-381"/>
     <component base="alefMaksura-ar.init"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

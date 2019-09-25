@@ -8,10 +8,4 @@
     <component base="yeh-ar.noDots.init"/>
     <component base="_ring" xOffset="200" yOffset="-210"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

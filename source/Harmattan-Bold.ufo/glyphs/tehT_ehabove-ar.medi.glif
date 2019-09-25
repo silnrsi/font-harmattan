@@ -28,10 +28,4 @@
     <component base="behDotless-ar.medi"/>
     <component base="_dot2h" xScale="0.58468" yScale="0.58468" xOffset="247" yOffset="955"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.67,0.95,0.38,1</string>
-    </dict>
-  </lib>
 </glyph>

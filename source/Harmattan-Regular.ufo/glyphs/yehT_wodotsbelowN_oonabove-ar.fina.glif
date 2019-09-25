@@ -8,10 +8,4 @@
     <component base="yeh-ar.fina"/>
     <component base="noonabove-ar" xOffset="851" yOffset="-1007"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

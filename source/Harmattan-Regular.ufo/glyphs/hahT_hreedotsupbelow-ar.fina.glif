@@ -8,10 +8,4 @@
     <component base="hah-ar.fina"/>
     <component base="_dot3u" xOffset="586" yOffset="-191"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

@@ -10,10 +10,4 @@
     <component base="alef-ar.postLamMed.fina"/>
     <component base="highhamza-ar" xOffset="150" yOffset="90"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>

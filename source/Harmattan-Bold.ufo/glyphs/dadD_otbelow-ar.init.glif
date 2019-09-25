@@ -9,10 +9,4 @@
     <component base="_dot1" xOffset="638" yOffset="826"/>
     <component base="_dot1" xOffset="635" yOffset="-239"/>
   </outline>
-  <lib>
-    <dict>
-      <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
-    </dict>
-  </lib>
 </glyph>
