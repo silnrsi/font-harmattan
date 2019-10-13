@@ -591,11 +591,11 @@
 
     <class name='AinLikeInit'>
         ain-ar.init ghain-ar.init ainThreedots-ar.init ghainDotbelow-ar.init ainTwodotshorizontalabove-ar.init ainThreedotsdownabove-ar.init
-        ainTwodotsverticalabove-ar.init
+        ainTwodotsverticalabove-ar.init ainThreedotsbelow-ar.init
     </class>
 
     <class name='AinLikeIsol'>
-        ain-ar ghain-ar ainThreedots-ar ghainDotbelow-ar ainTwodotshorizontalabove-ar ainThreedotsdownabove-ar ainTwodotsverticalabove-ar
+        ain-ar ghain-ar ainThreedots-ar ghainDotbelow-ar ainTwodotshorizontalabove-ar ainThreedotsdownabove-ar ainTwodotsverticalabove-ar ainThreedotsbelow-ar
     </class>
 
     <class name='LoosenAlefA_'>
@@ -652,17 +652,19 @@
         noonghunna-ar noonghunna-ar.fina noonghunna-ar.medi noonghunna-ar.init
     </class>
 
-    <class name='RehAll'>
-        reh-ar zain-ar rehv-ar rehDotbelow-ar rehVbelow-ar rehTwodots-ar jeh-ar rehTwodotsverticalabove-ar zainVinvertedabove-ar
-        rehVinvertedabove-ar rehStroke-ar reh-ar.fina zain-ar.fina rehv-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehTwodots-ar.fina
-        jeh-ar.fina rehTwodotsverticalabove-ar.fina zainVinvertedabove-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina
-    </class>
 
     <class name='RehKernGaf'>
-        keheh-ar gaf-ar kehehDotabove-ar kehehThreedotsabove-ar kehehThreedotsupbelow-ar kehehTwodotshorizontalabove-ar
-        kehehThreedotsbelow-ar kaf-ar.init kafDotabove-ar.init ng-ar.init kafTwodotshorizontalabove-ar.init kafThreedotsbelow-ar.init keheh-ar.init
-        gaf-ar.init kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init kehehTwodotshorizontalabove-ar.init
-        kehehThreedotsbelow-ar.init kafswash-ar.init
+        kehehTwodotshorizontalabove-ar  kehehThreedotsbelow-ar  kaf-ar  keheh-ar  
+        kafRing-ar  kafDotabove-ar  ng-ar  kafThreedotsbelow-ar  gaf-ar  
+        gafRing-ar  ngoeh-ar  gafTwodotsbelow-ar  gueh-ar  gafThreedots-ar  
+        kehehDotabove-ar  kehehThreedotsabove-ar  kehehThreedotsupbelow-ar  
+        kafTwodotshorizontalabove-ar  gafInvertedstroke-ar  kafDotbelow-ar  
+
+        kehehTwodotshorizontalabove-ar.init kehehThreedotsbelow-ar.init kaf-ar.init keheh-ar.init 
+        kafRing-ar.init kafDotabove-ar.init ng-ar.init kafThreedotsbelow-ar.init gaf-ar.init 
+        gafRing-ar.init ngoeh-ar.init gafTwodotsbelow-ar.init gueh-ar.init gafThreedots-ar.init 
+        kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init 
+        kafTwodotshorizontalabove-ar.init gafInvertedstroke-ar.init kafDotbelow-ar.init 
     </class>
 
     <class name='RehKernOther'>
@@ -717,23 +719,33 @@
         lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamThreedotsbelow-ar.init
     </class>
 
-    <class name='RehTighten'>
-        rehv-ar rehTwodots-ar jeh-ar zainVinvertedabove-ar rehVinvertedabove-ar rehv-ar.fina rehTwodots-ar.fina jeh-ar.fina zainVinvertedabove-ar.fina
-        rehVinvertedabove-ar.fina
+    <class name='RehTighten' exts='fina'>
+        rreh-ar rehv-ar rehTwodots-ar jeh-ar zainVinvertedabove-ar rehVinvertedabove-ar
     </class>
 
-    <class name='RehTightenMore'>
-        reh-ar zain-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar reh-ar.fina zain-ar.fina rehDotbelow-ar.fina
-        rehVbelow-ar.fina rehTwodotsverticalabove-ar.fina rehStroke-ar.fina
+    <class name='RehTightenMore' exts='fina'>
+        reh-ar zain-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar 
     </class>
+
+    <class name='RehAll' exts='.fina'> 
+        reh-ar zain-ar rreh-ar rehv-ar rehRing-ar rehDotbelow-ar 
+        rehVbelow-ar rehDotbelowdotabove-ar rehTwodots-ar jeh-ar rehFourdots-ar 
+        rehVinvertedabove-ar rehStroke-ar rehTwodotsverticalabove-ar rehHamzaabove-ar 
+        rehTwodotshorizontalaboveTahabove-ar rehLoop-ar zainVinvertedabove-ar rehNoonabove-ar 
+    </class>
+
+
 
     <class name='Tall'>
         @AlefIso @LamIni @LamIso alef_fatha-ar alef_fatha-ar.warsh alef_kasra-ar alef_kasra-ar.warsh
     </class>
 
     <class name='TightenReh_'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh alef-ar alefWasla-ar alef_fatha-ar
-        alef_fatha-ar.warsh dal-ar thal-ar dalRing-ar dalDotbelow-ar dalDotbelowTah-ar dahal-ar dul-ar
+        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh 
+        alef-ar alefWasla-ar alefWavyHamzaabove-ar highhamzaAlef-ar alefTwoabove-ar 
+        alefThreeabove-ar alef_fatha-ar alef_fatha-ar.warsh 
+        
+        dal-ar thal-ar dalRing-ar dalDotbelow-ar dalDotbelowTah-ar dahal-ar dul-ar
         dalThreedotsdown-ar dalVinvertedabove-ar yehbarree-ar behDotless-ar beh-ar teh-ar tehRing-ar theh-ar tteheh-ar beeh-ar
         tehThreedotsdown-ar peh-ar behThreedotshorizontalbelow-ar behThreedotsupabove-ar behThreedotsupbelow-ar
         tehThreedotsupbelow-ar behTwodotsbelowDotabove-ar behVinvertedbelow-ar behVabove-ar behVbelow-ar
@@ -797,9 +809,17 @@
         lamThreedotsabove-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init
     </class>
 
-    <class name='WawAll'>
-        wawHamzaabove-ar waw-ar oe-ar yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar wawHamzaabove-ar.fina waw-ar.fina
-        oe-ar.fina yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina
+    <class name='WawAll'>  <!-- except wawStraight-ar -->
+        wawHamzaabove-ar waw-ar highhamzaWaw-ar uHamzaabove-ar 
+        uHamzaabove-ar.filled wawring-ar kirghizoe-ar oe-ar u-ar u-ar.filled 
+        yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar wawTwoabove-ar 
+        wawThreeAbove-ar wawDotcenter-ar 
+
+        wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina uHamzaabove-ar.fina 
+        uHamzaabove-ar.filled.fina wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina u-ar.filled.fina 
+        yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina wawTwoabove-ar.fina 
+        wawThreeAbove-ar.fina wawDotcenter-ar.fina 
+        
     </class>
 
     <class name='WawTighten'>

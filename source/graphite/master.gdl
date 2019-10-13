@@ -27,19 +27,32 @@ Bidi = true;
 
 environment {MUnits=2048};
 
-// Temporary until incorporated into stddef.h:
-#define DIR_NSM 16		// not defined in stddef.h but is in the compiler
-#define DIR_LRI 17		// These 4 new to Unicode 6.3
-#define DIR_RLI 18
-#define DIR_FSI 19
-#define DIR_PDI 20
-
 #ifndef opt2
 #define opt(x)      [x]?
 #define opt2(x)     [opt(x) x]?
 #define opt3(x)     [opt2(x) x]?
 #define opt4(x)     [opt3(x) x]?
 #endif
+
+// GDL-defined constants for collision avoidance flags:
+#define COLL_FIX 1
+#define COLL_IGNORE 2
+#define COLL_START 4
+#define COLL_END 8
+#define COLL_KERN 16
+#define COLL_ISSPACE 128
+#define ORDER_LEFTDOWN 1
+#define ORDER_NOABOVE 4
+#define ORDER_NOBELOW 8
+
+// Macros for setting flags:
+#define setbits(f,m,v) (f & (~m)) | v
+#define SET_FIX(f)     setbits(f, COLL_FIX, COLL_FIX)
+#define SET_START(f)   setbits(f, COLL_START, COLL_START)
+#define SET_END(f)     setbits(f, COLL_END, COLL_END)
+#define SET_KERN(f)    setbits(f, COLL_KERN, COLL_KERN)
+#define SET_ISSPACE(f) setbits(f, COLL_ISSPACE, COLL_ISSPACE)
+
 
 #if 0   // DESIGN NOTES
 
@@ -490,6 +503,23 @@ pass(3)
 	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS g_yehbarree_ar_fina ;
 	
 endpass; // 3	
+
+// Collision-Avoidance-based kerning
+
+pass(4) 
+	// Set slot attributes for CA-based kerning:
+	cRehAll { collision {
+				flags = SET_FIX(collision.flags) ;
+				flags = SET_KERN(collision.flags);
+				min.x = -1000m ; 
+				max.x = 1000m  ;	
+						}
+			};
+endpass;
+
+pass(5) {CollisionFix = 2; AutoKern = 1}
+	// No rules, just run the collision avoidance algorithm
+endpass;
 
 endtable; // pos
 

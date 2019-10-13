@@ -35,7 +35,9 @@ OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,
 designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+#        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+#        cmd('../../font-awami/tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', "source/${DS:FILENAME_BASE}-octabox.json"),
+
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
     ),
@@ -56,7 +58,7 @@ designspace('source/Harmattan-RB.designspace',
     typetuner = typetuner("source/typetuner/feat_all.xml"),
     classes = 'source/classes.xml',
     script='arab',
-    pdf=fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-r -o i -m 48'),
+    pdf=fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-b -r -o i -m 48'),
     woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
     )
 
