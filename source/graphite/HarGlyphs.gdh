@@ -176,6 +176,7 @@ cRehAll { collision {
 			complexFit = true
 					}
 		};
+g_space { collision.flags = 12 };
 
 // This isn't the complete list of initials or isolates, but trying it for now
 cComplexShape = (
