@@ -176,7 +176,8 @@ cRehAll { collision {
 			complexFit = true
 					}
 		};
-g_space { collision.flags = 12 };
+g_space { collision.flags = COLL_END + COLL_START};
+g_zerowidthjoiner { collision.flags = COLL_END + COLL_START};
 
 // This isn't the complete list of initials or isolates, but trying it for now
 cComplexShape = (
@@ -193,8 +194,10 @@ cComplexShape = (
 
 	g_sad_ar_half g_sad_twodotsbelow_ar_half g_sad_threedots_ar_half g_sad_threedotsbelow_ar_half
     g_dad_ar_half g_dad_dotbelow_ar_half
+    
+    g_kashida_ar
 
-) {collision.complexFit = true} ;
+) {collision {complexFit = true; flags = COLL_END + COLL_START}} ;
 
 endtable; // glyph
 
