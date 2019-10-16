@@ -36,7 +36,7 @@ designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
 #        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-#        cmd('../../font-awami/tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', "source/${DS:FILENAME_BASE}-octabox.json"),
+        cmd('../../font-awami/tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', "source/${DS:FILENAME_BASE}-octabox.json"),
 
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
