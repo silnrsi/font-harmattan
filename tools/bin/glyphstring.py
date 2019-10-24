@@ -47,7 +47,7 @@ class Collection(object):
         return res
 
     def round(self, rounding, k):
-        X = np.array([(int(x[0]), int(x[1])) for x in (y[5:].split(",") for y in self.gidmap.keys())])
+        X = np.array([(int(x[0]), int(x[1])) for x in ((y[y.find(":")+1:]+",0").split(",") for y in self.gidmap.keys())])
         (children, _, n_leaves, parents, distances) = ward_tree(X, return_distance = True)
         done = set()
         res = []
