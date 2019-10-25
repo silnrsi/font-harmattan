@@ -459,6 +459,9 @@ def addString(collections, s, rounding=0):
             collections[g] = Collection()
         collections[g].addString(n, rounding=rounding)
 
+def printall(res, go):
+    return "\n".join(r.asStr(cmap=go) for r in sorted(res, key=lambda x:x.key()))
+
 if __name__ == '__main__':
     import argparse
     from fontTools import ttLib
@@ -472,6 +475,7 @@ if __name__ == '__main__':
     parser.add_argument('-j','--jobs',default=0,type=int,help='Number of parallel jobs [0=num cpus]')
     parser.add_argument('-s','--start',default=0,type=int,help='Starting phase')
     parser.add_argument('-e','--end',default=2,type=int,help="Final phase before output and stopping")
+    parser.add_argument('--printeach',action='store_true',help='Print rules after each phase')
     args = parser.parse_args()
 
     font = ttLib.TTFont(args.font)
@@ -511,6 +515,8 @@ if __name__ == '__main__':
             res[k] = r[1]
         print("Totals: {} -> {}".format(*total))
         res = [r for vg in res.values() for v in vg.values() for r in v]
+        if args.printeach:
+            print(printall(res, go))
     else:
         res = [r for vg in colls.values() for v in vg.gidmap.values() for r in v]
 
@@ -547,13 +553,19 @@ if __name__ == '__main__':
                                 print("ERROR: {} already present in {}".format(r.asStr(cmap=go), m[0].asStr(cmap=go)))
                         else:
                             n.positions.append(r.match[0].pos)
+                    if r == match[0][0]:
+                        newrules.append(r)
                 else:
                     newrules.append(r)
             return newrules
         # can't multiprocess this because the overhead of locking is greater than the gain
         print("1: Merging substrings")
         finder = process1(res)
+        if args.printeach:
+            print(finder)
         res = process1a(res, finder)
+        if args.printeach:
+            print(printall(res, go))
 
     if args.start < 3 and args.end > 1:
         print("2: Creating classes")
@@ -577,6 +589,8 @@ if __name__ == '__main__':
                 else:
                     newres.add(r)
             res = newres
+        if args.printeach:
+            print(printall(res, go))
 
     with open(args.outfile, "w") as fh:
         for r in sorted(res, key=lambda x:x.key()):
