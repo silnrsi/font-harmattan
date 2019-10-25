@@ -542,19 +542,16 @@ if __name__ == '__main__':
             for r in rules:
                 gs = r.gids()
                 match = finder.get(struct.pack("{}H".format(len(gs)), *gs), None)
-                if match is not None:
+                if match is not None and len(match) > 1:
                     for m in match:
+                        if m[0] == r:
+                            continue
                         try:
                             n = m[0][m[1] + len(r.pre)]
                         except IndexError:
                             import pdb; pdb.set_trace()
-                        if n.hasPositions():
-                            if n.pos != r.match[0].pos and len(m[0]) <= len(r):
-                                print("ERROR: {} already present in {}".format(r.asStr(cmap=go), m[0].asStr(cmap=go)))
-                        else:
+                        if n.hasPositions() and r.match[0].pos not in n.positions:
                             n.positions.append(r.match[0].pos)
-                    if r == match[0][0]:
-                        newrules.append(r)
                 else:
                     newrules.append(r)
             return newrules

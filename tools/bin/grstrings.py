@@ -30,7 +30,7 @@ def makestring(face, text):
     for g in jobj[-1]['output']:
         if 'collision' in g:
             f = g['collision']['flags']
-            if (f & 17) == 17 and g['collision']['offset'] != [0, 0]:
+            if (f & 17) == 17: # and g['collision']['offset'] != [0, 0]:
                 curr = s.addNode(Node(keys=[g['gid']], positions=[Position(*g['collision']['offset'])],
                                       index=g['charinfo']['original']), curr)
                 continue
