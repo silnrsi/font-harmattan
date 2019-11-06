@@ -79,7 +79,7 @@ def doit(args):
 #        ma = chr(0x064B)     # Mark above (fathatan)
 #        mb = chr(0x064D)     # Mark below (kasratan)
 
-        for uid1 in (rehs[0],): # rehs:
+        for uid1 in rehs: # (rehs[0],)
             c1 = chr(uid1)
             for uid2 in uids:
                 c2 = chr(uid2)
