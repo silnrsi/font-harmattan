@@ -504,23 +504,11 @@ pass(3)
 	
 endpass; // 3	
 
+endtable;
+
+
 // Collision-Avoidance-based kerning
 
-pass(4) 
-	// Set slot attributes for CA-based kerning:
-	cRehAll { collision {
-				flags = SET_FIX(collision.flags) ;
-				flags = SET_KERN(collision.flags);
-				min.x = -1000m ; 
-				max.x = 1000m  ;	
-						}
-			};
-endpass;
-
-pass(5) {CollisionFix = 2; AutoKern = 1}
-	// No rules, just run the collision avoidance algorithm
-endpass;
-
-endtable; // pos
+#include "gaBasedKerning.gdl"
 
 endenvironment;

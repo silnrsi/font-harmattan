@@ -163,42 +163,6 @@ cAnyMarksBelow = (cMark1Below cMark2Below cMark4Below);
 cMark234 = (cMark2 cMark3 cMark4);
 cMark34  = (cMark3 cMark4);
 
-
-//------------------------------------------------------------------------------------------
-//
-//	Kerning
-//
-
-// NB: Can't set min.x and max.x here because the engine isn't transferring them
-// correctly to slot attributes. Instead, we set them in the kerning pass.
-cRehAll { collision {
-			margin = 190m;
-			complexFit = true
-					}
-		};
-g_space { collision.flags = COLL_END + COLL_START};
-g_zerowidthjoiner { collision.flags = COLL_END + COLL_START};
-
-// This isn't the complete list of initials or isolates, but trying it for now
-cComplexShape = (
-	cDualLinkIsol 
-	cDualLinkInit 
-	cRightLinkIsol
-	cwarsh
-	cLamIniBeforeAlef	
-	
-	g_dal_ar_locl_w_l_f g_thal_ar_locl_w_l_f g_ddal_ar_locl_w_l_f g_dahal_ar_locl_w_l_f
-    g_ddahal_ar_locl_w_l_f g_dal_ring_ar_locl_w_l_f g_dal_dotbelow_ar_locl_w_l_f g_dal_dotbelow_tah_ar_locl_w_l_f
-    g_dul_ar_locl_w_l_f g_dal_threedotsdown_ar_locl_w_l_f g_dal_fourdots_ar_locl_w_l_f g_dal_vinvertedabove_ar_locl_w_l_f
-    g_dal_twodotsverticalbelow_tah_ar_locl_w_l_f g_dal_vinvertedbelow_ar_locl_w_l_f g_dal_threedotsbelow_ar_locl_w_l_f
-
-	g_sad_ar_half g_sad_twodotsbelow_ar_half g_sad_threedots_ar_half g_sad_threedotsbelow_ar_half
-    g_dad_ar_half g_dad_dotbelow_ar_half
-    
-    g_kashida_ar
-
-) {collision {complexFit = true; flags = COLL_END + COLL_START}} ;
-
 endtable; // glyph
 
 endenvironment;
