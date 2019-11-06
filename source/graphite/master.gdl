@@ -509,6 +509,6 @@ endtable;
 
 // Collision-Avoidance-based kerning
 
-#include "gaBasedKerning.gdl"
+#include "caBasedKerning.gdl"
 
 endenvironment;
