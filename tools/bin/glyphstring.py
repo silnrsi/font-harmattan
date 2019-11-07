@@ -29,9 +29,7 @@ class Collection(object):
 
     def addString(self, s, rounding=0):
         k = s.match[0].keystr(rounding=1)
-        if k not in self.gidmap:
-            self.gidmap[k] = []
-        self.gidmap[k].append(s)
+        self.gidmap.setdefault(k, []).append(s)
 
     def _get_children(self, n, X, children, n_leaves):
         # calculate node centres
@@ -47,6 +45,7 @@ class Collection(object):
         return res
 
     def round(self, rounding, k):
+        ''' Apply clustering '''
         X = np.array([(int(x[0]), int(x[1])) for x in ((y[y.find(":")+1:]+",0").split(",") for y in self.gidmap.keys())])
         (children, _, n_leaves, parents, distances) = ward_tree(X, return_distance = True)
         done = set()
@@ -76,6 +75,7 @@ class Collection(object):
         self.gidmap = newmap
 
     def process(self, k, rounding):
+        ''' Remove duplicates, cluster and reduce '''
         self.stripDuplicates()
         if len(self.gidmap) > 1:
             self.round(rounding, k)
@@ -520,6 +520,8 @@ if __name__ == '__main__':
     else:
         res = [r for vg in colls.values() for v in vg.gidmap.values() for r in v]
 
+    # res is a [String]
+    # colls = dict[gid of first moved glyph] = Collection
     if args.start < 2 and args.end > 0:
         marks = set(colls.keys())
         def process1(rules):
@@ -564,6 +566,7 @@ if __name__ == '__main__':
         if args.printeach:
             print(printall(res, go))
 
+    # res = [String]
     if args.start < 3 and args.end > 1:
         print("2: Creating classes")
         lastlen = 0
@@ -574,15 +577,21 @@ if __name__ == '__main__':
             finder = {}
             for r in res:
                 l = len(r)
+                done = False
                 for i in range(l):
                     k = b"".join(x.pack() for x in r[:i] + r[i+1:])
                     if k in finder:
-                        s = finder[k]
-                        if s.addString(r):
-                            newres.add(s)
-                            break
+                        for s in finder[k]:
+                            if s.addString(r):
+                                newres.add(s)
+                                done = True
+                                break
+                        else:
+                            finder[k].append(r)
                     else:
-                        finder[k] = r
+                        finder[k] = [r]
+                    if done:
+                        break
                 else:
                     newres.add(r)
             res = newres
