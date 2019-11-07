@@ -200,7 +200,7 @@ class String(object):
             else:
                 return False
         if mp == -1:
-            return False
+            return True
         rmp, smp = r[mp], self[mp]
         smp.keys.append(rmp.gid)
         if rmp.hasPositions():
@@ -462,6 +462,44 @@ def addString(collections, s, rounding=0):
 def printall(res, go):
     return "\n".join(r.asStr(cmap=go) for r in sorted(res, key=lambda x:x.key()))
 
+def outfea(outfile, res, cmap):
+    rules = []
+    allPositions = {}
+    with open(outfile, "w") as outf:
+        count = 1
+        for r in res:
+            rule = []
+            for m in r.pre:
+                rule.append(m.asStr(cmap))
+            for m in r.match:
+                if m.hasPositions:
+                    s = m.asStr(cmap)
+                    if s not in allPositions:
+                        allPositions[s] = count
+                        lnum = count
+                        count += 1
+                        poslkup = ["lookup kernpos_{} {{".format(lnum)]
+                        for n in zip([cmap[x] for x in m.keys], m.positions):
+                            poslkup.append("    pos {0} {1};".format(*n))
+                        poslkup.append("}} kernpos_{};".format(lnum))
+                        outf.write("\n".join(poslkup) + "\n\n")
+                    else:
+                        lnum = allPositions[s]
+                    if len(m.keys) > 1:
+                        rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]' lookup kernpos_{}".format(lnum))
+                    else:
+                        rule.append(cmap[m.keys[0]] + "' lookup kernpos_{}".format(lnum))
+                elif len(m.keys) > 1:
+                    rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]'")
+                else:
+                    rule.append(cmap[m.keys[0]] + "'")
+            for m in r.post:
+                rule.append(m.asStr(cmap))
+            rules.append("pos " + " ".join(rule) + ";")
+        outf.write("lookup mainkern {\n    ")
+        outf.write("\n    ".join(rules))
+        outf.write("} mainkern;\n")
+
 if __name__ == '__main__':
     import argparse
     from fontTools import ttLib
@@ -598,6 +636,9 @@ if __name__ == '__main__':
         if args.printeach:
             print(printall(res, go))
 
-    with open(args.outfile, "w") as fh:
-        for r in sorted(res, key=lambda x:x.key()):
-            fh.write(r.asStr(cmap=go)+"\n")
+    if args.outfile.endswith(".fea"):
+        outfea(args.outfile, res, go)
+    else:
+        with open(args.outfile, "w") as fh:
+            for r in sorted(res, key=lambda x:x.key()):
+                fh.write(r.asStr(cmap=go)+"\n")
