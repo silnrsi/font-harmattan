@@ -185,16 +185,13 @@ class String(object):
         mp = -1
         for i in range(len(self)):
             nr, ns = r[i], self[i]
-            if nr.gid in ns.keys:
+            if sorted(ns.keys) == sorted(nr.keys):
                 if nr.hasPositions():
                     if not ns.hasPositions():
                         return False
-                    j = ns.keys.index(nr.gid)
-                    try:
+                    for j, g in enumerate(nr.keys):
                         if ns.positions[j][0] != nr.pos[0] or ns.positions[j][1] != nr.pos[1]:
                             return False
-                    except IndexError:
-                        import pdb; pdb.set_trace()
             elif mp == -1:
                 mp = i
             else:
@@ -202,13 +199,14 @@ class String(object):
         if mp == -1:
             return True
         rmp, smp = r[mp], self[mp]
-        smp.keys.append(rmp.gid)
         if rmp.hasPositions():
             if not smp.hasPositions():
                 smp.positions = [Position(0,0)] * (len(smp.keys) - 1)
-            smp.positions.append(rmp.pos)
-        elif smp.hasPositions():
-            smp.positions.append(Position(0, 0))
+        for i, g in enumerate(rmp.keys):
+            if g not in smp.keys:
+                smp.keys.append(g)
+                if smp.hasPositions():
+                    smp.positions.append(rmp.positions[i] if rmp.hasPositions else Position(0, 0))
         return True
 
     def key(self):
@@ -609,6 +607,8 @@ if __name__ == '__main__':
         print("2: Creating classes")
         lastlen = 0
         # import pdb; pdb.set_trace()
+        for r in res:
+            r.dropme = False
         while len(res) != lastlen:
             lastlen = len(res)
             newres = set()
@@ -620,7 +620,9 @@ if __name__ == '__main__':
                     k = b"".join(x.pack() for x in r[:i] + r[i+1:])
                     if k in finder:
                         for s in finder[k]:
-                            if s.addString(r):
+                            if not s.dropme and s.addString(r):
+                                r.dropme = True
+                                newres.discard(r)
                                 newres.add(s)
                                 done = True
                                 break
@@ -631,7 +633,8 @@ if __name__ == '__main__':
                     if done:
                         break
                 else:
-                    newres.add(r)
+                    if not r.dropme:
+                        newres.add(r)
             res = newres
         if args.printeach:
             print(printall(res, go))
