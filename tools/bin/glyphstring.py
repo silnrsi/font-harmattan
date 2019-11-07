@@ -550,11 +550,12 @@ if __name__ == '__main__':
             total[1] += r[0]
             res[k] = r[1]
         print("Totals: {} -> {}".format(*total))
-        res = [r for vg in res.values() for v in vg.values() for r in v]
+        res = [r for vg in sorted(res.keys()) for v in sorted(res[vg].keys()) for r in res[vg][v]]
         if args.printeach:
             print(printall(res, go))
     else:
-        res = [r for vg in colls.values() for v in vg.gidmap.values() for r in v]
+        res = [r for vg in sorted(colls.keys()) \
+                    for v in sorted(colls[vg].gidmap.keys()) for r in colls[vg].gidmap[v]]
 
     # res is a [String]
     # colls = dict[gid of first moved glyph] = Collection
@@ -618,6 +619,7 @@ if __name__ == '__main__':
                 for r in res:
                     if len(r) <= i:
                         continue
+# should process outwards from match string for alignment purposes to reduce lookups
                     k = b"".join(x.pack() for x in r[:i] + r[i+1:])
                     if k in finder:
                         for s in finder[k]:
@@ -633,7 +635,7 @@ if __name__ == '__main__':
             for r in res:
                 if not r.dropme:
                     newres.add(r)
-            res = newres
+            res = sorted(newres, key=lambda x:x.asStr(go))
         if args.printeach:
             print(printall(res, go))
 
