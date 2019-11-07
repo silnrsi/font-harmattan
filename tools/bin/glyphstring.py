@@ -609,14 +609,15 @@ if __name__ == '__main__':
         # import pdb; pdb.set_trace()
         for r in res:
             r.dropme = False
+        maxlen = max(len(x) for x in res)
         while len(res) != lastlen:
             lastlen = len(res)
             newres = set()
             finder = {}
-            for r in res:
-                l = len(r)
-                done = False
-                for i in range(l):
+            for i in range(maxlen):
+                for r in res:
+                    if len(r) <= i:
+                        continue
                     k = b"".join(x.pack() for x in r[:i] + r[i+1:])
                     if k in finder:
                         for s in finder[k]:
@@ -624,17 +625,14 @@ if __name__ == '__main__':
                                 r.dropme = True
                                 newres.discard(r)
                                 newres.add(s)
-                                done = True
                                 break
                         else:
                             finder[k].append(r)
                     else:
                         finder[k] = [r]
-                    if done:
-                        break
-                else:
-                    if not r.dropme:
-                        newres.add(r)
+            for r in res:
+                if not r.dropme:
+                    newres.add(r)
             res = newres
         if args.printeach:
             print(printall(res, go))
