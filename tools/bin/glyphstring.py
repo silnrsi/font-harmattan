@@ -290,6 +290,18 @@ class String(object):
         else:
             return res[0]
 
+    def weightedIndex(self, i):
+        if i < len(self.match):
+            return len(self.pre) + i
+        i -= len(self.match)
+        x = (i + 1) // 2
+        if x < len(self.pre):
+            return len(self.pre) - x - 1
+        x = i - len(self.pre)
+        if x < len(self.post):
+            return len(self) - i - 1
+        raise IndexError
+
 
 class Node(object):
     def __init__(self, keys=None, positions=None, index=None):
@@ -619,8 +631,8 @@ if __name__ == '__main__':
                 for r in res:
                     if len(r) <= i:
                         continue
-# should process outwards from match string for alignment purposes to reduce lookups
-                    k = b"".join(x.pack() for x in r[:i] + r[i+1:])
+                    j = r.weightedIndex(i)
+                    k = b"".join(x.pack() for x in r[:j] + r[j+1:])
                     if k in finder:
                         for s in finder[k]:
                             if not s.dropme and s.addString(r):
