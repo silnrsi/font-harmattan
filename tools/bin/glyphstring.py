@@ -76,6 +76,8 @@ class Collection(object):
 
     def process(self, k, rounding):
         ''' Remove duplicates, cluster and reduce '''
+        if rounding > 0:
+            self.stripSmalls(rounding)
         self.stripDuplicates()
         if len(self.gidmap) > 1:
             self.round(rounding, k)
@@ -84,6 +86,14 @@ class Collection(object):
     def stripDuplicates(self):
         for k, v in self.gidmap.items():
             self.gidmap[k] = remove_duplicates(sorted(v, key=lambda x:x.key()))
+
+    def stripSmalls(self, rounding):
+        newmap = {}
+        for k, v in self.gidmap.items():
+            for s in v:
+                if s.testPos(rounding):
+                    newmap.setdefault(k, []).append(s)
+        self.gidmap = newmap
 
     def reduce(self):
         res = {}
@@ -302,6 +312,10 @@ class String(object):
             return len(self) - i - 1
         raise IndexError
 
+    def testPos(self, rounding):
+        ''' Returns whether all nodes in the string have position > rounding '''
+        return all(x.testPos(rounding) for x in self.match)
+
 
 class Node(object):
     def __init__(self, keys=None, positions=None, index=None):
@@ -407,6 +421,12 @@ class Node(object):
     def hasPositions(self):
         return len(self.positions) > 0
 
+    def testPos(self, rounding):
+        ''' Test that all positions are > rounding '''
+        if not len(self.positions):
+            return True
+        return all(x.testPos(rounding) for x in self.positions)
+
     def keystr(self, rounding=0):
         p = self.positions[0] if len(self.positions) else None
         s = str(self.gid)
@@ -461,6 +481,9 @@ class Position(namedtuple('Position', ['x', 'y'])):
             return int(self.x / rounding + 0.5) == 0 and int(self.y / rounding + 0.5) == 0
         else:
             return self.x == 0 and self.y == 0
+
+    def testPos(self, rounding):
+        return self.x * self.x + self.y * self.y > rounding * rounding
 
 def addString(collections, s, rounding=0):
     for n in s.splitall():
