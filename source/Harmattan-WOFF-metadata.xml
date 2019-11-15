@@ -88,20 +88,21 @@
       - Added U+FDFC, U+FDFD (bismillah)
       - Added U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+034F, U+03C0, U+2044, U+2126, U+2202,
       U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265, U+2423
-      - Added language support for Wolof, Kurdish, Rohingya, Sindhi, Urdu, and Wolof variants
-      - Added Dal, Heh, Arabic U, Inverted Damma, and Eastern Digits features
+      - Implemented language support for Kurdish, Rohingya, Sindhi, Urdu, and Wolof variants
+      - Implemented Dal, Heh, Arabic U, Inverted Damma, and Eastern Digits features
+      - Implemented new Allah ligature rules
       - Improved support for Shaddah+kasra placement feature
       - Removed "Show invisible characters" feature
       - Added UI name strings for Graphite and OpenType features
       - Improvements to the design of dal- keheh-, yeh-, qaf-, ain-, heh doachashmee-, swash kaf-,
       and yeh barree-based characters
+      - Improvements to the design of U+FDF2 - modified to use shadda-dagger alef (not shadda-fatha)
       - Improvements to the design of rohingya yeh
       - Improvements to the design and size of digits (latin and arabic)
-      - Adjustments to attachment points
+      - Improvements to positioning of combining marks and nuktas
       - Adjustments to spacing around many Arabic script characters
       - Rework kerning logic based on new spacing around characters
       - Improved line spacing to support added characters
-      - Implemented new Allah ligature rules
       - Modified underline and strikethrough position (used by some applications)
       - Modified superscript and subscript size and positioning (used by some applications)
       

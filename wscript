@@ -1,14 +1,8 @@
 #!/usr/bin/python
 # this is a smith configuration file
 
-# set the default output folders
-out = "results"  # default is currently buildlinux2
+# override the default folders
 DOCDIR = ["documentation", "web"]  # add "web" to default
-OUTDIR = "installers"  # until these are defaults in smith itself we need to keep them
-ZIPDIR = "releases"
-TESTDIR = "tests"
-TESTRESULTSDIR = "tests"
-STANDARDS = "references"  # default is "reference"
 generated = "generated/"
 
 # set package name
@@ -26,7 +20,7 @@ DEBPKG = 'fonts-sil-harmattan'
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 # BUILDLABEL = 'beta'
 
-ftmlTest('tests/ftml-smith.xsl', fonts = ['../references/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
+ftmlTest('tests/ftml-smith.xsl', fonts = ['../tests/reference/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
 OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
