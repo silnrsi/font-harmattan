@@ -75,7 +75,7 @@ class Collection(object):
         self.gidmap = newmap
 
     def process(self, k, rounding):
-        ''' Remove duplicates, cluster and reduce '''
+        ''' Remove small positioned strings, duplicates; cluster and reduce '''
         if rounding > 0:
             self.stripSmalls(rounding)
         self.stripDuplicates()
@@ -88,6 +88,7 @@ class Collection(object):
             self.gidmap[k] = remove_duplicates(sorted(v, key=lambda x:x.key()))
 
     def stripSmalls(self, rounding):
+        ''' Remove any string that has positions < rounding close to 0 '''
         newmap = {}
         for k, v in self.gidmap.items():
             for s in v:
@@ -96,6 +97,7 @@ class Collection(object):
         self.gidmap = newmap
 
     def reduce(self):
+        ''' Reduce rules to their minimum context and remove rules covered by others '''
         res = {}
         for k, v in sorted(self.gidmap.items(), key=lambda x:len(x[1])):
             if k.endswith(":0,0"):
@@ -115,6 +117,7 @@ class Collection(object):
         return res
 
     def isUnique(self, key, rule, prelen, postlen):
+        ''' Returns whether a rule context is unique in this collection '''
         for k, v in self.gidmap.items():
             if k == key:
                 continue
