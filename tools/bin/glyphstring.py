@@ -75,7 +75,7 @@ class Collection(object):
         self.gidmap = newmap
 
     def process(self, k, rounding):
-        ''' Remove duplicates, cluster and reduce '''
+        ''' Remove small positioned strings, duplicates; cluster and reduce '''
         if rounding > 0:
             self.stripSmalls(rounding)
         self.stripDuplicates()
@@ -88,6 +88,7 @@ class Collection(object):
             self.gidmap[k] = remove_duplicates(sorted(v, key=lambda x:x.key()))
 
     def stripSmalls(self, rounding):
+        ''' Remove any string that has positions < rounding close to 0 '''
         newmap = {}
         for k, v in self.gidmap.items():
             for s in v:
@@ -96,6 +97,7 @@ class Collection(object):
         self.gidmap = newmap
 
     def reduce(self):
+        ''' Reduce rules to their minimum context and remove rules covered by others '''
         res = {}
         for k, v in sorted(self.gidmap.items(), key=lambda x:len(x[1])):
             if k.endswith(":0,0"):
@@ -115,6 +117,7 @@ class Collection(object):
         return res
 
     def isUnique(self, key, rule, prelen, postlen):
+        ''' Returns whether a rule context is unique in this collection '''
         for k, v in self.gidmap.items():
             if k == key:
                 continue
@@ -495,7 +498,7 @@ def addString(collections, s, rounding=0):
 def printall(res, go):
     return "\n".join(r.asStr(cmap=go) for r in sorted(res, key=lambda x:x.key()))
 
-def outfea(outfile, res, cmap):
+def outfea(outfile, res, cmap, rtl=False):
     rules = []
     allPositions = {}
     with open(outfile, "w") as outf:
@@ -513,7 +516,10 @@ def outfea(outfile, res, cmap):
                         count += 1
                         poslkup = ["lookup kernpos_{} {{".format(lnum)]
                         for n in zip([cmap[x] for x in m.keys], m.positions):
-                            poslkup.append("    pos {0} {1};".format(*n))
+                            if rtl:
+                                poslkup.append("    pos {0} <{1} 0 {1} 0>;".format(*n))
+                            else:
+                                poslkup.append("    pos {0} {1};".format(*n))
                         poslkup.append("}} kernpos_{};".format(lnum))
                         outf.write("\n".join(poslkup) + "\n\n")
                     else:
@@ -546,6 +552,7 @@ if __name__ == '__main__':
     parser.add_argument('-j','--jobs',default=0,type=int,help='Number of parallel jobs [0=num cpus]')
     parser.add_argument('-s','--start',default=0,type=int,help='Starting phase')
     parser.add_argument('-e','--end',default=2,type=int,help="Final phase before output and stopping")
+    parser.add_argument('-R','--rtl',action="store_true",help="Output rtl appropriate adjustments")
     parser.add_argument('--printeach',action='store_true',help='Print rules after each phase')
     args = parser.parse_args()
 
@@ -675,7 +682,7 @@ if __name__ == '__main__':
             print(printall(res, go))
 
     if args.outfile.endswith(".fea"):
-        outfea(args.outfile, res, go)
+        outfea(args.outfile, res, go, rtl=args.rtl)
     else:
         with open(args.outfile, "w") as fh:
             for r in sorted(res, key=lambda x:x.key()):
