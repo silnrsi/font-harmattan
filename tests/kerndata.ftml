@@ -22,11 +22,6 @@
     </styles>
     <title>KernData</title>
   </head>
-  <testgroup label="Rendering Check">
-    <test label="check">
-      <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
   <testgroup label="Group">
     <test label="U+0639" rtl="True">
       <string>\u00200D\u000631\u000639\u00200D \u000631\u000639\u00200D \u00200D\u000631\u000639 \u000631\u000639</string>
