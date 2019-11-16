@@ -4,6 +4,7 @@
 import xml.etree.ElementTree as ET
 import collections
 import re
+import sys
 
 class ftmlstring(collections.UserString):
     """string wrapper with attributes holding FTML style information"
@@ -139,30 +140,39 @@ def parseStr(xml:str):
 
 
 if __name__ == '__main__':
-    # manually create and test ftmlstring:
-    s = ftmlstring("hi there")
-    s.data = "bye there"
-    s.lang = "ur"
-    s.feats = "'cv20' 2, 'smcp', 'kern' on"
-    s.feats = {'cv12': 3, 'cv20': 0}
-    print(f'string: "{s}"; lang: {s.lang}; feats: {s.feats}')
 
-    # Parse ftml data:
-    xml = """<ftml version="1.0">
-  <head>
-    <styles>
-      <style feats="'smcp' 1" name="smcp_1"/>  
-      <style lang="vi" name="viet"/>
-    </styles>
-  </head>
-  <testgroup label="Group 1">
-    <test>                    <string>abcdefghijklmnop</string> </test>
-    <test stylename="smcp_1"> <string>abcdefghijklmnop</string> </test>
-  </testgroup>
-  <testgroup label="Group 2">
-    <test stylename="viet" rtl="True"> <string>abc<em>\\u0064\\u000065fgh</em>ijklmnop</string> </test>
-  </testgroup>
-</ftml>
-    """
-    strs = parseStr(xml)
-    print('\n'.join([f'string: "{s}"; rtl: {"True" if s.rtl else "False"}; lang: {s.lang}; feats: {s.feats}' for s in strs ]))
+    if len(sys.argv) > 1:
+        # First argument is ftml file:
+        strs = parseFile(sys.argv[1])
+        # Second argument is output filename
+        with open(sys.argv[2],'wt',encoding="utf-8") as f:
+            for s in strs:
+                f.write(f'string: "{s}"; rtl: {"True" if s.rtl else "False"}; lang: {s.lang}; feats: {s.feats}\n' )
+    else:
+        # manually create and test ftmlstring:
+        s = ftmlstring("hi there")
+        s.data = "bye there"
+        s.lang = "ur"
+        s.feats = "'cv20' 2, 'smcp', 'kern' on"
+        s.feats = {'cv12': 3, 'cv20': 0}
+        print(f'string: "{s}"; lang: {s.lang}; feats: {s.feats}')
+
+        # Parse ftml data:
+        xml = """<ftml version="1.0">
+      <head>
+        <styles>
+          <style feats="'smcp' 1" name="smcp_1"/>  
+          <style lang="vi" name="viet"/>
+        </styles>
+      </head>
+      <testgroup label="Group 1">
+        <test>                    <string>abcdefghijklmnop</string> </test>
+        <test stylename="smcp_1"> <string>abcdefghijklmnop</string> </test>
+      </testgroup>
+      <testgroup label="Group 2">
+        <test stylename="viet" rtl="True"> <string>abc<em>\\u0064\\u000065fgh</em>ijklmnop</string> </test>
+      </testgroup>
+    </ftml>
+        """
+        strs = parseStr(xml)
+        print('\n'.join([f'string: "{s}"; rtl: {"True" if s.rtl else "False"}; lang: {s.lang}; feats: {s.feats}' for s in strs ]))
