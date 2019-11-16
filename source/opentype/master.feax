@@ -649,7 +649,7 @@ lookup cursive_exit_entry {
 } cursive_exit_entry;
 
 
-do if False;	# disable kerning for now
+do if False;	# disable old-style kerning for now
 {
 	
 	#********************
@@ -767,6 +767,8 @@ do if False;	# disable kerning for now
 	} Kern;
 
 }
+
+include(../../source/opentype/caKern.fea)
 
 #********************
 # Mark attachment
@@ -1413,10 +1415,10 @@ feature kern {  # Kerning
     # Same for latin & arabic:
         lookup SubtendingMarks;
 
-do if False;	# disable kerning for now
+do if True;	# enable kerning for now
 {
 	    script arab;  # Arabic
-	        lookup Kern;
+	        lookup mainkern;
 	      # Force other languages to include Arabic script lookups
 	      language KUR  ;
 	      language SND  ;
