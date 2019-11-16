@@ -198,13 +198,8 @@ class String(object):
         mp = -1
         for i in range(len(self)):
             nr, ns = r[i], self[i]
-            if sorted(ns.keys) == sorted(nr.keys):
-                if nr.hasPositions():
-                    if not ns.hasPositions():
-                        return False
-                    for j, g in enumerate(nr.keys):
-                        if ns.positions[j][0] != nr.pos[0] or ns.positions[j][1] != nr.pos[1]:
-                            return False
+            if nr.pack() == ns.pack():
+                pass
             elif mp == -1:
                 mp = i
             else:
@@ -443,10 +438,13 @@ class Node(object):
 
     def pack(self):
         try:
-            k = struct.pack("{}H".format(len(self.keys)), *self.keys)
+            order = sorted(range(len(self.keys)), key=lambda x:self.keys[x])
+            k = struct.pack("{}H".format(len(self.keys)), *[self.keys[x] for x in order])
             if len(self.positions):
-                p = struct.pack("{0}h{0}h".format(len(self.positions)),
-                                *(list(zip(*self.positions))[0] + list(zip(*self.positions))[1]))
+                order = sorted(range(min(len(self.positions), len(self.keys))), key=lambda x:self.keys[x])
+                poses = [self.positions[i] for i in order]
+                p = struct.pack("{0}h{0}h".format(len(order)),
+                                *(list(zip(*poses))[0] + list(zip(*poses))[1]))
             else:
                 p = b""
             return k+p
@@ -506,7 +504,10 @@ def outfea(outfile, res, cmap, rtl=False):
         for r in res:
             rule = []
             for m in r.pre:
-                rule.append(m.asStr(cmap))
+                if len(m.keys) > 1:
+                    rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]")
+                else:
+                    rule.append(cmap[m.keys[0]])
             for m in r.match:
                 if m.hasPositions:
                     s = m.asStr(cmap)
@@ -533,11 +534,14 @@ def outfea(outfile, res, cmap, rtl=False):
                 else:
                     rule.append(cmap[m.keys[0]] + "'")
             for m in r.post:
-                rule.append(m.asStr(cmap))
+                if len(m.keys) > 1:
+                    rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]")
+                else:
+                    rule.append(cmap[m.keys[0]])
             rules.append("pos " + " ".join(rule) + ";")
         outf.write("lookup mainkern {\n    ")
         outf.write("\n    ".join(rules))
-        outf.write("} mainkern;\n")
+        outf.write("\n} mainkern;\n")
 
 if __name__ == '__main__':
     import argparse
@@ -582,12 +586,13 @@ if __name__ == '__main__':
 
     if args.start < 1:
         print("0: Reducing strings")
+        # Remove small positioned strings, duplicates; cluster, split and reduce
         # process longest lists firsts to average out processing time
         keylengths = {k: sum(len(x) for x in v.gidmap.values()) for k, v in colls.items()}
         res = {}
         total = [0, 0]
         for k, r in iterproc(process, [x[0] for x in sorted(keylengths.items(), key=lambda y:-y[1])]):
-            print("{}: {} -> {}".format(go[k], len(colls[k].gidmap), r[0]))
+            # print("{}: {} -> {}".format(go[k], len(colls[k].gidmap), r[0]))
             total[0] += len(colls[k].gidmap)
             total[1] += r[0]
             res[k] = r[1]
@@ -601,6 +606,7 @@ if __name__ == '__main__':
 
     # res is a [String]
     # colls = dict[gid of first moved glyph] = Collection
+    # Find substrings and remove
     if args.start < 2 and args.end > 0:
         marks = set(colls.keys())
         def process1(rules):
@@ -646,6 +652,7 @@ if __name__ == '__main__':
             print(printall(res, go))
 
     # res = [String]
+    # Create classes
     if args.start < 3 and args.end > 1:
         print("2: Creating classes")
         lastlen = 0
