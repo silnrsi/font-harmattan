@@ -67,18 +67,25 @@ def parseftml(fnameorstr):
     for test in root.findall('.//test'):
         s = "".join(test.find('string').itertext())
         s = re.sub(r'\\u([a-fA-F0-9]{4,6})', lambda m: chr(int(m.group(1), 16)), s)
-        s = UserString(s)
         stylename = test.get('stylename', None)
-        if stylename is not None:
+        if stylename is None:
+            feats = None
+            lang = None
+        else:
             style = root.find(f'./head/styles/style[@name="{stylename}"]')
             feats = style.get('feats', None)
             if feats is not None:
-                s.feats = dict(parseFeat(t.strip()) for t in feats.split(','))
+                feats = dict(parseFeat(t.strip()) for t in feats.split(','))
             else:
-                s.feats = None
-            s.lang = style.get('lang', None)
-        s.rtl = test.get('rtl', "") == "True"
-        strs.append(s)
+                feats = None
+            lang = style.get('lang', None)
+        rtl = test.get('rtl', "") == "True"
+        for w in s.split():
+            s = UserString(w)
+            s.feats = feats
+            s.lang = lang
+            s.rtl = rtl
+            strs.append(s)
     return strs
 
 if __name__ == '__main__':
