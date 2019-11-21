@@ -14,6 +14,13 @@ except ModuleNotFoundError:
     sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
     from glyphstring import Node, String, Position
 
+class ManyStrings(UserString):
+    def allStrings(self, musthave=""):
+        s = self.data
+        while (len(musthave) and musthave in s) or (not len(musthave) and len(s)):
+            yield s
+            s = s[:-1]
+
 def runtext(face, text):
     (fd, debug) = tempfile.mkstemp()
     os.close(fd)
@@ -26,7 +33,7 @@ def runtext(face, text):
     return (glyphs, jobj)
 
 def makestring(face, text):
-    glyphs, jobj = runtext(face, text)
+    glyphs, jobj = runtext(face, str(text))
     s = String(text=str(text))
     curr = s.pre
     for g in jobj[-1]['output']:
@@ -91,9 +98,10 @@ def parseftml(fnameorstr):
 if __name__ == '__main__':
     from multiprocessing import Pool, current_process
 
-    def initprocess(fname, rtl):
+    def initprocess(fname, rtl, strings):
         proc = current_process()
         proc.grface = GrFont(fname, rtl=(1 if rtl else 0))
+        proc.strings = strings
     def proc_makestring(s):
         proc = current_process()
         return makestring(proc.grface, s)
@@ -126,7 +134,7 @@ if __name__ == '__main__':
         grfont = GrFont(args.font, 1 if args.rtl else 0)
         res = [makestring(grfont, s) for s in strings]
     else:
-        pool = Pool(initializer=initprocess, initargs=[args.font, args.rtl])
+        pool = Pool(initializer=initprocess, initargs=[args.font, args.rtl, strings])
         res = pool.imap_unordered(proc_makestring, strings)
 
     if args.text:

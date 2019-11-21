@@ -106,14 +106,15 @@ class Collection(object):
             for r in v:
                 if any(t.isSubsetOf(r) for t in res[k]):
                     continue
-                lengths = [len(r.post)+len(r.post)+3] * (len(r.post) + 1)
-                for s in range(len(r.post)+1):
-                    for p in range((1 if len(r.pre) else 0),len(r.pre)+1):
-                        if self.isUnique(k, r, p, s):
-                            lengths[s] = p
-                            break
-                best = min(enumerate(lengths), key=lambda x: x[0]+x[1])
-                res[k].append(String(pre=r.pre[-best[1]:], post=r.post[:best[0]], match=r.match))
+                res[k].append(r)
+#                lengths = [len(r.pre)+len(r.post)+3] * (len(r.post) + 1)
+#                for s in range(len(r.post)+1):
+#                    for p in range((1 if len(r.pre) else 0),len(r.pre)+1):
+#                        if self.isUnique(k, r, p, s):
+#                            lengths[s] = p
+#                            break
+#                best = min(enumerate(lengths), key=lambda x: (x[1], -x[0]))
+#                res[k].append(String(pre=r.pre[-best[1]:], post=r.post[:best[0]], match=r.match))
         return res
 
     def isUnique(self, key, rule, prelen, postlen):
@@ -604,10 +605,11 @@ if __name__ == '__main__':
         res = [r for vg in sorted(colls.keys()) \
                     for v in sorted(colls[vg].gidmap.keys()) for r in colls[vg].gidmap[v]]
 
-    # res is a [String]
+    # res is a [maString]
     # colls = dict[gid of first moved glyph] = Collection
     # Find substrings and remove
-    if args.start < 2 and args.end > 0:
+    # This is already done in the reduce() above.
+    if False and args.start < 2 and args.end > 0:
         marks = set(colls.keys())
         def process1(rules):
             finder = {}
@@ -653,8 +655,8 @@ if __name__ == '__main__':
 
     # res = [String]
     # Create classes
-    if args.start < 3 and args.end > 1:
-        print("2: Creating classes")
+    if args.start < 2 and args.end > 0:
+        print("1: Creating classes")
         lastlen = 0
         # import pdb; pdb.set_trace()
         for r in res:
