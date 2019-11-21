@@ -34,26 +34,6 @@ environment {MUnits=2048};
 #define opt4(x)     [opt3(x) x]?
 #endif
 
-// GDL-defined constants for collision avoidance flags:
-#define COLL_FIX 1
-#define COLL_IGNORE 2
-#define COLL_START 4
-#define COLL_END 8
-#define COLL_KERN 16
-#define COLL_ISSPACE 128
-#define ORDER_LEFTDOWN 1
-#define ORDER_NOABOVE 4
-#define ORDER_NOBELOW 8
-
-// Macros for setting flags:
-#define setbits(f,m,v) (f & (~m)) | v
-#define SET_FIX(f)     setbits(f, COLL_FIX, COLL_FIX)
-#define SET_START(f)   setbits(f, COLL_START, COLL_START)
-#define SET_END(f)     setbits(f, COLL_END, COLL_END)
-#define SET_KERN(f)    setbits(f, COLL_KERN, COLL_KERN)
-#define SET_ISSPACE(f) setbits(f, COLL_ISSPACE, COLL_ISSPACE)
-
-
 #if 0   // DESIGN NOTES
 
 One of the complex issues is mark attachment. Problems stem from the following issues:
