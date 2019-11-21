@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>200</fontscale>
+    <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+    <styles/>
+    <title>KernData</title>
+  </head>
+  
+  <testgroup label="Group">
+    <test label="U+0631
+U+063A" rtl="True">
+      <comment>reh-ar
+ghain-ar</comment>
+      <string>\u00200D\u000631\u00063A\u00200D \u000631\u00063A\u00200D \u00200D\u000631\u00063A \u000631\u00063A \u00200D\u000631\u00063A\u00064D\u00200D \u000631\u00063A\u00064D\u00200D \u00200D\u000631\u00063A\u00064D \u000631\u00063A\u00064D</string>
+    </test>
+    <test label="U+0631
+U+06A0" rtl="True">
+      <comment>reh-ar
+ainThreedots-ar</comment>
+      <string>\u00200D\u000631\u0006A0\u00200D \u000631\u0006A0\u00200D \u00200D\u000631\u0006A0 \u000631\u0006A0 \u00200D\u000631\u0006A0\u00064D\u00200D \u000631\u0006A0\u00064D\u00200D \u00200D\u000631\u0006A0\u00064D \u000631\u0006A0\u00064D</string>
+    </test>
+    <test label="U+0631
+U+06FC" rtl="True">
+      <comment>reh-ar
+ghainDotbelow-ar</comment>
+      <string>\u00200D\u000631\u0006FC\u00200D \u000631\u0006FC\u00200D \u00200D\u000631\u0006FC \u000631\u0006FC \u00200D\u000631\u0006FC\u00064D\u00200D \u000631\u0006FC\u00064D\u00200D \u00200D\u000631\u0006FC\u00064D \u000631\u0006FC\u00064D</string>
+    </test>
+    <test label="U+0631
+U+075D" rtl="True">
+      <comment>reh-ar
+ainTwodotshorizontalabove-ar</comment>
+      <string>\u00200D\u000631\u00075D\u00200D \u000631\u00075D\u00200D \u00200D\u000631\u00075D \u000631\u00075D \u00200D\u000631\u00075D\u00064D\u00200D \u000631\u00075D\u00064D\u00200D \u00200D\u000631\u00075D\u00064D \u000631\u00075D\u00064D</string>
+    </test>
+  </testgroup>
+</ftml>
