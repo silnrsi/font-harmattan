@@ -198,8 +198,7 @@ class String(object):
             return False
         mp = -1
         for i in range(len(self)):
-            nr, ns = r[i], self[i]
-            if nr.pack() == ns.pack():
+            if r[i].pack() == self[i].pack():
                 pass
             elif mp == -1:
                 mp = i
@@ -502,7 +501,7 @@ def outfea(outfile, res, cmap, rtl=False):
     allPositions = {}
     with open(outfile, "w") as outf:
         count = 1
-        for r in res:
+        for r in sorted(res, key=lambda x:-len(x)):
             rule = []
             for m in r.pre:
                 if len(m.keys) > 1:
@@ -686,13 +685,15 @@ if __name__ == '__main__':
             for r in res:
                 if not r.dropme:
                     newres.add(r)
-            res = sorted(newres, key=lambda x:x.asStr(go))
+            res = list(newres)
+            #res = sorted(newres, key=lambda x:x.asStr(go))
         if args.printeach:
             print(printall(res, go))
+        print("Rule count: " + str(len(res)))
 
     if args.outfile.endswith(".fea"):
         outfea(args.outfile, res, go, rtl=args.rtl)
     else:
         with open(args.outfile, "w") as fh:
-            for r in sorted(res, key=lambda x:x.key()):
+            for r in sorted(res, key=lambda x:(-len(x), x.key())):
                 fh.write(r.asStr(cmap=go)+"\n")
