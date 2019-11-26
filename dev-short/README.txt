@@ -8,7 +8,8 @@ demo.sh:
        2) run glyphstring with -e 0               results/kernStrings-e0.txt
        3) run glyphstring with -e 1               results/kernStrings-e1.txt
        4) run glyphstring with -e 2               results/kernStrings-e2.txt
-       5) run glyphstrings with .fea output       results/kern.fea
+       5) run glyphstrings with .fea output       results/caKern.fea
+       6) copy the fea file over to source/opentype so project compiles
 
 The stdout messages from step 5:
     Input rules: 32 flattened to 32 rules
@@ -65,6 +66,20 @@ and you get, instead:
       [reh-ar]{117} [ghain-ar]
 
 
-For fun, you can build Harmattan from this branch and it will 
-include() the dev-short/results/kern.fea so you can compare the
-graphite kerning (1st col) and opentype kerning (2nd col).
+Once demo.sh is run you can build Harmattan from this branch and it will 
+build with the generated caKern.fea so you can compare the graphite kerning 
+(1st col) and opentype kerning (2nd col).
+
+---------------------------------------------
+On another topic
+
+It looks like we can't always throw away small kerns. 
+
+Consider the following two kern strings:
+    reh-ar  -196  ghain-ar.init   
+    reh-ar  -17   ghain-ar.init   kasratan-ar
+
+Current algorithm (with -r20) throws away the 2nd of these, but in
+fact it is needed and the resulting [longer] contextual rule needs 
+to be before the shorter one in the fea code in order to, in effect,
+mask the it.

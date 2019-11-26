@@ -4,7 +4,7 @@
 mkdir -p results
 
 # Parse ftml and create raw data list
-../tools/bin/grstrings.py -i kerntext.ftml -t -z -f ../results/Harmattan-Regular.ttf -r results/rawPairData-ftml.txt
+../tools/bin/grstrings.py -i kerntext.ftml -t -f ../results/Harmattan-Regular.ttf -r results/rawPairData-ftml.txt
 
 # Trace graphite to get kerning data
 
@@ -18,4 +18,7 @@ mkdir -p results
 ../tools/bin/glyphstring.py -f ../results/Harmattan-Regular.ttf  -r 20 -j 1 -e 2    results/rawPairData-ftml.txt results/kernStrings-e2.txt
 
 # Phase 3: generate fea
-../tools/bin/glyphstring.py -f ../results/Harmattan-Regular.ttf  -r 20 -j 1      -R results/rawPairData-ftml.txt results/kern.fea
+../tools/bin/glyphstring.py -f ../results/Harmattan-Regular.ttf  -r 20 -j 1      -R results/rawPairData-ftml.txt results/caKern.fea
+
+# Copy result to source folder so project will compile with shortened version:
+cp results/caKern.fea ../source/opentype

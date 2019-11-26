@@ -1,0 +1,21 @@
+lookup kernpos_1 {
+    pos reh-ar <117 0 117 0>;
+    pos reh-ar.fina <119 0 119 0>;
+} kernpos_1;
+
+lookup kernpos_2 {
+    pos reh-ar <-194 0 -194 0>;
+    pos reh-ar.fina <-220 0 -220 0>;
+} kernpos_2;
+
+lookup kernpos_3 {
+    pos reh-ar <-164 0 -164 0>;
+    pos reh-ar.fina <-166 0 -166 0>;
+} kernpos_3;
+
+lookup mainkern {
+#    pos [reh-ar reh-ar.fina]' lookup kernpos_1 [ainThreedots-ar ainTwodotshorizontalabove-ar ghain-ar ghainDotbelow-ar];
+#    pos [reh-ar reh-ar.fina]' lookup kernpos_2 [ainThreedots-ar.init ainTwodotshorizontalabove-ar.init ghain-ar.init];
+    pos [reh-ar reh-ar.fina]' lookup kernpos_1 ghainDotbelow-ar.init kasratan-ar;
+    pos [reh-ar reh-ar.fina]' lookup kernpos_3 ghainDotbelow-ar.init;
+} mainkern;

@@ -768,7 +768,7 @@ do if False;	# disable old-style kerning for now
 
 }
 
-include(../../dev-short/results/kern.fea)
+include(../../source/opentype/caKern.fea)
 
 #********************
 # Mark attachment
