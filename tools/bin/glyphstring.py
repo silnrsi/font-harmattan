@@ -135,6 +135,7 @@ class String(object):
         self.post = post or []
         self.match = match or []
         self.text = text
+        self.gnps = []
 
     def copy(self):
         res = String()
@@ -142,6 +143,7 @@ class String(object):
         res.post = self.post[:]
         res.match = self.match[:]
         res.text = self.text
+        res.gnps = self.gnps[:]
         return res
 
     @classmethod
@@ -217,6 +219,21 @@ class String(object):
                     smp.positions.append(rmp.positions[i] if rmp.hasPositions else Position(0, 0))
         return True
 
+    def splitgnp(self, gnps, newindex):
+        newnode = self.match[0].splitwith(gnps)
+        if newnode is not None:
+            newmatch = [newnode] + self.match[1:]
+            res = String(self.pre[:], self.post[:], newmatch, self.text[:])
+            res.gnps = [newindex]
+        else:
+            return None
+        return res
+
+    def movegnp(self, f, t):
+        for i, v in enumerate(self.gnps[:]):
+            if v == f:
+                self.gnps[i] = t
+
     def key(self):
         return ([x.key() for x in self.match], [x.key() for x in reversed(self.pre)], [x.key() for x in self.post])
 
@@ -259,6 +276,7 @@ class String(object):
             res.match = [me.match[0]]
             res.post = [x.copy(nopositions=True) for x in me.match[1:]] + self.post
             res.text = me.text
+            res.gnps = me.gnps[:]
             yield res
             me.pre.append(me.match.pop(0).copy(nopositions=True))
             while len(me.match) and not me.match[0].hasPositions():
@@ -397,12 +415,15 @@ class Node(object):
         return res
 
     def asStr(self, cmap=[]):
+        order = sorted(range(len(self.keys)), key=lambda x:self.keys[x])
         if self.var is not None:
             res = "@{}".format(self.var)
         else:
-            res = "[" + ", ".join(cmap[x] if x < len(cmap) else "gid{}".format(x) for x in self.keys) + "]"
+            keys = [self.keys[x] for x in order]
+            res = "[" + ", ".join(cmap[x] if x < len(cmap) else "gid{}".format(x) for x in keys) + "]"
         if len(self.positions):
-            res += "{" + ", ".join(str(p) for p in self.positions) + "}"
+            order = sorted(range(min(len(self.positions), len(self.keys))), key=lambda x:self.keys[x])
+            res += "{" + ", ".join(str(self.positions[i]) for i in order) + "}"
         if self.index is not None:
             res += "!{}".format(self.index)
         return res
@@ -451,6 +472,34 @@ class Node(object):
         except TypeError:
             import pdb; pdb.set_trace()
 
+    def match(self, gnp):
+        try:
+            i = self.keys.index(gnp[0])
+        except ValueError:
+            return False
+        if len(self.positions) and len(gnp) >= 2:
+            return self.positions[i] == gnp[1]
+
+    def splitwith(self, gnps):
+        newkeys = []
+        newpositions = []
+        for g in gnps:
+            if self.match(g):
+                newkeys.append(g[0])
+                self.keys.remove(g[0])
+                if len(g) > 1:
+                    newpositions.append(g[1])
+                    self.positions.remove(g[1])
+        if len(newkeys) and len(self.keys):
+            return Node(newkeys, newpositions, self.index)
+        elif len(newkeys):
+            self.keys = newkeys
+            self.positions = newpositions
+            return None
+        else:
+            return None
+
+
 class Position(namedtuple('Position', ['x', 'y'])):
     def __str__(self):
         if self.y == 0:
@@ -486,6 +535,192 @@ class Position(namedtuple('Position', ['x', 'y'])):
     def testPos(self, rounding):
         return self.x * self.x + self.y * self.y > rounding * rounding
 
+
+class RuleSet:
+    newlkupcost = 8
+    gnpformat = "{0}:{1[0]},{1[1]}"
+    def __init__(self, strings):
+        self.strings = strings
+        self.sets = []      # list of GNPset
+
+    def make_ruleSets(self):
+        '''For each glyphnpos group into sets and collect a list of strings for each'''
+        allgnps = {}
+        count = 0
+        order = sorted(range(len(self.strings)), key=lambda x:(self.strings[x].key(), self.strings[x]))
+        for i, r in ((x, self.strings[x]) for x in order):
+            for j, m in enumerate(r.match):
+                if m.hasPositions:
+                    s = m.asStr()
+                    if s not in allgnps:
+                        allgnps[s] = count
+                        gnp = GNPSet(m.keys, m.positions)
+                        self.sets.append(gnp)
+                        gnp.rules.append(r)
+                        r.gnps.append(count)
+                        count += 1
+                    else:
+                        self.sets[allgnps[s]].rules.append(r)
+                        r.gnps.append(allgnps[s])
+
+    def cost_sets(self):
+        results = []
+        for i, left in enumerate(self.sets):
+            for j, right in enumerate(self.sets[i+1:]):
+                saving = len(left & right) - left.rulecost() - right.rulecost()
+                left.set_cost(j, saving)
+                right.set_cost(i, saving)
+                if saving > 0:
+                    results.append((-saving, i, j+i+1))
+        return results
+
+    def reduceSets(self):
+        finished = False
+        cs = self.cost_sets()
+        while not finished and len(cs) > 0:
+            finished = True
+            for cost, i, j in sorted(cs):
+                newset = GNPSet(list(self.sets[i] & self.sets[j]))
+                if len(newset) == len(self.sets[i]):
+                    self.sets[j].moveto(j, self.sets[i], i)
+                elif len(newset) == len(self.sets[j]):
+                    self.sets[i].moveto(i, self.sets[j], j)
+                else:
+                    newstrings = []
+                    count = len(self.sets)
+                    newstrings.extend(self.sets[i].remove(newset, count))
+                    newstrings.extend(self.sets[j].remove(newset, count))
+                    if len(newstrings):
+                        finished = False
+                        self.sets.append(newset)
+                        self.strings.extend(newstrings)
+            cs = self.cost_sets()
+            # cs = []
+
+    def numlookups(self):
+        return sum(1 if len(x.rules) else 0 for x in self.sets)
+
+    def totallookuplength(self):
+        return sum(len(x) if len(x.rules) else 0 for x in self.sets)
+
+    def outfea(self, outfile, cmap, rtl=False):
+        rules = []
+        allPositions = {}
+        posfmt = "    pos {0} " + ("<{1[0]} 0 {1[0]} 0>;" if rtl else "{1[0]};")
+        with open(outfile, "w") as outf:
+            for i, g in enumerate(self.sets):
+                if not len(g.rules):
+                    continue
+                poslkup = ["lookup kernpos_{} {{".format(i)]
+                for k in sorted(g):
+                    p = g.parseKey(k)
+                    poslkup.append(posfmt.format(cmap[p[0]], p[1]))
+                poslkup += ["}} kernpos_{};".format(i)]
+                outf.write("\n".join(poslkup) + "\n\n")
+
+            for r in sorted(self.strings, key=lambda x:-len(x)):
+                rule = []
+                for m in r.pre:
+                    if len(m.keys) > 1:
+                        rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]")
+                    else:
+                        rule.append(cmap[m.keys[0]])
+                count = 0
+                for m in r.match:
+                    if m.hasPositions:
+                        s = m.asStr(cmap)
+                        lnum = r.gnps[count]
+                        count += 1
+                        if len(m.keys) > 1:
+                            rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]' lookup kernpos_{}".format(lnum))
+                        else:
+                            rule.append(cmap[m.keys[0]] + "' lookup kernpos_{}".format(lnum))
+                    elif len(m.keys) > 1:
+                        rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]'")
+                    else:
+                        rule.append(cmap[m.keys[0]] + "'")
+                for m in r.post:
+                    if len(m.keys) > 1:
+                        rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]")
+                    else:
+                        rule.append(cmap[m.keys[0]])
+                rules.append("pos " + " ".join(rule) + ";")
+            outf.write("lookup mainkern {\n    ")
+            outf.write("\n    ".join(rules))
+            outf.write("\n} mainkern;\n")
+
+    def outtext(self, outfile, cmap):
+        with open(outfile, "w") as fh:
+            for r in sorted(self.strings, key=lambda x:(-len(x), x.key())):
+                fh.write(r.asStr(cmap=cmap)+"\n")
+
+
+class GNPSet:
+    gnpformat = "{0}:{1[0]},{1[1]}"
+    def __init__(self, gids, positions=None):
+        if positions is None:  # treat gids as keys
+            self.set = set(gids)
+        else:
+            self.set = set(self.gnpformat.format(gids[i], positions[i]) for i in range(len(gids)))
+        self.rules = []
+        self.setcosts = []
+
+    def __contains__(self, v):
+        return v in self.set
+
+    def __len__(self):
+        return len(self.set)
+
+    def __iter__(self):
+        return iter(self.set)
+
+    def __and__(self, othergnpset):
+        return self.set & othergnpset.set
+
+    def add(self, gid, position=None):
+        if position is None:
+            self.set.add(gid)
+        else:
+            self.set.add(self.gnpformat.format(gid, position))
+
+    def set_cost(self, i, cost=None):
+        if i >= len(self.setcosts):
+            self.setcosts += [0] * (len(self.setcosts) - i + 1)
+        if cost is None:
+            return self.setcosts[i]
+        else:
+            self.setcosts[i] = cost
+            return cost
+
+    def asgnps(self):
+        res = [self.parseKey(k) for k in sorted(self.set)]
+        return res
+            
+    def parseKey(self, key):
+        gid, poses = key.split(":")
+        pos = Position(*[int(float(x)) for x in poses.split(",")])
+        return (int(gid), pos)
+
+    def remove(self, newgnps, newindex):
+        self.set = self.set - newgnps.set
+        results = []
+        newg = newgnps.asgnps()
+        for r in self.rules[:]:
+            news = r.splitgnp(newg, newindex)
+            if news is not None:
+                results.append(news)
+        return results
+
+    def moveto(self, currindex, newgnps, newindex):
+        for r in self.rules:
+            newgnps.rules.append(r)
+            r.movegnp(currindex, newindex)
+        self.rules = []
+
+    def rulecost(self):
+        return sum(4 * len(r) for r in self.rules) + 5 * len(self.rules)
+
+
 def addString(collections, s, rounding=0):
     for n in s.splitall():
         g = n.match[0].gid
@@ -495,53 +730,6 @@ def addString(collections, s, rounding=0):
 
 def printall(res, go):
     return "\n".join(r.asStr(cmap=go) for r in sorted(res, key=lambda x:x.key()))
-
-def outfea(outfile, res, cmap, rtl=False):
-    rules = []
-    allPositions = {}
-    with open(outfile, "w") as outf:
-        count = 1
-        for r in sorted(res, key=lambda x:-len(x)):
-            rule = []
-            for m in r.pre:
-                if len(m.keys) > 1:
-                    rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]")
-                else:
-                    rule.append(cmap[m.keys[0]])
-            for m in r.match:
-                if m.hasPositions:
-                    s = m.asStr(cmap)
-                    if s not in allPositions:
-                        allPositions[s] = count
-                        lnum = count
-                        count += 1
-                        poslkup = ["lookup kernpos_{} {{".format(lnum)]
-                        for n in zip([cmap[x] for x in m.keys], m.positions):
-                            if rtl:
-                                poslkup.append("    pos {0} <{1} 0 {1} 0>;".format(*n))
-                            else:
-                                poslkup.append("    pos {0} {1};".format(*n))
-                        poslkup.append("}} kernpos_{};".format(lnum))
-                        outf.write("\n".join(poslkup) + "\n\n")
-                    else:
-                        lnum = allPositions[s]
-                    if len(m.keys) > 1:
-                        rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]' lookup kernpos_{}".format(lnum))
-                    else:
-                        rule.append(cmap[m.keys[0]] + "' lookup kernpos_{}".format(lnum))
-                elif len(m.keys) > 1:
-                    rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]'")
-                else:
-                    rule.append(cmap[m.keys[0]] + "'")
-            for m in r.post:
-                if len(m.keys) > 1:
-                    rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]")
-                else:
-                    rule.append(cmap[m.keys[0]])
-            rules.append("pos " + " ".join(rule) + ";")
-        outf.write("lookup mainkern {\n    ")
-        outf.write("\n    ".join(rules))
-        outf.write("\n} mainkern;\n")
 
 if __name__ == '__main__':
     import argparse
@@ -691,9 +879,13 @@ if __name__ == '__main__':
             print(printall(res, go))
         print("Rule count: " + str(len(res)))
 
+    outrules = RuleSet(res)
+    outrules.make_ruleSets()
+    print ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
+    print ("Reduce lookups")
+    outrules.reduceSets()
+    print ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
     if args.outfile.endswith(".fea"):
-        outfea(args.outfile, res, go, rtl=args.rtl)
+        outrules.outfea(args.outfile, go, rtl=args.rtl)
     else:
-        with open(args.outfile, "w") as fh:
-            for r in sorted(res, key=lambda x:(-len(x), x.key())):
-                fh.write(r.asStr(cmap=go)+"\n")
+        outrules.outtext(args.outfile, go)
