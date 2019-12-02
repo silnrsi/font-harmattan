@@ -581,10 +581,12 @@ class RuleSet:
             finished = True
             for cost, i, j in sorted(cs):
                 newset = GNPSet(list(self.sets[i] & self.sets[j]))
+                if len(newset) == 0:
+                    continue
                 if len(newset) == len(self.sets[i]):
-                    self.sets[j].moveto(j, self.sets[i], i)
+                    self.sets[j].moveto(self.sets, j, self.sets[i], i)
                 elif len(newset) == len(self.sets[j]):
-                    self.sets[i].moveto(i, self.sets[j], j)
+                    self.sets[i].moveto(self.sets, i, self.sets[j], j)
                 else:
                     newstrings = []
                     count = len(self.sets)
@@ -664,6 +666,7 @@ class GNPSet:
             self.set = set(self.gnpformat.format(gids[i], positions[i]) for i in range(len(gids)))
         self.rules = []
         self.setcosts = []
+        self.movedto = None
 
     def __contains__(self, v):
         return v in self.set
@@ -708,14 +711,27 @@ class GNPSet:
         for r in self.rules[:]:
             news = r.splitgnp(newg, newindex)
             if news is not None:
-                results.append(news)
+                for nr in newgnps.rules:
+                    if nr.addString(news):
+                        break
+                else:
+                    results.append(news)
+                    newgnps.rules.append(news)
         return results
 
-    def moveto(self, currindex, newgnps, newindex):
+    def moveto(self, allsets, currindex, newgnps, newindex):
+        #loopfind = set([currindex])
+        #while newgnps.movedto is not None and newgnps.movedto not in loopfind:
+        #    newgnps = allsets[newgnps.movedto]
+        #    newindex = newgnps.movedto
+        #    loopfind.add(newindex)
         for r in self.rules:
             newgnps.rules.append(r)
             r.movegnp(currindex, newindex)
+            newgnps.set.update(self.set)
         self.rules = []
+        self.set = set()
+        self.movedto = newindex
 
     def rulecost(self):
         return sum(4 * len(r) for r in self.rules) + 5 * len(self.rules)
