@@ -10,6 +10,10 @@ psfnormalize -p checkfix=fix source/*-Regular.ufo  &
 psfnormalize -p checkfix=fix source/*-Bold.ufo     &
 wait
 
+echo "Updating woff metadata in UFO and xml file..."
+psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts --populateufowoff source/*-Regular.ufo
+
+
 echo "Updating glyph orders in Regular..."
 psfsetglyphorder -q -p checkfix=none -p backup=False --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Regular.ufo
 
@@ -18,9 +22,6 @@ psfsetpsnames -q -p checkfix=none -p backup=False -i source/glyph_data.csv sourc
 
 echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/*-RB.designspace
-
-echo "Updating woff metadata file..."
-psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/*-Regular.ufo
 
 echo "Building internal fea..."
 psfmakefea -q -o source/Harmattan-Regular.ufo/features.fea -l Harmattan-Regular-psfmakefea.log -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" source/*-Regular.ufo &
