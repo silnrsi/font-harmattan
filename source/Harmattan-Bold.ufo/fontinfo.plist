@@ -12,10 +12,10 @@
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name "Fouta".
 
-Copyright (c) 2004-2019, SIL International (http://www.sil.org), 
+Copyright (c) 2004-2020, SIL International (http://www.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2020, SIL International (http://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>descender</key>
   <integer>-1323</integer>
@@ -52,10 +52,10 @@ contexts.</string>
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name "Fouta".
 
-Copyright (c) 2004-2019, SIL International (http://www.sil.org), 
+Copyright (c) 2004-2020, SIL International (http://www.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2019, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2020, SIL International (http://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".
 
 ----------------------------------------------------
@@ -107,7 +107,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Bold</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Harmattan Bold: 2019</string>
+  <string>SIL International: Harmattan Bold: 2020</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.040</string>
   <key>openTypeOS2CodePageRanges</key>
