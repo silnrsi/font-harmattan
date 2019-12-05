@@ -585,8 +585,10 @@ class RuleSet:
                     continue
                 if len(newset) == len(self.sets[i]):
                     self.sets[j].moveto(self.sets, j, self.sets[i], i)
+                    finished = False
                 elif len(newset) == len(self.sets[j]):
                     self.sets[i].moveto(self.sets, i, self.sets[j], j)
+                    finished = False
                 else:
                     newstrings = []
                     count = len(self.sets)
@@ -708,7 +710,8 @@ class GNPSet:
         self.set = self.set - newgnps.set
         results = []
         newg = newgnps.asgnps()
-        for r in self.rules[:]:
+        removedc = 0
+        for i, r in enumerate(self.rules[:]):
             news = r.splitgnp(newg, newindex)
             if news is not None:
                 for nr in newgnps.rules:
@@ -717,6 +720,14 @@ class GNPSet:
                 else:
                     results.append(news)
                     newgnps.rules.append(news)
+                # why doesn't this work?
+                if 0:
+                    for nr in self.rules[:i-removedc]:
+                        if nr.addString(r):
+                            del self.rules[i - removedc]
+                            # self.rules.remove(r)
+                            removedc += 1
+                            break
         return results
 
     def moveto(self, allsets, currindex, newgnps, newindex):

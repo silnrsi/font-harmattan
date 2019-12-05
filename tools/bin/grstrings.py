@@ -25,7 +25,7 @@ def runtext(face, text):
     (fd, debug) = tempfile.mkstemp()
     os.close(fd)
     gr2.gr_start_logging(face.grface.face, debug.encode("utf-8"))
-    glyphs = face.glyphs(text, feats=getattr(text, 'feats', None), rtl=getattr(text, 'rtl', None))
+    glyphs = face.glyphs(str(text), feats=getattr(text, 'feats', None), rtl=getattr(text, 'rtl', None))
     gr2.gr_stop_logging(face.grface.face)
     with open(debug) as fh:
         jobj = json.load(fh)
@@ -33,7 +33,7 @@ def runtext(face, text):
     return (glyphs, jobj)
 
 def makestring(face, text):
-    glyphs, jobj = runtext(face, str(text))
+    glyphs, jobj = runtext(face, text)
     s = String(text=str(text))
     curr = s.pre
     for g in jobj[-1]['output']:
