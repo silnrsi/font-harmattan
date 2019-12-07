@@ -10,9 +10,8 @@ psffixffglifs -p checkfix=fix source/*-Regular.ufo  &
 psffixffglifs -p checkfix=fix source/*-Bold.ufo     &
 wait
 
-echo "Updating woff metadata in UFO and xml file..."
-psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts --populateufowoff source/*-Regular.ufo
-
+echo "Updating woff metadata xml file..."
+psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/*-Regular.ufo
 
 echo "Updating glyph orders in Regular..."
 psfsetglyphorder -q -p checkfix=none -p backup=False --header DesignerOrder,DesignerOrder --field public.glyphOrder,com.schriftgestaltung.glyphOrder -i source/glyph_data.csv source/*-Regular.ufo
