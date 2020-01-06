@@ -2,9 +2,10 @@
 
 from struct import pack
 from collections import namedtuple
-import re, struct
+import re, struct, os
 import numpy as np
 from sklearn.cluster.hierarchical import ward_tree
+import logging as log
 
 def skipws(s, i):
     while i < len(s):
@@ -221,12 +222,11 @@ class String(object):
 
     def splitgnp(self, gnps, newindex):
         newnode = self.match[0].splitwith(gnps)
+        res = None
         if newnode is not None:
             newmatch = [newnode] + self.match[1:]
-            res = String(self.pre[:], self.post[:], newmatch, self.text[:])
+            res = String([x.copy() for x in self.pre], [x.copy() for x in self.post], newmatch, self.text[:])
             res.gnps = [newindex]
-        else:
-            return None
         return res
 
     def movegnp(self, f, t):
@@ -242,6 +242,12 @@ class String(object):
 
     def __eq__(self, other):
         return isinstance(self, type(other)) and self.key() == other.key()
+
+    def __str__(self):
+        return self.asStr()
+
+    def __repr__(self):
+        return self.asStr()
 
     def asBytes(self):
         return b"".join(x.asBytes for x in self.pre + self.match + self.post)
@@ -327,6 +333,10 @@ class String(object):
         if x < len(self.post):
             return len(self) - i - 1
         raise IndexError
+
+    def filterempties(self):
+        self.match = [x for x in self.match if len(x.keys)]
+        return len(self.match) != 0
 
     def testPos(self, rounding):
         ''' Returns whether all nodes in the string have position > rounding '''
@@ -490,12 +500,8 @@ class Node(object):
                 if len(g) > 1:
                     newpositions.append(g[1])
                     self.positions.remove(g[1])
-        if len(newkeys) and len(self.keys):
+        if len(newkeys):
             return Node(newkeys, newpositions, self.index)
-        elif len(newkeys):
-            self.keys = newkeys
-            self.positions = newpositions
-            return None
         else:
             return None
 
@@ -567,14 +573,19 @@ class RuleSet:
         results = []
         for i, left in enumerate(self.sets):
             for j, right in enumerate(self.sets[i+1:]):
-                saving = len(left & right) - left.rulecost() - right.rulecost()
-                left.set_cost(j, saving)
+                saving = len(left & right)
+                if saving == 0:
+                    continue
+                if saving != len(left) and saving != len(right):
+                    saving -= left.rulecost() + right.rulecost()
+                left.set_cost(i+1+j, saving)
                 right.set_cost(i, saving)
+                #log.debug("left: {}, right: {}, saving: {}".format(i, j+i+1, saving))
                 if saving > 0:
                     results.append((-saving, i, j+i+1))
         return results
 
-    def reduceSets(self):
+    def reduceSets(self, tracefile):
         finished = False
         cs = self.cost_sets()
         while not finished and len(cs) > 0:
@@ -598,8 +609,12 @@ class RuleSet:
                         finished = False
                         self.sets.append(newset)
                         self.strings.extend(newstrings)
+                if tracefile is not None:
+                    self.outtext(tracefile, {}, mode="a")
             cs = self.cost_sets()
-            # cs = []
+        self.strings = [s for s in self.strings if s.filterempties()]
+        if tracefile is not None:
+            self.outtext(tracefile, {}, mode="a")
 
     def numlookups(self):
         return sum(1 if len(x.rules) else 0 for x in self.sets)
@@ -653,10 +668,12 @@ class RuleSet:
             outf.write("\n    ".join(rules))
             outf.write("\n} mainkern;\n")
 
-    def outtext(self, outfile, cmap):
-        with open(outfile, "w") as fh:
+    def outtext(self, outfile, cmap, mode="w"):
+        with open(outfile, mode) as fh:
             for r in sorted(self.strings, key=lambda x:(-len(x), x.key())):
                 fh.write(r.asStr(cmap=cmap)+"\n")
+            if mode == "a":
+                fh.write("\n----------\n")
 
 
 class GNPSet:
@@ -670,6 +687,9 @@ class GNPSet:
         self.setcosts = []
         self.movedto = None
 
+    def __str__(self):
+        return " ".join(self.set)
+
     def __contains__(self, v):
         return v in self.set
 
@@ -682,6 +702,9 @@ class GNPSet:
     def __and__(self, othergnpset):
         return self.set & othergnpset.set
 
+    def __eq__(self, other):
+        return self.set == other.set
+
     def add(self, gid, position=None):
         if position is None:
             self.set.add(gid)
@@ -690,7 +713,7 @@ class GNPSet:
 
     def set_cost(self, i, cost=None):
         if i >= len(self.setcosts):
-            self.setcosts += [0] * (len(self.setcosts) - i + 1)
+            self.setcosts += [0] * (i - len(self.setcosts) + 1)
         if cost is None:
             return self.setcosts[i]
         else:
@@ -707,6 +730,7 @@ class GNPSet:
         return (int(gid), pos)
 
     def remove(self, newgnps, newindex):
+        log.debug("Removing {}: {}".format(newindex, newgnps))
         self.set = self.set - newgnps.set
         results = []
         newg = newgnps.asgnps()
@@ -736,6 +760,7 @@ class GNPSet:
         #    newgnps = allsets[newgnps.movedto]
         #    newindex = newgnps.movedto
         #    loopfind.add(newindex)
+        log.debug("Moving {} to {}".format(currindex, newindex))
         for r in self.rules:
             newgnps.rules.append(r)
             r.movegnp(currindex, newindex)
@@ -773,7 +798,20 @@ if __name__ == '__main__':
     parser.add_argument('-e','--end',default=2,type=int,help="Final phase before output and stopping")
     parser.add_argument('-R','--rtl',action="store_true",help="Output rtl appropriate adjustments")
     parser.add_argument('--printeach',action='store_true',help='Print rules after each phase')
+    parser.add_argument('--log',default="info",help="logging level (debug, *info*, warn, error, critical)")
+    parser.add_argument('--logfile',help="Log to file")
+    parser.add_argument('--tracefile',help="Trace results to file")
     args = parser.parse_args()
+
+    loglevel = getattr(log, args.log.upper(), None)
+    if isinstance(loglevel, int):
+        parms = {'level': loglevel, 'format': ''}
+        if args.logfile is not None:
+            parms.update(filename=args.logfile, filemode="w")
+        log.basicConfig(**parms)
+
+    if args.tracefile and os.path.exists(args.tracefile):
+        os.remove(args.tracefile)
 
     font = ttLib.TTFont(args.font)
     go = font.getGlyphOrder()
@@ -785,7 +823,7 @@ if __name__ == '__main__':
             addString(colls, String.fromStr(l, cmap=cmap), rounding=args.rounding)
             linecount += 1
     rulecount = sum(len(x) for v in colls.values() for x in v.gidmap.values())
-    print("Input rules: {} flattened to {} rules".format(linecount, rulecount))
+    log.info("Input rules: {} flattened to {} rules".format(linecount, rulecount))
 
     def process(k):
         return (k, colls[k].process(k, args.rounding))
@@ -811,7 +849,7 @@ if __name__ == '__main__':
             total[0] += len(colls[k].gidmap)
             total[1] += r[0]
             res[k] = r[1]
-        print("Totals: {} -> {}".format(*total))
+        log.info("Totals: {} -> {}".format(*total))
         res = [r for vg in sorted(res.keys()) for v in sorted(res[vg].keys()) for r in res[vg][v]]
         if args.printeach:
             print(printall(res, go))
@@ -859,7 +897,7 @@ if __name__ == '__main__':
                     newrules.append(r)
             return newrules
         # can't multiprocess this because the overhead of locking is greater than the gain
-        print("1: Merging substrings")
+        log.info("1: Merging substrings")
         finder = process1(res)
         if args.printeach:
             print(finder)
@@ -870,7 +908,7 @@ if __name__ == '__main__':
     # res = [String]
     # Create classes
     if args.start < 2 and args.end > 0:
-        print("1: Creating classes")
+        log.info("1: Creating classes")
         lastlen = 0
         # import pdb; pdb.set_trace()
         for r in res:
@@ -904,14 +942,14 @@ if __name__ == '__main__':
             #res = sorted(newres, key=lambda x:x.asStr(go))
         if args.printeach:
             print(printall(res, go))
-        print("Rule count: " + str(len(res)))
+        log.info("Rule count: " + str(len(res)))
 
     outrules = RuleSet(res)
     outrules.make_ruleSets()
-    print ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
-    print ("Reduce lookups")
-    outrules.reduceSets()
-    print ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
+    log.info ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
+    log.info ("Reduce lookups")
+    outrules.reduceSets(args.tracefile)
+    log.info ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
     if args.outfile.endswith(".fea"):
         outrules.outfea(args.outfile, go, rtl=args.rtl)
     else:
