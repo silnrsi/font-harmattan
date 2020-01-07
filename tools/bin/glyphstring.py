@@ -572,6 +572,7 @@ class RuleSet:
                         r.gnps.append(allgnps[s])
 
     def cost_sets(self):
+        ''' Find best next sets to split and merge '''
         results = []
         for i, left in enumerate(self.sets):
             for j, right in enumerate(self.sets[i+1:]):
@@ -579,30 +580,29 @@ class RuleSet:
                 if saving == 0:
                     continue
                 if saving != len(left) and saving != len(right):
-                    saving -= left.rulecost() + right.rulecost()
-                left.set_cost(i+1+j, saving)
-                right.set_cost(i, saving)
+                    saving -= left.rulecost() + right.rulecost() + 10
+                #left.set_cost(i+1+j, saving)
+                #right.set_cost(i, saving)
                 #log.debug("left: {}, right: {}, saving: {}".format(i, j+i+1, saving))
                 if saving > 0:
-                    results.append((-saving, i, j+i+1))
+                    results.append((-saving, i, j+i+1, 1 if saving == len(left) else (2 if saving == len(right) else 0)))
         return results
 
     def reduceSets(self, tracefile):
+        ''' Split and merge sets to reduce overall GPOS size '''
         finished = False
         cs = self.cost_sets()
         while not finished and len(cs) > 0:
             finished = True
-            for cost, i, j in sorted(cs):
-                newset = GNPSet(list(self.sets[i] & self.sets[j]))
-                if len(newset) == 0:
-                    continue
-                if len(newset) == len(self.sets[i]):
+            for cost, i, j, action in sorted(cs):
+                if action == 2:
                     self.sets[j].moveto(self.sets, j, self.sets[i], i)
                     finished = False
-                elif len(newset) == len(self.sets[j]):
+                elif action == 1:
                     self.sets[i].moveto(self.sets, i, self.sets[j], j)
                     finished = False
                 else:
+                    newset = GNPSet(list(self.sets[i] & self.sets[j]))
                     count = len(self.sets)
                     self.sets[i].remove(newset, count)
                     self.sets[j].remove(newset, count)
@@ -622,16 +622,13 @@ class RuleSet:
         return sum(len(x) if len(x.rules) else 0 for x in self.sets)
 
     def rebuild_strings(self):
+        ''' Merge rules in a set and recreate strings from sets '''
         self.strings = []
         for i, s in enumerate(self.sets):
             ri = 0
             s.rules = [r for r in s.rules if len(r.match) and len(r.match[0].keys)]
             while ri < len(s.rules):
-                numdel = 0
-                for j, r in enumerate(s.rules[ri+1:]):
-                    if s.rules[ri].addString(r):
-                        del s.rules[ri+j+1-numdel]
-                        numdel += 1
+                s.rules = s.rules[:ri+1] + [r for r in s.rules[ri+1:] if not s.rules[ri].addString(r)]
                 ri += 1
             self.strings.extend(s.rules)
 
@@ -793,7 +790,7 @@ class GNPSet:
         self.movedto = newindex
 
     def rulecost(self):
-        return sum(4 * len(r) for r in self.rules) + 5 * len(self.rules)
+        return sum(3 * len(r) + 2 * len(r.match) + 10 for r in self.rules)
 
 
 def addString(collections, s, rounding=0):
@@ -970,10 +967,11 @@ if __name__ == '__main__':
     outrules = RuleSet(res)
     outrules.make_ruleSets()
     log.info ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
-    log.info ("Reduce lookups")
-    outrules.reduceSets(args.tracefile)
-    log.info ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
+    if args.start < 3 and args.end > 1:
+        log.info ("2: Reduce lookups")
+        outrules.reduceSets(args.tracefile)
     if args.outfile.endswith(".fea"):
         outrules.outfea(args.outfile, go, rtl=args.rtl)
     else:
         outrules.outtext(args.outfile, go)
+    log.info ("Lookups: {} sum {}, Strings: {}".format(outrules.numlookups(), outrules.totallookuplength(), len(outrules.strings)))
