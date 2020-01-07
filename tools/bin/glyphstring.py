@@ -625,29 +625,34 @@ class RuleSet:
         self.strings = []
         for i, s in enumerate(self.sets):
             ri = 0
+            s.rules = [r for r in s.rules if len(r.match) and len(r.match[0].keys)]
             while ri < len(s.rules):
                 numdel = 0
                 for j, r in enumerate(s.rules[ri+1:]):
                     if s.rules[ri].addString(r):
-                        del s.rules[ri+j+1 - numdel]
+                        del s.rules[ri+j+1-numdel]
                         numdel += 1
                 ri += 1
-            self.strings.extend([r for r in s.rules if len(r.match) and len(r.match[0].keys)])
+            self.strings.extend(s.rules)
 
     def outfea(self, outfile, cmap, rtl=False):
         self.rebuild_strings()
         rules = []
         allPositions = {}
+        lkupmap = {}
         posfmt = "    pos {0} " + ("<{1[0]} 0 {1[0]} 0>;" if rtl else "{1[0]};")
+        count = 0
         with open(outfile, "w") as outf:
             for i, g in enumerate(self.sets):
                 if not len(g.rules):
                     continue
-                poslkup = ["lookup kernpos_{} {{".format(i)]
+                poslkup = ["lookup kernpos_{} {{".format(count)]
                 for k in sorted(g):
                     p = g.parseKey(k)
                     poslkup.append(posfmt.format(cmap[p[0]], p[1]))
-                poslkup += ["}} kernpos_{};".format(i)]
+                poslkup += ["}} kernpos_{};".format(count)]
+                lkupmap[i] = count
+                count += 1
                 outf.write("\n".join(poslkup) + "\n\n")
 
             for r in sorted(self.strings, key=lambda x:-len(x)):
@@ -661,7 +666,7 @@ class RuleSet:
                 for m in r.match:
                     if m.hasPositions:
                         s = m.asStr(cmap)
-                        lnum = r.gnps[count]
+                        lnum = lkupmap[r.gnps[count]]
                         count += 1
                         if len(m.keys) > 1:
                             rule.append("[" + " ".join(cmap[x] for x in m.keys) + "]' lookup kernpos_{}".format(lnum))
