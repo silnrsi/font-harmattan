@@ -217,7 +217,7 @@ class String(object):
             if g not in smp.keys:
                 smp.keys.append(g)
                 if smp.hasPositions():
-                    smp.positions.append(rmp.positions[i] if rmp.hasPositions else Position(0, 0))
+                    smp.positions.append(rmp.positions[i] if rmp.hasPositions() else Position(0, 0))
         return True
 
     def splitgnp(self, gnps, newindex):
@@ -486,20 +486,22 @@ class Node(object):
         try:
             i = self.keys.index(gnp[0])
         except ValueError:
-            return False
+            return None
         if len(self.positions) and len(gnp) >= 2:
-            return self.positions[i] == gnp[1]
+            return i if self.positions[i] == gnp[1] else None
+        return i
 
     def splitwith(self, gnps):
         newkeys = []
         newpositions = []
         for g in gnps:
-            if self.match(g):
+            i = self.match(g)
+            if i is not None:
                 newkeys.append(g[0])
-                self.keys.remove(g[0])
-                if len(g) > 1:
+                del self.keys[i]
+                if len(self.positions) and len(g) > 1:
                     newpositions.append(g[1])
-                    self.positions.remove(g[1])
+                    del self.positions[i]
         if len(newkeys):
             return Node(newkeys, newpositions, self.index)
         else:
@@ -601,18 +603,15 @@ class RuleSet:
                     self.sets[i].moveto(self.sets, i, self.sets[j], j)
                     finished = False
                 else:
-                    newstrings = []
                     count = len(self.sets)
-                    newstrings.extend(self.sets[i].remove(newset, count))
-                    newstrings.extend(self.sets[j].remove(newset, count))
-                    if len(newstrings):
+                    self.sets[i].remove(newset, count)
+                    self.sets[j].remove(newset, count)
+                    if len(newset.rules):
                         finished = False
                         self.sets.append(newset)
-                        self.strings.extend(newstrings)
                 if tracefile is not None:
                     self.outtext(tracefile, {}, mode="a")
             cs = self.cost_sets()
-        self.strings = [s for s in self.strings if s.filterempties()]
         if tracefile is not None:
             self.outtext(tracefile, {}, mode="a")
 
@@ -622,7 +621,21 @@ class RuleSet:
     def totallookuplength(self):
         return sum(len(x) if len(x.rules) else 0 for x in self.sets)
 
+    def rebuild_strings(self):
+        self.strings = []
+        for i, s in enumerate(self.sets):
+            ri = 0
+            while ri < len(s.rules):
+                numdel = 0
+                for j, r in enumerate(s.rules[ri+1:]):
+                    if s.rules[ri].addString(r):
+                        del s.rules[ri+j+1 - numdel]
+                        numdel += 1
+                ri += 1
+            self.strings.extend([r for r in s.rules if len(r.match) and len(r.match[0].keys)])
+
     def outfea(self, outfile, cmap, rtl=False):
+        self.rebuild_strings()
         rules = []
         allPositions = {}
         posfmt = "    pos {0} " + ("<{1[0]} 0 {1[0]} 0>;" if rtl else "{1[0]};")
@@ -669,6 +682,7 @@ class RuleSet:
             outf.write("\n} mainkern;\n")
 
     def outtext(self, outfile, cmap, mode="w"):
+        self.rebuild_strings()
         with open(outfile, mode) as fh:
             for r in sorted(self.strings, key=lambda x:(-len(x), x.key())):
                 fh.write(r.asStr(cmap=cmap)+"\n")
@@ -762,9 +776,13 @@ class GNPSet:
         #    loopfind.add(newindex)
         log.debug("Moving {} to {}".format(currindex, newindex))
         for r in self.rules:
-            newgnps.rules.append(r)
+            for nr in newgnps.rules:
+                if nr.addString(r):
+                    break
+            else:
+                newgnps.rules.append(r)
             r.movegnp(currindex, newindex)
-            newgnps.set.update(self.set)
+        newgnps.set.update(self.set)
         self.rules = []
         self.set = set()
         self.movedto = newindex
