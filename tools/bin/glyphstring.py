@@ -572,21 +572,52 @@ class RuleSet:
                         r.gnps.append(allgnps[s])
 
     def cost_sets(self):
-        ''' Find best next sets to split and merge '''
+        jobs = []
         results = []
+        # find all lookup intersections that might save us something
         for i, left in enumerate(self.sets):
             for j, right in enumerate(self.sets[i+1:]):
-                saving = len(left & right)
+                diff = left & right
+                saving = len(diff)
                 if saving == 0:
                     continue
-                if saving != len(left) and saving != len(right):
-                    saving -= left.rulecost() + right.rulecost() + 10
-                #left.set_cost(i+1+j, saving)
-                #right.set_cost(i, saving)
-                #log.debug("left: {}, right: {}, saving: {}".format(i, j+i+1, saving))
-                if saving > 0:
-                    results.append((-saving, i, j+i+1, 1 if saving == len(left) else (2 if saving == len(right) else 0)))
+                splitcost = 10
+                if saving == len(left) or saving == len(right):
+                    splitcost = 0
+                jobs.append([-saving + splitcost, saving, diff, i, i+j+1, []])
+        jobs.sort()
+        # see which ones actually save us something (through moves)
+        for i, left in enumerate(self.sets):
+            if len(left) == 0:
+                continue
+            for j in jobs:
+                if len(left) > j[1]:
+                    break
+                if len(j[2] & left.set) == len(left):
+                    j[0] -= j[1] + 10
+                    j[5].append(i)
+                    break
+        jobs.sort()
+        log.debug("jobs[{}]: {}".format(len(jobs), jobs[0]))
+        count = len(self.sets)
+        # turn useful intersections into actions
+        for j in jobs:
+            if j[0] >= 0:
+                break
+            if len(j[5]) == 0:
+                if j[0] >= -self.sets[j[3]].rulecost() - self.sets[j[4]].rulecost():
+                    continue
+                results.append((j[0], j[3], j[4], 0))
+                c = count
+                count += 1
+            elif len(self.sets[j[3]]) == j[1]:
+                c = j[3]
+            else:
+                c = j[4]
+            for k in j[5]:
+                results.append((j[0] + 1, c, k, 2))
         return results
+        
 
     def reduceSets(self, tracefile):
         ''' Split and merge sets to reduce overall GPOS size '''
@@ -595,6 +626,7 @@ class RuleSet:
         while not finished and len(cs) > 0:
             finished = True
             for cost, i, j, action in sorted(cs):
+                log.debug("Cost: {}, {}, {} doing {}".format(-cost, i, j, action))
                 if action == 2:
                     self.sets[j].moveto(self.sets, j, self.sets[i], i)
                     finished = False
