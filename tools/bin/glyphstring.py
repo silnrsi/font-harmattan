@@ -105,7 +105,7 @@ class Collection(object):
                 continue
             res[k] = []
             for r in v:
-                if any(t.isSubsetOf(r) for t in res[k]):
+                if any(t.isSubstringOf(r) for t in res[k]):
                     continue
                 res[k].append(r)
 #                lengths = [len(r.pre)+len(r.post)+3] * (len(r.post) + 1)
@@ -259,7 +259,7 @@ class String(object):
             res = ""
         return res + " ".join(x.asStr(cmap) for x in self.pre + self.match + self.post)
 
-    def isSubsetOf(self, other):
+    def isSubstringOf(self, other):
         if len(self.match) != len(other.match):
             return False
         if len(self.pre) > len(other.pre):
@@ -346,7 +346,7 @@ class String(object):
 class Node(object):
     def __init__(self, keys=None, positions=None, index=None):
         self.keys = keys or []
-        self.positions = positions or []
+        self.positions = positions or []        # one position per key
         self.var = None
         self.gid = keys[0] if keys else None
         self.index = index
@@ -558,7 +558,7 @@ class RuleSet:
         order = sorted(range(len(self.strings)), key=lambda x:(self.strings[x].key(), self.strings[x]))
         for i, r in ((x, self.strings[x]) for x in order):
             for j, m in enumerate(r.match):
-                if m.hasPositions:
+                if m.hasPositions():
                     s = m.asStr()
                     if s not in allgnps:
                         allgnps[s] = count
@@ -588,7 +588,7 @@ class RuleSet:
         jobs.sort()
         # see which ones actually save us something (through moves)
         for i, left in enumerate(self.sets):
-            if len(left) == 0:
+            if len(left) == 0:      # due to previous move probably
                 continue
             for j in jobs:
                 if len(left) > j[1]:
@@ -598,7 +598,8 @@ class RuleSet:
                     j[5].append(i)
                     break
         jobs.sort()
-        log.debug("jobs[{}]: {}".format(len(jobs), jobs[0]))
+        if len(jobs):
+            log.debug("jobs[{}]: {}".format(len(jobs), jobs[0]))
         count = len(self.sets)
         # turn useful intersections into actions
         for j in jobs:
@@ -615,7 +616,8 @@ class RuleSet:
             else:
                 c = j[4]
             for k in j[5]:
-                results.append((j[0] + 1, c, k, 2))
+                if c != k:
+                    results.append((j[0] + 1, c, k, 2))
         return results
         
 
@@ -665,7 +667,6 @@ class RuleSet:
             self.strings.extend(s.rules)
 
     def outfea(self, outfile, cmap, rtl=False):
-        self.rebuild_strings()
         rules = []
         allPositions = {}
         lkupmap = {}
@@ -716,7 +717,6 @@ class RuleSet:
             outf.write("\n} mainkern;\n")
 
     def outtext(self, outfile, cmap, mode="w"):
-        self.rebuild_strings()
         with open(outfile, mode) as fh:
             for r in sorted(self.strings, key=lambda x:(-len(x), x.key())):
                 fh.write(r.asStr(cmap=cmap)+"\n")
@@ -927,6 +927,8 @@ if __name__ == '__main__':
                     for j in range(i+1, len(gs)+1):
                         testmask = (1 << (i+1)) - 1
                         testmask |= (1 << len(gs)) - (1 << j)
+                        # only interested in substrings gs[i:j] that contain something that a rule somewhere moves
+                        # all other substrings will never be matched by a rule
                         if (mask & testmask) != 0:
                             finder.setdefault(struct.pack("{}H".format(j-i), *gs[i:j]), []).append((r, i))
             return finder
@@ -935,6 +937,8 @@ if __name__ == '__main__':
             for r in rules:
                 gs = r.gids()
                 match = finder.get(struct.pack("{}H".format(len(gs)), *gs), None)
+                matchfound = False
+                # match can only contain one occurrence of any rule
                 if match is not None and len(match) > 1:
                     for m in match:
                         if m[0] == r:
@@ -944,8 +948,10 @@ if __name__ == '__main__':
                         except IndexError:
                             import pdb; pdb.set_trace()
                         if n.hasPositions() and r.match[0].pos not in n.positions:
-                            n.positions.append(r.match[0].pos)
-                else:
+                            # not really a matching rule since different positions
+                            continue
+                        matchfound = True
+                if not matchfound:
                     newrules.append(r)
             return newrules
         # can't multiprocess this because the overhead of locking is greater than the gain
@@ -1002,6 +1008,7 @@ if __name__ == '__main__':
     if args.start < 3 and args.end > 1:
         log.info ("2: Reduce lookups")
         outrules.reduceSets(args.tracefile)
+        outrules.rebuild_strings()
     if args.outfile.endswith(".fea"):
         outrules.outfea(args.outfile, go, rtl=args.rtl)
     else:
