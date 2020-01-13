@@ -250,7 +250,7 @@ class String(object):
         return self.asStr()
 
     def asBytes(self):
-        return b"".join(x.asBytes for x in self.pre + self.match + self.post)
+        return b"".join(x.asBytes() for x in self.pre + self.match + self.post)
 
     def asStr(self, cmap=[]):
         if self.text is not None:
