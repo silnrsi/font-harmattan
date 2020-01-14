@@ -768,8 +768,14 @@ do if False;	# disable old-style kerning for now
 
 }
 
-include(../../source/opentype/caKern.fea)
+ifinfo(styleName, "Regular") {
+	include(../../source/opentype/caKern-Regular.fea);
+}
 
+ifinfo(styleName, "Bold") {
+	include(../../source/opentype/caKern-Bold.fea);
+}
+	
 #********************
 # Mark attachment
 

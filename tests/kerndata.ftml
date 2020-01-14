@@ -5,6 +5,7 @@
     <fontscale>200</fontscale>
     <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Bold_ot_arab.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv02' 2" name="cv02_2"/>
