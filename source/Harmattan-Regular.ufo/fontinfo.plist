@@ -22,7 +22,7 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2019/12/06 18:12:56</string>
+  <string>2020/01/14 16:27:22</string>
   <key>openTypeHheaAscender</key>
   <integer>2166</integer>
   <key>openTypeHheaDescender</key>
@@ -107,7 +107,7 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Regular</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Harmattan Regular: 2019</string>
+  <string>SIL International: Harmattan Regular: 2020</string>
   <key>openTypeNameVersion</key>
   <string>Version 1.040</string>
   <key>openTypeOS2CodePageRanges</key>
