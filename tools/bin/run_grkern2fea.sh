@@ -19,22 +19,3 @@ do
 	sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-$face.fea  > ../source/opentype/caKern-$face.fea
 done
 echo "\nDone.\n"
-exit
-
-
-# Trace graphite to get kerning data
-
-
-# generate fea
-echo generating Regular fea output...
-
-
-echo generating Bold fea output...
-../tools/bin/glyphstring.py -f ../results/Harmattan-Bold.ttf     -r 20 -j 1      -R rawPairData-Bold.txt    res/caKern-bold.fea
-
-
-# Copy result to source folder so project will compile:
-echo updating mark references and copying results to source tree...
-sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g res/caKern.fea > ../source/opentype/caKern.fea
-
-echo ../source/opentype/caKern.fea updated
