@@ -768,12 +768,15 @@ do if False;	# disable old-style kerning for now
 
 }
 
+do if opt("noOTkern") == "";
+{
 ifinfo(styleName, "Regular") {
 	include(../../source/opentype/caKern-Regular.fea);
 }
 
 ifinfo(styleName, "Bold") {
 	include(../../source/opentype/caKern-Bold.fea);
+}
 }
 	
 #********************
@@ -1421,7 +1424,7 @@ feature kern {  # Kerning
     # Same for latin & arabic:
         lookup SubtendingMarks;
 
-do if True;	# enable kerning for now
+do if opt("noOTkern") == "";	# enable kerning for now
 {
 	    script arab;  # Arabic
             lookup mainkern;

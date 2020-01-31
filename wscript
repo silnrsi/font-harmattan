@@ -25,6 +25,10 @@ ftmlTest('tests/ftml-smith.xsl', fonts = ['../tests/reference/Harmattan-Regular-
 # APs to omit:
 OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
 
+opts = preprocess_args({'opt': '--quick'})
+
+NOOTKERN = " -D noOTkern=yes" if "--quick" in opts else ""
+
 # iterate over designspace
 designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
@@ -47,7 +51,7 @@ designspace('source/Harmattan-RB.designspace',
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + "${DS:FILENAME_BASE}.map",
         master = 'source/opentype/master.feax',
-        make_params = OMITAPS,
+        make_params = OMITAPS + NOOTKERN,
         params = "-e",
         ),
     typetuner = typetuner("source/typetuner/feat_all.xml"),
