@@ -1,23 +1,23 @@
 ////////////////////////////////////////////////////////////////////////////////////////////
 //
-//	File: caBasedKerning.gdl
+//  File: caBasedKerning.gdl
 //
-//	Included at end of master.gdl only to generate kerning calculations.
+//  Included at end of master.gdl only to generate kerning calculations.
 //
 ////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
-	This file is part of Harmattan font family 
-	(http://scripts.sil.org/Harmattan) and is 
-	Copyright (c) 2014-2019 SIL International (http://www.sil.org/),
-	with Reserved Font Names "Harmattan" and "SIL".
+    This file is part of Harmattan font family 
+    (http://scripts.sil.org/Harmattan) and is 
+    Copyright (c) 2014-2019 SIL International (http://www.sil.org/),
+    with Reserved Font Names "Harmattan" and "SIL".
 
-	This Font Software is licensed under the SIL Open Font License,
-	Version 1.1.
+    This Font Software is licensed under the SIL Open Font License,
+    Version 1.1.
 
-	You should have received a copy of the license along with this Font Software.
-	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
-	details including an FAQ.
+    You should have received a copy of the license along with this Font Software.
+    If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+    details including an FAQ.
 */
 
 //---------------------------------------------------
@@ -43,30 +43,32 @@
 #define SET_ISSPACE(f) setbits(f, COLL_ISSPACE, COLL_ISSPACE)
 
 
-
 table(glyph)
 
 // This isn't the complete list of initials or isolates, but trying it for now
 cComplexShape = (
-	cDualLinkIsol 
-	cDualLinkInit 
-	cRightLinkIsol
-	cwarsh
-	cLamIniBeforeAlef	
-	
-	g_dal_ar_locl_w_l_f g_thal_ar_locl_w_l_f g_ddal_ar_locl_w_l_f g_dahal_ar_locl_w_l_f
-    g_ddahal_ar_locl_w_l_f g_dal_ring_ar_locl_w_l_f g_dal_dotbelow_ar_locl_w_l_f g_dal_dotbelow_tah_ar_locl_w_l_f
-    g_dul_ar_locl_w_l_f g_dal_threedotsdown_ar_locl_w_l_f g_dal_fourdots_ar_locl_w_l_f g_dal_vinvertedabove_ar_locl_w_l_f
-    g_dal_twodotsverticalbelow_tah_ar_locl_w_l_f g_dal_vinvertedbelow_ar_locl_w_l_f g_dal_threedotsbelow_ar_locl_w_l_f
+    cDualLinkIsol 
+    cDualLinkInit 
+    cRightLinkIsol
+    cwarsh
+    cLamIniBeforeAlef
+    cAlefPlusMark   
+    
+    // classes cloclWLF and chalf include the fina forms which we don't need, so manually enumerate here:
 
-	g_sad_ar_half g_sad_twodotsbelow_ar_half g_sad_threedots_ar_half g_sad_threedotsbelow_ar_half
+    g_dal_ar_locl_w_l_f g_thal_ar_locl_w_l_f g_ddal_ar_locl_w_l_f g_dahal_ar_locl_w_l_f
+    g_ddahal_ar_locl_w_l_f g_dal_ring_ar_locl_w_l_f g_dal_dotbelow_ar_locl_w_l_f g_dal_dotbelow_tah_ar_locl_w_l_f
+    g_dul_ar_locl_w_l_f  g_dal_threedotsdown_ar_locl_w_l_f g_dal_fourdots_ar_locl_w_l_f g_dal_vinvertedabove_ar_locl_w_l_f
+    g_dal_twodotsverticalbelow_tah_ar_locl_w_l_f g_dal_vinvertedbelow_ar_locl_w_l_f g_dal_threedotsbelow_ar_locl_w_l_f
+    
+    g_sad_ar_half g_sad_twodotsbelow_ar_half g_sad_threedots_ar_half g_sad_threedotsbelow_ar_half
     g_dad_ar_half g_dad_dotbelow_ar_half
     
     g_kashida_ar
 
 ) {collision {
-		complexFit = true; 
-			 }
+        complexFit = true; 
+             }
   } ; 
 
 // NB: Can't set min.x and max.x here because current engine isn't transferring them
@@ -75,11 +77,11 @@ cComplexShape = (
 
 // Set collision margin, complexFit and flags for all reh-like things
 cRehAll { collision {
-			margin = 190m;
-			complexFit = true;
-			flags = COLL_FIX + COLL_KERN; // + COLL_END + COLL_START
-					}
-		};
+            margin = 190m;
+            complexFit = true;
+            flags = COLL_FIX + COLL_KERN; // + COLL_END + COLL_START
+                    }
+        };
 
 
 // Other chars needed:
@@ -91,12 +93,12 @@ endtable; // glyph
 //---------------------------------------------------
 table(substitution)
 
-pass(4)	// Features, special behaviors
+pass(4) // Features, special behaviors
 
-	// Remove zero-width joiners and non-joiners so they don't get included in generated kerning rules
-	ANY (g_zerowidthjoiner g_zerowidthnonjoiner)     >   @1:(1 2) _ ;
-	    (g_zerowidthjoiner g_zerowidthnonjoiner) ANY > _ @2:(1 2)   ;
-	
+    // Remove zero-width joiners and non-joiners so they don't get included in generated kerning rules
+    ANY (g_zerowidthjoiner g_zerowidthnonjoiner)     >   @1:(1 2) _ ;
+        (g_zerowidthjoiner g_zerowidthnonjoiner) ANY > _ @2:(1 2)   ;
+    
 endpass; // 4
 
 endtable; // sub
@@ -108,16 +110,16 @@ table (positioning)
 // Collision-Avoidance-based kerning
 
 pass(4) 
-	// Set slot attributes for CA-based kerning:
-	cRehAll { collision {
-				min.x = -1000m ; 
-				max.x = 1000m  ;	
-						}
-			};
+    // Set slot attributes for CA-based kerning:
+    cRehAll { collision {
+                min.x = -1000m ; 
+                max.x = 1000m  ;    
+                        }
+            };
 endpass;
 
 pass(5) {CollisionFix = 2; AutoKern = 1}
-	// No rules, just run the collision avoidance algorithm
+    // No rules, just run the collision avoidance algorithm
 endpass;
 
 endtable; // pos
