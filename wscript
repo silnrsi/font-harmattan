@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# this is a smith configuration file
+#!/usr/bin/python3
+# this is a smith configuration file for Harmattan font project
 
 # override the default folders
 DOCDIR = ["documentation", "web"]  # add "web" to default
@@ -11,10 +11,7 @@ APPNAME = "Harmattan"
 # set the font family name
 FAMILY = APPNAME
 
-DESC_NAME = "Harmattan"
 DESC_SHORT = "An Arabic script font designed for use by languages in West Africa"
-
-DEBPKG = 'fonts-sil-harmattan'
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
@@ -23,7 +20,7 @@ getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 ftmlTest('tests/ftml-smith.xsl', fonts = ['../tests/reference/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
 
 # APs to omit:
-OMITAPS = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
+omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
 
 opts = preprocess_args({'opt': '--quick'})
 
@@ -33,7 +30,7 @@ NOOTKERN = " -D noOTkern=yes" if "--quick" in opts else ""
 designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-#        cmd('${PSFCHANGETTFGLYPHNAMES} ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+#        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
         cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', "source/${DS:FILENAME_BASE}-octabox.json"),
 
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
@@ -45,13 +42,13 @@ designspace('source/Harmattan-RB.designspace',
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
         depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
         master = 'source/graphite/master.gdl',
-        make_params = OMITAPS + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
+        make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
         params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + "${DS:FILENAME_BASE}.map",
         master = 'source/opentype/master.feax',
-        make_params = OMITAPS + NOOTKERN,
+        make_params = omitaps + NOOTKERN,
         params = "-e",
         ),
     typetuner = typetuner("source/typetuner/feat_all.xml"),
@@ -61,7 +58,5 @@ designspace('source/Harmattan-RB.designspace',
     woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
     )
 
-def configure(ctx):
-    ctx.find_program('psfchangettfglyphnames')
+# def configure(ctx):
 #    ctx.find_program('ttfautohint')
-
