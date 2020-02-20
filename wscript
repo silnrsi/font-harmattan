@@ -2,16 +2,17 @@
 # this is a smith configuration file for Harmattan font project
 
 # override the default folders
-DOCDIR = ["documentation", "web"]  # add "web" to default
-generated = "generated/"
+DOCDIR = ['documentation', 'web']  # add 'web' to default
+STANDARDS = 'tests/reference'
+generated = 'generated/'
 
 # set package name
-APPNAME = "Harmattan"
+APPNAME = 'Harmattan'
 
 # set the font family name
 FAMILY = APPNAME
 
-DESC_SHORT = "An Arabic script font designed for use by languages in West Africa"
+DESC_SHORT = 'An Arabic script font designed for use by languages in West Africa'
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
@@ -24,14 +25,14 @@ omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,
 
 opts = preprocess_args({'opt': '--quick'})
 
-NOOTKERN = " -D noOTkern=yes" if "--quick" in opts else ""
+NOOTKERN = ' -D noOTkern=yes' if '--quick' in opts else ''
 
 # iterate over designspace
 designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf',
-#        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-        cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', "source/${DS:FILENAME_BASE}-octabox.json"),
+        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
+        cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json'),
 
 #        Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 #        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
@@ -40,18 +41,18 @@ designspace('source/Harmattan-RB.designspace',
     version=VERSION,  # Needed to ensure dev information on version string
 
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
-        depends=['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
         master = 'source/graphite/master.gdl',
+        depends = ['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
         make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
         params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         ),
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
-        mapfile = generated + "${DS:FILENAME_BASE}.map",
+        mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/master.feax',
         make_params = omitaps + NOOTKERN,
-        params = "-e",
+        params = '-e',
         ),
-    typetuner = typetuner("source/typetuner/feat_all.xml"),
+    typetuner = typetuner('source/typetuner/feat_all.xml'),
     classes = 'source/classes.xml',
     script='arab',
     pdf=fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-b -r -o i -m 48'),
