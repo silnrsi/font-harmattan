@@ -27,19 +27,16 @@ opts = preprocess_args({'opt': '--quick'}, {'opt': '--norename'})
 
 noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
 
+cmds = [cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
+if '--norename' not in opts:
+    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']))
+# Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
+# cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
+
 # iterate over designspace
 designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
-    target = 
-        process('${DS:FILENAME_BASE}.ttf',
-            cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')) if '--norename' in opts else 
-        process('${DS:FILENAME_BASE}.ttf',
-            cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json'),
-            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']) ,
-
-#           Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
-#           cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
-        ),
+    target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     ap = generated + '${DS:FILENAME_BASE}.xml',
     version=VERSION,  # Needed to ensure dev information on version string
 
