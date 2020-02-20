@@ -23,20 +23,23 @@ ftmlTest('tests/ftml-smith.xsl', fonts = ['../tests/reference/Harmattan-Regular-
 # APs to omit:
 omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
 
-opts = preprocess_args({'opt': '--quick'})
+opts = preprocess_args({'opt': '--quick'}, {'opt': '--norename'})
 
-NOOTKERN = ' -D noOTkern=yes' if '--quick' in opts else ''
+noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
 
 # iterate over designspace
 designspace('source/Harmattan-RB.designspace',
     instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
-    target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']),
-        cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json'),
+    target = 
+        process('${DS:FILENAME_BASE}.ttf',
+            cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')) if '--norename' in opts else 
+        process('${DS:FILENAME_BASE}.ttf',
+            cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json'),
+            cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']) ,
 
-#        Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
-#        cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
-    ),
+#           Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
+#           cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}')
+        ),
     ap = generated + '${DS:FILENAME_BASE}.xml',
     version=VERSION,  # Needed to ensure dev information on version string
 
@@ -49,7 +52,7 @@ designspace('source/Harmattan-RB.designspace',
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/master.feax',
-        make_params = omitaps + NOOTKERN,
+        make_params = omitaps + noOTkern,
         params = '-e',
         ),
     typetuner = typetuner('source/typetuner/feat_all.xml'),
