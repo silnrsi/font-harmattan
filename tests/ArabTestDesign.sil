@@ -5,15 +5,18 @@
 %%%%% GROUPS
 
 % Joining Group
-\patterngroup[name="ain"]{ع غ ڠ ۼ} 
-\patterngroup[name="alef"]{آ أ إ ا ٱ ٲ ٳ ٵ}
-\patterngroup[name="beh"]{ب ت ث ٮ ٹ ٺ ٻ ټ ٽ پ ٿ ڀ}
-\patterngroup[name="dal"]{د ذ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ۮ}
-\patterngroup[name="farsiyeh"]{ؽ ؾ ؿ ی ێ}
-\patterngroup[name="feh"]{ف ڡ ڢ ڣ ڤ ڥ ڦ}
+\patterngroup[name="ain"]{عغڠۼ} 
+\patterngroup[name="alef"]{آأإاٱٲٳٵ}
+\patterngroup[name="beh"]{بتثٮٹٺٻټٽپٿڀ}
+\patterngroup[name="dal"]{دذڈډڊڋڌڍڎڏڐۮ}
+\patterngroup[name="farsiyeh"]{ؽؾؿیێ}
+\patterngroup[name="feh"]{فڡڢڣڤڥڦ}
+\patterngroup[name="gaf"]{ػؼکګگڰڱڲڳڴ}
+\patterngroup[name="reh"]{رزڑڒړڔڕږڗژڙۯ}
+
 
 % Vowels
-\patterngroup[name="vowelsabove"]{ً ٌ َ ُ ّ ْ ٓ ٔ ٗ ٘ ٙ ٚ ٛ ٝ ٞ}
+\patterngroup[name="vowelsabove"]{ًࣰٌࣱَُّْٓٔٗ٘ٙٚٛٝٞࣤࣥࣧࣨࣴࣵࣷࣸࣻࣼࣽࣾࣿ}
 
 % General
 \patterngroup[name="numerals"]{1234567890}
@@ -21,13 +24,14 @@
 
 %%%%% TESTS
 
-\proof{Now is the time for all good men to come to the aid of their country. Flying Dogstarman. amazon amazon amazon. Gabriola making the Latin script a complex writing system.}
+\proof{Now is the time for all good men to come to the aid of their country. }
 \proof{لكل شخص الحق في التعلم. ويجب أن يكون التعليم في مراحله الأولى والأساسية على الأقل بالمجان، وأن يكون التعليم الأولي إلزاميا وينبغي أن يعمم التعليم الفني والمهني، وأن ييسر القبول للتعليم العالي على قدم المساواة التامة للجميع وعلى أساس الكفاءة.         }
 
 
 \subsection{CONSONANT VOWEL COMBINATIONS}
-\pattern[chars="@,#",reps="group_ain,group_vowelsabove",format="table"]{#@}
+\pattern[chars="@,#",reps="group_ain,group_vowelsabove",format="table"]{@#}
 \pattern[chars="@,#",reps="group_beh,group_vowelsabove",format="table"]{@#}
+\pattern[chars="@,#",reps="group_ain,group_reh",format="table"]{@#}
 
 
 \end{document}
