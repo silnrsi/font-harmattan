@@ -4,23 +4,71 @@
 
 %%%%% GROUPS
 
-% Joining Group
-\patterngroup[name="ain"]{عغڠۼ} 
-\patterngroup[name="alef"]{آأإاٱٲٳٵ}
-\patterngroup[name="beh"]{بتثٮٹٺٻټٽپٿڀ}
-\patterngroup[name="dal"]{دذڈډڊڋڌڍڎڏڐۮ}
-\patterngroup[name="farsiyeh"]{ؽؾؿیێ}
-\patterngroup[name="feh"]{فڡڢڣڤڥڦ}
-\patterngroup[name="gaf"]{ػؼکګگڰڱڲڳڴ}
-\patterngroup[name="reh"]{رزڑڒړڔڕږڗژڙۯ}
+% Joining Group for Unicode 13.0
+% dual joining
+\patterngroup[name="ain"]{عغڠۼݝݞݟࢳࣃ} 
+\patterngroup[name="beh"]{بتثٮٹٺٻټٽپٿڀݐݑݒݓݔݕݖࢠࢡࢶࢷࢸࢾࢿࣀ}
+\patterngroup[name="farsi-yeh"]{ؽؾؿیێݵݶ}
+\patterngroup[name="feh"]{فڡڢڣڤڥڦݠݡࢤ}
+\patterngroup[name="african-feh"]{ࢻ} 
+\patterngroup[name="gaf"]{ػؼکګگڰڱڲڳڴݢݣݤࢰࣂ}
+\patterngroup[name="kaf"]{كڬڭڮݿࢴ}
+\patterngroup[name="swash-kaf"]{ڪ}
+\patterngroup[name="hah"]{جحخځڂڃڄڅچڇڿݗݘݮݯݲݼࢢࣁࣅࣆ}
+\patterngroup[name="heh"]{ه}
+\patterngroup[name="heh-goal"]{ہۂ}
+\patterngroup[name="knotted-heh"]{ھۿ}
+\patterngroup[name="lam"]{لڵڶڷڸݪࢦࣇ}
+\patterngroup[name="meem"]{مݥݦࢧ}
+\patterngroup[name="noon"]{نڹںڻڼݧݨݩ}
+\patterngroup[name="nya"]{ڽ}
+\patterngroup[name="african-noon"]{ࢽ} 
+\patterngroup[name="qaf"]{قٯڧڨࢥ}
+\patterngroup[name="african-qaf"]{ࢼࣄ} 
+\patterngroup[name="sad"]{صضڝڞۻࢯ}
+\patterngroup[name="seen"]{سشښڛڜۺݜݭݰݽݾ}
+\patterngroup[name="tah"]{طظڟࢣ}
+\patterngroup[name="yeh"]{ؠئىيٸېۑݷࢨࢩࢺ}
+\patterngroup[name="burushaski-yeh-barree"]{ݺݻ}
+\patterngroup[name="none"]{؀؁؂؃؄؅؈؋ءـٴ۝ࢭ࣢}
 
+% Right joining
+\patterngroup[name="alef"]{آأإاٱٲٳٵݳݴ}
+\patterngroup[name="dal"]{دذڈډڊڋڌڍڎڏڐۮݙݚࢮ}
+\patterngroup[name="reh"]{رزڑڒړڔڕږڗژڙۯݛݫݬݱࢪࢲࢹ}
+\patterngroup[name="reh-roh"]{ࢬ}
+\patterngroup[name="waw"]{ؤوٶٷۄۅۆۇۈۉۊۋۏݸݹࢫ}
+\patterngroup[name="straight-waw"]{ࢱ}
+\patterngroup[name="teh-marbuta"]{ةۀە}
+\patterngroup[name="teh-marbuta-goal"]{ۃ}
+\patterngroup[name="yeh-tail"]{ۍ}
+\patterngroup[name="yeh-barree"]{ےۓ}
+
+%% Combining
+\patterngroup[name="shaddah"]{ّ}
+\patterngroup[name="sukun"]{ْ}
+\patterngroup[name="maddah"]{ٓ}
+\patterngroup[name="dagger-alef"]{ٰٖ}
+\patterngroup[name="hamza"]{ٕٔ}
 
 % Vowels
-\patterngroup[name="vowelsabove"]{ًࣰٌࣱَُّْٓٔٗ٘ٙٚٛٝٞࣤࣥࣧࣨࣴࣵࣷࣸࣻࣼࣽࣾࣿ}
+\patterngroup[name="vowel-above"]{ًࣰٌࣱَُٗ٘ٙٚٛٝٞࣤࣥࣧࣨࣳࣴࣵࣷࣸࣻࣼࣽࣾࣿ}
+\patterngroup[name="vowel-below"]{ٍࣲِٜٟࣣࣦࣩࣶࣹࣺ}
+
+\patterngroup[name="honorifics-above"]{ؘؙؚؐؑؒؓؔؕؖؗۖۗۘۙۚۛۜ۟۠ۡۢۤۧۨ۫۬}
+\patterngroup[name="honorifics-below"]{ۣ۪ۭ}
+
+% Tone
+\patterngroup[name="tone-above"]{࣪࣫࣬}
+\patterngroup[name="tone-below"]{࣭࣮࣯}
 
 % General
-\patterngroup[name="numerals"]{1234567890}
-\patterngroup[name="punctuation"]{.,:;!-}
+\patterngroup[name="digits-latin"]{1234567890}
+\patterngroup[name="digits-indic"]{٠١٢٣٤٥٦٧٨٩}
+\patterngroup[name="digits-indic-ext"]{۰۱۲۳۴۵۶۷۸۹}
+\patterngroup[name="subtending"]{؀؁؂؃؄؅۝}
+\patterngroup[name="arab-punct"]{؆؇؉؊،؍؎؏؛؞؟٪٫٬٭۔۞۩۽۾}
+\patterngroup[name="spacing"]{ۥۦ}
 
 %%%%% TESTS
 
@@ -29,9 +77,17 @@
 
 
 \subsection{CONSONANT VOWEL COMBINATIONS}
-\pattern[chars="@,#",reps="group_ain,group_vowelsabove",format="table"]{@#}
-\pattern[chars="@,#",reps="group_beh,group_vowelsabove",format="table"]{@#}
+\pattern[chars="@,#",reps="group_ain,group_vowel-above",format="table"]{@#}
+\pattern[chars="@,#",reps="group_beh,group_vowel-above",format="table"]{@#}
+
+\subsection{CONSONANT VOWEL TONE COMBINATIONS}
+\pattern[chars="@,#,&",reps="group_ain,group_vowel-above,group_tone-above",format="table"]{@#&}
+
+\subsection{REH COMBINATIONS}
 \pattern[chars="@,#",reps="group_ain,group_reh",format="table"]{@#}
+
+\subsection{SUBTENDING MARKS}
+\pattern[chars="@,#",reps="group_subtending,group_digits-indic",format="table"]{@#}
 
 
 \end{document}
