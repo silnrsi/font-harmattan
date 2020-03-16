@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ghainThreedots-ar" format="2">
   <advance width="874"/>
+  <unicode hex="08C3"/>
   <anchor x="169" y="345" name="alef"/>
   <anchor x="534" y="628" name="diaA"/>
   <anchor x="519" y="-703" name="diaB"/>

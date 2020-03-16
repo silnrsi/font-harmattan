@@ -2,6 +2,7 @@
 <glyph name="_dot3d" format="2">
   <anchor x="27" y="-420" name="_above"/>
   <anchor x="0" y="156" name="_below"/>
+  <anchor x="0" y="-87" name="_center"/>
   <outline>
     <contour>
       <point x="116" y="-124" type="line"/>

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="jeemThreedotsbelow-ar" format="2">
   <advance width="1140"/>
+  <unicode hex="08C6"/>
   <anchor x="99" y="470" name="alef"/>
   <anchor x="488" y="681" name="diaA"/>
   <anchor x="589" y="-838" name="diaB"/>
   <outline>
     <component base="hah-ar"/>
+    <component base="_dot1_dot3d" xOffset="633" yOffset="-224"/>
   </outline>
 </glyph>
