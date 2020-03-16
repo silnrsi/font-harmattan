@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ttehVabove-ar" format="2">
+  <advance width="2030"/>
+  <anchor x="446" y="815" name="alef"/>
+  <anchor x="1051" y="608" name="diaA"/>
+  <anchor x="990" y="-121" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar"/>
+    <component base="_tah_smallV" xOffset="1016" yOffset="717"/>
+  </outline>
+</glyph>

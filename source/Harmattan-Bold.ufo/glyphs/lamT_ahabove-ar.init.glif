@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamTahabove-ar.init" format="2">
+  <advance width="456"/>
+  <anchor x="60" y="804" name="alef"/>
+  <anchor x="262" y="1161" name="diaA"/>
+  <anchor x="277" y="-74" name="diaB"/>
+  <outline>
+    <component base="lam-ar.init"/>
+    <component base="_tah" xOffset="234" yOffset="1358"/>
+  </outline>
+</glyph>

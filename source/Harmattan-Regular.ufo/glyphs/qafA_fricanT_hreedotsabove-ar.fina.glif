@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="qafAfricanThreedotsabove-ar.fina" format="2">
+  <advance width="1377"/>
+  <anchor x="412" y="682" name="alef"/>
+  <anchor x="945" y="590" name="diaA"/>
+  <anchor x="638" y="-365" name="diaB"/>
+  <outline>
+    <component base="qafDotless-ar.fina"/>
+    <component base="_dot3u" xOffset="985" yOffset="851"/>
+  </outline>
+</glyph>

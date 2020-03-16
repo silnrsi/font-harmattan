@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="pehVabove-ar.fina" format="2">
+  <advance width="2057"/>
+  <anchor x="471" y="875" name="alef"/>
+  <anchor x="1066" y="638" name="diaA"/>
+  <anchor x="1005" y="-121" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.fina"/>
+    <component base="_smallV" xOffset="1043" yOffset="730"/>
+    <component base="_dot3d" xOffset="1028" yOffset="-266"/>
+  </outline>
+</glyph>

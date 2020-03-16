@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehVabove-ar" format="2">
+  <advance width="1428"/>
+  <anchor x="206" y="504" name="alef"/>
+  <anchor x="541" y="904" name="diaA"/>
+  <anchor x="706" y="-115" name="diaB"/>
+  <outline>
+    <component base="keheh-ar"/>
+    <component base="_smallV" xOffset="524" yOffset="995"/>
+  </outline>
+</glyph>
