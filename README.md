@@ -41,6 +41,18 @@ source files, see below), the `--quick` parameter can be supplied:
 ```
 The resulting files will not have functional OpenType kerning, but will be otherwise usable.
 
+### Adding characters
+
+After adding base characters to the font, the `classes.xml` file will need adjustment. The first six
+classes relating to right- and dual-link contextual forms are can be generated algorithmically
+from `source/glyph_data.csv` using `bin/absgenclasses.py` located in the `font-arab-tools` repo.
+
+Additionally the octabox .json files will need to be regenerated in order to add optimal 
+octaboxes for the isolate and initial forms of the newly added characters. If unencoded variants
+of isolate and initial forms have been added, these must be manually added to the `cComplexShape`
+class defined in `source/graphite/caBasedKerning.gdl`.
+
+
 ### Generated files
 
 Four of the source files needed for the build are actually generated files but, because they 
@@ -56,3 +68,9 @@ optimized octabox.json files so that Graphite collision-avoidance-based kerning 
 and then to rebuild the OpenType kerning rules from the graphite results. A script to do this 
 is in `tools/bin/updateKerning.sh`. This should be run from the root of the project. Be aware
 this can take up to 30 minutes or more to complete.
+
+Important note: The `updateKerning.sh` tool requires a graphite-enabled HarfBuzz that includes
+tracing. Ubuntu, by default, does not include HarfBuzz tracing, so you will have to build HarfBuzz 
+from source.
+
+
