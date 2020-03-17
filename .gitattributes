@@ -28,7 +28,11 @@
 *.gdh text eol=lf
 *.html text eol=lf
 *.htxt text eol=lf
+*.json text eol=lf
 *.md text eol=lf
+*.py text eol=l
+*.sh text eol=lf
+*.sfd text eol=lf
 *.sil text eol=lf
 *.srctext text eol=lf
 *.tex text eol=lf
@@ -45,8 +49,7 @@ preflight text eol=lf
 preflightg text eol=lf
 preflightff text eol=lf
 wscript text eol=lf
-*.sh text eol=lf
-*.sfd text eol=lf
+octalap text eol=lf
 
 # Keep these as LF because vfb2ufo generates LF, even on Windows:
 *.glif text eol=lf
