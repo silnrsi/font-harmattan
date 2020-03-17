@@ -30,7 +30,7 @@
 *.htxt text eol=lf
 *.json text eol=lf
 *.md text eol=lf
-*.py text eol=l
+*.py text eol=lf
 *.sh text eol=lf
 *.sfd text eol=lf
 *.sil text eol=lf
