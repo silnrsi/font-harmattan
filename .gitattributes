@@ -13,8 +13,9 @@
 # which will have eol conversion applied according to core.autocrlf and core.eol 
 * text=auto
 
-# Explicitly declare the below matches to be text files, to keep convert eols to CRLF when 
+# Explicitly declare the below matches to be text files, to convert eols to CRLF when 
 # writing to the working copy, and to convert CRLF to LF eols when adding to the repo.
+
 *.bas text eol=crlf
 
 # Explicitly declare the below matches to be text files, to keep LF eols when 
@@ -23,6 +24,7 @@
 *.cfg text eol=lf
 *.css text eol=lf
 *.fea text eol=lf
+*.feax text eol=lf
 *.ftml text eol=lf
 *.gdl text eol=lf
 *.gdh text eol=lf
@@ -31,8 +33,6 @@
 *.json text eol=lf
 *.md text eol=lf
 *.py text eol=lf
-*.sh text eol=lf
-*.sfd text eol=lf
 *.sil text eol=lf
 *.srctext text eol=lf
 *.tex text eol=lf
@@ -44,12 +44,14 @@
 *.xml text eol=lf
 
 # Declare text files that will stay in LF (i.e. not expected to be used on Windows)
-preglyphs text eol=lf
+octalap text eol=lf
 preflight text eol=lf
 preflightg text eol=lf
 preflightff text eol=lf
+preglyphs text eol=lf
 wscript text eol=lf
-octalap text eol=lf
+*.sh text eol=lf
+*.sfd text eol=lf
 
 # Keep these as LF because vfb2ufo generates LF, even on Windows:
 *.glif text eol=lf
