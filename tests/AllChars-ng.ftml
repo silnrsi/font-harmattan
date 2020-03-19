@@ -2,9 +2,8 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <fontscale>300</fontscale>
-    <fontsrc>local(Scheherazade)</fontsrc>
-    <fontsrc>url(reference/Harmattan-Regular-1_001.ttf)</fontsrc>
+    <fontscale>250</fontscale>
+    <fontsrc>url(reference/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
