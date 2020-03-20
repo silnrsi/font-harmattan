@@ -57,15 +57,11 @@ built-in keyboards of the operating system. You may also need to install an
 appropriate keyboard and input method for the characters of the language you
 wish to use. If you want to enter characters that are not supported by any
 system keyboard, the Keyman program (www.keyman.com) can be helpful
-on Windows systems. Also available for Windows is MSKLC 
-(http://www.microsoft.com/globaldev/tools/msklc.mspx). 
-For other platforms, KMFL (http://kmfl.sourceforge.net/), 
-XKB (http://www.x.org/wiki/XKB) or Ukelele (http://scripts.sil.org/ukelele) 
-can be helpful.
+on Windows, macOS, and Linux systems. 
 
 If you want to enter characters that are not supported by any system
 keyboard, and to access the full Unicode range, you might try charmap.exe
-on Windows or, on Ubuntu or similar software,  gucharmap or kcharselect.
+on Windows or, on Ubuntu or similar software, gucharmap or kcharselect.
 
 Another method of entering some symbols is provided by a few applications such
 as Adobe InDesign or LibreOffice.org. They can display a glyph palette or input
