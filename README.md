@@ -45,19 +45,33 @@ The resulting files will not have functional OpenType kerning, but will be other
 
 After adding base characters to the font, the `classes.xml` file will need adjustment. The first six
 classes relating to right- and dual-link contextual forms are can be generated algorithmically
-from `source/glyph_data.csv` using `bin/absgenclasses.py` located in the `font-arab-tools` repo.
+from `source/glyph_data.csv` using `tools/bin/absgenclasses.py`.
 
-Additionally the octabox .json files will need to be regenerated in order to add optimal 
+Additionally the `*-octabox.json` files will need to be regenerated in order to add optimal 
 octaboxes for the isolate and initial forms of the newly added characters. If unencoded variants
 of isolate and initial forms have been added, these must be manually added to the `cComplexShape`
-class defined in `source/graphite/caBasedKerning.gdl`.
+class defined in `source/graphite/caBasedKerning.gdl` so they get optimized as well.
 
+### Generated test files
 
-### Generated files
+After adding characters or additional behaviors to the font, test files should be created or enhanced to test the new behaviors. These test files:
+- `tests/AllChars.ftml` 
+- `tests/DiacTest1.ftml`
+- `tests/DiacTest1-short.ftml`
+- `tests/SubtendingMarks.ftml`
+- `tests/DaggerAlef.ftml`
+- `tests/Kern-ng.ftml`
 
-Four of the source files needed for the build are actually generated files but, because they 
+are algorithmically generated and so can be updated by `tools/bin/genftmlfiles.sh`.
+
+### Generated source files
+
+Five of the source files needed for the build are actually generated files but, because they 
 require compute-intensive tools to create or update, are generated offline and committed 
 to the repo. The files that fall into this category are:
+- `source/kerndata.ftml` — contains strings with all possible combinations of reh-like and 
+following initials or isolates. This is used to extract graphite collision-avoidance-based 
+kerning data.
 - `source/*-octabox.json` — optimized octaboxes to enable Graphite to do more accurate kerning 
 of reh-like characters to what follows.
 - `source/opentype/caKern-*.fea` — contextual kerning rules that approximate the kerning effected
@@ -69,8 +83,14 @@ and then to rebuild the OpenType kerning rules from the graphite results. A scri
 is in `tools/bin/updateKerning.sh`. This should be run from the root of the project. Be aware
 this can take up to 30 minutes or more to complete.
 
-Important note: The `updateKerning.sh` tool requires a graphite-enabled HarfBuzz that includes
-tracing. Ubuntu, by default, does not include HarfBuzz tracing, so you will have to build HarfBuzz 
-from source.
+Important notes: The `updateKerning.sh` tool requires:
+- fully functioning [`smith`](https://github.com/silnrsi/smith) build system
+- a Graphite-enabled Harfbuzz library
+- a Graphite library with tracing enabled. The library provided by default Ubuntu
+does not include tracing. You'll need to compile the source with -DGRAPHITE2_NTRACING:BOOL=OFF 
+- the [scikit-learn](https://scikit-learn.org/) python module. For ubuntu try:
+```
+sudo apt-get install python3-sklearn python3-sklearn-lib
+```
 
 
