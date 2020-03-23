@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tteh-ar.init" format="2">
   <advance width="444"/>
-  <anchor x="-152" y="595" name="alef"/>
+  <anchor x="-152" y="795" name="alef"/>
   <anchor x="193" y="1138" name="diaA"/>
   <anchor x="237" y="-74" name="diaB"/>
   <outline>

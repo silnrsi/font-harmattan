@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tchehVabove-ar.medi.hand" format="2">
+  <advance width="949"/>
+  <anchor x="47" y="344" name="alef"/>
+  <anchor x="333" y="1066" name="diaA"/>
+  <anchor x="455" y="-952" name="diaB"/>
+  <outline>
+    <component base="_smallV" xOffset="346" yOffset="771"/>
+    <component base="hah-ar.medi.hand"/>
+    <component base="_dot3d" xOffset="435" yOffset="-526"/>
+  </outline>
+</glyph>

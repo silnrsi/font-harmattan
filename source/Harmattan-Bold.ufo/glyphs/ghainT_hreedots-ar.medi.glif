@@ -2,7 +2,7 @@
 <glyph name="ghainThreedots-ar.medi" format="2">
   <advance width="898"/>
   <anchor x="114" y="628" name="alef"/>
-  <anchor x="480" y="757" name="diaA"/>
+  <anchor x="384" y="1631" name="diaA"/>
   <anchor x="436" y="-56" name="diaB"/>
   <outline>
     <component base="ain-ar.medi"/>

@@ -2,6 +2,8 @@
 <glyph name="allah-ar" format="2">
   <advance width="1806"/>
   <unicode hex="FDF2"/>
+  <anchor x="881" y="1896" name="diaA"/>
+  <anchor x="897" y="-100" name="diaB"/>
   <outline>
     <contour>
       <point x="736" y="-17" type="curve" smooth="yes"/>

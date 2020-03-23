@@ -1464,6 +1464,8 @@
   <string>jeemT_hreedotsabove-ar.init.glif</string>
   <key>jeemThreedotsabove-ar.medi</key>
   <string>jeemT_hreedotsabove-ar.medi.glif</string>
+  <key>jeemThreedotsabove-ar.medi.hand</key>
+  <string>jeemT_hreedotsabove-ar.medi.hand.glif</string>
   <key>jeemThreedotsbelow-ar</key>
   <string>jeemT_hreedotsbelow-ar.glif</string>
   <key>jeemThreedotsbelow-ar.fina</key>
@@ -1472,6 +1474,8 @@
   <string>jeemT_hreedotsbelow-ar.init.glif</string>
   <key>jeemThreedotsbelow-ar.medi</key>
   <string>jeemT_hreedotsbelow-ar.medi.glif</string>
+  <key>jeemThreedotsbelow-ar.medi.hand</key>
+  <string>jeemT_hreedotsbelow-ar.medi.hand.glif</string>
   <key>jeemTwodotsabove-ar</key>
   <string>jeemT_wodotsabove-ar.glif</string>
   <key>jeemTwodotsabove-ar.fina</key>
@@ -2674,6 +2678,8 @@
   <string>tchehV_above-ar.init.glif</string>
   <key>tchehVabove-ar.medi</key>
   <string>tchehV_above-ar.medi.glif</string>
+  <key>tchehVabove-ar.medi.hand</key>
+  <string>tchehV_above-ar.medi.hand.glif</string>
   <key>tcheheh-ar</key>
   <string>tcheheh-ar.glif</string>
   <key>tcheheh-ar.fina</key>

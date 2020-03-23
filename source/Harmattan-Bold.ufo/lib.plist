@@ -569,10 +569,12 @@
     <string>jeemThreedotsabove-ar.fina</string>
     <string>jeemThreedotsabove-ar.medi</string>
     <string>jeemThreedotsabove-ar.init</string>
+    <string>jeemThreedotsabove-ar.medi.hand</string>
     <string>jeemThreedotsbelow-ar</string>
     <string>jeemThreedotsbelow-ar.fina</string>
     <string>jeemThreedotsbelow-ar.medi</string>
     <string>jeemThreedotsbelow-ar.init</string>
+    <string>jeemThreedotsbelow-ar.medi.hand</string>
     <string>dal-ar</string>
     <string>dal-ar.fina</string>
     <string>dal-ar.loclWLF</string>
@@ -2076,6 +2078,7 @@
     <string>tchehVabove-ar.fina</string>
     <string>tchehVabove-ar.medi</string>
     <string>tchehVabove-ar.init</string>
+    <string>tchehVabove-ar.medi.hand</string>
     <string>nyeh-ar</string>
     <string>nyeh-ar.fina</string>
     <string>nyeh-ar.medi</string>
@@ -4251,6 +4254,8 @@
     <string>uni08C5.init</string>
     <key>jeemThreedotsabove-ar.medi</key>
     <string>uni08C5.medi</string>
+    <key>jeemThreedotsabove-ar.medi.hand</key>
+    <string>uni08C5.medi.hand</string>
     <key>jeemThreedotsbelow-ar</key>
     <string>uni08C6</string>
     <key>jeemThreedotsbelow-ar.fina</key>
@@ -4259,6 +4264,8 @@
     <string>uni08C6.init</string>
     <key>jeemThreedotsbelow-ar.medi</key>
     <string>uni08C6.medi</string>
+    <key>jeemThreedotsbelow-ar.medi.hand</key>
+    <string>uni08C6.medi.hand</string>
     <key>jeemTwodotsabove-ar</key>
     <string>uni08A2</string>
     <key>jeemTwodotsabove-ar.fina</key>
@@ -5281,6 +5288,8 @@
     <string>uni08C1.init</string>
     <key>tchehVabove-ar.medi</key>
     <string>uni08C1.medi</string>
+    <key>tchehVabove-ar.medi.hand</key>
+    <string>uni08C1.medi.hand</string>
     <key>tcheheh-ar</key>
     <string>uni0687</string>
     <key>tcheheh-ar.fina</key>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarreeTwoabove-ar.medi" format="2">
   <advance width="580"/>
-  <anchor x="-65" y="310" name="alef"/>
+  <anchor x="-65" y="510" name="alef"/>
   <anchor x="223" y="1122" name="diaA"/>
   <anchor x="263" y="-407" name="diaB"/>
   <outline>

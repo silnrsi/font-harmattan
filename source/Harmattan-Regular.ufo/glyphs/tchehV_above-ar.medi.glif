@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tchehVabove-ar.medi" format="2">
   <advance width="949"/>
-  <anchor x="3" y="469" name="alef"/>
-  <anchor x="319" y="636" name="diaA"/>
-  <anchor x="388" y="-27" name="diaB"/>
+  <anchor x="93" y="1016" name="alef"/>
+  <anchor x="316" y="1020" name="diaA"/>
+  <anchor x="404" y="-590" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>
     <component base="_smallV" xOffset="346" yOffset="771"/>

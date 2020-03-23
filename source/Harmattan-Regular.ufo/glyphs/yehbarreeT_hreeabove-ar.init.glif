@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehbarreeThreeabove-ar.init" format="2">
   <advance width="409"/>
-  <anchor x="-115" y="370" name="alef"/>
+  <anchor x="-115" y="570" name="alef"/>
   <anchor x="213" y="1182" name="diaA"/>
   <anchor x="173" y="-387" name="diaB"/>
   <outline>

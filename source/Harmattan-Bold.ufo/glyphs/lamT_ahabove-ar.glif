@@ -2,8 +2,8 @@
 <glyph name="lamTahabove-ar" format="2">
   <advance width="1035"/>
   <unicode hex="08C7"/>
-  <anchor x="354" y="422" name="alef"/>
-  <anchor x="863" y="1171" name="diaA"/>
+  <anchor x="354" y="139" name="alef"/>
+  <anchor x="735" y="1753" name="diaA"/>
   <anchor x="511" y="-577" name="diaB"/>
   <outline>
     <component base="lam-ar"/>

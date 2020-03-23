@@ -3,7 +3,7 @@
   <advance width="989"/>
   <anchor x="12" y="470" name="alef"/>
   <anchor x="319" y="656" name="diaA"/>
-  <anchor x="408" y="-27" name="diaB"/>
+  <anchor x="484" y="-729" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>
     <component base="_dot1_dot3d" xOffset="409" yOffset="-344"/>

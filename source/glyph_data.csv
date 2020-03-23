@@ -422,7 +422,8 @@ tchehDotabove-ar.medi.hand,uni06BF.medi.hand,,422,,,cv08=1
 tchehVabove-ar,uni08C1,08C1,422.5,,,
 tchehVabove-ar.fina,uni08C1.fina,,422.51,,,
 tchehVabove-ar.medi,uni08C1.medi,,422.52,,,
-tchehVabove-ar.init,uni08C1.init,,422.53,,,
+tchehVabove-ar.medi.hand,uni08C1.medi.hand,,422.53,,,cv08=1
+tchehVabove-ar.init,uni08C1.init,,422.54,,,
 nyeh-ar,uni0683,0683,423,,,
 nyeh-ar.fina,uni0683.fina,,424,,,
 nyeh-ar.medi,uni0683.medi,,425,,,
@@ -496,11 +497,13 @@ jeemTwodotsabove-ar.medi.hand,uni08A2.medi.hand,,496,,,cv08=1
 jeemThreedotsabove-ar,uni08C5,08C5,496.5,,,
 jeemThreedotsabove-ar.fina,uni08C5.fina,,496.51,,,
 jeemThreedotsabove-ar.medi,uni08C5.medi,,496.52,,,
-jeemThreedotsabove-ar.init,uni08C5.init,,496.53,,,
+jeemThreedotsabove-ar.medi.hand,uni08C5.medi.hand,,496.53,,,cv08=1
+jeemThreedotsabove-ar.init,uni08C5.init,,496.54,,,
 jeemThreedotsbelow-ar,uni08C6,08C6,496.6,,,
 jeemThreedotsbelow-ar.fina,uni08C6.fina,,496.61,,,
 jeemThreedotsbelow-ar.medi,uni08C6.medi,,496.62,,,
-jeemThreedotsbelow-ar.init,uni08C6.init,,496.63,,,
+jeemThreedotsbelow-ar.medi.hand,uni08C6.medi.hand,,496.63,,,cv08=1
+jeemThreedotsbelow-ar.init,uni08C6.init,,496.64,,,
 dal-ar,uni062F,062F,497,,,
 dal-ar.fina,uni062F.fina,,498,,,
 dal-ar.loclWLF,uni062F.loclWLF,,499,wo,WLF,cv12=1

@@ -2,7 +2,7 @@
 <glyph name="jeemThreedotsabove-ar.fina" format="2">
   <advance width="1125"/>
   <anchor x="153" y="470" name="alef"/>
-  <anchor x="542" y="660" name="diaA"/>
+  <anchor x="474" y="1285" name="diaA"/>
   <anchor x="643" y="-812" name="diaB"/>
   <outline>
     <component base="hah-ar.fina"/>
