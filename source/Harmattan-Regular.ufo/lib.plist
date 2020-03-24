@@ -2084,6 +2084,7 @@
     <string>tchehVabove-ar</string>
     <string>tchehVabove-ar.fina</string>
     <string>tchehVabove-ar.medi</string>
+    <string>tchehVabove-ar.medi.hand</string>
     <string>tchehVabove-ar.init</string>
     <string>nyeh-ar</string>
     <string>nyeh-ar.fina</string>
@@ -2153,16 +2154,18 @@
     <string>jeemTwodotsabove-ar</string>
     <string>jeemTwodotsabove-ar.fina</string>
     <string>jeemTwodotsabove-ar.medi</string>
-    <string>jeemTwodotsabove-ar.init</string>
     <string>jeemTwodotsabove-ar.medi.hand</string>
+    <string>jeemTwodotsabove-ar.init</string>
     <string>jeemThreedotsabove-ar</string>
     <string>jeemThreedotsabove-ar.fina</string>
     <string>jeemThreedotsabove-ar.medi</string>
     <string>jeemThreedotsabove-ar.init</string>
+    <string>jeemThreedotsabove-ar.medi.hand</string>
     <string>jeemThreedotsbelow-ar</string>
     <string>jeemThreedotsbelow-ar.fina</string>
     <string>jeemThreedotsbelow-ar.medi</string>
     <string>jeemThreedotsbelow-ar.init</string>
+    <string>jeemThreedotsbelow-ar.medi.hand</string>
     <string>dal-ar</string>
     <string>dal-ar.fina</string>
     <string>dal-ar.loclWLF</string>
