@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamTahabove-ar.fina" format="2">
   <advance width="1148"/>
-  <anchor x="342" y="1395" name="alef"/>
+  <anchor x="292" y="402" name="alef"/>
   <anchor x="682" y="1804" name="diaA"/>
   <anchor x="519" y="-577" name="diaB"/>
   <outline>
