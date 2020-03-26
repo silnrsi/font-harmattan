@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeTwoabove-ar.fina.wide" format="2">
+  <advance width="775"/>
+  <anchor x="-18" y="-9" name="alef"/>
+  <anchor x="331" y="851" name="diaA"/>
+  <anchor x="511" y="-654" name="diaB"/>
+  <outline>
+    <component base="_two" xOffset="325" yOffset="623"/>
+    <component base="yehbarree-ar.fina.wide"/>
+  </outline>
+</glyph>

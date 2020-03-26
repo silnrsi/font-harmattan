@@ -84,5 +84,7 @@
   <string>yehbarree-ar.glif</string>
   <key>yehbarree-ar.fina</key>
   <string>yehbarree-ar.fina.glif</string>
+  <key>yehbarree-ar.fina.wide</key>
+  <string>yehbarree-ar.fina.wide.glif</string>
 </dict>
 </plist>
