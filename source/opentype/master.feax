@@ -649,125 +649,6 @@ lookup cursive_exit_entry {
 } cursive_exit_entry;
 
 
-do if False;	# disable old-style kerning for now
-{
-	
-	#********************
-	# Kerning
-	
-	lookup Kern_RehGaf_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos @RehAll  <-150 0 -150 0>;
-	    pos @WawAll  <-50 0 -50 0>;
-	} Kern_RehGaf_target ;
-	
-	lookup Kern_RehLoosen_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos @RehAll  <150 0 150 0>;
-	    pos @WawAll  <150 0 150 0>;
-	} Kern_RehLoosen_target ;
-	
-	lookup Kern_RehTighten_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos @RehTighten  <-100 0 -100 0>;
-	    pos @RehTightenMore  <-170 0 -170 0>;
-	    pos @WawTighten  <-50 0 -50 0>;
-	    pos @WawTightenMore  <-100 0 -100 0>;
-	} Kern_RehTighten_target ;
-	
-	lookup Kern_RehAinInit_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos @RehTighten  <-150 0 -150 0>;
-	    pos @RehTightenMore  <-200 0 -200 0>;
-	} Kern_RehAinInit_target ;
-	
-	lookup Kern_RehAinIsol_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos @RehAll  <100 0 100 0>;
-	    pos @WawAll  <100 0 100 0>;
-	} Kern_RehAinIsol_target ;
-	
-	lookup Kern_LamAlefTall_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos alef-ar.postLamIni.fina  <170 0 170 0>;
-	} Kern_LamAlefTall_target ;
-	
-	lookup Kern_LamAlefMarkTall_target {
-	  lookupflag 0 ;
-	    #  subrule of type ADJUST_SINGLE
-	    pos alefMadda-ar.postLamIni.fina  <170 0 170 0>;
-	    pos alefMadda-ar.postLamIni.small.fina  <150 0 150 0>;
-	    pos alefHamzaabove-ar.postLamIni.fina  <150 0 150 0>;
-	    pos alefWasla-ar.postLamIni.fina  <170 0 170 0>;
-	} Kern_LamAlefMarkTall_target ;
-	
-	lookup Kern {
-	  lookupflag 0 ;
-	  # Subtable: Kern\RehGaf
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehGaf_target @RehKernGaf ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehGaf_target @MarksBelow @RehKernGaf ;
-	  # Subtable: Kern\RehLoosen
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target @NarrowIni @MarksBelow ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target @MarksAny @NarrowIni @MarksBelow ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target @NarrowIni @MarksAbove @MarksBelow ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target @MarksAny @NarrowIni @MarksAbove @MarksBelow ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target alef-ar [ rightarrowheadbelow-ar leftarrowheadbelow-ar ] ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target @MarksAny alef-ar [ rightarrowheadbelow-ar leftarrowheadbelow-ar ] ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target alef-ar @MarksAny [ rightarrowheadbelow-ar leftarrowheadbelow-ar ] ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehLoosen_target @MarksAny alef-ar @MarksAny [ rightarrowheadbelow-ar leftarrowheadbelow-ar ] ;
-	  # Subtable: Kern\RehTighten
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @NoTightenReh_B @MarksBelow ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @NoTightenReh_B @MarksAbove @MarksBelow ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAny @NoTightenReh_B @MarksBelow ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAny @NoTightenReh_B @MarksAbove @MarksBelow ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAbove @NoTightenRehA_ ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAbove @MarksBelow @NoTightenRehA_ ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksBelow @MarksAbove @NoTightenRehA_ ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAbove @NoTightenRehA_A @MarksAbove ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAbove @NoTightenRehA_A @MarksBelow @MarksAbove ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksBelow @MarksAbove @NoTightenRehA_A @MarksAbove ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAbove @MarksBelow @NoTightenRehA_A @MarksAbove ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksBelow @MarksAbove @NoTightenRehA_A @MarksBelow @MarksAbove ;
-	    ignore pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]'  @MarksAbove @MarksBelow @NoTightenRehA_A @MarksBelow @MarksAbove ;
-	    pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]' lookup Kern_RehTighten_target @TightenReh_ ;
-	    pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]' lookup Kern_RehTighten_target @MarksAny @TightenReh_ ;
-	    pos [ @RehTighten @RehTightenMore @WawTighten @WawTightenMore ]' lookup Kern_RehTighten_target @MarksAny @MarksAny @TightenReh_ ;
-	  # Subtable: Kern\RehAinInit
-	    ignore pos [ @RehTighten @RehTightenMore ]'  @AinLikeInit @MarksBelow ;
-	    ignore pos [ @RehTighten @RehTightenMore ]'  @MarksAny @AinLikeInit @MarksBelow ;
-	    pos [ @RehTighten @RehTightenMore ]' lookup Kern_RehAinInit_target @AinLikeInit ;
-	    pos [ @RehTighten @RehTightenMore ]' lookup Kern_RehAinInit_target @MarksAny @AinLikeInit ;
-	  # Subtable: Kern\RehAinIsol
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehAinIsol_target @AinLikeIsol ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehAinIsol_target @MarksAny @AinLikeIsol ;
-	    pos [ @RehAll @WawAll ]' lookup Kern_RehAinIsol_target @MarksAny @MarksAny @AinLikeIsol ;
-	  # Subtable: Kern\LamAlefTall
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAbove @Tall ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAbove @MarksAny @Tall ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAny @MarksAbove @Tall ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAbove @NarrowIni @MarksAbove ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAbove @MarksAny @NarrowIni @MarksAbove ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAny @MarksAbove @NarrowIni @MarksAbove ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAbove @NarrowIni @MarksAny @MarksAbove ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAbove @MarksAny @NarrowIni @MarksAny @MarksAbove ;
-	    pos alef-ar.postLamIni.fina' lookup Kern_LamAlefTall_target @MarksAny @MarksAbove @NarrowIni @MarksAny @MarksAbove ;
-	  # Subtable: Kern\LamAlefMarkTall
-	    pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @Tall ;
-	    pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @MarksAny @Tall ;
-	    pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @NarrowIni @MarksAbove ;
-	    pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @MarksAny @NarrowIni @MarksAbove ;
-	    pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @NarrowIni @MarksAny @MarksAbove ;
-	    pos [ alefMadda-ar.postLamIni.fina alefMadda-ar.postLamIni.small.fina alefHamzaabove-ar.postLamIni.fina alefWasla-ar.postLamIni.fina ]' lookup Kern_LamAlefMarkTall_target @MarksAny @NarrowIni @MarksAny @MarksAbove ;
-	} Kern;
-
-}
-
 do if opt("noOTkern") == "";
 {
 ifinfo(styleName, "Regular") {
@@ -981,67 +862,6 @@ lookup SubtendingMarks {
         pos numbermark-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
         pos                 @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar ;
     }
-    
-do if False;
-{
-    # For reference: This was the way we did it in Harmattan 1.0 :
-            
-    # Uniscribe or HarfBuzz 'latn'
-    pos @AyahAny @DigitsAnySmall'  <-1754 0 -494 0> @DigitsAnySmall'  <-1260 0 -494 0> @DigitsAnySmall' <-766 0 -494 0> ;
-    pos @AyahAny @DigitsAnyMedium' <-1686 0 -674 0> @DigitsAnyMedium' <-1012 0 -674 0> ;
-    pos @AyahAny @DigitsAnyMedium' <-1346 0 -674 0> ;
-
-    pos number-ar.3 @DigitsAnyMedium' <-2649 0 -674 0> @DigitsAnyMedium' <-1975 0 -674 0> @DigitsAnyMedium' <-1301 0 -674 0> ;
-    pos number-ar.2 @DigitsAnyMedium' <-1973 0 -674 0> @DigitsAnyMedium' <-1299 0 -674 0> ;
-    pos number-ar   @DigitsAnyMedium' <-1280 0 -674 0> ;
-
-    pos year-ar.4 @DigitsAnyMedium' <-3020 0 -674 0> @DigitsAnyMedium' <-2346 0 -674 0> @DigitsAnyMedium' <-1672 0 -674 0> @DigitsAnyMedium' < -998 0 -674 0> ;
-    pos year-ar.3 @DigitsAnyMedium' <-2310 0 -674 0> @DigitsAnyMedium' <-1636 0 -674 0> @DigitsAnyMedium' < -962 0 -674 0> ;
-    pos year-ar.2 @DigitsAnyMedium' <-1620 0 -674 0> @DigitsAnyMedium' < -946 0 -674 0> ;
-    pos year-ar   @DigitsAnyMedium' < -980 0 -674 0> ;
-
-    pos footnotemarker-ar.2 @DigitsAnyMedium' <-1533 0 -674 0> @DigitsAnyMedium' <-859 0 -674 0> ;
-    pos footnotemarker-ar   @DigitsAnyMedium' < -863 0 -674 0> ;
-
-    pos pagenumber-ar.4 @DigitsAnyMedium' <-3884 0 -674 0> @DigitsAnyMedium' <-3210 0 -674 0> @DigitsAnyMedium' <-2536 0 -674 0> @DigitsAnyMedium' <-1862 0 -674 0> ;
-    pos pagenumber-ar.3 @DigitsAnyMedium' <-3204 0 -674 0> @DigitsAnyMedium' <-2530 0 -674 0> @DigitsAnyMedium' <-1856 0 -674 0> ;
-    pos pagenumber-ar.2 @DigitsAnyMedium' <-2444 0 -674 0> @DigitsAnyMedium' <-1770 0 -674 0> ;
-    pos pagenumber-ar   @DigitsAnyMedium' <-1844 0 -674 0> ;
-
-    pos samvat-ar.4 @DigitsAnyMedium' <-3722 0 -674 0> @DigitsAnyMedium' <-3048 0 -674 0> @DigitsAnyMedium' <-2374 0 -674 0> @DigitsAnyMedium' <-1700 0 -674 0> ;
-    pos samvat-ar.3 @DigitsAnyMedium' <-3040 0 -674 0> @DigitsAnyMedium' <-2366 0 -674 0> @DigitsAnyMedium' <-1692 0 -674 0> ;
-    pos samvat-ar.2 @DigitsAnyMedium' <-2359 0 -674 0> @DigitsAnyMedium' <-1685 0 -674 0> ;
-    pos samvat-ar @DigitsAnyMedium' <-1735 0 -674 0> ;
-
-
-    # HarfBuzz 'arab'
-    	
-    pos @DigitsAnySmall'  < -766 0 -494 0> @DigitsAnySmall'  <-1260 0 -494 0> @DigitsAnySmall' <-1754 0 -494 0> @AyahAny ;
-    pos @DigitsAnyMedium' <-1012 0 -674 0> @DigitsAnyMedium' <-1686 0 -674 0> @AyahAny ;
-    pos @DigitsAnyMedium' <-1346 0 -674 0> @AyahAny ;
-
-    pos @DigitsAnyMedium' <-1301 0 -674 0> @DigitsAnyMedium' <-1975 0 -674 0> @DigitsAnyMedium' <-2649 0 -674 0> number-ar.3 ;
-    pos @DigitsAnyMedium' <-1299 0 -674 0> @DigitsAnyMedium' <-1973 0 -674 0> number-ar.2 ;
-    pos @DigitsAnyMedium' <-1280 0 -674 0> number-ar ;
-
-    pos @DigitsAnyMedium' <-998 0 -674 0> @DigitsAnyMedium' <-1672 0 -674 0> @DigitsAnyMedium' <-2346 0 -674 0> @DigitsAnyMedium' <-3020 0 -674 0> year-ar.4 ;
-    pos @DigitsAnyMedium' <-962 0 -674 0> @DigitsAnyMedium' <-1636 0 -674 0> @DigitsAnyMedium' <-2310 0 -674 0> year-ar.3 ;
-    pos @DigitsAnyMedium' <-946 0 -674 0> @DigitsAnyMedium' <-1620 0 -674 0> year-ar.2 ;
-    pos @DigitsAnyMedium' <-980 0 -674 0> year-ar ;
-
-    pos @DigitsAnyMedium' <-859 0 -674 0> @DigitsAnyMedium' <-1533 0 -674 0> footnotemarker-ar.2 ;
-    pos @DigitsAnyMedium' <-863 0 -674 0> footnotemarker-ar ;
-
-    pos @DigitsAnyMedium' <-1862 0 -674 0> @DigitsAnyMedium' <-2536 0 -674 0> @DigitsAnyMedium' <-3210 0 -674 0> @DigitsAnyMedium' <-3884 0 -674 0> pagenumber-ar.4 ;
-    pos @DigitsAnyMedium' <-1856 0 -674 0> @DigitsAnyMedium' <-2530 0 -674 0> @DigitsAnyMedium' <-3204 0 -674 0> pagenumber-ar.3 ;
-    pos @DigitsAnyMedium' <-1770 0 -674 0> @DigitsAnyMedium' <-2444 0 -674 0> pagenumber-ar.2 ;
-    pos @DigitsAnyMedium' <-1844 0 -674 0> pagenumber-ar ;
-
-    pos @DigitsAnyMedium' <-1700 0 -674 0> @DigitsAnyMedium' <-2374 0 -674 0> @DigitsAnyMedium' <-3048 0 -674 0> @DigitsAnyMedium' <-3722 0 -674 0> samvat-ar.4 ;
-    pos @DigitsAnyMedium' <-1692 0 -674 0> @DigitsAnyMedium' <-2366 0 -674 0> @DigitsAnyMedium' <-3040 0 -674 0> samvat-ar.3 ;
-    pos @DigitsAnyMedium' <-1685 0 -674 0> @DigitsAnyMedium' <-2359 0 -674 0> samvat-ar.2 ;
-    pos @DigitsAnyMedium' <-1735 0 -674 0> samvat-ar ;
-}
 
 } SubtendingMarks;
 
@@ -1139,7 +959,6 @@ feature rlig {  # Required Ligatures
 feature calt {  # Contextual Alternates
     # Same for latin & arabic:
         lookup SignWithDigits;
-        # lookup SignDigits;
     script arab;  # Arabic
       language KUR ; # Kurdish
         lookup KurdishCALT ;

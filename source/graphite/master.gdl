@@ -426,58 +426,6 @@ endpass; // 2
 
 pass(3)
 
-#if 0   // disable most kerning for now
-
-	// Kerning of reh-like and waw-like
-	
-	// tighten to following gaf-like, allowing intervening marks below
-	cRehKernGaf {advance.x -= 150m} / cRehAll MARKSBELOW _ ;
-	cRehKernGaf {advance.x -= 50m}  / cWawAll MARKSBELOW _ ;
-	
-	// loosen from following narrow initials with something below
-	cNarrowIni {advance.x += 150m} / (cRehAll cWawAll) MARKS _ MARKSABOVE cAnyMarksBelow ;
-
-	// loosen from following alef when with wide diac below it
-	g_alef_ar    {advance.x += 150m} / (cRehAll cWawAll) MARKS _ MARKS (g_rightarrowheadbelow_ar g_leftarrowheadbelow_ar) ;
-	
-	// leave certain cases alone:
-	// certain glyphs with diac below:
-	cNoTightenReh_B		/ (cRehTighten cWawTighten cRehTightenMore cWawTightenMore) MARKS _ MARKS cAnyMarksBelow ;
-	// certain glyphs when they and the reh/waw have diac above:
-	cNoTightenRehA_A	/ (cRehTighten cWawTighten cRehTightenMore cWawTightenMore) MARKS cMarksAbove MARKS _ MARKS cAnyMarksAbove ;
-	// certain tall narrow glyphs when reh/wah have diac above:
-	cNoTightenRehA_		/ (cRehTighten cWawTighten cRehTightenMore cWawTightenMore) MARKS cMarksAbove MARKS _  ;
-	 
-	// otherwise tighten against most things:
-	cTightenReh_ {advance.x -= 100m} / cRehTighten        MARKS _ ;
-	cTightenReh_ {advance.x -= 170m} / cRehTightenMore    MARKS _ ;
-	cTightenReh_ {advance.x -=  50m} / cWawTighten        MARKS _ ;
-	cTightenReh_ {advance.x -= 100m} / cWawTightenMore    MARKS _ ;
-
-	// tighter against Ain-like initials unless it has marks Below
-	cAinLikeInit                     / (cRehTighten cRehTightenMore) MARKS _ MARKS cMarksBelow ;
-	cAinLikeInit {advance.x -= 150m} / cRehTighten     MARKS _ ;
-	cAinLikeInit {advance.x -= 200m} / cRehTightenMore MARKS _ ;
-	
-	// loosen when followed by Ain-like isolates
-	cAinLikeIsol {advance.x += 100m} / (cRehAll cWawAll) MARKS _ ;
-	
-	// Other Kerning:
-	
-	// add space between lam-alef+markabove and tall things after:
-	cTall {advance.x +=170m} / g_alef_ar_post_lam_ini_fina MARKS cAnyMarksAbove MARKS _ ;
-	cTall {advance.x +=170m} / g_alef_madda_ar_post_lam_ini_fina            MARKS _ ;
-	cTall {advance.x +=150m} / g_alef_madda_ar_post_lam_ini_small_fina      MARKS _ ;
-	cTall {advance.x +=150m} / g_alef_hamzaabove_ar_post_lam_ini_fina            MARKS _ ;
-	cTall {advance.x +=170m} / g_alef_wasla_ar_post_lam_ini_fina                 MARKS _ ;
-
-	cNarrowIni {advance.x +=170m} / g_alef_ar_post_lam_ini_fina MARKS cAnyMarksAbove MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=170m} / g_alef_madda_ar_post_lam_ini_fina            MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=150m} / g_alef_madda_ar_post_lam_ini_small_fina      MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=150m} / g_alef_hamzaabove_ar_post_lam_ini_fina            MARKS _ MARKS cAnyMarksAbove;
-	cNarrowIni {advance.x +=170m} / g_alef_wasla_ar_post_lam_ini_fina                 MARKS _ MARKS cAnyMarksAbove;
-
-#endif
 	
 	// lower marksBelow on certain bases when followed by yehbarree
 	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS g_yehbarree_ar_fina ;
