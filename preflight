@@ -23,8 +23,8 @@ echo "Syncing glyph orders, psnames, and other metadata to other UFOs..."
 psfsyncmasters -q source/*-RB.designspace
 
 echo "Building internal fea..."
-psfmakefea -q -o source/Harmattan-Regular.ufo/features.fea -l Harmattan-Regular-psfmakefea.log -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" source/*-Regular.ufo &
-psfmakefea -q -o source/Harmattan-Bold.ufo/features.fea    -l Harmattan-Bold-psfmakefea.log    -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" source/*-Bold.ufo    &
+psfmakefea -q -o source/Harmattan-Regular.ufo/features.fea -l Harmattan-Regular-psfmakefea.log -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" -D noOTkern=yes source/*-Regular.ufo &
+psfmakefea -q -o source/Harmattan-Bold.ufo/features.fea    -l Harmattan-Bold-psfmakefea.log    -i source/opentype/master.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,above,below,center,ring,through,U,L,O" -D noOTkern=yes source/*-Bold.ufo    &
 wait
 
 echo "preflight completed!"
