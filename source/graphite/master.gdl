@@ -245,6 +245,11 @@ pass(4)	// Features, special behaviors
 	(g_alef_ar_post_lam_ini_fina g_alef_ar_post_lam_med_fina)=A g_hamzabelow_ar=H > 
 		(g_alef_hamzabelow_ar_post_lam_ini_fina g_alef_hamzabelow_ar_post_lam_med_fina):(A H) _ / _ cMark1? _ ;
 	
+	// yehbarree: substitute .wide variant when appropriate
+	
+	cno_wide > cwide / cYehBarreeContextAlways MARKS _ ;
+	cno_wide > cwide / cYehBarreeContextMarkBelow MARKS cAnyMarksBelow MARKS _ ;
+	
 	// other simple features:
 
 	if (dalAlt == senegal)
@@ -424,13 +429,6 @@ pass(2)
 
 endpass; // 2
 
-pass(3)
-
-	
-	// lower marksBelow on certain bases when followed by yehbarree
-	cMarksBelow {shift.y -= 300m } / cYehBarreeMarkLower MARKSABOVE _ MARKS g_yehbarree_ar_fina ;
-	
-endpass; // 3	
 
 endtable;
 

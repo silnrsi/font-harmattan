@@ -270,6 +270,21 @@ lookup LamAlefLigatures {
 } LamAlefLigatures;
 
 
+#********
+# Yehbarree substituions to prevent collisions
+
+lookup YehBarreeToWideAlways {
+  lookupflag IgnoreMarks ;
+    sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
+} YehBarreeToWideAlways ;
+
+lookup YehBarreeToWideWithMarks {
+  lookupflag UseMarkFilteringSet @MarksBelow;
+    sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
+    sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
+} YehBarreeToWideWithMarks ;
+
+
 #********************
 # Reordering of madda: moving it beyond anything in groups 1A, 2A, or 3A
 
@@ -707,13 +722,6 @@ lookup AlefMark2BelowAfterLam {
     #pos lamThreedotsbelow-ar.preAlef.medi @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 } AlefMark2BelowAfterLam;
 
-# Lower MarksBelow if they crash with the tail of yeh barree final:
-lookup MarkKern {
-  lookupflag 0 ;
-    pos @YehBarreeMarkLower @MarksBelow'             < 0 -300 0 0> yehbarree-ar.fina ;
-    pos @YehBarreeMarkLower @MarksAbove @MarksBelow' < 0 -300 0 0> yehbarree-ar.fina ;
-    pos @YehBarreeMarkLower @MarksBelow'             < 0 -300 0 0> @MarksAbove yehbarree-ar.fina ;
-} MarkKern;
 
 #********************
 # Subtending mark positioning
@@ -959,6 +967,8 @@ feature rlig {  # Required Ligatures
 feature calt {  # Contextual Alternates
     # Same for latin & arabic:
         lookup SignWithDigits;
+        lookup YehBarreeToWideAlways;
+        lookup YehBarreeToWideWithMarks;
     script arab;  # Arabic
       language KUR ; # Kurdish
         lookup KurdishCALT ;
@@ -1271,7 +1281,6 @@ feature mark {  # Mark to base Positioning
         lookup alef_to_base;
     script arab;  # Arabic
         lookup AlefMark2BelowAfterLam;
-        lookup MarkKern;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
