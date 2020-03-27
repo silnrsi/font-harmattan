@@ -1213,16 +1213,20 @@
     <string>yehTwodotsbelowNoonabove-ar.init</string>
     <string>yehbarree-ar</string>
     <string>yehbarree-ar.fina</string>
+    <string>yehbarree-ar.fina.wide</string>
     <string>yehbarreeHamzaabove-ar</string>
     <string>yehbarreeHamzaabove-ar.fina</string>
+    <string>yehbarreeHamzaabove-ar.fina.wide</string>
     <string>yehbarreeTwoabove-ar</string>
     <string>yehbarreeTwoabove-ar.fina</string>
     <string>yehbarreeTwoabove-ar.medi</string>
     <string>yehbarreeTwoabove-ar.init</string>
+    <string>yehbarreeTwoabove-ar.fina.wide</string>
     <string>yehbarreeThreeabove-ar</string>
     <string>yehbarreeThreeabove-ar.fina</string>
     <string>yehbarreeThreeabove-ar.medi</string>
     <string>yehbarreeThreeabove-ar.init</string>
+    <string>yehbarreeThreeabove-ar.fina.wide</string>
     <string>yehRohingya-ar</string>
     <string>yehRohingya-ar.fina</string>
     <string>highhamzaYeh-ar</string>
@@ -2797,16 +2801,20 @@
     <string>yehTwodotsbelowNoonabove-ar.init</string>
     <string>yehbarree-ar</string>
     <string>yehbarree-ar.fina</string>
+    <string>yehbarree-ar.fina.wide</string>
     <string>yehbarreeHamzaabove-ar</string>
     <string>yehbarreeHamzaabove-ar.fina</string>
+    <string>yehbarreeHamzaabove-ar.fina.wide</string>
     <string>yehbarreeTwoabove-ar</string>
     <string>yehbarreeTwoabove-ar.fina</string>
     <string>yehbarreeTwoabove-ar.medi</string>
     <string>yehbarreeTwoabove-ar.init</string>
+    <string>yehbarreeTwoabove-ar.fina.wide</string>
     <string>yehbarreeThreeabove-ar</string>
     <string>yehbarreeThreeabove-ar.fina</string>
     <string>yehbarreeThreeabove-ar.medi</string>
     <string>yehbarreeThreeabove-ar.init</string>
+    <string>yehbarreeThreeabove-ar.fina.wide</string>
     <string>yehRohingya-ar</string>
     <string>yehRohingya-ar.fina</string>
     <string>highhamzaYeh-ar</string>
@@ -5661,14 +5669,20 @@
     <string>uni06D2</string>
     <key>yehbarree-ar.fina</key>
     <string>uni06D2.fina</string>
+    <key>yehbarree-ar.fina.wide</key>
+    <string>uni06D2.fina.wide</string>
     <key>yehbarreeHamzaabove-ar</key>
     <string>uni06D3</string>
     <key>yehbarreeHamzaabove-ar.fina</key>
     <string>uni06D3.fina</string>
+    <key>yehbarreeHamzaabove-ar.fina.wide</key>
+    <string>uni06D3.fina.wide</string>
     <key>yehbarreeThreeabove-ar</key>
     <string>uni077B</string>
     <key>yehbarreeThreeabove-ar.fina</key>
     <string>uni077B.fina</string>
+    <key>yehbarreeThreeabove-ar.fina.wide</key>
+    <string>uni077B.fina.wide</string>
     <key>yehbarreeThreeabove-ar.init</key>
     <string>uni077B.init</string>
     <key>yehbarreeThreeabove-ar.medi</key>
@@ -5677,6 +5691,8 @@
     <string>uni077A</string>
     <key>yehbarreeTwoabove-ar.fina</key>
     <string>uni077A.fina</string>
+    <key>yehbarreeTwoabove-ar.fina.wide</key>
+    <string>uni077A.fina.wide</string>
     <key>yehbarreeTwoabove-ar.init</key>
     <string>uni077A.init</string>
     <key>yehbarreeTwoabove-ar.medi</key>
