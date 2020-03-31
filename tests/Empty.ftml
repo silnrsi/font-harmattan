@@ -1,17 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
 <ftml version='1.0'>
-  <testgroup label='Rendering check'>
-  <test label='Check'><string>RenderingUnknown</string></test>
-  </testgroup>
-<head>
-  <fontscale>300</fontscale>
-  <fontsrc>url(reference/Harmattan-Regular-1_001.ttf)</fontsrc>
-  <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
-  <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-  <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
-  <styles>
-  </styles>
-  <title>Empty test</title>
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>url(reference/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+    <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <title>Empty test</title>
   </head>
+  <testgroup label='Rendering check'>
+    <test label='Check'><string>RenderingUnknown</string></test>
+  </testgroup>
 </ftml>
