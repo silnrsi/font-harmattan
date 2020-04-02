@@ -270,21 +270,6 @@ lookup LamAlefLigatures {
 } LamAlefLigatures;
 
 
-#********
-# Yehbarree substituions to prevent collisions
-
-lookup YehBarreeToWideAlways {
-  lookupflag IgnoreMarks ;
-    sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
-} YehBarreeToWideAlways ;
-
-lookup YehBarreeToWideWithMarks {
-  lookupflag UseMarkFilteringSet @MarksBelow;
-    sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
-    sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
-} YehBarreeToWideWithMarks ;
-
-
 #********************
 # Reordering of madda: moving it beyond anything in groups 1A, 2A, or 3A
 
@@ -351,6 +336,7 @@ lookup WolofCALT {
     sub @Damma by @Damma_short ;
     sub @Kasra by @Kasra_lowered ;
 } WolofCALT;
+
 
 #********************
 # Substitutions for subtendng marks
@@ -649,6 +635,21 @@ lookup ShaddaKasraLigatures {
     sub @ShaddaKasraMarks shadda-ar by @ShaddaKasraLigatures ;
     sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
 } ShaddaKasraLigatures;
+
+
+#********
+# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+
+lookup YehBarreeToWideAlways {
+  lookupflag IgnoreMarks ;
+    sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
+} YehBarreeToWideAlways ;
+
+lookup YehBarreeToWideWithMarks {
+  lookupflag UseMarkFilteringSet @MarksBelow;
+    sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
+    sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
+} YehBarreeToWideWithMarks ;
 
 
 #********************
@@ -967,8 +968,6 @@ feature rlig {  # Required Ligatures
 feature calt {  # Contextual Alternates
     # Same for latin & arabic:
         lookup SignWithDigits;
-        lookup YehBarreeToWideAlways;
-        lookup YehBarreeToWideWithMarks;
     script arab;  # Arabic
       language KUR ; # Kurdish
         lookup KurdishCALT ;
@@ -1232,9 +1231,14 @@ feature cv84 {  # Character Variant 84
 # But we still need the ShaddaKasraLigatures lookup to fire. Presently Microsoft doesn't 
 # fire clig, so liga must be the one to use!
 
+# Similarly, the yehbarree contextual substitution must execute after cv48, so they are
+# included in liga (with the lookups ordered after cv48)
+
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
-        lookup ShaddaKasraLigatures;
+        lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
+        lookup YehBarreeToWideAlways;    # Must be after language-specific CALTs and cv48
+        lookup YehBarreeToWideWithMarks; # Must be after language-specific CALTs and cv48
 } liga ;
 
 

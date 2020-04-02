@@ -588,149 +588,8 @@
         four-persian.roh.small   six-persian.urdu.small   seven-persian.urdu.small
     </class>
 
-    <!-- 
-    ===============================
-    Kerning
-    ===============================
-    -->
 
-    <class name='AinLikeInit'>
-        ain-ar.init ghain-ar.init ainThreedots-ar.init ghainDotbelow-ar.init ainTwodotshorizontalabove-ar.init ainThreedotsdownabove-ar.init
-        ainTwodotsverticalabove-ar.init ainThreedotsbelow-ar.init
-    </class>
-
-    <class name='AinLikeIsol'>
-        ain-ar ghain-ar ainThreedots-ar ghainDotbelow-ar ainTwodotshorizontalabove-ar ainThreedotsdownabove-ar ainTwodotsverticalabove-ar ainThreedotsbelow-ar
-    </class>
-
-    <class name='LoosenAlefA_'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh alefWasla-ar alef_fatha-ar
-        alef_fatha-ar.warsh lamVabove-ar.init lamThreedotsabove-ar.init
-    </class>
-
-    <class name='LoosenAlefB_'>
-        alefHamzabelow-ar alefHamzabelow-ar.warsh alef_kasra-ar alef_kasra-ar.warsh rehStroke-ar yeh-ar.init yeh-farsi.init
-        yehVinverted-farsi.init yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehVabove-ar.init yehThreedotsbelow-ar.init
-        yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init peh-ar.init behThreedotshorizontalbelow-ar.init
-        behThreedotsupbelow-ar.init tehThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init
-        behVinvertedbelow-ar.init behVbelow-ar.init lamThreedotsbelow-ar.init noonThreedotsabove-ar.init noonTwodotsbelow-ar.init
-    </class>
-
-    <class name='NoTightenRehA_'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh alef-ar alefWasla-ar alef_fatha-ar
-        alef_fatha-ar.warsh yehHamzaabove-ar yeh-ar yeh-ar.noDots yeh-farsi yehVinverted-farsi yehTwodotsabove-farsi
-        yehThreedotsabove-farsi yehVabove-ar e-ar yehThreedotsbelow-ar alefMaksura-ar yehTwodotsbelowHamzaabove-ar
-        yehTwodotsbelowDotabove-ar feh-ar fehDotless-ar fehAfrican-ar fehDotmovedbelow-ar fehDotbelow-ar veh-ar fehTwodotsbelow-ar
-        fehDotbelowThreedotsabove-ar kaf-ar kafDotabove-ar ng-ar kafTwodotshorizontalabove-ar kafThreedotsbelow-ar lam-ar lamVabove-ar
-        lamDotabove-ar lamThreedotsabove-ar lamBar-ar lamDoublebar-ar yehHamzaabove-ar.init yehVinverted-farsi.init
-        yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehVabove-ar.init yehTwodotsbelowHamzaabove-ar.init teh-ar.init tehRing-ar.init
-        theh-ar.init tteheh-ar.init tehThreedotsdown-ar.init behThreedotsupabove-ar.init behTwodotsbelowDotabove-ar.init
-        behVabove-ar.init behhamzaabove-ar.init lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamBar-ar.init
-        lamDoublebar-ar.init noonVabove-ar.init
-    </class>
-
-    <class name='NoTightenRehA_A'>
-        yeh-ar.init yeh-ar.noDots.init yeh-farsi.init alefMaksura-ar.init yehTwodotsbelowDotabove-ar.init behDotless-ar.init beh-ar.init
-        noon-ar.init noonDotbelow-ar.init noonghunna-ar.init noonAfrican-ar.init noonTwodotsbelow-ar.init
-    </class>
-
-    <class name='NoTightenReh_B'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh alef-ar alefWasla-ar alef_fatha-ar
-        alef_fatha-ar.warsh dal-ar thal-ar dalRing-ar dalDotbelow-ar dalDotbelowTah-ar dahal-ar dul-ar
-        dalThreedotsdown-ar dalVinvertedabove-ar tah-ar zah-ar tahThreedots-ar tahTwodotsabove-ar fehDotmovedbelow-ar
-        fehDotbelow-ar fehTwodotsbelow-ar fehDotbelowThreedotsabove-ar lam-ar lamVabove-ar lamDotabove-ar lamThreedotsabove-ar
-        lamBar-ar lamDoublebar-ar meem-ar.sindhi meemDotabove-ar.sindhi meemDotbelow-ar.sindhi meemThreedotsabove-ar.sindhi
-        hamza-ar yehHamzaabove-ar.init yeh-ar.init yeh-ar.noDots.init yeh-farsi.init yehVinverted-farsi.init yehTwodotsabove-farsi.init
-        yehThreedotsabove-farsi.init yehVabove-ar.init alefMaksura-ar.init yehTwodotsbelowHamzaabove-ar.init
-        yehTwodotsbelowDotabove-ar.init behDotless-ar.init beh-ar.init teh-ar.init tehRing-ar.init theh-ar.init tteheh-ar.init tehThreedotsdown-ar.init
-        behThreedotsupabove-ar.init behTwodotsbelowDotabove-ar.init behVabove-ar.init behhamzaabove-ar.init
-        seenDotbelowDotabove-ar.init sheenDotbelow-ar.init tah-ar.init zah-ar.init tahThreedots-ar.init tahTwodotsabove-ar.init feh-ar.init
-        fehDotless-ar.init fehAfrican-ar.init fehDotmovedbelow-ar.init fehDotbelow-ar.init veh-ar.init fehTwodotsbelow-ar.init
-        fehDotbelowThreedotsabove-ar.init qafDotless-ar.init qafAfrican-ar.init qaf-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init
-        qafDotbelow-ar.init lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamBar-ar.init lamDoublebar-ar.init
-        meem-ar.init meemDotabove-ar.init meemDotbelow-ar.init meemThreedotsabove-ar.init noon-ar.init noonDotbelow-ar.init noonghunna-ar.init
-        noonAfrican-ar.init noonTwodotsbelow-ar.init noonVabove-ar.init lam-ar.preAlef.init lamVabove-ar.preAlef.init
-        lamDotabove-ar.preAlef.init lamThreedotsabove-ar.preAlef.init lamBar-ar.preAlef.init lamDoublebar-ar.preAlef.init
-    </class>
-
-    <class name='NoonGhunna'>
-        noonghunna-ar noonghunna-ar.fina noonghunna-ar.medi noonghunna-ar.init
-    </class>
-
-
-    <class name='RehKernGaf'>
-        kehehTwodotshorizontalabove-ar  kehehThreedotsbelow-ar  kaf-ar  keheh-ar  
-        kafRing-ar  kafDotabove-ar  ng-ar  kafThreedotsbelow-ar  gaf-ar  
-        gafRing-ar  ngoeh-ar  gafTwodotsbelow-ar  gueh-ar  gafThreedots-ar  
-        kehehDotabove-ar  kehehThreedotsabove-ar  kehehThreedotsupbelow-ar  
-        kafTwodotshorizontalabove-ar  gafInvertedstroke-ar  kafDotbelow-ar  
-
-        kehehTwodotshorizontalabove-ar.init kehehThreedotsbelow-ar.init kaf-ar.init keheh-ar.init 
-        kafRing-ar.init kafDotabove-ar.init ng-ar.init kafThreedotsbelow-ar.init gaf-ar.init 
-        gafRing-ar.init ngoeh-ar.init gafTwodotsbelow-ar.init gueh-ar.init gafThreedots-ar.init 
-        kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsupbelow-ar.init 
-        kafTwodotshorizontalabove-ar.init gafInvertedstroke-ar.init kafDotbelow-ar.init 
-    </class>
-
-    <class name='RehKernOther'>
-        dal-ar thal-ar dalRing-ar dalDotbelow-ar dalDotbelowTah-ar dahal-ar dul-ar dalThreedotsdown-ar dalVinvertedabove-ar
-        reh-ar zain-ar rehv-ar rehDotbelow-ar rehVbelow-ar rehTwodots-ar jeh-ar rehTwodotsverticalabove-ar zainVinvertedabove-ar
-        rehVinvertedabove-ar rehStroke-ar tah-ar zah-ar tahThreedots-ar tahTwodotsabove-ar lam-ar lamVabove-ar lamDotabove-ar
-        lamThreedotsabove-ar lamBar-ar lamDoublebar-ar meem-ar.sindhi meemDotabove-ar.sindhi meemDotbelow-ar.sindhi
-        meemThreedotsabove-ar.sindhi ae-ar tehMarbuta-ar hehHamzaabove-ar yehHamzaabove-ar.init yeh-ar.init yeh-farsi.init
-        yehVinverted-farsi.init yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehVabove-ar.init alefMaksura-ar.init
-        yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init behDotless-ar.init beh-ar.init teh-ar.init tehRing-ar.init theh-ar.init tteheh-ar.init
-        tehThreedotsdown-ar.init behThreedotsupabove-ar.init behTwodotsbelowDotabove-ar.init behVabove-ar.init
-        behhamzaabove-ar.init tah-ar.init zah-ar.init tahThreedots-ar.init tahTwodotsabove-ar.init feh-ar.init fehDotless-ar.init veh-ar.init
-        qafDotless-ar.init qaf-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init lam-ar.init lamVabove-ar.init lamDotabove-ar.init
-        lamThreedotsabove-ar.init lamBar-ar.init lamDoublebar-ar.init meem-ar.init meemDotabove-ar.init meemDotbelow-ar.init
-        meemThreedotsabove-ar.init noon-ar.init noonDotbelow-ar.init noonghunna-ar.init noonTwodotsbelow-ar.init noonVabove-ar.init
-        hehDoachashmee-ar.init lam-ar.preAlef.init lamVabove-ar.preAlef.init lamDotabove-ar.preAlef.init lamThreedotsabove-ar.preAlef.init
-        lamBar-ar.preAlef.init lamDoublebar-ar.preAlef.init
-    </class>
-
-    <class name='RehKernOtherMA'>
-        reh-ar zain-ar rehv-ar rehDotbelow-ar rehVbelow-ar rehTwodots-ar jeh-ar rehTwodotsverticalabove-ar zainVinvertedabove-ar
-        rehVinvertedabove-ar rehStroke-ar heh-ar ae-ar tehMarbuta-ar hehHamzaabove-ar yehHamzaabove-ar.init yeh-ar.init yeh-ar.noDots.init yeh-farsi.init
-        yehVinverted-farsi.init yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehVabove-ar.init yehThreedotsbelow-ar.init
-        alefMaksura-ar.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init behDotless-ar.init beh-ar.init teh-ar.init tehRing-ar.init
-        theh-ar.init tteheh-ar.init beeh-ar.init tehThreedotsdown-ar.init peh-ar.init behThreedotshorizontalbelow-ar.init
-        behThreedotsupabove-ar.init behThreedotsupbelow-ar.init tehThreedotsupbelow-ar.init
-        behTwodotsbelowDotabove-ar.init behVinvertedbelow-ar.init behVabove-ar.init behVbelow-ar.init behhamzaabove-ar.init
-        feh-ar.init fehDotless-ar.init fehDotmovedbelow-ar.init fehDotbelow-ar.init veh-ar.init fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init
-        fehThreedotsupbelow-ar.init fehDotbelowThreedotsabove-ar.init qafDotless-ar.init qaf-ar.init qafDotabove-ar.init
-        qafThreedotsabove-ar.init qafDotbelow-ar.init noon-ar.init noonDotbelow-ar.init noonghunna-ar.init noonThreedotsabove-ar.init
-        noonTwodotsbelow-ar.init noonVabove-ar.init
-    </class>
-
-    <class name='RehKernOtherMB'>
-        yehbarree-ar behDotless-ar beh-ar teh-ar theh-ar tteheh-ar beeh-ar tehThreedotsdown-ar peh-ar
-        behThreedotshorizontalbelow-ar behThreedotsupabove-ar behThreedotsupbelow-ar tehThreedotsupbelow-ar
-        behTwodotsbelowDotabove-ar behVinvertedbelow-ar behVabove-ar behVbelow-ar behhamzaabove-ar jeem-ar hah-ar khah-ar
-        hahTwodotsverticalabove-ar nyeh-ar dyeh-ar hahThreedotsabove-ar tcheh-ar tchehDotabove-ar hahTwodotshorizontalabove-ar
-        hahThreedotsupbelow-ar jeemTwodotsabove-ar seen-ar sheen-ar seenTwodotshorizontalabove-ar seenVinvertedabove-ar sad-ar sad-ar.half
-        dad-ar dad-ar.half sadTwodotsbelow-ar sadTwodotsbelow-ar.half sadThreedots-ar sadThreedots-ar.half dadDotbelow-ar
-        dadDotbelow-ar.half sadThreedotsbelow-ar sadThreedotsbelow-ar.half feh-ar fehDotless-ar veh-ar qafDotless-ar qaf-ar
-        qafDotabove-ar qafThreedotsabove-ar kaf-ar kafDotabove-ar ng-ar kafTwodotshorizontalabove-ar kafThreedotsbelow-ar kafswash-ar meem-ar
-        meemDotabove-ar meemDotbelow-ar meemThreedotsabove-ar noon-ar noonDotbelow-ar noonghunna-ar noonThreedotsabove-ar
-        noonTwodotsbelow-ar noonVabove-ar heh-ar jeem-ar.init hah-ar.init khah-ar.init hahTwodotsverticalabove-ar.init nyeh-ar.init
-        dyeh-ar.init hahThreedotsabove-ar.init tcheh-ar.init tchehDotabove-ar.init hahTwodotshorizontalabove-ar.init hahThreedotsupbelow-ar.init
-        jeemTwodotsabove-ar.init seen-ar.init sheen-ar.init seenTwodotshorizontalabove-ar.init seenVinvertedabove-ar.init sad-ar.init dad-ar.init
-        sadTwodotsbelow-ar.init sadThreedots-ar.init dadDotbelow-ar.init sadThreedotsbelow-ar.init heh-ar.init
-    </class>
-
-    <class name='RehKernTall'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh alef-ar alefWasla-ar lam-ar.init
-        lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamThreedotsbelow-ar.init
-    </class>
-
-    <class name='RehTighten' exts='fina'>
-        rreh-ar rehv-ar rehTwodots-ar jeh-ar zainVinvertedabove-ar rehVinvertedabove-ar
-    </class>
-
-    <class name='RehTightenMore' exts='fina'>
-        reh-ar zain-ar rehRing-ar rehDotbelow-ar rehVbelow-ar rehTwodotsverticalabove-ar rehStroke-ar 
-    </class>
+    <!-- all the reh-like glyphs - used for collision-avoidance-based kerning in Graphite -->
 
     <class name='RehAll' exts='.fina'> 
         reh-ar zain-ar rreh-ar rehv-ar rehRing-ar rehDotbelow-ar 
@@ -739,129 +598,45 @@
         rehTwodotshorizontalaboveTahabove-ar rehLoop-ar zainVinvertedabove-ar rehNoonabove-ar 
     </class>
 
-
-
-    <class name='Tall'>
-        @AlefIso @LamIni @LamIso alef_fatha-ar alef_fatha-ar.warsh alef_kasra-ar alef_kasra-ar.warsh
-    </class>
-
-    <class name='TightenReh_'>
-        alefMadda-ar alefMadda-ar.small alefHamzaabove-ar alefHamzaabove-ar.warsh 
-        alef-ar alefWasla-ar alefWavyHamzaabove-ar highhamzaAlef-ar alefTwoabove-ar 
-        alefThreeabove-ar alef_fatha-ar alef_fatha-ar.warsh 
-        
-        dal-ar thal-ar dalRing-ar dalDotbelow-ar dalDotbelowTah-ar dahal-ar dul-ar
-        dalThreedotsdown-ar dalVinvertedabove-ar yehbarree-ar behDotless-ar beh-ar teh-ar tehRing-ar theh-ar tteheh-ar beeh-ar
-        tehThreedotsdown-ar peh-ar behThreedotshorizontalbelow-ar behThreedotsupabove-ar behThreedotsupbelow-ar
-        tehThreedotsupbelow-ar behTwodotsbelowDotabove-ar behVinvertedbelow-ar behVabove-ar behVbelow-ar
-        behhamzaabove-ar seen-ar sheen-ar seenTwodotshorizontalabove-ar seenVinvertedabove-ar sad-ar sad-ar.half dad-ar dad-ar.half
-        sadTwodotsbelow-ar sadTwodotsbelow-ar.half sadThreedots-ar sadThreedots-ar.half dadDotbelow-ar
-        dadDotbelow-ar.half sadThreedotsbelow-ar sadThreedotsbelow-ar.half tah-ar zah-ar tahThreedots-ar tahTwodotsabove-ar
-        feh-ar fehDotless-ar fehAfrican-ar fehDotmovedbelow-ar fehDotbelow-ar veh-ar fehTwodotsbelow-ar
-        fehDotbelowThreedotsabove-ar qafDotless-ar qafAfrican-ar qaf-ar qafDotabove-ar qafThreedotsabove-ar qafDotbelow-ar kaf-ar
-        kafDotabove-ar ng-ar kafTwodotshorizontalabove-ar kafThreedotsbelow-ar kafswash-ar lam-ar lamVabove-ar lamDotabove-ar
-        lamThreedotsabove-ar lamBar-ar lamDoublebar-ar meem-ar meem-ar.sindhi meemDotabove-ar meemDotabove-ar.sindhi
-        meemDotbelow-ar meemDotbelow-ar.sindhi meemThreedotsabove-ar meemThreedotsabove-ar.sindhi noon-ar noonDotbelow-ar
-        noonghunna-ar noonAfrican-ar noonThreedotsabove-ar noonTwodotsbelow-ar noonVabove-ar heh-ar ae-ar tehMarbuta-ar
-        hehHamzaabove-ar hamza-ar yehHamzaabove-ar.init yeh-ar.init yeh-ar.noDots.init yeh-farsi.init yehVinverted-farsi.init
-        yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehVabove-ar.init alefMaksura-ar.init yehTwodotsbelowHamzaabove-ar.init
-        yehTwodotsbelowDotabove-ar.init behDotless-ar.init beh-ar.init teh-ar.init tehRing-ar.init theh-ar.init tteheh-ar.init tehThreedotsdown-ar.init
-        behThreedotsupabove-ar.init behTwodotsbelowDotabove-ar.init behVabove-ar.init behhamzaabove-ar.init jeem-ar.init hah-ar.init
-        khah-ar.init hahTwodotsverticalabove-ar.init nyeh-ar.init dyeh-ar.init hahThreedotsabove-ar.init tcheh-ar.init tchehDotabove-ar.init
-        hahTwodotshorizontalabove-ar.init hahThreedotsupbelow-ar.init jeemTwodotsabove-ar.init seen-ar.init sheen-ar.init
-        seenDotbelowDotabove-ar.init sheenDotbelow-ar.init seenTwodotshorizontalabove-ar.init seenVinvertedabove-ar.init sad-ar.init dad-ar.init
-        sadTwodotsbelow-ar.init sadThreedots-ar.init dadDotbelow-ar.init sadThreedotsbelow-ar.init tah-ar.init zah-ar.init
-        tahThreedots-ar.init tahTwodotsabove-ar.init feh-ar.init fehDotless-ar.init fehAfrican-ar.init fehDotmovedbelow-ar.init
-        fehDotbelow-ar.init veh-ar.init fehTwodotsbelow-ar.init fehDotbelowThreedotsabove-ar.init qafDotless-ar.init qafAfrican-ar.init
-        qaf-ar.init qafDotabove-ar.init qafThreedotsabove-ar.init qafDotbelow-ar.init kafswash-ar.init lam-ar.init lamVabove-ar.init
-        lamDotabove-ar.init lamThreedotsabove-ar.init lamBar-ar.init lamDoublebar-ar.init meem-ar.init meemDotabove-ar.init meemDotbelow-ar.init
-        meemThreedotsabove-ar.init noon-ar.init noonDotbelow-ar.init noonghunna-ar.init noonAfrican-ar.init noonTwodotsbelow-ar.init
-        noonVabove-ar.init hehDoachashmee-ar.init heh-ar.init lam-ar.preAlef.init lamVabove-ar.preAlef.init lamDotabove-ar.preAlef.init
-        lamThreedotsabove-ar.preAlef.init lamBar-ar.preAlef.init lamDoublebar-ar.preAlef.init
-    </class>
-
-    <class name='Tooth0Below'>
-        yehHamzaabove-ar.medi yeh-ar.noDots.medi alefMaksura-ar.medi behDotless-ar.medi teh-ar.medi theh-ar.medi tteheh-ar.medi
-        tehThreedotsdown-ar.medi behVabove-ar.medi noon-ar.medi noonghunna-ar.medi noonVabove-ar.medi yehHamzaabove-ar.init
-        yeh-ar.noDots.init alefMaksura-ar.init behDotless-ar.init teh-ar.init theh-ar.init tteheh-ar.init tehThreedotsdown-ar.init
-        behVabove-ar.init noon-ar.init noonghunna-ar.init noonVabove-ar.init
-    </class>
-
-    <class name='Tooth1hBelow'>
-        yeh-ar.medi yeh-farsi.medi yehVinverted-farsi.medi yehTwodotsabove-farsi.medi yehThreedotsabove-farsi.medi yehVabove-ar.medi
-        yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowDotabove-ar.medi beh-ar.medi behThreedotshorizontalbelow-ar.medi
-        behThreedotsupabove-ar.medi behTwodotsbelowDotabove-ar.medi behhamzaabove-ar.medi noonDotbelow-ar.medi noonTwodotsbelow-ar.medi tehRing-ar.medi
-        yeh-ar.init yeh-farsi.init yehVinverted-farsi.init yehTwodotsabove-farsi.init yehThreedotsabove-farsi.init yehVabove-ar.init
-        yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowDotabove-ar.init beh-ar.init behThreedotshorizontalbelow-ar.init
-        behThreedotsupabove-ar.init behTwodotsbelowDotabove-ar.init behhamzaabove-ar.init noonDotbelow-ar.init noonTwodotsbelow-ar.init tehRing-ar.init
-    </class>
-
-    <class name='ToothIni'>
-        yehHamzaabove-ar.init yeh-ar.init yeh-ar.noDots.init yeh-farsi.init yehVinverted-farsi.init yehTwodotsabove-farsi.init
-        yehThreedotsabove-farsi.init yehVabove-ar.init yehThreedotsbelow-ar.init alefMaksura-ar.init yehTwodotsbelowHamzaabove-ar.init
-        yehTwodotsbelowDotabove-ar.init behDotless-ar.init beh-ar.init teh-ar.init theh-ar.init tteheh-ar.init beeh-ar.init
-        tehThreedotsdown-ar.init peh-ar.init behThreedotshorizontalbelow-ar.init behThreedotsupabove-ar.init
-        behThreedotsupbelow-ar.init tehThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init
-        behVinvertedbelow-ar.init behVabove-ar.init behVbelow-ar.init behhamzaabove-ar.init noon-ar.init noonDotbelow-ar.init
-        noonghunna-ar.init noonThreedotsabove-ar.init noonTwodotsbelow-ar.init noonVabove-ar.init
-    </class>
-
-    <class name='NarrowIni'>
-        @ToothIni alefHamzabelow-ar alefHamzabelow-ar.warsh alef_kasra-ar alef_kasra-ar.warsh reh-ar zain-ar rehv-ar
-        rehDotbelow-ar rehVbelow-ar rehTwodots-ar jeh-ar rehTwodotsverticalabove-ar zainVinvertedabove-ar rehVinvertedabove-ar rehStroke-ar
-        fehDotless-ar.init fehDotmovedbelow-ar.init fehDotbelow-ar.init veh-ar.init fehThreedotsbelow-ar.init fehTwodotsbelow-ar.init
-        fehThreedotsupbelow-ar.init fehDotbelowThreedotsabove-ar.init lam-ar.init lamVabove-ar.init lamDotabove-ar.init
-        lamThreedotsabove-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init
-    </class>
-
-    <class name='WawAll'>  <!-- except wawStraight-ar -->
-        wawHamzaabove-ar waw-ar highhamzaWaw-ar uHamzaabove-ar 
-        uHamzaabove-ar.filled wawring-ar kirghizoe-ar oe-ar u-ar u-ar.filled 
-        yu-ar kirghizyu-ar wawTwodots-ar ve-ar wawDotabove-ar wawTwoabove-ar 
-        wawThreeAbove-ar wawDotcenter-ar 
-
-        wawHamzaabove-ar.fina waw-ar.fina highhamzaWaw-ar.fina uHamzaabove-ar.fina 
-        uHamzaabove-ar.filled.fina wawring-ar.fina kirghizoe-ar.fina oe-ar.fina u-ar.fina u-ar.filled.fina 
-        yu-ar.fina kirghizyu-ar.fina wawTwodots-ar.fina ve-ar.fina wawDotabove-ar.fina wawTwoabove-ar.fina 
-        wawThreeAbove-ar.fina wawDotcenter-ar.fina 
-        
-    </class>
-
-    <class name='WawTighten'>
-        wawHamzaabove-ar oe-ar kirghizyu-ar wawTwodots-ar ve-ar wawHamzaabove-ar.fina oe-ar.fina kirghizyu-ar.fina
-        wawTwodots-ar.fina ve-ar.fina
-    </class>
-
-    <class name='WawTightenMore'>
-        waw-ar yu-ar wawDotabove-ar waw-ar.fina yu-ar.fina wawDotabove-ar.fina
-    </class>
-
-    <!-- The next two classes provide context for when the final-form yehbarree glyphs should use the .wide alternate 
-         in order to prevent its tail from hitting a preceding glyph -->
+    <!-- YehBarree substitution -->
+         
+    <!-- The next two classes provide context for when the final-form yehbarree glyphs should 
+         use the .wide alternate in order to prevent its tail from hitting a preceding glyph -->
 
     <!-- case 1: Always, i.e., whenever a yehbarree follows one of these (with or without any marks): -->
     <class name='YehBarreeContextAlways'>
-        ainThreedotsbelow-ar.init ainThreedotsbelow-ar.medi beeh-ar.init beeh-ar.medi beheh-ar.init beheh-ar.medi 
-        behThreedotsupbelow-ar.init behThreedotsupbelow-ar.medi behVbelow-ar.init behVbelow-ar.medi 
-        behVinvertedbelow-ar.init behVinvertedbelow-ar.medi dyeh-ar.init dyeh-ar.medi dyeh-ar.medi.hand e-ar.init 
-        e-ar.medi fehAfrican-ar.init fehAfrican-ar.medi fehDotbelow-ar.init fehDotbelow-ar.medi 
-        fehDotbelowThreedotsabove-ar.init fehDotbelowThreedotsabove-ar.medi fehDotmovedbelow-ar.init 
-        fehDotmovedbelow-ar.medi fehThreedotsbelow-ar.init fehThreedotsbelow-ar.medi fehThreedotsupbelow-ar.init 
-        fehThreedotsupbelow-ar.medi fehTwodotsbelow-ar.init fehTwodotsbelow-ar.medi ghainDotbelow-ar.init 
-        ghainDotbelow-ar.medi hahFourbelow-ar.init hahFourbelow-ar.medi hahFourbelow-ar.medi.hand hahTahbelow-ar.init 
-        hahTahbelow-ar.medi hahTahbelow-ar.medi.hand hahTahTwodotshorizontalabove-ar.init 
-        hahTahTwodotshorizontalabove-ar.medi hahTahTwodotshorizontalabove-ar.medi.hand hahThreedotsupbelow-ar.init 
-        hahThreedotsupbelow-ar.medi hahThreedotsupbelow-ar.medi.hand heh-ar.hooked.medi heh-ar.knottedHigh.medi heh-ar.medi 
-        hehDoachashmee-ar.medi hehgoal-ar.init hehgoal-ar.medi hehgoalHamzaabove-ar.init hehgoalHamzaabove-ar.medi 
-        jeemThreedotsbelow-ar.init jeemThreedotsbelow-ar.medi jeemThreedotsbelow-ar.medi.hand lamThreedotsbelow-ar.init 
-        lamThreedotsbelow-ar.medi meem-ar.init meem-ar.medi meemDotabove-ar.init meemDotabove-ar.medi meemDotbelow-ar.init 
-        meemDotbelow-ar.medi meemThreedotsabove-ar.init meemThreedotsabove-ar.medi noonDotbelow-ar.init noonDotbelow-ar.medi 
-        noonThreedotsabove-ar.init noonThreedotsabove-ar.medi nyeh-ar.medi.hand peh-ar.init peh-ar.medi pehMeemabove-ar.init 
-        pehMeemabove-ar.medi pehVabove-ar.init pehVabove-ar.medi qafDotbelow-ar.init qafDotbelow-ar.medi tcheh-ar.init 
-        tcheh-ar.medi tcheh-ar.medi.hand tchehDotabove-ar.init tchehDotabove-ar.medi tchehDotabove-ar.medi.hand 
-        tcheheh-ar.init tcheheh-ar.medi tcheheh-ar.medi.hand tchehVabove-ar.init tchehVabove-ar.medi 
-        tchehVabove-ar.medi.hand tehThreedotsupbelow-ar.init tehThreedotsupbelow-ar.medi yehFourbelow-farsi.init 
-        yehFourbelow-farsi.medi yehKashmiri-ar.init yehKashmiri-ar.medi yehThreedotsbelow-ar.init yehThreedotsbelow-ar.medi
+        ainThreedotsbelow-ar.init ainThreedotsbelow-ar.medi beeh-ar.init beeh-ar.medi beh-ar.init beh-ar.medi beheh-ar.init 
+        beheh-ar.medi behhamzaabove-ar.init behhamzaabove-ar.medi behMeemabove-ar.init behMeemabove-ar.medi 
+        behThreedotshorizontalbelow-ar.init behThreedotshorizontalbelow-ar.medi behThreedotsupabove-ar.init 
+        behThreedotsupabove-ar.medi behThreedotsupbelow-ar.init behThreedotsupbelow-ar.medi behTwodotsbelowDotabove-ar.init 
+        behTwodotsbelowDotabove-ar.medi behVbelow-ar.init behVbelow-ar.medi behVinvertedbelow-ar.init behVinvertedbelow-ar.medi 
+        dadDotbelow-ar.init dadDotbelow-ar.medi dyeh-ar.init dyeh-ar.medi dyeh-ar.medi.hand e-ar.init e-ar.medi 
+        fehAfrican-ar.init fehAfrican-ar.medi fehDotbelow-ar.init fehDotbelow-ar.medi fehDotbelowThreedotsabove-ar.init 
+        fehDotbelowThreedotsabove-ar.medi fehDotmovedbelow-ar.init fehDotmovedbelow-ar.medi fehThreedotsbelow-ar.init 
+        fehThreedotsbelow-ar.medi fehThreedotsupbelow-ar.init fehThreedotsupbelow-ar.medi fehTwodotsbelow-ar.init 
+        fehTwodotsbelow-ar.medi ghainDotbelow-ar.init ghainDotbelow-ar.medi hahFourbelow-ar.init hahFourbelow-ar.medi 
+        hahFourbelow-ar.medi.hand hahTahbelow-ar.init hahTahbelow-ar.medi hahTahbelow-ar.medi.hand 
+        hahTahTwodotshorizontalabove-ar.init hahTahTwodotshorizontalabove-ar.medi hahTahTwodotshorizontalabove-ar.medi.hand 
+        hahThreedotsupbelow-ar.init hahThreedotsupbelow-ar.medi hahThreedotsupbelow-ar.medi.hand heh-ar.hooked.init 
+        heh-ar.hooked.medi heh-ar.medi hehDoachashmee-ar.medi hehgoal-ar.init hehgoal-ar.medi hehgoalHamzaabove-ar.init 
+        hehgoalHamzaabove-ar.medi jeem-ar.medi.hand jeemThreedotsabove-ar.medi.hand jeemThreedotsbelow-ar.init 
+        jeemThreedotsbelow-ar.medi jeemThreedotsbelow-ar.medi.hand jeemTwodotsabove-ar.medi.hand kafThreedotsbelow-ar.init 
+        kafThreedotsbelow-ar.medi kehehThreedotsbelow-ar.init kehehThreedotsbelow-ar.medi kehehThreedotsupbelow-ar.init 
+        kehehThreedotsupbelow-ar.medi lamThreedotsbelow-ar.init lamThreedotsbelow-ar.medi meemDotbelow-ar.init 
+        meemDotbelow-ar.medi noonDotbelow-ar.init noonDotbelow-ar.medi noonThreedotsabove-ar.init noonThreedotsabove-ar.medi 
+        noonTwodotsbelow-ar.init noonTwodotsbelow-ar.medi nyeh-ar.medi.hand peh-ar.init peh-ar.medi pehMeemabove-ar.init 
+        pehMeemabove-ar.medi pehVabove-ar.init pehVabove-ar.medi qafDotbelow-ar.init qafDotbelow-ar.medi 
+        sadThreedotsbelow-ar.init sadThreedotsbelow-ar.medi sadTwodotsbelow-ar.init sadTwodotsbelow-ar.medi tcheh-ar.init 
+        tcheh-ar.medi tcheh-ar.medi.hand tchehDotabove-ar.init tchehDotabove-ar.medi tchehDotabove-ar.medi.hand tcheheh-ar.init 
+        tcheheh-ar.medi tcheheh-ar.medi.hand tchehVabove-ar.init tchehVabove-ar.medi tchehVabove-ar.medi.hand 
+        tehThreedotsupbelow-ar.init tehThreedotsupbelow-ar.medi yeh-ar.init yeh-ar.medi yeh-ar.noDots.init yeh-ar.noDots.medi 
+        yehbarreeThreeabove-ar.init yehbarreeThreeabove-ar.medi yehbarreeTwoabove-ar.init yehbarreeTwoabove-ar.medi 
+        yeh-farsi.init yeh-farsi.medi yehFourbelow-farsi.init yehFourbelow-farsi.medi yehKashmiri-ar.init yehKashmiri-ar.medi 
+        yehThreeabove-farsi.init yehThreeabove-farsi.medi yehThreedotsabove-farsi.init yehThreedotsabove-farsi.medi 
+        yehThreedotsbelow-ar.init yehThreedotsbelow-ar.medi yehTwoabove-farsi.init yehTwoabove-farsi.medi 
+        yehTwodotsabove-farsi.init yehTwodotsabove-farsi.medi yehTwodotsbelowDotabove-ar.init yehTwodotsbelowDotabove-ar.medi 
+        yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowHamzaabove-ar.medi yehTwodotsbelowNoonabove-ar.init 
+        yehTwodotsbelowNoonabove-ar.medi yehVabove-ar.init yehVabove-ar.medi yehVinverted-farsi.init yehVinverted-farsi.medi
     </class>
 
     <!-- case 2: If yehbarree follows one of these *and* some mark below -->
@@ -869,43 +644,42 @@
         ain-ar.init ain-ar.medi ainThreedots-ar.init ainThreedots-ar.medi ainThreedotsdownabove-ar.init 
         ainThreedotsdownabove-ar.medi ainTwodotshorizontalabove-ar.init ainTwodotshorizontalabove-ar.medi 
         ainTwodotsverticalabove-ar.init ainTwodotsverticalabove-ar.medi alefMaksura-ar.init alefMaksura-ar.medi 
-        beh-ar.init beh-ar.medi behDotless-ar.init behDotless-ar.medi behhamzaabove-ar.init behhamzaabove-ar.medi 
-        behMeemabove-ar.init behMeemabove-ar.medi behThreedotshorizontalbelow-ar.init behThreedotshorizontalbelow-ar.medi 
-        behThreedotsupabove-ar.init behThreedotsupabove-ar.medi behTwodotsbelowDotabove-ar.init 
-        behTwodotsbelowDotabove-ar.medi behVabove-ar.init behVabove-ar.medi dad-ar.init dad-ar.medi feh-ar.init feh-ar.medi 
-        fehDotless-ar.init fehDotless-ar.medi gaf-ar.init gaf-ar.medi gafInvertedstroke-ar.init gafInvertedstroke-ar.medi 
-        gafRing-ar.init gafRing-ar.medi gafThreedots-ar.init gafThreedots-ar.medi gafTwodotsbelow-ar.init 
-        gafTwodotsbelow-ar.medi ghain-ar.init ghain-ar.medi ghainThreedots-ar.init ghainThreedots-ar.medi hah-ar.init 
-        hah-ar.medi hah-ar.medi.hand hahHamzaabove-ar.init hahHamzaabove-ar.medi hahHamzaabove-ar.medi.hand 
-        hahTahabove-ar.init hahTahabove-ar.medi hahTahabove-ar.medi.hand hahThreedotsabove-ar.init 
+        behDotless-ar.init behDotless-ar.medi behVabove-ar.init behVabove-ar.medi dad-ar.init dad-ar.medi feh-ar.init 
+        feh-ar.medi fehDotless-ar.init fehDotless-ar.medi gaf-ar.init gaf-ar.medi gafInvertedstroke-ar.init 
+        gafInvertedstroke-ar.medi gafRing-ar.init gafRing-ar.medi gafThreedots-ar.init gafThreedots-ar.medi 
+        gafTwodotsbelow-ar.init gafTwodotsbelow-ar.medi ghain-ar.init ghain-ar.medi ghainThreedots-ar.init 
+        ghainThreedots-ar.medi hah-ar.init hah-ar.medi hah-ar.medi.hand hahHamzaabove-ar.init hahHamzaabove-ar.medi 
+        hahHamzaabove-ar.medi.hand hahTahabove-ar.init hahTahabove-ar.medi hahTahabove-ar.medi.hand hahThreedotsabove-ar.init 
         hahThreedotsabove-ar.medi hahThreedotsabove-ar.medi.hand hahTwodotshorizontalabove-ar.init 
         hahTwodotshorizontalabove-ar.medi hahTwodotshorizontalabove-ar.medi.hand hahTwodotsverticalabove-ar.init 
-        hahTwodotsverticalabove-ar.medi hahTwodotsverticalabove-ar.medi.hand heh-ar.hooked.init heh-ar.init 
-        hehDoachashmee-ar.init hehVinvertedabove-ar.init hehVinvertedabove-ar.medi highhamzaYeh-ar.init 
-        highhamzaYeh-ar.medi jeem-ar.init jeem-ar.medi jeem-ar.medi.hand jeemThreedotsabove-ar.init 
-        jeemThreedotsabove-ar.medi jeemThreedotsabove-ar.medi.hand jeemTwodotsabove-ar.init jeemTwodotsabove-ar.medi 
-        jeemTwodotsabove-ar.medi.hand khah-ar.init khah-ar.medi khah-ar.medi.hand lam-ar.init lam-ar.medi lamBar-ar.init 
-        lamBar-ar.medi lamDotabove-ar.init lamDotabove-ar.medi lamDoublebar-ar.init lamDoublebar-ar.medi 
-        lamTahabove-ar.init lamTahabove-ar.medi lamThreedotsabove-ar.init lamThreedotsabove-ar.medi lamVabove-ar.init 
-        lamVabove-ar.medi noonAfrican-ar.init noonAfrican-ar.medi noon-ar.init noon-ar.medi noonghunna-ar.init 
-        noonghunna-ar.medi noonRing-ar.init noonRing-ar.medi noonTahabove-ar.init noonTahabove-ar.medi 
-        noonTwodotsbelow-ar.init noonTwodotsbelow-ar.medi noonVabove-ar.init noonVabove-ar.medi nyeh-ar.init nyeh-ar.medi 
-        peheh-ar.init peheh-ar.medi qafAfrican-ar.init qafAfrican-ar.medi qafAfricanThreedotsabove-ar.init 
-        qafAfricanThreedotsabove-ar.medi qaf-ar.init qaf-ar.medi qafDotabove-ar.init qafDotabove-ar.medi 
-        qafDotless-ar.init qafDotless-ar.medi qafThreedotsabove-ar.init qafThreedotsabove-ar.medi rnoon-ar.init 
-        rnoon-ar.medi sad-ar.init sad-ar.medi sadThreedots-ar.init sadThreedots-ar.medi tah-ar.init tah-ar.medi 
-        tahThreedots-ar.init tahThreedots-ar.medi tahTwodotsabove-ar.init tahTwodotsabove-ar.medi teh-ar.init teh-ar.medi 
-        teheh-ar.init teheh-ar.medi tehRing-ar.init tehRing-ar.medi tehTehabove-ar.init tehTehabove-ar.medi 
-        tehThreedotsdown-ar.init tehThreedotsdown-ar.medi tehVabove-ar.init tehVabove-ar.medi theh-ar.init theh-ar.medi 
-        tteh-ar.init tteh-ar.medi tteheh-ar.init tteheh-ar.medi ttehVabove-ar.init ttehVabove-ar.medi veh-ar.init 
-        veh-ar.medi yeh-ar.init yeh-ar.medi yeh-ar.noDots.init yeh-ar.noDots.medi yehbarreeThreeabove-ar.init 
-        yehbarreeThreeabove-ar.medi yehbarreeTwoabove-ar.init yehbarreeTwoabove-ar.medi yeh-farsi.init yeh-farsi.medi 
-        yehHamzaabove-ar.init yehHamzaabove-ar.medi yehThreeabove-farsi.init yehThreeabove-farsi.medi 
-        yehThreedotsabove-farsi.init yehThreedotsabove-farsi.medi yehTwoabove-farsi.init yehTwoabove-farsi.medi 
-        yehTwodotsabove-farsi.init yehTwodotsabove-farsi.medi yehTwodotsbelowDotabove-ar.init 
-        yehTwodotsbelowDotabove-ar.medi yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowHamzaabove-ar.medi 
-        yehTwodotsbelowNoonabove-ar.init yehTwodotsbelowNoonabove-ar.medi yehVabove-ar.init yehVabove-ar.medi 
-        yehVinverted-farsi.init yehVinverted-farsi.medi zah-ar.init zah-ar.medi
+        hahTwodotsverticalabove-ar.medi hahTwodotsverticalabove-ar.medi.hand heh-ar.init heh-ar.knottedHigh.medi 
+        hehDoachashmee-ar.init hehVinvertedabove-ar.init hehVinvertedabove-ar.medi highhamzaYeh-ar.init highhamzaYeh-ar.medi 
+        jeem-ar.init jeem-ar.medi jeemThreedotsabove-ar.init jeemThreedotsabove-ar.medi jeemTwodotsabove-ar.init 
+        jeemTwodotsabove-ar.medi kaf-ar.init kaf-ar.medi kafDotabove-ar.init kafDotabove-ar.medi kafRing-ar.init 
+        kafRing-ar.medi kafTwodotshorizontalabove-ar.init kafTwodotshorizontalabove-ar.medi keheh-ar.init keheh-ar.medi 
+        kehehDotabove-ar.init kehehDotabove-ar.medi kehehThreedotsabove-ar.init kehehThreedotsabove-ar.medi 
+        kehehTwodotshorizontalabove-ar.init kehehTwodotshorizontalabove-ar.medi kehehVabove-ar.init kehehVabove-ar.medi 
+        khah-ar.init khah-ar.medi khah-ar.medi.hand lam-ar.init lam-ar.medi lamBar-ar.init lamBar-ar.medi 
+        lamDotabove-ar.init lamDotabove-ar.medi lamDoublebar-ar.init lamDoublebar-ar.medi lamTahabove-ar.init 
+        lamTahabove-ar.medi lamThreedotsabove-ar.init lamThreedotsabove-ar.medi lamVabove-ar.init lamVabove-ar.medi 
+        meem-ar.init meem-ar.medi meemDotabove-ar.init meemDotabove-ar.medi meemThreedotsabove-ar.init 
+        meemThreedotsabove-ar.medi ng-ar.init ng-ar.medi ngoeh-ar.init ngoeh-ar.medi noonAfrican-ar.init noonAfrican-ar.medi 
+        noon-ar.init noon-ar.medi noonghunna-ar.init noonghunna-ar.medi noonRing-ar.init noonRing-ar.medi noonTahabove-ar.init 
+        noonTahabove-ar.medi noonVabove-ar.init noonVabove-ar.medi nyeh-ar.init nyeh-ar.medi peheh-ar.init peheh-ar.medi 
+        qafAfrican-ar.init qafAfrican-ar.medi qafAfricanThreedotsabove-ar.init qafAfricanThreedotsabove-ar.medi qaf-ar.init 
+        qaf-ar.medi qafDotabove-ar.init qafDotabove-ar.medi qafDotless-ar.init qafDotless-ar.medi qafThreedotsabove-ar.init 
+        qafThreedotsabove-ar.medi rnoon-ar.init rnoon-ar.medi sad-ar.init sad-ar.medi sadThreedots-ar.init sadThreedots-ar.medi 
+        seen-ar.init seen-ar.medi seenDotbelowDotabove-ar.init seenDotbelowDotabove-ar.medi seenFourabove-ar.init 
+        seenFourabove-ar.medi seenFourdotsabove-ar.init seenFourdotsabove-ar.medi seenTahTwodotshorizontalabove-ar.init 
+        seenTahTwodotshorizontalabove-ar.medi seenThreedotsbelow-ar.init seenThreedotsbelow-ar.medi 
+        seenTwodotshorizontalabove-ar.init seenTwodotshorizontalabove-ar.medi seenVinvertedabove-ar.init 
+        seenVinvertedabove-ar.medi sheen-ar.init sheen-ar.medi sheenDotbelow-ar.init sheenDotbelow-ar.medi 
+        sheenThreedotsbelow-ar.init sheenThreedotsbelow-ar.medi tah-ar.init tah-ar.medi tahThreedots-ar.init 
+        tahThreedots-ar.medi tahTwodotsabove-ar.init tahTwodotsabove-ar.medi teh-ar.init teh-ar.medi teheh-ar.init 
+        teheh-ar.medi tehRing-ar.init tehRing-ar.medi tehTehabove-ar.init tehTehabove-ar.medi tehThreedotsdown-ar.init 
+        tehThreedotsdown-ar.medi tehVabove-ar.init tehVabove-ar.medi theh-ar.init theh-ar.medi tteh-ar.init tteh-ar.medi 
+        tteheh-ar.init tteheh-ar.medi ttehVabove-ar.init ttehVabove-ar.medi veh-ar.init veh-ar.medi yehHamzaabove-ar.init 
+        yehHamzaabove-ar.medi zah-ar.init zah-ar.medi
     </class>
 
 </classes>
