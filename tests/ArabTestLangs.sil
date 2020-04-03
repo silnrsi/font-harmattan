@@ -74,31 +74,29 @@
 
 %%%%% TESTS
 
-\proof[size="10pt,11pt,12pt,16pt",heading=A simple waterfall]{Now is the time for all good men to come to the aid of their country. }
-\proof[size="10pt,11pt,12pt,16pt",direction = "rtl",heading=A simple waterfall]{لكل شخص الحق في التعلم. ويجب أن يكون التعليم في مراحله الأولى والأساسية على الأقل بالمجان، وأن يكون التعليم الأولي إلزاميا وينبغي أن يعمم التعليم الفني والمهني، وأن ييسر القبول للتعليم العالي على قدم المساواة التامة للجميع وعلى أساس الكفاءة.         }
-
-
-\subsection{CONSONANT VOWEL COMBINATIONS}
-\pattern[chars="@,#",reps="group_ain,group_vowel-above",format="table"]{@#}
-\pattern[chars="@,#",reps="group_beh,group_vowel-above",format="table"]{@#}
-
-\subsection{CONSONANT VOWEL TONE COMBINATIONS}
-\pattern[chars="@,#,&",reps="group_ain,group_vowel-above,group_tone-above",format="table"]{@#&}
-
-\subsection{REH COMBINATIONS}
-\pattern[chars="@,#",reps="group_ain,group_reh",format="table"]{@#}
-
-\subsection{SUBTENDING MARKS - single}
-\pattern[chars="@,#",reps="group_subtending,group_digits-indic",format="table"]{@#}
-
-\subsection{SUBTENDING MARKS - double}
-\pattern[chars="@,#,&",reps="group_subtending,group_digits-indic,group_digits-indic-one",format="table"]{@#&}
-
-\subsection{SUBTENDING MARKS - triple}
-\pattern[chars="@,#,&",reps="group_subtending,group_digits-indic,group_digits-indic-two",format="table"]{١@#&}
 
 \subsection{SUBTENDING MARKS - four}
 \pattern[chars="@,#,&",reps="group_subtending,group_digits-indic,group_digits-indic-one",format="table"]{@٢٠#&}
+
+\subsection{Features (Urdu)}
+\setTestFont[language="URD"]
+\pattern[chars="@",reps="group_meem",format="list"]{@ @@@}
+\pattern[chars="@",reps="group_dal",format="list"]{@ ؠ@}
+\pattern[chars="@",reps="group_digits-indic-ext",format="list"]{@}
+\pattern[chars="@,#",reps="group_shadda,group_vowel-below",format="list"]{ب@#}
+\proof[size="24pt"]{ههه ه}
+
+\setTestFont[language="dflt"]
+
+\subsection{Features (Sindhi)}
+\setTestFont[language="SND"]
+\pattern[chars="@",reps="group_meem",format="list"]{@ @@@}
+\pattern[chars="@",reps="group_dal",format="list"]{@ ؠ@}
+\pattern[chars="@",reps="group_digits-indic-ext",format="list"]{@}
+\pattern[chars="@,#",reps="group_shadda,group_vowel-below",format="list"]{ب@#}
+\proof[size="24pt"]{ههه ه}
+
+\setTestFont[language="dflt"]
 
 
 \end{document}
