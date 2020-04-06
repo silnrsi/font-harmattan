@@ -183,6 +183,21 @@ def doit(args):
         ftml.addToTest(None, r"\u0627\u0644\u200D\u0644\u0651\u0670\u0647", label = "a-l-zwj-l-s-da-h", comment = "Rule 4a: shouldn't match")
         ftml.closeTest()
 
+    if test.lower().startswith("al sorted"):
+        # all AL chars, sorted by shape:
+        ftml.startTestGroup('Arabic Letters')
+        for uid in sorted(filter(lambda u: get_ucd(u, 'bc') == 'AL', builder.uids()), key=joinGoupSortKey):
+            c = builder.char(uid)
+            for featlist in builder.permuteFeatures(uids = (uid,)):
+                ftml.setFeatures(featlist)
+                builder.render((uid,), ftml)
+            ftml.clearFeatures()
+            if len(c.langs):
+                for langID in builder.allLangs:
+                    ftml.setLang(langID)
+                    builder.render((uid,), ftml)
+                ftml.clearLang()
+
     if test.lower().startswith("diac"):
         # Diac attachment:
 
