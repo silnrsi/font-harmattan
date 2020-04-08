@@ -16,8 +16,6 @@
   <string>allah-ar.glif</string>
   <key>allah-ar.alt</key>
   <string>allah-ar.alt.glif</string>
-  <key>asteriskArt-ar</key>
-  <string>asteriskA_rt-ar.glif</string>
   <key>dal-ar.fina</key>
   <string>dal-ar.fina.glif</string>
   <key>dal-ar.fina.loclWLF</key>
@@ -36,6 +34,8 @@
   <string>hehD_oachashmee-ar.init.glif</string>
   <key>hehDoachashmee-ar.init.001</key>
   <string>hehD_oachashmee-ar.init.001.glif</string>
+  <key>hizb-ar</key>
+  <string>hizb-ar.glif</string>
   <key>kaf-ar.init</key>
   <string>kaf-ar.init.glif</string>
   <key>kaf-ar.init.001</key>

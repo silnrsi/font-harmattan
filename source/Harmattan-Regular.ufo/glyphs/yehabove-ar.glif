@@ -3,6 +3,6 @@
   <unicode hex="06E7"/>
   <anchor x="-13" y="1180" name="_diaA"/>
   <outline>
-    <component base="yehbelow-ar" xOffset="-309" yOffset="1288"/>
+    <component base="yehsmall-ar" xOffset="-309" yOffset="1288"/>
   </outline>
 </glyph>
