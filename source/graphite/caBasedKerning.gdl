@@ -86,22 +86,10 @@ cRehAll { collision {
 
 // Other chars needed:
 g_space { collision.flags = COLL_END + COLL_START } ;
-// g_zerowidthjoiner { collision.flags = COLL_IGNORE};  // not needed since we remove them in pass 4
+g_zerowidthjoiner { collision.flags = COLL_IGNORE} ;  
 
 endtable; // glyph
 
-//---------------------------------------------------
-table(substitution)
-
-pass(4) // Features, special behaviors
-
-    // Remove zero-width joiners and non-joiners so they don't get included in generated kerning rules
-    ANY (g_zerowidthjoiner g_zerowidthnonjoiner)     >   @1:(1 2) _ ;
-        (g_zerowidthjoiner g_zerowidthnonjoiner) ANY > _ @2:(1 2)   ;
-    
-endpass; // 4
-
-endtable; // sub
 
 
 //---------------------------------------------------

@@ -10,6 +10,8 @@
 # $R is the clustering radius for computing the OpenType kerning. Default is 20 but can be overridden, e.g.:
 #      export R=50 updateKerning
 
+# --nooctalap causes script to assume optimized octaboxes needn't be recomputed
+
 set -x
 set -e
 
@@ -45,12 +47,14 @@ echo "\nrebuilding collision-avoidance-based kerning...\n"
 outdir=results/grkern2fea_r${R:=20}
 mkdir -p $outdir
 
-( grkern2fea -e graphite -i source/kerndata.ftml             -f results/Harmattan-Regular.ttf                 $outdir/rawPairData-Regular.txt ; \
-grkern2fea -s strings  -i $outdir/rawPairData-Regular.txt -f results/Harmattan-Regular.ttf  -r ${R:=20} -R $outdir/caKern-Regular.fea;       \
+( grkern2fea -e graphite -i source/kerndata.ftml                -f results/Harmattan-Regular.ttf                 $outdir/rawPairData-Regular.txt        ; \
+tools/bin/renumberKernData.py $outdir/rawPairData-Regular.txt                                                    $outdir/rawPairData-Regular-nozwj.txt  ; \
+grkern2fea -s strings  -i $outdir/rawPairData-Regular-nozwj.txt -f results/Harmattan-Regular.ttf  -r ${R:=20} -R $outdir/caKern-Regular.fea             ; \
 sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Regular.fea  > source/opentype/caKern-Regular.fea ) &
 
-( grkern2fea -e graphite -i source/kerndata.ftml            -f results/Harmattan-Bold.ttf                 $outdir/rawPairData-Bold.txt ; \
-grkern2fea -s strings -i $outdir/rawPairData-Bold.txt    -f results/Harmattan-Bold.ttf  -r ${R:=20} -R $outdir/caKern-Bold.fea;       \
+( grkern2fea -e graphite -i source/kerndata.ftml                -f results/Harmattan-Bold.ttf                 $outdir/rawPairData-Bold.txt        ; \
+tools/bin/renumberKernData.py $outdir/rawPairData-Bold.txt                                                    $outdir/rawPairData-Bold-nozwj.txt  ; \
+grkern2fea -s strings -i $outdir/rawPairData-Bold-nozwj.txt     -f results/Harmattan-Bold.ttf  -r ${R:=20} -R $outdir/caKern-Bold.fea             ; \
 sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Bold.fea  > source/opentype/caKern-Bold.fea ) &
 
 wait
