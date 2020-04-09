@@ -427,7 +427,7 @@
       <string>\u00075C \u00075C\u00200D \u00200D\u00075C\u00200D \u00200D\u00075C \u00075C\u00075C\u00075C </string>
     </test>
     <test label="U+076D">
-      <comment>seenTwodotshorizontalabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar</comment>
       <string>\u00076D \u00076D\u00200D \u00200D\u00076D\u00200D \u00200D\u00076D \u00076D\u00076D\u00076D </string>
     </test>
     <test label="U+0770">
@@ -1131,11 +1131,11 @@
       <string>\u00076E \u00076E\u00200D \u00200D\u00076E\u00200D \u00200D\u00076E \u00076E\u00076E\u00076E </string>
     </test>
     <test label="U+076F">
-      <comment>hahTahTwodotshorizontalabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar</comment>
       <string>\u00076F \u00076F\u00200D \u00200D\u00076F\u00200D \u00200D\u00076F \u00076F\u00076F\u00076F </string>
     </test>
     <test label="U+076F" stylename="cv08_1">
-      <comment>hahTahTwodotshorizontalabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar</comment>
       <string>\u00076F \u00076F\u00200D \u00200D\u00076F\u00200D \u00200D\u00076F \u00076F\u00076F\u00076F </string>
     </test>
     <test label="U+0772">

@@ -27210,7 +27210,7 @@ lookup kernpos_788 {
 @kernClass_35 = [noon-ar.init noonAfrican-ar.init];  # used 6 times
 @kernClass_36 = [heh-ar.knotted hehVinvertedabove-ar];  # used 6 times
 @kernClass_37 = [qafDotless-ar qafAfricanThreedotsabove-ar];  # used 6 times
-@kernClass_38 = [seen-ar.init seenTwodotshorizontalabove-ar.init];  # used 6 times
+@kernClass_38 = [seen-ar.init seenTwodotsverticalabove-ar.init];  # used 6 times
 @kernClass_39 = [behThreedotsupbelow-ar.init tehThreedotsupbelow-ar.init];  # used 6 times
 @kernClass_40 = [heh-ar.init hehDoachashmee-ar.init hehVinvertedabove-ar.init];  # used 6 times
 @kernClass_41 = [seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar.init seenVinvertedabove-ar.init];  # used 6 times
@@ -28529,7 +28529,7 @@ lookup mainkern {
     pos @kernClass_47' lookup kernpos_263 @_diaB noonRing-ar.init;
     pos @kernClass_47' lookup kernpos_264 @_diaA noonRing-ar.init;
     pos @kernClass_4' lookup kernpos_266 @_diaB ghainThreedots-ar.init;
-    pos @kernClass_4' lookup kernpos_267 @_diaB seenTwodotshorizontalabove-ar.init;
+    pos @kernClass_4' lookup kernpos_267 @_diaB seenTwodotsverticalabove-ar.init;
     pos @kernClass_4' lookup kernpos_268 @_diaB seenVinvertedabove-ar.init;
     pos @kernClass_4' lookup kernpos_269 @_diaB seenTahTwodotshorizontalabove-ar.init;
     pos @kernClass_4' lookup kernpos_270 @_diaB @kernClass_154;
@@ -28542,7 +28542,7 @@ lookup mainkern {
     pos @kernClass_4' lookup kernpos_277 @_diaB @kernClass_145;
     pos @kernClass_4' lookup kernpos_278 @_diaB ainThreedotsdownabove-ar.init;
     pos @kernClass_4' lookup kernpos_279 @_diaA @kernClass_148;
-    pos @kernClass_4' lookup kernpos_280 @_diaA seenTwodotshorizontalabove-ar.init;
+    pos @kernClass_4' lookup kernpos_280 @_diaA seenTwodotsverticalabove-ar.init;
     pos @kernClass_4' lookup kernpos_281 @_diaA seenVinvertedabove-ar.init;
     pos @kernClass_4' lookup kernpos_282 @_diaA seenTahTwodotshorizontalabove-ar.init;
     pos @kernClass_4' lookup kernpos_283 @_diaA @kernClass_154;
@@ -28643,7 +28643,7 @@ lookup mainkern {
     pos @kernClass_70' lookup kernpos_372 @kernClass_52 @_diaB;
     pos @kernClass_15' lookup kernpos_372 @kernClass_48 @_diaB;
     pos @kernClass_3' lookup kernpos_373 @_diaA sadTwodotsbelow-ar.init;
-    pos @kernClass_3' lookup kernpos_374 @kernClass_2 hahTahTwodotshorizontalabove-ar.init;
+    pos @kernClass_3' lookup kernpos_374 @kernClass_2 hahTahTwodotshorizontalbelow-ar.init;
     pos @kernClass_3' lookup kernpos_375 @kernClass_2 hahTahbelow-ar.init;
     pos @kernClass_3' lookup kernpos_376 @_diaA dahal-ar;
     pos @kernClass_3' lookup kernpos_377 @_diaA sadThreedots-ar;
@@ -28681,14 +28681,14 @@ lookup mainkern {
     pos @kernClass_45' lookup kernpos_408 @_diaB tahTwodotsabove-ar.init;
     pos @kernClass_45' lookup kernpos_409 @_diaA tahTwodotsabove-ar;
     pos @kernClass_45' lookup kernpos_410 @_diaA tahTwodotsabove-ar.init;
-    pos @kernClass_9' lookup kernpos_411 @_diaB seenTwodotshorizontalabove-ar;
+    pos @kernClass_9' lookup kernpos_411 @_diaB seenTwodotsverticalabove-ar;
     pos @kernClass_9' lookup kernpos_412 @_diaB seenDotbelowDotabove-ar;
     pos @kernClass_9' lookup kernpos_413 @_diaB seen-ar.init;
     pos @kernClass_9' lookup kernpos_414 @_diaB seenFourdotsabove-ar.init;
     pos @kernClass_9' lookup kernpos_415 @_diaB sheenDotbelow-ar.init;
     pos @kernClass_9' lookup kernpos_416 @_diaB sheen-ar.init;
     pos @kernClass_9' lookup kernpos_417 @_diaB sheen-ar;
-    pos @kernClass_9' lookup kernpos_418 @_diaA seenTwodotshorizontalabove-ar;
+    pos @kernClass_9' lookup kernpos_418 @_diaA seenTwodotsverticalabove-ar;
     pos @kernClass_9' lookup kernpos_419 @_diaA seenDotbelowDotabove-ar;
     pos @kernClass_9' lookup kernpos_420 @_diaA seen-ar.init;
     pos @kernClass_9' lookup kernpos_421 @_diaA seenFourdotsabove-ar.init;
@@ -29002,7 +29002,7 @@ lookup mainkern {
     pos @kernClass_228' lookup kernpos_768 @kernClass_2 @kernClass_180;
     pos @kernClass_87' lookup kernpos_768 @kernClass_2 @kernClass_191;
     pos @kernClass_87' lookup kernpos_769 @kernClass_2 @kernClass_169;
-    pos @kernClass_81' lookup kernpos_770 @kernClass_2 hahTahTwodotshorizontalabove-ar;
+    pos @kernClass_81' lookup kernpos_770 @kernClass_2 hahTahTwodotshorizontalbelow-ar;
     pos @kernClass_81' lookup kernpos_771 @kernClass_2 dalTwodotsverticalbelowTah-ar.loclWLF;
     pos @kernClass_226' lookup kernpos_772 @kernClass_35 @_diaA;
     pos @kernClass_230' lookup kernpos_773 noonRing-ar.init @_diaA;
@@ -29176,7 +29176,7 @@ lookup mainkern {
     pos @kernClass_47' lookup kernpos_261 veh-ar;
     pos @kernClass_47' lookup kernpos_263 noonRing-ar.init;
     pos @kernClass_4' lookup kernpos_266 ghainThreedots-ar.init;
-    pos @kernClass_4' lookup kernpos_267 seenTwodotshorizontalabove-ar.init;
+    pos @kernClass_4' lookup kernpos_267 seenTwodotsverticalabove-ar.init;
     pos @kernClass_4' lookup kernpos_268 seenVinvertedabove-ar.init;
     pos @kernClass_4' lookup kernpos_269 seenTahTwodotshorizontalabove-ar.init;
     pos @kernClass_4' lookup kernpos_270 @kernClass_154;
@@ -29235,7 +29235,7 @@ lookup mainkern {
     pos @kernClass_3' lookup kernpos_358 sadThreedots-ar;
     pos @kernClass_3' lookup kernpos_360 tteheh-ar.init;
     pos @kernClass_3' lookup kernpos_361 highhamzaYeh-ar.init;
-    pos @kernClass_3' lookup kernpos_374 hahTahTwodotshorizontalabove-ar.init;
+    pos @kernClass_3' lookup kernpos_374 hahTahTwodotshorizontalbelow-ar.init;
     pos @kernClass_3' lookup kernpos_375 hahTahbelow-ar.init;
     pos @kernClass_3' lookup kernpos_378 dalDotbelow-ar;
     pos @kernClass_3' lookup kernpos_379 dalDotbelowTah-ar;
@@ -29255,7 +29255,7 @@ lookup mainkern {
     pos @kernClass_3' lookup kernpos_405 lamDoublebar-ar.init;
     pos @kernClass_45' lookup kernpos_407 tahTwodotsabove-ar;
     pos @kernClass_45' lookup kernpos_408 tahTwodotsabove-ar.init;
-    pos @kernClass_9' lookup kernpos_411 seenTwodotshorizontalabove-ar;
+    pos @kernClass_9' lookup kernpos_411 seenTwodotsverticalabove-ar;
     pos @kernClass_9' lookup kernpos_412 seenDotbelowDotabove-ar;
     pos @kernClass_9' lookup kernpos_413 seen-ar.init;
     pos @kernClass_9' lookup kernpos_414 seenFourdotsabove-ar.init;
@@ -29364,6 +29364,6 @@ lookup mainkern {
     pos @kernClass_228' lookup kernpos_768 @kernClass_180;
     pos @kernClass_87' lookup kernpos_768 @kernClass_191;
     pos @kernClass_87' lookup kernpos_769 @kernClass_169;
-    pos @kernClass_81' lookup kernpos_770 hahTahTwodotshorizontalabove-ar;
+    pos @kernClass_81' lookup kernpos_770 hahTahTwodotshorizontalbelow-ar;
     pos @kernClass_81' lookup kernpos_771 dalTwodotsverticalbelowTah-ar.loclWLF;
 } mainkern;

@@ -3699,17 +3699,17 @@ U+0670" stylename="cv76_2">
     </test>
     <test label="U+06E6
 U+064E">
-      <comment>yehbelow-ar fatha-ar</comment>
+      <comment>yehSmall-ar fatha-ar</comment>
       <string>\u0006E6\u00064E \u0006E6\u000650 \u0006E6\u000670</string>
     </test>
     <test label="U+06E6
 U+0670" stylename="cv76_1">
-      <comment>yehbelow-ar alefabove-ar</comment>
+      <comment>yehSmall-ar alefabove-ar</comment>
       <string>\u0006E6\u000670</string>
     </test>
     <test label="U+06E6
 U+0670" stylename="cv76_2">
-      <comment>yehbelow-ar alefabove-ar</comment>
+      <comment>yehSmall-ar alefabove-ar</comment>
       <string>\u0006E6\u000670</string>
     </test>
     <test label="U+06EE
@@ -4519,17 +4519,17 @@ U+0670" stylename="cv76_2">
     </test>
     <test label="U+076D
 U+064E">
-      <comment>seenTwodotshorizontalabove-ar fatha-ar</comment>
+      <comment>seenTwodotsverticalabove-ar fatha-ar</comment>
       <string>\u00076D\u00064E \u00076D\u00064E\u00076D\u00064E\u00076D\u00064E  \u00076D\u000650 \u00076D\u000650\u00076D\u000650\u00076D\u000650  \u00076D\u000670 \u00076D\u000670\u00076D\u000670\u00076D\u000670 </string>
     </test>
     <test label="U+076D
 U+0670" stylename="cv76_1">
-      <comment>seenTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar alefabove-ar</comment>
       <string>\u00076D\u000670 \u00076D\u000670\u00076D\u000670\u00076D\u000670 </string>
     </test>
     <test label="U+076D
 U+0670" stylename="cv76_2">
-      <comment>seenTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar alefabove-ar</comment>
       <string>\u00076D\u000670 \u00076D\u000670\u00076D\u000670\u00076D\u000670 </string>
     </test>
     <test label="U+076E
@@ -4584,52 +4584,52 @@ U+0670" stylename="cv08_1_cv76_2">
     </test>
     <test label="U+076F
 U+064E">
-      <comment>hahTahTwodotshorizontalabove-ar fatha-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar fatha-ar</comment>
       <string>\u00076F\u00064E \u00076F\u00064E\u00076F\u00064E\u00076F\u00064E </string>
     </test>
     <test label="U+076F
 U+064E" stylename="cv08_1">
-      <comment>hahTahTwodotshorizontalabove-ar fatha-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar fatha-ar</comment>
       <string>\u00076F\u00064E \u00076F\u00064E\u00076F\u00064E\u00076F\u00064E </string>
     </test>
     <test label="U+076F
 U+0650">
-      <comment>hahTahTwodotshorizontalabove-ar kasra-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar kasra-ar</comment>
       <string>\u00076F\u000650 \u00076F\u000650\u00076F\u000650\u00076F\u000650 </string>
     </test>
     <test label="U+076F
 U+0650" stylename="cv08_1">
-      <comment>hahTahTwodotshorizontalabove-ar kasra-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar kasra-ar</comment>
       <string>\u00076F\u000650 \u00076F\u000650\u00076F\u000650\u00076F\u000650 </string>
     </test>
     <test label="U+076F
 U+0670">
-      <comment>hahTahTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar alefabove-ar</comment>
       <string>\u00076F\u000670 \u00076F\u000670\u00076F\u000670\u00076F\u000670 </string>
     </test>
     <test label="U+076F
 U+0670" stylename="cv76_1">
-      <comment>hahTahTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar alefabove-ar</comment>
       <string>\u00076F\u000670 \u00076F\u000670\u00076F\u000670\u00076F\u000670 </string>
     </test>
     <test label="U+076F
 U+0670" stylename="cv76_2">
-      <comment>hahTahTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar alefabove-ar</comment>
       <string>\u00076F\u000670 \u00076F\u000670\u00076F\u000670\u00076F\u000670 </string>
     </test>
     <test label="U+076F
 U+0670" stylename="cv08_1">
-      <comment>hahTahTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar alefabove-ar</comment>
       <string>\u00076F\u000670 \u00076F\u000670\u00076F\u000670\u00076F\u000670 </string>
     </test>
     <test label="U+076F
 U+0670" stylename="cv08_1_cv76_1">
-      <comment>hahTahTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar alefabove-ar</comment>
       <string>\u00076F\u000670 \u00076F\u000670\u00076F\u000670\u00076F\u000670 </string>
     </test>
     <test label="U+076F
 U+0670" stylename="cv08_1_cv76_2">
-      <comment>hahTahTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar alefabove-ar</comment>
       <string>\u00076F\u000670 \u00076F\u000670\u00076F\u000670\u00076F\u000670 </string>
     </test>
     <test label="U+0770

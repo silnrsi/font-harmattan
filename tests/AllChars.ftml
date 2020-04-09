@@ -1302,7 +1302,7 @@
       <string>\u0006DD</string>
     </test>
     <test label="U+06DE">
-      <comment>asteriskArt-ar</comment>
+      <comment>hizb-ar</comment>
       <string>\u0006DE \u000628\u0006DF \u000628\u0006E0 \u000628\u0006E1 \u000628\u0006E2 \u000628\u0006E3 \u000628\u0006E4 \u0006E5 \u0006E6 \u000628\u0006E7 \u000628\u0006E8 \u0006E9 \u000628\u0006EA \u000628\u0006EB \u000628\u0006EC \u000628\u0006ED</string>
     </test>
     <test label="U+06EE">
@@ -1706,7 +1706,7 @@
       <string>\u00076C \u00200D\u00076C </string>
     </test>
     <test label="U+076D">
-      <comment>seenTwodotshorizontalabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar</comment>
       <string>\u00076D \u00076D\u00200D \u00200D\u00076D\u00200D \u00200D\u00076D \u00076D\u00076D\u00076D </string>
     </test>
     <test label="U+076E">
@@ -1718,11 +1718,11 @@
       <string>\u00076E \u00076E\u00200D \u00200D\u00076E\u00200D \u00200D\u00076E \u00076E\u00076E\u00076E </string>
     </test>
     <test label="U+076F">
-      <comment>hahTahTwodotshorizontalabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar</comment>
       <string>\u00076F \u00076F\u00200D \u00200D\u00076F\u00200D \u00200D\u00076F \u00076F\u00076F\u00076F </string>
     </test>
     <test label="U+076F" stylename="cv08_1">
-      <comment>hahTahTwodotshorizontalabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar</comment>
       <string>\u00076F \u00076F\u00200D \u00200D\u00076F\u00200D \u00200D\u00076F \u00076F\u00076F\u00076F </string>
     </test>
     <test label="U+0770">

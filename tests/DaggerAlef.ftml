@@ -474,17 +474,17 @@ U+0670" stylename="cv76_2">
     </test>
     <test label="U+076D
 U+0670">
-      <comment>seenTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar alefabove-ar</comment>
       <string>\u00076D\u000670 \u00076D\u000670\u00200D \u00200D\u00076D\u000670\u00200D \u00200D\u00076D\u000670 \u00076D\u000670\u00076D\u000670\u00076D\u000670 </string>
     </test>
     <test label="U+076D
 U+0670" stylename="cv76_1">
-      <comment>seenTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar alefabove-ar</comment>
       <string>\u00076D\u000670 \u00076D\u000670\u00200D \u00200D\u00076D\u000670\u00200D \u00200D\u00076D\u000670 \u00076D\u000670\u00076D\u000670\u00076D\u000670 </string>
     </test>
     <test label="U+076D
 U+0670" stylename="cv76_2">
-      <comment>seenTwodotshorizontalabove-ar alefabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar alefabove-ar</comment>
       <string>\u00076D\u000670 \u00076D\u000670\u00200D \u00200D\u00076D\u000670\u00200D \u00200D\u00076D\u000670 \u00076D\u000670\u00076D\u000670\u00076D\u000670 </string>
     </test>
     <test label="U+0770

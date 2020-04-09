@@ -243,11 +243,11 @@
       <string>\u076E\u06EC\u06D2 \u200D\u076E\u06EC\u06D2 \u076E\u064D\u06EC\u06D2 \u200D\u076E\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+076F">
-      <comment>hahTahTwodotshorizontalabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar</comment>
       <string>\u076F\u06EC\u06D2 \u200D\u076F\u06EC\u06D2 \u076F\u064D\u06EC\u06D2 \u200D\u076F\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+076F" stylename="cv08_1">
-      <comment>hahTahTwodotshorizontalabove-ar</comment>
+      <comment>hahTahTwodotshorizontalbelow-ar</comment>
       <string>\u076F\u06EC\u06D2 \u200D\u076F\u06EC\u06D2 \u076F\u064D\u06EC\u06D2 \u200D\u076F\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+0685">
@@ -635,7 +635,7 @@
       <string>\u069B\u06EC\u06D2 \u200D\u069B\u06EC\u06D2 \u069B\u064D\u06EC\u06D2 \u200D\u069B\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+076D">
-      <comment>seenTwodotshorizontalabove-ar</comment>
+      <comment>seenTwodotsverticalabove-ar</comment>
       <string>\u076D\u06EC\u06D2 \u200D\u076D\u06EC\u06D2 \u076D\u064D\u06EC\u06D2 \u200D\u076D\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+077E">

@@ -10407,7 +10407,7 @@
             875.2285714285716
         ]
     ],
-    "hahTahTwodotshorizontalabove-ar": [
+    "hahTahTwodotshorizontalbelow-ar": [
         [
             321.9165245858145,
             417.0,
@@ -10569,7 +10569,7 @@
             925.0416666666667
         ]
     ],
-    "hahTahTwodotshorizontalabove-ar.init": [
+    "hahTahTwodotshorizontalbelow-ar.init": [
         [
             -20.000000000000057,
             101.00000000000001,
@@ -20235,7 +20235,7 @@
             531.5085287874417
         ]
     ],
-    "seenTwodotshorizontalabove-ar": [
+    "seenTwodotsverticalabove-ar": [
         [
             128.8053109668405,
             331.00000000000006,
@@ -20347,7 +20347,7 @@
             1489.9921717070629
         ]
     ],
-    "seenTwodotshorizontalabove-ar.init": [
+    "seenTwodotsverticalabove-ar.init": [
         [
             543.2857142857143,
             698.5652173913044,
