@@ -213,18 +213,6 @@
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
     </test>
-    <test label="U+06DD urdu" stylename="ku">
-      <comment>4 6 7</comment>
-      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
-    </test>
-    <test label="U+06DD urdu" stylename="ku_cv80_1">
-      <comment>4 6 7</comment>
-      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
-    </test>
-    <test label="U+06DD urdu" stylename="ku_cv80_2">
-      <comment>4 6 7</comment>
-      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
-    </test>
     <test label="U+06DD urdu" stylename="sd">
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
@@ -246,6 +234,18 @@
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06DD urdu" stylename="ur_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ku">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ku_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ku_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
     </test>
