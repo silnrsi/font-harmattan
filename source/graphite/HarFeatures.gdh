@@ -396,10 +396,9 @@ kurdish {
 };
 
 rohingya {
-    languages = (
-     "rhg"   // Rohingya
-    );
+    languages = ( "rhg" );     // Rohingya
     easternDigits = rohingya;
+    dammatanAlt = sixNine;
     // shaddaKasra = lowered;  // is the default for Harmattan
 };
 

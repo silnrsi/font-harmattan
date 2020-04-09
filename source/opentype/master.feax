@@ -16,10 +16,11 @@
 #**********************************
 
 languagesystem arab dflt ;
-languagesystem arab KUR  ;
-languagesystem arab SND  ;
-languagesystem arab URD  ;
-languagesystem arab WLF  ;
+languagesystem arab KUR  ;    # Kurdish
+languagesystem arab RHG  ;    # Rohingha -- supported by Harfbuzz
+languagesystem arab SND  ;    # Sindhi
+languagesystem arab URD  ;    # Urdu
+languagesystem arab WLF  ;    # Wolof
 languagesystem latn dflt ;
 
 
@@ -300,6 +301,22 @@ lookup ReorderMaddaVowel2 {
 #********************
 # Language CALTs
 
+lookup KurdishCALT {
+  lookupflag 0 ;
+    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar by heh-ar.knotted ;
+    sub @Kasra_lowered by @Kasra ;
+} KurdishCALT;
+
+lookup RohingyaCALT {
+  lookupflag 0 ;
+    sub four-persian by four-persian.roh ;
+    sub six-persian by six-persian.urdu ;
+    sub seven-persian by seven-persian.urdu ;
+    sub @cno_sixNine by @c_sixNine ;
+    sub @Kasra by @Kasra_lowered ;
+} RohingyaCALT  ;
+
 lookup SindhiCALT {
   lookupflag 0 ;
     sub heh-ar.medi by heh-ar.knottedHigh.medi ;
@@ -309,7 +326,6 @@ lookup SindhiCALT {
     sub seven-persian by seven-persian.urdu ;
     sub @Meem by @Meem.sindhi ;
     sub @Kasra by @Kasra_lowered ;
-
 } SindhiCALT;
 
 lookup UrduCALT {
@@ -322,13 +338,6 @@ lookup UrduCALT {
     sub seven-persian by seven-persian.urdu ;
     sub @Kasra by @Kasra_lowered ;
 } UrduCALT;
-
-lookup KurdishCALT {
-  lookupflag 0 ;
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
-    sub heh-ar by heh-ar.knotted ;
-    sub @Kasra_lowered by @Kasra ;
-} KurdishCALT;
 
 lookup WolofCALT {
   lookupflag 0 ;
@@ -897,6 +906,7 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup DecomposeForColor;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -911,6 +921,7 @@ feature fina {  # Terminal Forms
         lookup ltrFina;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -923,6 +934,7 @@ feature medi {  # Medial Forms
         lookup ltrMedi;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -935,6 +947,7 @@ feature init {  # Initial Forms
         lookup ltrInit;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -954,6 +967,7 @@ feature rlig {  # Required Ligatures
         lookup HamzaLigatures;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -971,6 +985,8 @@ feature calt {  # Contextual Alternates
     script arab;  # Arabic
       language KUR ; # Kurdish
         lookup KurdishCALT ;
+      language RHG ; # Rohingya
+        lookup RohingyaCALT ;
       language SND ; # Sindhi
         lookup SindhiCALT ;
       language URD ; # Urdu
@@ -990,6 +1006,7 @@ feature salt {  # Stylistic Alternates
         lookup AyahAlternates;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -1000,6 +1017,7 @@ feature cv02 {  # Character Variant 02
         lookup WarshAlternates;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -1016,6 +1034,7 @@ feature cv08 {  # Character Variant 08
         lookup JeemHahMedAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -1031,6 +1050,7 @@ feature cv12 {  # Character Variant 12
         lookup DalAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       # language WLF  ;  But not this one since we enable it in the WolofCALT
@@ -1046,6 +1066,7 @@ feature cv20 {  # Character Variant 20
         lookup SadDadAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -1062,6 +1083,7 @@ feature cv44 {  # Character Variant 44
       # Force other languages to include Arabic script lookups
       language KUR  ;
       # language SND  ;  But not this one since we enable it in SindhiCALT
+      language RHG  ;
       language URD  ;
       language WLF  ;
     cvParameters {
@@ -1078,6 +1100,7 @@ feature cv48 {  # Character Variant 48
       # Force other languages to include Arabic script lookups
       # language KUR  ;  But not this one since we enable it in KurdishCALT
       # language SND  ;  But not this one since we enable it in SindhiCALT
+      language RHG  ;
       # language URD  ;  But not this one since we enable it in UrduCALT
       language WLF  ;
     cvParameters {
@@ -1095,6 +1118,7 @@ feature cv50 {  # Character Variant 50
             lookup UAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -1143,6 +1167,9 @@ feature cv70 {  # Character Variant 70
 feature cv72 {  # Character Variant 72
     # Same for latin & arabic:
         lookup DammatanAlternate;
+    # Except Rohingya where it is already set to sixNine
+    script arab ;
+        language RHG exclude_dflt ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1196,9 +1223,10 @@ feature cv80 {  # Character Variant 80
 feature cv82 {  # Character Variant 82
     # Same for latin & arabic:
         lookup DigitAlternates;
-    # Except Sindhi, Urdu, and, if we had it, Rohingya
+    # Except Kurdish, Rohingya, Sindhi, and Urdu
     script arab ;
         language KUR exclude_dflt ;
+        language RHG exclude_dflt ;
         language SND exclude_dflt ;
         language URD exclude_dflt ;
     cvParameters {
@@ -1206,8 +1234,8 @@ feature cv82 {  # Character Variant 82
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
         ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
-      # ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
-      # ParamUILabelNameID { name 3 1 0x0409 "Rohingya-style" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Rohingya-style" ; };
     } ;
 } cv82 ;
 
@@ -1259,21 +1287,24 @@ feature kern {  # Kerning
 
 do if opt("noOTkern") == "";	# enable kerning for now
 {
-	    script arab;  # Arabic
-            lookup mainkern;
-	      # Force other languages to include Arabic script lookups
-	      language KUR  ;
-	      language SND  ;
-	      language URD  ;
-	      language WLF  ;
+    script arab;  # Arabic
+        lookup mainkern;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+      language WLF  ;
 }
-	} kern;
+
+} kern;
 
 feature curs { # Cursive connection
     script arab; # Arab
         lookup cursive_exit_entry;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
@@ -1287,6 +1318,7 @@ feature mark {  # Mark to base Positioning
         lookup AlefMark2BelowAfterLam;
       # Force other languages to include Arabic script lookups
       language KUR  ;
+      language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
