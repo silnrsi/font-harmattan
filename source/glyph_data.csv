@@ -1199,7 +1199,7 @@ hamzaabove-ar,uni0654,0654,1450,,
 hamzabelow-ar,uni0655,0655,1452,,
 fathatan-ar,uni064B,064B,1453,,
 dammatan-ar,uni064C,064C,1454,,
-dammatan-ar.sixNine,uni064C.sixNine,,1455,,cv72=1
+dammatan-ar.sixNine,uni064C.sixNine,,1455,rhg,cv72=1
 kasratan-ar,uni064D,064D,1456,,
 kasratan-ar.lowered,uni064D.lowered,,1457,,
 fatha-ar,uni064E,064E,1458,,
@@ -1422,7 +1422,7 @@ kasra_meem-ar,uni065006E2,0650 06E2,1734,,
 shadda_alef-ar,uni06510670,0651 0670,1735,,
 shadda_fathatan-ar,uni0651064B,0651 064B,1736,,
 shadda_dammatan-ar,uni0651064C,0651 064C,1737,,
-shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1738,,cv72=1
+shadda_dammatan-ar.sixNine,uni0651064C.sixNine,,1738,rhg,cv72=1
 shadda_kasratan-ar,uni0651064D,0651 064D,1739,"sd,ur,ku",cv62=2
 shadda_fatha-ar,uni0651064E,0651 064E,1740,,
 shadda_damma-ar,uni0651064F,0651 064F,1741,,

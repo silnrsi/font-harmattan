@@ -533,6 +533,26 @@
       <comment>dammatan-ar</comment>
       <string>\u000628\u00064C</string>
     </test>
+    <test label="U+064C" stylename="sd">
+      <comment>dammatan-ar</comment>
+      <string>\u000628\u00064C</string>
+    </test>
+    <test label="U+064C" stylename="ur">
+      <comment>dammatan-ar</comment>
+      <string>\u000628\u00064C</string>
+    </test>
+    <test label="U+064C" stylename="ku">
+      <comment>dammatan-ar</comment>
+      <string>\u000628\u00064C</string>
+    </test>
+    <test label="U+064C" stylename="wo">
+      <comment>dammatan-ar</comment>
+      <string>\u000628\u00064C</string>
+    </test>
+    <test label="U+064C" stylename="rhg">
+      <comment>dammatan-ar</comment>
+      <string>\u000628\u00064C</string>
+    </test>
     <test label="U+064D">
       <comment>kasratan-ar</comment>
       <string>\u000628\u00064D \u000628\u00064E \u000628\u00064F</string>
@@ -2356,6 +2376,31 @@ U+064C">
     </test>
     <test label="U+0651
 U+064C" stylename="cv72_1">
+      <comment>shadda-ar dammatan-ar</comment>
+      <string>\u000628\u000651\u00064C</string>
+    </test>
+    <test label="U+0651
+U+064C" stylename="sd">
+      <comment>shadda-ar dammatan-ar</comment>
+      <string>\u000628\u000651\u00064C</string>
+    </test>
+    <test label="U+0651
+U+064C" stylename="ur">
+      <comment>shadda-ar dammatan-ar</comment>
+      <string>\u000628\u000651\u00064C</string>
+    </test>
+    <test label="U+0651
+U+064C" stylename="ku">
+      <comment>shadda-ar dammatan-ar</comment>
+      <string>\u000628\u000651\u00064C</string>
+    </test>
+    <test label="U+0651
+U+064C" stylename="wo">
+      <comment>shadda-ar dammatan-ar</comment>
+      <string>\u000628\u000651\u00064C</string>
+    </test>
+    <test label="U+0651
+U+064C" stylename="rhg">
       <comment>shadda-ar dammatan-ar</comment>
       <string>\u000628\u000651\u00064C</string>
     </test>
