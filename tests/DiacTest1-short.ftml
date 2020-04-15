@@ -47,12 +47,9 @@
       <style feats="'cv74' 1" name="cv74_1"/>
       <style feats="'cv74' 2" name="cv74_2"/>
       <style feats="'cv76' 1" name="cv76_1"/>
-      <style feats="'cv76' 1, 'cv84' 1" name="cv76_1_cv84_1"/>
       <style feats="'cv76' 2" name="cv76_2"/>
-      <style feats="'cv76' 2, 'cv84' 1" name="cv76_2_cv84_1"/>
       <style feats="'cv78' 1" name="cv78_1"/>
       <style feats="'cv78' 2" name="cv78_2"/>
-      <style feats="'cv84' 1" name="cv84_1"/>
     </styles>
     <title>DiacTest1 Short (NG)</title>
   </head>
@@ -91,136 +88,6 @@ U+0670" stylename="cv76_1">
 U+0670" stylename="cv76_2">
       <comment>nbspace alefabove-ar</comment>
       <string>\u00F130\u0000A0\u000670\u00F131</string>
-    </test>
-    <test label="U+060C
-U+064E">
-      <comment>comma-ar fatha-ar</comment>
-      <string>\u00060C\u00064E</string>
-    </test>
-    <test label="U+060C
-U+064E" stylename="cv84_1">
-      <comment>comma-ar fatha-ar</comment>
-      <string>\u00060C\u00064E</string>
-    </test>
-    <test label="U+060C
-U+0650">
-      <comment>comma-ar kasra-ar</comment>
-      <string>\u00060C\u000650</string>
-    </test>
-    <test label="U+060C
-U+0650" stylename="cv84_1">
-      <comment>comma-ar kasra-ar</comment>
-      <string>\u00060C\u000650</string>
-    </test>
-    <test label="U+060C
-U+0670">
-      <comment>comma-ar alefabove-ar</comment>
-      <string>\u00060C\u000670</string>
-    </test>
-    <test label="U+060C
-U+0670" stylename="cv84_1">
-      <comment>comma-ar alefabove-ar</comment>
-      <string>\u00060C\u000670</string>
-    </test>
-    <test label="U+060C
-U+0670" stylename="cv76_1">
-      <comment>comma-ar alefabove-ar</comment>
-      <string>\u00060C\u000670</string>
-    </test>
-    <test label="U+060C
-U+0670" stylename="cv76_1_cv84_1">
-      <comment>comma-ar alefabove-ar</comment>
-      <string>\u00060C\u000670</string>
-    </test>
-    <test label="U+060C
-U+0670" stylename="cv76_2">
-      <comment>comma-ar alefabove-ar</comment>
-      <string>\u00060C\u000670</string>
-    </test>
-    <test label="U+060C
-U+0670" stylename="cv76_2_cv84_1">
-      <comment>comma-ar alefabove-ar</comment>
-      <string>\u00060C\u000670</string>
-    </test>
-    <test label="U+060E
-U+064E">
-      <comment>verseComma-ar fatha-ar</comment>
-      <string>\u00060E\u00064E \u00060E\u000650 \u00060E\u000670</string>
-    </test>
-    <test label="U+060E
-U+0670" stylename="cv76_1">
-      <comment>verseComma-ar alefabove-ar</comment>
-      <string>\u00060E\u000670</string>
-    </test>
-    <test label="U+060E
-U+0670" stylename="cv76_2">
-      <comment>verseComma-ar alefabove-ar</comment>
-      <string>\u00060E\u000670</string>
-    </test>
-    <test label="U+061B
-U+064E">
-      <comment>semicolon-ar fatha-ar</comment>
-      <string>\u00061B\u00064E</string>
-    </test>
-    <test label="U+061B
-U+064E" stylename="cv84_1">
-      <comment>semicolon-ar fatha-ar</comment>
-      <string>\u00061B\u00064E</string>
-    </test>
-    <test label="U+061B
-U+0650">
-      <comment>semicolon-ar kasra-ar</comment>
-      <string>\u00061B\u000650</string>
-    </test>
-    <test label="U+061B
-U+0650" stylename="cv84_1">
-      <comment>semicolon-ar kasra-ar</comment>
-      <string>\u00061B\u000650</string>
-    </test>
-    <test label="U+061B
-U+0670">
-      <comment>semicolon-ar alefabove-ar</comment>
-      <string>\u00061B\u000670</string>
-    </test>
-    <test label="U+061B
-U+0670" stylename="cv84_1">
-      <comment>semicolon-ar alefabove-ar</comment>
-      <string>\u00061B\u000670</string>
-    </test>
-    <test label="U+061B
-U+0670" stylename="cv76_1">
-      <comment>semicolon-ar alefabove-ar</comment>
-      <string>\u00061B\u000670</string>
-    </test>
-    <test label="U+061B
-U+0670" stylename="cv76_1_cv84_1">
-      <comment>semicolon-ar alefabove-ar</comment>
-      <string>\u00061B\u000670</string>
-    </test>
-    <test label="U+061B
-U+0670" stylename="cv76_2">
-      <comment>semicolon-ar alefabove-ar</comment>
-      <string>\u00061B\u000670</string>
-    </test>
-    <test label="U+061B
-U+0670" stylename="cv76_2_cv84_1">
-      <comment>semicolon-ar alefabove-ar</comment>
-      <string>\u00061B\u000670</string>
-    </test>
-    <test label="U+061F
-U+064E">
-      <comment>question-ar fatha-ar</comment>
-      <string>\u00061F\u00064E \u00061F\u000650 \u00061F\u000670</string>
-    </test>
-    <test label="U+061F
-U+0670" stylename="cv76_1">
-      <comment>question-ar alefabove-ar</comment>
-      <string>\u00061F\u000670</string>
-    </test>
-    <test label="U+061F
-U+0670" stylename="cv76_2">
-      <comment>question-ar alefabove-ar</comment>
-      <string>\u00061F\u000670</string>
     </test>
     <test label="U+0620
 U+064E">
@@ -1386,21 +1253,6 @@ U+0670" stylename="cv76_1">
 U+0670" stylename="cv76_2">
       <comment>yeh-ar alefabove-ar</comment>
       <string>\u00064A\u000670 \u00064A\u000670\u00064A\u000670\u00064A\u000670 </string>
-    </test>
-    <test label="U+066D
-U+064E">
-      <comment>asterisk-ar fatha-ar</comment>
-      <string>\u00066D\u00064E \u00066D\u000650 \u00066D\u000670</string>
-    </test>
-    <test label="U+066D
-U+0670" stylename="cv76_1">
-      <comment>asterisk-ar alefabove-ar</comment>
-      <string>\u00066D\u000670</string>
-    </test>
-    <test label="U+066D
-U+0670" stylename="cv76_2">
-      <comment>asterisk-ar alefabove-ar</comment>
-      <string>\u00066D\u000670</string>
     </test>
     <test label="U+066E
 U+064E">
@@ -3651,21 +3503,6 @@ U+0670" stylename="cv76_1">
 U+0670" stylename="cv76_2">
       <comment>yehbarreeHamzaabove-ar alefabove-ar</comment>
       <string>\u0006D3\u000670 \u00200D\u0006D3\u000670 </string>
-    </test>
-    <test label="U+06D4
-U+064E">
-      <comment>fullstop-ar fatha-ar</comment>
-      <string>\u0006D4\u00064E \u0006D4\u000650 \u0006D4\u000670</string>
-    </test>
-    <test label="U+06D4
-U+0670" stylename="cv76_1">
-      <comment>fullstop-ar alefabove-ar</comment>
-      <string>\u0006D4\u000670</string>
-    </test>
-    <test label="U+06D4
-U+0670" stylename="cv76_2">
-      <comment>fullstop-ar alefabove-ar</comment>
-      <string>\u0006D4\u000670</string>
     </test>
     <test label="U+06D5
 U+064E">
