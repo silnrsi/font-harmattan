@@ -531,6 +531,57 @@ def doit(args):
                     ftml.closeTest()
                 ftml.clearFeatures()
 
+    if test.lower().startswith('feature-lang'):
+        # Testing of language and feature interactions
+
+        tests = (
+            # feat, langs where it is expected to work (1) or not (0), data seq,  comment
+            ('cv02', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0623,), 'Warsh alternates'),
+            ('cv08', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x062C,), 'Jeem/Hah alternates'),
+            ('cv12', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 0}, (0x062F,), 'Dal alternates'),
+            ('cv20', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0635,), 'Sad/Dad alternates'),
+            ('cv44', {'sd': 0, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0645,), 'Meem alternates'),
+            ('cv48', {'sd': 0, 'ur': 0, 'ku': 0, 'rhg': 1, 'wo': 1}, (0x0647,), 'Heh alternates'),
+            ('cv50', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0677,), 'U alternates'),
+            ('cv60', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0622,), 'Maddah alternates'),
+            ('cv62', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0651, 0x0650), 'Kasra alternates'),
+            ('cv70', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 0}, (0x064F,), 'Damma  alternates'),
+            ('cv72', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 0, 'wo': 1}, (0x064C,), 'Dammatan alternates'),
+            ('cv74', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0657,), 'Inverted Damma alternates'),
+            ('cv76', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0633, 0x0670), 'Superscript alef alternates'),
+            ('cv78', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x0652,), 'Sukun alternates'),
+            ('cv80', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x06DD,), 'Ayah alternates'),
+            ('cv82', {'sd': 0, 'ur': 0, 'ku': 0, 'rhg': 0, 'wo': 1}, (0x06F4, 0x06F6, 0x06F7), 'Eastern Digit alternates'),
+            ('cv84', {'sd': 1, 'ur': 1, 'ku': 1, 'rhg': 1, 'wo': 1}, (0x060C,), 'Comma alternates'),
+        )
+
+        ftml._fxml.head.comment = 'In this test, the comment column indicates whether the feature is expected to ' \
+                                  'function with the given language tag. '
+        for (tag, expected, uids, description) in tests:
+            # Skip any features that aren't in this font
+            if tag not in builder.features:
+                continue
+            ftml.startTestGroup(f'{tag} {description}')
+            builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment="")
+            for langID in builder.allLangs:
+                ftml.setLang(langID)
+                comment = ("No", "Yes")[expected.get(langID, 1)]
+                featcombinations = list(builder.permuteFeatures(uids=uids))
+                if len(featcombinations) == 1:
+                    # Hm... see if we can find this uid list in specials:
+                    for basename in builder.specials():
+                        special = builder.special(basename)
+                        if tuple(special.uids) == uids:
+                            # Yes!
+                            featcombinations = list(builder.permuteFeatures(feats = special.feats))
+                            break
+                for featlist in featcombinations:
+                    ftml.setFeatures(featlist)
+                    builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment=comment)
+                ftml.clearFeatures()
+            ftml.clearLang()
+
+
     if test.lower().startswith('classes'):
         zwj = chr(0x200D)
         lsb = '' # chr(0xF130)
