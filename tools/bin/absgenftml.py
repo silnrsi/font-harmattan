@@ -305,11 +305,11 @@ def doit(args):
                         ftml.addToTest(uid, c + "\u06F4\u06F6\u06F7", label, "4 6 7")
                     ftml.clearFeatures()
                     for langID in builder.allLangs:
+                        ftml.setLang(langID)
                         for featlist in ((None,), (['cv80', '1'],),  (['cv80', '2'],)):
                             ftml.setFeatures(featlist)
-                            ftml.setLang(langID)
                             ftml.addToTest(uid, c + "\u06F4\u06F6\u06F7", label, "4 6 7")
-                    ftml.clearFeatures()
+                        ftml.clearFeatures()
                     ftml.clearLang()
                     ftml.closeTest()
 
@@ -519,8 +519,8 @@ def doit(args):
 
         # Also test other forms of yehbarree (yehbarreeHamzaabove-ar, yehbarreeTwoabove, yehbarreeThreeabove-ar)
         ftml.startTestGroup('yehbarree-like')
-        for yehbarree in (0x06D3, 0x077A, 0x077B):
-            for uid in (0x06A0, 0x08B3):
+        for yehbarree in filter(lambda x: x in builder.uids(), (0x06D3, 0x077A, 0x077B)):
+            for uid in filter(lambda x: x in builder.uids(),(0x06A0, 0x08B3)):
                 c = r'\u{:04X}'.format(uid)
                 yb = r'\u{:04X}'.format(yehbarree)
                 label = 'U+{:04X} U+{:04X}'.format(uid, yehbarree)
