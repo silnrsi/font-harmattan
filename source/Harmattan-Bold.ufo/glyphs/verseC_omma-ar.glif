@@ -2,7 +2,6 @@
 <glyph name="verseComma-ar" format="2">
   <advance width="1276"/>
   <unicode hex="060E"/>
-  <anchor x="785" y="418" name="diaA"/>
   <outline>
     <contour>
       <point x="549" y="154" type="curve" smooth="yes"/>

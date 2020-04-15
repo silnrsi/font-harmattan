@@ -2,8 +2,6 @@
 <glyph name="question-ar" format="2">
   <advance width="689"/>
   <unicode hex="061F"/>
-  <anchor x="312" y="1300" name="diaA"/>
-  <anchor x="320" y="-115" name="diaB"/>
   <outline>
     <contour>
       <point x="296" y="354" type="curve"/>
