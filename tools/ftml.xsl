@@ -19,7 +19,13 @@
 	<head>
         <script>
             function regtochar(match, p1) {
-                return String.fromCharCode(parseInt(p1, 16));
+                p1 = parseInt(p1,16);
+                if (p1 > 0xFFFF) {    // must generate UTF-16
+                    p1 -= 0x10000;
+                    return String.fromCharCode(0xD800 + (p1 >> 10), 0xDC00 + (p1 &amp; 0x3FF));
+                } else {
+                    return String.fromCharCode(p1);
+                }
             };
             function init() {
                 var tw = document.createTreeWalker(document.body , NodeFilter.SHOW_TEXT, null, false);
