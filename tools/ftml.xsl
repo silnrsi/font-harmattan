@@ -101,7 +101,14 @@
 		<thead>
 			<th>label</th>
 <xsl:for-each select="//fontsrc">
+	<xsl:choose>
+		<xsl:when test="@label">
+			<th><xsl:value-of select="@label"/></th>
+		</xsl:when>
+		<xsl:otherwise>
 			<th><xsl:value-of select="."/></th>
+		</xsl:otherwise>
+	</xsl:choose>
 </xsl:for-each>			
 <xsl:if test="/ftml/testgroup/test/comment">
 			<th>comment</th>
