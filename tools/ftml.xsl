@@ -95,6 +95,9 @@
 	<h2><xsl:value-of select="@label"/></h2>
 	<p><xsl:value-of select="comment"/></p>
 	<table>
+	<xsl:if test="@background">
+		<xsl:attribute name="style">background-color: <xsl:value-of select="@background"/>;</xsl:attribute>
+	</xsl:if>
 		<thead>
 			<th>label</th>
 <xsl:for-each select="//fontsrc">
