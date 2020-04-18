@@ -477,10 +477,12 @@ def doit(args):
                         0xFD3E,  # ORNATE LEFT PARENTHESIS
                         # 0xFD3F,  # ORNATE RIGHT PARENTHESIS
                         )):
-                    builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                    if addMarks:
-                        builder.render([uid1, ma, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                        builder.render([uid1, mb, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                    for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
+                        ftml.setFeatures(featlist)
+                        builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                        if addMarks:
+                            builder.render([uid1, ma, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                     ftml.closeTest()
 
 
