@@ -197,6 +197,7 @@ def doit(args):
                     ftml.setLang(langID)
                     builder.render((uid,), ftml)
                 ftml.clearLang()
+            ftml.clearBackground()
 
     if test.lower().startswith("diac"):
         # Diac attachment:
@@ -405,8 +406,11 @@ def doit(args):
             # exhaustive test for kerning data extraction
             ftml.defaultRTL = True
             addMarks = "with marks" in test.lower()
+            # rules for kerning reh followed by dual- or right-joining:
             for uid1 in rehs:  # (rehs[0],)
                 for uid2 in uids:
+                    if get_ucd(uid2, 'age').startswith('13.'):
+                        ftml.setBackground("#FFE0E0")  # very light red background
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
@@ -425,8 +429,24 @@ def doit(args):
                             builder.render([uid1, mb, uid2, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([uid1, mb, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([uid1, mb, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                    ftml.clearFeatures()
+                            if uid2 == 0x0627:
+                                # Because alefMadda, alefHamza, etc., decompose for reordering, we add rules for
+                                # handling *two* marks above the alef:
+                                builder.render([uid1, uid2, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2, ma, ma, mb], ftml, addBreaks=False, rtl=True,
+                                               dualJoinMode=1)
+                                builder.render([uid1, mb, uid2, ma, ma, mb], ftml, addBreaks=False, rtl=True,
+                                               dualJoinMode=1)
+                                # and *two* marks below the alef:
+                                builder.render([uid1, uid2, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2, mb, mb, ma], ftml, addBreaks=False, rtl=True,
+                                               dualJoinMode=1)
+                                builder.render([uid1, mb, uid2, mb, mb, ma], ftml, addBreaks=False, rtl=True,
+                                               dualJoinMode=1)
                     ftml.closeTest()
+                    ftml.clearFeatures()
+                    ftml.clearBackground()
+            # add rules for kerning followed by certain punctuation:
             for uid1 in rehs:  # (rehs[0],)
                 for uid2 in filter(lambda x: x in builder.uids(), (
                         0x0021,  # EXCLAMATION MARK
