@@ -341,60 +341,6 @@ lookup WolofCALT {
 } WolofCALT;
 
 
-#********************
-# Substitutions for subtendng marks
-
-lookup SignWith_4digits_target {
-  lookupflag IgnoreMarks ;
-    sub @cno_4 by @c_4 ;
-} SignWith_4digits_target ;
-
-lookup SignWith_3digits_target {
-  lookupflag IgnoreMarks ;
-    sub @cno_3 by @c_3 ;
-} SignWith_3digits_target ;
-
-lookup SignWith_2digits_target {
-  lookupflag IgnoreMarks ;
-    sub @cno_2 by @c_2 ;
-} SignWith_2digits_target ;
-
-lookup SignDigits_ToMedium_target {
-  lookupflag IgnoreMarks ;
-    sub @DigitsAny by @DigitsAnyMedium ;
-} SignDigits_ToMedium_target ;
-
-lookup SignDigits_ToSmall_target {
-  lookupflag IgnoreMarks ;
-    sub @DigitsAny by @DigitsAnySmall ;
-} SignDigits_ToSmall_target ;
-
-lookup SignWithDigits {
-  lookupflag IgnoreMarks ;
-  # Uniscribe or HarfBuzz 'latn'
-    sub [ year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_4digits_target 
-        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
-    sub [ number-ar year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_3digits_target 
-        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
-    sub [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target 
-        @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target ;
-    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target 
-        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
-    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]
-        @DigitsAny' lookup SignDigits_ToMedium_target ;
-  # HarfBuzz 'arab'
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
-        [ year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_4digits_target ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
-        [ number-ar year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_3digits_target ;
-    sub @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  
-        [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
-        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target ;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target 
-        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ] ;
-} SignWithDigits;
-
 
 #********************
 # Lookups for user-selectable features
@@ -493,11 +439,15 @@ lookup KurdishHeh {
 # Heh alternates: cv48
 
 lookup HehAlternates {
-  lookupflag IgnoreMarks ; # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
-    sub heh-ar      from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.init from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
-    sub heh-ar.medi from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
-    sub heh-ar.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+  lookupflag IgnoreMarks ;             # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
+    sub heh-ar                  from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
+    sub heh-ar.init             from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
+    sub heh-ar.medi             from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
+    sub heh-ar.fina             from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    # In case Kurdish lang has been selected:
+    sub heh-ar.knotted          from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
+    sub heh-ar.knottedHigh.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    
 } HehAlternates;
 
 #********************
@@ -544,7 +494,9 @@ lookup KasraAlternates {
 
 lookup DammaAlternates {
   lookupflag 0 ;
-    sub @Damma from [ @Damma_filled @Damma_short ];
+    sub @Damma        from [ @Damma_filled @Damma_short ];
+    sub @Damma_filled from [ @Damma_filled @Damma_short ];
+    sub @Damma_short  from [ @Damma_filled @Damma_short ];
 } DammaAlternates;
 
 #********************
@@ -595,8 +547,14 @@ lookup AyahAlternates {
 # Eastern digit alternates: cv82
 
 lookup DigitAlternates {
-  lookupflag 0 ;        #    1 = Sindhi-style      2 = Urdu-style      3 = Kurdish-style   4 = Rohingya-style
-    sub @EasternDigit from [ @EasternDigitSindhi   @EasternDigitUrdu   @EasternDigit       @EasternDigitRohingya ] ;
+  lookupflag 0 ;        #       1 = Sindhi-style      2 = Urdu-style      3 = Kurdish-style  4 = Rohingya-style
+    sub four-persian       from [four-persian         four-persian.urdu    four-persian      four-persian.roh  ];
+    sub four-persian.urdu  from [four-persian         four-persian.urdu    four-persian      four-persian.roh  ];
+    sub four-persian.roh   from [four-persian         four-persian.urdu    four-persian      four-persian.roh  ];
+    sub six-persian        from [six-persian.urdu     six-persian.urdu     six-persian       six-persian.urdu  ];
+    sub six-persian.urdu   from [six-persian.urdu     six-persian.urdu     six-persian       six-persian.urdu  ];
+    sub seven-persian      from [seven-persian.urdu   seven-persian.urdu   seven-persian     seven-persian.urdu];
+    sub seven-persian.urdu from [seven-persian.urdu   seven-persian.urdu   seven-persian     seven-persian.urdu];
 } DigitAlternates;
 
 #********************
@@ -606,6 +564,61 @@ lookup CommaAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_downward by @c_downward;
 } CommaAlternate;
+
+
+#********************
+# Substitutions for subtendng marks
+
+lookup SignWith_4digits_target {
+  lookupflag IgnoreMarks ;
+    sub @cno_4 by @c_4 ;
+} SignWith_4digits_target ;
+
+lookup SignWith_3digits_target {
+  lookupflag IgnoreMarks ;
+    sub @cno_3 by @c_3 ;
+} SignWith_3digits_target ;
+
+lookup SignWith_2digits_target {
+  lookupflag IgnoreMarks ;
+    sub @cno_2 by @c_2 ;
+} SignWith_2digits_target ;
+
+lookup SignDigits_ToMedium_target {
+  lookupflag IgnoreMarks ;
+    sub @DigitsAny by @DigitsAnyMedium ;
+} SignDigits_ToMedium_target ;
+
+lookup SignDigits_ToSmall_target {
+  lookupflag IgnoreMarks ;
+    sub @DigitsAny by @DigitsAnySmall ;
+} SignDigits_ToSmall_target ;
+
+lookup SignWithDigits {
+  lookupflag IgnoreMarks ;
+  # Uniscribe or HarfBuzz 'latn'
+    sub [ year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_4digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ number-ar year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_3digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target 
+        @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target ;
+    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target 
+        @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target ;
+    sub [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]
+        @DigitsAny' lookup SignDigits_ToMedium_target ;
+  # HarfBuzz 'arab'
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_4digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar pagenumber-ar numbermark-ar ]' lookup SignWith_3digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  @DigitsAny' lookup SignDigits_ToSmall_target  
+        [ endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_3digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ]' lookup SignWith_2digits_target ;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target 
+        [ number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB ] ;
+} SignWithDigits;
 
 
 #********
@@ -1092,10 +1105,10 @@ feature cv48 {  # Character Variant 48
         language dflt;  # Default
             lookup HehAlternates;
       # Force other languages to include Arabic script lookups
-      # language KUR  ;  But not this one since we enable it in KurdishCALT
-      # language SND  ;  But not this one since we enable it in SindhiCALT
+      language KUR  ;
+      language SND  ;
       language RHG  ;
-      # language URD  ;  But not this one since we enable it in UrduCALT
+      language URD  ;
       language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
@@ -1147,9 +1160,6 @@ feature cv62 {  # Character Variant 62
 feature cv70 {  # Character Variant 70
     # Same for latin & arabic:
         lookup DammaAlternates;
-    # Except Wolof where it is already set to short
-    script arab ;
-        language WLF exclude_dflt ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
         ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
@@ -1219,10 +1229,11 @@ feature cv82 {  # Character Variant 82
         lookup DigitAlternates;
     # Except Kurdish, Rohingya, Sindhi, and Urdu
     script arab ;
-        language KUR exclude_dflt ;
-        language RHG exclude_dflt ;
-        language SND exclude_dflt ;
-        language URD exclude_dflt ;
+        language KUR  ;
+        language RHG  ;
+        language SND  ;
+        language URD  ;
+        language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
@@ -1261,6 +1272,7 @@ feature liga {  # Ligatures  -- we use this because liga is done in the same pas
         lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
         lookup YehBarreeToWideAlways;    # Must be after language-specific CALTs and cv48
         lookup YehBarreeToWideWithMarks; # Must be after language-specific CALTs and cv48
+        lookup SignWithDigits;           # Must be after cv82
 } liga ;
 
 

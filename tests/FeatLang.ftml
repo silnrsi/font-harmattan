@@ -160,7 +160,7 @@
     </styles>
     <title>Feature-Language Interactions</title>
   </head>
-  <testgroup label="Rendering Check">
+  <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
       <string>RenderingUnknown</string>
     </test>
@@ -415,51 +415,51 @@
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="sd">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="sd_cv48_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="sd_cv48_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="sd_cv48_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ur">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ur_cv48_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ur_cv48_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ur_cv48_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ku">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ku_cv48_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ku_cv48_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="ku_cv48_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
     </test>
     <test label="U+0647" rtl="True" stylename="rhg">
@@ -719,15 +719,15 @@ U+0650" rtl="True" stylename="wo_cv62_2">
       <string>\u000628\u00064F</string>
     </test>
     <test label="U+064F" rtl="True" stylename="wo">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000628\u00064F</string>
     </test>
     <test label="U+064F" rtl="True" stylename="wo_cv70_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000628\u00064F</string>
     </test>
     <test label="U+064F" rtl="True" stylename="wo_cv70_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u000628\u00064F</string>
     </test>
   </testgroup>
@@ -1061,121 +1061,121 @@ U+06F7" rtl="True">
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="sd">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="sd_cv82_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="sd_cv82_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="sd_cv82_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="sd_cv82_4">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ur">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ur_cv82_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ur_cv82_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ur_cv82_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ur_cv82_4">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ku">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ku_cv82_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ku_cv82_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ku_cv82_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="ku_cv82_4">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="rhg">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="rhg_cv82_1">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="rhg_cv82_2">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="rhg_cv82_3">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
 U+06F6
 U+06F7" rtl="True" stylename="rhg_cv82_4">
-      <comment>No</comment>
+      <comment>Yes</comment>
       <string>\u0006F4\u0006F6\u0006F7</string>
     </test>
     <test label="U+06F4
