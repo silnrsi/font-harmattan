@@ -20,12 +20,10 @@
 		<value name="Sindhi" tag="Sin">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>	# meem alternates
-			<cmd name="gr_feat" args="{gr_cv48} 1"/>	# heh
 			<cmd name="gr_feat" args="{gr_cv82} 1"/>	# eastern digits
 		</value>
 		<value name="Urdu" tag="Urd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduCALT}"/>	
-			<cmd name="gr_feat" args="{gr_cv48} 2"/>	# heh
 			<cmd name="gr_feat" args="{gr_cv82} 2"/>	# eastern digits
 		</value>
 		<value name="Wolof" tag="Wol">

@@ -319,9 +319,6 @@ lookup RohingyaCALT {
 
 lookup SindhiCALT {
   lookupflag 0 ;
-    sub heh-ar.medi by heh-ar.knottedHigh.medi ;
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
-    sub heh-ar by heh-ar.knotted ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
     sub @Meem by @Meem.sindhi ;
@@ -330,9 +327,6 @@ lookup SindhiCALT {
 
 lookup UrduCALT {
   lookupflag 0 ;
-    sub heh-ar.init by heh-ar.hooked.init ;
-    sub heh-ar.medi by heh-ar.hooked.medi ;
-    sub heh-ar.fina by heh-ar.hooked.fina ;
     sub four-persian by four-persian.urdu ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;

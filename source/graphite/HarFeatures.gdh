@@ -405,14 +405,12 @@ rohingya {
 sindhi {
     languages = ( "snd", "sd" ); // Sindhi
     meemAlt = sindhi;
-    hehAlt = sindhi;
     easternDigits = sindhi;
     // shaddaKasra = lowered;  // is the default for Harmattan
 };
 
 urdu {
     languages = ( "urd", "ur" ); // Urdu
-    hehAlt = urdu;
     easternDigits = urdu;
     // shaddaKasra = lowered;  // is the default for Harmattan
 };
