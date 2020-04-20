@@ -602,7 +602,7 @@ def doit(args):
                 comment = ("No", "Yes")[expected.get(langID, 1)]
                 for featlist in featcombinations:
                     ftml.setFeatures(featlist)
-                    builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment=comment)
+                    builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment= comment if len(tuple(filter(None, featlist))) else "")
                 ftml.clearFeatures()
             ftml.clearLang()
 
