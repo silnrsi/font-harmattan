@@ -584,19 +584,22 @@ def doit(args):
             if tag not in builder.features:
                 continue
             ftml.startTestGroup(f'{tag} {description}')
-            builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment="")
+            featcombinations = list(builder.permuteFeatures(uids=uids))
+            if len(featcombinations) == 1:
+                # Hm... see if we can find this uid list in specials:
+                for basename in builder.specials():
+                    special = builder.special(basename)
+                    if tuple(special.uids) == uids:
+                        # Yes!
+                        featcombinations = list(builder.permuteFeatures(feats=special.feats))
+                        break
+            for featlist in featcombinations:
+                ftml.setFeatures(featlist)
+                builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment="")
+            ftml.clearFeatures()
             for langID in builder.allLangs:
                 ftml.setLang(langID)
                 comment = ("No", "Yes")[expected.get(langID, 1)]
-                featcombinations = list(builder.permuteFeatures(uids=uids))
-                if len(featcombinations) == 1:
-                    # Hm... see if we can find this uid list in specials:
-                    for basename in builder.specials():
-                        special = builder.special(basename)
-                        if tuple(special.uids) == uids:
-                            # Yes!
-                            featcombinations = list(builder.permuteFeatures(feats = special.feats))
-                            break
                 for featlist in featcombinations:
                     ftml.setFeatures(featlist)
                     builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment=comment)
