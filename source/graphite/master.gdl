@@ -137,6 +137,7 @@ pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 	
 endpass; // 1
 
+#if 0
 
 pass(2)	// Reorder marks to "logical" order (this allows for arbitrary order input)
 
@@ -155,6 +156,7 @@ pass(2)	// Reorder marks to "logical" order (this allows for arbitrary order inp
 
 endpass; // 2
 
+#endif
 
 pass(3)	// Contextual forms, lam-alef ligature, subtending marks
 
