@@ -3,9 +3,9 @@
 <ftml version="1.0">
   <head>
     <fontscale>250</fontscale>
-    <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+    <fontsrc label="Bold-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv02' 1" name="cv02_1"/>
       <style feats="'cv02' 1, 'cv76' 1" name="cv02_1_cv76_1"/>
@@ -76,7 +76,7 @@
     </styles>
     <title>DiacTest1 (NG)</title>
   </head>
-  <testgroup label="Rendering Check">
+  <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
       <string>RenderingUnknown</string>
     </test>

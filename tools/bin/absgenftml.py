@@ -11,18 +11,20 @@ import silfont.ftml_builder as FB
 from palaso.unicode.ucd import get_ucd
 
 argspec = [
-    ('ifont',{'help': 'Input UFO'}, {'type': 'infont'}),
-    ('output',{'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
-    ('-i','--input',{'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
-    ('-f','--fontcode',{'help': 'letter to filter for glyph_data'},{}),
-    ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
-    ('--langs',{'help':'List of bcp47 language tags', 'default': None}, {}),
+    ('ifont', {'help': 'Input UFO'}, {'type': 'infont'}),
+    ('output', {'help': 'Output file ftml in XML format', 'nargs': '?'}, {'type': 'outfile', 'def': '_out.ftml'}),
+    ('-i','--input', {'help': 'Glyph info csv file'}, {'type': 'incsv', 'def': 'glyph_data.csv'}),
+    ('-f','--fontcode', {'help': 'letter to filter for glyph_data'},{}),
+    ('-l','--log', {'help': 'Set log file name'}, {'type': 'outfile', 'def': '_ftml.log'}),
+    ('--langs', {'help':'List of bcp47 language tags', 'default': None}, {}),
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
     ('--norendercheck', {'help': 'do not include the RenderingUnknown check', 'action': 'store_true'}, {}),
     ('-t', '--test', {'help': 'name of the test to generate', 'default': None}, {}),
-    ('-s','--fontsrc',{'help': 'default font source', 'action': 'append'}, {}),
+    ('-s','--fontsrc', {'help': 'default font source', 'action': 'append'}, {}),
+    ('--sl', {'help': 'fontsrc label', 'action': 'append'}, {}),
     ('--scale', {'help': 'percentage to scale rendered text (default 100)'}, {}),
     ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.'}, {}),
+    ('-w', '--width', {'help': 'total width of all <string> column (default automatic)'}, {}),
     ('--xsl', {'help': 'XSL stylesheet to use'}, {}),
 ]
 
@@ -76,8 +78,17 @@ def doit(args):
 
     # Initialize FTML document:
     test = args.test or "AllChars (NG)"  # Default to AllChars
-    ftml = FB.FTML(test, logger, rendercheck = not args.norendercheck, fontscale = args.scale, xslfn = args.xsl, fontsrc = args.fontsrc,
-                   defaultrtl = args.rtl)
+    widths = None
+    if args.width:
+        try:
+            width, units = re.match(r'(\d+)(.*)$', args.width).groups()
+            if len(args.fontsrc):
+                width = int(round(int(width)/len(args.fontsrc)))
+            widths = {'string': f'{width}{units}'}
+        except:
+            logger.log('Unable to parse width argument "{args.width}"', 'W')
+    ftml = FB.FTML(test, logger, rendercheck=not args.norendercheck, fontscale=args.scale, widths=widths,
+                   xslfn=args.xsl, fontsrc=args.fontsrc, fontlabel=args.sl, defaultrtl=args.rtl)
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
@@ -415,20 +426,20 @@ def doit(args):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                         if addMarks:
-                            builder.render([uid1, uid2, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, uid2, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, ma, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            builder.render([uid1, mb, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1,     uid2, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1,     uid2, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1,     uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1,     uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, ma, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, mb, uid2],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, mb, uid2, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, mb, uid2, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, mb, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                                builder.render([uid1, mb, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             if uid2 == 0x0627:
                                 # Because alefMadda, alefHamza, etc., decompose for reordering, we add rules for
                                 # handling *two* marks above the alef:
