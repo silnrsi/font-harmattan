@@ -987,8 +987,6 @@ feature rlig {  # Required Ligatures
 #     to execute after init/medi/fina lookups, but locl executes before.
 
 feature calt {  # Contextual Alternates
-    # Same for latin & arabic:
-        lookup SignWithDigits;
     script arab;  # Arabic
       language KUR ; # Kurdish
         lookup KurdishCALT ;
