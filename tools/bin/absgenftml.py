@@ -63,6 +63,9 @@ joinGroupKeys = {
 def joinGoupSortKey(uid:int):
     return joinGroupKeys.get(get_ucd(uid, 'jg'), 99) * 65536 + uid
 
+ageToFlag = 13.0
+ageColor = "#FFE0E0"  # very light red
+
 def doit(args):
     logger = args.logger
 
@@ -96,6 +99,8 @@ def doit(args):
         for uid in sorted(builder.uids()):
             if uid < 32: continue
             c = builder.char(uid)
+            if float(get_ucd(uid, 'age')) >= ageToFlag:
+                ftml.setBackground(ageColor)
             for featlist in builder.permuteFeatures(uids = (uid,)):
                 ftml.setFeatures(featlist)
                 builder.render((uid,), ftml)
@@ -105,11 +110,14 @@ def doit(args):
                     ftml.setLang(langID)
                     builder.render((uid,), ftml)
                 ftml.clearLang()
+            ftml.clearBackground()
 
         # Add specials and ligatures that were in the glyph_data:
         ftml.startTestGroup('Specials & ligatures from glyph_data')
         for basename in sorted(builder.specials()):
             special = builder.special(basename)
+            if max(map(lambda x: float(get_ucd(x, 'age')), special.uids)) > ageToFlag:
+                ftml.setBackground(ageColor)
             for featlist in builder.permuteFeatures(uids = special.uids, feats = special.feats):
                 ftml.setFeatures(featlist)
                 builder.render(special.uids, ftml)
@@ -121,6 +129,7 @@ def doit(args):
                     builder.render(special.uids, ftml)
                     ftml.closeTest()
                 ftml.clearLang()
+            ftml.clearBackground()
 
         # Add Lam-Alef data manually
         ftml.startTestGroup('Lam-Alef')
@@ -128,22 +137,25 @@ def doit(args):
         aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
         for lam in lamlist:
             for alef in aleflist:
+                if max(map(lambda x: float(get_ucd(x, 'age')), (lam, alef))) > ageToFlag:
+                    ftml.setBackground(ageColor)
                 for featlist in builder.permuteFeatures(uids = (lam, alef)):
                     ftml.setFeatures(featlist)
-                    builder.render((lam,alef), ftml)
+                    builder.render((lam, alef), ftml)
                     ftml.closeTest()
                 ftml.clearFeatures()
                 if lam == 0x0644 and 'cv02' in builder.features:
                     # Also test lam with hamza above for warsh variants
-                    for featlist in builder.permuteFeatures(uids=(lam, 0x0654, alef),feats=('cv02',)):
+                    for featlist in builder.permuteFeatures(uids=(lam, 0x0654, alef), feats=('cv02',)):
                         ftml.setFeatures(featlist)
                         builder.render((lam, 0x0654, alef), ftml)
                         ftml.closeTest()
                     ftml.clearFeatures()
+                ftml.clearBackground()
 
         # Add Allah data manually
         ftml.startTestGroup('Allah ligatures')
-        ftml.addToTest(0xFDF2, r"\uFDF2", comment = "Rule 1")
+        ftml.addToTest(0xFDF2, r"\uFDF2", comment="Rule 1")
         ftml.closeTest()
         ftml.addToTest(None, r"\u0641\u0644\u0644\u0647", label = "f-l-l-h", comment = "shouldn't match")
         ftml.closeTest()
@@ -199,7 +211,9 @@ def doit(args):
         ftml.startTestGroup('Arabic Letters')
         for uid in sorted(filter(lambda u: get_ucd(u, 'bc') == 'AL', builder.uids()), key=joinGoupSortKey):
             c = builder.char(uid)
-            for featlist in builder.permuteFeatures(uids = (uid,)):
+            if float(get_ucd(uid, 'age')) >= ageToFlag:
+                ftml.setBackground(ageColor)
+            for featlist in builder.permuteFeatures(uids=(uid,)):
                 ftml.setFeatures(featlist)
                 builder.render((uid,), ftml)
             ftml.clearFeatures()
@@ -234,18 +248,18 @@ def doit(args):
             # Always process Lo, but others only if that take marks:
             if c.general == 'Lo' or c.isBase:
                 for diac in repDiac:
-                    for featlist in builder.permuteFeatures(uids = (uid,diac)):
+                    for featlist in builder.permuteFeatures(uids=(uid,diac)):
                         ftml.setFeatures(featlist)
-                        builder.render((uid,diac), ftml, addBreaks = False, dualJoinMode=2)
+                        builder.render((uid,diac), ftml, addBreaks=False, dualJoinMode=2)
                         if doLongTest:
                             if diac != 0x0651:  # If not shadda
                                 # include shadda, in either order:
-                                builder.render((uid, diac, 0x0651), ftml, addBreaks = False, dualJoinMode=2)
-                                builder.render((uid, 0x0651, diac), ftml, addBreaks = False, dualJoinMode=2)
+                                builder.render((uid, diac, 0x0651), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, 0x0651, diac), ftml, addBreaks=False, dualJoinMode=2)
                             if diac != 0x0654:  # If not hamza above
                                 # include hamza above, in either order:
-                                builder.render((uid, diac, 0x0654), ftml, addBreaks = False, dualJoinMode=2)
-                                builder.render((uid, 0x0654, diac), ftml, addBreaks = False, dualJoinMode=2)
+                                builder.render((uid, diac, 0x0654), ftml, addBreaks=False, dualJoinMode=2)
+                                builder.render((uid, 0x0654, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
                 ftml.closeTest()
 
@@ -256,9 +270,9 @@ def doit(args):
             c = builder.char(uid)
             if c.general == 'Mn':
                 for base in repBase:
-                    for featlist in builder.permuteFeatures(uids = (uid,base)):
+                    for featlist in builder.permuteFeatures(uids=(uid,base)):
                         ftml.setFeatures(featlist)
-                        builder.render((base,uid), ftml, keyUID = uid, addBreaks = False, dualJoinMode=2)
+                        builder.render((base,uid), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
                         if doLongTest:
                             if uid != 0x0651: # if not shadda
                                 # include shadda, in either order:
@@ -421,7 +435,7 @@ def doit(args):
             for uid1 in rehs:  # (rehs[0],)
                 for uid2 in uids:
                     if get_ucd(uid2, 'age').startswith('13.'):
-                        ftml.setBackground("#FFE0E0")  # very light red background
+                        ftml.setBackground(ageColor)
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
