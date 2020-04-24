@@ -18,5 +18,6 @@ with open(sys.argv[1]) as fin:
             qstr = l.pop(0)
             # filter remainder to remove zerowidthjoiners and renumber what's left:
             l = [indexRE.sub(f'!{i}', slot) for i,slot in enumerate(filter(lambda x: not x.startswith('[zerowidthjoiner]'), l))]
+            l = [indexRE.sub(f'!{i}', slot) for i,slot in enumerate(filter(lambda x: not x.startswith('[uni200D]'), l))]
             # output the results
             print(qstr, ' '.join(l), file=fout)
