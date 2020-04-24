@@ -1225,13 +1225,6 @@ feature cv80 {  # Character Variant 80
 feature cv82 {  # Character Variant 82
     # Same for latin & arabic:
         lookup DigitAlternates;
-    # Except Kurdish, Rohingya, Sindhi, and Urdu
-    script arab ;
-        language KUR  ;
-        language RHG  ;
-        language SND  ;
-        language URD  ;
-        language WLF  ;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Eastern digits" ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
