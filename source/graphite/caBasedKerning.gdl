@@ -85,7 +85,7 @@ cRehAll { collision {
 
 
 // Other chars needed:
-g_space { collision.flags = COLL_END + COLL_START } ;
+g_space { collision.flags = COLL_END + COLL_START  + COLL_ISSPACE} ;
 g_zerowidthjoiner { collision.flags = COLL_IGNORE} ;  
 
 endtable; // glyph
@@ -98,6 +98,9 @@ table (positioning)
 // Collision-Avoidance-based kerning
 
 pass(4) 
+    // Turn of kerning if next slot is a whitespace char:
+    cRehAll   { collision.flags = 0 } / _ MARKS cWhitespace;
+
     // Set slot attributes for CA-based kerning:
     cRehAll { collision {
                 min.x = -1000m ; 

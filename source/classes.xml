@@ -219,10 +219,10 @@
 
 
 
-    <!-- class name='Whitespace'> Not used ?
+    <class name='Whitespace'>
         space nbspace enquad emquad enspace emspace threeperemspace fourperemspace sixperemspace figurespace punctuationspace
         thinspace hairspace zerowidthspace narrownbspace
-    </class -->
+    </class>
 
 
     <!-- 
