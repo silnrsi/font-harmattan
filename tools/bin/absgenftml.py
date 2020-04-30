@@ -20,8 +20,7 @@ argspec = [
     ('--rtl', {'help': 'enable right-to-left features', 'action': 'store_true'}, {}),
     ('--norendercheck', {'help': 'do not include the RenderingUnknown check', 'action': 'store_true'}, {}),
     ('-t', '--test', {'help': 'name of the test to generate', 'default': None}, {}),
-    ('-s','--fontsrc', {'help': 'default font source', 'action': 'append'}, {}),
-    ('--sl', {'help': 'fontsrc label', 'action': 'append'}, {}),
+    ('-s','--fontsrc', {'help': 'font source: "url()" or "local()" optionally followed by "=label"', 'action': 'append'}, {}),
     ('--scale', {'help': 'percentage to scale rendered text (default 100)'}, {}),
     ('--ap', {'help': 'regular expression describing APs to examine', 'default': '.'}, {}),
     ('-w', '--width', {'help': 'total width of all <string> column (default automatic)'}, {}),
@@ -90,8 +89,19 @@ def doit(args):
             widths = {'string': f'{width}{units}'}
         except:
             logger.log('Unable to parse width argument "{args.width}"', 'W')
+    # split labels from fontsource parameter
+    fontsrc = []
+    labels = []
+    for sl in args.fontsrc:
+        try:
+            s, l = sl.split('=',1)
+            fontsrc.append(s)
+            labels.append(l)
+        except ValueError:
+            fontsrc.append(sl)
+            labels.append(None)
     ftml = FB.FTML(test, logger, rendercheck=not args.norendercheck, fontscale=args.scale, widths=widths,
-                   xslfn=args.xsl, fontsrc=args.fontsrc, fontlabel=args.sl, defaultrtl=args.rtl)
+                   xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
 
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
