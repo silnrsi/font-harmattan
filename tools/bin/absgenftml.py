@@ -103,14 +103,18 @@ def doit(args):
     ftml = FB.FTML(test, logger, rendercheck=not args.norendercheck, fontscale=args.scale, widths=widths,
                    xslfn=args.xsl, fontsrc=fontsrc, fontlabel=labels, defaultrtl=args.rtl)
 
+    def flagUnicodeVersion(uids):
+        # if any uid in uids has Unicode age >= ageToFlag, then set the test background color to ageColor
+        if max(map(lambda x: float(get_ucd(x, 'age')), uids)) >= ageToFlag:
+            ftml.setBackground(ageColor)
+
     if test.lower().startswith("allchars"):
         # all chars that should be in the font:
         ftml.startTestGroup('Encoded characters')
         for uid in sorted(builder.uids()):
             if uid < 32: continue
             c = builder.char(uid)
-            if float(get_ucd(uid, 'age')) >= ageToFlag:
-                ftml.setBackground(ageColor)
+            flagUnicodeVersion((uid,))
             for featlist in builder.permuteFeatures(uids=(uid,)):
                 ftml.setFeatures(featlist)
                 builder.render((uid,), ftml)
@@ -126,8 +130,7 @@ def doit(args):
         ftml.startTestGroup('Specials & ligatures from glyph_data')
         for basename in sorted(builder.specials()):
             special = builder.special(basename)
-            if max(map(lambda x: float(get_ucd(x, 'age')), special.uids)) > ageToFlag:
-                ftml.setBackground(ageColor)
+            flagUnicodeVersion(special.uids)
             for featlist in builder.permuteFeatures(uids=special.uids, feats=special.feats):
                 ftml.setFeatures(featlist)
                 builder.render(special.uids, ftml)
@@ -147,8 +150,7 @@ def doit(args):
         aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
         for lam in lamlist:
             for alef in aleflist:
-                if max(map(lambda x: float(get_ucd(x, 'age')), (lam, alef))) > ageToFlag:
-                    ftml.setBackground(ageColor)
+                flagUnicodeVersion((lam, alef))
                 for featlist in builder.permuteFeatures(uids=(lam, alef)):
                     ftml.setFeatures(featlist)
                     builder.render((lam, alef), ftml)
@@ -221,8 +223,7 @@ def doit(args):
         ftml.startTestGroup('Arabic Letters')
         for uid in sorted(filter(lambda u: get_ucd(u, 'bc') == 'AL', builder.uids()), key=joinGoupSortKey):
             c = builder.char(uid)
-            if float(get_ucd(uid, 'age')) >= ageToFlag:
-                ftml.setBackground(ageColor)
+            flagUnicodeVersion((uid,))
             for featlist in builder.permuteFeatures(uids=(uid,)):
                 ftml.setFeatures(featlist)
                 builder.render((uid,), ftml)
@@ -258,6 +259,7 @@ def doit(args):
             # Always process Lo, but others only if that take marks:
             if c.general == 'Lo' or c.isBase:
                 for diac in repDiac:
+                    flagUnicodeVersion((uid,diac))
                     for featlist in builder.permuteFeatures(uids=(uid,diac)):
                         ftml.setFeatures(featlist)
                         builder.render((uid,diac), ftml, addBreaks=False, dualJoinMode=2)
@@ -271,6 +273,7 @@ def doit(args):
                                 builder.render((uid, diac, 0x0654), ftml, addBreaks=False, dualJoinMode=2)
                                 builder.render((uid, 0x0654, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
+                    ftml.clearBackground()
                 ftml.closeTest()
 
         ftml.startTestGroup('All Arabic diacritics on representative bases')
@@ -280,6 +283,7 @@ def doit(args):
             c = builder.char(uid)
             if c.general == 'Mn':
                 for base in repBase:
+                    flagUnicodeVersion((uid,base))
                     for featlist in builder.permuteFeatures(uids=(uid,base)):
                         ftml.setFeatures(featlist)
                         builder.render((base,uid), ftml, keyUID=uid, addBreaks=False, dualJoinMode=2)
@@ -293,6 +297,7 @@ def doit(args):
                                 builder.render((uid, diac, 0x0670), ftml, addBreaks=False, dualJoinMode=2)
                                 builder.render((uid, 0x0670, diac), ftml, addBreaks=False, dualJoinMode=2)
                     ftml.clearFeatures()
+                    ftml.clearBackground()
                 ftml.closeTest()
 
         ftml.startTestGroup('Special cases')
@@ -305,6 +310,7 @@ def doit(args):
         diaA = 0x064B
         for lam in lamlist:
             for alef in aleflist:
+                flagUnicodeVersion((lam,alef))
                 for featlist in builder.permuteFeatures(uids=(lam,alef)):
                     ftml.setFeatures(featlist)
                     builder.render((lam, alef),             ftml, addBreaks=False)
@@ -312,7 +318,8 @@ def doit(args):
                     builder.render((lam, diaB, alef),       ftml, addBreaks=False)
                     builder.render((lam, alef, diaB),       ftml, addBreaks=False)
                     builder.render((lam, diaB, alef, diaB), ftml, addBreaks=False)
-                    ftml.clearFeatures()
+                ftml.clearFeatures()
+                ftml.clearBackground()
                 ftml.closeTest()
 
     if test.lower().startswith("subtending"):
@@ -325,6 +332,7 @@ def doit(args):
                 c = chr(uid)
                 label = "U+{0:04X} {1}".format(uid, 'latn' if digitOne == 0x0031 else 'arab' if digitOne == 0x0661 else 'urdu')
                 comment = builder.char(uid).basename
+                flagUnicodeVersion((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
                     ftml.addToTest(uid, "\u0628" + c + "\u0645", label, comment)
@@ -333,9 +341,11 @@ def doit(args):
                     ftml.addToTest(uid, c + chr(digitOne) + chr(digitOne+1))
                 ftml.clearFeatures()
                 ftml.closeTest()
+                ftml.clearBackground()
 
                 if uid == 0x06DD and digitOne == 0x06F1:
                     # Extra items for Eastern digits
+                    flagUnicodeVersion((uid,))
                     for featlist in builder.permuteFeatures(uids=(uid, 0x06F7)):
                         ftml.setFeatures(featlist)
                         ftml.addToTest(uid, c + "\u06F4\u06F6\u06F7", label, "4 6 7")
@@ -348,6 +358,7 @@ def doit(args):
                         ftml.clearFeatures()
                     ftml.clearLang()
                     ftml.closeTest()
+                    ftml.clearBackground()
 
     if test.lower().startswith("showinv"):
         # Sample data for chars that have a "show invisible" feature
@@ -377,10 +388,12 @@ def doit(args):
             if get_ucd(uid,'jg') not in ('Sad', 'Seen', 'Yeh'):
                 # If not Yeh, Sad or seen joining group we're not interested
                 continue
+            flagUnicodeVersion((uid,))
             for featlist in builder.permuteFeatures(uids=(uid, 0x0670)):
                 ftml.setFeatures(featlist)
                 builder.render((uid, 0x0670), ftml)
             ftml.clearFeatures()
+            ftml.clearBackground()
             ftml.closeTest()
 
     if test.lower().startswith('kern'):
@@ -402,10 +415,12 @@ def doit(args):
                 c = chr(uid)
                 label = 'U+{0:04X}'.format(uid)
                 comment = builder.char(uid).basename
+                flagUnicodeVersion((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
                     ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
                 ftml.clearFeatures()
+                ftml.clearBackground()
                 ftml.closeTest()
 
             ftml.startTestGroup('All the waws')
@@ -413,10 +428,12 @@ def doit(args):
                 c = chr(uid)
                 label = 'U+{0:04X}'.format(uid)
                 comment = builder.char(uid).basename
+                flagUnicodeVersion((uid,))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
                     ftml.addToTest(uid, c + dbehf + ' ' + zwj + c + dbehf, label, comment)
                 ftml.clearFeatures()
+                ftml.clearBackground()
                 ftml.closeTest()
 
             # reh or waw plus the others
@@ -427,6 +444,7 @@ def doit(args):
                     c2 = chr(uid2)
                     comment = builder.char(uid2).basename
                     label = 'U+{:04X}'.format(uid2)
+                    flagUnicodeVersion((uid1,uid2))
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         if get_ucd(uid2, 'jt') == 'D':
@@ -435,6 +453,7 @@ def doit(args):
                         ftml.addToTest(    uid2, zwj + c1 + c2      , label, comment)
                         ftml.addToTest(    uid2,       c1 + c2      )
                     ftml.clearFeatures()
+                    ftml.clearBackground()
                     ftml.closeTest()
 
         else:
@@ -506,12 +525,14 @@ def doit(args):
                         0xFD3E,  # ORNATE LEFT PARENTHESIS
                         # 0xFD3F,  # ORNATE RIGHT PARENTHESIS
                         )):
+                    flagUnicodeVersion((uid1,uid2))
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                         if addMarks:
                             builder.render([uid1, ma, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                             builder.render([uid1, mb, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                    ftml.clearBackground()
                     ftml.closeTest()
 
 
@@ -540,13 +561,15 @@ def doit(args):
                     # Add tail to result
                     res += line[lastEnd:]
                     # figure features based only on what matched
-                    matchedUids = map(ord, list(matches))
+                    matchedUids = list(map(ord, list(matches)))
+                    flagUnicodeVersion(matchedUids)
                     for featlist in builder.permuteFeatures(uids=matchedUids):
                         ftml.setFeatures(featlist)
                         # Add to test:
                         ftml.addToTest(None,res,f'line {line_no}')
-                        ftml.clearFeatures()
-                        ftml.closeTest()
+                    ftml.clearFeatures()
+                    ftml.clearBackground()
+                    ftml.closeTest()
 
     if test.lower().startswith('yehbar'):
         # Yehbarree tail interacting with diacs below previous char
@@ -562,11 +585,13 @@ def doit(args):
             c = r'\u{:04X}'.format(uid)
             label = 'U+{:04X}'.format(uid)
             comment = builder.char(uid).basename
+            flagUnicodeVersion((uid,))
             for featlist in builder.permuteFeatures(uids=(uid,)):
                 ftml.setFeatures(featlist)
                 ftml.addToTest(uid, f"{c}{markabove}{yehbarree} {zwj}{c}{markabove}{yehbarree} {c}{markbelow}{markabove}{yehbarree} {zwj}{c}{markbelow}{markabove}{yehbarree}", label, comment)
                 ftml.closeTest()
             ftml.clearFeatures()
+            ftml.clearBackground()
 
         # Also test other forms of yehbarree (yehbarreeHamzaabove-ar, yehbarreeTwoabove, yehbarreeThreeabove-ar)
         ftml.startTestGroup('yehbarree-like')
@@ -576,11 +601,13 @@ def doit(args):
                 yb = r'\u{:04X}'.format(yehbarree)
                 label = 'U+{:04X} U+{:04X}'.format(uid, yehbarree)
                 comment = builder.char(uid).basename + ' ' + builder.char(yehbarree).basename
+                flagUnicodeVersion((uid,yehbarree))
                 for featlist in builder.permuteFeatures(uids=(uid,)):
                     ftml.setFeatures(featlist)
                     ftml.addToTest(uid, f"{c}{markabove}{yb} {zwj}{c}{markabove}{yb} {c}{markbelow}{markabove}{yb} {zwj}{c}{markbelow}{markabove}{yb}", label, comment)
                     ftml.closeTest()
                 ftml.clearFeatures()
+                ftml.clearBackground()
 
     if test.lower().startswith('feature-lang'):
         # Testing of language and feature interactions
@@ -622,6 +649,7 @@ def doit(args):
                         # Yes!
                         featcombinations = list(builder.permuteFeatures(feats=special.feats))
                         break
+            flagUnicodeVersion(uids)
             for featlist in featcombinations:
                 ftml.setFeatures(featlist)
                 builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment="")
@@ -634,6 +662,7 @@ def doit(args):
                     builder.render(uids, ftml, rtl=True, dualJoinMode=1, comment= comment if len(tuple(filter(None, featlist))) else "")
                 ftml.clearFeatures()
             ftml.clearLang()
+            ftml.clearBackground()
 
 
     if test.lower().startswith('classes'):
@@ -666,8 +695,8 @@ def doit(args):
                     if get_ucd(uid, 'jt') in ('R', 'D'):
                         ftml.addToTest(uid, lsb + zwj + c       + rsb)  # final
             ftml.clearFeatures()
+            ftml.clearBackground()
             ftml.closeTest()
-
 
 
     ftml.writeFile(args.output)

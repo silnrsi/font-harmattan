@@ -38,6 +38,7 @@
       <style feats="'cv80' 2" lang="wo" name="wo_cv80_2"/>
     </styles>
     <title>Subtending Marks (NG)</title>
+    <widths string="25"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
