@@ -15,7 +15,7 @@
       <style feats="'cv48' 3" name="cv48_3"/>
     </styles>
     <title>Yehbarree (NG)</title>
-    <widths string="25"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

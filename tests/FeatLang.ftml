@@ -236,7 +236,7 @@
       <style feats="'cv84' 1" lang="wo" name="wo_cv84_1"/>
     </styles>
     <title>Feature-Language Interactions (NG)</title>
-    <widths string="38"/>
+    <widths string="38%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

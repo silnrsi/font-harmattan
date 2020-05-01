@@ -46,7 +46,7 @@
       <style lang="wo" name="wo"/>
     </styles>
     <title>AllChars (NG)</title>
-    <widths string="19"/>
+    <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

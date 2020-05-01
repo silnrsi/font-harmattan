@@ -52,7 +52,7 @@
       <style feats="'cv78' 2" name="cv78_2"/>
     </styles>
     <title>DiacTest1 Short (NG)</title>
-    <widths string="19"/>
+    <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

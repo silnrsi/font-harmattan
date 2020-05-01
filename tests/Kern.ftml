@@ -20,7 +20,7 @@
       <style feats="'cv60' 1" name="cv60_1"/>
     </styles>
     <title>Kerning (NG)</title>
-    <widths string="25"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
