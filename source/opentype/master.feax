@@ -301,6 +301,11 @@ lookup ReorderMaddaVowel2 {
 #********************
 # Language CALTs
 
+lookup dfltCALT {
+  lookupflag 0 ;
+    sub @Kasra by @Kasra_lowered;	# Harmattan defaults to lowered kasra
+} dfltCALT;
+
 lookup KurdishCALT {
   lookupflag 0 ;
     sub heh-ar.fina by heh-ar.knottedHigh.fina ;
@@ -544,6 +549,40 @@ lookup AyahAlternates {
 } AyahAlternates;
 
 #********************
+# Heh Alternates: TypeTuner lookups:
+
+lookup DigitSindhi {
+  lookupflag 0;
+    sub four-persian.urdu   by four-persian;
+    sub four-persian.roh    by four-persian;
+    sub six-persian         by six-persian.urdu;
+    sub seven-persian       by seven-persian.urdu;
+} DigitSindhi;
+
+lookup DigitUrdu {
+  lookupflag 0;
+    sub four-persian        by four-persian.urdu;
+    sub four-persian.roh    by four-persian.urdu;
+    sub six-persian         by six-persian.urdu;
+    sub seven-persian       by seven-persian.urdu;
+} DigitUrdu;
+
+lookup DigitKurdish {
+  lookupflag 0;
+    sub four-persian.urdu   by four-persian;
+    sub four-persian.roh    by four-persian;
+    sub six-persian.urdu    by six-persian;
+    sub seven-persian.urdu  by seven-persian;
+} DigitKurdish;
+
+lookup DigitRohingya {
+    sub four-persian        by four-persian.roh;
+    sub four-persian.urdu   by four-persian.roh;
+    sub six-persian         by six-persian.urdu;
+    sub seven-persian       by seven-persian.urdu;
+} DigitRohingya;
+
+
 # Eastern digit alternates: cv82
 
 lookup DigitAlternates {
@@ -906,7 +945,6 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup SmallMaddah;
         # DecomposeForColor executes here for Arabic
         lookup FontCheck;
-        sub @Kasra by @Kasra_lowered;	# Harmattan defaults to lowered kasra
         lookup ReorderMaddaVowel1;
         lookup ReorderMaddaVowel2;
     script arab;  # Arabic
@@ -988,6 +1026,8 @@ feature rlig {  # Required Ligatures
 
 feature calt {  # Contextual Alternates
     script arab;  # Arabic
+      language dflt ;   # Must have a lookup here for TypeTuner to work.
+        lookup dfltCALT ;
       language KUR ; # Kurdish
         lookup KurdishCALT ;
       language RHG ; # Rohingya

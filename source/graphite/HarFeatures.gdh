@@ -318,7 +318,10 @@ easternDigits {
             value = 0;
             name.1033 = string("Standard");
         }
-//  kurdish-style (value = 3) unneeded as it is same as default
+        kurdish {
+            value = 3;
+            name.1033 = string("Kurdish-style");  // same as default, but for users could ask for it.
+        }
         rohingya {
             value = 4;
             name.1033 = string("Rohingya-style");
