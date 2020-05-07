@@ -5,7 +5,7 @@
     <columns comment="30%" label="15%" string="50%" style="5%" />
     <fontsrc>url(..\results\Harmattan-Regular-graide.ttf)</fontsrc>
     <styles>
-      <style feats="cv50=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 invs=0" name="fset116" />
+      <style feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 invs=0" name="fset120" />
       <style feats="cv82=1" name="fset2" />
       <style feats="cv70=1" name="fset3" />
       <style feats="cv02=2" name="fset4" />
@@ -40,7 +40,7 @@
   </testgroup>
   <testgroup label="allah" />
   <testgroup label="madda">
-    <test class="fset116" label="alefMadda-fatha-shadda" rtl="True">
+    <test class="fset120" label="alefMadda-fatha-shadda" rtl="True">
       <string>آَّ</string>
     </test>
   </testgroup>
