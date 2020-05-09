@@ -34,45 +34,6 @@ environment {MUnits=2048};
 #define opt4(x)     [opt3(x) x]?
 #endif
 
-#if 0   // DESIGN NOTES
-
-One of the complex issues is mark attachment. Problems stem from the following issues:
-
-1) Do we require marks to be in a particular order?
-	The typical sequence of marks is shadda or hamza, followed by vowel, followed by quranic mark.
-	Windows Arabic uses this order, but a canonical Unicode string will not always be in this order.
-	Further, non-canonical Unicode strings can have the marks in any order.
-	Decision: We need to support any order.
-
-2) Do we visually identify illogical mark sequences?
-	While the order of the marks on a given base is variable, certain marks should not occur
-	simultaneously. For example, no more than one vowel mark should occur. If two vowels occur on 
-	the same base, we can visually identify this error by inserting a dotted circle between them
-	which will then act as a base for the second vowel.
-	But detecting this if we allow any order vowels (see 1) is a bit tricky. 
-	Decision: This kind of feedback is probably unwise for minority languages.
-
-3) Exactly what marks are mutually exclusive? Seems clear that the vowels (e.g kasra, fatha, damma,
-	kasratan, fathatan, dammatan, sukun) are mutually exclusive with each other. For Arabic
-	shadda, hamza above, hamza below, and maddah are also mutually exclusive, but I don't know about
-	other languages. I also don't know about the remaining (i.e., quranic) marks.
-	Decision: assume shadda, hamza a/b, maddah and mark noon ghunna are mutually exclusive.
-	
-4) However, maddah works differently from shadda and hamza
-	in that it is placed above the vowel rather than below. (For example, superscript alef + maddah)
-
-To accomplish all this, the design we use is to reorder the marks to a logical
-order based on 4 classes:
-	cMark1 class contains shadda, hamza, mark noon ghunna
-	cMark2 class contains the vowels
-	cMark3 class contains maddah
-	cMark4 class contains quranic marks and Rohingya tones
-	
-Only cMark2 and cMark4 can have duplicates. Except right now there are no outer attachment points for the
-quranic marks, so multiples don't work right.
-
-
-#endif
 
 // Glyph definitions and rules for codepage 1252 composites
 #include "cp1252.gdl"
@@ -146,13 +107,13 @@ pass(2)
 	// 1) We don't swap the glyphs, because that would mess up the original order,
 	//    rather we delete and insert.
 	// 2) glyphs for fixed-position combining classes (other than shadda and daggeralef)
-	//    won't be correctly ordered, but usually not more than one anyway.
+	//    won't be ordered correctly relative to each other, but usually not more than one anyway.
 
 	_  cUTR53_1_skip  cUTR53_1  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_1_skip)  _; // move 220 MCM to front
 	_  cUTR53_2_skip  cUTR53_2  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_2_skip)  _; // move 230 MCM to just after 220 MCM
-	_  cUTR53_3_skip  cUTR53_3  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_3_skip)  _; // shadda is next
-	_  cUTR53_4_skip  cUTR53_4  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_4_skip)  _; // other fixed position glyphs (except daggeralef)
-	_  cUTR53_5_skip  cUTR53_5  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_5_skip)  _; // dagger alef
+	_  cUTR53_3_skip  cUTR53_3  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_3_ctx)   _; // shadda is next
+	_  cUTR53_4_skip  cUTR53_4  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_4_ctx)   _; // other fixed position glyphs (except daggeralef)
+	_  cUTR53_5_skip  cUTR53_5  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_5_ctx)   _; // daggeralef
 	_  cUTR53_6_skip  cUTR53_6  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_6_skip)  _; // other 220 in front of remaining 230.
 	
 #if 0

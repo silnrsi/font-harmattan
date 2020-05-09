@@ -142,13 +142,16 @@ cUTR53_2      = (cUTR53_230MCM) ;
 cUTR53_2_skip = (cUTR53_shadda cUTR53_fixedPos cUTR53_alef cUTR53_220other cUTR53_220MCM) ;
 
 cUTR53_3      = (cUTR53_shadda) ;
-cUTR53_3_skip = (cUTR53_fixedPos cUTR53_alef cUTR53_220other cUTR53_220MCM cUTR53_230other cUTR53_230MCM) ;
+cUTR53_3_skip = (cUTR53_fixedPos cUTR53_alef cUTR53_220other cUTR53_230other) ;
+cUTR53_3_ctx  = (cUTR53_fixedPos cUTR53_alef cUTR53_220other cUTR53_230other cUTR53_220MCM cUTR53_230MCM) ;
 
 cUTR53_4      = (cUTR53_fixedPos) ;
-cUTR53_4_skip = (cUTR53_alef cUTR53_220MCM cUTR53_230other cUTR53_230MCM) ;
+cUTR53_4_skip = (cUTR53_alef cUTR53_220other cUTR53_230other) ;
+cUTR53_4_ctx  = (cUTR53_alef cUTR53_220other cUTR53_230other cUTR53_220MCM cUTR53_230MCM) ;
 
 cUTR53_5      = (cUTR53_alef) ;
-cUTR53_5_skip = (cUTR53_220MCM cUTR53_230other cUTR53_230MCM) ;
+cUTR53_5_skip = (cUTR53_220other cUTR53_230other) ;
+cUTR53_5_ctx  = (cUTR53_220other cUTR53_230other cUTR53_220MCM cUTR53_230MCM) ;
 
 cUTR53_6      = (cUTR53_220other cUTR53_220MCM) ;       // Not actually needed b/c attachment will handle these
 cUTR53_6_skip = (cUTR53_230other cUTR53_230MCM) ;
