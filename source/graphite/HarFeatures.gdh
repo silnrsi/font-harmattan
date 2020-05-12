@@ -356,8 +356,8 @@ commaAlt {
 }
 
 utr53 {
-    // id.hidden = "ut53";
-    id = "ut53";
+    id.hidden = "ut53";
+    // id = "ut53";
     name.1033 = string("Include UTR53 approximation");
     settings {
         off {
