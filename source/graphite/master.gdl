@@ -345,14 +345,14 @@ pass(1)
 	// Note: the superscript-alef may have both the _alef and _diaA att pts; the ordering of these
 	// rules assumes the alef AP should be used if there are no intervening marks above.
 
-	calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia MARKSBELOW _;
-	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia MARKSBELOW _;
-	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cnTakesdiaBDia) _;	
-
+	calefDia {attach {to = @1; at = alefS; with = alefM}} / cTakesalefDia opt4(cndiaADia) _;
+	cdiaADia {attach {to = @1; at = diaAS; with = diaAM}} / cTakesdiaADia opt4(cndiaADia) _;
+	cdiaBDia {attach {to = @1; at = diaBS; with = diaBM}} / cTakesdiaBDia opt4(cndiaBDia) _;
+	
+	
 	// Subtending marks
 	// NB: at this point digits should be in visual order, right to left,
 	// so we attach the left-most (logically first) to the sign, and proceed to the right.
-	
 	
 	cSignDigit=D4 { attach {to=@D3; at=digitRS; with=digitLS }; insert = true}
 	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true}
@@ -385,12 +385,10 @@ pass(1)
 	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
 	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true}
 	cSignDigit=D3 { attach {to=@D2; at=digitRS; with=digitLS }; insert = true};
-	
 
 	cSign2=S
 	cSignDigit=D1 { attach {to=@S;  at=digitRS; with=digitLS }; insert = true}
 	cSignDigit=D2 { attach {to=@D1; at=digitRS; with=digitLS }; insert = true};
-	
 
 	cSign1=S
 	cSignDigit { attach {to=@S;  at=digitRS; with=digitLS }; insert = true};
@@ -404,8 +402,8 @@ pass(2)
 	// Marks below
 
 	// Special attachment points for lam-alef ligatures, to avoid collisions:
-	cTakesdia2BDia=B cAnyMarksBelow {attach {to=@B; at=dia2BS; with=diaBM}}
-		/ (g_lam_threedotsbelow_ar_pre_alef_init g_lam_threedotsbelow_ar_pre_alef_medi cAnyMarksBelow) MARKSABOVE _ ^ MARKSABOVE _ ;
+	cTakesdia2BDia=B cdiaBDia {attach {to=@B; at=dia2BS; with=diaBM}}
+		/ (g_lam_threedotsbelow_ar_pre_alef_init g_lam_threedotsbelow_ar_pre_alef_medi cdiaBDia) MARKSABOVE _ ^ MARKSABOVE _ ;
 
 
 endpass; // 2
