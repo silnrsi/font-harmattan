@@ -3,10 +3,10 @@
 <ftml version="1.0">
   <head>
     <fontscale>250</fontscale>
-    <fontsrc>url(reference/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <fontsrc label="1.0">url(reference/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
+    <fontsrc label="Bld-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <title>UTR53 AMTRA test</title>
   </head>
   <testgroup label="Rendering Check">
