@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-stylesheet type='text/xsl' href='../tools/ftml.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../tools/lib/ftml.xsl'?>
 <ftml version='1.0'>
   <head>
     <fontscale>300</fontscale>
-    <fontsrc>url(reference/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc>url(../references//Harmattan-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc>url(../results/Harmattan-Bold.ttf)</fontsrc>
