@@ -5,7 +5,7 @@
 
 import sys, os
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'pythonlib'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'lib'))
 
 from beziers.path import BezierPath
 from beziers.utils import isclose
