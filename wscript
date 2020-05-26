@@ -18,7 +18,7 @@ DESC_SHORT = 'An Arabic script font designed for use by languages in West Africa
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 # BUILDLABEL = 'beta'
 
-ftmlTest('tests/ftml-smith.xsl', fonts = ['../tests/reference/Harmattan-Regular-1_001.ttf'], addfontindex = 1, fontmode = 'collect')
+ftmlTest('tools/lib/ftml-smith.xsl')
 
 # APs to omit:
 omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
@@ -27,7 +27,7 @@ opts = preprocess_args({'opt': '--quick'}, {'opt': '--norename'})
 
 noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
 
-cmds = [cmd('../tools/bin/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
+cmds = [cmd('../tools/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']))
 # Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts

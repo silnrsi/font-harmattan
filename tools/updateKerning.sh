@@ -12,8 +12,8 @@
 
 # --nooctalap causes script to assume optimized octaboxes needn't be recomputed
 
-set -x
-set -e
+set -e	# Stop on error
+# set -x	# echo before execution
 
 if [ ! -e OFL.txt ] 
 then
@@ -28,17 +28,17 @@ smith configure
 smith build --quick --norename
 
 if [ "z$1" != "z--nooctalap" ]; then
-echo "\nrebuilding optimized octaboxes...\n" ;
+echo "\nrebuilding optimized octaboxes...\n"
 
-tools/bin/octalap -q -j 0 -o source/Harmattan-Regular-octabox.json results/Harmattan-Regular.ttf  &
-tools/bin/octalap -q -j 0 -o source/Harmattan-Bold-octabox.json    results/Harmattan-Bold.ttf ;
+tools/octalap -q -j 0 -o source/Harmattan-Regular-octabox.json results/Harmattan-Regular.ttf  &
+tools/octalap -q -j 0 -o source/Harmattan-Bold-octabox.json    results/Harmattan-Bold.ttf 
 
-wait ;
+wait
 
-echo "\nrebuilding fonts (with new octaboxes)...\n" ;
+echo "\nrebuilding fonts (with new octaboxes)...\n" 
 
 smith clean ;
-smith build --quick --norename ;
+smith build --quick --norename 
 fi
 
 echo "\nrebuilding collision-avoidance-based kerning...\n"
@@ -47,23 +47,30 @@ echo "\nrebuilding collision-avoidance-based kerning...\n"
 outdir=results/grkern2fea_r${R:=20}
 mkdir -p $outdir
 
-( grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0                -f results/Harmattan-Regular.ttf                 $outdir/rawPairData-Regular.txt        ; \
-tools/bin/renumberKernData.py $outdir/rawPairData-Regular.txt                                                              $outdir/rawPairData-Regular-nozwj.txt  ; \
-grkern2fea -s strings -i $outdir/rawPairData-Regular-nozwj.txt -f results/Harmattan-Regular.ttf  -r ${R:=20} -R $outdir/caKern-Regular.fea             ; \
-sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Regular.fea  > source/opentype/caKern-Regular.fea ) &
+( \
+  grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Harmattan-Regular.ttf                 $outdir/rawPairData-Regular.txt        ; \
+  tools/renumberKernData.py $outdir/rawPairData-Regular.txt                                                        $outdir/rawPairData-Regular-nozwj.txt  ; \
+  grkern2fea -s strings  -i $outdir/rawPairData-Regular-nozwj.txt -f results/Harmattan-Regular.ttf  -r ${R:=20} -R $outdir/caKern-Regular.fea             ; \
+  sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Regular.fea  > source/opentype/caKern-Regular.fea \
+) &
 
-( grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0                 -f results/Harmattan-Bold.ttf                 $outdir/rawPairData-Bold.txt        ; \
-tools/bin/renumberKernData.py $outdir/rawPairData-Bold.txt                                                               $outdir/rawPairData-Bold-nozwj.txt  ; \
-grkern2fea -s strings -i $outdir/rawPairData-Bold-nozwj.txt     -f results/Harmattan-Bold.ttf  -r ${R:=20} -R $outdir/caKern-Bold.fea             ; \
-sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Bold.fea  > source/opentype/caKern-Bold.fea ) &
+( \
+  grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Harmattan-Bold.ttf                    $outdir/rawPairData-Bold.txt           ; \
+  tools/renumberKernData.py $outdir/rawPairData-Bold.txt                                                           $outdir/rawPairData-Bold-nozwj.txt     ; \
+  grkern2fea -s strings  -i $outdir/rawPairData-Bold-nozwj.txt    -f results/Harmattan-Bold.ttf     -r ${R:=20} -R $outdir/caKern-Bold.fea                ; \
+  sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-Bold.fea  > source/opentype/caKern-Bold.fea \
+) &
 
 wait
 
-echo "finished successfullly, and the following files were regenerated:
-	source/Harmattan-Regular-octabox.json
-	source/Harmattan-Bold-octabox.json
-	source/opentype/caKern-Regular.fea
-	soure/opentype/caKern-Bold.fea
+echo "finished successfullly, and the following files were regenerated:"
+if [ "z$1" != "z--nooctalap" ]; then
+echo "  - source/Harmattan-Regular-octabox.json
+  - source/Harmattan-Bold-octabox.json"
+fi
+
+echo "  - source/opentype/caKern-Regular.fea
+  - soure/opentype/caKern-Bold.fea
 
 Notes:
   - Intermediate files are in $outdir
