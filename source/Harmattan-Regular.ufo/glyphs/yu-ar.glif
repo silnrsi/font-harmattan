@@ -2,7 +2,7 @@
 <glyph name="yu-ar" format="2">
   <advance width="813"/>
   <unicode hex="06C8"/>
-  <anchor x="53" y="544" name="alef"/>
+  <anchor x="53" y="734" name="alef"/>
   <anchor x="368" y="1035" name="diaA"/>
   <anchor x="370" y="-625" name="diaB"/>
   <outline>
