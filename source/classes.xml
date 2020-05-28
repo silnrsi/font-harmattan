@@ -7,7 +7,7 @@
     ===============================
     -->
     
-    <!-- NB: The following 6 classes were generated algorithmically based on Unicode properties (see font-arab-tools/bin/absgenclasses.py) -->
+    <!-- NB: The following 6 classes were generated algorithmically based on Unicode properties (see tools/absgenclasses.py) -->
     
     <!-- *NEXT 4 CLASSES MUST MATCH* -->
     
@@ -232,7 +232,9 @@
     -->
 
     <!-- For UTR53 implementation -->
-    
+
+    <!-- NB: The following 7 classes were generated algorithmically based on Unicode properties (see tools/absgenclasses.py) -->
+
     <class name='UTR53_220MCM'>
         hamzabelow-ar seenbelow-ar
     </class>
@@ -403,18 +405,6 @@
         fatha-ar damma-ar damma-ar.short
     </class>
 
-
-    <class name='HamzaAbove'>
-        hamzaabove-ar
-    </class>
-
-    <class name='HamzaLigatureParts'>
-        @HamzaAbove @HamzaMarks
-    </class>
-
-    <class name='HamzaAny'>
-        hamzaabove-ar hamzabelow-ar
-    </class>
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 
