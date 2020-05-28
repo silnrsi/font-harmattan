@@ -2,6 +2,7 @@
 <glyph name="yehabove-ar" format="2">
   <unicode hex="06E7"/>
   <anchor x="-13" y="1180" name="_diaA"/>
+  <anchor x="61" y="1774" name="diaA"/>
   <outline>
     <component base="yehSmall-ar" xOffset="-309" yOffset="1288"/>
   </outline>
