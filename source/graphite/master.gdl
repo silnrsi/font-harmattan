@@ -64,13 +64,8 @@ pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
 	
 	// NB: I think that even though this is an ABS decomposition, it can be done in a LTR pass because
 	//     the reverser will make sure the mark always follows the base:
-	// QUESTION: are there more things that need to be decomposed?
 	cAlefPlusMark _ >  g_alef_ar:1  cAlefMark$1:1 ;
-	
-//	if (graphite1mirror)    // No longer support Graphite 1 mirroring?
-//		(cMirrorOpen cMirrorClose)  >  (cMirrorClose cMirrorOpen);
-//	endif;
-	
+		
 	// The following is a debugging tool so you can find out whether the app is rendering with Graphite or not.
 	// The string "RenderingUnknown" will be rendered as "RenderingGraphite":
 	
@@ -115,23 +110,6 @@ pass(2)
 	_  cUTR53_4_skip  cUTR53_4  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_4_ctx)   _; // other fixed position glyphs (except daggeralef)
 	_  cUTR53_5_skip  cUTR53_5  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_5_ctx)   _; // daggeralef
 	_  cUTR53_6_skip  cUTR53_6  > @7:7  @2  _ / _  ^  _  opt4(cUTR53_6_skip)  _; // other 220 in front of remaining 230.
-	
-#if 0
-
-// old code
- 	// Reorder marks to "logical" order (this allows for arbitrary order input)
- 	
-	// NB: Only cMark2 (vowel marks) and cMark4 (quranic marks) can have multiples.
-	// The rules below allow for up to 3 vowel marks and up to 3 quranic marks,
-	// with a total of 4 marks.
-		
-	_  cMark234  cMark1  >  @5:5  @2  _  / _  ^  _  [ cMark234 cMark234? ]?  _;
-	_  cMark34   cMark2  >  @5:5  @2  _  / _  ^  _  [ cMark34  cMark34?  ]?  _;
-	_  cMark4    cMark3  >  @5:5  @2  _  / _  ^  _  [ cMark4   cMark4?   ]?  _;
-	
-	// Note: Jonathan says inserting circles is a bad idea for minority language support.
-
-#endif
 
 endpass; // 2
 endif;
