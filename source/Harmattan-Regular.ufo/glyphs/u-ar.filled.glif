@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u-ar.filled" format="2">
   <advance width="813"/>
-  <anchor x="-6" y="400" name="alef"/>
+  <anchor x="-6" y="684" name="alef"/>
   <anchor x="231" y="1050" name="diaA"/>
   <anchor x="370" y="-663" name="diaB"/>
   <outline>
