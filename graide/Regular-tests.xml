@@ -5,11 +5,13 @@
     <columns comment="30%" label="15%" string="50%" style="5%" />
     <fontsrc>url(..\results\Harmattan-Regular-graide.ttf)</fontsrc>
     <styles>
-      <style feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 invs=0" name="fset120" />
       <style feats="cv82=1" name="fset2" />
+      <style feats="ut53=0" name="fset289" />
       <style feats="cv70=1" name="fset3" />
+      <style lang="ur" name="fset356" />
+      <style feats="cv50=0 cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" name="fset377" />
+      <style feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset378" />
       <style feats="cv02=2" name="fset4" />
-      <style feats="cv82=4" name="fset41" />
     </styles>
   </head>
   <testgroup label="main" />
@@ -17,7 +19,7 @@
     <test class="fset2" label="ayah-ar 123">
       <string>۝۱۱۳</string>
     </test>
-    <test class="fset41" label="ayah-ar 467">
+    <test class="fset356" label="ayah-ar 467">
       <string>۝۴۶۷</string>
     </test>
   </testgroup>
@@ -40,14 +42,20 @@
   </testgroup>
   <testgroup label="allah" />
   <testgroup label="madda">
-    <test class="fset120" label="alefMadda-fatha-shadda" rtl="True">
+    <test label="alefMadda-fatha-shadda" rtl="True">
       <string>آَّ</string>
+    </test>
+    <test class="fset377" label="alefMadda-shadda" rtl="True">
+      <string>آٔ</string>
     </test>
   </testgroup>
   <testgroup label="mark issues">
-    <test label="gr shaping issue with some marks" rtl="True">
+    <test class="fset289" label="gr shaping issue with some marks" rtl="True">
       <comment>Should show initial form</comment>
-      <string>بؕ‍</string>
+      <string>بٰٔ‍</string>
+    </test>
+    <test class="fset378" label="cgj in mark sequence" rtl="True">
+      <string>اُ͏ٔ</string>
     </test>
   </testgroup>
 </ftml>
