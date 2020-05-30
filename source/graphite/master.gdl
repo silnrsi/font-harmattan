@@ -184,25 +184,25 @@ pass(4)	// Features, special behaviors
 
 	// Warsh diacritic placement:
 
-	//NB: It is important to remember that by this time the marks are ordered.
+	//NB: It is important to remember that by this time the marks are ordered similar to UTR53.
 	
 	if (warshDiacritics == std)
-		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ / _ cMark1? _ ;
-		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar g_alef_hamzabelow_ar_fina):(A H) _ / _ cMark1? _ ;
-		g_lam_ar_pre_alef_init=L    g_hamzaabove_ar=H > g_lam_hamza_ar_pre_alef_init:(L H) _ / _ cMark1? _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar g_alef_hamzabelow_ar_fina):(A H) _ ;
+		g_lam_ar_pre_alef_init=L    g_hamzaabove_ar=H > g_lam_hamza_ar_pre_alef_init:(L H) _ ;
 	endif;
 	if (warshDiacritics != std)
-		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar_warsh g_alef_hamzaabove_ar_warsh_fina):(A H) _ / _ cMark1? _ ;
-		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar_warsh g_alef_hamzabelow_ar_warsh_fina):(A H) _ / _ cMark1? _ ;
-		g_lam_ar_pre_alef_init=L    g_hamzaabove_ar=H > g_lam_hamza_ar_pre_alef_warsh_init:(L H) _ / _ cMark1? _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar_warsh g_alef_hamzaabove_ar_warsh_fina):(A H) _ ;
+		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar_warsh g_alef_hamzabelow_ar_warsh_fina):(A H) _ ;
+		g_lam_ar_pre_alef_init=L    g_hamzaabove_ar=H > g_lam_hamza_ar_pre_alef_warsh_init:(L H) _ ;
 		if (warshDiacritics == touching)
-			// NB: can't include cMark1? in context as that would cause this rule to take precidence for alef hamzabelow kasra :
-			g_alef_ar=A (g_fatha_ar g_kasra_ar)=V > (g_alef_fatha_ar_warsh g_alef_kasra_ar_warsh)$V:(A,V) _ ; 
+			// NB: even though a longer rule, it won't match if there is a hamza
+			g_alef_ar=A (g_fatha_ar g_kasra_ar)=V > (g_alef_fatha_ar_warsh g_alef_kasra_ar_warsh)$V:(A,V) _ / _ opt3(cUTR53_fixedPos) _ ; 
 		endif;
 	endif;
 	// Re-attach hamza below alef in Lam-Alef ligatures:
 	(g_alef_ar_post_lam_ini_fina g_alef_ar_post_lam_med_fina)=A g_hamzabelow_ar=H > 
-		(g_alef_hamzabelow_ar_post_lam_ini_fina g_alef_hamzabelow_ar_post_lam_med_fina):(A H) _ / _ cMark1? _ ;
+		(g_alef_hamzabelow_ar_post_lam_ini_fina g_alef_hamzabelow_ar_post_lam_med_fina):(A H) _ ;
 	
 	// yehbarree: substitute .wide variant when appropriate
 	
@@ -306,9 +306,6 @@ endtable; // sub
 
 
 table (positioning)
-
-// Must allow for at least cMark1Below and/or cMark2Below to intervene between base and marks above.
-// The code below is more general.
 
 pass(1)
 	// Lam-alef components:

@@ -169,39 +169,9 @@ cnalefDia += g_graphemejoinercomb ;
 cndiaADia += g_graphemejoinercomb ;
 cndiaBDia += g_graphemejoinercomb ;
 
-
-// marks that can combine with vowel marks:
-cMark1Above = (cMarkGroup1A);
-
-cMark1Below = (cMarkGroup1B);
-
-// vowels
-cMark2Above = (cMarkGroup2A cMarkGroup3A);
-
-cMark2Below = (cMarkGroup2B);
-
-// Maddah is different from hamza and shadda in that it goes above the vowels, but below the quranic
-// marks. However, Jonathan warns that this behavior may need to change someday.
-cMark3Above = (cMarkGroup4A);
-
-// (no marks below that behave like maddah)
-
-// quranic marks
-cMark4Above = (cMarkGroup5A);
-
-cMark4Below = (cMarkGroup3B);
-
-cMark1 = (cMark1Above cMark1Below);
-cMark2 = (cMark2Above cMark2Below);
-cMark3 = (cMark3Above);
-cMark4 = (cMark4Above cMark4Below);
-
-cAnyMarks = (cMark1 cMark2 cMark3 cMark4);
-cAnyMarksAbove = (cMark1Above cMark2Above cMark3Above cMark4Above);
-cAnyMarksBelow = (cMark1Below cMark2Below cMark4Below);
-
-cMark234 = (cMark2 cMark3 cMark4);
-cMark34  = (cMark3 cMark4);
+#define cAnyMarksAbove cdiaADia
+#define cAnyMarksBelow cdiaBDia
+cAnyMarks = (cdiaADia cdiaBDia)
 
 endtable; // glyph
 

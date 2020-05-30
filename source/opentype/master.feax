@@ -23,6 +23,9 @@ languagesystem arab URD  ;    # Urdu
 languagesystem arab WLF  ;    # Wolof
 languagesystem latn dflt ;
 
+@MarksAbove = [@_diaA] ;
+@MarksBelow = [@_diaB] ;
+@MarksAny = [@_diaA @diaB] ;
 
 # Notes:
 #   I've tried to arrange the lookups themselves, and then the features that refer to them,
@@ -123,35 +126,6 @@ lookup ReorderMaddaVowel2 {
   lookupflag 0 ;
     sub madda-ar.small' lookup ReorderMaddaVowel2_target @MaddaSkip madda-ar.small ;
 } ReorderMaddaVowel2;
-
-
-#  Old code:
-#	# Reordering of madda: moving it beyond anything in groups 1A, 2A, or 3A
-#	
-#	lookup ReorderMaddaVowel1_target {
-#	  lookupflag 0 ;
-#	    sub @MarkGroup1A by @MarkGroup1A madda-ar.small ;
-#	    sub @MarkGroup2A by @MarkGroup2A madda-ar.small ;
-#	    sub @MarkGroup3A by @MarkGroup3A madda-ar.small ;
-#	} ReorderMaddaVowel1_target ;
-#	
-#	lookup ReorderMaddaVowel1 {
-#	  lookupflag 0 ;
-#	    sub madda-ar.small [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]' lookup ReorderMaddaVowel1_target ;
-#	} ReorderMaddaVowel1;
-#	
-#	lookup ReorderMaddaVowel2_target {
-#	  lookupflag 0 ;
-#	    sub madda-ar.small @MarkGroup1A by @MarkGroup1A ;
-#	    sub madda-ar.small @MarkGroup2A by @MarkGroup2A ;
-#	    sub madda-ar.small @MarkGroup3A by @MarkGroup3A ;
-#	} ReorderMaddaVowel2_target ;
-#	
-#	lookup ReorderMaddaVowel2 {
-#	  lookupflag 0 ;
-#	    sub madda-ar.small' lookup ReorderMaddaVowel2_target [ @MarkGroup1A @MarkGroup2A @MarkGroup3A ]  madda-ar.small ;
-#	} ReorderMaddaVowel2;
-#
 
 
 # HB PAUSE
