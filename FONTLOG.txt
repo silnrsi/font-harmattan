@@ -13,11 +13,11 @@ Harmattan, named after the trade winds that blow during the dry season in
 West Africa, is designed in a Warsh style to suit the needs of languages 
 using the Arabic script in West Africa.
 
-This font includes full support for Unicode 8.0 Arabic ranges 
-(excluding the Arabic Presentation Forms blocks, which are not recommended 
-for normal use). It also includes many of the characters in the 
-Arabic Extended-A block that were added to Unicode 9.0 and 11.0 (no Arabic 
-script characters were added to Unicode 10.0).
+This release supports virtually all of the Unicode 13.0 Arabic character 
+repertoire (excluding the Quranic annotation signs in the Arabic Extended-A
+block and excluding the Arabic Presentation Forms blocks, which are not 
+recommended for normal use). Font smarts are implemented using OpenType 
+and Graphite technologies.
 
 This font uses state-of-the-art OpenType and Graphite font technologies, 
 including variant glyphs for a number of characters for use in particular 
@@ -64,11 +64,12 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2019-10-18 (SIL WSTech team) Harmattan Version 2.000 (production release)
+2020-06-19 (SIL WSTech team) Harmattan Version 2.000 (production release)
   - Added a bold typeface
   - Added support for all characters in the Arabic and Arabic Supplement blocks
-  - Added support for all base characters in the Arabic Extended-A block and U+08E3
-  - Added U+FDFC, U+FDFD (bismillah)
+  - Added support for all characters in the Arabic Extended-A block (except for the
+    Quranic annotation signs)
+  - Added U+FDFC (rial), U+FDFD (bismillah)
   - Added U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+034F, U+03C0, U+2044, U+2126, U+2202, 
     U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265, U+2423 
   - Implemented language support for Kurdish, Rohingya, Sindhi, Urdu, and Wolof variants
@@ -88,6 +89,7 @@ ChangeLog
   - Improved line spacing to support added characters
   - Modified underline and strikethrough position (used by some applications)
   - Modified superscript and subscript size and positioning (used by some applications)
+  - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
 
 2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
   - Changed internal font names

@@ -45,6 +45,14 @@ h2 {
   font-family: HarmattanW;
   -moz-font-feature-settings: "cv44" 1; font-size: 200%; direction: rtl; text-align: right;
 }
+.cv620 {
+  font-family: HarmattanW;
+  -moz-font-feature-settings: "cv62" 0; font-size: 200%; direction: rtl; text-align: right;
+}
+.cv622 {
+  font-family: HarmattanW;
+  -moz-font-feature-settings: "cv62" 2; font-size: 200%; direction: rtl; text-align: right;
+}
 .cv800 {
   font-family: HarmattanW; 
   -moz-font-feature-settings: "cv80" 0; font-size: 200%; direction: rtl; text-align: right;
