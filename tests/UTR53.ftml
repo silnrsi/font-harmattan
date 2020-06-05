@@ -3,15 +3,14 @@
 <ftml version="1.0">
   <head>
     <fontscale>250</fontscale>
-    <fontsrc label="1.0">url(../references/Harmattan-Regular-v1.ttf)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc label="Bld-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <title>UTR53 AMTRA test</title>
     <styles>
-    	<style feats="'cv62' 1" name="cv62_1"/>  <!-- lowered kasra -->
+      <style feats="'cv62' 1" name="cv62_1"/>  <!-- lowered kasra -->
       <style feats="'cv62' 2" name="cv62_2"/>  <!-- raised kasra -->
     </styles>
+    <widths comment='20em' string='3em' label='5em'/>
   </head>
   <testgroup label="Rendering Check">
     <test label="check">
@@ -19,7 +18,7 @@
     </test>
   </testgroup>
   <testgroup label='MCM Characters (USV order)'>
-  <test><comment>U+0628 U+0618 U+0619 U+064e U+064f U+0654 U+0658 U+0653 U+0654 U+0651 U+0656 U+0651 U+065c U+0655 U+0650 test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall </comment><string>\u0628\u0618\u0619\u064e\u064f\u0654\u0658\u0653\u0654\u0651\u0656\u0651\u065c\u0655\u0650</string></test>
+  <test><comment>U+0628 U+0618 U+0619 U+064e U+064f U+0654 U+0658 U+0653 U+0654 U+0651 U+0656 U+0651 U+065c U+0655 U+0650 test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall test to make the line extra tall </comment><string>\u0628\u0618\u0619\u064e\u064f\u0654\u0658\u0653\u0654\u0651\u0656\u0651\u065c\u0655\u0650</string></test>
   <test label='U+0654'><comment>ARABIC HAMZA ABOVE</comment><string>\u25cc\u0654</string></test>
   <test label='U+0654'><comment>U+0627 U+064F U+0654</comment><string>\u0627\u064F\u0654</string></test>
   <test label='U+0654'><comment>U+0627 U+064F U+034F U+0654</comment><string>\u0627\u064F\u034f\u0654</string></test>
@@ -46,10 +45,16 @@
   <test label='U+06E3'><comment>U+064A U+0647 U+06E3 U+0650</comment><string>\u064A\u0647\u06E3\u0650</string></test>
   <test label='U+06E3'><comment>U+064A U+0647 U+06E3 U+034F U+0650</comment><string>\u064A\u0647\u06E3\u034F\u0650</string></test>
   <test label='U+06E7'><comment>ARABIC SMALL HIGH YEH</comment><string>\u25cc\u06E7</string></test>
+  <test label='shadda+kasra'><comment>U+0641 U+0650 U+0651</comment><string>\u0641\u0650\u0651</string></test>
+  <test label='shadda+kasra'><comment>U+0641 U+0650 U+034F U+0651</comment><string>\u0641\u0650\u034F\u0651</string></test>
   <test label='shadda+kasra' stylename='cv62_1'><comment>U+0641 U+0650 U+0651</comment><string>\u0641\u0650\u0651</string></test>
   <test label='shadda+kasra' stylename='cv62_1'><comment>U+0641 U+0650 U+034F U+0651</comment><string>\u0641\u0650\u034F\u0651</string></test>
   <test label='shadda+kasra' stylename='cv62_2'><comment>U+0641 U+0650 U+0651</comment><string>\u0641\u0650\u0651</string></test>
   <test label='shadda+kasra' stylename='cv62_2'><comment>U+0641 U+0650 U+034F U+0651</comment><string>\u0641\u0650\u034F\u0651</string></test>
+  <test label='U+06E7'><comment>U+0640 U+0650 U+0651 U+06E7</comment><string>\u0640\u0650\u0651\u06E7</string></test>
+  <test label='U+06E7'><comment>U+0640 U+0650 U+0651 U+034F U+06E7</comment><string>\u0640\u0650\u0651\u034F\u06E7</string></test>
+  <test label='U+06E7'><comment>U+0640 U+0650 U+06E7 U+0651</comment><string>\u0640\u0650\u06E7\u0651</string></test>
+  <test label='U+06E7'><comment>U+0640 U+0650 U+06E7 U+034F U+0651</comment><string>\u0640\u0650\u06E7\u034F\u0651</string></test>
   <test label='U+06E7' stylename='cv62_1'><comment>U+0640 U+0650 U+0651 U+06E7</comment><string>\u0640\u0650\u0651\u06E7</string></test>
   <test label='U+06E7' stylename='cv62_1'><comment>U+0640 U+0650 U+0651 U+034F U+06E7</comment><string>\u0640\u0650\u0651\u034F\u06E7</string></test>
   <test label='U+06E7' stylename='cv62_1'><comment>U+0640 U+0650 U+06E7 U+0651</comment><string>\u0640\u0650\u06E7\u0651</string></test>
