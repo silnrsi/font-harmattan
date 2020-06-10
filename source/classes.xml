@@ -303,11 +303,6 @@
         fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar
     </class>
 
-		<!-- Including graphemejoinercomb allows it to interrupt the ligature formation,
-					otherwise the lookupflag causes it to be ignored. -->
-    <class name='ShaddaLigatureParts'>
-        @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb
-    </class>
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
 

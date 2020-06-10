@@ -47,12 +47,10 @@ environment {MUnits=2048};
 
 #define alefAttached user1
 
-// Allow a sequence of up to 4 marks.
-#define MARKS [ cAnyMarks [ cAnyMarks [ cAnyMarks cAnyMarks? ]? ]? ]?
-
-#define MARKSBELOW [ cAnyMarksBelow [ cAnyMarksBelow cAnyMarksBelow? ]? ]?
-
-#define MARKSABOVE [ cAnyMarksAbove [ cAnyMarksAbove cAnyMarksAbove? ]? ]?
+// Allow a sequence of up to 4 marks including CGJ
+#define MARKS      opt4(cAnyMarksCGJ     )
+#define MARKSBELOW opt4(cAnyMarksBelowCGJ)
+#define MARKSABOVE opt4(cAnyMarksAboveCGJ)
 
 
 table(substitution)
@@ -242,12 +240,16 @@ pass(4)	// Features, special behaviors
 	endif;
 
 	if (shaddaKasra == raised)
-		g_shadda_ar  cShaddaKasraMarks  >  _  cShaddaKasraLigatures:(1 2);
+		// Normally, due to UTR53 reordering shadda will preceed kasra.
+		// However for sequences such as kasra+CGJ+shadda we still want to ligate the kasra and shadda
+		g_shadda_ar=S  cShaddaKasraMarks=K  >  cShaddaKasraLigatures$K:(S K) _ / _ ^ MARKS _ ;
+		cShaddaKasraMarks=K  g_shadda_ar=S  >  _ cShaddaKasraLigatures$K:(S K) / _ ^ MARKS _ ;
 	endif;
 	
 	// QUESTION: do we really need these if we're doing the reordering above?
-	g_shadda_ar     cShaddaMarks >  _  cShaddaLigatures:(1 2) / _ ^ _ ;
-	g_hamzaabove_ar cHamzaMarks  >  _  cHamzaLigatures:(1 2)  / _ ^ _ ;
+	// 2020-06-09 bh: I don't think so, and am commenting these out.
+	// g_shadda_ar     cShaddaMarks >  _  cShaddaLigatures:(1 2) / _ ^ _ ;
+	// g_hamzaabove_ar cHamzaMarks  >  _  cHamzaLigatures:(1 2)  / _ ^ _ ;
 
 	if (dammaAlt == filled)
 		cDamma > cDamma_filled;

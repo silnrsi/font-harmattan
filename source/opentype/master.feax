@@ -374,14 +374,38 @@ lookup ComposeLowHamzaAbove {
     sub @LowHamzaBase hamzaabove-ar by @LowHamzaComposed ;
 } ComposeLowHamzaAbove;
 
-@HamzaLigatureFilter = [ @HamzaAboveFilter @HamzaMarks ] ;
+@LigateHamzaMarksFilter = [ hamzaabove-ar @HamzaMarks ] ;
+lookup LigateHamzaMarks {
+  lookupflag UseMarkFilteringSet @LigateHamzaMarksFilter ;
+    sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
+} LigateHamzaMarks;
+
+@HamzaLigatureFilter = [ @HamzaAboveFilter @HamzaMarks shadda-ar ] ;
 lookup HamzaLigatures {
   lookupflag UseMarkFilteringSet @HamzaLigatureFilter ;
-    sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
+    # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because 
+    # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the 
+    # hamza as it isn't at the beginning of the 230 sequence.
+    ignore sub @UTR53_230other               hamzaabove-ar' ;
+    ignore sub @UTR53_230other @UTR53_230MCM hamzaabove-ar' ;
+    # shouldn't ligate fatha|damma + following hamza when a 230MCM follows the hamza because
+    # UTR53 would have moved both hamza and following 230MCM to before the fatha|damma at which
+    # point the 230MCM would be between the hamza and teh fatha|damma, blocking ligation.
+    ignore sub @HamzaMarks'                  hamzaabove-ar @UTR53_230MCM ;
+    ignore sub @HamzaMarks'    @UTR53_230MCM hamzaabove-ar @UTR53_230MCM ;
+    # otherwise we can ligate in these situations:
+    sub hamzaabove-ar' lookup LigateHamzaMarks                                                   @HamzaMarks ;
+    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other                                   @HamzaMarks ;
+    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other [ @UTR53_230other @UTR53_230MCM ] @HamzaMarks ;
+    sub @HamzaMarks'   lookup LigateHamzaMarks                 hamzaabove-ar ;
+    sub @HamzaMarks'   lookup LigateHamzaMarks @UTR53_230MCM   hamzaabove-ar ;
 } HamzaLigatures;
 
+# Including graphemejoinercomb allows it to interrupt the ligature formation,
+#		otherwise the lookupflag causes it to be ignored.
+@ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb ] ;
 lookup ShaddaLigatures {
-  lookupflag MarkAttachmentType @ShaddaLigatureParts ;
+  lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
     sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
     sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
 } ShaddaLigatures;
@@ -710,8 +734,9 @@ lookup CommaAlternate {
 #
 # see notes with liga feature
 
+@ShaddaKasraFilter = [ @ShaddaKasraMarks shadda-ar ] ;
 lookup ShaddaKasraLigatures {
-  lookupflag MarkAttachmentType @ShaddaLigatureParts ;
+  lookupflag UseMarkFilteringSet @ShaddaKasraFilter ;
     sub @ShaddaKasraMarks shadda-ar by @ShaddaKasraLigatures ;
     sub shadda-ar @ShaddaKasraMarks by @ShaddaKasraLigatures ;
 } ShaddaKasraLigatures;

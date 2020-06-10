@@ -10,6 +10,7 @@
       <style feats="cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset375" />
       <style feats="cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv08=0 cv12=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset376" />
       <style feats="cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset379" />
+      <style feats="cv62=2" name="fset380" />
     </styles>
     <title>Kerning (NG)</title>
   </head>
@@ -45,6 +46,9 @@
     </test>
     <test class="fset379" label="kashida-kasra-shadda-yehabove" rtl="True">
       <string>ـِّۧ</string>
+    </test>
+    <test class="fset380" label="feh-shadda-cgj-kasra" rtl="True">
+      <string>فِ͏ّ</string>
     </test>
   </testgroup>
 </ftml>
