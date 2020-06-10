@@ -162,22 +162,25 @@ pass(4)	// Features, special behaviors
 	// lamInit-lam-shadda-alef-heh
 	g_lam_ar_init g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
 		> g_lam_ar_allah1_init g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
-		/ (cRightLinkIsol cRightLinkFina) MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
+		/ ^ (cRightLinkIsol cRightLinkFina) MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
 
 	// lamInit-lam-alef-shadda-heh
 	g_lam_ar_init g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
 		> g_lam_ar_allah1_init g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
-		/ (cRightLinkIsol cRightLinkFina) MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
+		/ ^ (cRightLinkIsol cRightLinkFina) MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
 
 	// lamMedi-lam-shadda-alef-heh
 	g_lam_ar_medi g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
 		> g_lam_ar_allah1_medi g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
-		/ (cDualLinkInit cDualLinkMedi) MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
+		/ ^ (cDualLinkInit cDualLinkMedi) MARKS _ _ g_shadda_ar (g_alefabove_ar g_fatha_ar) _;
 
 	// lamMedi-lam-alef-shadda-heh
 	g_lam_ar_medi g_lam_ar_medi (g_heh_ar_fina g_hehgoal_ar_fina) 
 		> g_lam_ar_allah1_medi g_lam_ar_allah2_medi (g_heh_ar_allah_fina g_hehgoal_ar_allah_fina)
-		/ (cDualLinkInit cDualLinkMedi) MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
+		/ ^ (cDualLinkInit cDualLinkMedi) MARKS _ _ (g_alefabove_ar g_fatha_ar) g_shadda_ar _;
+
+	// Fix up initial alef for Rule 2:
+	(g_alef_ar  g_alef_ar_fina)   >  (g_alef_ar_allah g_alef_ar_allah_fina)  /  _  MARKS  g_lam_ar_allah1_init;
 
 
 	// Warsh diacritic placement:

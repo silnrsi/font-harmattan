@@ -162,133 +162,137 @@ lookup ltrInit {
 #********
 # Allah "ligature" (implemented by variant forms for glyphs rather than by ligature glyph):
 
-lookup AllahSubs1 {
+lookup AllahSubAlef {
   lookupflag 0;
   	sub alef-ar      by alef-ar.allah;
   	sub alef-ar.fina by alef-ar.allah.fina;
+} AllahSubAlef;
+
+lookup AllahSubLam1 {
+  lookupflag 0;
     sub lam-ar.init  by lam-ar.allah1.init;
     sub lam-ar.medi  by lam-ar.allah1.medi;
-} AllahSubs1;
+} AllahSubLam1;
 
-lookup AllahSubs2 {
+lookup AllahSubLam2Heh {
   lookupflag 0;
     sub lam-ar.medi     by lam-ar.allah2.medi;
     sub heh-ar.fina     by heh-ar.allah.fina;
     sub hehgoal-ar.fina by hehgoal-ar.allah.fina;
-} AllahSubs2;
+} AllahSubLam2Heh;
 
-lookup AllahSubs3 {
+lookup AllahSubLam2AddMarks {
   lookupflag 0;
     sub lam-ar.medi by lam-ar.allah2.medi shadda-ar alefabove-ar ;  # insert shadda-alef
-} AllahSubs3;
+} AllahSubLam2AddMarks;
 
 lookup AllahLigatures {
   lookupflag 0;
     # Rule 3: alefIso-lam-lam-heh
-    sub alef-ar' lookup AllahSubs1
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs3
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
-    sub alef-ar' lookup AllahSubs1
+    sub alef-ar' lookup AllahSubAlef
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2AddMarks
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub alef-ar' lookup AllahSubAlef
         @MarksAny'
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs3
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
-    sub alef-ar' lookup AllahSubs1
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2AddMarks
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub alef-ar' lookup AllahSubAlef
         @MarksAny' 
         @MarksAny'
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs3
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2AddMarks
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
 
     # Rule 2: lamInit-lam-shadda-alef-heh
-    sub [@RightLinkIsol @RightLinkFina]
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         shadda-ar'
         [alefabove-ar fatha-ar]'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
-    sub [@RightLinkIsol @RightLinkFina]
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
         @MarksAny' 
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         shadda-ar'
         [alefabove-ar fatha-ar]'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
-    sub [@RightLinkIsol @RightLinkFina]
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
         @MarksAny' 
         @MarksAny' 
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         shadda-ar'
         [alefabove-ar fatha-ar]'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     # Rule 2: lamInit-lam-alef-shadda-heh
-    sub [@RightLinkIsol @RightLinkFina]
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         [alefabove-ar fatha-ar]'
         shadda-ar'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
-    sub [@RightLinkIsol @RightLinkFina]
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
         @MarksAny' 
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         [alefabove-ar fatha-ar]'
         shadda-ar'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
-    sub [@RightLinkIsol @RightLinkFina]
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
+    sub [@RightLinkIsol @RightLinkFina]' lookup AllahSubAlef
         @MarksAny' 
         @MarksAny' 
-        lam-ar.init' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.init' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         [alefabove-ar fatha-ar]'
         shadda-ar'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     # Rule 2: lamMedi-lam-shadda-alef-heh
     sub [@DualLinkInit @DualLinkMedi]
-        lam-ar.medi' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         shadda-ar'
         [alefabove-ar fatha-ar]'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     sub [@DualLinkInit @DualLinkMedi]
         @MarksAny' 
-        lam-ar.medi' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         shadda-ar'
         [alefabove-ar fatha-ar]'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     sub [@DualLinkInit @DualLinkMedi]
         @MarksAny' 
         @MarksAny' 
-        lam-ar.medi' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         shadda-ar'
         [alefabove-ar fatha-ar]'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     # Rule 2: lamMedi-lam-alef-shadda-heh
     sub [@DualLinkInit @DualLinkMedi]
-        lam-ar.medi' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         [alefabove-ar fatha-ar]'
         shadda-ar'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     sub [@DualLinkInit @DualLinkMedi]
         @MarksAny' 
-        lam-ar.medi' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         [alefabove-ar fatha-ar]'
         shadda-ar'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
     sub [@DualLinkInit @DualLinkMedi]
         @MarksAny' 
         @MarksAny' 
-        lam-ar.medi' lookup AllahSubs1
-        lam-ar.medi' lookup AllahSubs2
+        lam-ar.medi' lookup AllahSubLam1
+        lam-ar.medi' lookup AllahSubLam2Heh
         [alefabove-ar fatha-ar]'
         shadda-ar'
-        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubs2;
+        [heh-ar.fina hehgoal-ar.fina]' lookup AllahSubLam2Heh;
 } AllahLigatures;  
         
 #********
