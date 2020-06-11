@@ -11,7 +11,7 @@ APPNAME = 'Harmattan'
 # set the font family name
 FAMILY = APPNAME
 
-DESC_SHORT = 'An Arabic script font designed for use by languages in West Africa'
+DESC_SHORT = 'Arabic script font designed for use by languages in West Africa'
 
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')

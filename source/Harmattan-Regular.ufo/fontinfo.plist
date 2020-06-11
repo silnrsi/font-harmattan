@@ -30,18 +30,7 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>openTypeHheaLineGap</key>
   <integer>0</integer>
   <key>openTypeNameDescription</key>
-  <string>Harmattan, named after the trade winds that blow during the dry season in 
-West Africa, is designed in a Warsh style to suit the needs of languages 
-using the Arabic script in West Africa.
-
-This font includes full support for Unicode 8.0 Arabic ranges 
-(excluding the Arabic Presentation Forms blocks, which are not recommended 
-for normal use). It also includes many of the characters in the 
-Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
-
-This font uses state-of-the-art OpenType and Graphite font technologies, 
-including variant glyphs for a number of characters for use in particular 
-contexts.</string>
+  <string>Arabic script font designed for use by languages in West Africa</string>
   <key>openTypeNameDesigner</key>
   <string>George W. Nuss III and SIL International</string>
   <key>openTypeNameDesignerURL</key>

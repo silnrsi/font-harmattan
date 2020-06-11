@@ -5,10 +5,11 @@ Harmattan
 Thank you for your interest in the Harmattan font.
 We hope you find it useful!
 
-Harmattan includes full support for Unicode 8.0 Arabic ranges 
-(excluding the Arabic Presentation Forms blocks, which are not recommended 
-for normal use). It also includes many of the characters in the 
-Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
+The Harmattan font contains near complete coverage of all the characters 
+defined in Unicode 13.0 for Arabic script (excluding the Arabic Presentation 
+Forms blocks, which are not recommended for normal use). We include full
+support for the Arabic and Arabic Supplement blocks. Harmattan also includes support
+for the Arabic Extended-A block with the exception of U+08D3..U+08E2.  
 
 This font uses state-of-the-art OpenType and Graphite font technologies, 
 including variant glyphs for a number of characters for use in particular 
@@ -48,8 +49,8 @@ and Windows 8. Graphite capabilities have been tested on Graphite-supported
 platforms.
 
 If you do find a problem, please do report it through 
-http://scripts.sil.org/support. We can't guarantee any direct response, but 
-will try to fix reported bugs in future versions. 
+https://software.sil.org/harmattan/support/. We can't guarantee any direct 
+response, but will try to fix reported bugs in future versions. 
 
 Many problems can be solved, or at least explained, through an understanding
 of the encoding and use of the fonts. Here are some basic hints:

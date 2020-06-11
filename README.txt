@@ -5,10 +5,11 @@ Harmattan
 Thank you for your interest in the Harmattan font.
 We hope you find it useful!
 
-Harmattan includes full support for Unicode 8.0 Arabic ranges 
-(excluding the Arabic Presentation Forms blocks, which are not recommended 
-for normal use). It also includes many of the characters in the 
-Arabic Extended-A block that were added to Unicode 9.0 and 10.0.
+The Harmattan font contains near complete coverage of all the characters 
+defined in Unicode 13.0 for Arabic script (excluding the Arabic Presentation 
+Forms blocks, which are not recommended for normal use). We include full
+support for the Arabic and Arabic Supplement blocks. Harmattan also includes support
+for the Arabic Extended-A block with the exception of U+08D3..U+08E2.  
 
 This font uses state-of-the-art OpenType and Graphite font technologies, 
 including variant glyphs for a number of characters for use in particular 
@@ -26,19 +27,27 @@ and licensing, please see the documentation on the website
 (http://software.sil.org/harmattan/) or in the documentation 
 subfolder of this font package.
 
+KNOWN ISSUES
+============
+At the time of the Harmattan 2.000 release there is a known issue for printing
+with Harmattan in Word 2019 and Word 365. Printing to a printer or to pdf may 
+cause a reh-like glyph to shift in its advanced width. The result is that there
+appears to be a small space between the preceding character and the reh-like
+character. Microsoft is working on releasing an update that includes a fix for this issue.
+
+
 TIPS
 ====
 
 As this font is distributed at no cost, we are unable to provide a 
 commercial level of personal technical support. The font has, however, 
 been through some testing on various platforms to be sure it works in most
-situations. In particular, it has been tested and shown to work on Windows 7 
-and Windows 8. Graphite capabilities have been tested on Graphite-supported 
-platforms.
+situations. In particular, it has been tested and shown to work on Windows 10. 
+Graphite capabilities have been tested on Graphite-supported platforms.
 
 If you do find a problem, please do report it through 
-http://scripts.sil.org/support. We can't guarantee any direct response, but 
-will try to fix reported bugs in future versions. 
+https://software.sil.org/harmattan/support/. We can't guarantee any direct 
+response, but will try to fix reported bugs in future versions. 
 
 Many problems can be solved, or at least explained, through an understanding
 of the encoding and use of the fonts. Here are some basic hints:
