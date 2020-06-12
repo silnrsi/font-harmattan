@@ -149,10 +149,15 @@ Acknowledgements
 be sure to add your name (N), email (E), web-address (W) and description
 (D). This list is sorted by last name in alphabetical order.)
 
+N: Sharon Correll
+E: fonts@sil.org
+W: http://scripts.sil.org/
+D: Contributing Designer and Script Engineer
+
 N: Bob Hallissy
 E: fonts@sil.org
 W: http://scripts.sil.org/
-D: Graphite, OpenType, and TypeTuner code, and build support
+D: Lead Script Engineer: Graphite, OpenType, and TypeTuner code, and build support
 
 N: Becca Spalinger
 E: fonts@sil.org

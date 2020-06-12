@@ -35,7 +35,6 @@ cause a reh-like glyph to shift in its advanced width. The result is that there
 appears to be a small space between the preceding character and the reh-like
 character. Microsoft is working on releasing an update that includes a fix for this issue.
 
-
 TIPS
 ====
 
