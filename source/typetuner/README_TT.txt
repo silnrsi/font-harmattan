@@ -38,6 +38,14 @@ is included in the package as feat_set_tuned.xml.
 By inspecting this file with a text editor you can determine 
 which alternate behaviors have been enabled.
 
+KNOWN ISSUES
+============
+At the time of the Harmattan 2.000 release there is a known issue for printing
+with Harmattan in Word 2019 and Word 365. Printing to a printer or to pdf may 
+cause a reh-like glyph to shift in its advanced width. The result is that there
+appears to be a small space between the preceding character and the reh-like
+character. Microsoft is working on releasing an update that includes a fix for this issue.
+
 TIPS
 ====
 
