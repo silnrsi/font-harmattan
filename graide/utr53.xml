@@ -50,5 +50,8 @@
     <test class="fset380" label="feh-shadda-cgj-kasra" rtl="True">
       <string>فِ͏ّ</string>
     </test>
+    <test class="fset380" label="teh-kasra-smallHighYeh-shadda" rtl="True">
+      <string>تِّۧ</string>
+    </test>
   </testgroup>
 </ftml>
