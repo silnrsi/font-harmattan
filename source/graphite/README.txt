@@ -15,7 +15,7 @@ You should have received a copy of the license along with this Font Software.
 If this is not the case, go to (http://scripts.sil.org/OFL) for all the
 details including an FAQ.
 
-Harmattan.gdl   Master GDL file; includes all the others
+Harmattan.gdl      Master GDL file; includes all the others
 
 stddef.gdh         Standard Graphite definitions
 

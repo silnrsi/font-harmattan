@@ -15,3 +15,5 @@ You should have received a copy of the license along with this Font Software.
 If this is not the case, go to (http://scripts.sil.org/OFL) for all the
 details including an FAQ.
 
+master.feax   Master source file for OpenType logic. Note this file utilizes
+              FEA extensions provided by pysilfont.
