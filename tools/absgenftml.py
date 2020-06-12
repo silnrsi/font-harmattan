@@ -247,7 +247,7 @@ def doit(args):
             lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
             aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
         else:
-            repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x0670)))
+            repDiac = list(filter(lambda x: x in builder.uids(), (0x064E, 0x0650, 0x0654, 0x0670)))
             repBase = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0628)))
             lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
             aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
@@ -463,34 +463,47 @@ def doit(args):
             # rules for kerning reh followed by dual- or right-joining:
             for uid1 in rehs:  # (rehs[0],)
                 for uid2 in uids:
+                    if uid2 == 0x0622:
+                        # alefMadda gets decomposed; we'll handle this decomp below
+                        continue
                     if get_ucd(uid2, 'age').startswith('13.'):
                         ftml.setBackground(ageColor)
                     for featlist in builder.permuteFeatures(uids=(uid1,uid2)):
                         ftml.setFeatures(featlist)
                         builder.render([uid1, uid2], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                         if addMarks:
-                            if uid2 != 0x0627:
-                                # handle cases other than alefMadda:
-                                builder.render([uid1,     uid2, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1,     uid2, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1,     uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1,     uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, ma, uid2],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, ma, uid2, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, ma, uid2, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, ma, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, ma, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, mb, uid2],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, mb, uid2, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, mb, uid2, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, mb, uid2, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, mb, uid2, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                            else:
-                                # Because alefMadda decompose for reordering we add rules for
-                                # handling *two* marks-bove between alef and mb:
-                                builder.render([uid1,     0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, ma, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
-                                builder.render([uid1, mb, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1,     uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1,     uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1,     uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            #builder.render([uid1,     uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1,     uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1,     uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1,     uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            #builder.render([uid1,     uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            #builder.render([uid1, ma, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, ma, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            #builder.render([uid1, ma, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2],                 ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2, ma],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2, mb, ma],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2, mb, mb, ma],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            #builder.render([uid1, mb, uid2, mb, mb, mb, ma], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2, mb],             ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2, ma, mb],         ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            builder.render([uid1, mb, uid2, ma, ma, mb],     ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+                            #builder.render([uid1, mb, uid2, ma, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+#                            if uid2 == 0x0627:
+#                                # Because alefMadda decompose for reordering we add rules for
+#                                # handling *two* marks-bove between alef and mb:
+#                                builder.render([uid1,     0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+#                                builder.render([uid1, ma, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
+#                                builder.render([uid1, mb, 0x0627, ma, ma, mb], ftml, addBreaks=False, rtl=True, dualJoinMode=1)
                     ftml.closeTest()
                     ftml.clearFeatures()
                     ftml.clearBackground()

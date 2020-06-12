@@ -15,6 +15,19 @@ argspec = [
     ('-l','--log',{'help': 'Set log file name'}, {'type': 'outfile', 'def': '_classes.log'}),
 ]
 
+# UTR53 Modifier Combining Marks
+mcm = {
+    0x0654, # ARABIC HAMZA ABOVE
+    0x0655, # ARABIC HAMZA BELOW
+    0x0658, # ARABIC MARK NOON GHUNNA
+    0x06DC, # ARABIC SMALL HIGH SEEN
+    0x06E3, # ARABIC SMALL LOW SEEN
+    0x06E7, # ARABIC SMALL HIGH YEH
+    0x06E8, # ARABIC SMALL HIGH NOON
+    0x08F3, # ARABIC SMALL HIGH WAW
+    0x08D3, # ARABIC SMALL LOW WAW
+}
+
 
 def doit(args):
     logger = args.logger
@@ -30,6 +43,47 @@ def doit(args):
     djoining = set()    # names of all dual-joining encoded glyphs
     unencoded = set()   # names of all unencoded glyphs having .init, .medi, or .fina extensions
     glyphOrder = {}     # dictionary to record sort order of glyphs
+
+    basenames2uid = {}      # dictionary mapping basename of marks to uid
+    utr53_220MCM = set()
+    utr53_230MCM = set()
+    utr53_shadda = set()
+    utr53_fixedPos = set()
+    utr53_220other = set()
+    utr53_230other = set()
+
+    def addMark(uid, gname):
+        ccc = int(get_ucd(uid, 'ccc'))
+        if uid in (mcm):
+            if ccc == 220:
+                utr53_220MCM.add(gname)
+            elif ccc == 230:
+                utr53_230MCM.add(gname)
+            else:
+                logger.log(f'glyph {gname} (uid {uid:04X}) claims to be MCM but has ccc {ccc}', 'W')
+        elif ccc == 33:
+            utr53_shadda.add(gname)
+        elif ccc > 0 and ccc <= 35:
+            utr53_fixedPos.add(gname)
+        elif ccc == 220:
+            utr53_220other.add(gname)
+        elif ccc == 230:
+            utr53_230other.add(gname)
+        else:
+            logger.log(f'unexpected glyph {gname} with uid {uid:04X} and ccc {ccc}', 'W')
+
+    def makeLines(glist, padding = 0):
+        lines = []
+        while len(glist):
+            line = []
+            linelgt = 0
+            while len(glist) and linelgt < 120:
+                gname = glist.pop(0)
+                line.append(gname)
+                linelgt += len(gname) + 1 + padding # Allow for space in between, and .xxxx extension
+            if len(line):
+                lines.append(line)
+        return lines
 
     namesWithFormRE = re.compile(r'\.(init|medi|fina)')
 
@@ -80,13 +134,21 @@ def doit(args):
                     djoining.add(gname)
                 # remember glyph ordering for encoded glyphs
                 glyphOrder[gname] = float(line[orderCol])
+            elif get_ucd(uid, 'bc') == 'NSM' and get_ucd(uid, 'blk').startswith('Arabic'):
+                # Partition up the marks for pseudo UTR53
+                addMark(uid, gname)
+                basenames2uid[gname] = uid
+
         elif len(uidList) == 0:
             # Handle unencoded glyphs
             if namesWithFormRE.search(gname):
                 # This is an initial, medial, or final form -- remember it
                 unencoded.add(gname)
                 glyphOrder[gname] = float(line[orderCol])
-
+            else:
+                basename = gname.split('.')[0]
+                if basename in basenames2uid:
+                    addMark(basenames2uid[basename], gname)
 
     # First, find missing or mis-ordered glyphs
     # For this we have to order the glyphs as they will be in the font
@@ -112,17 +174,7 @@ def doit(args):
     # For this we sort glyphs alphabetically, and make sure lines aren't enormously long
     for joinType in ('Dual', 'Right'):
         glist = sorted(djoining if joinType == 'Dual' else rjoining)
-        lines = []
-        while len(glist):
-            line = []
-            linelgt = 0
-            while len(glist) and linelgt < 120:
-                gname = glist.pop(0)
-                line.append(gname)
-                linelgt += len(gname) +  6 # Allow for space in between, and .xxxx extension
-            if len(line):
-                lines.append(line)
-
+        lines = makeLines(glist, 5)
         for form in (('isol', 'init', 'medi', 'fina') if joinType == 'Dual' else ('isol', 'fina')):
             clname = "{0}Link{1}".format(joinType, form.title())
             # Start xml element for class name
@@ -132,6 +184,16 @@ def doit(args):
                     line = ['{0}.{1}'.format(x,form) for x in line]
                 args.output.write(u'        {0}\n'.format(' '.join(line)))
             args.output.write(u'    </class>\n\n')
+
+    # And the UTR35 classes:
+    for clname, glist in zip(('utr53_220MCM', 'utr53_230MCM', 'utr53_shadda', 'utr53_fixedPos', 'utr53_220other', 'utr53_230other'),
+                             (utr53_220MCM, utr53_230MCM, utr53_shadda, utr53_fixedPos, utr53_220other, utr53_230other)):
+        glist = sorted(glist)
+        args.output.write(u"    <class name='{0}'>\n".format(clname))
+        lines = makeLines(glist)
+        for line in lines:
+            args.output.write(u'        {0}\n'.format(' '.join(line)))
+        args.output.write(u'    </class>\n\n')
 
     # Emit warnings and errors
     if len(missing):
