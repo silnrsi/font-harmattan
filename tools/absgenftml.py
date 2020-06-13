@@ -146,8 +146,8 @@ def doit(args):
 
         # Add Lam-Alef data manually
         ftml.startTestGroup('Lam-Alef')
-        lamlist = list(filter(lambda x: x in builder.uids(), (0x0644, 0x06B5, 0x06B6, 0x06B7, 0x06B8, 0x076A, 0x08A6)))
-        aleflist = list(filter(lambda x: x in builder.uids(), (0x0627, 0x0622, 0x0623, 0x0625, 0x0671, 0x0672, 0x0673, 0x0675, 0x0773, 0x0774)))
+        lamlist = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Lam', builder.uids()))
+        aleflist = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Alef', builder.uids()))
         for lam in lamlist:
             for alef in aleflist:
                 flagUnicodeVersion((lam, alef))
@@ -397,7 +397,7 @@ def doit(args):
             ftml.closeTest()
 
     if test.lower().startswith('kern'):
-        rehs = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Reh', builder.uids() ))
+        rehs = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Reh', builder.uids()))
         waws = sorted(filter(lambda uid: get_ucd(uid,'jg') == 'Waw', builder.uids()))
         uids = sorted(filter(lambda uid: get_ucd(uid, 'jt') in ('D', 'R') or uid == 0xFD3E, builder.uids()), key=joinGoupSortKey)
         # NB: I wondered about including punctuation, i.e.,  get_ucd(uid, 'gc').startswith('P'), but the default
