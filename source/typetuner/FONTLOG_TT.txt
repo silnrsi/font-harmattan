@@ -64,12 +64,12 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of Harmattan beta Version 2.000 (production release)
+%ISODATE% (SIL TypeTuner) Tuned version of Harmattan version 2.000
 - Tuned and delivered by SIL TypeTuner 
   (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
 
-2020-06-19 (SIL WSTech team) Harmattan Version 2.000 (production release)
+2020-06-19 (SIL WSTech team) Harmattan version 2.000
   - Added a bold typeface
   - Added support for all characters in the Arabic and Arabic Supplement blocks
   - Added support for all characters in the Arabic Extended-A block (except for the
