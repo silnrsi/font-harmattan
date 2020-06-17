@@ -250,7 +250,7 @@
 
 	<feature name="Line spacing" value="Normal"	tag="LnSpc">
 		<value name="Normal" tag="Nrml">
-			<cmd name="null" args="2080 1274"/>
+			<cmd name="null" args="2166 1323"/>
 		</value>
 		<value name="Loose" tag="Ls">
 			<cmd name="line_gap" args="3067 2006"/>
