@@ -8,6 +8,7 @@
 		<value name="Kurdish" tag="Kur">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 			<cmd name="gr_feat" args="{gr_cv62} 2"/>	# shadda-kasra raised
 			<cmd name="gr_feat" args="{gr_cv48} 3"/>	# heh
 		</value>
@@ -130,16 +131,14 @@
 	</feature>
 
 	<feature name="Shadda+kasra placement" value="Default" tag="Kas">
-		<!-- see also the interactions section -->
+		<!-- OpenType handled in interactions section -->
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Lowered" tag="Low">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraLow}"/>
 			<cmd name="gr_feat" args="{gr_cv62} 1"/>
 		</value>
 		<value name="Raised" tag="High">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraHigh}"/>
 			<cmd name="gr_feat" args="{gr_cv62} 2"/>
 		</value>
 	</feature>
@@ -266,12 +265,26 @@
 		</value>
 	</feature>
 
-	<!-- interactions>
-	    <test select="Lng-Kur Kas-Low">
-			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {KasraLow}"/>
-			<cmd name="gr_feat" args="{gr_cv62} 1"/>
-	    </test>
-	</interactions -->
+	<interactions>
+		<test select="Lng-Def Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Kur Kas-Low">
+			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Rhg Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Sin Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Urd Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+		</test>
+		<test select="Lng-Wol Kas-High">
+			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+		</test>
+	</interactions>
 
 	<cmd_blocks/>
 

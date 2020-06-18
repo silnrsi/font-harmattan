@@ -128,6 +128,20 @@ lookup ReorderMaddaVowel2 {
 } ReorderMaddaVowel2;
 
 
+#********************
+# Kasra position
+
+lookup KasraLow {
+  lookupflag 0 ;
+    sub @Kasra by @Kasra_lowered;
+} KasraLow;
+
+lookup KasraHigh {
+  lookupflag 0 ;
+    sub @Kasra_lowered by @Kasra;
+} KasraHigh;
+
+
 # HB PAUSE
 
 #********************
@@ -424,16 +438,17 @@ lookup ShaddaLigatures {
 #********************
 # Language CALTs
 
+# Note: Setting default kasra is done in ccmp
+
 lookup dfltCALT {
   lookupflag 0 ;
-    sub @Kasra by @Kasra_lowered;	# Harmattan defaults to lowered kasra
+     sub tab by tab;   # Need a dummy lookup for Typetuner
 } dfltCALT;
 
 lookup KurdishCALT {
   lookupflag 0 ;
     sub heh-ar.fina by heh-ar.knottedHigh.fina ;
     sub heh-ar by heh-ar.knotted ;
-    sub @Kasra_lowered by @Kasra ;
 } KurdishCALT;
 
 lookup RohingyaCALT {
@@ -442,7 +457,6 @@ lookup RohingyaCALT {
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
     sub @cno_sixNine by @c_sixNine ;
-    sub @Kasra by @Kasra_lowered ;
 } RohingyaCALT  ;
 
 lookup SindhiCALT {
@@ -450,7 +464,6 @@ lookup SindhiCALT {
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
     sub @Meem by @Meem.sindhi ;
-    sub @Kasra by @Kasra_lowered ;
 } SindhiCALT;
 
 lookup UrduCALT {
@@ -458,14 +471,12 @@ lookup UrduCALT {
     sub four-persian by four-persian.urdu ;
     sub six-persian by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
-    sub @Kasra by @Kasra_lowered ;
 } UrduCALT;
 
 lookup WolofCALT {
   lookupflag 0 ;
     sub @cno_loclWLF by @c_loclWLF ;
     sub @Damma by @Damma_short ;
-    sub @Kasra by @Kasra_lowered ;
 } WolofCALT;
 
 
@@ -601,18 +612,6 @@ lookup MaddahAlternate {
 
 
 #********************
-# Kasra Alternates: TypeTuner lookups
-
-lookup KasraLow {
-  lookupflag 0 ;
-    sub @Kasra by @Kasra_lowered;
-} KasraLow;
-
-lookup KasraHigh {
-  lookupflag 0 ;
-    sub @Kasra_lowered by @Kasra;
-} KasraHigh;
-
 # Kasra Alternates: cv62
 
 lookup KasraAlternates {
@@ -1063,12 +1062,18 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup ReorderMaddaVowel2;
     script arab;  # Arabic
         lookup DecomposeForColor;
-      # Force other languages to include Arabic script lookups
       language KUR  ;
+      	# Kurdish uses raised kasra
       language RHG  ;
+        lookup KasraLow ;
       language SND  ;
+        lookup KasraLow ;
       language URD  ;
+        lookup KasraLow ;
       language WLF  ;
+        lookup KasraLow ;
+      language dflt ;
+        lookup KasraLow ;
 } ccmp ;
 
 # feature locl (not used; see calt)
@@ -1255,8 +1260,7 @@ feature cv44 {  # Character Variant 44
 
 feature cv48 {  # Character Variant 48
     script arab;  # Arabic
-        language dflt;  # Default
-            lookup HehAlternates;
+        lookup HehAlternates;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language SND  ;
@@ -1274,8 +1278,7 @@ feature cv48 {  # Character Variant 48
 
 feature cv50 {  # Character Variant 50
     script arab;  # Arabic
-        language dflt;  # Default
-            lookup UAlternate;
+        lookup UAlternate;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language RHG  ;
