@@ -18,7 +18,7 @@
 			<cmd name="gr_feat" args="{gr_cv72} 1"/>	# dammatan six-nine
 			<cmd name="gr_feat" args="{gr_cv82} 4"/>	# eastern digits
 		</value>
-		<value name="Sindhi" tag="Sin">
+		<value name="Sindhi" tag="Snd">
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>	# meem alternates
@@ -85,7 +85,7 @@
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Sindhi-style" tag="Sin">
+		<value name="Sindhi-style" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MeemAlternate}"/>	
 			<cmd name="gr_feat" args="{gr_cv44} 1"/>
 		</value>
@@ -99,7 +99,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishHeh}"/>	
 			<cmd name="gr_feat" args="{gr_cv48} 3"/>
 		</value>
-		<value name="Sindhi-style" tag="Sin">
+		<value name="Sindhi-style" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiHeh}"/>	
 			<cmd name="gr_feat" args="{gr_cv48} 1"/>
 		</value>
@@ -226,7 +226,7 @@
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitRohingya}"/>
 			<cmd name="gr_feat" args="{gr_cv82} 4"/>	# eastern digits
 		</value>
-		<value name="Sindhi-style" tag="Sin">
+		<value name="Sindhi-style" tag="Snd">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitSindhi}"/>
 			<cmd name="gr_feat" args="{gr_cv82} 1"/>	# eastern digits
 		</value>
@@ -275,7 +275,7 @@
 		<test select="Lng-Rhg Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 		</test>
-		<test select="Lng-Sin Kas-High">
+		<test select="Lng-Snd Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Urd Kas-High">
