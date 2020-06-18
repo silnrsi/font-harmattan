@@ -9,6 +9,7 @@
 			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 			<cmd name="gr_feat" args="{gr_cv62} 2"/>	# shadda-kasra raised
 			<cmd name="gr_feat" args="{gr_cv48} 3"/>	# heh
 		</value>
@@ -268,21 +269,27 @@
 	<interactions>
 		<test select="Lng-Def Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Kur Kas-Low">
 			<cmd name="lookup_add" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_add" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Rhg Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Snd Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Urd Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 		<test select="Lng-Wol Kas-High">
 			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
+			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
 		</test>
 	</interactions>
 
