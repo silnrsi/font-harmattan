@@ -14,7 +14,7 @@ of the license along with this Font Software. If this is not the case, go to
 (http://scripts.sil.org/OFL) for all the details including a FAQ.
 */
 
-/* use Scheherazade - Regular in .woff format */
+/* use Harmattan - Regular in .woff format */
 @font-face {
   font-family: HarmattanW;
   src: url(Harmattan-Regular.woff);
@@ -23,7 +23,7 @@ of the license along with this Font Software. If this is not the case, go to
 
 /* set body to use Harmattan in .woff format */
 body {
-  font-family: HarmattanW, sans-serif; text-align: left;
+  font-family: HarmattanW, serif; text-align: left;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 /* remove bold styling from heading */

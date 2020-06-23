@@ -64,6 +64,9 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+2020-xx-xx (SIL WSTech team) Harmattan version 2.010
+  - xxxx
+  
 2020-06-19 (SIL WSTech team) Harmattan version 2.000
   - Added a bold typeface
   - Added support for all characters in the Arabic and Arabic Supplement blocks

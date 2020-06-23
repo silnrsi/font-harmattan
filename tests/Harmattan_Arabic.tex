@@ -1,0 +1,317 @@
+%%!TEX TS-program = xetex
+%%!TEX encoding = UTF-8 Unicode
+
+\def\myABSfontname{Harmattan}
+\def\myfontname{Gabriola}
+
+%
+%%% OpenType-info.tex %%%
+
+\vsize=9.5in
+\nopagenumbers
+\parindent=0pt
+
+\def\test#1{
+  \font\x="#1" at 14pt \x
+    \par\par\lang\par}
+\baselineskip=14pt
+
+\def\testtwo#1{
+  \font\x="#1" at 14pt \x
+     \vskip 14pt\par\par \basic \par}
+\baselineskip=14pt
+
+\def\testthree#1{
+  \font\x="#1" at 14pt \x
+     \vskip 14pt\par\par\basic \par}
+\baselineskip=14pt
+
+\def\testfour#1{
+  \font\x="#1" at 14pt \x
+     \vskip 14pt\par\par\basic\par}
+\baselineskip=14pt
+
+\def\testfive#1{
+  \font\x="#1" at 14pt \x
+     \vskip 14pt\par\par\basic\par}
+\baselineskip=14pt
+
+\def\testsix#1{
+  \font\x="#1" at 14pt \x
+     \vskip 14pt\par\par\extras\par}
+\baselineskip=14pt
+
+
+\def\basic{Now is the time for all good men to come to the aid of their country. Flying Dogstarman. amazon amazon amazon. Gabriola making the Latin script a complex writing system.}
+ 
+\def\extras{Ŋŋ}
+
+
+
+
+\def\dal{\beginR د ذ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ۮ ݙ ݚ\endR}
+\def\meem{\beginR م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ\endR}
+\def\heh{\beginR ه ههه\endR}
+\def\U{\beginR ٷ ۇ\endR}
+\def\maddah{\beginR آ آ ◌ٓ \endR}
+\def\kasrashaddah{\beginR بِّ ◌ِّ بٍّ ◌ٍّ \endR}
+\def\kasraext{\beginR اِ اِّ اِّ بِ بِّ بِّ ثِ ثِّ ثِّ هِ هِّ هِّ يِ يِّ يِّ ݿِ ݿِّ ݿِّ ࢬِ ࢬِّ ࢬِّ \endR}
+\def\damma{\beginR بُ ◌ُ \endR}
+\def\dammaext{\beginR اُ اُّ اُّ بُ بُّ بُّ ثُ ثُّ ثُّ هُ هُّ هُّ يُ يُّ يُّ ݿُ ݿُّ ݿُّ ࢬُ ࢬُّ ࢬُّ \endR}
+
+\def\dammatan{\beginR بٌ ◌ٌ \endR}
+\def\dammatanext{\beginR اٌ اٌّ اٌّ بٌ بٌّ بٌّ ثٌ ثٌّ ثٌّ هٌ هٌّ هٌّ يٌ يٌّ يٌّ ݿٌ ݿٌّ ݿٌّ ࢬٌ ࢬٌّ ࢬٌّ \endR}
+
+\def\invdamma{\beginR بٗ ◌ٗ \endR}
+\def\invdammaext{\beginR اٗ اّٗ اّٗ بٗ بّٗ بّٗ ثٗ ثّٗ ثّٗ هٗ هّٗ هّٗ يٗ يّٗ يّٗ ݿٗ ݿّٗ ݿّٗ ࢬٗ ࢬّٗ ࢬّٗ \endR}
+
+\def\sukun{\beginR بْ ◌ْ \endR}
+\def\sukunext{\beginR اْ اّْ اّْ بْ بّْ بّْ ثْ ثّْ ثّْ هْ هّْ هّْ يْ يّْ يّْ ݿْ ݿّْ ݿّْ ࢬْ ࢬّْ ࢬّْ \endR}
+\def\endayah{\beginR ۝123\endR}
+\def\digits{\beginR ۴۵۶۷\endR}
+\def\comma{\beginR ، ؛\endR}
+\def\JehHack{\beginR ژ \endR}
+\def\khahhack{\beginR بۡ ◌ۡ \endR}
+\def\all{\dal\meem\heh\U\maddah\kasrashaddah\damma\dammatan\invdamma\sukun\endayah\digits\comma\JehHack\khahhack}
+\def\lang{\meem\heh\kasrashaddah\digits}
+\def\SampleWords{\beginR بࣷرࣷومْ کࣵتَّنْ أَنذرُونِيكُوس إِفنْثرُوسن آرٗونَ اَيٗوبَ  لاَلاَ بلاَ\endR}
+
+% \test{\myABSfontname}
+
+
+\TeXXeTstate=1
+\parindent=0pt
+
+
+\def\testLang#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \lang\par}
+\baselineskip=14pt
+
+\def\testDal#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \dal\par}
+\baselineskip=14pt
+
+\def\testMeem#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \meem\par}
+\baselineskip=14pt
+
+\def\testHeh#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \heh\par}
+\baselineskip=14pt
+
+\def\testU#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \U\par}
+\baselineskip=14pt
+
+\def\testMaddah#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \maddah\par}
+\baselineskip=14pt
+
+\def\testKasra#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \kasrashaddah\kasraext\par}
+\baselineskip=14pt
+
+\def\testDamma#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \damma\dammaext\par}
+\baselineskip=14pt
+
+\def\testDammatan#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \dammatan\dammatanext\par}
+\baselineskip=14pt
+
+\def\testInvDamma#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \invdamma\invdammaext\par}
+\baselineskip=14pt
+
+\def\testSukun#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \sukun\sukunext\par}
+\baselineskip=14pt
+
+\def\testEndAyah#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \endayah\par}
+\baselineskip=14pt
+
+\def\testDigits#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \digits\par}
+\baselineskip=14pt
+
+\def\testComma#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \comma\par}
+\baselineskip=14pt
+
+
+\def\testSampleWords#1{
+  \font\x="#1" at 22pt \x
+    This shows the font “#1”. \par
+    \SampleWords\par}
+\baselineskip=14pt
+
+\testSampleWords{\myABSfontname/GR}
+\testSampleWords{\myABSfontname/GR:Sukun=Open down:Meem=Sindhi-style:Maddah=Large:Damma=Filled:Inverted Damma=Hollow}
+
+
+\testLang{\myABSfontname/GR}
+\testLang{\myABSfontname/GR:language=urd}
+\testLang{\myABSfontname/GR:language=snd}
+\testLang{\myABSfontname/GR:language=kmr}
+
+
+\bigskip
+\testDal{\myABSfontname/GR:Dal=Standard}
+\testDal{\myABSfontname/GR:Dal=Alternate}
+
+\bigskip
+\testMeem{\myABSfontname/GR:Meem=Standard}
+\testMeem{\myABSfontname/GR:Meem=Sindhi-style}
+
+\bigskip
+\testHeh{\myABSfontname/GR:Heh=Standard}
+\testHeh{\myABSfontname/GR:Heh=Sindhi-style}
+\testHeh{\myABSfontname/GR:Heh=Urdu-style}
+\testHeh{\myABSfontname/GR:Heh=Kurdish-style}
+
+\bigskip
+\testU{\myABSfontname/GR:Arabic U=Standard}
+\testU{\myABSfontname/GR:Arabic U=Filled}
+
+\bigskip
+\testMaddah{\myABSfontname/GR:Maddah=Small}
+\testMaddah{\myABSfontname/GR:Maddah=Large}
+
+\bigskip
+\testKasra{\myABSfontname/GR:Shadda+kasra placement=Raised}
+\testKasra{\myABSfontname/GR:Shadda+kasra placement=Lowered}
+
+\bigskip
+\testDamma{\myABSfontname/GR:Damma=Standard}
+\testDamma{\myABSfontname/GR:Damma=Short}
+\testDamma{\myABSfontname/GR:Damma=Filled}
+
+\bigskip
+\testDammatan{\myABSfontname/GR:Dammatan=Standard}
+\testDammatan{\myABSfontname/GR:Dammatan=Six-nine}
+
+\bigskip
+\testInvDamma{\myABSfontname/GR:Inverted Damma=Standard}
+\testInvDamma{\myABSfontname/GR:Inverted Damma=Hollow}
+
+\bigskip
+\testSukun{\myABSfontname/GR:Sukun=Closed}
+\testSukun{\myABSfontname/GR:Sukun=Open down}
+\testSukun{\myABSfontname/GR:Sukun=Open left}
+
+\bigskip
+\testEndAyah{\myABSfontname/GR:End of ayah=Standard}
+\testEndAyah{\myABSfontname/GR:End of ayah=Simplified A}
+\testEndAyah{\myABSfontname/GR:End of ayah=Simplified B}
+
+\bigskip
+\testDigits{\myABSfontname/GR:Eastern digits=Standard}
+\testDigits{\myABSfontname/GR:Eastern digits=Sindhi-style}
+\testDigits{\myABSfontname/GR:Eastern digits=Urdu-style}
+
+\bigskip
+\testComma{\myABSfontname/GR:Comma=Upward}
+\testComma{\myABSfontname/GR:Comma=Downward}
+
+
+
+\testSampleWords{\myABSfontname:script=Arab}
+\testSampleWords{\myABSfontname:script=Arab:Sukun=Open down:Meem=Sindhi-style:Maddah=Large:Damma=Filled:Inverted Damma=Hollow}
+
+
+\testLang{\myABSfontname:script=Arab}
+\testLang{\myABSfontname:script=Arab:language=ur}
+\testLang{\myABSfontname:script=Arab:language=snd}
+\testLang{\myABSfontname:script=Arab:language=kmr}
+
+
+\bigskip
+\testDal{\myABSfontname:script=Arab:Dal=Standard}
+\testDal{\myABSfontname:script=Arab:Dal=Alternate}
+
+\bigskip
+\testMeem{\myABSfontname:script=Arab:Meem=Standard}
+\testMeem{\myABSfontname:script=Arab:Meem=Sindhi-style}
+
+\bigskip
+\testHeh{\myABSfontname:script=Arab:Heh=Standard}
+\testHeh{\myABSfontname:script=Arab:Heh=Sindhi-style}
+\testHeh{\myABSfontname:script=Arab:Heh=Urdu-style}
+\testHeh{\myABSfontname:script=Arab:Heh=Kurdish-style}
+
+\bigskip
+\testU{\myABSfontname:script=Arab:Arabic U=Standard}
+\testU{\myABSfontname:script=Arab:Arabic U=Filled}
+
+\bigskip
+\testMaddah{\myABSfontname:script=Arab:Maddah=Small}
+\testMaddah{\myABSfontname:script=Arab:Maddah=Large}
+
+\bigskip
+\testKasra{\myABSfontname:script=Arab:Shadda+kasra placement=Raised}
+\testKasra{\myABSfontname:script=Arab:Shadda+kasra placement=Lowered}
+
+\bigskip
+\testDamma{\myABSfontname:script=Arab:Damma=Standard}
+\testDamma{\myABSfontname:script=Arab:Damma=Short}
+\testDamma{\myABSfontname:script=Arab:Damma=Filled}
+
+\bigskip
+\testDammatan{\myABSfontname:script=Arab:Dammatan=Standard}
+\testDammatan{\myABSfontname:script=Arab:Dammatan=Six-nine}
+
+\bigskip
+\testInvDamma{\myABSfontname:script=Arab:Inverted Damma=Standard}
+\testInvDamma{\myABSfontname:script=Arab:Inverted Damma=Hollow}
+
+\bigskip
+\testSukun{\myABSfontname:script=Arab:Sukun=Closed}
+\testSukun{\myABSfontname:script=Arab:Sukun=Open down}
+\testSukun{\myABSfontname:script=Arab:Sukun=Open left}
+
+\bigskip
+\testEndAyah{\myABSfontname:script=Arab:End of ayah=Standard}
+\testEndAyah{\myABSfontname:script=Arab:End of ayah=Simplified A}
+\testEndAyah{\myABSfontname:script=Arab:End of ayah=Simplified B}
+
+\bigskip
+\testDigits{\myABSfontname:script=Arab:Eastern digits=Standard}
+\testDigits{\myABSfontname:script=Arab:Eastern digits=Sindhi-style}
+\testDigits{\myABSfontname:script=Arab:Eastern digits=Urdu-style}
+
+\bigskip
+\testComma{\myABSfontname:script=Arab:Comma=Upward}
+\testComma{\myABSfontname:script=Arab:Comma=Downward}
+
+
+
+\bye

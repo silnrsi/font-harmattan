@@ -64,10 +64,13 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-%ISODATE% (SIL TypeTuner) Tuned version of Harmattan version 2.000
+%ISODATE% (SIL TypeTuner) Tuned version of Harmattan version 2.010
 - Tuned and delivered by SIL TypeTuner 
   (http://scripts.sil.org/ttw/fonts2go.cgi).
 - See included xml file for details of feature changes.
+
+2020-xx-xx (SIL WSTech team) Harmattan version 2.010
+  - xxxx
 
 2020-06-19 (SIL WSTech team) Harmattan version 2.000
   - Added a bold typeface
