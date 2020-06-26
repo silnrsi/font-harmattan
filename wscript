@@ -11,8 +11,6 @@ APPNAME = 'Harmattan'
 # set the font family name
 FAMILY = APPNAME
 
-DESC_SHORT = 'Arabic script font designed for use by languages in West Africa'
-
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 
@@ -33,10 +31,10 @@ if '--norename' not in opts:
 
 # iterate over designspace
 designspace('source/Harmattan-RB.designspace',
-    instanceparams='-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
+    instanceparams = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     ap = generated + '${DS:FILENAME_BASE}.xml',
-    version=VERSION,  # Needed to ensure dev information on version string
+    version = VERSION,  # Needed to ensure dev information on version string
 
     graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
         master = 'source/graphite/master.gdl',
@@ -52,9 +50,9 @@ designspace('source/Harmattan-RB.designspace',
         ),
     typetuner = typetuner('source/typetuner/feat_all.xml'),
     classes = 'source/classes.xml',
-    script='arab',
-    pdf=fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-b -r -o i -m 48'),
-    woff=woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+    script = 'arab',
+    pdf = fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-b -r -o i -m 48'),
+    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
     )
 
 # def configure(ctx):
