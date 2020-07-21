@@ -19,6 +19,9 @@ ftmlTest('tools/lib/ftml-smith.xsl')
 # APs to omit:
 omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
 
+# smith project-specific options:
+#   --norename - omit glyph rename step
+#   --quick    - omit CA-based kerning in OpenType
 opts = preprocess_args({'opt': '--quick'}, {'opt': '--norename'})
 
 noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
