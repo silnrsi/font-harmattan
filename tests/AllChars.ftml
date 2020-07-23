@@ -2090,6 +2090,10 @@
       <comment>inhibitformshaping-ar</comment>
       <string>\u00206C \u00206D</string>
     </test>
+    <test label="U+2074">
+      <comment>foursuperior</comment>
+      <string>\u002074</string>
+    </test>
     <test label="U+20AC">
       <comment>euro</comment>
       <string>\u0020AC</string>
@@ -2121,6 +2125,10 @@
     <test label="U+2212">
       <comment>minus</comment>
       <string>\u002212</string>
+    </test>
+    <test label="U+2215">
+      <comment>divisionslash</comment>
+      <string>\u002215 LTR: \u00202A\u002215\u00202C RTL: \u00202B\u002215\u00202C</string>
     </test>
     <test label="U+2219">
       <comment>bulletoperator</comment>
