@@ -25,7 +25,7 @@ languagesystem latn dflt ;
 
 @MarksAbove = [@_diaA] ;
 @MarksBelow = [@_diaB] ;
-@MarksAny = [@_diaA @diaB] ;
+@MarksAny = [@_diaA @_diaB] ;
 
 # Notes:
 #   I've tried to arrange the lookups themselves, and then the features that refer to them,
