@@ -1071,6 +1071,7 @@ feature ccmp {  # Glyph Composition/Decomposition
         #    To get manually inserted kashida working we use an rlig feature to map to the
         #    actual kashida glyph(s).
         # See https://github.com/alif-type/amiri/blob/main/sources/kashida.fea
+        # Except we do this in ccmp since we don't have curvy kashida glyphs
         sub kashida-ar by kashida-ar.haswidth ;
     script latn;  # Latin
         lookup KasraLow ;
