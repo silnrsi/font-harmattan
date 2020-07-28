@@ -1282,9 +1282,9 @@ feature cv44 {  # Character Variant 44
       language URD  ;
       language WLF  ;
     cvParameters {
-        FeatUILabelNameID  { name 3 1 0x0409 "Meem"       ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Sindi-style"; };
+        FeatUILabelNameID  { name 3 1 0x0409 "Meem"         ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style" ; };
     } ;
 } cv44 ;
 
@@ -1300,7 +1300,7 @@ feature cv48 {  # Character Variant 48
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
         ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Sindi-style"    ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Sindhi-style"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Urdu-style"     ; };
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"  ; };
     } ;
@@ -1348,7 +1348,7 @@ feature cv70 {  # Character Variant 70
         lookup DammaAlternates;
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
         ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
     } ;
