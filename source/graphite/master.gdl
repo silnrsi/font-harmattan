@@ -55,7 +55,7 @@ environment {MUnits=2048};
 
 table(substitution)
 
-pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding, decomposition, mirroring
+pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding and decomposition
 
 	
 	// NB: This pass also includes cp1252 compositions

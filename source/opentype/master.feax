@@ -17,7 +17,7 @@
 
 languagesystem arab dflt ;
 languagesystem arab KUR  ;    # Kurdish
-languagesystem arab RHG  ;    # Rohingha -- supported by Harfbuzz
+languagesystem arab RHG  ;    # Rohingya -- supported by Harfbuzz
 languagesystem arab SND  ;    # Sindhi
 languagesystem arab URD  ;    # Urdu
 languagesystem arab WLF  ;    # Wolof
@@ -46,6 +46,15 @@ languagesystem latn dflt ;
 #****************************
 #****************************
 
+#********************
+# for feature rtlm:
+#********************
+
+lookup mirror {
+    sub @cno_rtl by @c_rtl;
+} mirror ;
+
+# HB PAUSE
 
 #********************
 # for features ccmp and locl:
@@ -1052,6 +1061,12 @@ lookup SubtendingMarks {
 # GSUB features     **
 #*********************
 #*********************
+
+feature rtlm {  # Right-to-left mirroring
+    lookup mirror;
+} rtlm ;
+
+# HB PAUSE
 
 feature ccmp {  # Glyph Composition/Decomposition
     # Same for latin & arabic:
