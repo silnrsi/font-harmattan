@@ -204,6 +204,7 @@
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
+    <string>foursuperior</string>
     <string>onehalf</string>
     <string>onequarter</string>
     <string>threequarters</string>
@@ -1553,6 +1554,7 @@
     <string>summation</string>
     <string>summation.rtl</string>
     <string>minus</string>
+    <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>radical</string>
     <string>radical.rtl</string>
@@ -1793,6 +1795,7 @@
     <string>onesuperior</string>
     <string>twosuperior</string>
     <string>threesuperior</string>
+    <string>foursuperior</string>
     <string>onehalf</string>
     <string>onequarter</string>
     <string>threequarters</string>
@@ -3142,6 +3145,7 @@
     <string>summation</string>
     <string>summation.rtl</string>
     <string>minus</string>
+    <string>divisionslash</string>
     <string>bulletoperator</string>
     <string>radical</string>
     <string>radical.rtl</string>
@@ -3556,6 +3560,8 @@
     <string>uni08A1.medi</string>
     <key>bismillah-ar</key>
     <string>uniFDFD</string>
+    <key>blank</key>
+    <string>uni2423</string>
     <key>bulletoperator</key>
     <string>uni2219</string>
     <key>colontriangularmod</key>
@@ -3726,6 +3732,8 @@
     <string>uni0688.loclWLF</string>
     <key>decimalseparator-ar</key>
     <string>uni066B</string>
+    <key>divisionslash</key>
+    <string>uni2215</string>
     <key>dotStopabove-ar</key>
     <string>uni06EC</string>
     <key>dottedCircle</key>
@@ -3942,6 +3950,8 @@
     <string>uni06F4.urdu.small</string>
     <key>fourperemspace</key>
     <string>uni2005</string>
+    <key>foursuperior</key>
+    <string>uni2074</string>
     <key>fourthroot-ar</key>
     <string>uni0607</string>
     <key>fullstop-ar</key>
