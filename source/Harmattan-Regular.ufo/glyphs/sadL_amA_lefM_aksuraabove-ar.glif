@@ -2,6 +2,7 @@
 <glyph name="sadLamAlefMaksuraabove-ar" format="2">
   <unicode hex="06D6"/>
   <anchor x="344" y="1218" name="_diaA"/>
+  <anchor x="168" y="1954" name="diaA"/>
   <outline>
     <contour>
       <point x="142" y="1243" type="curve" smooth="yes"/>

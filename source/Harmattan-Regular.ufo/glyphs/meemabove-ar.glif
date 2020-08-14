@@ -2,6 +2,7 @@
 <glyph name="meemabove-ar" format="2">
   <unicode hex="06D8"/>
   <anchor x="194" y="1359" name="_diaA"/>
+  <anchor x="162" y="1758" name="diaA"/>
   <outline>
     <contour>
       <point x="234" y="1397" type="curve" smooth="yes"/>

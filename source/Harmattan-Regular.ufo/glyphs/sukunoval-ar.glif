@@ -2,6 +2,7 @@
 <glyph name="sukunoval-ar" format="2">
   <unicode hex="06E0"/>
   <anchor x="152" y="1307" name="_diaA"/>
+  <anchor x="152" y="1778" name="diaA"/>
   <outline>
     <contour>
       <point x="154" y="1334" type="curve" smooth="yes"/>

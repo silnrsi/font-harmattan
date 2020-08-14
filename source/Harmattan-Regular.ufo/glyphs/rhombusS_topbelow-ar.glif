@@ -2,6 +2,7 @@
 <glyph name="rhombusStopbelow-ar" format="2">
   <unicode hex="06EA"/>
   <anchor x="0" y="-232" name="_diaB"/>
+  <anchor x="0" y="-730" name="diaB"/>
   <outline>
     <component base="rhombusStopabove-ar" xOffset="1" yOffset="-2000"/>
   </outline>

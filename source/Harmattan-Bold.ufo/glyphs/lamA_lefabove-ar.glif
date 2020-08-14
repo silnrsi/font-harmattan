@@ -2,6 +2,7 @@
 <glyph name="lamAlefabove-ar" format="2">
   <unicode hex="06D9"/>
   <anchor x="14" y="1366" name="_diaA"/>
+  <anchor x="-55" y="1974" name="diaA"/>
   <outline>
     <contour>
       <point x="26" y="1402" type="curve" smooth="yes"/>

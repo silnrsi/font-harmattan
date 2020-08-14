@@ -2,6 +2,7 @@
 <glyph name="sukunround-ar" format="2">
   <unicode hex="06DF"/>
   <anchor x="164" y="1312" name="_diaA"/>
+  <anchor x="164" y="1714" name="diaA"/>
   <outline>
     <contour>
       <point x="161" y="1348" type="curve" smooth="yes"/>
