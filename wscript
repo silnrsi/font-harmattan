@@ -26,7 +26,8 @@ opts = preprocess_args({'opt': '--quick'}, {'opt': '--norename'})
 
 noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
 
-cmds = [cmd('../tools/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
+cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']),
+        cmd('../tools/octalap -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']))
 # Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
