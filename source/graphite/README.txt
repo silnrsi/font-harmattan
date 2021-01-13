@@ -1,4 +1,4 @@
-sources/graphite/README.txt
+source/graphite/README.txt
 ==================
 
 This file describes the Graphite source files included with the Harmattan
