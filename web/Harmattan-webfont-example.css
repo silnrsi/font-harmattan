@@ -1,13 +1,12 @@
 /*
 Harmattan-webfont-example.css
-Harmattan Regular v2.000
 This file is part of Harmattan font family (http://software.sil.org/harmattan/)
 and is Copyright (c) 2007-2008, The C&MA Guinea Fulbe Team; 
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name "Fouta".
-Copyright (c) 2004-2020, SIL International (http://scripts.sil.org), 
+Copyright (c) 2004-2021, SIL International (http://scripts.sil.org), 
 with Reserved Font Names 'Andika' and 'SIL'.
-Copyright (c) 2014-2020, SIL International (http://www.sil.org/).
+Copyright (c) 2014-2021, SIL International (http://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL". This Font Software is licensed
 under the SIL Open Font License, Version 1.1. You should have received a copy
 of the license along with this Font Software. If this is not the case, go to
@@ -16,14 +15,18 @@ of the license along with this Font Software. If this is not the case, go to
 
 /* use Harmattan - Regular in .woff format */
 @font-face {
-  font-family: HarmattanW;
-  src: url(Harmattan-Regular.woff);
+  font-family: HarmattanRW;
+  src: url(Harmattan-Regular.woff2);
+}
+@font-face {
+  font-family: HarmattanBW;
+  src: url(Harmattan-Bold.woff2);
 }
 
 
 /* set body to use Harmattan in .woff format */
 body {
-  font-family: HarmattanW, serif; text-align: left;
+  font-family: HarmattanRW, serif; text-align: left;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }
 /* remove bold styling from heading */
@@ -34,35 +37,40 @@ h2 {
   font-weight: normal;	
 }
 .rtl {
-  font-family: HarmattanW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+  font-family: HarmattanRW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
     /* fall back to sans serif so that it's really obvious if the fonts don't load */
 }	
+.rtlb {
+  font-family: HarmattanBW, sans-serif; font-size: 200%; direction: rtl; text-align: right;
+    /* fall back to sans serif so that it's really obvious if the fonts don't load */
+}	
+
 .cv440 {
-  font-family: HarmattanW;
+  font-family: HarmattanRW;
   -moz-font-feature-settings: "cv44" 0; font-size: 200%; direction: rtl; text-align: right;
 }
 .cv441 {
-  font-family: HarmattanW;
+  font-family: HarmattanRW;
   -moz-font-feature-settings: "cv44" 1; font-size: 200%; direction: rtl; text-align: right;
 }
 .cv620 {
-  font-family: HarmattanW;
+  font-family: Harmattan$W;
   -moz-font-feature-settings: "cv62" 0; font-size: 200%; direction: rtl; text-align: right;
 }
 .cv622 {
-  font-family: HarmattanW;
+  font-family: HarmattanRW;
   -moz-font-feature-settings: "cv62" 2; font-size: 200%; direction: rtl; text-align: right;
 }
 .cv800 {
-  font-family: HarmattanW; 
+  font-family: HarmattanRW; 
   -moz-font-feature-settings: "cv80" 0; font-size: 200%; direction: rtl; text-align: right;
 }
 .cv801 {
-  font-family: HarmattanW; 
+  font-family: HarmattanRW; 
   -moz-font-feature-settings: "cv80" 1; font-size: 200%; direction: rtl; text-align: right;
 }
 .cv44180801 {
-  font-family: HarmattanW; 
+  font-family: HarmattanRW; 
   -moz-font-feature-settings: "cv44" 1, "cv80" 1, "cv08" 1; font-size: 200%; direction: rtl; text-align: right;
 }
 	
