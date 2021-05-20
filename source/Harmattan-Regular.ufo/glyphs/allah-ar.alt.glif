@@ -4,6 +4,8 @@
   <anchor x="895" y="1359" name="diaA"/>
   <anchor x="897" y="-100" name="diaB"/>
   <outline>
+    <component base="shadda-ar" xOffset="624" yOffset="-488"/>
+    <component base="fatha-ar" xOffset="583" yOffset="-151"/>
     <contour>
       <point x="742" y="-17" type="curve" smooth="yes"/>
       <point x="813" y="-17"/>
@@ -109,7 +111,5 @@
       <point x="1534" y="52"/>
       <point x="1533" y="0"/>
     </contour>
-    <component base="shadda-ar" xOffset="624" yOffset="-488"/>
-    <component base="fatha-ar" xOffset="583" yOffset="-151"/>
   </outline>
 </glyph>

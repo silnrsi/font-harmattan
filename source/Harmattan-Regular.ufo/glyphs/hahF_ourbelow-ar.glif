@@ -6,6 +6,7 @@
   <anchor x="401" y="681" name="diaA"/>
   <anchor x="502" y="-788" name="diaB"/>
   <outline>
+    <component base="hah-ar"/>
     <contour>
       <point x="429" y="-525" type="curve"/>
       <point x="447" y="-525"/>
@@ -48,6 +49,5 @@
       <point x="377" y="-294"/>
       <point x="429" y="-365"/>
     </contour>
-    <component base="hah-ar"/>
   </outline>
 </glyph>

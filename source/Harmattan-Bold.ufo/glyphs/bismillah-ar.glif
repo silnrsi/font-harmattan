@@ -3,6 +3,30 @@
   <advance width="16284"/>
   <unicode hex="FDFD"/>
   <outline>
+    <component base="shadda-ar" xOffset="10583" yOffset="-458"/>
+    <component base="fatha-ar" xOffset="10552" yOffset="-81"/>
+    <component base="kasra-ar" xOffset="5172" yOffset="209"/>
+    <component base="kasra-ar" xOffset="9353" yOffset="209"/>
+    <component base="kasra-ar" xOffset="11317" yOffset="223"/>
+    <component base="shadda-ar" xOffset="8483" yOffset="-528"/>
+    <component base="fatha-ar" xOffset="8442" yOffset="-141"/>
+    <component base="shadda-ar" xOffset="4132" yOffset="-718"/>
+    <component base="fatha-ar" xOffset="4091" yOffset="-341"/>
+    <component base="alefabove-ar" xOffset="6786" yOffset="-120"/>
+    <component base="fatha-ar" xOffset="6982" yOffset="-171"/>
+    <component base="dotStopabove-ar" xOffset="5467" yOffset="-139"/>
+    <component base="dotStopabove-ar" xOffset="9644" yOffset="-139"/>
+    <component base="dotStopabove-ar" xOffset="11618" yOffset="-209"/>
+    <component base="_dot1" xOffset="16023" yOffset="-126"/>
+    <component base="kasra-ar" xOffset="15747" yOffset="-97"/>
+    <component base="sukun-ar" xOffset="7704" yOffset="-251"/>
+    <component base="_dot2h" xOffset="2933" yOffset="-227"/>
+    <component base="kasra-ar" xOffset="6410" yOffset="-423"/>
+    <component base="kasra-ar" xOffset="12143" yOffset="-123"/>
+    <component base="kasra-ar" xOffset="390" yOffset="-123"/>
+    <component base="sukun-ar" xOffset="14936" yOffset="-770"/>
+    <component base="kasra-ar" xOffset="10023" yOffset="89"/>
+    <component base="kasra-ar" xOffset="3384" yOffset="157"/>
     <contour>
       <point x="1858" y="-102" type="curve" smooth="yes"/>
       <point x="2300" y="-102"/>
@@ -568,29 +592,5 @@
       <point x="15662" y="107"/>
       <point x="15748" y="80"/>
     </contour>
-    <component base="shadda-ar" xOffset="10583" yOffset="-458"/>
-    <component base="fatha-ar" xOffset="10552" yOffset="-81"/>
-    <component base="kasra-ar" xOffset="5172" yOffset="209"/>
-    <component base="kasra-ar" xOffset="9353" yOffset="209"/>
-    <component base="kasra-ar" xOffset="11317" yOffset="223"/>
-    <component base="shadda-ar" xOffset="8483" yOffset="-528"/>
-    <component base="fatha-ar" xOffset="8442" yOffset="-141"/>
-    <component base="shadda-ar" xOffset="4132" yOffset="-718"/>
-    <component base="fatha-ar" xOffset="4091" yOffset="-341"/>
-    <component base="alefabove-ar" xOffset="6786" yOffset="-120"/>
-    <component base="fatha-ar" xOffset="6982" yOffset="-171"/>
-    <component base="dotStopabove-ar" xOffset="5467" yOffset="-139"/>
-    <component base="dotStopabove-ar" xOffset="9644" yOffset="-139"/>
-    <component base="dotStopabove-ar" xOffset="11618" yOffset="-209"/>
-    <component base="_dot1" xOffset="16023" yOffset="-126"/>
-    <component base="kasra-ar" xOffset="15747" yOffset="-97"/>
-    <component base="sukun-ar" xOffset="7704" yOffset="-251"/>
-    <component base="_dot2h" xOffset="2933" yOffset="-227"/>
-    <component base="kasra-ar" xOffset="6410" yOffset="-423"/>
-    <component base="kasra-ar" xOffset="12143" yOffset="-123"/>
-    <component base="kasra-ar" xOffset="390" yOffset="-123"/>
-    <component base="sukun-ar" xOffset="14936" yOffset="-770"/>
-    <component base="kasra-ar" xOffset="10023" yOffset="89"/>
-    <component base="kasra-ar" xOffset="3384" yOffset="157"/>
   </outline>
 </glyph>

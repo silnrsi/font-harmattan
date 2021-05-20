@@ -5,6 +5,7 @@
   <anchor x="673" y="747" name="diaA"/>
   <anchor x="658" y="-371" name="diaB"/>
   <outline>
+    <component base="_dot2h" xOffset="665" yOffset="-208"/>
     <contour>
       <point x="300" y="-317" type="curve"/>
       <point x="339" y="-291"/>
@@ -45,6 +46,5 @@
       <point x="85" y="-205"/>
       <point x="168" y="-293"/>
     </contour>
-    <component base="_dot2h" xOffset="665" yOffset="-208"/>
   </outline>
 </glyph>

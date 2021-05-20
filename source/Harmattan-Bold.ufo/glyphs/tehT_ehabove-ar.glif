@@ -6,6 +6,8 @@
   <anchor x="1023" y="1068" name="diaA"/>
   <anchor x="1045" y="-121" name="diaB"/>
   <outline>
+    <component base="behDotless-ar"/>
+    <component base="_dot2h" xScale="0.58468" yScale="0.58468" xOffset="1037" yOffset="955"/>
     <contour>
       <point x="1032" y="597" type="curve" smooth="yes"/>
       <point x="1264" y="599"/>
@@ -26,7 +28,5 @@
       <point x="646" y="763"/>
       <point x="705" y="594"/>
     </contour>
-    <component base="behDotless-ar"/>
-    <component base="_dot2h" xScale="0.58468" yScale="0.58468" xOffset="1037" yOffset="955"/>
   </outline>
 </glyph>

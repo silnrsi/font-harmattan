@@ -3,13 +3,13 @@
   <anchor x="342" y="1105" name="_diaA"/>
   <anchor x="190" y="1691" name="diaA"/>
   <outline>
+    <component base="fatha-ar" xOffset="125" yOffset="-199"/>
+    <component base="meemStopabove-ar" xOffset="190" yOffset="-37"/>
     <contour>
       <point x="14917" y="1509" type="move"/>
       <point x="14925" y="1512"/>
       <point x="14924" y="1510"/>
       <point x="14924" y="1515" type="curve"/>
     </contour>
-    <component base="fatha-ar" xOffset="125" yOffset="-199"/>
-    <component base="meemStopabove-ar" xOffset="190" yOffset="-37"/>
   </outline>
 </glyph>

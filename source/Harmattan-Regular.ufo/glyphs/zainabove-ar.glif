@@ -5,6 +5,7 @@
   <anchor x="-97" y="1784" name="alef"/>
   <anchor x="13" y="1823" name="diaA"/>
   <outline>
+    <component base="_dot1" xScale="0.51316" yScale="0.51316" xOffset="39" yOffset="1707"/>
     <contour>
       <point x="-87" y="1143" type="curve"/>
       <point x="83" y="1210"/>
@@ -22,6 +23,5 @@
       <point x="-124" y="1190"/>
       <point x="-109" y="1158"/>
     </contour>
-    <component base="_dot1" xScale="0.51316" yScale="0.51316" xOffset="39" yOffset="1707"/>
   </outline>
 </glyph>

@@ -5,6 +5,8 @@
   <anchor x="687" y="1109" name="diaA"/>
   <anchor x="591" y="-163" name="diaB"/>
   <outline>
+    <component base="hehDoachashmee-ar" xOffset="-10"/>
+    <component base="vinvertedabove-ar" xOffset="670" yOffset="-257"/>
     <contour>
       <point x="927" y="-10" type="line"/>
       <point x="933" y="-10"/>
@@ -15,7 +17,5 @@
       <point x="933" y="125"/>
       <point x="927" y="125" type="curve"/>
     </contour>
-    <component base="hehDoachashmee-ar" xOffset="-10"/>
-    <component base="vinvertedabove-ar" xOffset="670" yOffset="-257"/>
   </outline>
 </glyph>

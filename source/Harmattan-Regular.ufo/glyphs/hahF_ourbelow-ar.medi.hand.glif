@@ -5,6 +5,7 @@
   <anchor x="355" y="619" name="diaA"/>
   <anchor x="428" y="-1017" name="diaB"/>
   <outline>
+    <component base="hah-ar.medi.hand"/>
     <contour>
       <point x="339" y="-935" type="curve"/>
       <point x="357" y="-935"/>
@@ -47,6 +48,5 @@
       <point x="287" y="-704"/>
       <point x="339" y="-775"/>
     </contour>
-    <component base="hah-ar.medi.hand"/>
   </outline>
 </glyph>
