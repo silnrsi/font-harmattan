@@ -22,14 +22,14 @@ jeemThreedotsbelow-ar = hah-ar + _dot1_dot3d@center | 08C6
 jeemThreedotsbelow-ar.fina = hah-ar.fina + _dot1_dot3d@center[shift=0,-50]
 jeemThreedotsbelow-ar.medi = hah-ar.medi + _dot1_dot3d@below
 jeemThreedotsbelow-ar.init = hah-ar.init + _dot1_dot3d@below[shift=0,-70]
-ghainThreedots-ar = ain-ar + _dot1_dot3u@above | 08C3
-ghainThreedots-ar.fina = ain-ar.fina + _dot1_dot3u@above
-ghainThreedots-ar.medi = ain-ar.medi + _dot1_dot3u@above
-ghainThreedots-ar.init = ain-ar.init + _dot1_dot3u@above
-qafAfricanThreedotsabove-ar = qafDotless-ar + _dot3u@above | 08C4
-qafAfricanThreedotsabove-ar.fina = qafDotless-ar.fina + _dot3u@above
-qafAfricanThreedotsabove-ar.medi = fehDotless-ar.medi + _dot1_dot3u@above
-qafAfricanThreedotsabove-ar.init = fehDotless-ar.init + _dot1_dot3u@above
+ghainThreedotsabove-ar = ain-ar + _dot1_dot3u@above | 08C3
+ghainThreedotsabove-ar.fina = ain-ar.fina + _dot1_dot3u@above
+ghainThreedotsabove-ar.medi = ain-ar.medi + _dot1_dot3u@above
+ghainThreedotsabove-ar.init = ain-ar.init + _dot1_dot3u@above
+qafThreedotsaboveAfrican-ar = qafDotless-ar + _dot3u@above | 08C4
+qafThreedotsaboveAfrican-ar.fina = qafDotless-ar.fina + _dot3u@above
+qafThreedotsaboveAfrican-ar.medi = fehDotless-ar.medi + _dot1_dot3u@above
+qafThreedotsaboveAfrican-ar.init = fehDotless-ar.init + _dot1_dot3u@above
 kehehVabove-ar = keheh-ar + _smallV@above | 08C2
 kehehVabove-ar.fina = keheh-ar.fina + _smallV@above
 kehehVabove-ar.medi = kaf-ar.medi + _smallV@above
