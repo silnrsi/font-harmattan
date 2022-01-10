@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Copyright (c) 2018,2020 SIL International  (http://www.sil.org)
+# Copyright (c) 2018-2022 SIL International  (http://www.sil.org)
 # Released under the MIT License (http://opensource.org/licenses/MIT)
 
 import sys, os
