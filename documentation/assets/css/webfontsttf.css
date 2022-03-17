@@ -1,0 +1,26 @@
+/*
+This file is part of Harmattan font family http://software.sil.org/Harmattan) and is 
+Copyright (c) 2014-2022 SIL International (http://www.sil.org/), with Reserved Font 
+Names "Harmattan" and "SIL". This Font Software is licensed under the SIL
+Open Font License, Version 1.1 (http://scripts.sil.org/OFL).
+*/
+@font-face {
+    font-family: Harmattan-R;
+    src: url("../../../results/Harmattan-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: Harmattan-B;
+    src: url("../../../results/Harmattan-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: HarmattanL-R;
+    src: url("../../../results/Harmattan-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: HarmattanL-B;
+    src: url("../../../results/Harmattan-Bold.ttf") format("truetype");
+}
+.Harmattan-R { font-family: Harmattan-R; direction: rtl; text-align: right;}
+.Harmattan-B { font-family: Harmattan-B; direction: rtl; text-align: right;}
+.Harmattan-R { font-family: Harmattan-R; direction: ltr; text-align: left;}
+.Harmattan-B { font-family: Harmattan-B; direction: ltr; text-align: left;}
