@@ -5780,24 +5780,12 @@ feature salt {
 
 feature cv02 {
     # Character Variant 02
-    script arab;
-    # Arabic
-    lookup WarshAlternates;
-    # Force other languages to include Arabic script lookups
-    language KUR;
-    language RHG;
-    language SND;
-    language URD;
-    language WLF;
         cvParameters {
                 FeatUILabelNameID {
             name "Alef diacritic placement";
         };
 
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
                 ParamUILabelNameID {
             name "Hamza touching";
         };
@@ -5808,10 +5796,31 @@ feature cv02 {
 
     };
 
+    script arab;
+    # Arabic
+    lookup WarshAlternates;
+    # Force other languages to include Arabic script lookups
+    language KUR;
+    language RHG;
+    language SND;
+    language URD;
+    language WLF;
 } cv02;
 
 feature cv08 {
     # Character Variant 08
+        cvParameters {
+                FeatUILabelNameID {
+            name "Jeem/Hah";
+        };
+
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+                ParamUILabelNameID {
+            name "Handwritten";
+        };
+
+    };
+
     script arab;
     # Arabic
     lookup JeemHahMedAlternate;
@@ -5821,25 +5830,22 @@ feature cv08 {
     language SND;
     language URD;
     language WLF;
-        cvParameters {
-                FeatUILabelNameID {
-            name "Jeem/Hah";
-        };
-
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
-                ParamUILabelNameID {
-            name "Handwritten";
-        };
-
-    };
-
 } cv08;
 
 feature cv12 {
     # Character Variant 12
+        cvParameters {
+                FeatUILabelNameID {
+            name "Dal";
+        };
+
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
+                ParamUILabelNameID {
+            name "Alternate";
+        };
+
+    };
+
     script arab;
     # Arabic
     lookup DalAlternate;
@@ -5849,25 +5855,22 @@ feature cv12 {
     language SND;
     language URD;
     # language WLF  ;  But not this one since we enable it in the WolofCALT
-        cvParameters {
-                FeatUILabelNameID {
-            name "Dal";
-        };
-
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
-                ParamUILabelNameID {
-            name "Alternate";
-        };
-
-    };
-
 } cv12;
 
 feature cv20 {
     # Character Variant 20
+        cvParameters {
+                FeatUILabelNameID {
+            name "Sad/Dad";
+        };
+
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+                ParamUILabelNameID {
+            name "Half";
+        };
+
+    };
+
     script arab;
     # Arabic
     lookup SadDadAlternate;
@@ -5877,25 +5880,22 @@ feature cv20 {
     language SND;
     language URD;
     language WLF;
-        cvParameters {
-                FeatUILabelNameID {
-            name "Sad/Dad";
-        };
-
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
-                ParamUILabelNameID {
-            name "Half";
-        };
-
-    };
-
 } cv20;
 
 feature cv44 {
     # Character Variant 44
+        cvParameters {
+                FeatUILabelNameID {
+            name "Meem";
+        };
+
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
+                ParamUILabelNameID {
+            name "Sindhi-style";
+        };
+
+    };
+
     script arab;
     # Arabic
     lookup MeemAlternate;
@@ -5905,43 +5905,16 @@ feature cv44 {
     language RHG;
     language URD;
     language WLF;
-        cvParameters {
-                FeatUILabelNameID {
-            name "Meem";
-        };
-
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
-                ParamUILabelNameID {
-            name "Sindhi-style";
-        };
-
-    };
-
 } cv44;
 
 feature cv48 {
     # Character Variant 48
-    script arab;
-    # Arabic
-    lookup HehAlternates;
-    # Force other languages to include Arabic script lookups
-    language KUR;
-    language SND;
-    language RHG;
-    language URD;
-    language WLF;
         cvParameters {
                 FeatUILabelNameID {
             name "Heh";
         };
 
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
                 ParamUILabelNameID {
             name "Sindhi-style";
         };
@@ -5956,10 +5929,31 @@ feature cv48 {
 
     };
 
+    script arab;
+    # Arabic
+    lookup HehAlternates;
+    # Force other languages to include Arabic script lookups
+    language KUR;
+    language SND;
+    language RHG;
+    language URD;
+    language WLF;
 } cv48;
 
 feature cv50 {
     # Character Variant 50
+        cvParameters {
+                FeatUILabelNameID {
+            name "Arabic U";
+        };
+
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
+                ParamUILabelNameID {
+            name "Filled";
+        };
+
+    };
+
     script arab;
     # Arabic
     lookup UAlternate;
@@ -5969,57 +5963,34 @@ feature cv50 {
     language SND;
     language URD;
     language WLF;
-        cvParameters {
-                FeatUILabelNameID {
-            name "Arabic U";
-        };
-
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
-                ParamUILabelNameID {
-            name "Filled";
-        };
-
-    };
-
 } cv50;
 
 feature cv60 {
     # Character Variant 60
-    # Same for latin & arabic:
-    lookup MaddahAlternate;
         cvParameters {
                 FeatUILabelNameID {
             name "Maddah";
         };
 
-                ParamUILabelNameID {
-            name "Small";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Small"    ; };
                 ParamUILabelNameID {
             name "Large";
         };
 
     };
 
+    # Same for latin & arabic:
+    lookup MaddahAlternate;
 } cv60;
 
 feature cv62 {
     # Character Variant 62
-    # Same for latin & arabic:
-    lookup KasraAlternates;
         cvParameters {
                 FeatUILabelNameID {
             name "Kasra";
         };
 
-                ParamUILabelNameID {
-            name "Default";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
                 ParamUILabelNameID {
             name "Lowered";
         };
@@ -6030,21 +6001,18 @@ feature cv62 {
 
     };
 
+    # Same for latin & arabic:
+    lookup KasraAlternates;
 } cv62;
 
 feature cv70 {
     # Character Variant 70
-    # Same for latin & arabic:
-    lookup DammaAlternates;
         cvParameters {
                 FeatUILabelNameID {
             name "Damma";
         };
 
-                ParamUILabelNameID {
-            name "Default";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
                 ParamUILabelNameID {
             name "Filled";
         };
@@ -6055,45 +6023,39 @@ feature cv70 {
 
     };
 
+    # Same for latin & arabic:
+    lookup DammaAlternates;
 } cv70;
 
 feature cv72 {
     # Character Variant 72
-    # Same for latin & arabic:
-    lookup DammatanAlternate;
-    # Except Rohingya where it is already set to sixNine
-    script arab;
-    language RHG exclude_dflt;
         cvParameters {
                 FeatUILabelNameID {
             name "Dammatan";
         };
 
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
                 ParamUILabelNameID {
             name "Six-nine";
         };
 
     };
 
+    # Same for latin & arabic:
+    lookup DammatanAlternate;
+    # Except Rohingya where it is already set to sixNine
+    script arab;
+    language RHG exclude_dflt;
 } cv72;
 
 feature cv74 {
     # Character Variant 74
-    # Same for latin & arabic:
-    lookup UntapeshAlternates;
         cvParameters {
                 FeatUILabelNameID {
             name "Inverted Damma";
         };
 
-                ParamUILabelNameID {
-            name "Default";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
                 ParamUILabelNameID {
             name "Hollow";
         };
@@ -6104,42 +6066,36 @@ feature cv74 {
 
     };
 
+    # Same for latin & arabic:
+    lookup UntapeshAlternates;
 } cv74;
 
 feature cv76 {
     # Character Variant 76
-    # Same for latin & arabic:
-    lookup DaggerAlefToLarge;
         cvParameters {
                 FeatUILabelNameID {
             name "Superscript Alef";
         };
 
-                ParamUILabelNameID {
-            name "Small";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Small"            ; };
                 ParamUILabelNameID {
             name "Large";
         };
 
     };
 
+    # Same for latin & arabic:
+    lookup DaggerAlefToLarge;
 } cv76;
 
 feature cv78 {
     # Character Variant 78
-    # Same for latin & arabic:
-    lookup SukunAlternates;
         cvParameters {
                 FeatUILabelNameID {
             name "Sukun";
         };
 
-                ParamUILabelNameID {
-            name "Closed";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Closed"    ; };
                 ParamUILabelNameID {
             name "Open down";
         };
@@ -6150,21 +6106,18 @@ feature cv78 {
 
     };
 
+    # Same for latin & arabic:
+    lookup SukunAlternates;
 } cv78;
 
 feature cv80 {
     # Character Variant 80
-    # Same for latin & arabic:
-    lookup AyahAlternates;
         cvParameters {
                 FeatUILabelNameID {
             name "End of ayah";
         };
 
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"     ; };
                 ParamUILabelNameID {
             name "Simplified A";
         };
@@ -6175,21 +6128,18 @@ feature cv80 {
 
     };
 
+    # Same for latin & arabic:
+    lookup AyahAlternates;
 } cv80;
 
 feature cv82 {
     # Character Variant 82
-    # Same for latin & arabic:
-    lookup DigitAlternates;
         cvParameters {
                 FeatUILabelNameID {
             name "Eastern digits";
         };
 
-                ParamUILabelNameID {
-            name "Standard";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
                 ParamUILabelNameID {
             name "Sindhi-style";
         };
@@ -6208,27 +6158,26 @@ feature cv82 {
 
     };
 
+    # Same for latin & arabic:
+    lookup DigitAlternates;
 } cv82;
 
 feature cv84 {
     # Character Variant 84
-    # Same for latin & arabic:
-    lookup CommaAlternate;
         cvParameters {
                 FeatUILabelNameID {
             name "Comma";
         };
 
-                ParamUILabelNameID {
-            name "Upward";
-        };
-
+        #ParamUILabelNameID { name 3 1 0x0409 "Upward"   ; };
                 ParamUILabelNameID {
             name "Downward";
         };
 
     };
 
+    # Same for latin & arabic:
+    lookup CommaAlternate;
 } cv84;
 
 # In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
