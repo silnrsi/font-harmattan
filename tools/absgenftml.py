@@ -324,16 +324,17 @@ def doit(args):
                 ftml.clearBackground()
                 ftml.closeTest()
                 
-        ftml.startTestGroup('Shadda + Kasra')
-        shadda = 0x0651
-        base = 0x0628
-        for kasra in kasralist:
-            for featlist in builder.permuteFeatures(feats=('cv62',)):
-                ftml.setFeatures(featlist)
-                builder.render((base,kasra,shadda), ftml, addBreaks=False)
-            ftml.clearFeatures()
-            ftml.clearBackground()
-            ftml.closeTest()
+         if 'cv62' in builder.features:
+            ftml.startTestGroup('Shadda + Kasra')
+            shadda = 0x0651
+            base = 0x0628
+            for kasra in kasralist:
+                for featlist in builder.permuteFeatures(feats=('cv62',)):
+                    ftml.setFeatures(featlist)
+                    builder.render((base,kasra,shadda), ftml, addBreaks=False)
+                ftml.clearFeatures()
+                ftml.clearBackground()
+                ftml.closeTest()
 
     if test.lower().startswith("subtending"):
         # Generates sample data for all subtending marks. Data includes sequences of 0 to n+1
