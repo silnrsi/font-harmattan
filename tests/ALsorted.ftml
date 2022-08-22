@@ -27,7 +27,7 @@
       <style lang="ur" name="ur"/>
       <style lang="wo" name="wo"/>
     </styles>
-    <title>AL Sorted (NG)</title>
+    <title>AL Sorted (auto)</title>
     <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">

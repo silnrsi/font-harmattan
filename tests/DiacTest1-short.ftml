@@ -56,7 +56,7 @@
       <style feats="'cv78' 1" name="cv78_1"/>
       <style feats="'cv78' 2" name="cv78_2"/>
     </styles>
-    <title>DiacTest1 Short (NG)</title>
+    <title>DiacTest1 Short (auto)</title>
     <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
