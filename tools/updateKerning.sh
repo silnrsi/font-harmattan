@@ -30,8 +30,8 @@ smith build --quick --norename
 if [ "z$1" != "z--nooctalap" ]; then
 echo "\nrebuilding optimized octaboxes...\n"
 
-tools/octalap -q -j 0 -o source/Harmattan-Regular-octabox.json results/Harmattan-Regular.ttf  &
-tools/octalap -q -j 0 -o source/Harmattan-Bold-octabox.json    results/Harmattan-Bold.ttf 
+octalap -q -j 0 -o source/Harmattan-Regular-octabox.json results/Harmattan-Regular.ttf  &
+octalap -q -j 0 -o source/Harmattan-Bold-octabox.json    results/Harmattan-Bold.ttf 
 
 wait
 
