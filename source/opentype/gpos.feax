@@ -1,0 +1,307 @@
+#**********************************
+# This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
+# and is Copyright (c) 2014-2022 SIL International (http://www.sil.org/),
+# with Reserved Font Names "Harmattan" and "SIL".
+#
+# This Font Software is licensed under the SIL Open Font License, Version 1.1.
+#
+# You should have received a copy of the license along with this Font Software.
+# If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+# details including an FAQ.
+#**********************************
+
+
+#****************************
+#****************************
+# GPOS (positioning) rules **
+#****************************
+#****************************
+
+
+#********************
+# Cursive connection
+
+lookup cursive_exit_entry {
+  lookupflag IgnoreMarks RightToLeft;
+  pos cursive @entry @exit;
+} cursive_exit_entry;
+
+
+do if opt("noOTkern") == "";
+{
+ifinfo(styleName, "Regular") {
+	include(../../source/opentype/caKern-Regular.fea);
+}
+
+ifinfo(styleName, "Bold") {
+	include(../../source/opentype/caKern-Bold.fea);
+}
+}
+	
+#********************
+# Mark attachment
+
+lookup mark_to_base {
+  lookupflag 0;
+  pos base @diaA mark @_diaA;
+  pos base @diaB mark @_diaB;
+} mark_to_base;
+
+lookup alef_to_base {
+  lookupflag 0;
+  pos base @alef mark @_alef;
+} alef_to_base;
+
+lookup mark2_to_base {
+  lookupflag 0;
+  pos base @dia2B mark @_diaB;
+} mark2_to_base;
+
+@MarkFilter_diaA = [@diaA_MarkBase @_diaA];
+lookup mark_to_mark_above {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaA;
+  pos mark @diaA_MarkBase mark @_diaA;
+} mark_to_mark_above;
+
+@MarkFilter_diaB = [@diaB_MarkBase @_diaB];
+lookup mark_to_mark_below {
+  lookupflag UseMarkFilteringSet @MarkFilter_diaB;
+  pos mark @diaB_MarkBase mark @_diaB;
+} mark_to_mark_below;
+
+#********************
+# Mark adjustments after attachment:
+
+# move MarksBelow slightly left on lam-alef when appropriate:
+lookup AlefMark2BelowAfterLam {
+  lookupflag UseMarkFilteringSet @MarksBelow ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+    #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+    #pos lamThreedotsbelow-ar.preAlef.init @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+    # Unneeded in Harmattan design:
+    #pos lamThreedotsbelow-ar.preAlef.medi @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+} AlefMark2BelowAfterLam;
+
+
+#********************
+# Subtending mark positioning
+
+lookup SubtendingMarks {
+  lookupflag IgnoreMarks ;
+    # In Graphite we use mark attachment rules. However, in OpenType positioning digits on 
+    # subtending marks has to be done with adjustments rather than attachment since for some 
+    # engines the digits will ordered *before* the subtending mark.
+    
+    # Additionally, the adjustment value records depend on font face (bold vs regular). Therefore
+    # we use feax extentions to calculate the value records based on glyph advancewidths and digit AP coordinates.
+    
+    # In each "do" template, the first rule is ordered for Uniscribe or HarfBuzz 'latin', the second for HarfBuzz 'arab'
+    
+    # U+06DD End of Ayah
+    do let w = -ADVx("zero.small"); let x1 = APx("endofayah-ar.3", "digitR") - ADVx("endofayah-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos @AyahAny @DigitsAnySmall' <$x1 0 $w 0>   @DigitsAnySmall' <$x2 0 $w 0>   @DigitsAnySmall' <$x3 0 $w 0> ;
+        pos          @DigitsAnySmall' <$x3 0 $w 0>   @DigitsAnySmall' <$x2 0 $w 0>   @DigitsAnySmall' <$x1 0 $w 0>  @AyahAny ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("endofayah-ar.2", "digitR") - ADVx("endofayah-ar.2"); let x2 = x1 - w; 
+    {
+        pos @AyahAny @DigitsAnyMedium' <$x1 0 $w 0>  @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos          @DigitsAnyMedium' <$x2 0 $w 0>  @DigitsAnyMedium' <$x1 0 $w 0>  @AyahAny ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("endofayah-ar", "digitR") - ADVx("endofayah-ar");
+    {
+        pos @AyahAny @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos          @DigitsAnyMedium' <$x1 0 $w 0> @AyahAny ;
+    }
+
+    # U+0600 Number sign
+    do let w = -ADVx("zero.medium"); let x1 = APx("number-ar.3", "digitR") - ADVx("number-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos number-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> number-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("number-ar.2", "digitR") - ADVx("number-ar.2"); let x2 = x1 - w;
+    {
+        pos number-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> number-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("number-ar", "digitR") - ADVx("number-ar"); 
+    {
+        pos number-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x1 0 $w 0> number-ar ;
+    }
+    
+    # U+0601 Year sign
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar.4", "digitR") - ADVx("year-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos year-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> year-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar.3", "digitR") - ADVx("year-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos year-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> year-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar.2", "digitR") - ADVx("year-ar.2"); let x2 = x1 - w;
+    {
+        pos year-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> year-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("year-ar", "digitR") - ADVx("year-ar"); 
+    {
+        pos year-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos           @DigitsAnyMedium' <$x1 0 $w 0> year-ar ;
+    }
+    
+    # U+0602 Footnote Marker
+    do let w = -ADVx("zero.medium"); let x1 = APx("footnotemarker-ar.2", "digitR") - ADVx("footnotemarker-ar.2"); let x2 = x1 - w;
+    {
+        pos footnotemarker-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos                     @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> footnotemarker-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("footnotemarker-ar", "digitR") - ADVx("footnotemarker-ar"); 
+    {
+        pos footnotemarker-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos                     @DigitsAnyMedium' <$x1 0 $w 0> footnotemarker-ar ;
+    }
+    
+    # U+0603 Page Number
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar.4", "digitR") - ADVx("pagenumber-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos pagenumber-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0>;
+        pos                 @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar.3", "digitR") - ADVx("pagenumber-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos pagenumber-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar.2", "digitR") - ADVx("pagenumber-ar.2"); let x2 = x1 - w;
+    {
+        pos pagenumber-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("pagenumber-ar", "digitR") - ADVx("pagenumber-ar"); 
+    {
+        pos pagenumber-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x1 0 $w 0> pagenumber-ar ;
+    }
+    
+    # U+0604 Samvat sign
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar.4", "digitR") - ADVx("samvat-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos samvat-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0>;
+        pos             @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar.3", "digitR") - ADVx("samvat-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos samvat-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar.2", "digitR") - ADVx("samvat-ar.2"); let x2 = x1 - w;
+    {
+        pos samvat-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("samvat-ar", "digitR") - ADVx("samvat-ar"); 
+    {
+        pos samvat-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos             @DigitsAnyMedium' <$x1 0 $w 0> samvat-ar ;
+    }
+    
+    # U+0605 Number mark
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar.4", "digitR") - ADVx("numbermark-ar.4"); let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
+    {
+        pos numbermark-ar.4 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x4 0 $w 0>;
+        pos                 @DigitsAnyMedium' <$x4 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar.4 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar.3", "digitR") - ADVx("numbermark-ar.3"); let x2 = x1 - w; let x3 = x2 - w;
+    {
+        pos numbermark-ar.3 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x3 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x3 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar.3 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar.2", "digitR") - ADVx("numbermark-ar.2"); let x2 = x1 - w;
+    {
+        pos numbermark-ar.2 @DigitsAnyMedium' <$x1 0 $w 0> @DigitsAnyMedium' <$x2 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x2 0 $w 0> @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar.2 ;
+    }
+    do let w = -ADVx("zero.medium"); let x1 = APx("numbermark-ar", "digitR") - ADVx("numbermark-ar"); 
+    {
+        pos numbermark-ar   @DigitsAnyMedium' <$x1 0 $w 0> ;
+        pos                 @DigitsAnyMedium' <$x1 0 $w 0> numbermark-ar ;
+    }
+
+} SubtendingMarks;
+
+
+#**********************************
+#  Features
+#**********************************
+
+# as best as I understand, these are arranged in the order MS & HB engines execute:
+
+
+#********************
+#********************
+# GPOS features     *
+#********************
+#********************
+
+# Would love to be able to do subtending marks as either cursive connection or mark attachment
+# Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
+# same as the subtending mark and unrelated to the widths of the digits.
+# In Firefox at least, mark attachment works for 06DD (end of Ayah) and latin digits, but no other 
+# marks or digits (the digits get reverse ordered by the attachment process).
+# So we're back to using kerning
+
+feature kern {  # Kerning
+    # Same for latin & arabic:
+        lookup SubtendingMarks;
+
+do if opt("noOTkern") == "";	# enable kerning for now
+{
+    script arab;  # Arabic
+        lookup mainkern;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+      language WLF  ;
+}
+
+} kern;
+
+feature curs { # Cursive connection
+    script arab; # Arab
+        lookup cursive_exit_entry;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+      language WLF  ;
+} curs ;
+
+feature mark {  # Mark to base Positioning
+    # Same for latin & arabic:
+        lookup mark_to_base;
+        lookup alef_to_base;
+    script arab;  # Arabic
+        lookup AlefMark2BelowAfterLam;
+      # Force other languages to include Arabic script lookups
+      language KUR  ;
+      language RHG  ;
+      language SND  ;
+      language URD  ;
+      language WLF  ;
+} mark ;
+
+feature mkmk {  # Mark to mark Positioning
+    # Same for latin & arabic:
+        lookup mark_to_mark_above;
+        lookup mark_to_mark_below;
+} mkmk ;
