@@ -75,14 +75,14 @@ lookup mark_to_mark_below {
 # move MarksBelow slightly left on lam-alef when appropriate:
 lookup AlefMark2BelowAfterLam {
   lookupflag UseMarkFilteringSet @MarksBelow ;
-    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
-    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
-    pos [lamThreedotsbelow-ar.preAlef.init @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
+    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-    #pos lamThreedotsbelow-ar.preAlef.init @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+    #pos lamThreedotsbelow-ar.init.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
     # Unneeded in Harmattan design:
-    #pos lamThreedotsbelow-ar.preAlef.medi @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+    #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 } AlefMark2BelowAfterLam;
 
 

@@ -3,7 +3,7 @@
 <ftml version="1.0">
   <head>
     <fontscale>250</fontscale>
-    <fontsrc label="Reg ref">url(../references/Harmattan-Regular-v1.ttf)</fontsrc>
+    <fontsrc label="Reg ref">url(../references/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc label="Bold-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>

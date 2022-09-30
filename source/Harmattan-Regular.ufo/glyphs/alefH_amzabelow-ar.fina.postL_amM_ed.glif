@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefHamzabelow-ar.fina.postLamMed" format="2">
+  <advance width="558"/>
+  <anchor x="-5" y="912" name="alef"/>
+  <anchor x="206" y="1114" name="diaA"/>
+  <anchor x="285" y="-491" name="diaB"/>
+  <anchor x="556" y="121" name="entry"/>
+  <outline>
+    <component base="alef-ar.fina.postLamMed"/>
+    <component base="hamzaabove-ar" xOffset="-16" yOffset="-1824"/>
+  </outline>
+</glyph>

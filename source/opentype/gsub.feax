@@ -188,25 +188,25 @@ lookup ltrInit {
 lookup AllahSubAlef {
   lookupflag 0;
   	sub alef-ar      by alef-ar.allah;
-  	sub alef-ar.fina by alef-ar.allah.fina;
+  	sub alef-ar.fina by alef-ar.fina.allah;
 } AllahSubAlef;
 
 lookup AllahSubLam1 {
   lookupflag 0;
-    sub lam-ar.init  by lam-ar.allah1.init;
-    sub lam-ar.medi  by lam-ar.allah1.medi;
+    sub lam-ar.init  by lam-ar.init.allah1;
+    sub lam-ar.medi  by lam-ar.medi.allah1;
 } AllahSubLam1;
 
 lookup AllahSubLam2Heh {
   lookupflag 0;
-    sub lam-ar.medi     by lam-ar.allah2.medi;
-    sub heh-ar.fina     by heh-ar.allah.fina;
-    sub hehgoal-ar.fina by hehgoal-ar.allah.fina;
+    sub lam-ar.medi     by lam-ar.medi.allah2;
+    sub heh-ar.fina     by heh-ar.fina.allah;
+    sub hehgoal-ar.fina by hehgoal-ar.fina.allah;
 } AllahSubLam2Heh;
 
 lookup AllahSubLam2AddMarks {
   lookupflag 0;
-    sub lam-ar.medi by lam-ar.allah2.medi shadda-ar alefabove-ar ;  # insert shadda-alef
+    sub lam-ar.medi by lam-ar.medi.allah2 shadda-ar alefabove-ar ;  # insert shadda-alef
 } AllahSubLam2AddMarks;
 
 lookup AllahLigatures {
@@ -333,7 +333,7 @@ lookup AllahLigatures {
 
 lookup LigaturesForWarsh1 {
   lookupflag UseMarkFilteringSet @HamzaAboveFilter ;
-    sub lam-ar.init' hamzaabove-ar' @AlefFin by lam_hamza-ar.preAlef.init;
+    sub lam-ar.init' hamzaabove-ar' @AlefFin by lam_hamza-ar.init.preAlef;
 } LigaturesForWarsh1;
 
 # Ligate alef + hamza (above or below)
@@ -381,7 +381,7 @@ lookup LamAlefLigatures {
   # Subtable: Ligatures\Part1
     sub [@LamIni @LamMed]' @AlefFin by [@LamIniBeforeAlef @LamMedBeforeAlef];
   # Subtable: Ligatures\Part2a
-    sub [@LamIniBeforeAlef lam_hamza-ar.preAlef.init] @AlefFin' by @AlefFinAfterLamIni;
+    sub [@LamIniBeforeAlef lam_hamza-ar.init.preAlef] @AlefFin' by @AlefFinAfterLamIni;
   # Subtable: Ligatures\Part2b
     sub [@LamMedBeforeAlef                          ] @AlefFin' by @AlefFinAfterLamMed ;
 } LamAlefLigatures;
@@ -474,7 +474,7 @@ lookup dfltCALT {
 
 lookup KurdishCALT {
   lookupflag 0 ;
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishCALT;
 
@@ -522,19 +522,19 @@ lookup WolofCALT {
 lookup WarshAlternatesTT1 {
   lookupflag IgnoreMarks ;
     sub alefHamzaabove-ar by alefHamzaabove-ar.warsh ;
-    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.warsh.fina ;
+    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
     sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
-    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.warsh.fina ;
-    sub lam_hamza-ar.preAlef.init by lam_hamza-ar.preAlef.warsh.init ;
+    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
+    sub lam_hamza-ar.init.preAlef by lam_hamza-ar.init.preAlef.warsh ;
 } WarshAlternatesTT1;
 
 lookup WarshAlternatesTT2 {
   lookupflag IgnoreMarks ;
     sub alefHamzaabove-ar by alefHamzaabove-ar.warsh ;
-    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.warsh.fina ;
+    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
     sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
-    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.warsh.fina ;
-    sub lam_hamza-ar.preAlef.init by lam_hamza-ar.preAlef.warsh.init ;
+    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
+    sub lam_hamza-ar.init.preAlef by lam_hamza-ar.init.preAlef.warsh ;
     sub alef_fatha-ar by alef_fatha-ar.warsh ;
     sub alef_kasra-ar by alef_kasra-ar.warsh ;
 } WarshAlternatesTT2;
@@ -545,10 +545,10 @@ lookup WarshAlternates {
   lookupflag IgnoreMarks ;
     # Hamza touching is for cv02=1 or cv02=2 :
     sub alefHamzaabove-ar from [ alefHamzaabove-ar.warsh alefHamzaabove-ar.warsh ] ;
-    sub alefHamzaabove-ar.fina from [ alefHamzaabove-ar.warsh.fina alefHamzaabove-ar.warsh.fina ] ;
+    sub alefHamzaabove-ar.fina from [ alefHamzaabove-ar.fina.warsh alefHamzaabove-ar.fina.warsh ] ;
     sub alefHamzabelow-ar from [ alefHamzabelow-ar.warsh alefHamzabelow-ar.warsh ] ;
-    sub alefHamzabelow-ar.fina from [ alefHamzabelow-ar.warsh.fina alefHamzabelow-ar.warsh.fina ] ;
-    sub lam_hamza-ar.preAlef.init from [ lam_hamza-ar.preAlef.warsh.init lam_hamza-ar.preAlef.warsh.init ] ;
+    sub alefHamzabelow-ar.fina from [ alefHamzabelow-ar.fina.warsh alefHamzabelow-ar.fina.warsh ] ;
+    sub lam_hamza-ar.init.preAlef from [ lam_hamza-ar.init.preAlef.warsh lam_hamza-ar.init.preAlef.warsh ] ;
     # fatha and kasra touching isolate alef happens with cv02=2 :
     sub alef_fatha-ar from [ alef_fatha-ar alef_fatha-ar.warsh ] ;
     sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
@@ -591,19 +591,19 @@ lookup MeemAlternate {
 # Heh Alternates: TypeTuner lookups:
 
 lookup SindhiHeh {
-    sub heh-ar.medi by heh-ar.knottedHigh.medi ;
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar.medi by heh-ar.medi.knottedHigh ;
+    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } SindhiHeh;
 
 lookup UrduHeh {
-    sub heh-ar.init by heh-ar.hooked.init ;
-    sub heh-ar.medi by heh-ar.hooked.medi ;
-    sub heh-ar.fina by heh-ar.hooked.fina ;
+    sub heh-ar.init by heh-ar.init.hooked ;
+    sub heh-ar.medi by heh-ar.medi.hooked ;
+    sub heh-ar.fina by heh-ar.fina.hooked ;
 } UrduHeh;
 
 lookup KurdishHeh {
-    sub heh-ar.fina by heh-ar.knottedHigh.fina ;
+    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishHeh;
 
@@ -612,12 +612,12 @@ lookup KurdishHeh {
 lookup HehAlternates {
   lookupflag IgnoreMarks ;             # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
     sub heh-ar                  from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.init             from   [ heh-ar.init             heh-ar.hooked.init heh-ar.init             ] ;
-    sub heh-ar.medi             from   [ heh-ar.knottedHigh.medi heh-ar.hooked.medi heh-ar.medi             ] ;
-    sub heh-ar.fina             from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    sub heh-ar.init             from   [ heh-ar.init             heh-ar.init.hooked heh-ar.init             ] ;
+    sub heh-ar.medi             from   [ heh-ar.medi.knottedHigh heh-ar.medi.hooked heh-ar.medi             ] ;
+    sub heh-ar.fina             from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
     # In case Kurdish lang has been selected:
     sub heh-ar.knotted          from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.knottedHigh.fina from   [ heh-ar.knottedHigh.fina heh-ar.hooked.fina heh-ar.knottedHigh.fina ] ;
+    sub heh-ar.fina.knottedHigh from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
     
 } HehAlternates;
 

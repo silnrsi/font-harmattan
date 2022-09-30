@@ -29398,7 +29398,7 @@ lookup kernpos_863 {
 @kernClass_302 = [zain-ar zain-ar.fina zainVinvertedabove-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar];  # used 2 times
 @kernClass_303 = [zainVinvertedabove-ar zainVinvertedabove-ar.fina rehv-ar rehv-ar.fina rehFourdots-ar rehFourdots-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina];  # used 2 times
 @kernClass_304 = [zain-ar zainVinvertedabove-ar zainVinvertedabove-ar.fina rehv-ar rehDotbelow-ar rehFourdots-ar rehFourdots-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina];  # used 2 times
-@kernClass_305 = [behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init behThreedotshorizontalbelow-ar.init behVinvertedbelow-ar.init behVbelow-ar.init rehRing-ar rehVbelow-ar rehStroke-ar noonThreedotsabove-ar.init heh-ar.hooked.init hehgoal-ar.init];  # used 2 times
+@kernClass_305 = [behDotless-ar.init beh-ar.init peh-ar.init beeh-ar.init behThreedotshorizontalbelow-ar.init behVinvertedbelow-ar.init behVbelow-ar.init rehRing-ar rehVbelow-ar rehStroke-ar noonThreedotsabove-ar.init heh-ar.init.hooked hehgoal-ar.init];  # used 2 times
 @kernClass_306 = [rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehStroke-ar rehStroke-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehLoop-ar rehLoop-ar.fina];  # used 2 times
 @kernClass_307 = [behDotless-ar.init tehThreedotsdown-ar.init tehVabove-ar.init theh-ar.init tteh-ar.init ttehVabove-ar.init tteheh-ar.init noon-ar.init noonghunna-ar.init noonTahabove-ar.init noonVabove-ar.init noonAfrican-ar.init alefMaksura-ar.init yehHamzaabove-ar.init];  # used 2 times
 @kernClass_308 = [zain-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehStroke-ar rehStroke-ar.fina rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehLoop-ar rehLoop-ar.fina];  # used 2 times
@@ -30344,7 +30344,7 @@ lookup mainkern {
     pos @kernClass_1' lookup kernpos_859 @kernClass_2 @kernClass_312 @_diaB @_diaB @_diaA;
     pos @kernClass_1' lookup kernpos_863 @kernClass_2 alefWasla-ar @_diaB @_diaB @_diaA;
     pos @kernClass_163' lookup kernpos_355 @kernClass_2 hehgoal-ar.init @_diaA @_diaA @_diaB;
-    pos @kernClass_159' lookup kernpos_355 @kernClass_2 heh-ar.hooked.init @_diaA @_diaA @_diaB;
+    pos @kernClass_159' lookup kernpos_355 @kernClass_2 heh-ar.init.hooked @_diaA @_diaA @_diaB;
     pos @kernClass_5' lookup kernpos_514 @kernClass_2 @kernClass_148 @_diaA @_diaA @_diaB;
     pos @kernClass_295' lookup kernpos_514 @_diaA highhamzaYeh-ar.init @_diaA @_diaA @_diaB;
     pos @kernClass_161' lookup kernpos_335 @kernClass_2 reh-ar @_diaA @_diaA @_diaB;
@@ -30434,8 +30434,8 @@ lookup mainkern {
     pos @kernClass_1' lookup kernpos_863 alefWasla-ar @_diaB @_diaB @_diaA;
     pos @kernClass_163' lookup kernpos_355 hehgoal-ar.init @_diaA @_diaA @_diaB;
     pos @kernClass_163' lookup kernpos_355 @kernClass_2 hehgoal-ar.init @_diaA @_diaB;
-    pos @kernClass_159' lookup kernpos_355 heh-ar.hooked.init @_diaA @_diaA @_diaB;
-    pos @kernClass_159' lookup kernpos_355 @kernClass_2 heh-ar.hooked.init @_diaA @_diaB;
+    pos @kernClass_159' lookup kernpos_355 heh-ar.init.hooked @_diaA @_diaA @_diaB;
+    pos @kernClass_159' lookup kernpos_355 @kernClass_2 heh-ar.init.hooked @_diaA @_diaB;
     pos rehTwodotsverticalabove-ar' lookup kernpos_511 @_diaA rreh-ar @_diaB @_diaA;
     pos @kernClass_5' lookup kernpos_514 @kernClass_148 @_diaA @_diaA @_diaB;
     pos @kernClass_5' lookup kernpos_514 @kernClass_2 @kernClass_148 @_diaA @_diaB;
@@ -30528,7 +30528,7 @@ lookup mainkern {
     pos @kernClass_1' lookup kernpos_828 @kernClass_155 @_diaA @_diaB;
     pos @kernClass_1' lookup kernpos_828 @kernClass_2 @kernClass_307 @_diaB;
     pos @kernClass_163' lookup kernpos_355 hehgoal-ar.init @_diaA @_diaB;
-    pos @kernClass_159' lookup kernpos_355 heh-ar.hooked.init @_diaA @_diaB;
+    pos @kernClass_159' lookup kernpos_355 heh-ar.init.hooked @_diaA @_diaB;
     pos @kernClass_5' lookup kernpos_514 @kernClass_148 @_diaA @_diaB;
     pos @kernClass_5' lookup kernpos_514 @kernClass_2 @kernClass_245 @_diaB;
     pos [reh-ar reh-ar.fina rreh-ar rreh-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar jeh-ar.fina rehStroke-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_514 @_diaA highhamzaYeh-ar.init @_diaB;
@@ -30564,7 +30564,7 @@ lookup mainkern {
     pos [reh-ar.fina zain-ar zain-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehTwodots-ar.fina jeh-ar.fina rehVinvertedabove-ar.fina rehStroke-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina]' lookup kernpos_141 @_diaA meemThreedotsabove-ar @_diaB;
     pos [reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehDotbelow-ar rehVbelow-ar rehTwodots-ar rehTwodots-ar.fina rehFourdots-ar rehFourdots-ar.fina rehStroke-ar rehTwodotsverticalabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina]' lookup kernpos_147 @_diaA meem-ar @_diaA;
     pos [reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rehv-ar rehv-ar.fina rehDotbelow-ar rehVbelow-ar rehTwodots-ar rehTwodots-ar.fina rehFourdots-ar rehFourdots-ar.fina rehStroke-ar rehTwodotsverticalabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina]' lookup kernpos_144 @_diaA meem-ar.sindhi @_diaA;
-    pos @kernClass_330' lookup kernpos_182 @kernClass_2 heh-ar.hooked.init @_diaB;
+    pos @kernClass_330' lookup kernpos_182 @kernClass_2 heh-ar.init.hooked @_diaB;
     pos @kernClass_316' lookup kernpos_148 @_diaA highhamzaYeh-ar.init @_diaA;
     pos @kernClass_115' lookup kernpos_127 @_diaB alefMaksura-ar.init @_diaA;
     pos @kernClass_294' lookup kernpos_127 @kernClass_2 yehKashmiri-ar.init @_diaA;
@@ -30728,7 +30728,7 @@ lookup mainkern {
     pos @kernClass_1' lookup kernpos_819 @kernClass_2 hehgoalHamzaabove-ar.init;
     pos @kernClass_1' lookup kernpos_821 @kernClass_2 hehgoal-ar.init;
     pos @kernClass_1' lookup kernpos_824 @_diaA highhamzaYeh-ar.init;
-    pos @kernClass_1' lookup kernpos_825 @kernClass_2 heh-ar.hooked.init;
+    pos @kernClass_1' lookup kernpos_825 @kernClass_2 heh-ar.init.hooked;
     pos @kernClass_1' lookup kernpos_828 @kernClass_307 @_diaB;
     pos @kernClass_1' lookup kernpos_841 @kernClass_2 parenleft-ar;
     pos @kernClass_139' lookup kernpos_459 @_diaA veh-ar;
@@ -30854,7 +30854,7 @@ lookup mainkern {
     pos [reh-ar zain-ar zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehDotbelow-ar rehVbelow-ar rehDotbelowdotabove-ar rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehStroke-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_190 @_diaA teheh-ar.init;
     pos [reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar rreh-ar rreh-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_179 @_diaA ttehVabove-ar.init;
     pos @kernClass_320' lookup kernpos_161 @kernClass_2 semicolon-ar.downward;
-    pos @kernClass_330' lookup kernpos_182 heh-ar.hooked.init @_diaB;
+    pos @kernClass_330' lookup kernpos_182 heh-ar.init.hooked @_diaB;
     pos [zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar rehStroke-ar.fina rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_252 @_diaA rnoon-ar.init;
     pos @kernClass_115' lookup kernpos_127 alefMaksura-ar.init @_diaA;
     pos @kernClass_152' lookup kernpos_127 yeh-farsi.init @_diaA;
@@ -30960,7 +30960,7 @@ lookup mainkern {
     pos @kernClass_1' lookup kernpos_818 rehLoop-ar;
     pos @kernClass_1' lookup kernpos_819 hehgoalHamzaabove-ar.init;
     pos @kernClass_1' lookup kernpos_821 hehgoal-ar.init;
-    pos @kernClass_1' lookup kernpos_825 heh-ar.hooked.init;
+    pos @kernClass_1' lookup kernpos_825 heh-ar.init.hooked;
     pos @kernClass_1' lookup kernpos_841 parenleft-ar;
     pos @kernClass_5' lookup kernpos_462 colon;
     pos @kernClass_5' lookup kernpos_464 semicolon;

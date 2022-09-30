@@ -34773,7 +34773,7 @@
             146.2813452297661
         ]
     ],
-    "lam-ar.preAlef.init": [
+    "lam-ar.init.preAlef": [
         [
             569.1813062635867,
             666.7937218116605,
@@ -35149,7 +35149,7 @@
             -912.6071428571428
         ]
     ],
-    "lamVabove-ar.preAlef.init": [
+    "lamVabove-ar.init.preAlef": [
         [
             287.4737314120899,
             364.3265710339468,
@@ -35415,7 +35415,7 @@
             225.59440559440557
         ]
     ],
-    "lamDotabove-ar.preAlef.init": [
+    "lamDotabove-ar.init.preAlef": [
         [
             446.65822784810126,
             611.7142857142857,
@@ -35701,7 +35701,7 @@
             -791.1212121212121
         ]
     ],
-    "lamThreedotsabove-ar.preAlef.init": [
+    "lamThreedotsabove-ar.init.preAlef": [
         [
             444.4266666666667,
             584.7164179104477,
@@ -36151,7 +36151,7 @@
             689.3191489361702
         ]
     ],
-    "lamThreedotsbelow-ar.preAlef.init": [
+    "lamThreedotsbelow-ar.init.preAlef": [
         [
             541.2257412699693,
             667.1737801570628,
@@ -36557,7 +36557,7 @@
             -329.0112462287901
         ]
     ],
-    "lamBar-ar.preAlef.init": [
+    "lamBar-ar.init.preAlef": [
         [
             292.99999999999994,
             453.0000000000002,
@@ -36903,7 +36903,7 @@
             157.69829946649494
         ]
     ],
-    "lamDoublebar-ar.preAlef.init": [
+    "lamDoublebar-ar.init.preAlef": [
         [
             343.99999999999994,
             448.00000000000034,

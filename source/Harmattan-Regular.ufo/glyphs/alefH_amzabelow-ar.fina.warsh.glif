@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefHamzabelow-ar.fina.warsh" format="2">
+  <advance width="419"/>
+  <anchor x="-53" y="1005" name="alef"/>
+  <anchor x="147" y="1145" name="diaA"/>
+  <anchor x="259" y="-339" name="diaB"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="hamzaabove-ar" xOffset="-26" yOffset="-1659"/>
+  </outline>
+</glyph>

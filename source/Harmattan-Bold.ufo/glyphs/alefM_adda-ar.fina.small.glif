@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefMadda-ar.fina.small" format="2">
+  <advance width="474"/>
+  <anchor x="-68" y="1407" name="alef"/>
+  <anchor x="182" y="1449" name="diaA"/>
+  <anchor x="193" y="-103" name="diaB"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="_madda.small" xOffset="64" yOffset="1196"/>
+  </outline>
+</glyph>
