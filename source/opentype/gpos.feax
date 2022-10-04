@@ -72,18 +72,19 @@ lookup mark_to_mark_below {
 #********************
 # Mark adjustments after attachment:
 
+# TODO: Determine whether needed and, if so, correct implemetation
 # move MarksBelow slightly left on lam-alef when appropriate:
-lookup AlefMark2BelowAfterLam {
-  lookupflag UseMarkFilteringSet @MarksBelow ;
-    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
-    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
-    pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-    #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-    #pos lamThreedotsbelow-ar.init.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-    # Unneeded in Harmattan design:
-    #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
-} AlefMark2BelowAfterLam;
+# lookup AlefMark2BelowAfterLam {
+#   lookupflag UseMarkFilteringSet @MarksBelow ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+#     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+#     #pos lamThreedotsbelow-ar.init.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+#     # Unneeded in Harmattan design:
+#     #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
+# } AlefMark2BelowAfterLam;
 
 
 #********************
@@ -290,14 +291,15 @@ feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
         lookup mark_to_base;
         lookup alef_to_base;
-    script arab;  # Arabic
-        lookup AlefMark2BelowAfterLam;
-      # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
+# TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
+#    script arab;  # Arabic
+#        lookup AlefMark2BelowAfterLam;
+#      # Force other languages to include Arabic script lookups
+#      language KUR  ;
+#      language RHG  ;
+#      language SND  ;
+#      language URD  ;
+#      language WLF  ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning

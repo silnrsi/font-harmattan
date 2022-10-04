@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamVabove_alefThreeabove-ar.fina" format="2">
+  <advance width="1535"/>
+  <anchor x="1231" y="1499" name="diaA_1"/>
+  <anchor x="72" y="1512" name="diaA_2"/>
+  <anchor x="1347" y="-149" name="diaB_1"/>
+  <anchor x="248" y="-89" name="diaB_2"/>
+  <outline>
+    <component base="lamVabove-ar.medi.preAlef" xOffset="558"/>
+    <component base="alefThreeabove-ar.fina.postLamMed"/>
+  </outline>
+</glyph>

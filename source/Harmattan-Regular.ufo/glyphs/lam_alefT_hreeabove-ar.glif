@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lam_alefThreeabove-ar" format="2">
+  <advance width="1486"/>
+  <anchor x="1290" y="1132" name="diaA_1"/>
+  <anchor x="42" y="1472" name="diaA_2"/>
+  <anchor x="1365" y="-113" name="diaB_1"/>
+  <anchor x="181" y="-89" name="diaB_2"/>
+  <outline>
+    <component base="lam-ar.init.preAlef" xOffset="802"/>
+    <component base="alefThreeabove-ar.fina.postLamIni"/>
+  </outline>
+</glyph>

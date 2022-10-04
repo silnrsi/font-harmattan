@@ -51,7 +51,7 @@ cComplexShape = (
     cDualLinkInit 
     cRightLinkIsol
     cwarsh
-    cLamIniBeforeAlef
+    cAllLamAlefLig
     cAlefPlusMark   
     
     // classes cloclWLF and chalf include the fina forms which we don't need, so manually enumerate here:
