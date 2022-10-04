@@ -104,8 +104,6 @@
 @cno_half = [dad-ar.fina dad-ar dadDotbelow-ar.fina dadDotbelow-ar sad-ar.fina sad-ar sadThreedots-ar.fina sadThreedots-ar sadThreedotsbelow-ar.fina sadThreedotsbelow-ar sadTwodotsbelow-ar.fina sadTwodotsbelow-ar];
 @c_hand = [dyeh-ar.medi.hand hah-ar.medi.hand hahFourbelow-ar.medi.hand hahHamzaabove-ar.medi.hand hahTahTwodotshorizontalbelow-ar.medi.hand hahTahabove-ar.medi.hand hahTahbelow-ar.medi.hand hahThreedotsabove-ar.medi.hand hahThreedotsupbelow-ar.medi.hand hahTwodotshorizontalabove-ar.medi.hand hahTwodotsverticalabove-ar.medi.hand jeem-ar.medi.hand jeemThreedotsabove-ar.medi.hand jeemThreedotsbelow-ar.medi.hand jeemTwodotsabove-ar.medi.hand khah-ar.medi.hand nyeh-ar.medi.hand tcheh-ar.medi.hand tchehDotabove-ar.medi.hand tchehVabove-ar.medi.hand tcheheh-ar.medi.hand];
 @cno_hand = [dyeh-ar.medi hah-ar.medi hahFourbelow-ar.medi hahHamzaabove-ar.medi hahTahTwodotshorizontalbelow-ar.medi hahTahabove-ar.medi hahTahbelow-ar.medi hahThreedotsabove-ar.medi hahThreedotsupbelow-ar.medi hahTwodotshorizontalabove-ar.medi hahTwodotsverticalabove-ar.medi jeem-ar.medi jeemThreedotsabove-ar.medi jeemThreedotsbelow-ar.medi jeemTwodotsabove-ar.medi khah-ar.medi nyeh-ar.medi tcheh-ar.medi tchehDotabove-ar.medi tchehVabove-ar.medi tcheheh-ar.medi];
-@c_haswidth = [kashida-ar.haswidth];
-@cno_haswidth = [kashida-ar];
 @c_hooked = [heh-ar.fina.hooked heh-ar.init.hooked heh-ar.medi.hooked];
 @cno_hooked = [heh-ar.fina heh-ar.init heh-ar.medi];
 @c_init = [ain-ar.init ainThreedots-ar.init ainThreedotsbelow-ar.init ainThreedotsdownabove-ar.init ainTwodotshorizontalabove-ar.init ainTwodotsverticalabove-ar.init alefMaksura-ar.init beeh-ar.init beh-ar.init behDotless-ar.init behMeemabove-ar.init behThreedotshorizontalbelow-ar.init behThreedotsupabove-ar.init behThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init behVabove-ar.init behVbelow-ar.init behVinvertedbelow-ar.init beheh-ar.init behhamzaabove-ar.init dad-ar.init dadDotbelow-ar.init dyeh-ar.init e-ar.init feh-ar.init fehAfrican-ar.init fehDotbelow-ar.init fehDotbelowThreedotsabove-ar.init fehDotless-ar.init fehDotmovedbelow-ar.init fehThreedotsbelow-ar.init fehThreedotsupbelow-ar.init fehTwodotsbelow-ar.init gaf-ar.init gafInvertedstroke-ar.init gafRing-ar.init gafThreedots-ar.init gafTwodotsbelow-ar.init ghain-ar.init ghainDotbelow-ar.init ghainThreedotsabove-ar.init gueh-ar.init hah-ar.init hahFourbelow-ar.init hahHamzaabove-ar.init hahTahTwodotshorizontalbelow-ar.init hahTahabove-ar.init hahTahbelow-ar.init hahThreedotsabove-ar.init hahThreedotsupbelow-ar.init hahTwodotshorizontalabove-ar.init hahTwodotsverticalabove-ar.init heh-ar.init hehDoachashmee-ar.init hehVinvertedabove-ar.init hehgoal-ar.init hehgoalHamzaabove-ar.init highhamzaYeh-ar.init jeem-ar.init jeemThreedotsabove-ar.init jeemThreedotsbelow-ar.init jeemTwodotsabove-ar.init kaf-ar.init kafDotabove-ar.init kafDotbelow-ar.init kafRing-ar.init kafThreedotsbelow-ar.init kafTwodotshorizontalabove-ar.init kafswash-ar.init keheh-ar.init kehehDotabove-ar.init kehehThreedotsabove-ar.init kehehThreedotsbelow-ar.init kehehThreedotsupbelow-ar.init kehehTwodotshorizontalabove-ar.init kehehVabove-ar.init khah-ar.init lam-ar.init lamBar-ar.init lamDotabove-ar.init lamDoublebar-ar.init lamTahabove-ar.init lamThreedotsabove-ar.init lamThreedotsbelow-ar.init lamVabove-ar.init meem-ar.init meemDotabove-ar.init meemDotbelow-ar.init meemThreedotsabove-ar.init ng-ar.init ngoeh-ar.init noon-ar.init noonAfrican-ar.init noonDotbelow-ar.init noonRing-ar.init noonTahabove-ar.init noonThreedotsabove-ar.init noonTwodotsbelow-ar.init noonVabove-ar.init noonghunna-ar.init nyeh-ar.init peh-ar.init pehMeemabove-ar.init pehVabove-ar.init peheh-ar.init qaf-ar.init qafAfrican-ar.init qafDotabove-ar.init qafDotbelow-ar.init qafDotless-ar.init qafThreedotsabove-ar.init qafThreedotsaboveAfrican-ar.init rnoon-ar.init sad-ar.init sadThreedots-ar.init sadThreedotsbelow-ar.init sadTwodotsbelow-ar.init seen-ar.init seenDotbelowDotabove-ar.init seenFourabove-ar.init seenFourdotsabove-ar.init seenTahTwodotshorizontalabove-ar.init seenThreedotsbelow-ar.init seenTwodotsverticalabove-ar.init seenVinvertedabove-ar.init sheen-ar.init sheenDotbelow-ar.init sheenThreedotsbelow-ar.init tah-ar.init tahThreedots-ar.init tahTwodotsabove-ar.init tcheh-ar.init tchehDotabove-ar.init tchehVabove-ar.init tcheheh-ar.init teh-ar.init tehRing-ar.init tehTehabove-ar.init tehThreedotsdown-ar.init tehThreedotsupbelow-ar.init tehVabove-ar.init teheh-ar.init theh-ar.init tteh-ar.init ttehVabove-ar.init tteheh-ar.init veh-ar.init yeh-ar.init yeh-ar.noDots.init yeh-farsi.init yehFourbelow-farsi.init yehHamzaabove-ar.init yehKashmiri-ar.init yehThreeabove-farsi.init yehThreedotsabove-farsi.init yehThreedotsbelow-ar.init yehTwoabove-farsi.init yehTwodotsabove-farsi.init yehTwodotsbelowDotabove-ar.init yehTwodotsbelowHamzaabove-ar.init yehTwodotsbelowNoonabove-ar.init yehVabove-ar.init yehVinverted-farsi.init yehbarreeThreeabove-ar.init yehbarreeTwoabove-ar.init zah-ar.init];
@@ -625,8 +623,7 @@ markClass zainabove-ar <anchor 5 1111> @_diaA;
 # baseClass kafswash-ar <anchor 465 978> @diaA;
 # baseClass kafswash-ar.fina <anchor 704 952> @diaA;
 # baseClass [kafswash-ar.init kafswash-ar.medi] <anchor 674 952> @diaA;
-# baseClass kashida-ar <anchor 0 371> @diaA;
-# baseClass kashida-ar.haswidth <anchor 177 371> @diaA;
+# baseClass kashida-ar <anchor 177 371> @diaA;
 # baseClass keheh-ar <anchor 541 904> @diaA;
 # baseClass keheh-ar.001 <anchor 1050 1111> @diaA;
 # baseClass keheh-ar.fina <anchor 564 904> @diaA;
@@ -1358,8 +1355,7 @@ markClass zainabove-ar <anchor 5 1111> @_diaA;
 # baseClass kafswash-ar <anchor 252 683> @alef;
 # baseClass kafswash-ar.fina <anchor 201 584> @alef;
 # baseClass [kafswash-ar.init kafswash-ar.medi] <anchor 171 584> @alef;
-# baseClass kashida-ar <anchor 0 315> @alef;
-# baseClass kashida-ar.haswidth <anchor 242 315> @alef;
+# baseClass kashida-ar <anchor 242 315> @alef;
 # baseClass [keheh-ar kehehVabove-ar] <anchor 206 504> @alef;
 # baseClass keheh-ar.001 <anchor 746 874> @alef;
 # baseClass keheh-ar.fina.001 <anchor 715 778> @alef;
@@ -1867,8 +1863,7 @@ markClass zainabove-ar <anchor 5 1111> @_diaA;
 # baseClass kafswash-ar.fina <anchor 919 -119> @diaB;
 # baseClass kafswash-ar.init <anchor 879 -112> @diaB;
 # baseClass kafswash-ar.medi <anchor 869 -106> @diaB;
-# baseClass kashida-ar <anchor 0 -134> @diaB;
-# baseClass kashida-ar.haswidth <anchor 179 -134> @diaB;
+# baseClass kashida-ar <anchor 179 -134> @diaB;
 # baseClass [keheh-ar kehehVabove-ar] <anchor 706 -115> @diaB;
 # baseClass keheh-ar.001 <anchor 727 -106> @diaB;
 # baseClass [keheh-ar.fina kehehVabove-ar.fina] <anchor 740 -101> @diaB;
@@ -2595,23 +2590,6 @@ lookup ShaddaLigatures {
     sub alefabove-ar shadda-ar by shadda_alef-ar;
 } ShaddaLigatures;
 
-# According to Amiri font developer Khaled Hosny:
-#    Kashida justification as implemented in most, if not all, applications is
-#    broken by design; it inserts kashidas *after* doing OT layout which makes it
-#    impossible for OT code to interact with those kashidas breaking all sorts of
-#    things.
-#    To trick LibreOffice/MS Office to not do kashida justification we set the
-#    default kashida to a zero width, blank glyph which makes them to think there
-#    is no suitable kashida glyph, resorting back to regular justification.
-#    To get manually inserted kashida working we use an rlig feature to map to the
-#    actual kashida glyph(s).
-# See https://github.com/alif-type/amiri/blob/main/sources/kashida.fea
-# [Originally we tried to do this in ccmp since we don't have a curvy kashida glyph, 
-# but that broke kashida handling in InDesign. It has to be rlig.]
-lookup FixKashida {
-    sub kashida-ar by kashida-ar.haswidth;
-} FixKashida;
-
 # HB PAUSE
 #********************
 # for features calt and rclt:
@@ -3064,7 +3042,6 @@ feature rlig {
     lookup ShaddaLigatures;
     lookup ComposeLowHamzaAbove;
     lookup HamzaLigatures;
-    lookup FixKashida;
     # Force other languages to include Arabic script lookups
     language KUR;
     language RHG;
@@ -4652,8 +4629,7 @@ lookup mark_to_base {
     pos base kafswash-ar <anchor 465 978> mark @_diaA;
     pos base kafswash-ar.fina <anchor 704 952> mark @_diaA;
     pos base [kafswash-ar.init kafswash-ar.medi] <anchor 674 952> mark @_diaA;
-    pos base kashida-ar <anchor 0 371> mark @_diaA;
-    pos base kashida-ar.haswidth <anchor 177 371> mark @_diaA;
+    pos base kashida-ar <anchor 177 371> mark @_diaA;
     pos base keheh-ar <anchor 541 904> mark @_diaA;
     pos base keheh-ar.001 <anchor 1050 1111> mark @_diaA;
     pos base keheh-ar.fina <anchor 564 904> mark @_diaA;
@@ -5315,8 +5291,7 @@ lookup mark_to_base {
     pos base kafswash-ar.fina <anchor 919 -119> mark @_diaB;
     pos base kafswash-ar.init <anchor 879 -112> mark @_diaB;
     pos base kafswash-ar.medi <anchor 869 -106> mark @_diaB;
-    pos base kashida-ar <anchor 0 -134> mark @_diaB;
-    pos base kashida-ar.haswidth <anchor 179 -134> mark @_diaB;
+    pos base kashida-ar <anchor 179 -134> mark @_diaB;
     pos base [keheh-ar kehehVabove-ar] <anchor 706 -115> mark @_diaB;
     pos base keheh-ar.001 <anchor 727 -106> mark @_diaB;
     pos base [keheh-ar.fina kehehVabove-ar.fina] <anchor 740 -101> mark @_diaB;
@@ -5767,8 +5742,7 @@ lookup alef_to_base {
     pos base kafswash-ar <anchor 252 683> mark @_alef;
     pos base kafswash-ar.fina <anchor 201 584> mark @_alef;
     pos base [kafswash-ar.init kafswash-ar.medi] <anchor 171 584> mark @_alef;
-    pos base kashida-ar <anchor 0 315> mark @_alef;
-    pos base kashida-ar.haswidth <anchor 242 315> mark @_alef;
+    pos base kashida-ar <anchor 242 315> mark @_alef;
     pos base [keheh-ar kehehVabove-ar] <anchor 206 504> mark @_alef;
     pos base keheh-ar.001 <anchor 746 874> mark @_alef;
     pos base keheh-ar.fina.001 <anchor 715 778> mark @_alef;

@@ -437,25 +437,6 @@ lookup ShaddaLigatures {
     sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
 } ShaddaLigatures;
 
-
-# According to Amiri font developer Khaled Hosny:
-#    Kashida justification as implemented in most, if not all, applications is
-#    broken by design; it inserts kashidas *after* doing OT layout which makes it
-#    impossible for OT code to interact with those kashidas breaking all sorts of
-#    things.
-#    To trick LibreOffice/MS Office to not do kashida justification we set the
-#    default kashida to a zero width, blank glyph which makes them to think there
-#    is no suitable kashida glyph, resorting back to regular justification.
-#    To get manually inserted kashida working we use an rlig feature to map to the
-#    actual kashida glyph(s).
-# See https://github.com/alif-type/amiri/blob/main/sources/kashida.fea
-# [Originally we tried to do this in ccmp since we don't have a curvy kashida glyph, 
-# but that broke kashida handling in InDesign. It has to be rlig.]
-
-lookup FixKashida {
-	sub kashida-ar by kashida-ar.haswidth ;
-} FixKashida;
-
 # HB PAUSE
 
 #********************
@@ -939,7 +920,6 @@ feature rlig {  # Required Ligatures
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
-        lookup FixKashida;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language RHG  ;
