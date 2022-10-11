@@ -17,7 +17,7 @@ getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
 ftmlTest('tools/lib/ftml-smith.xsl')
 
 # APs to omit:
-omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R"'
+omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit"'
 
 # smith project-specific options:
 #   --norename - omit glyph rename step

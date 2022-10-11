@@ -194,20 +194,15 @@ pass(4)	// Features, special behaviors
 	if (warshDiacritics == std)
 		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ ;
 		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar g_alef_hamzabelow_ar_fina):(A H) _ ;
-		g_lam_ar_init_pre_alef=L    g_hamzaabove_ar=H > g_lam_hamza_ar_init_pre_alef:(L H) _ ;
 	endif;
 	if (warshDiacritics != std)
 		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar_warsh g_alef_hamzaabove_ar_fina_warsh):(A H) _ ;
 		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar_warsh g_alef_hamzabelow_ar_fina_warsh):(A H) _ ;
-		g_lam_ar_init_pre_alef=L    g_hamzaabove_ar=H > g_lam_hamza_ar_init_pre_alef_warsh:(L H) _ ;
 		if (warshDiacritics == touching)
 			// NB: even though a longer rule, it won't match if there is a hamza
 			g_alef_ar=A (g_fatha_ar g_kasra_ar)=V > (g_alef_fatha_ar_warsh g_alef_kasra_ar_warsh)$V:(A,V) _ / _ opt3(cUTR53_fixedPos) _ ; 
 		endif;
 	endif;
-	// Re-attach hamza below alef in Lam-Alef ligatures:
-	(g_alef_ar_fina_post_lam_ini g_alef_ar_fina_post_lam_med)=A g_hamzabelow_ar=H > 
-		(g_alef_hamzabelow_ar_fina_post_lam_ini g_alef_hamzabelow_ar_fina_post_lam_med):(A H) _ ;
 	
 	// yehbarree: substitute .wide variant when appropriate
 	

@@ -329,13 +329,6 @@ lookup AllahLigatures {
 # Mark glyphs not included will be skipped over when trying to find a hamzaAbove
 @HamzaAboveFilter = [@UTR53_230MCM @UTR53_230other graphemejoinercomb ] ;
 
-# Ligate Lam + hamzaAbove when before alef
-
-lookup LigaturesForWarsh1 {
-  lookupflag UseMarkFilteringSet @HamzaAboveFilter ;
-    sub lam-ar.init' hamzaabove-ar' @AlefFin by lam_hamza-ar.init.preAlef;
-} LigaturesForWarsh1;
-
 # Ligate alef + hamza (above or below)
 
 lookup LigaturesForWarsh2 {
@@ -492,7 +485,6 @@ lookup WarshAlternatesTT1 {
     sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
     sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
     sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
-    sub lam_hamza-ar.init.preAlef by lam_hamza-ar.init.preAlef.warsh ;
 } WarshAlternatesTT1;
 
 lookup WarshAlternatesTT2 {
@@ -501,7 +493,6 @@ lookup WarshAlternatesTT2 {
     sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
     sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
     sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
-    sub lam_hamza-ar.init.preAlef by lam_hamza-ar.init.preAlef.warsh ;
     sub alef_fatha-ar by alef_fatha-ar.warsh ;
     sub alef_kasra-ar by alef_kasra-ar.warsh ;
 } WarshAlternatesTT2;
@@ -515,7 +506,6 @@ lookup WarshAlternates {
     sub alefHamzaabove-ar.fina from [ alefHamzaabove-ar.fina.warsh alefHamzaabove-ar.fina.warsh ] ;
     sub alefHamzabelow-ar from [ alefHamzabelow-ar.warsh alefHamzabelow-ar.warsh ] ;
     sub alefHamzabelow-ar.fina from [ alefHamzabelow-ar.fina.warsh alefHamzabelow-ar.fina.warsh ] ;
-    sub lam_hamza-ar.init.preAlef from [ lam_hamza-ar.init.preAlef.warsh lam_hamza-ar.init.preAlef.warsh ] ;
     # fatha and kasra touching isolate alef happens with cv02=2 :
     sub alef_fatha-ar from [ alef_fatha-ar alef_fatha-ar.warsh ] ;
     sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
@@ -911,7 +901,6 @@ feature init {  # Initial Forms
 feature rlig {  # Required Ligatures
     script arab;  # Arabic
         lookup AllahLigatures;
-        lookup LigaturesForWarsh1;
         lookup LigaturesForWarsh2;
         lookup LigaturesForWarsh3;
         lookup LigaturesForWarsh4;

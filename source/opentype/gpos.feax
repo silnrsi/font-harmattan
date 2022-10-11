@@ -19,13 +19,7 @@
 
 
 #********************
-# Cursive connection
-
-lookup cursive_exit_entry {
-  lookupflag IgnoreMarks RightToLeft;
-  pos cursive @entry @exit;
-} cursive_exit_entry;
-
+# Collision-avoidance-based kerning
 
 do if opt("noOTkern") == "";
 {
@@ -51,6 +45,23 @@ lookup alef_to_base {
   lookupflag 0;
   pos base @alef mark @_alef;
 } alef_to_base;
+
+lookup mark_to_lig {
+  lookupflag 0;
+    pos ligature @LamAlefLig            @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWaslaLig       @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWavyHAboveLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefWavyHBelowLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefTwoAboveLig    @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+} mark_to_lig;
+
 
 lookup mark2_to_base {
   lookupflag 0;
@@ -276,30 +287,20 @@ do if opt("noOTkern") == "";	# enable kerning for now
 
 } kern;
 
-feature curs { # Cursive connection
-    script arab; # Arab
-        lookup cursive_exit_entry;
+feature mark {  # Mark to base Positioning
+    # Same for latin & arabic:
+        lookup mark_to_base;
+        lookup alef_to_base;
+    script arab;  # Arabic
+        lookup mark_to_lig;
+## TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
+##        lookup AlefMark2BelowAfterLam;
       # Force other languages to include Arabic script lookups
       language KUR  ;
       language RHG  ;
       language SND  ;
       language URD  ;
       language WLF  ;
-} curs ;
-
-feature mark {  # Mark to base Positioning
-    # Same for latin & arabic:
-        lookup mark_to_base;
-        lookup alef_to_base;
-# TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
-#    script arab;  # Arabic
-#        lookup AlefMark2BelowAfterLam;
-#      # Force other languages to include Arabic script lookups
-#      language KUR  ;
-#      language RHG  ;
-#      language SND  ;
-#      language URD  ;
-#      language WLF  ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning
