@@ -6,7 +6,7 @@
   <anchor x="669" y="-113" name="diaB_1"/>
   <anchor x="181" y="-145" name="diaB_2"/>
   <outline>
-    <component base="lamVabove-ar.init.preAlef" xOffset="96"/>
-    <component base="alefWasla-ar.fina.postLamIni"/>
+    <component base="_lamVabove-ar.init.preAlef" xOffset="96"/>
+    <component base="_alefWasla-ar.fina.postLamIni"/>
   </outline>
 </glyph>

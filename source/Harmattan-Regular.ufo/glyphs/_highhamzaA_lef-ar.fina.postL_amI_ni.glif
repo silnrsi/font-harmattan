@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_highhamzaAlef-ar.fina.postLamIni" format="2">
+  <advance width="802"/>
+  <anchor x="-123" y="886" name="alef"/>
+  <anchor x="133" y="-89" name="dia2B"/>
+  <anchor x="121" y="1472" name="diaA"/>
+  <anchor x="181" y="-89" name="diaB"/>
+  <anchor x="641" y="-12" name="entry"/>
+  <outline>
+    <component base="_alef-ar.fina.postLamIni"/>
+    <component base="highhamza-ar" xOffset="97" yOffset="-11"/>
+  </outline>
+</glyph>

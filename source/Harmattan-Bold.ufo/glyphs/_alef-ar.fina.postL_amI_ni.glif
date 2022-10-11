@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_alef-ar.fina.postLamIni" format="2">
+  <advance width="852"/>
+  <anchor x="-77" y="892" name="alef"/>
+  <anchor x="159" y="-143" name="dia2B"/>
+  <anchor x="167" y="1007" name="diaA"/>
+  <anchor x="207" y="-145" name="diaB"/>
+  <anchor x="737" y="-12" name="entry"/>
+  <outline>
+    <contour>
+      <point x="655" y="-12" type="curve"/>
+      <point x="688" y="-3"/>
+      <point x="757" y="61"/>
+      <point x="767" y="80" type="curve"/>
+      <point x="719" y="372"/>
+      <point x="474" y="755"/>
+      <point x="131" y="970" type="curve"/>
+      <point x="99" y="931"/>
+      <point x="85" y="882"/>
+      <point x="85" y="802" type="curve" smooth="yes"/>
+      <point x="85" y="778"/>
+      <point x="88" y="754"/>
+      <point x="95" y="730" type="curve"/>
+      <point x="309" y="595"/>
+      <point x="538" y="424"/>
+    </contour>
+  </outline>
+</glyph>

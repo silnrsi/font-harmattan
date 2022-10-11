@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_alefWasla-ar.fina.postLamMed" format="2">
+  <advance width="558"/>
+  <anchor x="-202" y="1283" name="alef"/>
+  <anchor x="215" y="-89" name="dia2B"/>
+  <anchor x="72" y="1411" name="diaA"/>
+  <anchor x="248" y="-89" name="diaB"/>
+  <anchor x="556" y="121" name="entry"/>
+  <outline>
+    <component base="_alef-ar.fina.postLamMed"/>
+    <component base="_wasla" xOffset="43" yOffset="1233"/>
+  </outline>
+</glyph>

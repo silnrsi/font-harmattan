@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_lamVabove-ar.init.preAlef" format="2">
+  <advance width="757"/>
+  <anchor x="164" y="1440" name="alef"/>
+  <anchor x="500" y="1493" name="diaA"/>
+  <anchor x="573" y="-113" name="diaB"/>
+  <anchor x="545" y="-12" name="exit"/>
+  <outline>
+    <component base="_lam-ar.init.preAlef"/>
+    <component base="vabove-ar" xOffset="510" yOffset="206"/>
+  </outline>
+</glyph>
