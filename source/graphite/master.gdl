@@ -388,8 +388,8 @@ pass(2)
 	// TODO: Determine whether needed and, if so, correct implemetation -- the following definitely
 	// 		doesn't work with lam-alef ligatures...
 	// Special attachment points for lam-alef ligatures, to avoid collisions:
-	cTakesdia2BDia=B cdiaBDia {attach {to=@B; at=dia2BS; with=diaBM}}
-		/ (g_lam_threedotsbelow_ar_init_pre_alef g_lam_threedotsbelow_ar_medi_pre_alef cdiaBDia) MARKSABOVE _ ^ MARKSABOVE _ ;
+	//cTakesdia2BDia=B cdiaBDia {attach {to=@B; at=dia2BS; with=diaBM}}
+	//	/ (g_lam_threedotsbelow_ar_init_pre_alef g_lam_threedotsbelow_ar_medi_pre_alef cdiaBDia) MARKSABOVE _ ^ MARKSABOVE _ ;
 
 
 endpass; // 2
