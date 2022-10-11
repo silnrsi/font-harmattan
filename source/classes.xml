@@ -541,12 +541,11 @@
 
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
     <class name='Maddah'>
-        alefMadda-ar alefMadda-ar.fina madda-ar alefMadda-ar.fina.postLamIni alefMadda-ar.fina.postLamMed
+        alefMadda-ar alefMadda-ar.fina madda-ar
     </class>
 
     <class name='Maddah.small'>
-        alefMadda-ar.small alefMadda-ar.fina.small madda-ar.small alefMadda-ar.fina.postLamIni.small
-        alefMadda-ar.fina.postLamMed.small
+        alefMadda-ar.small alefMadda-ar.fina.small madda-ar.small 
     </class>
 
     <!-- cv62 Kasra positioning -->
