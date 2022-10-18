@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamDoublebar_alefHamzabelow-ar.fina" format="2">
+  <advance width="992"/>
+  <anchor x="721" y="1114" name="diaA_1"/>
+  <anchor x="206" y="1114" name="diaA_2"/>
+  <anchor x="789" y="-149" name="diaB_1"/>
+  <anchor x="251" y="-528" name="diaB_2"/>
+  <outline>
+    <component base="_lamDoublebar-ar.medi.preAlef"/>
+    <component base="_alefHamzabelow-ar.fina.postLamMed" yOffset="2"/>
+  </outline>
+</glyph>

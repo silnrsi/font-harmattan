@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamDotabove_alefHamzabelow-ar" format="2">
+  <advance width="780"/>
+  <anchor x="579" y="1489" name="diaA_1"/>
+  <anchor x="71" y="1007" name="diaA_2"/>
+  <anchor x="669" y="-113" name="diaB_1"/>
+  <anchor x="232" y="-493" name="diaB_2"/>
+  <outline>
+    <component base="_lamDotabove-ar.init.preAlef" xOffset="96"/>
+    <component base="_alefHamzabelow-ar.fina.postLamIni"/>
+  </outline>
+</glyph>

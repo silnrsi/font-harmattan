@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lamThreedotsabove_alefHamzaabove-ar.fina" format="2">
+  <advance width="992"/>
+  <anchor x="670" y="1759" name="diaA_1"/>
+  <anchor x="92" y="1456" name="diaA_2"/>
+  <anchor x="789" y="-149" name="diaB_1"/>
+  <anchor x="248" y="-89" name="diaB_2"/>
+  <outline>
+    <component base="_lamThreedotsabove-ar.medi.preAlef"/>
+    <component base="_alefHamzaabove-ar.fina.postLamMed" yOffset="2"/>
+  </outline>
+</glyph>

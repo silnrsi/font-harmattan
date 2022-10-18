@@ -287,6 +287,20 @@
         lamThreedotsbelow_alef-ar.fina  lamTahabove_alef-ar.fina  lamBar_alef-ar.fina  lamDoublebar_alef-ar.fina
     </class>
 
+    <class name="LamAlefHamzaaboveLig">
+        lam_alefHamzaabove-ar  lamVabove_alefHamzaabove-ar  lamDotabove_alefHamzaabove-ar  lamThreedotsabove_alefHamzaabove-ar
+        lamThreedotsbelow_alefHamzaabove-ar  lamTahabove_alefHamzaabove-ar  lamBar_alefHamzaabove-ar  lamDoublebar_alefHamzaabove-ar
+        lam_alefHamzaabove-ar.fina  lamVabove_alefHamzaabove-ar.fina  lamDotabove_alefHamzaabove-ar.fina  lamThreedotsabove_alefHamzaabove-ar.fina
+        lamThreedotsbelow_alefHamzaabove-ar.fina  lamTahabove_alefHamzaabove-ar.fina  lamBar_alefHamzaabove-ar.fina  lamDoublebar_alefHamzaabove-ar.fina
+    </class>
+
+    <class name="LamAlefHamzabelowLig">
+        lam_alefHamzabelow-ar  lamVabove_alefHamzabelow-ar  lamDotabove_alefHamzabelow-ar  lamThreedotsabove_alefHamzabelow-ar
+        lamThreedotsbelow_alefHamzabelow-ar  lamTahabove_alefHamzabelow-ar  lamBar_alefHamzabelow-ar  lamDoublebar_alefHamzabelow-ar
+        lam_alefHamzabelow-ar.fina  lamVabove_alefHamzabelow-ar.fina  lamDotabove_alefHamzabelow-ar.fina  lamThreedotsabove_alefHamzabelow-ar.fina
+        lamThreedotsbelow_alefHamzabelow-ar.fina  lamTahabove_alefHamzabelow-ar.fina  lamBar_alefHamzabelow-ar.fina  lamDoublebar_alefHamzabelow-ar.fina
+    </class>
+
     <class name="LamAlefWaslaLig">
         lam_alefWasla-ar  lamVabove_alefWasla-ar  lamDotabove_alefWasla-ar  lamThreedotsabove_alefWasla-ar
         lamThreedotsbelow_alefWasla-ar  lamTahabove_alefWasla-ar  lamBar_alefWasla-ar  lamDoublebar_alefWasla-ar

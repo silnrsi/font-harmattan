@@ -1718,6 +1718,14 @@
   <string>lamB_ar_alef-ar.glif</string>
   <key>lamBar_alef-ar.fina</key>
   <string>lamB_ar_alef-ar.fina.glif</string>
+  <key>lamBar_alefHamzaabove-ar</key>
+  <string>lamB_ar_alefH_amzaabove-ar.glif</string>
+  <key>lamBar_alefHamzaabove-ar.fina</key>
+  <string>lamB_ar_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamBar_alefHamzabelow-ar</key>
+  <string>lamB_ar_alefH_amzabelow-ar.glif</string>
+  <key>lamBar_alefHamzabelow-ar.fina</key>
+  <string>lamB_ar_alefH_amzabelow-ar.fina.glif</string>
   <key>lamBar_alefThreeabove-ar</key>
   <string>lamB_ar_alefT_hreeabove-ar.glif</string>
   <key>lamBar_alefThreeabove-ar.fina</key>
@@ -1750,6 +1758,14 @@
   <string>lamD_otabove_alef-ar.glif</string>
   <key>lamDotabove_alef-ar.fina</key>
   <string>lamD_otabove_alef-ar.fina.glif</string>
+  <key>lamDotabove_alefHamzaabove-ar</key>
+  <string>lamD_otabove_alefH_amzaabove-ar.glif</string>
+  <key>lamDotabove_alefHamzaabove-ar.fina</key>
+  <string>lamD_otabove_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamDotabove_alefHamzabelow-ar</key>
+  <string>lamD_otabove_alefH_amzabelow-ar.glif</string>
+  <key>lamDotabove_alefHamzabelow-ar.fina</key>
+  <string>lamD_otabove_alefH_amzabelow-ar.fina.glif</string>
   <key>lamDotabove_alefThreeabove-ar</key>
   <string>lamD_otabove_alefT_hreeabove-ar.glif</string>
   <key>lamDotabove_alefThreeabove-ar.fina</key>
@@ -1782,6 +1798,14 @@
   <string>lamD_oublebar_alef-ar.glif</string>
   <key>lamDoublebar_alef-ar.fina</key>
   <string>lamD_oublebar_alef-ar.fina.glif</string>
+  <key>lamDoublebar_alefHamzaabove-ar</key>
+  <string>lamD_oublebar_alefH_amzaabove-ar.glif</string>
+  <key>lamDoublebar_alefHamzaabove-ar.fina</key>
+  <string>lamD_oublebar_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamDoublebar_alefHamzabelow-ar</key>
+  <string>lamD_oublebar_alefH_amzabelow-ar.glif</string>
+  <key>lamDoublebar_alefHamzabelow-ar.fina</key>
+  <string>lamD_oublebar_alefH_amzabelow-ar.fina.glif</string>
   <key>lamDoublebar_alefThreeabove-ar</key>
   <string>lamD_oublebar_alefT_hreeabove-ar.glif</string>
   <key>lamDoublebar_alefThreeabove-ar.fina</key>
@@ -1814,6 +1838,14 @@
   <string>lamT_ahabove_alef-ar.glif</string>
   <key>lamTahabove_alef-ar.fina</key>
   <string>lamT_ahabove_alef-ar.fina.glif</string>
+  <key>lamTahabove_alefHamzaabove-ar</key>
+  <string>lamT_ahabove_alefH_amzaabove-ar.glif</string>
+  <key>lamTahabove_alefHamzaabove-ar.fina</key>
+  <string>lamT_ahabove_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamTahabove_alefHamzabelow-ar</key>
+  <string>lamT_ahabove_alefH_amzabelow-ar.glif</string>
+  <key>lamTahabove_alefHamzabelow-ar.fina</key>
+  <string>lamT_ahabove_alefH_amzabelow-ar.fina.glif</string>
   <key>lamTahabove_alefThreeabove-ar</key>
   <string>lamT_ahabove_alefT_hreeabove-ar.glif</string>
   <key>lamTahabove_alefThreeabove-ar.fina</key>
@@ -1846,6 +1878,14 @@
   <string>lamT_hreedotsabove_alef-ar.glif</string>
   <key>lamThreedotsabove_alef-ar.fina</key>
   <string>lamT_hreedotsabove_alef-ar.fina.glif</string>
+  <key>lamThreedotsabove_alefHamzaabove-ar</key>
+  <string>lamT_hreedotsabove_alefH_amzaabove-ar.glif</string>
+  <key>lamThreedotsabove_alefHamzaabove-ar.fina</key>
+  <string>lamT_hreedotsabove_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamThreedotsabove_alefHamzabelow-ar</key>
+  <string>lamT_hreedotsabove_alefH_amzabelow-ar.glif</string>
+  <key>lamThreedotsabove_alefHamzabelow-ar.fina</key>
+  <string>lamT_hreedotsabove_alefH_amzabelow-ar.fina.glif</string>
   <key>lamThreedotsabove_alefThreeabove-ar</key>
   <string>lamT_hreedotsabove_alefT_hreeabove-ar.glif</string>
   <key>lamThreedotsabove_alefThreeabove-ar.fina</key>
@@ -1878,6 +1918,14 @@
   <string>lamT_hreedotsbelow_alef-ar.glif</string>
   <key>lamThreedotsbelow_alef-ar.fina</key>
   <string>lamT_hreedotsbelow_alef-ar.fina.glif</string>
+  <key>lamThreedotsbelow_alefHamzaabove-ar</key>
+  <string>lamT_hreedotsbelow_alefH_amzaabove-ar.glif</string>
+  <key>lamThreedotsbelow_alefHamzaabove-ar.fina</key>
+  <string>lamT_hreedotsbelow_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamThreedotsbelow_alefHamzabelow-ar</key>
+  <string>lamT_hreedotsbelow_alefH_amzabelow-ar.glif</string>
+  <key>lamThreedotsbelow_alefHamzabelow-ar.fina</key>
+  <string>lamT_hreedotsbelow_alefH_amzabelow-ar.fina.glif</string>
   <key>lamThreedotsbelow_alefThreeabove-ar</key>
   <string>lamT_hreedotsbelow_alefT_hreeabove-ar.glif</string>
   <key>lamThreedotsbelow_alefThreeabove-ar.fina</key>
@@ -1910,6 +1958,14 @@
   <string>lamV_above_alef-ar.glif</string>
   <key>lamVabove_alef-ar.fina</key>
   <string>lamV_above_alef-ar.fina.glif</string>
+  <key>lamVabove_alefHamzaabove-ar</key>
+  <string>lamV_above_alefH_amzaabove-ar.glif</string>
+  <key>lamVabove_alefHamzaabove-ar.fina</key>
+  <string>lamV_above_alefH_amzaabove-ar.fina.glif</string>
+  <key>lamVabove_alefHamzabelow-ar</key>
+  <string>lamV_above_alefH_amzabelow-ar.glif</string>
+  <key>lamVabove_alefHamzabelow-ar.fina</key>
+  <string>lamV_above_alefH_amzabelow-ar.fina.glif</string>
   <key>lamVabove_alefThreeabove-ar</key>
   <string>lamV_above_alefT_hreeabove-ar.glif</string>
   <key>lamVabove_alefThreeabove-ar.fina</key>
@@ -1934,6 +1990,14 @@
   <string>lam_alef-ar.glif</string>
   <key>lam_alef-ar.fina</key>
   <string>lam_alef-ar.fina.glif</string>
+  <key>lam_alefHamzaabove-ar</key>
+  <string>lam_alefH_amzaabove-ar.glif</string>
+  <key>lam_alefHamzaabove-ar.fina</key>
+  <string>lam_alefH_amzaabove-ar.fina.glif</string>
+  <key>lam_alefHamzabelow-ar</key>
+  <string>lam_alefH_amzabelow-ar.glif</string>
+  <key>lam_alefHamzabelow-ar.fina</key>
+  <string>lam_alefH_amzabelow-ar.fina.glif</string>
   <key>lam_alefThreeabove-ar</key>
   <string>lam_alefT_hreeabove-ar.glif</string>
   <key>lam_alefThreeabove-ar.fina</key>

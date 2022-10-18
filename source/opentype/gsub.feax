@@ -69,7 +69,8 @@ lookup SmallMaddah {
 } SmallMaddah;
 
 #********************
-# for UTR53 stacks, this decomposition will already have been done:
+# for UTR53 stacks, this decomposition will already have been done.
+# Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
 
 lookup DecomposeForColor {
   lookupflag IgnoreMarks ;
@@ -187,8 +188,8 @@ lookup ltrInit {
 
 lookup AllahSubAlef {
   lookupflag 0;
-  	sub alef-ar      by alef-ar.allah;
-  	sub alef-ar.fina by alef-ar.fina.allah;
+    sub alef-ar      by alef-ar.allah;
+    sub alef-ar.fina by alef-ar.fina.allah;
 } AllahSubAlef;
 
 lookup AllahSubLam1 {
@@ -319,9 +320,8 @@ lookup AllahLigatures {
 } AllahLigatures;  
         
 #********
-# "touching" Warsh diacritics (implemented as ligatures)
-
-# Make sure these sequences get ligated so the subsequent (optional) substitutions work
+# To support "touching" Warsh diacritics (implemented as ligatures), make sure 
+# these alef-mark sequences get [re-]ligated so the subsequent (optional) substitutions work
 # These ligation rules have to strike a balance between trying to do something useful 
 # for DirectWrite (which doesn't reorder glyphs) without violating the rules of UTR53.
 
@@ -356,7 +356,7 @@ lookup LigaturesForWarsh3 {
 #       kasra or fatha that, for UTR53, would have been before the hamza.
 
 # Include in this filter kasra and fatha plus any mark glyphs that should stop any ligation:
-#	shadda, any MCM other than hamza, cgj.
+# shadda, any MCM other than hamza, cgj.
 @KasraFathaFilter = [ kasra-ar kasra-ar.lowered fatha-ar shadda-ar seenbelow-ar highwaw-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar graphemejoinercomb] ;
 lookup LigaturesForWarsh4 {
   lookupflag UseMarkFilteringSet @KasraFathaFilter ;
@@ -408,7 +408,7 @@ lookup HamzaLigatures {
 } HamzaLigatures;
 
 # Including graphemejoinercomb allows it to interrupt the ligature formation,
-#		otherwise the lookupflag causes it to be ignored.
+#   otherwise the lookupflag causes it to be ignored.
 @ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb ] ;
 lookup ShaddaLigatures {
   lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
@@ -466,16 +466,6 @@ lookup WolofCALT {
     sub @Damma by @Damma_short ;
 } WolofCALT;
 
-
-# HB PAUSE
-
-#********************
-# for all remaining substitution features (salt, cvxx, liga):
-#********************
-
-#********************
-# Lookups for user-selectable features
-
 #********************
 # Warsh Alternates: TypeTuner lookups:
 
@@ -497,6 +487,16 @@ lookup WarshAlternatesTT2 {
     sub alef_kasra-ar by alef_kasra-ar.warsh ;
 } WarshAlternatesTT2;
 
+# HB PAUSE
+
+#********************
+# for all remaining substitution features (salt, cvxx, liga):
+#********************
+
+#********************
+# Lookups for user-selectable features
+
+#********************
 # Warsh alternates: cv02
 
 lookup WarshAlternates {
@@ -510,7 +510,6 @@ lookup WarshAlternates {
     sub alef_fatha-ar from [ alef_fatha-ar alef_fatha-ar.warsh ] ;
     sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
 } WarshAlternates;
-
 
 #********************
 # Jeem/Hah medial alternate: cv08
@@ -732,13 +731,15 @@ lookup ShaddaKasraLigatures {
 # Lam-Alef Ligatures
 
 lookup LamAlefLigatures {
-	lookupflag IgnoreMarks ;
-		sub @LamInitMedi  alef-ar.fina                by  @LamAlefLig ;
-		sub @LamInitMedi  alefWasla-ar.fina           by  @LamAlefWaslaLig ;
-		sub @LamInitMedi  alefWavyhamzaabove-ar.fina  by  @LamAlefWavyHAboveLig ;
-		sub @LamInitMedi  alefWavyhamzabelow-ar.fina  by  @LamAlefWavyHBelowLig ;
-		sub @LamInitMedi  alefTwoabove-ar.fina        by  @LamAlefTwoAboveLig ;
-		sub @LamInitMedi  alefThreeabove-ar.fina      by  @LamAlefThreeAboveLig ;
+  lookupflag IgnoreMarks ;
+    sub @LamInitMedi  alef-ar.fina                  by  @LamAlefLig ;
+    sub @LamInitMedi  alefHamzaabove-ar.fina        by  @LamAlefHamzaaboveLig ;
+    sub @LamInitMedi  alefHamzabelow-ar.fina        by  @LamAlefHamzabelowLig ;
+    sub @LamInitMedi  alefWasla-ar.fina             by  @LamAlefWaslaLig ;
+    sub @LamInitMedi  alefWavyhamzaabove-ar.fina    by  @LamAlefWavyHAboveLig ;
+    sub @LamInitMedi  alefWavyhamzabelow-ar.fina    by  @LamAlefWavyHBelowLig ;
+    sub @LamInitMedi  alefTwoabove-ar.fina          by  @LamAlefTwoAboveLig ;
+    sub @LamInitMedi  alefThreeabove-ar.fina        by  @LamAlefThreeAboveLig ;
 } LamAlefLigatures;
 
 
@@ -842,7 +843,7 @@ feature ccmp {  # Glyph Composition/Decomposition
     script arab;  # Arabic
         lookup DecomposeForColor;
       language KUR  ;
-      	# Kurdish uses raised kasra
+        # Kurdish uses raised kasra
       language RHG  ;
         lookup KasraLow ;
       language SND  ;
