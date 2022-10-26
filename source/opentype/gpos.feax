@@ -21,32 +21,24 @@
 #********************
 # Collision-avoidance-based kerning
 
-do if opt("noOTkern") == "";
-{
-ifinfo(styleName, "Regular") {
-	include(../../source/opentype/caKern-Regular.fea);
-}
+include(../../source/opentype/customKerning.feax); 
 
-ifinfo(styleName, "Bold") {
-	include(../../source/opentype/caKern-Bold.fea);
-}
-}
 	
 #********************
 # Mark attachment
 
-lookup mark_to_base {
+lookup MarkToBase {
   lookupflag 0;
   pos base @diaA mark @_diaA;
   pos base @diaB mark @_diaB;
-} mark_to_base;
+} MarkToBase;
 
-lookup alef_to_base {
+lookup AlefToBase {
   lookupflag 0;
   pos base @alef mark @_alef;
-} alef_to_base;
+} AlefToBase;
 
-lookup mark_to_lig {
+lookup MarkToLig {
   lookupflag 0;
     pos ligature @LamAlefLig            @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
               ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
@@ -60,42 +52,61 @@ lookup mark_to_lig {
               ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
     pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
               ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
-} mark_to_lig;
+} MarkToLig;
 
-
-lookup mark2_to_base {
-  lookupflag 0;
-  pos base @dia2B mark @_diaB;
-} mark2_to_base;
 
 @MarkFilter_diaA = [@diaA_MarkBase @_diaA];
-lookup mark_to_mark_above {
+lookup MarkToMarkAbove {
   lookupflag UseMarkFilteringSet @MarkFilter_diaA;
   pos mark @diaA_MarkBase mark @_diaA;
-} mark_to_mark_above;
+} MarkToMarkAbove;
 
 @MarkFilter_diaB = [@diaB_MarkBase @_diaB];
-lookup mark_to_mark_below {
+lookup MarkToMarkBelow {
   lookupflag UseMarkFilteringSet @MarkFilter_diaB;
   pos mark @diaB_MarkBase mark @_diaB;
-} mark_to_mark_below;
+} MarkToMarkBelow;
+
 
 #********************
 # Mark adjustments after attachment:
 
+#do let f = info("familyName");
+#   if f.find("Harmattan") != -1; {}
+
 # TODO: Determine whether needed and, if so, correct implemetation
+#
+#lookup Mark2ToBase {
+#  lookupflag 0;
+#  pos base @dia2B mark @_diaB;
+#} Mark2ToBase;
+#
 # move MarksBelow slightly left on lam-alef when appropriate:
 # lookup AlefMark2BelowAfterLam {
 #   lookupflag UseMarkFilteringSet @MarksBelow ;
-#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksBelow' ;
-#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
-#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksBelow' ;
-#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup mark2_to_base @MarksAbove' @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup Mark2ToBase @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @dia2B' lookup Mark2ToBase @MarksAbove' @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup Mark2ToBase @MarksBelow' ;
+#     pos [lamThreedotsbelow-ar.init.preAlef @MarksBelow] @MarksAbove @dia2B' lookup Mark2ToBase @MarksAbove' @MarksBelow' ;
 #     #pos @MarksBelow @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 #     #pos lamThreedotsbelow-ar.init.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 #     # Unneeded in Harmattan design:
 #     #pos lamThreedotsbelow-ar.medi.preAlef @AllAlefFinAfterLam @MarksBelow' <-50 0 0 0> ;
 # } AlefMark2BelowAfterLam;
+
+#}    # end do - Harmattan
+
+# Lateef only; others have an empty lookup
+
+# Increase vertical separation between maddah and fatha for sequences like:
+# alefMaddah + lam-initial + fatha (for all initial lam-like glyphs that have 
+# no nukta above) [ABS-2762]
+lookup RaiseMadda {
+  lookupflag 0;
+ifinfo(familyName, "Lateef") {
+  pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0 >  [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
+}
+} RaiseMadda ;
 
 
 #********************
@@ -248,6 +259,15 @@ lookup SubtendingMarks {
 
 } SubtendingMarks;
 
+include(../../source/opentype/customShifting.feax);
+
+lookup KernPairs {
+  lookupflag IgnoreMarks;
+ifinfo(familyName, "Lateef") {
+    kernpairs;
+}
+} KernPairs;
+
 
 #**********************************
 #  Features
@@ -272,6 +292,7 @@ lookup SubtendingMarks {
 feature kern {  # Kerning
     # Same for latin & arabic:
         lookup SubtendingMarks;
+        lookup KernPairs;
 
 do if opt("noOTkern") == "";	# enable kerning for now
 {
@@ -289,10 +310,11 @@ do if opt("noOTkern") == "";	# enable kerning for now
 
 feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
-        lookup mark_to_base;
-        lookup alef_to_base;
+        lookup MarkToBase;
+        lookup AlefToBase;
+        lookup RaiseMadda;  # Lateef
     script arab;  # Arabic
-        lookup mark_to_lig;
+        lookup MarkToLig;
 ## TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
 ##        lookup AlefMark2BelowAfterLam;
       # Force other languages to include Arabic script lookups
@@ -305,6 +327,6 @@ feature mark {  # Mark to base Positioning
 
 feature mkmk {  # Mark to mark Positioning
     # Same for latin & arabic:
-        lookup mark_to_mark_above;
-        lookup mark_to_mark_below;
+        lookup MarkToMarkAbove;
+        lookup MarkToMarkBelow;
 } mkmk ;

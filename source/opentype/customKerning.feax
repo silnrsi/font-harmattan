@@ -14,4 +14,13 @@
 
 #---  kern feature  ---
 
-# TODO: complete
+do if opt("noOTkern") == "";
+{
+ifinfo(styleName, "Regular") {
+	include(../../source/opentype/caKern-Regular.fea);
+}
+
+ifinfo(styleName, "Bold") {
+	include(../../source/opentype/caKern-Bold.fea);
+}
+}

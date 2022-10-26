@@ -957,17 +957,6 @@ lookup TabularFigures {
 
 include(../../source/opentype/customCollisionSubs.feax);
 
-do let f = info("familyName");
-   if f.find("Harmattan") == -1; {  # NOT Harmattan
-   
-lookup YehBarreeToWideAlways {
-} YehBarreeToWideAlways;
-
-lookup YehBarreeToWideWithMarks {
-} YehBarreeToWideWithMarks;
-
-}  # end do - NOT Harmattan
-
 
 # Scheherazade only:
 lookup WideKashida {
