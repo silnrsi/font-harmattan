@@ -253,7 +253,7 @@
          doesn't pass the psfcheckclassorders alignment check. (It doesn't need to align by glyphID
          because this class is used only for OpenType and not for Graphite).
     -->
-    <class name="LamInitMedi">  <!-- OpenType --> 
+    <class name="LamNoLig">  <!-- OpenType --> 
         lam-ar.init  lamVabove-ar.init  lamDotabove-ar.init  lamThreedotsabove-ar.init
         lamThreedotsbelow-ar.init  lamTahabove-ar.init  lamBar-ar.init  lamDoublebar-ar.init
         lam-ar.medi  lamVabove-ar.medi  lamDotabove-ar.medi  lamThreedotsabove-ar.medi
@@ -266,7 +266,7 @@
          but in the correct order for psfcheckclassorders to align. The class is not used in
          code, but just for psfcheckclassorders
     -->
-    <class name="LamMediIni_unused">  <!-- Not used except for checking --> 
+    <class name="LamNoLig_unused">  <!-- Not used except for checking --> 
         lam-ar.medi  lamVabove-ar.medi  lamDotabove-ar.medi  lamThreedotsabove-ar.medi
         lamThreedotsbelow-ar.medi  lamTahabove-ar.medi  lamBar-ar.medi  lamDoublebar-ar.medi
         lam-ar.init  lamVabove-ar.init  lamDotabove-ar.init  lamThreedotsabove-ar.init
@@ -412,6 +412,12 @@
 
     <class name='ShaddaMarks'>
         fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar
+    </class>
+
+    <!-- Including graphemejoinercomb allows it to interrupt the ligature formation,
+					otherwise the lookupflag causes it to be ignored. -->
+    <class name="ShaddaLigatureParts">
+        @ShaddaMarks kasratan-ar kasra-ar shadda-ar graphemejoinercomb
     </class>
 
 
@@ -659,6 +665,39 @@
         four-persian.roh.small   six-persian.urdu.small   seven-persian.urdu.small
     </class>
 
+    <!--
+    ==============================
+          For OT unification
+    ==============================
+    -->
+    
+    <class name="cno_latn">asterisk</class>
+    <class name="c_latn">  asterisk</class>
+    
+    <class name="c_loclKIR">  yehHamzaabove-ar</class>
+    <class name="cno_loclKIR">yehHamzaabove-ar</class>
+    
+    <class name="cno_pnum">alef-ar</class>
+    <class name="c_pnum">  alef-ar</class>
+
+    <class name="cno_tnum">alef-ar</class>
+    <class name="c_tnum">  alef-ar</class>
+    
+    <class name="HonLigCall">tab</class>
+    <class name="HonLigSmpl">tab</class>
+    
+    <class name="AlefRareNoLig">     alef-ar.fina</class>
+    <class name="LamAlefRareLig">    lam_alef-ar</class>
+    <class name="LamAlefRareLigFina">lam-alef-ar.fina</class>
+    
+    <class name="AlefNoAllah">alef-ar</class>
+    <class name="AlefAllah">  alef-ar</class>
+    
+    <!--
+    ==============================
+          Collision avoidance
+    ==============================
+    -->
 
     <!-- all the reh-like glyphs - used for collision-avoidance-based kerning in Graphite -->
 

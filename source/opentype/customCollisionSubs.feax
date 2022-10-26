@@ -10,6 +10,12 @@
 # details including an FAQ.
 #**********************************
 
+# Custom shaping needed to handle collisions.
+
+#--- liga feature ---
+
+# Yehbarree substitutions to prevent collisions -- must be after lang-specific CALTs and cv48
+
 lookup YehBarreeToWideAlways {
   lookupflag IgnoreMarks ;
     sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
