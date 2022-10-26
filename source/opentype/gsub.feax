@@ -50,9 +50,9 @@ languagesystem latn dflt ;
 # for feature rtlm:
 #********************
 
-lookup mirror {
+lookup Mirror {
     sub @cno_rtl by @c_rtl;
-} mirror ;
+} Mirror ;
 
 # HB PAUSE
 
@@ -342,8 +342,8 @@ lookup LigaturesForWarsh2 {
 @HamzaBelowFilter = [@UTR53_220MCM @UTR53_220other graphemejoinercomb ] ;
 lookup LigaturesForWarsh3 {
   lookupflag UseMarkFilteringSet @HamzaBelowFilter ;
-    sub alef-ar hamzabelow-ar by alefHamzabelow-ar ;
-    sub alef-ar.fina hamzabelow-ar by alefHamzabelow-ar.fina ;
+    sub alef-ar      hamzabelow-ar  by  alefHamzabelow-ar ;
+    sub alef-ar.fina hamzabelow-ar  by  alefHamzabelow-ar.fina ;
 } LigaturesForWarsh3;
 
 # Ligate alef + kasra or fatha
@@ -360,9 +360,9 @@ lookup LigaturesForWarsh3 {
 @KasraFathaFilter = [ kasra-ar kasra-ar.lowered fatha-ar shadda-ar seenbelow-ar highwaw-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar graphemejoinercomb] ;
 lookup LigaturesForWarsh4 {
   lookupflag UseMarkFilteringSet @KasraFathaFilter ;
-    sub alef-ar kasra-ar         by alef_kasra-ar ;
-    sub alef-ar kasra-ar.lowered by alef_kasra-ar ;
-    sub alef-ar fatha-ar         by alef_fatha-ar ;
+    sub alef-ar kasra-ar          by  alef_kasra-ar ;
+    sub alef-ar kasra-ar.lowered  by  alef_kasra-ar ;
+    sub alef-ar fatha-ar          by  alef_fatha-ar ;
 } LigaturesForWarsh4;
 
 #********
@@ -540,7 +540,7 @@ lookup SadDadAlternate {
 
 lookup MeemAlternate {
   lookupflag IgnoreMarks ;
-    sub @Meem by @Meem.sindhi ;
+    sub @Meem by @Meem.sindhi ;   # MMM replace with c/cno_sindhi classes
 } MeemAlternate;
 
 #********************
@@ -586,12 +586,12 @@ lookup UAlternate {
 } UAlternate;
 
 #********************
-# Maddah Alternate: cv60
+# Madda Alternate: cv60
 
-lookup MaddahAlternate {
+lookup MaddaAlternate {
   lookupflag 0 ;
     sub @Maddah.small by @Maddah ;
-} MaddahAlternate;
+} MaddaAlternate;
 
 
 #********************
@@ -626,22 +626,23 @@ lookup DammatanAlternate {
 #********************
 # Inverted Damma alternates: cv74
 
-lookup UntapeshAlternates {
+lookup DammaInvertedAlternates {
   lookupflag 0 ;
-    sub dammainverted-ar from [dammainverted-ar dammainverted-ar.filled] ;
-} UntapeshAlternates;
+#    sub @DammaInverted     from  [ @DammaInvertedOpen  @DammaInverted ];
+#    sub @DammaInvertedOpen from  [ @DammaInvertedOpen  @DammaInverted ];
+} DammaInvertedAlternates;
 
 #********************
 # DaggerAlef alternates: cv76
 
-lookup DaggerAlef_target {
+lookup _DaggerAlefAlt {
     sub alefabove-ar from [ alefabove-ar.large alefabove-ar ] ;
-} DaggerAlef_target;
+} _DaggerAlefAlt;
 
-lookup DaggerAlefToLarge {
+lookup DaggerAlefAlternates {
   lookupflag 0 ;
-    sub @TakesLargeDaggerAlef alefabove-ar' lookup DaggerAlef_target ;
-} DaggerAlefToLarge;
+    sub @TakesLargeDaggerAlef alefabove-ar' lookup _DaggerAlefAlt ;
+} DaggerAlefAlternates;
 
 #********************
 # Sukun alternates: cv78
@@ -656,7 +657,7 @@ lookup SukunAlternates {
 
 lookup AyahAlternates {
   lookupflag 0 ;
-    sub @Ayah from [ @Ayah.alt  @Ayah.altB ] ;
+    sub @Ayah from [ @AyahCircle  @AyahSquare ] ;
 } AyahAlternates;
 
 #********************
@@ -801,16 +802,7 @@ lookup SignWithDigits {
 #********
 # Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
 
-lookup YehBarreeToWideAlways {
-  lookupflag IgnoreMarks ;
-    sub @YehBarreeContextAlways                            @cno_wide' by @c_wide ;
-} YehBarreeToWideAlways ;
-
-lookup YehBarreeToWideWithMarks {
-  lookupflag UseMarkFilteringSet @MarksBelow;
-    sub @YehBarreeContextMarkBelow @MarksBelow             @cno_wide' by @c_wide ;
-    sub @YehBarreeContextMarkBelow @MarksBelow @MarksBelow @cno_wide' by @c_wide ;
-} YehBarreeToWideWithMarks ;
+include(../../source/opentype/customCollisionSubs.feax);
 
 
 #**********************************
@@ -826,7 +818,7 @@ lookup YehBarreeToWideWithMarks {
 #*********************
 
 feature rtlm {  # Right-to-left mirroring
-    lookup mirror;
+    lookup Mirror;
 } rtlm ;
 
 # HB PAUSE
@@ -838,8 +830,6 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup FontCheck;
         lookup ReorderMaddaVowel1;
         lookup ReorderMaddaVowel2;
-    script latn;  # Latin
-        lookup KasraLow ;
     script arab;  # Arabic
         lookup DecomposeForColor;
       language KUR  ;
@@ -854,6 +844,8 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup KasraLow ;
       language dflt ;
         lookup KasraLow ;
+### script latn;  # Latin
+###     lookup KasraLow ;  # why do we need this for Latin?
 } ccmp ;
 
 # feature locl (not used; see calt)
@@ -1077,7 +1069,7 @@ feature cv60 {  # Character Variant 60
         ParamUILabelNameID { name 3 1 0x0409 "Large"    ; };
     } ;
     # Same for latin & arabic:
-        lookup MaddahAlternate;
+        lookup MaddaAlternate;
 } cv60 ;
 
 feature cv62 {  # Character Variant 62
@@ -1123,7 +1115,7 @@ feature cv74 {  # Character Variant 74
         ParamUILabelNameID { name 3 1 0x0409 "Filled"         ; };
     } ;
     # Same for latin & arabic:
-        lookup UntapeshAlternates;
+        lookup DammaInvertedAlternates;
 } cv74 ;
 
 feature cv76 {  # Character Variant 76
@@ -1133,7 +1125,7 @@ feature cv76 {  # Character Variant 76
         ParamUILabelNameID { name 3 1 0x0409 "Large"            ; };
     } ;
     # Same for latin & arabic:
-        lookup DaggerAlefToLarge;
+        lookup DaggerAlefAlternates;
 } cv76 ;
 
 feature cv78 {  # Character Variant 78
