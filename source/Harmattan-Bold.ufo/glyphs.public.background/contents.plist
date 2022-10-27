@@ -20,6 +20,8 @@
   <string>behD_otless-ar.fina.glif</string>
   <key>bismillah-ar</key>
   <string>bismillah-ar.glif</string>
+  <key>disputedendofayah-ar</key>
+  <string>disputedendofayah-ar.glif</string>
   <key>fehDotless-ar.init</key>
   <string>fehD_otless-ar.init.glif</string>
   <key>hehDoachashmee-ar.init</key>
@@ -56,6 +58,10 @@
   <string>misraC_omma-ar.glif</string>
   <key>numbermark-ar</key>
   <string>numbermark-ar.glif</string>
+  <key>piastremarkabove-ar</key>
+  <string>piastremarkabove-ar.glif</string>
+  <key>poundmarkabove-ar</key>
+  <string>poundmarkabove-ar.glif</string>
   <key>qafDotless-ar</key>
   <string>qafD_otless-ar.glif</string>
   <key>rehLoop-ar</key>

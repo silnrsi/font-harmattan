@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="rehLoop-ar" format="2">
   <outline>
-    <component base="reh-ar" xOffset="328"/>
+    <contour>
+      <point x="349" y="-666" type="curve"/>
+      <point x="711" y="-523"/>
+      <point x="813" y="-258"/>
+      <point x="813" y="27" type="curve" smooth="yes"/>
+      <point x="813" y="151"/>
+      <point x="801" y="278"/>
+      <point x="771" y="401" type="curve"/>
+      <point x="727" y="399"/>
+      <point x="678" y="387"/>
+      <point x="640" y="365" type="curve"/>
+      <point x="662" y="252"/>
+      <point x="673" y="134"/>
+      <point x="673" y="20" type="curve" smooth="yes"/>
+      <point x="673" y="-213"/>
+      <point x="598" y="-427"/>
+      <point x="273" y="-540" type="curve"/>
+      <point x="277" y="-583"/>
+      <point x="302" y="-631"/>
+    </contour>
   </outline>
 </glyph>

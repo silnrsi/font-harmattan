@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="fathaCurly-ar" format="2">
   <outline>
-    <component base="fatha-ar" xOffset="-281"/>
+    <contour>
+      <point x="-163" y="1353" type="curve"/>
+      <point x="-60" y="1362"/>
+      <point x="9" y="1372"/>
+      <point x="203" y="1416" type="curve"/>
+      <point x="210" y="1432"/>
+      <point x="221" y="1465"/>
+      <point x="221" y="1494" type="curve"/>
+      <point x="53" y="1462"/>
+      <point x="-32" y="1452"/>
+      <point x="-150" y="1445" type="curve"/>
+      <point x="-155" y="1431"/>
+      <point x="-163" y="1382"/>
+    </contour>
   </outline>
 </glyph>
