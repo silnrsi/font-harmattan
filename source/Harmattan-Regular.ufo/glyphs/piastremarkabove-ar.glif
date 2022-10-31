@@ -2,7 +2,7 @@
 <glyph name="piastremarkabove-ar" format="2">
   <advance width="980"/>
   <unicode hex="0891"/>
-  <anchor x="0" y="0" name="digitR"/>
+  <anchor x="130" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="544" y="1175" type="curve" smooth="yes"/>

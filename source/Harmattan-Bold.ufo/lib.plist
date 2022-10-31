@@ -26,6 +26,9 @@
     <string>/yehbarree-ar.fina/space/yehbarree-ar.fina.wide/peh-ar.medi/yehbarreeHamzaabove-ar.fina.wide/hehgoal-ar.init/yehbarreeTwoabove-ar.fina.wide/space/yehbarreeThreeabove-ar.fina.wide</string>
     <string>/seenTwodotsverticalabove-ar/seenTwodotsverticalabove-ar.fina/seenTwodotsverticalabove-ar.medi/seenTwodotsverticalabove-ar.init</string>
     <string>/two.medium/disputedendofayah-ar/disputedendofayah-ar.2/disputedendofayah-ar.3</string>
+    <string>/poundmarkabove-ar/space/poundmarkabove-ar.2/space/poundmarkabove-ar.3/space/poundmarkabove-ar.4</string>
+    <string>/piastremarkabove-ar/piastremarkabove-ar.2/piastremarkabove-ar.3/piastremarkabove-ar.4</string>
+    <string>2/disputedendofayah-ar/disputedendofayah-ar.2/disputedendofayah-ar.3</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

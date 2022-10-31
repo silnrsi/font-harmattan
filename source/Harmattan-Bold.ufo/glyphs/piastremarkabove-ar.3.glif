@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="piastremarkabove-ar.3" format="2">
   <advance width="2555"/>
-  <anchor x="48" y="0" name="digitR"/>
+  <anchor x="248" y="0" name="digitR"/>
   <outline>
     <contour>
       <point x="2037" y="1135" type="curve" smooth="yes"/>
