@@ -2,7 +2,7 @@
 <glyph name="disputedendofayah-ar" format="2">
   <advance width="980"/>
   <unicode hex="08E2"/>
-  <anchor x="0" y="0" name="digitR"/>
+  <anchor x="145" y="0" name="digitR"/>
   <outline>
     <component base="five-persian" xScale="0.85" yScale="0.85" xOffset="107" yOffset="1208"/>
   </outline>

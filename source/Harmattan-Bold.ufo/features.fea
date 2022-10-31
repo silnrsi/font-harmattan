@@ -2195,8 +2195,10 @@ markClass tonetwodotsbelow-ar <anchor -5 -264> @_diaB;
 markClass wavyhamzabelow-ar <anchor -5 110> @_diaB;
 
 # AP: digitR
-@digitR = [disputedendofayah-ar disputedendofayah-ar.2 disputedendofayah-ar.3 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 piastremarkabove-ar.2 piastremarkabove-ar.3 piastremarkabove-ar.4 poundmarkabove-ar.2 poundmarkabove-ar.3 poundmarkabove-ar.4 eight-ar.medium eight-persian.medium eight.medium five-ar.medium five-persian.medium five.medium four-ar.medium four-persian.medium four-persian.roh.medium four-persian.urdu.medium four.medium nine-ar.medium nine-persian.medium nine.medium one-ar.medium one-persian.medium one.medium seven-ar.medium seven-persian.medium seven-persian.urdu.medium seven.medium six-ar.medium six-persian.medium six-persian.urdu.medium six.medium three-ar.medium three-persian.medium three.medium two-ar.medium two-persian.medium two.medium zero-ar.medium zero-persian.medium zero.medium eight-ar.small eight-persian.small eight.small five-ar.small five-persian.small five.small four-ar.small four-persian.roh.small four-persian.small four-persian.urdu.small four.small nine-ar.small nine-persian.small nine.small one-ar.small one.small seven-ar.small seven-persian.small seven-persian.urdu.small seven.small six-ar.small six-persian.small six-persian.urdu.small six.small three-ar.small three-persian.small three.small two-ar.small two-persian.small two.small zero-ar.small zero-persian.small endofayah-ar endofayah-ar.2 endofayah-ar.alt.2 endofayah-ar.3 endofayah-ar.alt endofayah-ar.alt.3 endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altB.3 footnotemarker-ar footnotemarker-ar.2 number-ar number-ar.2 number-ar.3 one-persian.small pagenumber-ar pagenumber-ar.3 pagenumber-ar.4 piastremarkabove-ar poundmarkabove-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 pagenumber-ar.2 samvat-ar year-ar year-ar.2 year-ar.3 year-ar.4 zero.small];
-# baseClass [disputedendofayah-ar disputedendofayah-ar.2 disputedendofayah-ar.3 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 piastremarkabove-ar.2 piastremarkabove-ar.3 piastremarkabove-ar.4 poundmarkabove-ar.2 poundmarkabove-ar.3 poundmarkabove-ar.4] <anchor 48 0> @digitR;
+@digitR = [disputedendofayah-ar disputedendofayah-ar.2 disputedendofayah-ar.3 eight-ar.medium eight-persian.medium eight.medium five-ar.medium five-persian.medium five.medium four-ar.medium four-persian.medium four-persian.roh.medium four-persian.urdu.medium four.medium nine-ar.medium nine-persian.medium nine.medium one-ar.medium one-persian.medium one.medium seven-ar.medium seven-persian.medium seven-persian.urdu.medium seven.medium six-ar.medium six-persian.medium six-persian.urdu.medium six.medium three-ar.medium three-persian.medium three.medium two-ar.medium two-persian.medium two.medium zero-ar.medium zero-persian.medium zero.medium eight-ar.small eight-persian.small eight.small five-ar.small five-persian.small five.small four-ar.small four-persian.roh.small four-persian.small four-persian.urdu.small four.small nine-ar.small nine-persian.small nine.small one-ar.small one.small seven-ar.small seven-persian.small seven-persian.urdu.small seven.small six-ar.small six-persian.small six-persian.urdu.small six.small three-ar.small three-persian.small three.small two-ar.small two-persian.small two.small zero-ar.small zero-persian.small endofayah-ar endofayah-ar.2 endofayah-ar.alt.2 endofayah-ar.3 endofayah-ar.alt endofayah-ar.alt.3 endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altB.3 footnotemarker-ar footnotemarker-ar.2 number-ar number-ar.2 number-ar.3 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 piastremarkabove-ar.2 piastremarkabove-ar.3 piastremarkabove-ar.4 poundmarkabove-ar.2 poundmarkabove-ar.3 poundmarkabove-ar.4 one-persian.small pagenumber-ar pagenumber-ar.3 pagenumber-ar.4 piastremarkabove-ar poundmarkabove-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 pagenumber-ar.2 samvat-ar year-ar year-ar.2 year-ar.3 year-ar.4 zero.small];
+# baseClass disputedendofayah-ar <anchor 165 0> @digitR;
+# baseClass disputedendofayah-ar.2 <anchor 160 0> @digitR;
+# baseClass disputedendofayah-ar.3 <anchor 152 0> @digitR;
 # baseClass [eight-ar.medium eight-persian.medium eight.medium five-ar.medium five-persian.medium five.medium four-ar.medium four-persian.medium four-persian.roh.medium four-persian.urdu.medium four.medium nine-ar.medium nine-persian.medium nine.medium one-ar.medium one-persian.medium one.medium seven-ar.medium seven-persian.medium seven-persian.urdu.medium seven.medium six-ar.medium six-persian.medium six-persian.urdu.medium six.medium three-ar.medium three-persian.medium three.medium two-ar.medium two-persian.medium two.medium zero-ar.medium zero-persian.medium zero.medium] <anchor 750 0> @digitR;
 # baseClass [eight-ar.small eight-persian.small eight.small five-ar.small five-persian.small five.small four-ar.small four-persian.roh.small four-persian.small four-persian.urdu.small four.small nine-ar.small nine-persian.small nine.small one-ar.small one.small seven-ar.small seven-persian.small seven-persian.urdu.small seven.small six-ar.small six-persian.small six-persian.urdu.small six.small three-ar.small three-persian.small three.small two-ar.small two-persian.small two.small zero-ar.small zero-persian.small] <anchor 550 0> @digitR;
 # baseClass endofayah-ar <anchor 633 0> @digitR;
@@ -2210,6 +2212,7 @@ markClass wavyhamzabelow-ar <anchor -5 110> @_diaB;
 # baseClass footnotemarker-ar <anchor 530 0> @digitR;
 # baseClass footnotemarker-ar.2 <anchor 535 0> @digitR;
 # baseClass [number-ar number-ar.2 number-ar.3] <anchor 140 47> @digitR;
+# baseClass [numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 piastremarkabove-ar.2 piastremarkabove-ar.3 piastremarkabove-ar.4 poundmarkabove-ar.2 poundmarkabove-ar.3 poundmarkabove-ar.4] <anchor 48 0> @digitR;
 # baseClass one-persian.small <anchor 544 0> @digitR;
 # baseClass [pagenumber-ar pagenumber-ar.3 pagenumber-ar.4 piastremarkabove-ar poundmarkabove-ar samvat-ar.2 samvat-ar.3 samvat-ar.4] <anchor 180 0> @digitR;
 # baseClass pagenumber-ar.2 <anchor 210 0> @digitR;
@@ -2802,67 +2805,71 @@ lookup WolofCALT {
 
 #********************
 # Warsh Alternates: TypeTuner lookups:
-lookup WarshAlternatesTT1 {
-    lookupflag IgnoreMarks;
-    sub alefHamzaabove-ar by alefHamzaabove-ar.warsh;
-    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh;
-    sub alefHamzabelow-ar by alefHamzabelow-ar.warsh;
-    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh;
-} WarshAlternatesTT1;
+    # end do - Harmattan
+    # HB PAUSE
+    #********************
+    # for all remaining substitution features (salt, cvxx, liga):
+    #********************
+    #********************
+    # Lookups for user-selectable features
+    #********************
+    # Warsh alternates: cv02
+    lookup WarshAlternatesTT1 {
+        lookupflag IgnoreMarks;
+        sub alefHamzaabove-ar by alefHamzaabove-ar.warsh;
+        sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh;
+        sub alefHamzabelow-ar by alefHamzabelow-ar.warsh;
+        sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh;
+    } WarshAlternatesTT1;
 
-lookup WarshAlternatesTT2 {
-    lookupflag IgnoreMarks;
-    sub alefHamzaabove-ar by alefHamzaabove-ar.warsh;
-    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh;
-    sub alefHamzabelow-ar by alefHamzabelow-ar.warsh;
-    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh;
-    sub alef_fatha-ar by alef_fatha-ar.warsh;
-    sub alef_kasra-ar by alef_kasra-ar.warsh;
-} WarshAlternatesTT2;
+    lookup WarshAlternatesTT2 {
+        lookupflag IgnoreMarks;
+        sub alefHamzaabove-ar by alefHamzaabove-ar.warsh;
+        sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh;
+        sub alefHamzabelow-ar by alefHamzabelow-ar.warsh;
+        sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh;
+        sub alef_fatha-ar by alef_fatha-ar.warsh;
+        sub alef_kasra-ar by alef_kasra-ar.warsh;
+    } WarshAlternatesTT2;
 
-# HB PAUSE
-#********************
-# for all remaining substitution features (salt, cvxx, liga):
-#********************
-#********************
-# Lookups for user-selectable features
-#********************
-# Warsh alternates: cv02
-lookup WarshAlternates {
-    lookupflag IgnoreMarks;
+
     # Hamza touching is for cv02=1 or cv02=2 :
-    sub alefHamzaabove-ar from [alefHamzaabove-ar.warsh alefHamzaabove-ar.warsh];
-    sub alefHamzaabove-ar.fina from [alefHamzaabove-ar.fina.warsh alefHamzaabove-ar.fina.warsh];
-    sub alefHamzabelow-ar from [alefHamzabelow-ar.warsh alefHamzabelow-ar.warsh];
-    sub alefHamzabelow-ar.fina from [alefHamzabelow-ar.fina.warsh alefHamzabelow-ar.fina.warsh];
     # fatha and kasra touching isolate alef happens with cv02=2 :
-    sub alef_fatha-ar from [alef_fatha-ar alef_fatha-ar.warsh];
-    sub alef_kasra-ar from [alef_kasra-ar alef_kasra-ar.warsh];
-} WarshAlternates;
+    #********************
+    # Jeem/Hah medial alternate: cv08
+    #********************
+    # Dal alternate: cv12
+    #********************
+    # Sad/Dad "half" form alternate: cv20
+    # end do - Harmattan
+    #********************
+    # Meem alternate: cv44
+    lookup WarshAlternates {
+        lookupflag IgnoreMarks;
+        sub alefHamzaabove-ar from [alefHamzaabove-ar.warsh alefHamzaabove-ar.warsh];
+        sub alefHamzaabove-ar.fina from [alefHamzaabove-ar.fina.warsh alefHamzaabove-ar.fina.warsh];
+        sub alefHamzabelow-ar from [alefHamzabelow-ar.warsh alefHamzabelow-ar.warsh];
+        sub alefHamzabelow-ar.fina from [alefHamzabelow-ar.fina.warsh alefHamzabelow-ar.fina.warsh];
+        sub alef_fatha-ar from [alef_fatha-ar alef_fatha-ar.warsh];
+        sub alef_kasra-ar from [alef_kasra-ar alef_kasra-ar.warsh];
+    } WarshAlternates;
 
-#********************
-# Jeem/Hah medial alternate: cv08
-lookup JeemHahMedAlternate {
-    lookupflag IgnoreMarks;
-    sub @cno_hand by @c_hand;
-} JeemHahMedAlternate;
+    lookup JeemHahMedAlternate {
+        lookupflag IgnoreMarks;
+        sub @cno_hand by @c_hand;
+    } JeemHahMedAlternate;
 
-#********************
-# Dal alternate: cv12
-lookup DalAlternate {
-    lookupflag IgnoreMarks;
-    sub @cno_loclWLF by @c_loclWLF;
-} DalAlternate;
+    lookup DalAlternate {
+        lookupflag IgnoreMarks;
+        sub @cno_loclWLF by @c_loclWLF;
+    } DalAlternate;
 
-#********************
-# Sad/Dad "half" form alternate: cv20
-lookup SadDadAlternate {
-    lookupflag IgnoreMarks;
-    sub @cno_half by @c_half;
-} SadDadAlternate;
+    lookup SadDadAlternate {
+        lookupflag IgnoreMarks;
+        sub @cno_half by @c_half;
+    } SadDadAlternate;
 
-#********************
-# Meem alternate: cv44
+
 lookup MeemAlternate {
     lookupflag IgnoreMarks;
     sub @Meem by @Meem.sindhi;
@@ -3251,17 +3258,21 @@ lookup SignDigits_ToSmall_target {
 lookup SignWithDigits {
     lookupflag IgnoreMarks;
     # Uniscribe or HarfBuzz 'latn'
-    sub [year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_4digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
-    sub [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
-    sub [endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target;
-    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
-    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB] @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_4digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [endofayah-ar endofayah-ar.alt endofayah-ar.altB disputedendofayah-ar]' lookup SignWith_3digits_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target;
+    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB] @DigitsAny' lookup SignDigits_ToMedium_target;
+    sub [disputedendofayah-ar]' lookup SignWith_2digits_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target;
+    sub [disputedendofayah-ar] @DigitsAny' lookup SignDigits_ToSmall_target;
     # HarfBuzz 'arab'
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_4digits_target;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar]' lookup SignWith_3digits_target;
-    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target [endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_3digits_target;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target;
-    sub @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB];
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_4digits_target;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar]' lookup SignWith_3digits_target;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target [endofayah-ar endofayah-ar.alt endofayah-ar.altB disputedendofayah-ar]' lookup SignWith_3digits_target;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB]' lookup SignWith_2digits_target;
+    sub @DigitsAny' lookup SignDigits_ToMedium_target [number-ar year-ar samvat-ar footnotemarker-ar pagenumber-ar numbermark-ar poundmarkabove-ar piastremarkabove-ar endofayah-ar endofayah-ar.alt endofayah-ar.altB];
+    sub @DigitsAny' lookup SignDigits_ToSmall_target @DigitsAny' lookup SignDigits_ToSmall_target [disputedendofayah-ar]' lookup SignWith_2digits_target;
+    sub @DigitsAny' lookup SignDigits_ToSmall_target [disputedendofayah-ar];
 } SignWithDigits;
 
 # Lateef only
