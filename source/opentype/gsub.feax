@@ -144,11 +144,13 @@ lookup LatinPunctuation {
 #********************
 # Kasra position
 
+#  This is the default behavior for Harmattan:
 lookup KasraLow {
   lookupflag 0 ;
     sub @Kasra by @Kasra_lowered;
 } KasraLow;
 
+# Not needed for Harmattan
 lookup KasraHigh {
   lookupflag 0 ;
     sub @Kasra_lowered by @Kasra;
@@ -422,7 +424,7 @@ lookup HamzaLigatures {
 
 # Including graphemejoinercomb allows it to interrupt the ligature formation,
 #   otherwise the lookupflag causes it to be ignored.
-@ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar graphemejoinercomb ] ;
+@ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar alefabove-ar graphemejoinercomb ] ;
 lookup ShaddaLigatures {
   lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
     sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
@@ -430,17 +432,13 @@ lookup ShaddaLigatures {
 } ShaddaLigatures;
 
 
-# This should probably just be included in Harmattan: 
-
-
+# Not needed in Harmattan, but shouldn't hurt, and it simplifies the code to include it.
 
 # In theory we could do this up where we create the Allah ligature, but this simpler:
 lookup ShaddaAlefLigatures {
   lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
-do let f = info("familyName");
-   if f.find("Harmatttan") == -1; {   # not in Harmattan    sub lam-ar.medi.allah2 shadda-ar'    alefabove-ar'  by  shadda_alef-ar;
+    sub lam-ar.medi.allah2 shadda-ar'    alefabove-ar'  by  shadda_alef-ar;
     sub lam-ar.medi.allah2 alefabove-ar' shadda-ar'     by  shadda_alef-ar;
-}    # end do - NOT in Harmattan
 } ShaddaAlefLigatures;
 
 
@@ -1024,10 +1022,13 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup KasraLow ;
       language WLF  ;
         lookup KasraLow ;
+        
+      # The glyph set is defined to make kasra-high the default; here we want low to be default.
       language dflt ;
         lookup KasraLow ;
-### script latn;  # Latin
-###     lookup KasraLow ;  # why do we need this for Latin?
+        
+    script latn;  # Latin
+        lookup KasraLow;  # need for bare diacritics (on white space) in Latin text
 } ccmp ;
 
 # feature locl (not used; see calt)
