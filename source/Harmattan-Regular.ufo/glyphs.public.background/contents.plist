@@ -96,6 +96,8 @@
   <string>yeh-ar.noD_ots.glif</string>
   <key>yeh-ar.noDots.fina</key>
   <string>yeh-ar.noD_ots.fina.glif</string>
+  <key>yehSmall-farsi</key>
+  <string>yehS_mall-farsi.glif</string>
   <key>yehbarree-ar.fina.wide</key>
   <string>yehbarree-ar.fina.wide.glif</string>
 </dict>

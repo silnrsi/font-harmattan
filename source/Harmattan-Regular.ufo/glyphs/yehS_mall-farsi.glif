@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehSmall-farsi" format="2">
+  <advance width="689"/>
+  <anchor x="347" y="316" name="diaA"/>
+  <anchor x="337" y="-215" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="336" y="-193" type="curve" smooth="yes"/>
+      <point x="526" y="-193"/>
+      <point x="632" y="-103"/>
+      <point x="632" y="-11" type="curve" smooth="yes"/>
+      <point x="632" y="121"/>
+      <point x="452" y="50"/>
+      <point x="452" y="123" type="curve" smooth="yes"/>
+      <point x="452" y="171"/>
+      <point x="512" y="233"/>
+      <point x="569" y="233" type="curve" smooth="yes"/>
+      <point x="584" y="233"/>
+      <point x="599" y="230"/>
+      <point x="614" y="223" type="curve"/>
+      <point x="631" y="239"/>
+      <point x="642" y="261"/>
+      <point x="644" y="283" type="curve"/>
+      <point x="623" y="297"/>
+      <point x="604" y="302"/>
+      <point x="580" y="302" type="curve" smooth="yes"/>
+      <point x="486" y="302"/>
+      <point x="359" y="214"/>
+      <point x="359" y="116" type="curve" smooth="yes"/>
+      <point x="359" y="-26"/>
+      <point x="534" y="38"/>
+      <point x="534" y="-20" type="curve" smooth="yes"/>
+      <point x="534" y="-55"/>
+      <point x="496" y="-107"/>
+      <point x="347" y="-107" type="curve" smooth="yes"/>
+      <point x="192" y="-107"/>
+      <point x="131" y="-56"/>
+      <point x="131" y="32" type="curve" smooth="yes"/>
+      <point x="131" y="86"/>
+      <point x="146" y="131"/>
+      <point x="204" y="190" type="curve"/>
+      <point x="196" y="203"/>
+      <point x="185" y="223"/>
+      <point x="171" y="225" type="curve"/>
+      <point x="83" y="161"/>
+      <point x="45" y="84"/>
+      <point x="45" y="14" type="curve" smooth="yes"/>
+      <point x="45" y="-98"/>
+      <point x="141" y="-193"/>
+    </contour>
+  </outline>
+</glyph>

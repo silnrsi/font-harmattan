@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kashidaHamza-ar" format="2">
+  <advance width="763"/>
+  <unicode hex="0883"/>
+  <anchor x="335" y="529" name="diaA"/>
+  <anchor x="382" y="-330" name="diaB"/>
+  <outline>
+    <component base="hamza-ar" xOffset="-22" yOffset="-242"/>
+    <contour>
+      <point x="-20" y="-10" type="line"/>
+      <point x="743" y="-10" type="line"/>
+      <point x="743" y="125" type="line"/>
+      <point x="-20" y="125" type="line"/>
+    </contour>
+  </outline>
+</glyph>

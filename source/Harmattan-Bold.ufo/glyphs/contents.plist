@@ -972,6 +972,8 @@
   <string>endofayah-ar.altB_.2.glif</string>
   <key>endofayah-ar.altB.3</key>
   <string>endofayah-ar.altB_.3.glif</string>
+  <key>endoftext-ar</key>
+  <string>endoftext-ar.glif</string>
   <key>enquad</key>
   <string>enquad.glif</string>
   <key>enspace</key>
@@ -1598,6 +1600,12 @@
   <string>kafswash-ar.medi.glif</string>
   <key>kashida-ar</key>
   <string>kashida-ar.glif</string>
+  <key>kashidaHamza-ar</key>
+  <string>kashidaH_amza-ar.glif</string>
+  <key>kashidaTwobelow-ar</key>
+  <string>kashidaT_wobelow-ar.glif</string>
+  <key>kashidaWaw-ar</key>
+  <string>kashidaW_aw-ar.glif</string>
   <key>kasra-ar</key>
   <string>kasra-ar.glif</string>
   <key>kasra-ar.lowered</key>
@@ -2524,6 +2532,10 @@
   <string>radical.glif</string>
   <key>radical.rtl</key>
   <string>radical.rtl.glif</string>
+  <key>raiseddotbaseline-ar</key>
+  <string>raiseddotbaseline-ar.glif</string>
+  <key>raiseddotraised-ar</key>
+  <string>raiseddotraised-ar.glif</string>
   <key>ray-ar</key>
   <string>ray-ar.glif</string>
   <key>registered</key>
@@ -3300,6 +3312,8 @@
   <string>yehR_ohingya-ar.fina.glif</string>
   <key>yehSmall-ar</key>
   <string>yehS_mall-ar.glif</string>
+  <key>yehSmall-farsi</key>
+  <string>yehS_mall-farsi.glif</string>
   <key>yehTail-ar</key>
   <string>yehT_ail-ar.glif</string>
   <key>yehTail-ar.fina</key>
