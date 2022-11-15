@@ -2,6 +2,7 @@
 <?xml-stylesheet href="../tools/lib/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
     <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
@@ -24,6 +25,9 @@
       <style lang="ku" name="ku"/>
       <style feats="'cv80' 1" lang="ku" name="ku_cv80_1"/>
       <style feats="'cv80' 2" lang="ku" name="ku_cv80_2"/>
+      <style lang="ky" name="ky"/>
+      <style feats="'cv80' 1" lang="ky" name="ky_cv80_1"/>
+      <style feats="'cv80' 2" lang="ky" name="ky_cv80_2"/>
       <style lang="rhg" name="rhg"/>
       <style feats="'cv80' 1" lang="rhg" name="rhg_cv80_1"/>
       <style feats="'cv80' 2" lang="rhg" name="rhg_cv80_2"/>
@@ -78,6 +82,10 @@
       <comment>piastremarkabove-ar</comment>
       <string>\u000628\u000891\u000645 \u0008912 \u00089122 \u000891222 \u0008912222 \u00089112</string>
     </test>
+    <test label="U+08E2 latn">
+      <comment>disputedendofayah-ar</comment>
+      <string>\u000628\u0008E2\u000645 \u0008E22 \u0008E222 \u0008E2222 \u0008E212</string>
+    </test>
     <test label="U+06DD latn">
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
@@ -89,10 +97,6 @@
     <test label="U+06DD latn" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD2 \u0006DD22 \u0006DD222 \u0006DD12</string>
-    </test>
-    <test label="U+08E2 latn">
-      <comment>disputedendofayah-ar</comment>
-      <string>\u000628\u0008E2\u000645 \u0008E22 \u0008E222 \u0008E2222 \u0008E212</string>
     </test>
     <test label="U+0600 arab">
       <comment>number-ar</comment>
@@ -118,13 +122,17 @@
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u000605\u000668 \u000605\u000668\u000668 \u000605\u000668\u000668\u000668 \u000605\u000668\u000668\u000668\u000668 \u000605\u000661\u000662</string>
     </test>
-    <test background="#f0fff0" label="U+0890 arab">
+    <test label="U+0890 arab">
       <comment>poundmarkabove-ar</comment>
       <string>\u000628\u000890\u000645 \u000890\u000668 \u000890\u000668\u000668 \u000890\u000668\u000668\u000668 \u000890\u000668\u000668\u000668\u000668 \u000890\u000661\u000662</string>
     </test>
-    <test background="#f0fff0" label="U+0891 arab">
+    <test label="U+0891 arab">
       <comment>piastremarkabove-ar</comment>
       <string>\u000628\u000891\u000645 \u000891\u000668 \u000891\u000668\u000668 \u000891\u000668\u000668\u000668 \u000891\u000668\u000668\u000668\u000668 \u000891\u000661\u000662</string>
+    </test>
+    <test label="U+08E2 arab">
+      <comment>disputedendofayah-ar</comment>
+      <string>\u000628\u0008E2\u000645 \u0008E2\u000668 \u0008E2\u000668\u000668 \u0008E2\u000668\u000668\u000668 \u0008E2\u000661\u000662</string>
     </test>
     <test label="U+06DD arab">
       <comment>endofayah-ar</comment>
@@ -137,10 +145,6 @@
     <test label="U+06DD arab" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD\u000668 \u0006DD\u000668\u000668 \u0006DD\u000668\u000668\u000668 \u0006DD\u000661\u000662</string>
-    </test>
-    <test label="U+08E2 arab">
-      <comment>disputedendofayah-ar</comment>
-      <string>\u000628\u0008E2\u000645 \u0008E2\u000668 \u0008E2\u000668\u000668 \u0008E2\u000668\u000668\u000668 \u0008E2\u000661\u000662</string>
     </test>
     <test label="U+0600 urdu">
       <comment>number-ar</comment>
@@ -166,13 +170,17 @@
       <comment>numbermark-ar</comment>
       <string>\u000628\u000605\u000645 \u000605\u0006F8 \u000605\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8 \u000605\u0006F8\u0006F8\u0006F8\u0006F8 \u000605\u0006F1\u0006F2</string>
     </test>
-    <test background="#f0fff0" label="U+0890 urdu">
+    <test label="U+0890 urdu">
       <comment>poundmarkabove-ar</comment>
-      <string>\u000628\u000890\u000645 \u000890\u000668 \u000890\u000668\u000668 \u000890\u000668\u000668\u000668 \u000890\u000668\u000668\u000668\u000668 \u000890\u000661\u000662</string>
+      <string>\u000628\u000890\u000645 \u000890\u0006F8 \u000890\u0006F8\u0006F8 \u000890\u0006F8\u0006F8\u0006F8 \u000890\u0006F8\u0006F8\u0006F8\u0006F8 \u000890\u0006F1\u0006F2</string>
     </test>
-    <test background="#f0fff0" label="U+0891 urdu">
+    <test label="U+0891 urdu">
       <comment>piastremarkabove-ar</comment>
-      <string>\u000628\u000891\u000645 \u000891\u000668 \u000891\u000668\u000668 \u000891\u000668\u000668\u000668 \u000891\u000668\u000668\u000668\u000668 \u000891\u000661\u000662</string>
+      <string>\u000628\u000891\u000645 \u000891\u0006F8 \u000891\u0006F8\u0006F8 \u000891\u0006F8\u0006F8\u0006F8 \u000891\u0006F8\u0006F8\u0006F8\u0006F8 \u000891\u0006F1\u0006F2</string>
+    </test>
+    <test label="U+08E2 urdu">
+      <comment>disputedendofayah-ar</comment>
+      <string>\u000628\u0008E2\u000645 \u0008E2\u0006F8 \u0008E2\u0006F8\u0006F8 \u0008E2\u0006F8\u0006F8\u0006F8 \u0008E2\u0006F1\u0006F2</string>
     </test>
     <test label="U+06DD urdu">
       <comment>endofayah-ar</comment>
@@ -185,10 +193,6 @@
     <test label="U+06DD urdu" stylename="cv80_2">
       <comment>endofayah-ar</comment>
       <string>\u000628\u0006DD\u000645 \u0006DD\u0006F8 \u0006DD\u0006F8\u0006F8 \u0006DD\u0006F8\u0006F8\u0006F8 \u0006DD\u0006F1\u0006F2</string>
-    </test>
-    <test label="U+08E2 urdu">
-      <comment>disputedendofayah-ar</comment>
-      <string>\u000628\u0008E2\u000645 \u0008E2\u000668 \u0008E2\u000668\u000668 \u0008E2\u000668\u000668\u000668 \u0008E2\u000661\u000662</string>
     </test>
     <test label="U+06DD urdu">
       <comment>4 6 7</comment>
@@ -298,6 +302,18 @@
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
     </test>
+    <test label="U+06DD urdu" stylename="ky">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ky_cv80_1">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="U+06DD urdu" stylename="ky_cv80_2">
+      <comment>4 6 7</comment>
+      <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
     <test label="U+06DD urdu" stylename="wo">
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
@@ -309,6 +325,9 @@
     <test label="U+06DD urdu" stylename="wo_cv80_2">
       <comment>4 6 7</comment>
       <string>\u0006DD\u0006F4\u0006F6\u0006F7</string>
+    </test>
+    <test label="Vert alignment" rtl="True">
+      <string>\u0006002 \u0640 \u0006012 \u0640 \u0006022 \u0640 \u0006032 \u0640 \u0006042 \u0640 \u0006052 \u0640 \u0006DD2</string>
     </test>
   </testgroup>
 </ftml>

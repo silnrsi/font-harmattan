@@ -2,6 +2,7 @@
 <?xml-stylesheet href="../tools/lib/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
     <fontsrc label="Reg ref">url(../references/Harmattan-Regular-v1.ttf)</fontsrc>
     <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
@@ -19,9 +20,11 @@
       <style feats="'cv48' 3" name="cv48_3"/>
       <style feats="'cv50' 1" name="cv50_1"/>
       <style feats="'cv51' 1" name="cv51_1"/>
+      <style feats="'cv54' 1" name="cv54_1"/>
       <style feats="'cv60' 1" name="cv60_1"/>
       <style feats="'cv84' 1" name="cv84_1"/>
       <style lang="ku" name="ku"/>
+      <style lang="ky" name="ky"/>
       <style lang="rhg" name="rhg"/>
       <style lang="sd" name="sd"/>
       <style lang="ur" name="ur"/>
@@ -132,79 +135,79 @@
       <comment>alefThreeabove-ar</comment>
       <string>\u000774 \u00200D\u000774 </string>
     </test>
-    <test label="U+0870">
+    <test background="#ffe0e0" label="U+0870">
       <comment>alefFathaattached-ar</comment>
       <string>\u000870 \u00200D\u000870 </string>
     </test>
-    <test label="U+0871">
+    <test background="#ffe0e0" label="U+0871">
       <comment>alefToprightfathaattached-ar</comment>
       <string>\u000871 \u00200D\u000871 </string>
     </test>
-    <test label="U+0872">
+    <test background="#ffe0e0" label="U+0872">
       <comment>alefRightmiddlestroke-ar</comment>
       <string>\u000872 \u00200D\u000872 </string>
     </test>
-    <test label="U+0873">
+    <test background="#ffe0e0" label="U+0873">
       <comment>alefLeftmiddlestroke-ar</comment>
       <string>\u000873 \u00200D\u000873 </string>
     </test>
-    <test label="U+0874">
+    <test background="#ffe0e0" label="U+0874">
       <comment>alefKasraattached-ar</comment>
       <string>\u000874 \u00200D\u000874 </string>
     </test>
-    <test label="U+0875">
+    <test background="#ffe0e0" label="U+0875">
       <comment>alefBottomrightkasraattached-ar</comment>
       <string>\u000875 \u00200D\u000875 </string>
     </test>
-    <test label="U+0876">
+    <test background="#ffe0e0" label="U+0876">
       <comment>alefRounddotaboveattached-ar</comment>
       <string>\u000876 \u00200D\u000876 </string>
     </test>
-    <test label="U+0877">
+    <test background="#ffe0e0" label="U+0877">
       <comment>alefRightrounddotattached-ar</comment>
       <string>\u000877 \u00200D\u000877 </string>
     </test>
-    <test label="U+0878">
+    <test background="#ffe0e0" label="U+0878">
       <comment>alefLeftrounddotattached-ar</comment>
       <string>\u000878 \u00200D\u000878 </string>
     </test>
-    <test label="U+0879">
+    <test background="#ffe0e0" label="U+0879">
       <comment>alefRounddotbelowattached-ar</comment>
       <string>\u000879 \u00200D\u000879 </string>
     </test>
-    <test label="U+087A">
+    <test background="#ffe0e0" label="U+087A">
       <comment>alefDotabove-ar</comment>
       <string>\u00087A \u00200D\u00087A </string>
     </test>
-    <test label="U+087B">
+    <test background="#ffe0e0" label="U+087B">
       <comment>alefToprightfathaattachedDotabove-ar</comment>
       <string>\u00087B \u00200D\u00087B </string>
     </test>
-    <test label="U+087C">
+    <test background="#ffe0e0" label="U+087C">
       <comment>alefRightmiddlestrokeDotabove-ar</comment>
       <string>\u00087C \u00200D\u00087C </string>
     </test>
-    <test label="U+087D">
+    <test background="#ffe0e0" label="U+087D">
       <comment>alefBottomrightkasraattachedDotabove-ar</comment>
       <string>\u00087D \u00200D\u00087D </string>
     </test>
-    <test label="U+087E">
+    <test background="#ffe0e0" label="U+087E">
       <comment>alefToprightfathaattachedLeftring-ar</comment>
       <string>\u00087E \u00200D\u00087E </string>
     </test>
-    <test label="U+087F">
+    <test background="#ffe0e0" label="U+087F">
       <comment>alefRightmiddlestrokeLeftring-ar</comment>
       <string>\u00087F \u00200D\u00087F </string>
     </test>
-    <test label="U+0880">
+    <test background="#ffe0e0" label="U+0880">
       <comment>alefBottomrightkasraattachedLeftring-ar</comment>
       <string>\u000880 \u00200D\u000880 </string>
     </test>
-    <test label="U+0881">
+    <test background="#ffe0e0" label="U+0881">
       <comment>alefRighthamzaattached-ar</comment>
       <string>\u000881 \u00200D\u000881 </string>
     </test>
-    <test label="U+0882">
+    <test background="#ffe0e0" label="U+0882">
       <comment>alefLefthamzaattached-ar</comment>
       <string>\u000882 \u00200D\u000882 </string>
     </test>
@@ -324,6 +327,34 @@
       <comment>yehHamzaabove-ar</comment>
       <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
     </test>
+    <test label="U+0626" stylename="cv54_1">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="sd">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="ur">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="ku">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="rhg">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="ky">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
+    <test label="U+0626" stylename="wo">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u000626 \u000626\u00200D \u00200D\u000626\u00200D \u00200D\u000626 \u000626\u000626\u000626 </string>
+    </test>
     <test label="U+063D">
       <comment>yehVinverted-farsi</comment>
       <string>\u00063D \u00063D\u00200D \u00200D\u00063D\u00200D \u00200D\u00063D \u00063D\u00063D\u00063D </string>
@@ -420,7 +451,7 @@
       <comment>noonVabove-ar</comment>
       <string>\u000769 \u000769\u00200D \u00200D\u000769\u00200D \u00200D\u000769 \u000769\u000769\u000769 </string>
     </test>
-    <test label="U+0889">
+    <test background="#ffe0e0" label="U+0889">
       <comment>noonVinvertedabove-ar</comment>
       <string>\u000889 \u000889\u00200D \u00200D\u000889\u00200D \u00200D\u000889 \u000889\u000889\u000889 </string>
     </test>
@@ -572,6 +603,10 @@
       <comment>dal-ar</comment>
       <string>\u00062F \u00200D\u00062F </string>
     </test>
+    <test label="U+062F" stylename="ky">
+      <comment>dal-ar</comment>
+      <string>\u00062F \u00200D\u00062F </string>
+    </test>
     <test label="U+062F" stylename="wo">
       <comment>dal-ar</comment>
       <string>\u00062F \u00200D\u00062F </string>
@@ -597,6 +632,10 @@
       <string>\u000630 \u00200D\u000630 </string>
     </test>
     <test label="U+0630" stylename="rhg">
+      <comment>thal-ar</comment>
+      <string>\u000630 \u00200D\u000630 </string>
+    </test>
+    <test label="U+0630" stylename="ky">
       <comment>thal-ar</comment>
       <string>\u000630 \u00200D\u000630 </string>
     </test>
@@ -628,6 +667,10 @@
       <comment>ddal-ar</comment>
       <string>\u000688 \u00200D\u000688 </string>
     </test>
+    <test label="U+0688" stylename="ky">
+      <comment>ddal-ar</comment>
+      <string>\u000688 \u00200D\u000688 </string>
+    </test>
     <test label="U+0688" stylename="wo">
       <comment>ddal-ar</comment>
       <string>\u000688 \u00200D\u000688 </string>
@@ -653,6 +696,10 @@
       <string>\u000689 \u00200D\u000689 </string>
     </test>
     <test label="U+0689" stylename="rhg">
+      <comment>dalRing-ar</comment>
+      <string>\u000689 \u00200D\u000689 </string>
+    </test>
+    <test label="U+0689" stylename="ky">
       <comment>dalRing-ar</comment>
       <string>\u000689 \u00200D\u000689 </string>
     </test>
@@ -684,6 +731,10 @@
       <comment>dalDotbelow-ar</comment>
       <string>\u00068A \u00200D\u00068A </string>
     </test>
+    <test label="U+068A" stylename="ky">
+      <comment>dalDotbelow-ar</comment>
+      <string>\u00068A \u00200D\u00068A </string>
+    </test>
     <test label="U+068A" stylename="wo">
       <comment>dalDotbelow-ar</comment>
       <string>\u00068A \u00200D\u00068A </string>
@@ -709,6 +760,10 @@
       <string>\u00068B \u00200D\u00068B </string>
     </test>
     <test label="U+068B" stylename="rhg">
+      <comment>dalDotbelowTah-ar</comment>
+      <string>\u00068B \u00200D\u00068B </string>
+    </test>
+    <test label="U+068B" stylename="ky">
       <comment>dalDotbelowTah-ar</comment>
       <string>\u00068B \u00200D\u00068B </string>
     </test>
@@ -740,6 +795,10 @@
       <comment>dahal-ar</comment>
       <string>\u00068C \u00200D\u00068C </string>
     </test>
+    <test label="U+068C" stylename="ky">
+      <comment>dahal-ar</comment>
+      <string>\u00068C \u00200D\u00068C </string>
+    </test>
     <test label="U+068C" stylename="wo">
       <comment>dahal-ar</comment>
       <string>\u00068C \u00200D\u00068C </string>
@@ -765,6 +824,10 @@
       <string>\u00068D \u00200D\u00068D </string>
     </test>
     <test label="U+068D" stylename="rhg">
+      <comment>ddahal-ar</comment>
+      <string>\u00068D \u00200D\u00068D </string>
+    </test>
+    <test label="U+068D" stylename="ky">
       <comment>ddahal-ar</comment>
       <string>\u00068D \u00200D\u00068D </string>
     </test>
@@ -796,6 +859,10 @@
       <comment>dul-ar</comment>
       <string>\u00068E \u00200D\u00068E </string>
     </test>
+    <test label="U+068E" stylename="ky">
+      <comment>dul-ar</comment>
+      <string>\u00068E \u00200D\u00068E </string>
+    </test>
     <test label="U+068E" stylename="wo">
       <comment>dul-ar</comment>
       <string>\u00068E \u00200D\u00068E </string>
@@ -821,6 +888,10 @@
       <string>\u00068F \u00200D\u00068F </string>
     </test>
     <test label="U+068F" stylename="rhg">
+      <comment>dalThreedotsdown-ar</comment>
+      <string>\u00068F \u00200D\u00068F </string>
+    </test>
+    <test label="U+068F" stylename="ky">
       <comment>dalThreedotsdown-ar</comment>
       <string>\u00068F \u00200D\u00068F </string>
     </test>
@@ -852,6 +923,10 @@
       <comment>dalFourdots-ar</comment>
       <string>\u000690 \u00200D\u000690 </string>
     </test>
+    <test label="U+0690" stylename="ky">
+      <comment>dalFourdots-ar</comment>
+      <string>\u000690 \u00200D\u000690 </string>
+    </test>
     <test label="U+0690" stylename="wo">
       <comment>dalFourdots-ar</comment>
       <string>\u000690 \u00200D\u000690 </string>
@@ -877,6 +952,10 @@
       <string>\u0006EE \u00200D\u0006EE </string>
     </test>
     <test label="U+06EE" stylename="rhg">
+      <comment>dalVinvertedabove-ar</comment>
+      <string>\u0006EE \u00200D\u0006EE </string>
+    </test>
+    <test label="U+06EE" stylename="ky">
       <comment>dalVinvertedabove-ar</comment>
       <string>\u0006EE \u00200D\u0006EE </string>
     </test>
@@ -908,6 +987,10 @@
       <comment>dalTwodotsverticalbelowTah-ar</comment>
       <string>\u000759 \u00200D\u000759 </string>
     </test>
+    <test label="U+0759" stylename="ky">
+      <comment>dalTwodotsverticalbelowTah-ar</comment>
+      <string>\u000759 \u00200D\u000759 </string>
+    </test>
     <test label="U+0759" stylename="wo">
       <comment>dalTwodotsverticalbelowTah-ar</comment>
       <string>\u000759 \u00200D\u000759 </string>
@@ -936,6 +1019,10 @@
       <comment>dalVinvertedbelow-ar</comment>
       <string>\u00075A \u00200D\u00075A </string>
     </test>
+    <test label="U+075A" stylename="ky">
+      <comment>dalVinvertedbelow-ar</comment>
+      <string>\u00075A \u00200D\u00075A </string>
+    </test>
     <test label="U+075A" stylename="wo">
       <comment>dalVinvertedbelow-ar</comment>
       <string>\u00075A \u00200D\u00075A </string>
@@ -961,6 +1048,10 @@
       <string>\u0008AE \u00200D\u0008AE </string>
     </test>
     <test label="U+08AE" stylename="rhg">
+      <comment>dalThreedotsbelow-ar</comment>
+      <string>\u0008AE \u00200D\u0008AE </string>
+    </test>
+    <test label="U+08AE" stylename="ky">
       <comment>dalThreedotsbelow-ar</comment>
       <string>\u0008AE \u00200D\u0008AE </string>
     </test>
@@ -1088,7 +1179,7 @@
       <comment>kehehThreedotsupbelow-ar</comment>
       <string>\u000764 \u000764\u00200D \u00200D\u000764\u00200D \u00200D\u000764 \u000764\u000764\u000764 </string>
     </test>
-    <test label="U+088D">
+    <test background="#ffe0e0" label="U+088D">
       <comment>kehehTwodotsverticalbelow-ar</comment>
       <string>\u00088D \u00088D\u00200D \u00200D\u00088D\u00200D \u00200D\u00088D \u00088D\u00088D\u00088D </string>
     </test>
@@ -1100,7 +1191,7 @@
       <comment>kehehVabove-ar</comment>
       <string>\u0008C2 \u0008C2\u00200D \u00200D\u0008C2\u00200D \u00200D\u0008C2 \u0008C2\u0008C2\u0008C2 </string>
     </test>
-    <test label="U+08C8">
+    <test background="#ffe0e0" label="U+08C8">
       <comment>kehehElongatedhamzaabove-ar</comment>
       <string>\u0008C8 \u0008C8\u00200D \u00200D\u0008C8\u00200D \u00200D\u0008C8 \u0008C8\u0008C8\u0008C8 </string>
     </test>
@@ -1244,11 +1335,11 @@
       <comment>hahFourbelow-ar</comment>
       <string>\u00077C \u00077C\u00200D \u00200D\u00077C\u00200D \u00200D\u00077C \u00077C\u00077C\u00077C </string>
     </test>
-    <test label="U+088A">
+    <test background="#ffe0e0" label="U+088A">
       <comment>hahVinvertedbelow-ar</comment>
       <string>\u00088A \u00088A\u00200D \u00200D\u00088A\u00200D \u00200D\u00088A \u00088A\u00088A\u00088A </string>
     </test>
-    <test label="U+088A" stylename="cv08_1">
+    <test background="#ffe0e0" label="U+088A" stylename="cv08_1">
       <comment>hahVinvertedbelow-ar</comment>
       <string>\u00088A \u00088A\u00200D \u00200D\u00088A\u00200D \u00200D\u00088A \u00088A\u00088A\u00088A </string>
     </test>
@@ -1313,6 +1404,10 @@
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647 </string>
     </test>
     <test label="U+0647" stylename="rhg">
+      <comment>heh-ar</comment>
+      <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647 </string>
+    </test>
+    <test label="U+0647" stylename="ky">
       <comment>heh-ar</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 \u000647\u000647\u000647 </string>
     </test>
@@ -1408,6 +1503,10 @@
       <comment>meem-ar</comment>
       <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
     </test>
+    <test label="U+0645" stylename="ky">
+      <comment>meem-ar</comment>
+      <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
+    </test>
     <test label="U+0645" stylename="wo">
       <comment>meem-ar</comment>
       <string>\u000645 \u000645\u00200D \u00200D\u000645\u00200D \u00200D\u000645 \u000645\u000645\u000645 </string>
@@ -1433,6 +1532,10 @@
       <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
     </test>
     <test label="U+0765" stylename="rhg">
+      <comment>meemDotabove-ar</comment>
+      <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
+    </test>
+    <test label="U+0765" stylename="ky">
       <comment>meemDotabove-ar</comment>
       <string>\u000765 \u000765\u00200D \u00200D\u000765\u00200D \u00200D\u000765 \u000765\u000765\u000765 </string>
     </test>
@@ -1464,6 +1567,10 @@
       <comment>meemDotbelow-ar</comment>
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
     </test>
+    <test label="U+0766" stylename="ky">
+      <comment>meemDotbelow-ar</comment>
+      <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
+    </test>
     <test label="U+0766" stylename="wo">
       <comment>meemDotbelow-ar</comment>
       <string>\u000766 \u000766\u00200D \u00200D\u000766\u00200D \u00200D\u000766 \u000766\u000766\u000766 </string>
@@ -1492,6 +1599,10 @@
       <comment>meemThreedotsabove-ar</comment>
       <string>\u0008A7 \u0008A7\u00200D \u00200D\u0008A7\u00200D \u00200D\u0008A7 \u0008A7\u0008A7\u0008A7 </string>
     </test>
+    <test label="U+08A7" stylename="ky">
+      <comment>meemThreedotsabove-ar</comment>
+      <string>\u0008A7 \u0008A7\u00200D \u00200D\u0008A7\u00200D \u00200D\u0008A7 \u0008A7\u0008A7\u0008A7 </string>
+    </test>
     <test label="U+08A7" stylename="wo">
       <comment>meemThreedotsabove-ar</comment>
       <string>\u0008A7 \u0008A7\u00200D \u00200D\u0008A7\u00200D \u00200D\u0008A7 \u0008A7\u0008A7\u0008A7 </string>
@@ -1516,7 +1627,7 @@
       <comment>qafDotbelow-ar</comment>
       <string>\u0008A5 \u0008A5\u00200D \u00200D\u0008A5\u00200D \u00200D\u0008A5 \u0008A5\u0008A5\u0008A5 </string>
     </test>
-    <test label="U+08B5">
+    <test background="#ffe0e0" label="U+08B5">
       <comment>qafDotbelowNodotsabove-ar</comment>
       <string>\u0008B5 \u0008B5\u00200D \u00200D\u0008B5\u00200D \u00200D\u0008B5 \u0008B5\u0008B5\u0008B5 </string>
     </test>
@@ -1616,11 +1727,11 @@
       <comment>tahThreedots-ar</comment>
       <string>\u00069F \u00069F\u00200D \u00200D\u00069F\u00200D \u00200D\u00069F \u00069F\u00069F\u00069F </string>
     </test>
-    <test label="U+088B">
+    <test background="#ffe0e0" label="U+088B">
       <comment>tahDotbelow-ar</comment>
       <string>\u00088B \u00088B\u00200D \u00200D\u00088B\u00200D \u00200D\u00088B \u00088B\u00088B\u00088B </string>
     </test>
-    <test label="U+088C">
+    <test background="#ffe0e0" label="U+088C">
       <comment>tahThreedotsbelow-ar</comment>
       <string>\u00088C \u00088C\u00200D \u00200D\u00088C\u00200D \u00200D\u00088C \u00088C\u00088C\u00088C </string>
     </test>
@@ -1661,6 +1772,10 @@
       <string>\u000677 \u00200D\u000677 </string>
     </test>
     <test label="U+0677" stylename="rhg">
+      <comment>uHamzaabove-ar</comment>
+      <string>\u000677 \u00200D\u000677 </string>
+    </test>
+    <test label="U+0677" stylename="ky">
       <comment>uHamzaabove-ar</comment>
       <string>\u000677 \u00200D\u000677 </string>
     </test>
@@ -1705,6 +1820,10 @@
       <string>\u0006C7 \u00200D\u0006C7 </string>
     </test>
     <test label="U+06C7" stylename="rhg">
+      <comment>u-ar</comment>
+      <string>\u0006C7 \u00200D\u0006C7 </string>
+    </test>
+    <test label="U+06C7" stylename="ky">
       <comment>u-ar</comment>
       <string>\u0006C7 \u00200D\u0006C7 </string>
     </test>
@@ -1784,6 +1903,10 @@
       <comment>semicolon-ar</comment>
       <string>\u00061B</string>
     </test>
+    <test label="U+061B" stylename="ky">
+      <comment>semicolon-ar</comment>
+      <string>\u00061B</string>
+    </test>
     <test label="U+061B" stylename="wo">
       <comment>semicolon-ar</comment>
       <string>\u00061B</string>
@@ -1824,15 +1947,15 @@
       <comment>kashidaHamza-ar</comment>
       <string>\u000883 \u000884 \u000885</string>
     </test>
-    <test label="U+0886">
+    <test background="#ffe0e0" label="U+0886">
       <comment>yehthin-ar</comment>
       <string>\u000886 \u000886\u00200D \u00200D\u000886\u00200D \u00200D\u000886 \u000886\u000886\u000886 </string>
     </test>
-    <test label="U+0887">
+    <test background="#ffe0e0" label="U+0887">
       <comment>rounddotbaseline-ar</comment>
       <string>\u000887 \u000888</string>
     </test>
-    <test label="U+088E">
+    <test background="#ffe0e0" label="U+088E">
       <comment>verticaltail-ar</comment>
       <string>\u00088E \u00200D\u00088E </string>
     </test>
