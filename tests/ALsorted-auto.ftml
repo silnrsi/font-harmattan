@@ -1913,7 +1913,15 @@
     </test>
     <test label="U+061C">
       <comment>mark-ar</comment>
-      <string>\u00061C \u00061D \u00061E \u00061F</string>
+      <string>\u00061C</string>
+    </test>
+    <test background="#f0fff0" label="U+061D">
+      <comment>endoftext-ar</comment>
+      <string>\u00061D</string>
+    </test>
+    <test label="U+061E">
+      <comment>threedots-ar</comment>
+      <string>\u00061E \u00061F</string>
     </test>
     <test label="U+0621">
       <comment>hamza-ar</comment>
@@ -1943,7 +1951,7 @@
       <comment>sindhiampersand-ar</comment>
       <string>\u0006FD \u0006FE</string>
     </test>
-    <test label="U+0883">
+    <test background="#f0fff0" label="U+0883">
       <comment>kashidaHamza-ar</comment>
       <string>\u000883 \u000884 \u000885</string>
     </test>
@@ -1963,7 +1971,7 @@
       <comment>aleflow-ar</comment>
       <string>\u0008AD</string>
     </test>
-    <test label="U+08C9">
+    <test background="#f0fff0" label="U+08C9">
       <comment>yehSmall-farsi</comment>
       <string>\u0008C9</string>
     </test>
