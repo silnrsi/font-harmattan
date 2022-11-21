@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alayheAssallamcomb-ar" format="2">
   <unicode hex="0611"/>
-  <anchor x="351" y="1355" name="_diaA"/>
-  <anchor x="314" y="1717" name="diaA"/>
+  <anchor x="351" y="1335" name="_diaA"/>
+  <anchor x="314" y="1737" name="diaA"/>
   <outline>
     <contour>
       <point x="59" y="1292" type="curve" smooth="yes"/>
