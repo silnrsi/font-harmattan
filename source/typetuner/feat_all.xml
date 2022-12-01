@@ -38,20 +38,6 @@
 		</value>
 	</feature>
 
-	<feature name="Alef diacritic placement" value="Standard" tag="Al">
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Hamza touching" tag="HzTo">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {WarshAlternatesTT1}"/>
-			<cmd name="gr_feat" args="{gr_cv02} 1"/>
-		</value>
-		<value name="Touching" tag="To">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {WarshAlternatesTT2}"/>
-			<cmd name="gr_feat" args="{gr_cv02} 2"/>
-		</value>
-	</feature>
-
 	<feature name="Jeem/Hah" value="Standard" tag="JeHa">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -109,17 +95,6 @@
 			<cmd name="gr_feat" args="{gr_cv48} 2"/>
 		</value>
 	</feature>
-
-	<feature name="Arabic U" value="Standard" tag="ArabicU">
-		<value name="Standard" tag="Std">
-			<cmd name="null" args="null"/>
-		</value>
-		<value name="Filled" tag="Fi">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv50} 1"/>
-		</value>
-	</feature>
-
 
 	<feature name="Maddah" value="Small" tag="Mda">
 		<value name="Small" tag="Sm">

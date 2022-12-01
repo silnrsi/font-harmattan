@@ -167,7 +167,8 @@ ChangeLog
 #### Removed
 
 - Removed features: 
-    - Arabic U
+    - Alef diacritic placement (cv02)
+    - Arabic U (cv50)
 
 #### Known issues
 - Shaping for these newly added characters may not yet occur in applications

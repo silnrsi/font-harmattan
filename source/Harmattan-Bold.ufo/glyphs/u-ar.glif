@@ -7,6 +7,6 @@
   <anchor x="370" y="-645" name="diaB"/>
   <outline>
     <component base="waw-ar"/>
-    <component base="damma-ar" xOffset="82" yOffset="-740"/>
+    <component base="damma-ar.filled" xOffset="35" yOffset="-700"/>
   </outline>
 </glyph>
