@@ -1341,12 +1341,8 @@
     <string>highhamzaWaw-ar.fina</string>
     <string>uHamzaabove-ar</string>
     <string>uHamzaabove-ar.fina</string>
-    <string>uHamzaabove-ar.filled</string>
-    <string>uHamzaabove-ar.fina.filled</string>
     <string>u-ar</string>
     <string>u-ar.fina</string>
-    <string>u-ar.filled</string>
-    <string>u-ar.fina.filled</string>
     <string>wawring-ar</string>
     <string>wawring-ar.fina</string>
     <string>wawTwodots-ar</string>
@@ -3234,12 +3230,8 @@
     <string>highhamzaWaw-ar.fina</string>
     <string>uHamzaabove-ar</string>
     <string>uHamzaabove-ar.fina</string>
-    <string>uHamzaabove-ar.filled</string>
-    <string>uHamzaabove-ar.fina.filled</string>
     <string>u-ar</string>
     <string>u-ar.fina</string>
-    <string>u-ar.filled</string>
-    <string>u-ar.fina.filled</string>
     <string>wawring-ar</string>
     <string>wawring-ar.fina</string>
     <string>wawTwodots-ar</string>
@@ -6553,20 +6545,12 @@
     <string>uni06F2.small</string>
     <key>u-ar</key>
     <string>uni06C7</string>
-    <key>u-ar.filled</key>
-    <string>uni06C7.filled</string>
     <key>u-ar.fina</key>
     <string>uni06C7.fina</string>
-    <key>u-ar.fina.filled</key>
-    <string>uni06C7.fina.filled</string>
     <key>uHamzaabove-ar</key>
     <string>uni0677</string>
-    <key>uHamzaabove-ar.filled</key>
-    <string>uni0677.filled</string>
     <key>uHamzaabove-ar.fina</key>
     <string>uni0677.fina</string>
-    <key>uHamzaabove-ar.fina.filled</key>
-    <string>uni0677.fina.filled</string>
     <key>vabove-ar</key>
     <string>uni065A</string>
     <key>ve-ar</key>
