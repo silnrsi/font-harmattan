@@ -2532,10 +2532,6 @@
   <string>radical.glif</string>
   <key>radical.rtl</key>
   <string>radical.rtl.glif</string>
-  <key>raiseddotbaseline-ar</key>
-  <string>raiseddotbaseline-ar.glif</string>
-  <key>raiseddotraised-ar</key>
-  <string>raiseddotraised-ar.glif</string>
   <key>ray-ar</key>
   <string>ray-ar.glif</string>
   <key>registered</key>
@@ -2636,6 +2632,10 @@
   <string>rnoon-ar.init.glif</string>
   <key>rnoon-ar.medi</key>
   <string>rnoon-ar.medi.glif</string>
+  <key>rounddotbaseline-ar</key>
+  <string>rounddotbaseline-ar.glif</string>
+  <key>rounddotraised-ar</key>
+  <string>rounddotraised-ar.glif</string>
   <key>rreh-ar</key>
   <string>rreh-ar.glif</string>
   <key>rreh-ar.fina</key>
