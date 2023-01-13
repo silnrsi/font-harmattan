@@ -468,8 +468,8 @@ lookup dfltCALT {
 
 lookup KurdishCALT {
   lookupflag 0 ;
-    sub heh-ar.fina by heh-ar.fina.knottedHigh ;
-    sub heh-ar by heh-ar.knotted ;
+    sub heh-ar.fina by  heh-ar.fina.knottedHigh ;
+    sub heh-ar      by  heh-ar.knotted ;
 } KurdishCALT;
 
 lookup KyrgyzCALT {
@@ -479,15 +479,15 @@ lookup KyrgyzCALT {
 
 lookup RohingyaCALT {
   lookupflag 0 ;
-    sub four-persian by four-persian.roh ;
-    sub six-persian by six-persian.urdu ;
-    sub seven-persian by seven-persian.urdu ;
-    sub @cno_sixNine by @c_sixNine ;
+    sub four-persian  by  four-persian.roh ;
+    sub six-persian   by  six-persian.urdu ;
+    sub seven-persian by  seven-persian.urdu ;
+    sub @cno_sixNine  by  @c_sixNine ;
 } RohingyaCALT  ;
 
 lookup SindhiCALT {
   lookupflag 0 ;
-    sub six-persian by six-persian.urdu ;
+    sub six-persian   by six-persian.urdu ;
     sub seven-persian by seven-persian.urdu ;
     sub @Meem by @Meem.sindhi ;
 # MMM  removed from Lateef - ABS-2469; should these be consistent?
@@ -602,19 +602,23 @@ lookup MeemAlternate {
 #********************
 # Heh Alternates: TypeTuner lookups:
 
-lookup SindhiHeh {
+lookup SindhiHeh {         # TypeTuner only
+  lookupflag IgnoreMarks ;
     sub heh-ar.medi by heh-ar.medi.knottedHigh ;
     sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } SindhiHeh;
 
-lookup UrduHeh {
+lookup UrduHeh {           # TypeTuner only}
+  lookupflag IgnoreMarks ;
     sub heh-ar.init by heh-ar.init.hooked ;
     sub heh-ar.medi by heh-ar.medi.hooked ;
     sub heh-ar.fina by heh-ar.fina.hooked ;
 } UrduHeh;
 
-lookup KurdishHeh {
+lookup KurdishHeh {        # TypeTuner only
+  lookupflag IgnoreMarks ;
+  # Used only by TypeTuner
     sub heh-ar.fina by heh-ar.fina.knottedHigh ;
     sub heh-ar by heh-ar.knotted ;
 } KurdishHeh;
@@ -622,15 +626,15 @@ lookup KurdishHeh {
 # Heh alternates: cv48
 
 lookup HehAlternates {
-  lookupflag IgnoreMarks ;             # 1 = Sindhi-style        2 = Urdu-style     3 = Kurdish-style 
-    sub heh-ar                  from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.init             from   [ heh-ar.init             heh-ar.init.hooked heh-ar.init             ] ;
-    sub heh-ar.medi             from   [ heh-ar.medi.knottedHigh heh-ar.medi.hooked heh-ar.medi             ] ;
-    sub heh-ar.fina             from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
+  lookupflag IgnoreMarks ;
+    #   0=default                       1=Sindhi-style           2=Urdu-style        3=Kurdish-style
+    sub heh-ar                  from  [ heh-ar.knotted           heh-ar              heh-ar.knotted          ] ;
+    sub heh-ar.init             from  [ heh-ar.init              heh-ar.init.hooked  heh-ar.init             ] ;
+    sub heh-ar.medi             from  [ heh-ar.medi.knottedHigh  heh-ar.medi.hooked  heh-ar.medi             ] ;
+    sub heh-ar.fina             from  [ heh-ar.fina.knottedHigh  heh-ar.fina.hooked  heh-ar.fina.knottedHigh ] ;
     # In case Kurdish lang has been selected:
-    sub heh-ar.knotted          from   [ heh-ar.knotted          heh-ar             heh-ar.knotted          ] ;
-    sub heh-ar.fina.knottedHigh from   [ heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh ] ;
-    
+    sub heh-ar.knotted          from  [ heh-ar.knotted           heh-ar              heh-ar.knotted          ] ;
+    sub heh-ar.fina.knottedHigh from  [ heh-ar.fina.knottedHigh  heh-ar.fina.hooked  heh-ar.fina.knottedHigh ] ;
 } HehAlternates;
 
 
@@ -668,10 +672,10 @@ lookup MaddaAlternate {
 #********************
 # Kasra Alternates: cv62
 
-lookup KasraAlternates {
+lookup KasraAlternates {        # cv62
   lookupflag 0 ;
     # NB: This is writen so it doesn't matter which shadda-kasra behavior is default.
-    #   0=default (raised)    1=lowered       2=raised
+    #   0=default             1=lowered       2=raised
     sub @Kasra_lowered from [ @Kasra_lowered  @Kasra ];
     sub @Kasra         from [ @Kasra_lowered  @Kasra ];
 } KasraAlternates;
@@ -682,9 +686,9 @@ lookup KasraAlternates {
 
 lookup DammaAlternates {
   lookupflag 0 ;
-    sub @Damma        from [ @Damma_filled @Damma_short ];
-    sub @Damma_filled from [ @Damma_filled @Damma_short ];
-    sub @Damma_short  from [ @Damma_filled @Damma_short ];
+    sub @Damma        from [ @Damma_filled  @Damma_short ];
+    sub @Damma_filled from [ @Damma_filled  @Damma_short ];
+    sub @Damma_short  from [ @Damma_filled  @Damma_short ];
 } DammaAlternates;
 
 #********************
@@ -792,15 +796,18 @@ lookup DigitRohingya {
 
 # Eastern digit alternates: cv82
 
+# Only used for cv82, not language-specific modifications:
+# We include the Kurdish forms as a place holder for value 3, even though they are not offered as a supported value.
+# They are simply the standard Persian forms.
 lookup DigitAlternates {
   lookupflag 0 ;        #       1 = Sindhi-style      2 = Urdu-style      3 = Kurdish-style  4 = Rohingya-style
-    sub four-persian       from [four-persian         four-persian.urdu    four-persian      four-persian.roh  ];
-    sub four-persian.urdu  from [four-persian         four-persian.urdu    four-persian      four-persian.roh  ];
-    sub four-persian.roh   from [four-persian         four-persian.urdu    four-persian      four-persian.roh  ];
-    sub six-persian        from [six-persian.urdu     six-persian.urdu     six-persian       six-persian.urdu  ];
-    sub six-persian.urdu   from [six-persian.urdu     six-persian.urdu     six-persian       six-persian.urdu  ];
-    sub seven-persian      from [seven-persian.urdu   seven-persian.urdu   seven-persian     seven-persian.urdu];
-    sub seven-persian.urdu from [seven-persian.urdu   seven-persian.urdu   seven-persian     seven-persian.urdu];
+    sub four-persian       from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
+    sub four-persian.urdu  from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
+    sub four-persian.roh   from [four-persian         four-persian.urdu   four-persian       four-persian.roh  ];
+    sub six-persian        from [six-persian.urdu     six-persian.urdu    six-persian        six-persian.urdu  ];
+    sub six-persian.urdu   from [six-persian.urdu     six-persian.urdu    six-persian        six-persian.urdu  ];
+    sub seven-persian      from [seven-persian.urdu   seven-persian.urdu  seven-persian      seven-persian.urdu];
+    sub seven-persian.urdu from [seven-persian.urdu   seven-persian.urdu  seven-persian      seven-persian.urdu];
 } DigitAlternates;
 
 #********************
@@ -868,8 +875,9 @@ lookup AllahAlef {  # clean up: make sure alef is correct form for Allah
 } AllahAlef;
 
 
-#********************
-# Substitutions for subtendng marks
+# Subtending mark digits
+
+# Keep after cv82 (DigitAlternates)
 
 lookup SignWith_4digits_target {
   lookupflag IgnoreMarks ;
@@ -967,18 +975,13 @@ ifinfo(familyName, "Scheherazade New") {
 
 
 #**********************************
-#  Features
+#  GSUB FEATURES
 #**********************************
 
-# as best as I understand, these are arranged in the order MS & HB engines execute:
+# These are intended to be arranged in the order MS & HB engines execute.
 
-#*********************
-#*********************
-# GSUB features     **
-#*********************
-#*********************
 
-feature rtlm {  # Right-to-left mirroring
+feature rtlm {  # Right-To-Left Mirrored Forms
     lookup Mirror;
 } rtlm ;
 
@@ -993,9 +996,11 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup ReorderMaddaVowel2;
     script latn;
         lookup LatinPunctuation;
-    script arab;  # Arabic
+    script arab;
         lookup DecomposeForColor;
-      language KUR  ;
+      # Force other languages to include Arabic script lookups
+      language KIR ;
+      language KUR ;
         # Kurdish uses raised kasra
       language RHG  ;
         lookup KasraLow ;
@@ -1019,40 +1024,43 @@ feature ccmp {  # Glyph Composition/Decomposition
 # HB PAUSE
 
 feature fina {  # Terminal Forms
-    script arab;  # Arabic
-        lookup ltrFina;
+    script arab;
+      	lookup ltrFina;
       # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
+      language KIR ;
+      language KUR ;
+      language RHG ;
+      language SND ;
+      language URD ;
+      language WLF ;
 } fina ;
 
 # HB PAUSE
 
 feature medi {  # Medial Forms
-    script arab;  # Arabic
-        lookup ltrMedi;
+    script arab;
+      	lookup ltrMedi;
       # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
+      language KIR ;
+      language KUR ;
+      language RHG ;
+      language SND ;
+      language URD ;
+      language WLF ;
 } medi ;
 
 # HB PAUSE
 
 feature init {  # Initial Forms
-    script arab;  # Arabic
-        lookup ltrInit;
+    script arab;
+      	lookup ltrInit;
       # Force other languages to include Arabic script lookups
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
+      language KIR ;
+      language KUR ;
+      language RHG ;
+      language SND ;
+      language URD ;
+      language WLF ;
 } init ;
 
 # HB PAUSE
@@ -1093,7 +1101,7 @@ ifinfo(familyName, "Lateef") {
 
 # Sch only:
 do let f = info("familyName");
-   if f.find("Scherherazade") != -1 and opt("nokern") != "yes"; {
+   if f.find("Scheherazade New") != -1 and opt("nokern") != "yes"; {
      # start of kerning substitutions
         lookup ToothKashidasIM;
         lookup ToothKashidasMM;
@@ -1127,7 +1135,7 @@ do let f = info("familyName");
 # HB puts everything else (clig, liga, cvXX, ssXX, salt) in one pass:
 
 feature salt {  # Stylistic Alternates
-    script arab;  # Arabic
+    script arab;
         lookup AyahAlternates;
       # Force other languages to include Arabic script lookups
       language KIR ;  # Kyrgyz
@@ -1138,10 +1146,14 @@ feature salt {  # Stylistic Alternates
       language WLF ;  # Wolof
 } salt ;
 
+#--- Character Variants ---
+
+# Character Variant 02 - Harmattan only
+
 do let f = info("familyName");
    if f.find("Harmattan") != -1; {
    
-feature cv02 {  # Character Variant 02 - Harmattan only
+feature cv02 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Alef diacritic placement" ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
@@ -1177,10 +1189,12 @@ feature cv08 {  # Character Variant 08
 }  # end do - Harmattan
 
 
+# Character Variant 12 - Sch/Har
+
 do let f = info("familyName");
    if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
 
-feature cv12 {  # Character Variant 12 - Sch/Har
+feature cv12 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dal"       ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"  ; };
@@ -1232,12 +1246,12 @@ feature cv44 {  # Character Variant 44
     script arab;
         lookup MeemAlternate;
       # Force other languages to include Arabic script lookups
-      language KIR;  # Kyrgyz
-      language KUR;  # Kurdish
-      language RHG;  # Rohingya
+      language KIR ;
+      language KUR ;
+      language RHG ;
       # language SND; -- but not this one since we enable it in SindhiCALT
-      language URD;  # Urdu
-      language WLF;  # Wolof
+      language URD ;
+      language WLF ;
 } cv44 ;
 
 
@@ -1304,6 +1318,8 @@ feature cv54 {  # Character Variant 54
 }   # end do - Sch or Lateef
 
 
+# Character Variant 60
+
 do let f = info("familyName");
    if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
 
@@ -1319,6 +1335,8 @@ feature cv60 {  # Character Variant 60
 
 }   # end do - Sch or Har
 
+
+# Character Variant 62
 
 feature cv62 {
     cvParameters {
@@ -1344,7 +1362,9 @@ feature cv70 {
 } cv70 ;
 
 
-feature cv72 {  # Character Variant 72
+# Character Variant 72
+
+feature cv72 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Dammatan" ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard" ; };
@@ -1375,6 +1395,8 @@ feature cv74 {
 
 }  # end do - Sch or Harmattan
 
+
+# Character Variant 76
 
 do let f = info("familyName");
 	 if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
