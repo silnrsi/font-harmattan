@@ -6660,20 +6660,20 @@ lookup SubtendingMarks {
         pos @DigitsAnyMedium' <-817 0 -750 0> @DigitsAnyMedium' <-1567 0 -750 0> @DigitsAnyMedium' <-2317 0 -750 0> @DigitsAnyMedium' <-3067 0 -750 0> piastremarkabove-ar.4;
         pos poundmarkabove-ar.4 @DigitsAnyMedium' <-3067 0 -750 0> @DigitsAnyMedium' <-2317 0 -750 0> @DigitsAnyMedium' <-1567 0 -750 0> @DigitsAnyMedium' <-817 0 -750 0>;
         pos @DigitsAnyMedium' <-817 0 -750 0> @DigitsAnyMedium' <-1567 0 -750 0> @DigitsAnyMedium' <-2317 0 -750 0> @DigitsAnyMedium' <-3067 0 -750 0> poundmarkabove-ar.4;
-        pos samvat-ar.4 @DigitsAnyMedium' <-3927 0 -750 0> @DigitsAnyMedium' <-3177 0 -750 0> @DigitsAnyMedium' <-2427 0 -750 0> @DigitsAnyMedium' <-1677 0 -750 0>;
-        pos @DigitsAnyMedium' <-1677 0 -750 0> @DigitsAnyMedium' <-2427 0 -750 0> @DigitsAnyMedium' <-3177 0 -750 0> @DigitsAnyMedium' <-3927 0 -750 0> samvat-ar.4;
+        pos samvat-ar.4 @DigitsAnyMedium' <-4027 0 -750 0> @DigitsAnyMedium' <-3277 0 -750 0> @DigitsAnyMedium' <-2527 0 -750 0> @DigitsAnyMedium' <-1777 0 -750 0>;
+        pos @DigitsAnyMedium' <-1777 0 -750 0> @DigitsAnyMedium' <-2527 0 -750 0> @DigitsAnyMedium' <-3277 0 -750 0> @DigitsAnyMedium' <-4027 0 -750 0> samvat-ar.4;
         pos year-ar.4 @DigitsAnyMedium' <-3165 0 -750 0> @DigitsAnyMedium' <-2415 0 -750 0> @DigitsAnyMedium' <-1665 0 -750 0> @DigitsAnyMedium' <-915 0 -750 0>;
         pos @DigitsAnyMedium' <-915 0 -750 0> @DigitsAnyMedium' <-1665 0 -750 0> @DigitsAnyMedium' <-2415 0 -750 0> @DigitsAnyMedium' <-3165 0 -750 0> year-ar.4;
 
             # Those that take 3 small digits
-        pos number-ar.3 @DigitsAnyMedium' <-2925 47 -750 0> @DigitsAnyMedium' <-2175 47 -750 0> @DigitsAnyMedium' <-1425 47 -750 0>;
-        pos @DigitsAnyMedium' <-1425 47 -750 0> @DigitsAnyMedium' <-2175 47 -750 0> @DigitsAnyMedium' <-2925 47 -750 0> number-ar.3;
+        pos number-ar.3 @DigitsAnyMedium' <-3005 47 -750 0> @DigitsAnyMedium' <-2255 47 -750 0> @DigitsAnyMedium' <-1505 47 -750 0>;
+        pos @DigitsAnyMedium' <-1505 47 -750 0> @DigitsAnyMedium' <-2255 47 -750 0> @DigitsAnyMedium' <-3005 47 -750 0> number-ar.3;
         pos year-ar.3 @DigitsAnyMedium' <-2455 0 -750 0> @DigitsAnyMedium' <-1705 0 -750 0> @DigitsAnyMedium' <-955 0 -750 0>;
         pos @DigitsAnyMedium' <-955 0 -750 0> @DigitsAnyMedium' <-1705 0 -750 0> @DigitsAnyMedium' <-2455 0 -750 0> year-ar.3;
         pos pagenumber-ar.3 @DigitsAnyMedium' <-3372 0 -750 0> @DigitsAnyMedium' <-2622 0 -750 0> @DigitsAnyMedium' <-1872 0 -750 0>;
         pos @DigitsAnyMedium' <-1872 0 -750 0> @DigitsAnyMedium' <-2622 0 -750 0> @DigitsAnyMedium' <-3372 0 -750 0> pagenumber-ar.3;
-        pos samvat-ar.3 @DigitsAnyMedium' <-3245 0 -750 0> @DigitsAnyMedium' <-2495 0 -750 0> @DigitsAnyMedium' <-1745 0 -750 0>;
-        pos @DigitsAnyMedium' <-1745 0 -750 0> @DigitsAnyMedium' <-2495 0 -750 0> @DigitsAnyMedium' <-3245 0 -750 0> samvat-ar.3;
+        pos samvat-ar.3 @DigitsAnyMedium' <-3345 0 -750 0> @DigitsAnyMedium' <-2595 0 -750 0> @DigitsAnyMedium' <-1845 0 -750 0>;
+        pos @DigitsAnyMedium' <-1845 0 -750 0> @DigitsAnyMedium' <-2595 0 -750 0> @DigitsAnyMedium' <-3345 0 -750 0> samvat-ar.3;
         pos numbermark-ar.3 @DigitsAnyMedium' <-2507 0 -750 0> @DigitsAnyMedium' <-1757 0 -750 0> @DigitsAnyMedium' <-1007 0 -750 0>;
         pos @DigitsAnyMedium' <-1007 0 -750 0> @DigitsAnyMedium' <-1757 0 -750 0> @DigitsAnyMedium' <-2507 0 -750 0> numbermark-ar.3;
         pos poundmarkabove-ar.3 @DigitsAnyMedium' <-2307 0 -750 0> @DigitsAnyMedium' <-1557 0 -750 0> @DigitsAnyMedium' <-807 0 -750 0>;

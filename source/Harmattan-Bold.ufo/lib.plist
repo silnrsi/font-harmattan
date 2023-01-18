@@ -25,7 +25,7 @@
     <string>/_dot1_dot3u</string>
     <string>/yehbarree-ar.fina/space/yehbarree-ar.fina.wide/peh-ar.medi/yehbarreeHamzaabove-ar.fina.wide/hehgoal-ar.init/yehbarreeTwoabove-ar.fina.wide/space/yehbarreeThreeabove-ar.fina.wide</string>
     <string>/kashidaHamza-ar/space/space/space/kashidaWaw-ar/space/kashidaTwobelow-ar/space/waw-ar</string>
-    <string>/samvat-ar/samvat-ar.2/samvat-ar.3/samvat-ar.4</string>
+    <string>/number-ar.3</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
