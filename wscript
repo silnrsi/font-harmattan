@@ -26,8 +26,9 @@ opts = preprocess_args({'opt': '--quick'}, {'opt': '--norename'})
 
 noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
 
-cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx']),
-        cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')]
+cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])
+#        , cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', 'source/${DS:FILENAME_BASE}-octabox.json')
+       ]
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']))
 # Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
@@ -40,12 +41,12 @@ designspace('source/Harmattan-RB.designspace',
     ap = generated + '${DS:FILENAME_BASE}.xml',
     version = VERSION,  # Needed to ensure dev information on version string
 
-    graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
-        master = 'source/graphite/master.gdl',
-        depends = ['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
-        make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
-        params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
-        ),
+#    graphite=gdl(generated + '${DS:FILENAME_BASE}.gdl',
+#        master = 'source/graphite/master.gdl',
+#        depends = ['source/graphite/cp1252.gdl', 'source/graphite/HarFeatures.gdh', 'source/graphite/HarGlyphs.gdh', 'source/graphite/stddef.gdh'],
+#        make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
+#        params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
+#        ),
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/main.feax',
