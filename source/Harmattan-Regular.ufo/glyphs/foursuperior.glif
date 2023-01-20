@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="foursuperior" format="2">
+  <advance width="630"/>
+  <unicode hex="2074"/>
+  <anchor x="315" y="461" name="L"/>
+  <anchor x="315" y="1256" name="U"/>
+  <outline>
+    <component base="four" xScale="0.7" yScale="0.65" yOffset="510"/>
+  </outline>
+</glyph>

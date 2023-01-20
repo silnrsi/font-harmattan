@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="reverseSolidusOperator" format="2">
+  <advance width="750"/>
+  <unicode hex="29F5"/>
+  <outline>
+    <contour>
+      <point x="743" y="-183" type="line"/>
+      <point x="120" y="1200" type="line"/>
+      <point x="8" y="1200" type="line"/>
+      <point x="630" y="-183" type="line"/>
+    </contour>
+  </outline>
+</glyph>

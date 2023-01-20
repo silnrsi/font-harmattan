@@ -876,6 +876,8 @@
   <string>disputedendofayah-ar.3.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
+  <key>divisionslash</key>
+  <string>divisionslash.glif</string>
   <key>dollar</key>
   <string>dollar.glif</string>
   <key>dotStopabove-ar</key>
@@ -1150,6 +1152,8 @@
   <string>four.small.glif</string>
   <key>fourperemspace</key>
   <string>fourperemspace.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
   <key>fourthroot-ar</key>
   <string>fourthroot-ar.glif</string>
   <key>fraction</key>
@@ -2602,6 +2606,8 @@
   <string>rehv-ar.fina.glif</string>
   <key>replacementCharacter</key>
   <string>replacementC_haracter.glif</string>
+  <key>reverseSolidusOperator</key>
+  <string>reverseS_olidusO_perator.glif</string>
   <key>rhombusStopabove-ar</key>
   <string>rhombusS_topabove-ar.glif</string>
   <key>rhombusStopbelow-ar</key>
