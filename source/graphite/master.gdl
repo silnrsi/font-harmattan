@@ -84,12 +84,15 @@ pass(1) {Direction = LEFT_TO_RIGHT}	// Encoding and decomposition
 	cSignTakes3Small cDigitsAny cDigitsAny cDigitsAny  >
 		cSign3Small cDigitsAnySmall cDigitsAnySmall cDigitsAnySmall;
 		
-	cSignTakes2 cDigitsAny cDigitsAny  >
-		cSign2 cDigitsAnyMedium cDigitsAnyMedium;
+	cSignTakes2Medium cDigitsAny cDigitsAny  >
+		cSign2Medium cDigitsAnyMedium cDigitsAnyMedium;
+		
+	cSignTakes2Small cDigitsAny cDigitsAny  >
+		cSign2Small cDigitsAnySmall cDigitsAnySmall;
+		
+	cSignTakes1Medium cDigitsAny  >  cSign1Medium cDigitsAnyMedium;
+	cSignTakes2Small  cDigitsAny  >  cSign1Small  cDigitsAnySmall;
 
-	cSignTakes1 cDigitsAny  >  cSign1  cDigitsAnyMedium;
-	
-	
 endpass; // 1
 
 if (utr53 == on)
