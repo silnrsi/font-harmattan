@@ -4175,6 +4175,19 @@ feature liga {
 # used 2 times
 # used 2 times
 # used 2 times
+#    pos [reh-ar reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehLoop-ar rehLoop-ar.fina]' lookup kernpos_289 @_diaB u-ar.filled;
+#    pos [reh-ar reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehLoop-ar rehLoop-ar.fina]' lookup kernpos_290 @_diaA u-ar.filled;
+#    pos [reh-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehRing-ar rehDotbelow-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_210 @_diaA uHamzaabove-ar.filled;
+#    pos [zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_235 @_diaB uHamzaabove-ar.filled;
+#    pos @kernClass_98' lookup kernpos_205 uHamzaabove-ar.filled;
+#    pos [reh-ar reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehLoop-ar rehLoop-ar.fina]' lookup kernpos_289 u-ar.filled;
+#    pos [zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_235 uHamzaabove-ar.filled;
+#    pos @kernClass_209' lookup kernpos_289 @_diaB u-ar.filled;
+#    pos @kernClass_209' lookup kernpos_290 @_diaA u-ar.filled;
+#    pos @kernClass_136' lookup kernpos_235 @_diaB uHamzaabove-ar.filled;
+#    pos [reh-ar reh-ar.fina zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_210 @_diaA uHamzaabove-ar.filled;
+#    pos @kernClass_209' lookup kernpos_289 u-ar.filled;
+#    pos @kernClass_136' lookup kernpos_235 uHamzaabove-ar.filled;
 # used 614 times
 # used 509 times
 # used 100 times
@@ -4557,6 +4570,22 @@ feature liga {
 # used 2 times
 # used 2 times
 # used 2 times
+#    pos @kernClass_194' lookup kernpos_262 @_diaA u-ar.filled;
+#    pos @kernClass_88' lookup kernpos_88 @_diaB uHamzaabove-ar.filled;
+#    pos @kernClass_91' lookup kernpos_262 @_diaB u-ar.filled;
+#    pos [reh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_341 @_diaA u-ar.filled;
+#    pos [reh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_340 @_diaB u-ar.filled;
+#    pos [zain-ar.fina zainVinvertedabove-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina jeh-ar.fina rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar.fina]' lookup kernpos_177 @_diaB uHamzaabove-ar.filled;
+#    pos @kernClass_88' lookup kernpos_88 uHamzaabove-ar.filled;
+#    pos @kernClass_91' lookup kernpos_262 u-ar.filled;
+#    pos [reh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_340 u-ar.filled;
+#    pos [zain-ar.fina zainVinvertedabove-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina jeh-ar.fina rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar.fina]' lookup kernpos_177 uHamzaabove-ar.filled;
+#    pos @kernClass_210' lookup kernpos_178 @_diaA uHamzaabove-ar.filled;
+#    pos @kernClass_224' lookup kernpos_340 @_diaB u-ar.filled;
+#    pos @kernClass_224' lookup kernpos_341 @_diaA u-ar.filled;
+#    pos @kernClass_210' lookup kernpos_177 @_diaB uHamzaabove-ar.filled;
+#    pos @kernClass_224' lookup kernpos_340 u-ar.filled;
+#    pos @kernClass_210' lookup kernpos_177 uHamzaabove-ar.filled;
 #********************
 # Mark attachment
 lookup MarkToBase {
