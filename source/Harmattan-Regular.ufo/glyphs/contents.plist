@@ -446,6 +446,10 @@
   <string>alef-ar.fina.glif</string>
   <key>alef-ar.fina.allah</key>
   <string>alef-ar.fina.allah.glif</string>
+  <key>alefFathaattached-ar</key>
+  <string>alefF_athaattached-ar.glif</string>
+  <key>alefFathaattached-ar.fina</key>
+  <string>alefF_athaattached-ar.fina.glif</string>
   <key>alefHamzaabove-ar</key>
   <string>alefH_amzaabove-ar.glif</string>
   <key>alefHamzaabove-ar.fina</key>
@@ -462,6 +466,10 @@
   <string>alefH_amzabelow-ar.fina.warsh.glif</string>
   <key>alefHamzabelow-ar.warsh</key>
   <string>alefH_amzabelow-ar.warsh.glif</string>
+  <key>alefKasraattached-ar</key>
+  <string>alefK_asraattached-ar.glif</string>
+  <key>alefKasraattached-ar.fina</key>
+  <string>alefK_asraattached-ar.fina.glif</string>
   <key>alefLamYehabove-ar</key>
   <string>alefL_amY_ehabove-ar.glif</string>
   <key>alefMadda-ar</key>
@@ -502,12 +510,8 @@
   <string>alefW_avyhamzabelow-ar.fina.glif</string>
   <key>alef_fatha-ar</key>
   <string>alef_fatha-ar.glif</string>
-  <key>alef_fatha-ar.warsh</key>
-  <string>alef_fatha-ar.warsh.glif</string>
   <key>alef_kasra-ar</key>
   <string>alef_kasra-ar.glif</string>
-  <key>alef_kasra-ar.warsh</key>
-  <string>alef_kasra-ar.warsh.glif</string>
   <key>alefabove-ar</key>
   <string>alefabove-ar.glif</string>
   <key>alefabove-ar.large</key>
