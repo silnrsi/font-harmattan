@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aththalathaabove-ar" format="2">
+  <unicode hex="08DA"/>
+  <anchor x="7" y="1192" name="_diaA"/>
+  <anchor x="7" y="1953" name="diaA"/>
+  <outline>
+    <component base="alef-ar" xScale="0.5" yScale="0.5" xOffset="611" yOffset="1236"/>
+    <component base="lam-ar.init" xScale="0.5" yScale="0.5" xOffset="392" yOffset="1236"/>
+    <component base="theh-ar.medi" xScale="0.5" yScale="0.5" xOffset="-411" yOffset="1236"/>
+    <component base="lam-ar.medi" xScale="0.5" yScale="0.5" xOffset="-133" yOffset="1236"/>
+    <component base="theh-ar.medi" xScale="0.5" yScale="0.5" xOffset="127" yOffset="1236"/>
+    <component base="hehgoal-ar.fina" xScale="0.5" yScale="0.5" xOffset="-808" yOffset="1236"/>
+    <component base="_dot2h" xScale="0.5" yScale="0.5" xOffset="-630" yOffset="1551"/>
+    <component base="alefabove-ar" xScale="0.5" yScale="0.5" xOffset="-241" yOffset="1335"/>
+  </outline>
+</glyph>

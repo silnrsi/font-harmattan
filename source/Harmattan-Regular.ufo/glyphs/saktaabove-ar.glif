@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="saktaabove-ar" format="2">
+  <unicode hex="08DD"/>
+  <anchor x="0" y="1308" name="_diaA"/>
+  <anchor x="0" y="1914" name="diaA"/>
+  <outline>
+    <component base="seen-ar.init" xScale="0.5" yScale="0.5" xOffset="359" yOffset="1345"/>
+    <component base="keheh-ar.medi" xScale="0.5" yScale="0.5" xOffset="-332" yOffset="1345"/>
+    <component base="teh-ar.medi" xScale="0.5" yScale="0.5" xOffset="-597" yOffset="1345"/>
+    <component base="hehgoal-ar.fina" xScale="0.5" yScale="0.5" xOffset="-972" yOffset="1345"/>
+    <component base="_dot2h" xScale="0.5" yScale="0.5" xOffset="-821" yOffset="1691"/>
+  </outline>
+</glyph>

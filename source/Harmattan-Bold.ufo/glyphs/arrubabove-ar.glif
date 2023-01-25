@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="arrubabove-ar" format="2">
+  <unicode hex="08D4"/>
+  <anchor x="1" y="1142" name="_diaA"/>
+  <anchor x="1" y="2023" name="diaA"/>
+  <outline>
+    <component base="alef-ar" xScale="0.5" yScale="0.5" xOffset="465" yOffset="1490"/>
+    <component base="lam-ar.init" xScale="0.5" yScale="0.5" xOffset="244" yOffset="1490"/>
+    <component base="reh-ar.fina" xScale="0.5" yScale="0.5" xOffset="-109" yOffset="1490"/>
+    <component base="beh-ar.init" xScale="0.5" yScale="0.5" xOffset="-197" yOffset="1490"/>
+    <component base="ain-ar.fina" xScale="0.5" yScale="0.5" xOffset="-662" yOffset="1490"/>
+  </outline>
+</glyph>

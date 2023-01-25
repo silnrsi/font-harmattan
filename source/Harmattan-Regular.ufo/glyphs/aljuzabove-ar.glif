@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aljuzabove-ar" format="2">
+  <unicode hex="0898"/>
+  <anchor x="15" y="1218" name="_diaA"/>
+  <anchor x="15" y="1954" name="diaA"/>
+  <outline>
+    <component base="alef-ar" xScale="0.5" yScale="0.5" xOffset="534" yOffset="1456"/>
+    <component base="lam-ar.init" xScale="0.5" yScale="0.5" xOffset="342" yOffset="1456"/>
+    <component base="jeem-ar.medi" xScale="0.5" yScale="0.5" xOffset="-107" yOffset="1456"/>
+    <component base="zain-ar.fina" xScale="0.5" yScale="0.5" xOffset="-439" yOffset="1456"/>
+    <component base="hamza-ar" xScale="0.5" yScale="0.5" xOffset="-693" yOffset="1456"/>
+  </outline>
+</glyph>
