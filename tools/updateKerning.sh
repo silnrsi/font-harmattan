@@ -41,6 +41,10 @@ smith clean ;
 smith build --quick --norename 
 fi
 
+echo "\nrebuilding source/kerndata.ftml\n"
+
+tools/absgenftml.py -q -t "KernData with Marks (auto)" source/Harmattan-Regular.ufo source/kerndata.ftml  -l source/logs/kerndata.log --norendercheck  --ap "_?dia[AB]$" --xsl ../tools/lib/ftml.xsl --scale 250 -i source/glyph_data.csv -w 75% -s "url(../results/Harmattan-Regular.ttf)|Reg-Gr" -s "url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)|Reg-OT" -s "url(../results/Harmattan-Bold.ttf)|Bld-Gr" -s "url(../results/tests/ftml/fonts/Harmattan-Bold_ot_arab.ttf)|Bld-OT" 
+
 echo "\nrebuilding collision-avoidance-based kerning...\n"
 
 # Use a temp directory
