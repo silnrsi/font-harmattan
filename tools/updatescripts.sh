@@ -22,7 +22,7 @@ do
 	if cmp -s "tools/$f" "../font-arab-tools/bin/$f" ; then
 		echo "$f is up-to-date"
 	else
-		echo "Updating tools/$f"
+		echo "Updating $f"
 		cp "../font-arab-tools/bin/$f" tools/
 		chmod u+x "tools/$f"
 	fi
