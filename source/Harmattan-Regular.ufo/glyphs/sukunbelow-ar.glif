@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="sukunbelow-ar" format="2">
+  <unicode hex="08D0"/>
+  <anchor x="156" y="-882" name="_diaB"/>
+  <anchor x="164" y="-1288" name="diaB"/>
+  <outline>
+    <component base="_ring" xOffset="159" yOffset="-1096"/>
+  </outline>
+</glyph>

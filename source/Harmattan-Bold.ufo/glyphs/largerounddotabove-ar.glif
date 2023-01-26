@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="largerounddotabove-ar" format="2">
+  <unicode hex="08CE"/>
+  <anchor x="0" y="1070" name="_diaA"/>
+  <anchor x="0" y="1408" name="diaA"/>
+  <outline>
+    <component base="dotStopabove-ar" xOffset="-2" yOffset="-182"/>
+  </outline>
+</glyph>
