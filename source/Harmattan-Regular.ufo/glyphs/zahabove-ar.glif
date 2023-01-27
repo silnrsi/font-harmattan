@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="zahabove-ar" format="2">
+  <unicode hex="08CD"/>
+  <anchor x="12" y="1128" name="_diaA"/>
+  <anchor x="13" y="1659" name="diaA"/>
+  <outline>
+    <component base="_tah" yOffset="1300"/>
+    <component base="_dot1" xScale="0.6" yScale="0.6" xOffset="101" yOffset="1567"/>
+  </outline>
+</glyph>

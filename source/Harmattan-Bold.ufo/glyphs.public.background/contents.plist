@@ -16,6 +16,8 @@
   <string>ain-ar.fina.glif</string>
   <key>ain-ar.medi</key>
   <string>ain-ar.medi.glif</string>
+  <key>ainabove-ar</key>
+  <string>ainabove-ar.glif</string>
   <key>behDotless-ar.fina</key>
   <string>behD_otless-ar.fina.glif</string>
   <key>bismillah-ar</key>
@@ -70,6 +72,8 @@
   <string>sad-ar.glif</string>
   <key>sad-ar.medi</key>
   <string>sad-ar.medi.glif</string>
+  <key>sadabove-ar</key>
+  <string>sadabove-ar.glif</string>
   <key>sallallahouAlayheWassallamcomb-ar</key>
   <string>sallallahouA_layheW_assallamcomb-ar.glif</string>
   <key>seen-ar.medi</key>
@@ -96,5 +100,7 @@
   <string>yehbarree-ar.fina.glif</string>
   <key>yehbarree-ar.fina.wide</key>
   <string>yehbarree-ar.fina.wide.glif</string>
+  <key>zahabove-ar</key>
+  <string>zahabove-ar.glif</string>
 </dict>
 </plist>
