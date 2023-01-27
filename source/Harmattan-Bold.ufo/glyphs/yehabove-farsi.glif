@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehabove-farsi" format="2">
+  <unicode hex="08CA"/>
+  <anchor x="23" y="1180" name="_diaA"/>
+  <anchor x="2" y="1752" name="diaA"/>
+  <outline>
+    <component base="yehSmall-farsi" xOffset="-333" yOffset="1400"/>
+  </outline>
+</glyph>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehbarreeTwobelowabove-ar" format="2">
+  <unicode hex="08CB"/>
+  <anchor x="41" y="1101" name="_diaA"/>
+  <anchor x="61" y="1774" name="diaA"/>
+  <outline>
+    <component base="yehSmall-ar" xOffset="-309" yOffset="1288"/>
+    <component base="_dot2h" xScale="0.45" yScale="0.45" xOffset="35" yOffset="1186"/>
+  </outline>
+</glyph>
