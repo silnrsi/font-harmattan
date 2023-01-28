@@ -33,8 +33,8 @@ python3 tools/absgenclasses.py -p scrlevel=w -c source/classes.xml -i source/gly
 
 echo
 echo "Building internal fea..."
-psfmakefea -q -o source/Harmattan-Regular.ufo/features.fea -l Harmattan-Regular-psfmakefea.log -i source/opentype/main.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" -D noOTkern=yes source/*-Regular.ufo &
-psfmakefea -q -o source/Harmattan-Bold.ufo/features.fea    -l Harmattan-Bold-psfmakefea.log    -i source/opentype/main.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" -D noOTkern=yes source/*-Bold.ufo    &
+psfmakefea -q -o source/Harmattan-Regular.ufo/features.fea -l Harmattan-Regular-psfmakefea.log -i source/opentype/main.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" source/*-Regular.ufo &
+psfmakefea -q -o source/Harmattan-Bold.ufo/features.fea    -l Harmattan-Bold-psfmakefea.log    -i source/opentype/main.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" source/*-Bold.ufo    &
 wait
 
 echo
