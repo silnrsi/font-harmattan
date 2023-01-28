@@ -7,8 +7,6 @@
     <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <styles>
-      <style feats="'cv02' 1" name="cv02_1"/>
-      <style feats="'cv02' 2" name="cv02_2"/>
       <style feats="'cv08' 1" name="cv08_1"/>
       <style feats="'cv12' 1" name="cv12_1"/>
       <style feats="'cv20' 1" name="cv20_1"/>
@@ -47,8 +45,6 @@
       <style feats="'cv84' 1" name="cv84_1"/>
       <style feats="'cv85' 1" name="cv85_1"/>
       <style lang="ku" name="ku"/>
-      <style feats="'cv02' 1" lang="ku" name="ku_cv02_1"/>
-      <style feats="'cv02' 2" lang="ku" name="ku_cv02_2"/>
       <style feats="'cv08' 1" lang="ku" name="ku_cv08_1"/>
       <style feats="'cv12' 1" lang="ku" name="ku_cv12_1"/>
       <style feats="'cv20' 1" lang="ku" name="ku_cv20_1"/>
@@ -87,8 +83,6 @@
       <style feats="'cv84' 1" lang="ku" name="ku_cv84_1"/>
       <style feats="'cv85' 1" lang="ku" name="ku_cv85_1"/>
       <style lang="ky" name="ky"/>
-      <style feats="'cv02' 1" lang="ky" name="ky_cv02_1"/>
-      <style feats="'cv02' 2" lang="ky" name="ky_cv02_2"/>
       <style feats="'cv08' 1" lang="ky" name="ky_cv08_1"/>
       <style feats="'cv12' 1" lang="ky" name="ky_cv12_1"/>
       <style feats="'cv20' 1" lang="ky" name="ky_cv20_1"/>
@@ -127,8 +121,6 @@
       <style feats="'cv84' 1" lang="ky" name="ky_cv84_1"/>
       <style feats="'cv85' 1" lang="ky" name="ky_cv85_1"/>
       <style lang="rhg" name="rhg"/>
-      <style feats="'cv02' 1" lang="rhg" name="rhg_cv02_1"/>
-      <style feats="'cv02' 2" lang="rhg" name="rhg_cv02_2"/>
       <style feats="'cv08' 1" lang="rhg" name="rhg_cv08_1"/>
       <style feats="'cv12' 1" lang="rhg" name="rhg_cv12_1"/>
       <style feats="'cv20' 1" lang="rhg" name="rhg_cv20_1"/>
@@ -167,8 +159,6 @@
       <style feats="'cv84' 1" lang="rhg" name="rhg_cv84_1"/>
       <style feats="'cv85' 1" lang="rhg" name="rhg_cv85_1"/>
       <style lang="sd" name="sd"/>
-      <style feats="'cv02' 1" lang="sd" name="sd_cv02_1"/>
-      <style feats="'cv02' 2" lang="sd" name="sd_cv02_2"/>
       <style feats="'cv08' 1" lang="sd" name="sd_cv08_1"/>
       <style feats="'cv12' 1" lang="sd" name="sd_cv12_1"/>
       <style feats="'cv20' 1" lang="sd" name="sd_cv20_1"/>
@@ -207,8 +197,6 @@
       <style feats="'cv84' 1" lang="sd" name="sd_cv84_1"/>
       <style feats="'cv85' 1" lang="sd" name="sd_cv85_1"/>
       <style lang="ur" name="ur"/>
-      <style feats="'cv02' 1" lang="ur" name="ur_cv02_1"/>
-      <style feats="'cv02' 2" lang="ur" name="ur_cv02_2"/>
       <style feats="'cv08' 1" lang="ur" name="ur_cv08_1"/>
       <style feats="'cv12' 1" lang="ur" name="ur_cv12_1"/>
       <style feats="'cv20' 1" lang="ur" name="ur_cv20_1"/>
@@ -247,8 +235,6 @@
       <style feats="'cv84' 1" lang="ur" name="ur_cv84_1"/>
       <style feats="'cv85' 1" lang="ur" name="ur_cv85_1"/>
       <style lang="wo" name="wo"/>
-      <style feats="'cv02' 1" lang="wo" name="wo_cv02_1"/>
-      <style feats="'cv02' 2" lang="wo" name="wo_cv02_2"/>
       <style feats="'cv08' 1" lang="wo" name="wo_cv08_1"/>
       <style feats="'cv12' 1" lang="wo" name="wo_cv12_1"/>
       <style feats="'cv20' 1" lang="wo" name="wo_cv20_1"/>
@@ -293,83 +279,6 @@
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
       <string>RenderingUnknown</string>
-    </test>
-  </testgroup>
-  <testgroup label="cv02 Warsh alternates">
-    <test label="U+0623" rtl="True">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="cv02_1">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="cv02_2">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="sd">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="sd_cv02_1">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="sd_cv02_2">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ur">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ur_cv02_1">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ur_cv02_2">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ku">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ku_cv02_1">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ku_cv02_2">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="rhg">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="rhg_cv02_1">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="rhg_cv02_2">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ky">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ky_cv02_1">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="ky_cv02_2">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="wo">
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="wo_cv02_1">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
-    </test>
-    <test label="U+0623" rtl="True" stylename="wo_cv02_2">
-      <comment>Yes</comment>
-      <string>\u000623 \u00200D\u000623 </string>
     </test>
   </testgroup>
   <testgroup label="cv08 Jeem/Hah alternates">

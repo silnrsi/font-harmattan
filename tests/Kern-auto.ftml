@@ -8,8 +8,6 @@
     <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
     <fontsrc label="Bold-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
-      <style feats="'cv02' 1" name="cv02_1"/>
-      <style feats="'cv02' 2" name="cv02_2"/>
       <style feats="'cv08' 1" name="cv08_1"/>
       <style feats="'cv12' 1" name="cv12_1"/>
       <style feats="'cv20' 1" name="cv20_1"/>
@@ -226,23 +224,7 @@
       <comment>alefHamzaabove-ar</comment>
       <string>\u00200D\u000631\u000623 \u000631\u000623</string>
     </test>
-    <test label="U+0623" stylename="cv02_1">
-      <comment>alefHamzaabove-ar</comment>
-      <string>\u00200D\u000631\u000623 \u000631\u000623</string>
-    </test>
-    <test label="U+0623" stylename="cv02_2">
-      <comment>alefHamzaabove-ar</comment>
-      <string>\u00200D\u000631\u000623 \u000631\u000623</string>
-    </test>
     <test label="U+0625">
-      <comment>alefHamzabelow-ar</comment>
-      <string>\u00200D\u000631\u000625 \u000631\u000625</string>
-    </test>
-    <test label="U+0625" stylename="cv02_1">
-      <comment>alefHamzabelow-ar</comment>
-      <string>\u00200D\u000631\u000625 \u000631\u000625</string>
-    </test>
-    <test label="U+0625" stylename="cv02_2">
       <comment>alefHamzabelow-ar</comment>
       <string>\u00200D\u000631\u000625 \u000631\u000625</string>
     </test>
@@ -274,7 +256,7 @@
       <comment>alefThreeabove-ar</comment>
       <string>\u00200D\u000631\u000774 \u000631\u000774</string>
     </test>
-    <test background="#ffe0e0" label="U+0870">
+    <test background="#f0fff0" label="U+0870">
       <comment>alefFathaattached-ar</comment>
       <string>\u00200D\u000631\u000870 \u000631\u000870</string>
     </test>
@@ -290,7 +272,7 @@
       <comment>alefLeftmiddlestroke-ar</comment>
       <string>\u00200D\u000631\u000873 \u000631\u000873</string>
     </test>
-    <test background="#ffe0e0" label="U+0874">
+    <test background="#f0fff0" label="U+0874">
       <comment>alefKasraattached-ar</comment>
       <string>\u00200D\u000631\u000874 \u000631\u000874</string>
     </test>
@@ -1508,23 +1490,7 @@
       <comment>alefHamzaabove-ar</comment>
       <string>\u00200D\u000648\u000623 \u000648\u000623</string>
     </test>
-    <test label="U+0623" stylename="cv02_1">
-      <comment>alefHamzaabove-ar</comment>
-      <string>\u00200D\u000648\u000623 \u000648\u000623</string>
-    </test>
-    <test label="U+0623" stylename="cv02_2">
-      <comment>alefHamzaabove-ar</comment>
-      <string>\u00200D\u000648\u000623 \u000648\u000623</string>
-    </test>
     <test label="U+0625">
-      <comment>alefHamzabelow-ar</comment>
-      <string>\u00200D\u000648\u000625 \u000648\u000625</string>
-    </test>
-    <test label="U+0625" stylename="cv02_1">
-      <comment>alefHamzabelow-ar</comment>
-      <string>\u00200D\u000648\u000625 \u000648\u000625</string>
-    </test>
-    <test label="U+0625" stylename="cv02_2">
       <comment>alefHamzabelow-ar</comment>
       <string>\u00200D\u000648\u000625 \u000648\u000625</string>
     </test>
@@ -1556,7 +1522,7 @@
       <comment>alefThreeabove-ar</comment>
       <string>\u00200D\u000648\u000774 \u000648\u000774</string>
     </test>
-    <test background="#ffe0e0" label="U+0870">
+    <test background="#f0fff0" label="U+0870">
       <comment>alefFathaattached-ar</comment>
       <string>\u00200D\u000648\u000870 \u000648\u000870</string>
     </test>
@@ -1572,7 +1538,7 @@
       <comment>alefLeftmiddlestroke-ar</comment>
       <string>\u00200D\u000648\u000873 \u000648\u000873</string>
     </test>
-    <test background="#ffe0e0" label="U+0874">
+    <test background="#f0fff0" label="U+0874">
       <comment>alefKasraattached-ar</comment>
       <string>\u00200D\u000648\u000874 \u000648\u000874</string>
     </test>
