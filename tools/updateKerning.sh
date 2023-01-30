@@ -12,7 +12,7 @@
 
 # Command line options:
 #    --ftml        rebuild ftml before rebuilding kerning
-#    --ftmlonly    rebuild only ftml
+#    --ftmlOnly    rebuild only ftml
 #    --octalap     rebuild optimized octaboxes (otherwise assumes they are acceptable)
 #    --regOnly     process only the Regular font rather than Regular and Bold
 #    --noKern      debugging tool to skip the actual building of fea files 
@@ -51,7 +51,7 @@ do
     FTML=1
     ;;
     
-    --ftmlonly)
+    --ftmlOnly)
     FTML=2
     ;;
 
@@ -63,9 +63,10 @@ do
     echo "unrecognized parameter $1"
     echo "Command line options:"
     echo "   --ftml         rebuild ftml"
-    echo "   --ftmlonly     rebuild ftml but do nothing else"
+    echo "   --ftmlOnly     rebuild ftml but do nothing else"
     echo "   --octalap      rebuild optimized octaboxes"
     echo "   --regOnly      process only the Lateef Regular font rather than all six"
+    echo "   --noKern       do not try to regenerate the caKerning"
     exit 
   esac
   shift
@@ -136,7 +137,7 @@ then
 fi
 
 echo "finished successfullly, and the following files were regenerated:"
-if [ ${FTML} -gt 0]
+if [ ${FTML} -gt 0 ]
 then
   echo " - source/kerndata.ftml"
 fi
@@ -149,7 +150,7 @@ then
   done
 fi
 
-if [ ${KERN} ]
+if [ ${KERN} == 1 ]
 then
   for w in "${WEIGHTS[@]}"
   do
