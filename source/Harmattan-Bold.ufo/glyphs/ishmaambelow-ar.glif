@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ishmaambelow-ar" format="2">
+  <unicode hex="0899"/>
+  <anchor x="3" y="-226" name="_diaB"/>
+  <anchor x="3" y="-1057" name="diaB"/>
+  <outline>
+    <component base="alef-ar" xScale="0.5" yScale="0.5" xOffset="735" yOffset="-780"/>
+    <component base="sheen-ar.init" xScale="0.5" yScale="0.5" xOffset="154" yOffset="-789"/>
+    <component base="meem-ar.medi" xScale="0.5" yScale="0.5" xOffset="-320" yOffset="-789"/>
+    <component base="alef-ar.fina" xScale="0.5" yScale="0.5" xOffset="-523" yOffset="-789"/>
+    <component base="meem-ar" xScale="0.5" yScale="0.5" xOffset="-989" yOffset="-789"/>
+  </outline>
+</glyph>

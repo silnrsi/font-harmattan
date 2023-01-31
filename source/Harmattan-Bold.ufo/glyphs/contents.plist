@@ -1500,6 +1500,8 @@
   <string>idotless.glif</string>
   <key>igrave</key>
   <string>igrave.glif</string>
+  <key>imaalabelow-ar</key>
+  <string>imaalabelow-ar.glif</string>
   <key>increment</key>
   <string>increment.glif</string>
   <key>infinity</key>
@@ -1510,6 +1512,8 @@
   <string>integral.glif</string>
   <key>integral.rtl</key>
   <string>integral.rtl.glif</string>
+  <key>ishmaambelow-ar</key>
+  <string>ishmaambelow-ar.glif</string>
   <key>j</key>
   <string>j.glif</string>
   <key>jeem-ar</key>
@@ -2548,6 +2552,8 @@
   <string>qafT_hreedotsaboveA_frican-ar.medi.glif</string>
   <key>qafabove-ar</key>
   <string>qafabove-ar.glif</string>
+  <key>qasrbelow-ar</key>
+  <string>qasrbelow-ar.glif</string>
   <key>qifabove-ar</key>
   <string>qifabove-ar.glif</string>
   <key>question</key>
@@ -2750,6 +2756,8 @@
   <string>sajdah-ar.glif</string>
   <key>saktaabove-ar</key>
   <string>saktaabove-ar.glif</string>
+  <key>saktabelow-ar</key>
+  <string>saktabelow-ar.glif</string>
   <key>sallallahouAlayheWassallamcomb-ar</key>
   <string>sallallahouA_layheW_assallamcomb-ar.glif</string>
   <key>samvat-ar</key>
@@ -2994,6 +3002,8 @@
   <string>tahabove-ar.glif</string>
   <key>takhallusabove-ar</key>
   <string>takhallusabove-ar.glif</string>
+  <key>tasheel-ar</key>
+  <string>tasheel-ar.glif</string>
   <key>tcheh-ar</key>
   <string>tcheh-ar.glif</string>
   <key>tcheh-ar.fina</key>
@@ -3296,6 +3306,8 @@
   <string>wawring-ar.fina.glif</string>
   <key>wordjoiner</key>
   <string>wordjoiner.glif</string>
+  <key>wordmaddabelow-ar</key>
+  <string>wordmaddabelow-ar.glif</string>
   <key>x</key>
   <string>x.glif</string>
   <key>y</key>

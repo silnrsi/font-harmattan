@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tasheel-ar" format="2">
+  <anchor x="3" y="-226" name="_diaB"/>
+  <anchor x="3" y="-1057" name="diaB"/>
+  <outline>
+    <component base="teh-ar.init" xScale="0.5" yScale="0.5" xOffset="831" yOffset="-780"/>
+    <component base="seen-ar.medi" xScale="0.5" yScale="0.5" xOffset="168" yOffset="-780"/>
+    <component base="heh-ar.medi" xScale="0.5" yScale="0.5" xOffset="-251" yOffset="-780"/>
+    <component base="yeh-ar.medi" xScale="0.5" yScale="0.5" xOffset="-528" yOffset="-780"/>
+    <component base="lam-ar.fina" xScale="0.5" yScale="0.5" xOffset="-1088" yOffset="-780"/>
+  </outline>
+</glyph>
