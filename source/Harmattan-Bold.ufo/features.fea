@@ -2142,6 +2142,39 @@ markClass yehabove-farsi <anchor 23 1180> @_diaA;
 markClass yehbarreeTwobelowabove-ar <anchor 39 1089> @_diaA;
 markClass zainabove-ar <anchor 5 1111> @_diaA;
 
+# AP: aboveLeft
+@aboveLeft = [alef-ar];
+# baseClass alef-ar <anchor -19 756> @aboveLeft;
+
+# AP: attBottom
+@attBottom = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor 152 121> @attBottom;
+# baseClass alef-ar.fina <anchor 72 238> @attBottom;
+
+# AP: attBottomRight
+@attBottomRight = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor 313 222> @attBottomRight;
+# baseClass alef-ar.fina <anchor 359 390> @attBottomRight;
+
+# AP: attLeftMid
+@attLeftMid = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor -25 524> @attLeftMid;
+# baseClass alef-ar.fina <anchor -25 485> @attLeftMid;
+
+# AP: attRtMid
+@attRtMid = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor 381 524> @attRtMid;
+# baseClass alef-ar.fina <anchor 351 574> @attRtMid;
+
+# AP: attTop
+@attTop = [alef-ar alef-ar.fina];
+# baseClass [alef-ar alef-ar.fina] <anchor 174 967> @attTop;
+
+# AP: attTopRight
+@attTopRight = [alef-ar alef-ar.fina];
+# baseClass alef-ar <anchor 381 1056> @attTopRight;
+# baseClass alef-ar.fina <anchor 336 1038> @attTopRight;
+
 # AP: _alef
 markClass alefabove-ar <anchor 249 585> @_alef;
 markClass alefabove-ar.large <anchor 259 421> @_alef;

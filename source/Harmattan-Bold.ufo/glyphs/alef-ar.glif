@@ -3,7 +3,14 @@
   <advance width="402"/>
   <unicode hex="0627"/>
   <anchor x="199" y="1153" name="above"/>
+  <anchor x="-19" y="756" name="aboveLeft"/>
   <anchor x="-13" y="887" name="alef"/>
+  <anchor x="152" y="121" name="attBottom"/>
+  <anchor x="313" y="222" name="attBottomRight"/>
+  <anchor x="-25" y="524" name="attLeftMid"/>
+  <anchor x="381" y="524" name="attRtMid"/>
+  <anchor x="174" y="967" name="attTop"/>
+  <anchor x="381" y="1056" name="attTopRight"/>
   <anchor x="203" y="-100" name="below"/>
   <anchor x="200" y="1161" name="diaA"/>
   <anchor x="213" y="-103" name="diaB"/>
