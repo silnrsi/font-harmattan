@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefLeftmiddlestroke-ar.fina" format="2">
+  <advance width="419"/>
+  <anchor x="-71" y="968" name="alef"/>
+  <anchor x="-38" y="627" name="diaA"/>
+  <anchor x="210" y="-76" name="diaB"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="fatha-ar" xOffset="-332" yOffset="-854"/>
+  </outline>
+</glyph>

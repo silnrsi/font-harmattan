@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefToprightfathaattachedLeftring-ar" format="2">
+  <advance width="329"/>
+  <unicode hex="087E"/>
+  <anchor x="-31" y="1027" name="alef"/>
+  <anchor x="368" y="1198" name="diaA"/>
+  <anchor x="169" y="-109" name="diaB"/>
+  <outline>
+    <component base="alef-ar"/>
+    <component base="_ring" xOffset="-23" yOffset="364"/>
+    <component base="fatha-ar" xOffset="74" yOffset="-283"/>
+  </outline>
+</glyph>

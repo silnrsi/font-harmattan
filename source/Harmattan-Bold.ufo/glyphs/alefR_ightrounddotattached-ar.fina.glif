@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="alefRightrounddotattached-ar.fina" format="2">
+  <advance width="474"/>
+  <anchor x="-16" y="968" name="alef"/>
+  <anchor x="351" y="912" name="diaA"/>
+  <anchor x="265" y="-76" name="diaB"/>
+  <outline>
+    <component base="alef-ar.fina"/>
+    <component base="dotStopabove-ar" xOffset="349" yOffset="-678"/>
+  </outline>
+</glyph>
