@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="_alef-ar.fina_wide" format="2">
+  <advance width="554"/>
+  <anchor x="170" y="1152" name="above"/>
+  <anchor x="-16" y="968" name="alef"/>
+  <anchor x="72" y="238" name="attBottom"/>
+  <anchor x="359" y="390" name="attBottomRight"/>
+  <anchor x="-25" y="485" name="attLeftMid"/>
+  <anchor x="351" y="574" name="attRtMid"/>
+  <anchor x="174" y="967" name="attTop"/>
+  <anchor x="336" y="1038" name="attTopRight"/>
+  <anchor x="264" y="-63" name="below"/>
+  <anchor x="174" y="1155" name="diaA"/>
+  <anchor x="265" y="-76" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="474" y="-10" type="curve" smooth="yes"/>
+      <point x="574" y="-10" type="line"/>
+      <point x="574" y="165" type="line"/>
+      <point x="474" y="165" type="line" smooth="yes"/>
+      <point x="322" y="165"/>
+      <point x="287" y="224"/>
+      <point x="287" y="376" type="curve" smooth="yes"/>
+      <point x="287" y="563"/>
+      <point x="294" y="811"/>
+      <point x="294" y="976" type="curve" smooth="yes"/>
+      <point x="294" y="1002"/>
+      <point x="293" y="1095"/>
+      <point x="289" y="1119" type="curve"/>
+      <point x="244" y="1112"/>
+      <point x="108" y="1072"/>
+      <point x="85" y="1005" type="curve"/>
+      <point x="90" y="932"/>
+      <point x="96" y="432"/>
+      <point x="109" y="245" type="curve" smooth="yes"/>
+      <point x="118" y="117"/>
+      <point x="189" y="-10"/>
+    </contour>
+  </outline>
+</glyph>

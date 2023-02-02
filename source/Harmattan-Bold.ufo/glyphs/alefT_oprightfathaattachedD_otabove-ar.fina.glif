@@ -2,11 +2,11 @@
 <glyph name="alefToprightfathaattachedDotabove-ar.fina" format="2">
   <advance width="474"/>
   <anchor x="-16" y="968" name="alef"/>
-  <anchor x="321" y="1210" name="diaA"/>
+  <anchor x="169" y="1609" name="diaA"/>
   <anchor x="265" y="-76" name="diaB"/>
   <outline>
     <component base="alef-ar.fina"/>
-    <component base="_dot1" xOffset="157" yOffset="1173"/>
-    <component base="fatha-ar" xOffset="39" yOffset="-291"/>
+    <component base="_dot1" xOffset="179" yOffset="1385"/>
+    <component base="fatha-ar" xOffset="134" yOffset="-291"/>
   </outline>
 </glyph>

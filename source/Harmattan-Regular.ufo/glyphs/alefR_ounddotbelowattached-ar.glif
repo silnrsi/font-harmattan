@@ -4,9 +4,9 @@
   <unicode hex="0879"/>
   <anchor x="-31" y="1027" name="alef"/>
   <anchor x="162" y="1122" name="diaA"/>
-  <anchor x="152" y="-196" name="diaB"/>
+  <anchor x="197" y="-291" name="diaB"/>
   <outline>
     <component base="alef-ar"/>
-    <component base="dotStopabove-ar" xOffset="152" yOffset="-1457"/>
+    <component base="dotStopabove-ar" xOffset="182" yOffset="-1558"/>
   </outline>
 </glyph>

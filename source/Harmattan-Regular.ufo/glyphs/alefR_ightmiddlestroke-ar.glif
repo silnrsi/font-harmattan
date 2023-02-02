@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefRightmiddlestroke-ar" format="2">
-  <advance width="329"/>
+  <advance width="526"/>
   <unicode hex="0872"/>
   <anchor x="-31" y="1027" name="alef"/>
-  <anchor x="368" y="666" name="diaA"/>
+  <anchor x="162" y="1122" name="diaA"/>
   <anchor x="169" y="-109" name="diaB"/>
   <outline>
     <component base="alef-ar"/>

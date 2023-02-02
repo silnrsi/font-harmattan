@@ -2,7 +2,7 @@
 <glyph name="alefToprightfathaattached-ar.fina" format="2">
   <advance width="419"/>
   <anchor x="-71" y="968" name="alef"/>
-  <anchor x="323" y="1180" name="diaA"/>
+  <anchor x="323" y="1240" name="diaA"/>
   <anchor x="210" y="-76" name="diaB"/>
   <outline>
     <component base="alef-ar.fina"/>

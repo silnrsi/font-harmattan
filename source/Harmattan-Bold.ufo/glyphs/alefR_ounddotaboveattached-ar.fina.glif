@@ -2,10 +2,10 @@
 <glyph name="alefRounddotaboveattached-ar.fina" format="2">
   <advance width="474"/>
   <anchor x="-16" y="968" name="alef"/>
-  <anchor x="174" y="1305" name="diaA"/>
+  <anchor x="173" y="1383" name="diaA"/>
   <anchor x="265" y="-76" name="diaB"/>
   <outline>
     <component base="alef-ar.fina"/>
-    <component base="dotStopabove-ar" xOffset="172" yOffset="-285"/>
+    <component base="dotStopabove-ar" xOffset="171" yOffset="-207"/>
   </outline>
 </glyph>
