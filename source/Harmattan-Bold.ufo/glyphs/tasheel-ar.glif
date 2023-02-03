@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tasheel-ar" format="2">
+  <unicode hex="089B"/>
   <anchor x="3" y="-226" name="_diaB"/>
   <anchor x="3" y="-1057" name="diaB"/>
   <outline>

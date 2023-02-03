@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="assajdaabove-ar" format="2">
   <unicode hex="08DB"/>
-  <anchor x="-3" y="1328" name="_diaA"/>
+  <anchor x="-3" y="1228" name="_diaA"/>
   <anchor x="-3" y="1994" name="diaA"/>
   <outline>
     <component base="alef-ar" xScale="0.5" yScale="0.5" xOffset="989" yOffset="1456"/>

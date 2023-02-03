@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefmokhassasabove-ar" format="2">
+  <unicode hex="089D"/>
   <anchor x="29" y="421" name="_alef"/>
   <anchor x="22" y="424" name="_diaA"/>
   <anchor x="4" y="1235" name="diaA"/>

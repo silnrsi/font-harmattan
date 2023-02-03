@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sahabove-ar" format="2">
+  <unicode hex="08CC"/>
   <anchor x="146" y="1313" name="_diaA"/>
   <anchor x="136" y="1714" name="diaA"/>
   <outline>

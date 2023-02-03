@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sadabove-ar" format="2">
   <unicode hex="08D5"/>
-  <anchor x="0" y="1069" name="_diaA"/>
+  <anchor x="-130" y="1039" name="_diaA"/>
   <anchor x="-522" y="1558" name="alef"/>
   <anchor x="0" y="1776" name="diaA"/>
   <outline>

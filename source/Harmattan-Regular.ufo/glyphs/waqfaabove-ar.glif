@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="waqfaabove-ar" format="2">
   <unicode hex="08DF"/>
-  <anchor x="0" y="1111" name="_diaA"/>
+  <anchor x="0" y="1001" name="_diaA"/>
   <anchor x="0" y="1934" name="diaA"/>
   <outline>
     <component base="waw-ar" xScale="0.5" yScale="0.5" xOffset="369" yOffset="1360"/>

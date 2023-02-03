@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="saktaabove-ar" format="2">
   <unicode hex="08DD"/>
-  <anchor x="0" y="1308" name="_diaA"/>
+  <anchor x="0" y="1208" name="_diaA"/>
   <anchor x="0" y="1914" name="diaA"/>
   <outline>
     <component base="seen-ar.init" xScale="0.5" yScale="0.5" xOffset="359" yOffset="1345"/>

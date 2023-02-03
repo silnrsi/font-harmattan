@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aththalathaabove-ar" format="2">
   <unicode hex="08DA"/>
-  <anchor x="60" y="1218" name="_diaA"/>
+  <anchor x="60" y="1118" name="_diaA"/>
   <anchor x="60" y="1954" name="diaA"/>
   <outline>
     <component base="alef-ar" xScale="0.5" yScale="0.5" xOffset="589" yOffset="1236"/>

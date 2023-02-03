@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="footnotemarkerabove-ar" format="2">
   <unicode hex="08E0"/>
-  <anchor x="1" y="1208" name="_diaA"/>
+  <anchor x="1" y="1108" name="_diaA"/>
   <anchor x="-2" y="1551" name="diaA"/>
   <outline>
     <contour>
