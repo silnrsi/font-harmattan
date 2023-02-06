@@ -2185,7 +2185,6 @@ markClass zainabove-ar <anchor 5 1111> @_diaA;
 # AP: _alef
 markClass alefabove-ar <anchor 249 585> @_alef;
 markClass alefabove-ar.large <anchor 259 421> @_alef;
-markClass alefmokhassasabove-ar <anchor 29 421> @_alef;
 
 # AP: _diaB
 markClass alefbelow-ar <anchor 50 -184> @_diaB;
