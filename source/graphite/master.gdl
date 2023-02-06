@@ -192,23 +192,8 @@ pass(4)	// Features, special behaviors
 	(g_alef_ar  g_alef_ar_fina)   >  (g_alef_ar_allah g_alef_ar_fina_allah)  /  _  MARKS  g_lam_ar_init_allah1;
 
 
-	// Warsh diacritic placement:
-
 	//NB: It is important to remember that by this time the marks are ordered similar to UTR53.
-	
-	if (warshDiacritics == std)
-		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar g_alef_hamzaabove_ar_fina):(A H) _ ;
-		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar g_alef_hamzabelow_ar_fina):(A H) _ ;
-	endif;
-	if (warshDiacritics != std)
-		(g_alef_ar g_alef_ar_fina)=A g_hamzaabove_ar=H > (g_alef_hamzaabove_ar_warsh g_alef_hamzaabove_ar_fina_warsh):(A H) _ ;
-		(g_alef_ar g_alef_ar_fina)=A g_hamzabelow_ar=H > (g_alef_hamzabelow_ar_warsh g_alef_hamzabelow_ar_fina_warsh):(A H) _ ;
-		//if (warshDiacritics == touching)
-		//	// NB: even though a longer rule, it won't match if there is a hamza
-		//	g_alef_ar=A (g_fatha_ar g_kasra_ar)=V > (g_alef_fatha_ar_warsh g_alef_kasra_ar_warsh)$V:(A,V) _ / _ opt3(cUTR53_fixedPos) _ ; 
-		//endif;
-	endif;
-	
+
 	// yehbarree: substitute .wide variant when appropriate
 	
 	cno_wide > cwide / cYehBarreeContextAlways MARKS _ ;

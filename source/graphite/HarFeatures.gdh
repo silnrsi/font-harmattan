@@ -34,26 +34,6 @@ table(feature)
 // be presented in the combo-box in WorldPad.
 
 
-warshDiacritics {
-    id = "cv02";
-    name.1033 = string("Alef diacritic placement");
-    settings {
-        std {
-            value = 0;
-            name.1033 = string("Standard");
-        }
-        hamzatouching {
-            value = 1;
-            name.1033 = string("Hamza touching");
-        }
-        touching {
-            value = 2;
-            name.1033 = string("Touching");
-        }
-    }
-    default = std;
-}
-
 jeemHahMedAlt {
     id = "cv08";
     name.1033 = string("Jeem/Hah");
