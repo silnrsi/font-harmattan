@@ -49,26 +49,12 @@ The resulting files will not have functional OpenType kerning, but will be other
 
 ### Adding characters
 
-After adding base characters to the font, the `classes.xml` file will need adjustment. The first six
-classes relating to right- and dual-link contextual forms are can be generated algorithmically
-from `source/glyph_data.csv` using `tools/bin/absgenclasses.py`.
+Any new glyphs added to the UFOs must also be added to `source\glyph_data.csv` with appropriate metadata. The `source\classes.xml` file may also need adjustments. Note that some of the classes defined therein are noted to be "automatically generated" -- these will be updated (from glyph_data.csv) the next time `./preflight` is run. 
 
 Additionally the `*-octabox.json` files will need to be regenerated in order to add optimal 
 octaboxes for the isolate and initial forms of the newly added characters. If unencoded variants
 of isolate and initial forms have been added, these must be manually added to the `cComplexShape`
 class defined in `source/graphite/caBasedKerning.gdl` so they get optimized as well.
-
-### Generated test files
-
-After adding characters or additional behaviors to the font, test files should be created or enhanced to test the new behaviors. These test files:
-- `tests/AllChars.ftml` 
-- `tests/DiacTest1.ftml`
-- `tests/DiacTest1-short.ftml`
-- `tests/SubtendingMarks.ftml`
-- `tests/DaggerAlef.ftml`
-- `tests/Kern-ng.ftml`
-
-are algorithmically generated and so can be updated by `tools/bin/genftmlfiles.sh`.
 
 ### Generated source files
 
@@ -99,4 +85,27 @@ does not include tracing. You'll need to compile the source with -DGRAPHITE2_NTR
 sudo apt-get install python3-sklearn python3-sklearn-lib
 ```
 
+## About ftml tests
+
+The `tests/` folder contains a number of test files in an xml-based format called FTML.
+Examples are AllChars.xml, DiacTest1.xml. 
+There is, in the tools folder, an ftml.xsl file that can be used to view these ftml documents directly in Firefox (which supports Graphite rendering). 
+
+However, in order for Firefox to access the .xsl file, you need to relax its "strict URI" policy by going to about:config and
+setting [security.fileuri.strict_origin_policy](http://kb.mozillazine.org/Security.fileuri.strict_origin_policy) to false.
+
+Once you have this setting in effect, you can load the FTML documents directly into Firefox and see the built fonts rendered.
+
+### Generated test files
+
+After adding characters or additional behaviors to the font, test files should be created or enhanced to test the new behaviors. The following test files:
+- `tests/AllChars-auto.ftml` 
+- `tests/DiacTest1-auto.ftml`
+- `tests/DiacTest1-short-auto.ftml`
+- `tests/SubtendingMarks-auto.ftml`
+- `tests/DaggerAlef-auto.ftml`
+- `tests/Kern-auto.ftml`
+- `FeatLang-auto.ftml`
+
+are algorithmically generated and so can be updated by running `tools/bin/genftmlfiles.sh`.
 
