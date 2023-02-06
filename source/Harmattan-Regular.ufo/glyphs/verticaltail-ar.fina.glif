@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticaltail-ar.fina" format="2">
+  <advance width="580"/>
+  <anchor x="265" y="515" name="diaA"/>
+  <anchor x="283" y="-762" name="diaB"/>
+  <outline>
+    <contour>
+      <point x="207" y="-725" type="curve"/>
+      <point x="256" y="-719"/>
+      <point x="313" y="-699"/>
+      <point x="340" y="-664" type="curve"/>
+      <point x="351" y="-452"/>
+      <point x="357" y="149"/>
+      <point x="357" y="314" type="curve" smooth="yes"/>
+      <point x="357" y="326"/>
+      <point x="356" y="403"/>
+      <point x="352" y="427" type="curve"/>
+      <point x="308" y="420"/>
+      <point x="211" y="390"/>
+      <point x="188" y="343" type="curve"/>
+      <point x="188" y="312"/>
+      <point x="209" y="-229"/>
+      <point x="209" y="-570" type="curve" smooth="yes"/>
+      <point x="209" y="-629"/>
+      <point x="208" y="-682"/>
+    </contour>
+    <contour>
+      <point x="580" y="-10" type="curve" smooth="yes"/>
+      <point x="600" y="-10" type="line"/>
+      <point x="600" y="125" type="line"/>
+      <point x="580" y="125" type="line" smooth="yes"/>
+      <point x="467" y="125"/>
+      <point x="390" y="196"/>
+      <point x="348" y="423" type="curve"/>
+      <point x="295" y="421"/>
+      <point x="253" y="388"/>
+      <point x="216" y="370" type="curve"/>
+      <point x="224" y="315"/>
+      <point x="236" y="295"/>
+      <point x="235" y="285" type="curve"/>
+      <point x="296" y="55"/>
+      <point x="466" y="-10"/>
+    </contour>
+  </outline>
+</glyph>

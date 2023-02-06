@@ -2,7 +2,6 @@
 <glyph name="gaf-ar" format="2">
   <advance width="1523"/>
   <unicode hex="06AF"/>
-  <anchor x="947" y="779" name="_center"/>
   <anchor x="66" y="754" name="alef"/>
   <anchor x="422" y="1027" name="diaA"/>
   <anchor x="770" y="-90" name="diaB"/>

@@ -952,6 +952,8 @@
   <string>ddal-ar.loclW_L_F_.glif</string>
   <key>decimalseparator-ar</key>
   <string>decimalseparator-ar.glif</string>
+  <key>decimalseparator-ar.slash</key>
+  <string>decimalseparator-ar.slash.glif</string>
   <key>degree</key>
   <string>degree.glif</string>
   <key>dieresis</key>
@@ -1744,6 +1746,14 @@
   <string>kehehD_otabove-ar.init.glif</string>
   <key>kehehDotabove-ar.medi</key>
   <string>kehehD_otabove-ar.medi.glif</string>
+  <key>kehehElongatedhamzaabove-ar</key>
+  <string>kehehE_longatedhamzaabove-ar.glif</string>
+  <key>kehehElongatedhamzaabove-ar.fina</key>
+  <string>kehehE_longatedhamzaabove-ar.fina.glif</string>
+  <key>kehehElongatedhamzaabove-ar.init</key>
+  <string>kehehE_longatedhamzaabove-ar.init.glif</string>
+  <key>kehehElongatedhamzaabove-ar.medi</key>
+  <string>kehehE_longatedhamzaabove-ar.medi.glif</string>
   <key>kehehThreedotsabove-ar</key>
   <string>kehehT_hreedotsabove-ar.glif</string>
   <key>kehehThreedotsabove-ar.fina</key>
@@ -3326,6 +3336,10 @@
   <string>veh-ar.medi.glif</string>
   <key>verseComma-ar</key>
   <string>verseC_omma-ar.glif</string>
+  <key>verticaltail-ar</key>
+  <string>verticaltail-ar.glif</string>
+  <key>verticaltail-ar.fina</key>
+  <string>verticaltail-ar.fina.glif</string>
   <key>vinvertedabove-ar</key>
   <string>vinvertedabove-ar.glif</string>
   <key>w</key>
@@ -3572,6 +3586,14 @@
   <string>yehbarreeT_woabove-ar.medi.glif</string>
   <key>yehbarreeTwobelowabove-ar</key>
   <string>yehbarreeT_wobelowabove-ar.glif</string>
+  <key>yehthin-ar</key>
+  <string>yehthin-ar.glif</string>
+  <key>yehthin-ar.fina</key>
+  <string>yehthin-ar.fina.glif</string>
+  <key>yehthin-ar.init</key>
+  <string>yehthin-ar.init.glif</string>
+  <key>yehthin-ar.medi</key>
+  <string>yehthin-ar.medi.glif</string>
   <key>yen</key>
   <string>yen.glif</string>
   <key>yu-ar</key>
