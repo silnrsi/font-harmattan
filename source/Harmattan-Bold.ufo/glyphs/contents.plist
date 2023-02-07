@@ -570,8 +570,12 @@
   <string>alefT_woabove-ar.fina.glif</string>
   <key>alefWasla-ar</key>
   <string>alefW_asla-ar.glif</string>
+  <key>alefWasla-ar.allah</key>
+  <string>alefW_asla-ar.allah.glif</string>
   <key>alefWasla-ar.fina</key>
   <string>alefW_asla-ar.fina.glif</string>
+  <key>alefWasla-ar.fina.allah</key>
+  <string>alefW_asla-ar.fina.allah.glif</string>
   <key>alefWavyhamzaabove-ar</key>
   <string>alefW_avyhamzaabove-ar.glif</string>
   <key>alefWavyhamzaabove-ar.fina</key>
