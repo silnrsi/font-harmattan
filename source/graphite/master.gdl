@@ -230,6 +230,10 @@ pass(4)	// Features, special behaviors
 	if (maddahAlt != large)
 		cMaddah > cMaddah_small;
 	endif;
+	
+	if (decimalSep == slash)
+	  cno_slash  >  cslash;
+	endif;
 
 	if (shaddaKasra == raised)
 		// Normally, due to UTR53 reordering shadda will preceed kasra.

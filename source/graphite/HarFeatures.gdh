@@ -319,6 +319,24 @@ commaAlt {
     default = up;
 }
 
+
+decimalSep {
+    id = "cv85";
+    name.1033 = string("Comma");
+    settings {
+        comma {
+            value = 0;
+            name.1033 = string("Comma");
+        }
+        slash {
+            value = 1;
+            name.1033 = string("Slash");
+        }
+    }
+    default = comma;
+}
+
+
 utr53 {
     id.hidden = "ut53";
     // id = "ut53";
