@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="verticaltail-ar" format="2">
   <advance width="580"/>
+  <unicode hex="088E"/>
   <anchor x="265" y="515" name="diaA"/>
   <anchor x="283" y="-762" name="diaB"/>
   <outline>
