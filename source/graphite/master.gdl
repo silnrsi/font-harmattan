@@ -294,6 +294,8 @@ pass(4)	// Features, special behaviors
 		cno_downward  >  cdownward;
 	endif;
 	
+	cno_latn > clatn  /  _ {directionality == 0};
+	
 endpass; // 4
 
 endtable; // sub
