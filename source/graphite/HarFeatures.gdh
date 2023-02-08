@@ -124,6 +124,38 @@ hehAlt {
     default = std;
 }
 
+kirghizOe {
+    id = "cv51";
+    name.1033 = string("Kyrgyz OE");
+    settings {
+        loop {
+            value = 0;
+            name.1033 = string("Loop");
+        }
+        bar {
+            value = 1;
+            name.1033 = string("Bar");
+        }
+    }
+    default = loop;
+}
+
+yehHamza {
+    id = "cv54";
+    name.1033 = string("Yeh-Hamza");
+    settings {
+        left {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        right {
+            value = 1;
+            name.1033 = string("Right-Hamza");
+        }
+    }
+    default = left;
+}
+
 maddahAlt {
     id = "cv60";
     name.1033 = string("Maddah");
@@ -322,7 +354,7 @@ commaAlt {
 
 decimalSep {
     id = "cv85";
-    name.1033 = string("Comma");
+    name.1033 = string("Decimal Separator");
     settings {
         comma {
             value = 0;

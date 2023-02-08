@@ -226,6 +226,14 @@ pass(4)	// Features, special behaviors
 	if (hehAlt == urdu)
 		cno_Heh  >  cHehUrdu;
 	endif;
+	
+	if (kirghizOe == bar)
+	  (g_kirghizoe_ar g_kirghizoe_ar_fina)  >  (g_kirghizoe_ar_bar g_kirghizoe_ar_fina_bar);
+	endif;
+	
+	if (yehHamza == right)
+	  (g_yeh_hamzaabove_ar  g_yeh_hamzaabove_ar_fina)  >  (g_yeh_hamzaabove_ar_locl_k_i_r  g_yeh_hamzaabove_ar_fina_locl_k_i_r);
+	endif;
 
 	if (maddahAlt != large)
 		cMaddah > cMaddah_small;

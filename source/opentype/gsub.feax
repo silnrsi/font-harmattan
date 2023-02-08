@@ -627,14 +627,12 @@ lookup HehAlternates {
     sub heh-ar.fina.knottedHigh from  [ heh-ar.fina.knottedHigh  heh-ar.fina.hooked  heh-ar.fina.knottedHigh ] ;
 } HehAlternates;
 
-
-do let f = info("familyName");
-   if f.find("Scheherazade New") != -1 or f.find("Lateef") != -1; {
    
 lookup KyrgyzOeAlternates {     # cv51
   lookupflag 0;
     sub @cno_bar  by  @c_bar;
 } KyrgyzOeAlternates;
+
 
 lookup YehHamzaAlternates {			# cv54
   lookupflag 0;
@@ -644,7 +642,6 @@ lookup YehHamzaAlternates {			# cv54
     sub yehHamzaabove-ar.fina  by  yehHamzaabove-ar.fina.loclKIR;
 } YehHamzaAlternates;
 
-}  # end of - Sch or Lateef
 
 #********************
 # Madda Alternate: cv60
@@ -1263,10 +1260,6 @@ feature cv48 {  # Character Variant 48
       language WLF ;
 } cv48 ;
 
-
-do let f = info("familyName");
-   if f.find("Scheherazade New") != -1 or f.find("Lateef") != -1; {
-
 feature cv51 {  # Character Variant 51
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Kyrgyz OE" ; };
@@ -1303,8 +1296,6 @@ feature cv54 {  # Character Variant 54
      language URD  ;
      language WLF  ;
 } cv54 ;
-
-}   # end do - Sch or Lateef
 
 
 # Character Variant 60

@@ -2955,13 +2955,21 @@ lookup HehAlternates {
     sub heh-ar.fina.knottedHigh from [heh-ar.fina.knottedHigh heh-ar.fina.hooked heh-ar.fina.knottedHigh];
 } HehAlternates;
 
-    
+lookup KyrgyzOeAlternates {
+    # cv51
+    lookupflag 0;
+    sub @cno_bar by @c_bar;
+} KyrgyzOeAlternates;
 
-# cv51
-# cv54
-#sub yehHamzaabove-ar.init  by  yehHamzaabove-ar.init.loclKIR;
-#sub yehHamzaabove-ar.medi  by  yehHamzaabove-ar.medi.loclKIR;
-# end of - Sch or Lateef
+lookup YehHamzaAlternates {
+    # cv54
+    lookupflag 0;
+    sub yehHamzaabove-ar by yehHamzaabove-ar.loclKIR;
+    #sub yehHamzaabove-ar.init  by  yehHamzaabove-ar.init.loclKIR;
+    #sub yehHamzaabove-ar.medi  by  yehHamzaabove-ar.medi.loclKIR;
+    sub yehHamzaabove-ar.fina by yehHamzaabove-ar.fina.loclKIR;
+} YehHamzaAlternates;
+
 #********************
 # Madda Alternate: cv60
     # Sch or Har
@@ -3683,17 +3691,60 @@ feature cv48 {
     language WLF;
 } cv48;
 
-    
+feature cv51 {
+    # Character Variant 51
+        cvParameters {
+                FeatUILabelNameID {
+            name "Kyrgyz OE";
+        };
 
-# Character Variant 51
-### ParamUILabelNameID { name 3 1 0x0409 "Loop"      ; };
-# Arabic
-# Force other languages to include Arabic script lookups
-# Character Variant 54
-### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
-# Arabic
-# Force other languages to include Arabic script lookups
-# end do - Sch or Lateef
+        ### ParamUILabelNameID { name 3 1 0x0409 "Loop"      ; };
+                ParamUILabelNameID {
+            name "Bar";
+        };
+
+    };
+
+    script arab;
+    # Arabic
+    lookup KyrgyzOeAlternates;
+    # Force other languages to include Arabic script lookups
+    language KIR;
+    language KUR;
+    language KUR;
+    language SND;
+    language RHG;
+    language URD;
+    language WLF;
+} cv51;
+
+feature cv54 {
+    # Character Variant 54
+        cvParameters {
+                FeatUILabelNameID {
+            name "Yeh-Hamza";
+        };
+
+        ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
+                ParamUILabelNameID {
+            name "Right hamza";
+        };
+
+    };
+
+    script arab;
+    # Arabic
+    lookup YehHamzaAlternates;
+    # Force other languages to include Arabic script lookups
+    language KIR;
+    language KUR;
+    language KUR;
+    language SND;
+    language RHG;
+    language URD;
+    language WLF;
+} cv54;
+
 # Character Variant 60
     # Character Variant 60
     ### ParamUILabelNameID { name 3 1 0x0409 "Small"    ; };
