@@ -8,10 +8,16 @@
   <anchor x="390" y="-68" name="diaB"/>
   <outline>
     <contour>
+      <point x="369" y="77" type="curve" smooth="yes"/>
+      <point x="472" y="78"/>
+      <point x="577" y="117"/>
       <point x="637" y="196" type="curve"/>
       <point x="586" y="388" type="line"/>
-      <point x="492" y="194"/>
-      <point x="266" y="242"/>
+      <point x="537" y="287"/>
+      <point x="452" y="251"/>
+      <point x="381" y="251" type="curve" smooth="yes"/>
+      <point x="317" y="250"/>
+      <point x="266" y="279"/>
       <point x="266" y="312" type="curve" smooth="yes"/>
       <point x="266" y="343"/>
       <point x="392" y="431"/>
@@ -20,8 +26,8 @@
       <point x="210" y="524"/>
       <point x="85" y="399"/>
       <point x="85" y="297" type="curve" smooth="yes"/>
-      <point x="85" y="50"/>
-      <point x="491" y="4"/>
+      <point x="85" y="152"/>
+      <point x="224" y="76"/>
     </contour>
     <contour>
       <point x="883" y="-10" type="curve" smooth="yes"/>

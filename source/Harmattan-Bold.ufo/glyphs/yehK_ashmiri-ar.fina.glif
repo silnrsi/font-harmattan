@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehKashmiri-ar.fina" format="2">
   <advance width="901"/>
-  <anchor x="591" y="207" name="above"/>
   <anchor x="100" y="290" name="alef"/>
   <anchor x="547" y="260" name="diaA"/>
   <anchor x="326" y="-719" name="diaB"/>
