@@ -2,10 +2,9 @@
 <glyph name="highhamza-ar" format="2">
   <advance width="396"/>
   <unicode hex="0674"/>
-  <anchor x="-29" y="1388" name="alef"/>
-  <anchor x="197" y="1463" name="diaA"/>
-  <anchor x="209" y="985" name="diaB"/>
+  <anchor x="197" y="1163" name="diaA"/>
+  <anchor x="209" y="685" name="diaB"/>
   <outline>
-    <component base="hamzaabove-ar" xOffset="-63" yOffset="-300"/>
+    <component base="hamzaabove-ar" xOffset="-63" yOffset="-600"/>
   </outline>
 </glyph>

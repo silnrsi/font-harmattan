@@ -2,10 +2,10 @@
 <glyph name="highhamzaYeh-ar.fina" format="2">
   <advance width="1281"/>
   <anchor x="495" y="290" name="alef"/>
-  <anchor x="1202" y="742" name="diaA"/>
+  <anchor x="774" y="874" name="diaA"/>
   <anchor x="706" y="-749" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots.fina"/>
-    <component base="highhamza-ar" xOffset="998" yOffset="-737"/>
+    <component base="highhamza-ar" xOffset="1018"/>
   </outline>
 </glyph>

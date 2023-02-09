@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamzaYeh-ar" format="2">
-  <advance width="1425"/>
+  <advance width="1708"/>
   <unicode hex="0678"/>
   <anchor x="423" y="602" name="alef"/>
-  <anchor x="1373" y="1274" name="diaA"/>
+  <anchor x="1067" y="1146" name="diaA"/>
   <anchor x="695" y="-401" name="diaB"/>
   <outline>
     <component base="alefMaksura-ar"/>
-    <component base="highhamza-ar" xOffset="1200" yOffset="-200"/>
+    <component base="highhamza-ar" xOffset="1320"/>
   </outline>
 </glyph>
