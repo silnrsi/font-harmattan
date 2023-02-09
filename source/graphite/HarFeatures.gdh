@@ -457,4 +457,9 @@ wolof {
     // shaddaKasra = lowered;  // is the default for Harmattan
 };
 
+kyrgyz {
+		language = ("kir", "ky");  // Kyrgyz / Kirghiz
+		yehHamza = right;
+}
+
 endtable; // language

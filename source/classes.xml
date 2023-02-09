@@ -688,12 +688,6 @@
          process to work happily.
     -->
     
-    <class name="cno_latn">asterisk</class>
-    <class name="c_latn">  asterisk</class>
-    
-    <class name="c_loclKIR">  yehHamzaabove-ar</class>
-    <class name="cno_loclKIR">yehHamzaabove-ar</class>
-    
     <class name="cno_pnum">alef-ar</class>
     <class name="c_pnum">  alef-ar</class>
 

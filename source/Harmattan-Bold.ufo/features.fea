@@ -140,12 +140,12 @@
 @cno_knottedHigh = [heh-ar.fina heh-ar.medi];
 @c_large = [alefabove-ar.large];
 @cno_large = [alefabove-ar];
-@c_latn = [guillemetleft.latn guillemetright.latn guilsinglleft.latn guilsinglright.latn asterisk];
-@cno_latn = [guillemetleft guillemetright guilsinglleft guilsinglright asterisk];
+@c_latn = [guillemetleft.latn guillemetright.latn guilsinglleft.latn guilsinglright.latn];
+@cno_latn = [guillemetleft guillemetright guilsinglleft guilsinglright];
 @c_leftOpen = [sukun-ar.leftOpen];
 @cno_leftOpen = [sukun-ar];
-@c_loclKIR = [yehHamzaabove-ar.fina.loclKIR yehHamzaabove-ar.loclKIR yehHamzaabove-ar];
-@cno_loclKIR = [yehHamzaabove-ar.fina yehHamzaabove-ar yehHamzaabove-ar];
+@c_loclKIR = [yehHamzaabove-ar.fina.loclKIR yehHamzaabove-ar.loclKIR];
+@cno_loclKIR = [yehHamzaabove-ar.fina yehHamzaabove-ar];
 @c_loclWLF = [dahal-ar.fina.loclWLF dahal-ar.loclWLF dal-ar.fina.loclWLF dal-ar.loclWLF dalDotbelow-ar.fina.loclWLF dalDotbelow-ar.loclWLF dalDotbelowTah-ar.fina.loclWLF dalDotbelowTah-ar.loclWLF dalFourdots-ar.fina.loclWLF dalFourdots-ar.loclWLF dalRing-ar.fina.loclWLF dalRing-ar.loclWLF dalThreedotsbelow-ar.fina.loclWLF dalThreedotsbelow-ar.loclWLF dalThreedotsdown-ar.fina.loclWLF dalThreedotsdown-ar.loclWLF dalTwodotsverticalbelowTah-ar.fina.loclWLF dalTwodotsverticalbelowTah-ar.loclWLF dalVinvertedabove-ar.fina.loclWLF dalVinvertedabove-ar.loclWLF dalVinvertedbelow-ar.fina.loclWLF dalVinvertedbelow-ar.loclWLF ddahal-ar.fina.loclWLF ddahal-ar.loclWLF ddal-ar.fina.loclWLF ddal-ar.loclWLF dul-ar.fina.loclWLF dul-ar.loclWLF thal-ar.fina.loclWLF thal-ar.loclWLF];
 @cno_loclWLF = [dahal-ar.fina dahal-ar dal-ar.fina dal-ar dalDotbelow-ar.fina dalDotbelow-ar dalDotbelowTah-ar.fina dalDotbelowTah-ar dalFourdots-ar.fina dalFourdots-ar dalRing-ar.fina dalRing-ar dalThreedotsbelow-ar.fina dalThreedotsbelow-ar dalThreedotsdown-ar.fina dalThreedotsdown-ar dalTwodotsverticalbelowTah-ar.fina dalTwodotsverticalbelowTah-ar dalVinvertedabove-ar.fina dalVinvertedabove-ar dalVinvertedbelow-ar.fina dalVinvertedbelow-ar ddahal-ar.fina ddahal-ar ddal-ar.fina ddal-ar dul-ar.fina dul-ar thal-ar.fina thal-ar];
 @c_lowered = [kasra-ar.lowered kasratan-ar.lowered];
