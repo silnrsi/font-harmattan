@@ -239,7 +239,8 @@ do if opt("noOTkern") == "";	# enable kerning for now
 {
     script arab;  # Arabic
         lookup mainkern;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -258,7 +259,8 @@ feature mark {  # Mark to base Positioning
         lookup MarkToLig;
 ## TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
 ##        lookup AlefMark2BelowAfterLam;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;

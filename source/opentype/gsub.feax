@@ -982,7 +982,7 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup LatinPunctuation;
     script arab;
         lookup DecomposeForColor;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
         # Kurdish uses raised kasra
@@ -1010,7 +1010,7 @@ feature ccmp {  # Glyph Composition/Decomposition
 feature fina {  # Terminal Forms
     script arab;
       	lookup ltrFina;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
       language RHG ;
@@ -1024,7 +1024,7 @@ feature fina {  # Terminal Forms
 feature medi {  # Medial Forms
     script arab;
       	lookup ltrMedi;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
       language RHG ;
@@ -1038,7 +1038,7 @@ feature medi {  # Medial Forms
 feature init {  # Initial Forms
     script arab;
       	lookup ltrInit;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
       language RHG ;
@@ -1062,7 +1062,8 @@ ifinfo(familyName, "Harmattan") {
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -1122,7 +1123,7 @@ do let f = info("familyName");
 feature salt {  # Stylistic Alternates
     script arab;
         lookup AyahAlternates;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;  # Kyrgyz
       language KUR ;  # Kurdish
       language RHG ;  # Rohingya
@@ -1148,7 +1149,8 @@ do let f = info("familyName");
 #    } ;
 #    script arab;  # Arabic
 #        lookup WarshAlternates;
-#      # Force other languages to include Arabic script lookups
+#      # Force other languages to include Arabic script lookups:
+#      language KIR  ;
 #      language KUR  ;
 #      language RHG  ;
 #      language SND  ;
@@ -1164,7 +1166,8 @@ feature cv08 {  # Character Variant 08
     } ;
     script arab;  # Arabic
         lookup JeemHahMedAlternate;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -1188,7 +1191,7 @@ feature cv12 {
     } ;
     script arab;
         lookup DalAlternate;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
       language RHG ;
@@ -1211,7 +1214,8 @@ feature cv20 {  # Character Variant 20
     } ;
     script arab;  # Arabic
         lookup SadDadAlternate;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
+      language KIR  ;
       language KUR  ;
       language RHG  ;
       language SND  ;
@@ -1231,7 +1235,7 @@ feature cv44 {  # Character Variant 44
     } ;
     script arab;
         lookup MeemAlternate;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
       language RHG ;
@@ -1251,7 +1255,7 @@ feature cv48 {  # Character Variant 48
     } ;
     script arab;
         lookup HehAlternates;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
       language SND ;
@@ -1268,7 +1272,7 @@ feature cv51 {  # Character Variant 51
     } ;
     script arab;  # Arabic
         lookup KyrgyzOeAlternates;
-      # Force other languages to include Arabic script lookups
+      # Force other languages to include Arabic script lookups:
       language KIR  ;
       language KUR  ;
       language KUR  ;
@@ -1287,7 +1291,7 @@ feature cv54 {  # Character Variant 54
     } ;
     script arab;  # Arabic
      lookup YehHamzaAlternates;
-     # Force other languages to include Arabic script lookups
+     # Force other languages to include Arabic script lookups:
      language KIR  ;
      language KUR  ;
      language KUR  ;
