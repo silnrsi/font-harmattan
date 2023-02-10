@@ -91,8 +91,8 @@ noonVinvertedabove-ar.fina = noonghunna-ar.fina + _invSmallV@above
 noonVinvertedabove-ar.medi = behDotless-ar.medi + _invSmallV@above
 noonVinvertedabove-ar.init = behDotless-ar.init + _invSmallV@above
 
-hahVinvertedbelow-ar = hah-ar + _hat@center[with=_above] | 088A
-hahVinvertedbelow-ar.fina = hah-ar.fina + _invSmallV@center[with=_above]
+hahVinvertedbelow-ar = hah-ar + _invSmallV@center | 088A
+hahVinvertedbelow-ar.fina = hah-ar.fina + _invSmallV@center
 hahVinvertedbelow-ar.medi = hah-ar.medi + _invSmallV@below
 hahVinvertedbelow-ar.init = hah-ar.init + _invSmallV@below
 

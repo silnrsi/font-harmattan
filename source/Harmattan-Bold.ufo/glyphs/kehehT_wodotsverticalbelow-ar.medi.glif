@@ -3,7 +3,7 @@
   <advance width="1503"/>
   <anchor x="129" y="555" name="alef"/>
   <anchor x="480" y="979" name="diaA"/>
-  <anchor x="718" y="-133" name="diaB"/>
+  <anchor x="618" y="-733" name="diaB"/>
   <outline>
     <component base="kaf-ar.medi"/>
     <component base="_dot2v" xOffset="688" yOffset="-416"/>

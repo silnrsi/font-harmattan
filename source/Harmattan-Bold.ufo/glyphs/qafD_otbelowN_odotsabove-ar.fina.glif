@@ -3,7 +3,7 @@
   <advance width="1452"/>
   <anchor x="416" y="778" name="alef"/>
   <anchor x="970" y="640" name="diaA"/>
-  <anchor x="737" y="-460" name="diaB"/>
+  <anchor x="737" y="-860" name="diaB"/>
   <outline>
     <component base="qafDotless-ar.fina"/>
     <component base="_dot1" xOffset="1092" yOffset="-611"/>

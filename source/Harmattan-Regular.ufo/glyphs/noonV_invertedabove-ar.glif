@@ -2,8 +2,8 @@
 <glyph name="noonVinvertedabove-ar" format="2">
   <advance width="1174"/>
   <unicode hex="0889"/>
-  <anchor x="166" y="408" name="alef"/>
-  <anchor x="594" y="435" name="diaA"/>
+  <anchor x="370" y="658" name="alef"/>
+  <anchor x="588" y="765" name="diaA"/>
   <anchor x="558" y="-592" name="diaB"/>
   <outline>
     <component base="noonghunna-ar"/>
