@@ -22,6 +22,8 @@
 /jeem-ar.init/hah-ar.init/waw-ar/khah-ar.init/hahHamzaabove-ar.init/hahTwodotsverticalabove-ar.init/nyeh-ar.init/dyeh-ar.init/hahThreedotsabove-ar.init/tcheh-ar.init/tcheheh-ar.init/waw-ar/tchehDotabove-ar.init/hahTwodotshorizontalabove-ar.init/hahThreedotsupbelow-ar.init/hahTahbelow-ar.init/hahTahTwodotshorizontalbelow-ar.init/waw-ar/hahTahabove-ar.init/hahFourbelow-ar.init/jeemTwodotsabove-ar.init 
 /heh-ar.init.hooked/hehgoal-ar.init/hehgoalHamzaabove-ar.init/heh-ar.init/hehDoachashmee-ar.init/hehVinvertedabove-ar.init/heh-ar.knotted</string>
     <string>/highhamza-ar/space/highhamzaAlef-ar/space/highhamzaAlef-ar.fina/space/highhamzaWaw-ar/highhamzaWaw-ar.fina/space/space/highhamzaYeh-ar/highhamzaYeh-ar.fina/space/highhamzaYeh-ar.medi/highhamzaYeh-ar.init/space/space/space/space/space/space/space/uHamzaabove-ar/uHamzaabove-ar.fina/space/space</string>
+    <string>/_hat/vinvertedabove-ar/noonghunna-ar/noonVinvertedabove-ar/noonVinvertedabove-ar.fina/noonVinvertedabove-ar.medi/noonVinvertedabove-ar.init</string>
+    <string>/_hat/space/space/vinvertedabove-ar/noonVinvertedabove-ar/noonVinvertedabove-ar.fina/noonVinvertedabove-ar.medi/noonVinvertedabove-ar.init</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
@@ -288,6 +290,16 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
+    <string>CombGrave</string>
+    <string>CombAcute</string>
+    <string>CombCircum</string>
+    <string>CombTildeOverlay.Lrg</string>
+    <string>CombBreve</string>
+    <string>CombDiaer</string>
+    <string>CombRingAbv</string>
+    <string>CombCaron</string>
+    <string>CombCedilla</string>
+    <string>CombOgonek</string>
     <string>graphemejoinercomb</string>
     <string>pi</string>
     <string>hamza-ar</string>
@@ -1066,7 +1078,6 @@
     <string>lam_alefTwoabove-ar.fina</string>
     <string>lam_alefThreeabove-ar</string>
     <string>lam_alefThreeabove-ar.fina</string>
-    <string>lam_alefLefthamzaattached-ar.fina</string>
     <string>lamVabove_alef-ar</string>
     <string>lamVabove_alef-ar.fina</string>
     <string>lamVabove_alefWavyhamzaabove-ar</string>
@@ -1805,6 +1816,7 @@
     <string>VS16</string>
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
+    <string>_alef-ar.fina_wide</string>
     <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
@@ -2105,6 +2117,16 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
+    <string>CombGrave</string>
+    <string>CombAcute</string>
+    <string>CombCircum</string>
+    <string>CombTildeOverlay.Lrg</string>
+    <string>CombBreve</string>
+    <string>CombDiaer</string>
+    <string>CombRingAbv</string>
+    <string>CombCaron</string>
+    <string>CombCedilla</string>
+    <string>CombOgonek</string>
     <string>graphemejoinercomb</string>
     <string>pi</string>
     <string>hamza-ar</string>
@@ -2883,7 +2905,6 @@
     <string>lam_alefTwoabove-ar.fina</string>
     <string>lam_alefThreeabove-ar</string>
     <string>lam_alefThreeabove-ar.fina</string>
-    <string>lam_alefLefthamzaattached-ar.fina</string>
     <string>lamVabove_alef-ar</string>
     <string>lamVabove_alef-ar.fina</string>
     <string>lamVabove_alefWavyhamzaabove-ar</string>
@@ -3622,6 +3643,7 @@
     <string>VS16</string>
     <string>objectReplacementCharacter</string>
     <string>replacementCharacter</string>
+    <string>_alef-ar.fina_wide</string>
     <string>_bar</string>
     <string>_bar2</string>
     <string>_damma</string>
@@ -5221,8 +5243,6 @@
     <string>uni06440627</string>
     <key>lam_alef-ar.fina</key>
     <string>uni06440627.fina</string>
-    <key>lam_alefLefthamzaattached-ar.fina</key>
-    <string>uni06440882.fina</string>
     <key>lam_alefThreeabove-ar</key>
     <string>uni06440774</string>
     <key>lam_alefThreeabove-ar.fina</key>
