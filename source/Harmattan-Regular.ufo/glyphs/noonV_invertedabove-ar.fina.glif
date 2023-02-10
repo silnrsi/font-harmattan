@@ -6,6 +6,6 @@
   <anchor x="593" y="-592" name="diaB"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="vinvertedabove-ar" xOffset="424" yOffset="-585"/>
+    <component base="_invSmallV" xOffset="610" yOffset="453"/>
   </outline>
 </glyph>

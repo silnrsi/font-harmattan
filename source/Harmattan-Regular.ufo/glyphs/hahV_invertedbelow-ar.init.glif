@@ -6,6 +6,6 @@
   <anchor x="388" y="-27" name="diaB"/>
   <outline>
     <component base="hah-ar.init"/>
-    <component base="vinvertedabove-ar" xOffset="176" yOffset="-1318"/>
+    <component base="_invSmallV" xOffset="364" yOffset="-303"/>
   </outline>
 </glyph>
