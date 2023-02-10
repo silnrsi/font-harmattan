@@ -38,8 +38,8 @@ lamTahabove-ar = lam-ar + _tah@above | 08C7
 lamTahabove-ar.fina = lam-ar.fina + _tah@above
 lamTahabove-ar.medi = lam-ar.medi + _tah@above
 lamTahabove-ar.init = lam-ar.init + _tah@above
-lamTahabove-ar.medi.preAlef = lam-ar.medi.preAlef + _tah@above
-lamTahabove-ar.init.preAlef = lam-ar.init.preAlef + _tah@above
+###lamTahabove-ar.medi.preAlef = lam-ar.medi.preAlef + _tah@above
+###lamTahabove-ar.init.preAlef = lam-ar.init.preAlef + _tah@above
 
 # --- START --- ABS-2846 New alefs
 # This was used to create the glyphs initially, but then a lot of tweaking was required, so it shouldn't be
@@ -85,3 +85,34 @@ lamTahabove-ar.init.preAlef = lam-ar.init.preAlef + _tah@above
 #alefLefthamzaattached-ar.fina = alef-ar.fina + _highHamza@attLeftMid[with=_above]
 # --- END --- ABS-2845
 
+# --- START --- ABS-2847
+noonVinvertedabove-ar = noonghunna-ar + _hat@above | 0889
+noonVinvertedabove-ar.fina = noonghunna-ar.fina + _hat@above
+noonVinvertedabove-ar.medi = behDotless-ar.medi + _hat@above
+noonVinvertedabove-ar.init = behDotless-ar.init + _hat@above
+
+hahVinvertedbelow-ar = hah-ar + _hat@center[with=_above] | 088A
+hahVinvertedbelow-ar.fina = hah-ar.fina + _hat@center[with=_above]
+hahVinvertedbelow-ar.medi = hah-ar.medi + _hat@below
+hahVinvertedbelow-ar.init = hah-ar.init + _hat@below
+
+tahDotbelow-ar = tah-ar + _dot1@below | 088B
+tahDotbelow-ar.fina = tah-ar.fina + _dot1@below
+tahDotbelow-ar.medi = tah-ar.medi + _dot1@below
+tahDotbelow-ar.init = tah-ar.init + _dot1@below
+
+tahThreedotsbelow-ar = tah-ar + _dot3d@below | 088C
+tahThreedotsbelow-ar.fina = tah-ar.fina + _dot3d@below
+tahThreedotsbelow-ar.medi = tah-ar.medi + _dot3d@below
+tahThreedotsbelow-ar.init = tah-ar.init + _dot3d@below
+
+kehehTwodotsverticalbelow-ar = keheh-ar + _dot2v@below | 088D
+kehehTwodotsverticalbelow-ar.fina = keheh-ar.fina + _dot2v@below
+kehehTwodotsverticalbelow-ar.medi = kaf-ar.medi + _dot2v@below
+kehehTwodotsverticalbelow-ar.init = kaf-ar.init + _dot2v@below
+
+qafDotbelowNodotsabove-ar = qafDotless-ar + _dot1@below | 08B5
+qafDotbelowNodotsabove-ar.fina = qafDotless-ar.fina + _dot1@below
+qafDotbelowNodotsabove-ar.medi = fehDotless-ar.medi + _dot1@below
+qafDotbelowNodotsabove-ar.init = fehDotless-ar.init + _dot1@below
+# --- END --- ABS-2847

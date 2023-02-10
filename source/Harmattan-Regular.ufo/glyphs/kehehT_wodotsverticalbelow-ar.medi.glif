@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kehehTwodotsverticalbelow-ar.medi" format="2">
+  <advance width="1423"/>
+  <anchor x="135" y="500" name="alef"/>
+  <anchor x="448" y="908" name="diaA"/>
+  <anchor x="659" y="-98" name="diaB"/>
+  <outline>
+    <component base="kaf-ar.medi"/>
+    <component base="_dot2v" xOffset="678" yOffset="-319"/>
+  </outline>
+</glyph>
