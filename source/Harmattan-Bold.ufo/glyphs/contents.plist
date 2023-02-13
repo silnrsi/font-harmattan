@@ -1466,6 +1466,8 @@
   <string>hahV_invertedbelow-ar.init.glif</string>
   <key>hahVinvertedbelow-ar.medi</key>
   <string>hahV_invertedbelow-ar.medi.glif</string>
+  <key>hahVinvertedbelow-ar.medi.hand</key>
+  <string>hahV_invertedbelow-ar.medi.hand.glif</string>
   <key>hahabove-ar</key>
   <string>hahabove-ar.glif</string>
   <key>hairspace</key>
