@@ -46,12 +46,12 @@
   <string>C_ombO_gonek.glif</string>
   <key>CombRingAbv</key>
   <string>C_ombR_ingA_bv.glif</string>
-  <key>CombTilde</key>
-  <string>C_ombT_ilde.glif</string>
   <key>CombTildeOverlay.Lrg</key>
   <string>C_ombT_ildeO_verlay.L_rg.glif</string>
   <key>D</key>
   <string>D_.glif</string>
+  <key>Delta</key>
+  <string>D_elta.glif</string>
   <key>E</key>
   <string>E_.glif</string>
   <key>Eacute</key>
@@ -72,12 +72,6 @@
   <string>F_ontB_slnS_ideB_rngM_rkrR_t.glif</string>
   <key>G</key>
   <string>G_.glif</string>
-  <key>GrCapDelta</key>
-  <string>G_rC_apD_elta.glif</string>
-  <key>GrCapOmega</key>
-  <string>G_rC_apO_mega.glif</string>
-  <key>GrCapPi</key>
-  <string>G_rC_apP_i.glif</string>
   <key>H</key>
   <string>H_.glif</string>
   <key>I</key>
@@ -96,8 +90,6 @@
   <string>K_.glif</string>
   <key>L</key>
   <string>L_.glif</string>
-  <key>LtnCapEsh</key>
-  <string>L_tnC_apE_sh.glif</string>
   <key>M</key>
   <string>M_.glif</string>
   <key>N</key>
@@ -1596,8 +1588,6 @@
   <string>igrave.glif</string>
   <key>imaalabelow-ar</key>
   <string>imaalabelow-ar.glif</string>
-  <key>increment</key>
-  <string>increment.glif</string>
   <key>infinity</key>
   <string>infinity.glif</string>
   <key>inhibitformshaping-ar</key>

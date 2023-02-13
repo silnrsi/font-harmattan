@@ -3,6 +3,27 @@
   <advance width="1061"/>
   <unicode hex="220F"/>
   <outline>
-    <component base="GrCapPi"/>
+    <contour>
+      <point x="120" y="0" type="curve"/>
+      <point x="273" y="0" type="line"/>
+      <point x="273" y="971" type="line"/>
+      <point x="768" y="971" type="line"/>
+      <point x="768" y="0" type="line"/>
+      <point x="922" y="0" type="line"/>
+      <point x="911" y="60"/>
+      <point x="911" y="174"/>
+      <point x="911" y="322" type="curve" smooth="yes"/>
+      <point x="911" y="768" type="line" smooth="yes"/>
+      <point x="911" y="916"/>
+      <point x="911" y="1035"/>
+      <point x="922" y="1095" type="curve"/>
+      <point x="120" y="1095" type="line"/>
+      <point x="131" y="1035"/>
+      <point x="131" y="916"/>
+      <point x="131" y="768" type="curve" smooth="yes"/>
+      <point x="131" y="322" type="line" smooth="yes"/>
+      <point x="131" y="174"/>
+      <point x="131" y="60"/>
+    </contour>
   </outline>
 </glyph>
