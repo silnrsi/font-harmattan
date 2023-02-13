@@ -347,15 +347,15 @@ ifinfo(familyName, "Harmattan") {
 
 # Include in this filter kasra and fatha plus any mark glyphs that should stop any ligation:
 # shadda, any MCM other than hamza, cgj.
-@KasraFathaFilter = [ kasra-ar kasra-ar.lowered fatha-ar shadda-ar seenbelow-ar highwaw-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar graphemejoinercomb] ;
-lookup LigaturesForWarsh4 {
-  lookupflag UseMarkFilteringSet @KasraFathaFilter ;
-ifinfo(familyName, "Harmattan") {
-    sub alef-ar kasra-ar          by  alef_kasra-ar ;
-    sub alef-ar kasra-ar.lowered  by  alef_kasra-ar ;
-    sub alef-ar fatha-ar          by  alef_fatha-ar ;
-}
-} LigaturesForWarsh4;
+#@KasraFathaFilter = [ kasra-ar kasra-ar.lowered fatha-ar shadda-ar seenbelow-ar highwaw-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar graphemejoinercomb] ;
+#lookup LigaturesForWarsh4 {
+#  lookupflag UseMarkFilteringSet @KasraFathaFilter ;
+#ifinfo(familyName, "Harmattan") {
+#    sub alef-ar kasra-ar          by  alef_kasra-ar ;
+#    sub alef-ar kasra-ar.lowered  by  alef_kasra-ar ;
+#    sub alef-ar fatha-ar          by  alef_fatha-ar ;
+#}
+#} LigaturesForWarsh4;
 
 
 #********
@@ -1057,7 +1057,7 @@ feature rlig {  # Required Ligatures
 ifinfo(familyName, "Harmattan") {
         lookup LigaturesForWarsh2;
         lookup LigaturesForWarsh3;
-        lookup LigaturesForWarsh4;
+        #lookup LigaturesForWarsh4;
 }
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
