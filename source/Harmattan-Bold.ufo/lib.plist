@@ -22,7 +22,6 @@
 /jeem-ar.init/hah-ar.init/waw-ar/khah-ar.init/hahHamzaabove-ar.init/hahTwodotsverticalabove-ar.init/nyeh-ar.init/dyeh-ar.init/hahThreedotsabove-ar.init/tcheh-ar.init/tcheheh-ar.init/waw-ar/tchehDotabove-ar.init/hahTwodotshorizontalabove-ar.init/hahThreedotsupbelow-ar.init/hahTahbelow-ar.init/hahTahTwodotshorizontalbelow-ar.init/waw-ar/hahTahabove-ar.init/hahFourbelow-ar.init/jeemTwodotsabove-ar.init 
 /heh-ar.init.hooked/hehgoal-ar.init/hehgoalHamzaabove-ar.init/heh-ar.init/hehDoachashmee-ar.init/hehVinvertedabove-ar.init/heh-ar.knotted</string>
     <string>/highhamza-ar/space/highhamzaAlef-ar/space/highhamzaAlef-ar.fina/space/highhamzaWaw-ar/highhamzaWaw-ar.fina/space/space/highhamzaYeh-ar/highhamzaYeh-ar.fina/space/highhamzaYeh-ar.medi/highhamzaYeh-ar.init/space/space/space/space/space/space/space/uHamzaabove-ar/uHamzaabove-ar.fina/space/space</string>
-    <string>/CombTildeOverlay.Lrg</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
