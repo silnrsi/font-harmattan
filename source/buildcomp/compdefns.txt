@@ -95,6 +95,7 @@ hahVinvertedbelow-ar = hah-ar + _invSmallV@center[shift=0,-100] | 088A
 hahVinvertedbelow-ar.fina = hah-ar.fina + _invSmallV@center[shift=0,-100]
 hahVinvertedbelow-ar.medi = hah-ar.medi + _invSmallV@below
 hahVinvertedbelow-ar.init = hah-ar.init + _invSmallV@below
+hahVinvertedbelow-ar.medi.hand = hah-ar.medi.hand + _invSmallV@below
 
 tahDotbelow-ar = tah-ar + _dot1@below | 088B
 tahDotbelow-ar.fina = tah-ar.fina + _dot1@below
