@@ -50,7 +50,7 @@ cComplexShape = (
     cDualLinkIsol 
     cDualLinkInit 
     cRightLinkIsol
-    cwarsh
+    //cwarsh
     cAllLamAlefLig
     cAlefPlusMark   
     
