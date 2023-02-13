@@ -330,10 +330,6 @@
   <string>_lamV_above-ar.init.preA_lef.glif</string>
   <key>_lamVabove-ar.medi.preAlef</key>
   <string>_lamV_above-ar.medi.preA_lef.glif</string>
-  <key>_lam_hamza-ar.init.preAlef</key>
-  <string>_lam_hamza-ar.init.preA_lef.glif</string>
-  <key>_lam_hamza-ar.init.preAlef.warsh</key>
-  <string>_lam_hamza-ar.init.preA_lef.warsh.glif</string>
   <key>_lines</key>
   <string>_lines.glif</string>
   <key>_madda</key>
@@ -466,18 +462,10 @@
   <string>alefH_amzaabove-ar.glif</string>
   <key>alefHamzaabove-ar.fina</key>
   <string>alefH_amzaabove-ar.fina.glif</string>
-  <key>alefHamzaabove-ar.fina.warsh</key>
-  <string>alefH_amzaabove-ar.fina.warsh.glif</string>
-  <key>alefHamzaabove-ar.warsh</key>
-  <string>alefH_amzaabove-ar.warsh.glif</string>
   <key>alefHamzabelow-ar</key>
   <string>alefH_amzabelow-ar.glif</string>
   <key>alefHamzabelow-ar.fina</key>
   <string>alefH_amzabelow-ar.fina.glif</string>
-  <key>alefHamzabelow-ar.fina.warsh</key>
-  <string>alefH_amzabelow-ar.fina.warsh.glif</string>
-  <key>alefHamzabelow-ar.warsh</key>
-  <string>alefH_amzabelow-ar.warsh.glif</string>
   <key>alefKasraattached-ar</key>
   <string>alefK_asraattached-ar.glif</string>
   <key>alefKasraattached-ar.fina</key>
@@ -1646,20 +1634,12 @@
   <string>k.glif</string>
   <key>kaf-ar</key>
   <string>kaf-ar.glif</string>
-  <key>kaf-ar.001</key>
-  <string>kaf-ar.001.glif</string>
   <key>kaf-ar.fina</key>
   <string>kaf-ar.fina.glif</string>
-  <key>kaf-ar.fina.001</key>
-  <string>kaf-ar.fina.001.glif</string>
   <key>kaf-ar.init</key>
   <string>kaf-ar.init.glif</string>
-  <key>kaf-ar.init.001</key>
-  <string>kaf-ar.init.001.glif</string>
   <key>kaf-ar.medi</key>
   <string>kaf-ar.medi.glif</string>
-  <key>kaf-ar.medi.001</key>
-  <string>kaf-ar.medi.001.glif</string>
   <key>kafDotabove-ar</key>
   <string>kafD_otabove-ar.glif</string>
   <key>kafDotabove-ar.fina</key>
@@ -1736,12 +1716,8 @@
   <string>kasratanC_urly-ar.glif</string>
   <key>keheh-ar</key>
   <string>keheh-ar.glif</string>
-  <key>keheh-ar.001</key>
-  <string>keheh-ar.001.glif</string>
   <key>keheh-ar.fina</key>
   <string>keheh-ar.fina.glif</string>
-  <key>keheh-ar.fina.001</key>
-  <string>keheh-ar.fina.001.glif</string>
   <key>keheh-ar.init</key>
   <string>keheh-ar.init.glif</string>
   <key>keheh-ar.medi</key>
