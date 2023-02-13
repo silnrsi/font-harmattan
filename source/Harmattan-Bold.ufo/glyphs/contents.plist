@@ -46,8 +46,6 @@
   <string>C_ombO_gonek.glif</string>
   <key>CombRingAbv</key>
   <string>C_ombR_ingA_bv.glif</string>
-  <key>CombTildeOverlay.Lrg</key>
-  <string>C_ombT_ildeO_verlay.L_rg.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
@@ -1492,8 +1490,6 @@
   <string>hehD_oachashmee-ar.fina.glif</string>
   <key>hehDoachashmee-ar.init</key>
   <string>hehD_oachashmee-ar.init.glif</string>
-  <key>hehDoachashmee-ar.init.001</key>
-  <string>hehD_oachashmee-ar.init.001.glif</string>
   <key>hehDoachashmee-ar.medi</key>
   <string>hehD_oachashmee-ar.medi.glif</string>
   <key>hehHamzaabove-ar</key>
