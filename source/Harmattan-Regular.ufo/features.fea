@@ -2678,11 +2678,11 @@ lookup LigaturesForWarsh3 {
 #@KasraFathaFilter = [ kasra-ar kasra-ar.lowered fatha-ar shadda-ar seenbelow-ar highwaw-ar noonabove-ar noonghunnaabove-ar seenabove-ar yehabove-ar graphemejoinercomb] ;
 #lookup LigaturesForWarsh4 {
 #  lookupflag UseMarkFilteringSet @KasraFathaFilter ;
-#ifinfo(familyName, "Harmattan") {
+#  ifinfo(familyName, "Harmattan") {
 #    sub alef-ar kasra-ar          by  alef_kasra-ar ;
 #    sub alef-ar kasra-ar.lowered  by  alef_kasra-ar ;
 #    sub alef-ar fatha-ar          by  alef_fatha-ar ;
-#}
+#  }
 #} LigaturesForWarsh4;
 #********
 # Ligatures of marks
@@ -2766,22 +2766,32 @@ lookup ShaddaAlefLigatures {
 #include(../../source/opentype/customShaping.feax)
 
 # Lateef
-# Note: Setting default kasra is done in ccmp
+# Language-specific shaping
 lookup dfltCALT {
+    # (need at least a dummy lookup for TT)
     lookupflag 0;
-    sub tab by tab;
-    # Need a dummy lookup for Typetuner
+    
+            sub @Kasra by @Kasra_lowered;
+
 } dfltCALT;
 
 lookup KurdishCALT {
     lookupflag 0;
     sub heh-ar.fina by heh-ar.fina.knottedHigh;
     sub heh-ar by heh-ar.knotted;
+    # Sch/Lateef default kasra behavior is high = ABS system default
+            sub @Kasra_lowered by @Kasra;
+        # high kasra
+
 } KurdishCALT;
 
 lookup KyrgyzCALT {
     lookupflag 0;
     sub @cno_loclKIR by @c_loclKIR;
+    # Sch/Lateef default kasra behavior is high = ABS system default
+            sub @Kasra_lowered by @Kasra;
+        # high kasra
+
 } KyrgyzCALT;
 
 lookup RohingyaCALT {
@@ -2790,15 +2800,16 @@ lookup RohingyaCALT {
     sub six-persian by six-persian.urdu;
     sub seven-persian by seven-persian.urdu;
     sub @cno_sixNine by @c_sixNine;
+    sub @Kasra by @Kasra_lowered;
 } RohingyaCALT;
 
 lookup SindhiCALT {
     lookupflag 0;
     sub six-persian by six-persian.urdu;
     sub seven-persian by seven-persian.urdu;
-    sub @Meem by @Meem.sindhi;
-    # MMM  removed from Lateef - ABS-2469; should these be consistent?
+    sub @cno_sindhi by @c_sindhi;
     
+    sub @Kasra by @Kasra_lowered;
 } SindhiCALT;
 
 lookup UrduCALT {
@@ -2806,6 +2817,7 @@ lookup UrduCALT {
     sub four-persian by four-persian.urdu;
     sub six-persian by six-persian.urdu;
     sub seven-persian by seven-persian.urdu;
+    sub @Kasra by @Kasra_lowered;
 } UrduCALT;
 
 lookup WolofCALT {
@@ -2813,7 +2825,6 @@ lookup WolofCALT {
     sub @cno_loclWLF by @c_loclWLF;
     sub @Damma by @Damma_short;
     sub @Kasra by @Kasra_lowered;
-    # MMM - Sch and Lat 
 } WolofCALT;
 
 #********************
@@ -2888,7 +2899,7 @@ lookup WolofCALT {
 
 lookup MeemAlternate {
     lookupflag IgnoreMarks;
-    sub @Meem by @Meem.sindhi;
+    sub @cno_sindhi by @c_sindhi;
     # MMM replace with c/cno_sindhi classes
 } MeemAlternate;
 
@@ -3012,7 +3023,6 @@ lookup DaggerAlefAlternates {
     lookupflag 0;
     # By this time, we've already changed to alefabove-ar.large in contexts where it might be wanted (eg, in Sch).
     # Now return it to small if cv76=2.
-    
             sub @TakesLargeDaggerAlef alefabove-ar' lookup _DaggerAlefAlt;
 
     
@@ -3369,16 +3379,16 @@ feature ccmp {
     language KUR;
     # Kurdish uses raised kasra
     language RHG;
-    lookup KasraLow;
+    #        lookup KasraLow ;
     language SND;
-    lookup KasraLow;
+    #        lookup KasraLow ;
     language URD;
-    lookup KasraLow;
+    #        lookup KasraLow ;
     language WLF;
-    lookup KasraLow;
+    #        lookup KasraLow ;
     # The glyph set is defined to make kasra-high the default; here we want low to be default.
     language dflt;
-    lookup KasraLow;
+    #        lookup KasraLow ;
     script latn;
     # Latin
     lookup KasraLow;
@@ -3467,9 +3477,8 @@ feature calt {
     # end of kerning substitutions
     lookup WideKashida;
     language dflt;
-    # Must have a lookup here for TypeTuner to work. - MMM not in L
+    # Must have a lookup here for TypeTuner to work.
     lookup dfltCALT;
-    # still needed by Harmattan?
     language KIR;
     # Kyrgyz
     lookup KyrgyzCALT;
