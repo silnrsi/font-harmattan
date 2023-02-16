@@ -7,6 +7,6 @@
   <anchor x="641" y="-12" name="entry"/>
   <outline>
     <component base="_alef-ar.fina.postLamIni"/>
-    <component base="_wavyHamza" xOffset="253" yOffset="-1630"/>
+    <component base="_wavyHamza" xOffset="343" yOffset="-1700"/>
   </outline>
 </glyph>

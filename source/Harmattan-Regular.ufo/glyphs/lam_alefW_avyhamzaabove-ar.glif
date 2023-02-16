@@ -2,11 +2,11 @@
 <glyph name="lam_alefWavyhamzaabove-ar" format="2">
   <advance width="790"/>
   <anchor x="594" y="1132" name="diaA_1"/>
-  <anchor x="32" y="1381" name="diaA_2"/>
+  <anchor x="7" y="1427" name="diaA_2"/>
   <anchor x="669" y="-113" name="diaB_1"/>
   <anchor x="181" y="-89" name="diaB_2"/>
   <outline>
     <component base="_lam-ar.init.preAlef" xOffset="106"/>
-    <component base="_alefWavyhamzaabove-ar.fina.postLamIni"/>
+    <component base="_alefWavyhamzaabove-ar.fina.postLamIni" xOffset="-25" yOffset="46"/>
   </outline>
 </glyph>

@@ -2,11 +2,11 @@
 <glyph name="lamThreedotsabove_alef-ar" format="2">
   <advance width="821"/>
   <anchor x="587" y="1707" name="diaA_1"/>
-  <anchor x="112" y="1007" name="diaA_2"/>
+  <anchor x="118" y="1048" name="diaA_2"/>
   <anchor x="710" y="-113" name="diaB_1"/>
   <anchor x="222" y="-89" name="diaB_2"/>
   <outline>
     <component base="_lamThreedotsabove-ar.init.preAlef" xOffset="137"/>
-    <component base="_alef-ar.fina.postLamIni"/>
+    <component base="_alef-ar.fina.postLamIni" xOffset="6" yOffset="41"/>
   </outline>
 </glyph>
