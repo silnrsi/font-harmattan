@@ -285,13 +285,15 @@
         lamThreedotsbelow_alefHamzaabove-ar.fina  lamTahabove_alefHamzaabove-ar.fina  lamBar_alefHamzaabove-ar.fina  lamDoublebar_alefHamzaabove-ar.fina
     </class>
 
+    <!--
     <class name="LamAlefHamzabelowLig">
         lam_alefHamzabelow-ar  lamVabove_alefHamzabelow-ar  lamDotabove_alefHamzabelow-ar  lamThreedotsabove_alefHamzabelow-ar
         lamThreedotsbelow_alefHamzabelow-ar  lamTahabove_alefHamzabelow-ar  lamBar_alefHamzabelow-ar  lamDoublebar_alefHamzabelow-ar
         lam_alefHamzabelow-ar.fina  lamVabove_alefHamzabelow-ar.fina  lamDotabove_alefHamzabelow-ar.fina  lamThreedotsabove_alefHamzabelow-ar.fina
         lamThreedotsbelow_alefHamzabelow-ar.fina  lamTahabove_alefHamzabelow-ar.fina  lamBar_alefHamzabelow-ar.fina  lamDoublebar_alefHamzabelow-ar.fina
     </class>
-
+    -->
+    
     <class name="LamAlefWaslaLig">
         lam_alefWasla-ar  lamVabove_alefWasla-ar  lamDotabove_alefWasla-ar  lamThreedotsabove_alefWasla-ar
         lamThreedotsbelow_alefWasla-ar  lamTahabove_alefWasla-ar  lamBar_alefWasla-ar  lamDoublebar_alefWasla-ar
@@ -326,9 +328,10 @@
         lam_alefThreeabove-ar.fina  lamVabove_alefThreeabove-ar.fina  lamDotabove_alefThreeabove-ar.fina  lamThreedotsabove_alefThreeabove-ar.fina
         lamThreedotsbelow_alefThreeabove-ar.fina  lamTahabove_alefThreeabove-ar.fina  lamBar_alefThreeabove-ar.fina  lamDoublebar_alefThreeabove-ar.fina
     </class>
-
+    
     <class name="AllLamAlefLig">
         @LamAlefLig  @LamAlefWaslaLig  @LamAlefWavyHAboveLig  @LamAlefWavyHBelowLig  @LamAlefTwoAboveLig  @LamAlefThreeAboveLig
+        <!-- @LamAlefHamzaBelowLig -->
     </class>
 
 

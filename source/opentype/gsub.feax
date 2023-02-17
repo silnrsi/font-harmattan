@@ -493,10 +493,8 @@ lookup SindhiCALT {
     sub seven-persian by  seven-persian.urdu ;
     sub @cno_sindhi by @c_sindhi ;
     
-ifinfo(familyName, "Scheherazade New") { # removed from Lateef 2021-11:  ABS-2469
-    sub comma-ar      by  comma-ar.downward ;
-    sub semicolon-ar  by  semicolon-ar.downward ;
-}
+    ##sub comma-ar      by  comma-ar.downward ;
+    ##sub semicolon-ar  by  semicolon-ar.downward ;
 
     sub @Kasra        by  @Kasra_lowered ;
 } SindhiCALT;
@@ -851,6 +849,7 @@ lookup ShaddaKasraLigatures {
 
 # Lam-Alef Ligatures
 
+# Create ligatures for characters that do NOT have a decomposition.
 lookup LamAlefLigatures {
   lookupflag IgnoreMarks ;
     sub @LamNoLig   alef-ar.fina                by  @LamAlefLig ;
@@ -864,8 +863,8 @@ lookup LamAlefLigatures {
     sub lam-ar.fina @AlefRareNoLig              by  @LamAlefRareLigFina ;
 	}
 	ifinfo(familyName, "Harmattan") {
-    sub @LamNoLig   alefHamzaabove-ar.fina      by  @LamAlefHamzaaboveLig ;
-    sub @LamNoLig   alefHamzabelow-ar.fina      by  @LamAlefHamzabelowLig ;
+    #sub @LamNoLig   alefHamzaabove-ar.fina      by  @LamAlefHamzaaboveLig ;
+    #sub @LamNoLig   alefHamzabelow-ar.fina      by  @LamAlefHamzabelowLig ; # has a decomposition
 	}
 
 } LamAlefLigatures;
@@ -1074,11 +1073,13 @@ feature rlig {  # Required Ligatures
         lookup AllahLigatures;
         
         #lookup LamAlefLigatures; -- move to liga to go after ShaddaKasraLigatures
-			ifinfo(familyName, "Harmattan") {
-        lookup LigaturesForWarsh2;
-        lookup LigaturesForWarsh3;
+        
+			  #ifinfo(familyName, "Harmattan") {
+        #lookup LigaturesForWarsh2;
+        #lookup LigaturesForWarsh3;
         #lookup LigaturesForWarsh4;
-			}
+			  #}
+			  
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;

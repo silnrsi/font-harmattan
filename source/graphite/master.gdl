@@ -129,7 +129,7 @@ pass(3)	// Contextual forms, lam-alef ligature, subtending marks
 ***/
 	cLamIsolFina  g_alef_ar                 >  cLamAlefLig            g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 	cLamIsolFina  g_alef_hamzaabove_ar      >  cLamAlefHamzaaboveLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
-	cLamIsolFina  g_alef_hamzabelow_ar      >  cLamAlefHamzabelowLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
+//cLamIsolFina  g_alef_hamzabelow_ar      >  cLamAlefHamzabelowLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 	cLamIsolFina  g_alef_wasla_ar           >  cLamAlefWaslaLig       g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 	cLamIsolFina  g_alef_wavyhamzaabove_ar  >  cLamAlefWavyHAboveLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 	cLamIsolFina  g_alef_wavyhamzabelow_ar  >  cLamAlefWavyHBelowLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
