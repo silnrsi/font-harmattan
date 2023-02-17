@@ -2112,10 +2112,10 @@
   <string>lam_alefH_amzaabove-ar.glif</string>
   <key>lam_alefHamzaabove-ar.fina</key>
   <string>lam_alefH_amzaabove-ar.fina.glif</string>
-  <key>lam_alefHamzabelow-ar</key>
-  <string>lam_alefH_amzabelow-ar.glif</string>
-  <key>lam_alefHamzabelow-ar.fina</key>
-  <string>lam_alefH_amzabelow-ar.fina.glif</string>
+  <key>lam_alefHamzabelow_DELETE-ar</key>
+  <string>lam_alefH_amzabelow_D_E_L_E_T_E_-ar.glif</string>
+  <key>lam_alefHamzabelow_DELETE-ar.fina</key>
+  <string>lam_alefH_amzabelow_D_E_L_E_T_E_-ar.fina.glif</string>
   <key>lam_alefThreeabove-ar</key>
   <string>lam_alefT_hreeabove-ar.glif</string>
   <key>lam_alefThreeabove-ar.fina</key>
