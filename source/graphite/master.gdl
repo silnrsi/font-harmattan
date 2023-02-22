@@ -226,7 +226,14 @@ pass(4)	// Features, special behaviors
 	if (hehAlt == urdu)
 		cno_Heh  >  cHehUrdu;
 	endif;
-	
+
+	if (hehDoAlt == kurdish)
+		cno_HehDo  >  cHehDoKurdish;
+	endif;
+	if (hehDoAlt == knotted)
+		cno_HehDo  >  cHehDoKnotted;
+	endif;
+		
 	if (kirghizOe == bar)
 	  (g_kirghizoe_ar g_kirghizoe_ar_fina)  >  (g_kirghizoe_ar_bar g_kirghizoe_ar_fina_bar);
 	endif;

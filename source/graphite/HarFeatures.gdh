@@ -124,6 +124,27 @@ hehAlt {
     default = std;
 }
 
+hehDoAlt {
+    id = "cv49";
+    name.1033 = string("Heh Doachashmee");
+    settings {
+        std {
+            value = 0;
+            name.1033 = string("Standard");
+        }
+        knotted {
+            value = 1;
+            name.1033 = string("Knotted style");
+        }
+        // setting 2 is omitted
+        kurdish {
+            value = 3;
+            name.1033 = string("Kurdish-style");
+        }
+    }
+    default = std;
+}
+
 kirghizOe {
     id = "cv51";
     name.1033 = string("Kyrgyz OE");
@@ -426,7 +447,7 @@ kurdish {
         "ku","kur",  // Kurdish (macrolanguage)
         "sdh"        // Southern Kurdish/Sorani
     );
-    hehAlt = kurdish;
+    hehDoAlt = kurdish;
     shaddaKasra = raised;
 };
 
