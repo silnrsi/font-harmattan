@@ -15,8 +15,8 @@
 @AyahSquare = [endofayah-ar.altB endofayah-ar.altB.2 endofayah-ar.altB.3];
 @AyahAny = [@Ayah @AyahCircle @AyahSquare @AyahDisputed];
 @Damma = [damma-ar shadda_damma-ar hamza_damma-ar];
-@DammaInverted = [dammainverted-ar];
-@DammaInvertedOpen = [];
+@DammaInverted = [dammainverted-ar.filled];
+@DammaInverted_open = [dammainverted-ar];
 @Damma_filled = [damma-ar.filled shadda_damma-ar.filled hamza_damma-ar.filled];
 @Damma_short = [damma-ar.short shadda_damma-ar.short hamza_damma-ar.short];
 @DigitsArabic = [zero-ar one-ar two-ar three-ar four-ar five-ar six-ar seven-ar eight-ar nine-ar];
@@ -3057,8 +3057,9 @@ lookup DammatanAlternate {
 # Inverted Damma alternates: cv74
 lookup DammaInvertedAlternates {
     lookupflag 0;
-    #    sub @DammaInverted     from  [ @DammaInvertedOpen  @DammaInverted ];
-    #    sub @DammaInvertedOpen from  [ @DammaInvertedOpen  @DammaInverted ];
+    #   0=default (filled);         1=hollow;            2=filled
+    sub dammainverted-ar.filled from [dammainverted-ar dammainverted-ar.filled];
+    sub dammainverted-ar from [dammainverted-ar dammainverted-ar.filled];
 } DammaInvertedAlternates;
 
 #********************
@@ -3890,6 +3891,10 @@ feature cv72 {
 
                         ParamUILabelNameID {
                 name "Hollow";
+            };
+
+                        ParamUILabelNameID {
+                name "Filled";
             };
 
         };

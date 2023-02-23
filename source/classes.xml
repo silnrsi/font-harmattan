@@ -587,8 +587,8 @@
     </class>
     
     <!-- *NEXT 2 CLASSES MUST MATCH* -->
-    <class name="DammaInverted">    dammainverted-ar</class>
-    <class name="DammaInvertedOpen">dammainverted-ar.open</class>
+    <class name="DammaInverted">     dammainverted-ar.filled</class>
+    <class name="DammaInverted_open">dammainverted-ar</class>
 
     <!-- cv76 DaggerAlef alternates -->
 

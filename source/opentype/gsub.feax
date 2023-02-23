@@ -723,8 +723,9 @@ lookup DammatanAlternate {
 
 lookup DammaInvertedAlternates {
   lookupflag 0 ;
-#    sub @DammaInverted     from  [ @DammaInvertedOpen  @DammaInverted ];
-#    sub @DammaInvertedOpen from  [ @DammaInvertedOpen  @DammaInverted ];
+    #   0=default (filled);         1=hollow;            2=filled
+    sub @DammaInverted      from  [ @DammaInverted_open  @DammaInverted ];
+    sub @DammaInverted_open from  [ @DammaInverted_open  @DammaInverted ];
 } DammaInvertedAlternates;
 
 #********************
@@ -1425,6 +1426,7 @@ feature cv74 {
         FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
         ParamUILabelNameID { name 3 1 0x0409 "Hollow"         ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Filled"         ; };
     } ;
     # Same for latin & arabic:
       lookup DammaInvertedAlternates;
