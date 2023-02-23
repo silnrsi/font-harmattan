@@ -8,6 +8,6 @@
   <anchor x="516" y="1548" name="U"/>
   <outline>
     <component base="A"/>
-    <component base="CombRingAbv" xOffset="944" yOffset="322"/>
+    <component base="_ringabv" xOffset="944" yOffset="322"/>
   </outline>
 </glyph>

@@ -290,16 +290,6 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
-    <string>CombGrave</string>
-    <string>CombAcute</string>
-    <string>CombCircum</string>
-    <string>CombTildeOverlay.Lrg</string>
-    <string>CombBreve</string>
-    <string>CombDiaer</string>
-    <string>CombRingAbv</string>
-    <string>CombCaron</string>
-    <string>CombCedilla</string>
-    <string>CombOgonek</string>
     <string>graphemejoinercomb</string>
     <string>pi</string>
     <string>hamza-ar</string>
@@ -1256,8 +1246,8 @@
     <string>hehDoachashmee-ar.fina</string>
     <string>hehDoachashmee-ar.medi</string>
     <string>hehDoachashmee-ar.init</string>
-    <string>hehDoachashmee-ar.fina.knottedhigh</string>
-    <string>hehDoachashmee-ar.medi.knottedhigh</string>
+    <string>hehDoachashmee-ar.fina.knottedHigh</string>
+    <string>hehDoachashmee-ar.medi.knottedHigh</string>
     <string>hehVinvertedabove-ar</string>
     <string>hehVinvertedabove-ar.fina</string>
     <string>hehVinvertedabove-ar.medi</string>
@@ -1855,18 +1845,24 @@
     <string>_lines</string>
     <string>_madda</string>
     <string>_madda.small</string>
-    <string>_meem</string>
-    <string>_noon</string>
     <string>_ring</string>
     <string>_smallV</string>
     <string>_tah</string>
     <string>_tah_smallV</string>
-    <string>_teh</string>
     <string>_three</string>
     <string>_two</string>
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
+    <string>_grave</string>
+    <string>_acute</string>
+    <string>_circumflex</string>
+    <string>_breve</string>
+    <string>_dieresis</string>
+    <string>_ringabv</string>
+    <string>_caron</string>
+    <string>_cedilla</string>
+    <string>_ogonek</string>
   </array>
   <key>com.schriftgestaltung.keyboardIncrement</key>
   <integer>1</integer>
@@ -2119,16 +2115,6 @@
     <string>ogonek</string>
     <string>tilde</string>
     <string>hungarumlaut</string>
-    <string>CombGrave</string>
-    <string>CombAcute</string>
-    <string>CombCircum</string>
-    <string>CombTildeOverlay.Lrg</string>
-    <string>CombBreve</string>
-    <string>CombDiaer</string>
-    <string>CombRingAbv</string>
-    <string>CombCaron</string>
-    <string>CombCedilla</string>
-    <string>CombOgonek</string>
     <string>graphemejoinercomb</string>
     <string>pi</string>
     <string>hamza-ar</string>
@@ -3085,8 +3071,8 @@
     <string>hehDoachashmee-ar.fina</string>
     <string>hehDoachashmee-ar.medi</string>
     <string>hehDoachashmee-ar.init</string>
-    <string>hehDoachashmee-ar.fina.knottedhigh</string>
-    <string>hehDoachashmee-ar.medi.knottedhigh</string>
+    <string>hehDoachashmee-ar.fina.knottedHigh</string>
+    <string>hehDoachashmee-ar.medi.knottedHigh</string>
     <string>hehVinvertedabove-ar</string>
     <string>hehVinvertedabove-ar.fina</string>
     <string>hehVinvertedabove-ar.medi</string>
@@ -3684,18 +3670,24 @@
     <string>_lines</string>
     <string>_madda</string>
     <string>_madda.small</string>
-    <string>_meem</string>
-    <string>_noon</string>
     <string>_ring</string>
     <string>_smallV</string>
     <string>_tah</string>
     <string>_tah_smallV</string>
-    <string>_teh</string>
     <string>_three</string>
     <string>_two</string>
     <string>_vline</string>
     <string>_wasla</string>
     <string>_wavyHamza</string>
+    <string>_grave</string>
+    <string>_acute</string>
+    <string>_circumflex</string>
+    <string>_breve</string>
+    <string>_dieresis</string>
+    <string>_ringabv</string>
+    <string>_caron</string>
+    <string>_cedilla</string>
+    <string>_ogonek</string>
   </array>
   <key>public.postscriptNames</key>
   <dict>
@@ -4711,14 +4703,14 @@
     <string>uni06BE</string>
     <key>hehDoachashmee-ar.fina</key>
     <string>uni06BE.fina</string>
-    <key>hehDoachashmee-ar.fina.knottedhigh</key>
-    <string>uni06BE.fina.knottedhigh</string>
+    <key>hehDoachashmee-ar.fina.knottedHigh</key>
+    <string>uni06BE.fina.knottedHigh</string>
     <key>hehDoachashmee-ar.init</key>
     <string>uni06BE.init</string>
     <key>hehDoachashmee-ar.medi</key>
     <string>uni06BE.medi</string>
-    <key>hehDoachashmee-ar.medi.knottedhigh</key>
-    <string>uni06BE.medi.knottedhigh</string>
+    <key>hehDoachashmee-ar.medi.knottedHigh</key>
+    <string>uni06BE.medi.knottedHigh</string>
     <key>hehHamzaabove-ar</key>
     <string>uni06C0</string>
     <key>hehHamzaabove-ar.fina</key>

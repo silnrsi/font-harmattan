@@ -4,6 +4,6 @@
   <unicode hex="00A8"/>
   <anchor x="255" y="1128" name="U"/>
   <outline>
-    <component base="CombDiaer" xOffset="682"/>
+    <component base="_dieresis" xOffset="682"/>
   </outline>
 </glyph>

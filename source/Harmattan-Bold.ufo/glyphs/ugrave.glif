@@ -9,6 +9,6 @@
   <anchor x="491" y="1226" name="U"/>
   <outline>
     <component base="u"/>
-    <component base="CombGrave" xOffset="933"/>
+    <component base="_grave" xOffset="933"/>
   </outline>
 </glyph>

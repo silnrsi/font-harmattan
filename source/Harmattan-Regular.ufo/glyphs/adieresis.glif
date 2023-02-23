@@ -9,6 +9,6 @@
   <anchor x="405" y="1128" name="U"/>
   <outline>
     <component base="a"/>
-    <component base="CombDiaer" xOffset="832"/>
+    <component base="_dieresis" xOffset="832"/>
   </outline>
 </glyph>

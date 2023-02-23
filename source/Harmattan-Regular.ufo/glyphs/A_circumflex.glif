@@ -8,6 +8,6 @@
   <anchor x="515" y="1548" name="U"/>
   <outline>
     <component base="A"/>
-    <component base="CombCircum" xOffset="942" yOffset="322"/>
+    <component base="_circumflex" xOffset="942" yOffset="322"/>
   </outline>
 </glyph>

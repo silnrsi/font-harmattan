@@ -28,24 +28,6 @@
   <string>C_.glif</string>
   <key>Ccedilla</key>
   <string>C_cedilla.glif</string>
-  <key>CombAcute</key>
-  <string>C_ombA_cute.glif</string>
-  <key>CombBreve</key>
-  <string>C_ombB_reve.glif</string>
-  <key>CombCaron</key>
-  <string>C_ombC_aron.glif</string>
-  <key>CombCedilla</key>
-  <string>C_ombC_edilla.glif</string>
-  <key>CombCircum</key>
-  <string>C_ombC_ircum.glif</string>
-  <key>CombDiaer</key>
-  <string>C_ombD_iaer.glif</string>
-  <key>CombGrave</key>
-  <string>C_ombG_rave.glif</string>
-  <key>CombOgonek</key>
-  <string>C_ombO_gonek.glif</string>
-  <key>CombRingAbv</key>
-  <string>C_ombR_ingA_bv.glif</string>
   <key>D</key>
   <string>D_.glif</string>
   <key>Delta</key>
@@ -184,6 +166,8 @@
   <string>Z_.glif</string>
   <key>Zcaron</key>
   <string>Z_caron.glif</string>
+  <key>_acute</key>
+  <string>_acute.glif</string>
   <key>_alef-ar.fina.postLamIni</key>
   <string>_alef-ar.fina.postL_amI_ni.glif</string>
   <key>_alef-ar.fina.postLamMed</key>
@@ -230,10 +214,20 @@
   <string>_bar.glif</string>
   <key>_bar2</key>
   <string>_bar2.glif</string>
+  <key>_breve</key>
+  <string>_breve.glif</string>
+  <key>_caron</key>
+  <string>_caron.glif</string>
+  <key>_cedilla</key>
+  <string>_cedilla.glif</string>
+  <key>_circumflex</key>
+  <string>_circumflex.glif</string>
   <key>_damma</key>
   <string>_damma.glif</string>
   <key>_damma.filled</key>
   <string>_damma.filled.glif</string>
+  <key>_dieresis</key>
+  <string>_dieresis.glif</string>
   <key>_dot1</key>
   <string>_dot1.glif</string>
   <key>_dot1_dot3d</key>
@@ -280,6 +274,8 @@
   <string>_gafB_ar_dot2h.glif</string>
   <key>_gafBar_dot3u</key>
   <string>_gafB_ar_dot3u.glif</string>
+  <key>_grave</key>
+  <string>_grave.glif</string>
   <key>_hamza</key>
   <string>_hamza.glif</string>
   <key>_hamzaDamma</key>
@@ -334,8 +330,12 @@
   <string>_madda.glif</string>
   <key>_madda.small</key>
   <string>_madda.small.glif</string>
+  <key>_ogonek</key>
+  <string>_ogonek.glif</string>
   <key>_ring</key>
   <string>_ring.glif</string>
+  <key>_ringabv</key>
+  <string>_ringabv.glif</string>
   <key>_smallV</key>
   <string>_smallV_.glif</string>
   <key>_tah</key>

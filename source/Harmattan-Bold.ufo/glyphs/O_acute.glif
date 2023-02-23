@@ -9,6 +9,6 @@
   <anchor x="510" y="1548" name="U"/>
   <outline>
     <component base="O"/>
-    <component base="CombAcute" xOffset="960" yOffset="322"/>
+    <component base="_acute" xOffset="960" yOffset="322"/>
   </outline>
 </glyph>

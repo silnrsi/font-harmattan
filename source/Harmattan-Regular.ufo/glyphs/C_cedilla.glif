@@ -6,6 +6,6 @@
   <anchor x="562" y="1147" name="U"/>
   <outline>
     <component base="C"/>
-    <component base="CombCedilla" xOffset="990"/>
+    <component base="_cedilla" xOffset="990"/>
   </outline>
 </glyph>

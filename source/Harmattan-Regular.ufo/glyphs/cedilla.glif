@@ -4,6 +4,6 @@
   <unicode hex="00B8"/>
   <anchor x="78" y="-390" name="L"/>
   <outline>
-    <component base="CombCedilla" xOffset="528"/>
+    <component base="_cedilla" xOffset="528"/>
   </outline>
 </glyph>

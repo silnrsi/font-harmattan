@@ -7,6 +7,6 @@
   <anchor x="393" y="1226" name="U"/>
   <outline>
     <component base="z"/>
-    <component base="CombCaron" xOffset="821"/>
+    <component base="_caron" xOffset="821"/>
   </outline>
 </glyph>
