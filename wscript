@@ -12,7 +12,7 @@ APPNAME = 'Harmattan'
 FAMILY = APPNAME
 
 # Get version info from Regular UFO; must be first function call:
-getufoinfo('source/' + FAMILY + '-Regular' + '.ufo')
+getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 
 ftmlTest('tools/lib/ftml-smith.xsl')
 
@@ -46,7 +46,7 @@ if '--graphite' in opts:
         )
     
 if '--norename' not in opts:
-    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo']))
+    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:FILENAME_BASE}.ufo']))
 
 # Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 # but if you want to try again:

@@ -83,7 +83,7 @@ then
         -s "url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)|Reg-OT" \
         -s "url(../results/Harmattan-Bold.ttf)|Bld-Gr" \
         -s "url(../results/tests/ftml/fonts/Harmattan-Bold_ot_arab.ttf)|Bld-OT" \
-        source/Harmattan-Regular.ufo source/kerndata.ftml 
+        source/masters/Harmattan-Regular.ufo source/kerndata.ftml 
 fi
 
 if [ ${FTML} -gt 1 ]

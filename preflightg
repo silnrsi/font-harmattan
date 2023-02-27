@@ -3,7 +3,7 @@
 
 echo ""
 echo "Converting .glyphs to UFO3..."
-if psfglyphs2ufo --nofea source/Harmattan-RB.glyphs source
+if psfglyphs2ufo --nofea source/masters/Harmattan-RB.glyphs source
 then
 	# Continue with normal preflight
 	./preflight

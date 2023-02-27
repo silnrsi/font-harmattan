@@ -6,14 +6,14 @@
         </axis>
     </axes>
     <sources>
-        <source name="Harmattan Regular" familyname="Harmattan" filename="Harmattan-Regular.ufo" stylename="Regular">
+        <source name="Harmattan Regular" familyname="Harmattan" filename="masters/Harmattan-Regular.ufo" stylename="Regular">
             <lib copy="1" />
             <info copy="1" />
             <location>
                 <dimension name="weight" xvalue="400" />
             </location>
         </source>
-        <source name="Harmattan Bold" familyname="Harmattan" filename="Harmattan-Bold.ufo" stylename="Bold">
+        <source name="Harmattan Bold" familyname="Harmattan" filename="masters/Harmattan-Bold.ufo" stylename="Bold">
             <location>
                 <dimension name="weight" xvalue="700" />
             </location>
