@@ -6,7 +6,7 @@
   <anchor x="373" y="-365" name="diaB"/>
   <outline>
     <component base="hah-ar.medi"/>
-    <component base="_dot2h" xOffset="363" yOffset="813"/>
     <component base="_dot1" xOffset="391" yOffset="-145"/>
+    <component base="_dot2h" xOffset="363" yOffset="813"/>
   </outline>
 </glyph>

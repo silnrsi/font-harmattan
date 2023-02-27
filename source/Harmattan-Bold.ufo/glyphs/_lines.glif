@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="_lines" format="2">
-  <anchor x="5" y="-137" name="_above"/>
+  <anchor x="-1" y="-168" name="_diaA"/>
+  <anchor x="4" y="365" name="diaA"/>
   <outline>
     <component base="_vline" xOffset="-90"/>
     <component base="_vline" xOffset="111"/>

@@ -2,6 +2,7 @@
 <glyph name="_tah" format="2">
   <anchor x="12" y="-172" name="_above"/>
   <anchor x="13" y="339" name="_below"/>
+  <anchor x="33" y="172" name="_center"/>
   <outline>
     <contour>
       <point x="30" y="-146" type="curve" smooth="yes"/>

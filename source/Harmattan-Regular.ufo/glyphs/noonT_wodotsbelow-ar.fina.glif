@@ -6,7 +6,7 @@
   <anchor x="554" y="-928" name="diaB"/>
   <outline>
     <component base="noonghunna-ar.fina"/>
-    <component base="_dot1" xOffset="590" yOffset="584"/>
     <component base="_dot2h" xOffset="564" yOffset="-760"/>
+    <component base="_dot1" xOffset="590" yOffset="584"/>
   </outline>
 </glyph>

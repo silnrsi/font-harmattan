@@ -2,6 +2,7 @@
 <glyph name="_dot2v" format="2">
   <anchor x="0" y="-308" name="_above"/>
   <anchor x="0" y="261" name="_below"/>
+  <anchor x="-15" y="-7" name="_center"/>
   <outline>
     <contour>
       <point x="16" y="-236" type="curve"/>

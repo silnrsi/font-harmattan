@@ -2,9 +2,7 @@
 <glyph name="kaf-ar" format="2">
   <advance width="1349"/>
   <unicode hex="0643"/>
-  <anchor x="672" y="805" name="above"/>
   <anchor x="217" y="624" name="alef"/>
-  <anchor x="704" y="-88" name="below"/>
   <anchor x="652" y="854" name="diaA"/>
   <anchor x="697" y="-115" name="diaB"/>
   <outline>

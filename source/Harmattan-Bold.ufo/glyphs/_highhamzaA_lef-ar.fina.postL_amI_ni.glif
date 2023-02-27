@@ -7,7 +7,7 @@
   <anchor x="181" y="-145" name="diaB"/>
   <anchor x="641" y="-12" name="entry"/>
   <outline>
-    <component base="highhamza-ar" xOffset="90"/>
     <component base="_alef-ar.fina.postLamIni"/>
+    <component base="highhamza-ar" xOffset="90"/>
   </outline>
 </glyph>

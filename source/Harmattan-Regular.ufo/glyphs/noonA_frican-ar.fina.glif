@@ -2,7 +2,6 @@
 <glyph name="noonAfrican-ar.fina" format="2">
   <advance width="1262"/>
   <anchor x="367" y="448" name="alef"/>
-  <anchor x="571" y="-585" name="below"/>
   <anchor x="605" y="435" name="diaA"/>
   <anchor x="580" y="-592" name="diaB"/>
   <outline>

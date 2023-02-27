@@ -6,7 +6,7 @@
   <anchor x="581" y="1153" name="diaA"/>
   <anchor x="783" y="-106" name="diaB"/>
   <outline>
-    <component base="_dot1" xOffset="610" yOffset="959"/>
     <component base="kaf-ar"/>
+    <component base="_dot1" xOffset="610" yOffset="959"/>
   </outline>
 </glyph>

@@ -6,7 +6,7 @@
   <anchor x="457" y="-447" name="diaB"/>
   <outline>
     <component base="dal-ar.fina.loclWLF"/>
-    <component base="_tah" xOffset="162" yOffset="992"/>
     <component base="_dot1" xOffset="458" yOffset="-249"/>
+    <component base="_tah" xOffset="162" yOffset="992"/>
   </outline>
 </glyph>

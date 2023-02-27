@@ -6,7 +6,7 @@
   <anchor x="766" y="-115" name="diaB"/>
   <outline>
     <component base="keheh-ar.fina"/>
-    <component base="_dot2h" xOffset="330" yOffset="1080"/>
     <component base="_gafBarShort" xOffset="261" yOffset="668"/>
+    <component base="_dot2h" xOffset="330" yOffset="1080"/>
   </outline>
 </glyph>

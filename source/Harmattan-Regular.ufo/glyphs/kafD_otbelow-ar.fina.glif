@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kafDotbelow-ar.fina" format="2">
   <advance width="1381"/>
-  <anchor x="691" y="805" name="above"/>
   <anchor x="206" y="624" name="alef"/>
   <anchor x="641" y="854" name="diaA"/>
   <anchor x="700" y="-421" name="diaB"/>
