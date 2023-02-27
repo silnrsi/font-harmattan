@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamDotabove_alefWasla-ar" format="2">
-  <advance width="853"/>
-  <anchor x="609" y="1529" name="diaA_1"/>
-  <anchor x="63" y="1437" name="diaA_2"/>
-  <anchor x="669" y="-113" name="diaB_1"/>
-  <anchor x="181" y="-145" name="diaB_2"/>
+  <advance width="850"/>
+  <anchor x="606" y="1529" name="diaA_1"/>
+  <anchor x="60" y="1432" name="diaA_2"/>
+  <anchor x="666" y="-113" name="diaB_1"/>
+  <anchor x="178" y="-145" name="diaB_2"/>
   <outline>
-    <component base="_lamDotabove-ar.init.preAlef" xOffset="96"/>
-    <component base="_alefWasla-ar.fina.postLamIni" xOffset="-5" yOffset="80"/>
+    <component base="_lamDotabove-ar.init.preAlef" xOffset="93"/>
+    <component base="_alefWasla-ar.fina.postLamIni" xOffset="-8" yOffset="80"/>
   </outline>
 </glyph>

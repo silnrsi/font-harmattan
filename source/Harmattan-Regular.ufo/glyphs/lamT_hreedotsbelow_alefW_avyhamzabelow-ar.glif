@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lamThreedotsbelow_alefWavyhamzabelow-ar" format="2">
-  <advance width="780"/>
-  <anchor x="594" y="1132" name="diaA_1"/>
-  <anchor x="34" y="1055" name="diaA_2"/>
-  <anchor x="614" y="-645" name="diaB_1"/>
-  <anchor x="179" y="-497" name="diaB_2"/>
+  <advance width="848"/>
+  <anchor x="662" y="1132" name="diaA_1"/>
+  <anchor x="102" y="1056" name="diaA_2"/>
+  <anchor x="682" y="-645" name="diaB_1"/>
+  <anchor x="247" y="-497" name="diaB_2"/>
   <outline>
-    <component base="_lamThreedotsbelow-ar.init.preAlef" xOffset="96"/>
-    <component base="_alefWavyhamzabelow-ar.fina.postLamIni" xOffset="-37" yOffset="48"/>
+    <component base="_lamThreedotsbelow-ar.init.preAlef" xOffset="164"/>
+    <component base="_alefWavyhamzabelow-ar.fina.postLamIni" xOffset="31" yOffset="48"/>
   </outline>
 </glyph>

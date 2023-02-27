@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_alef-ar" format="2">
-  <advance width="831"/>
-  <anchor x="635" y="1132" name="diaA_1"/>
-  <anchor x="127" y="1056" name="diaA_2"/>
-  <anchor x="710" y="-113" name="diaB_1"/>
-  <anchor x="222" y="-89" name="diaB_2"/>
+  <advance width="806"/>
+  <anchor x="610" y="1132" name="diaA_1"/>
+  <anchor x="102" y="1056" name="diaA_2"/>
+  <anchor x="685" y="-113" name="diaB_1"/>
+  <anchor x="197" y="-89" name="diaB_2"/>
   <outline>
-    <component base="_lam-ar.init.preAlef" xOffset="147"/>
-    <component base="_alef-ar.fina.postLamIni" xOffset="15" yOffset="49"/>
+    <component base="_lam-ar.init.preAlef" xOffset="122"/>
+    <component base="_alef-ar.fina.postLamIni" xOffset="-10" yOffset="49"/>
   </outline>
 </glyph>
