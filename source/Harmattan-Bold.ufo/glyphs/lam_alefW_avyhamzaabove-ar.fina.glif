@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam_alefWavyhamzaabove-ar.fina" format="2">
-  <advance width="1032"/>
-  <anchor x="737" y="1168" name="diaA_1"/>
+  <advance width="982"/>
+  <anchor x="687" y="1168" name="diaA_1"/>
   <anchor x="172" y="1542" name="diaA_2"/>
-  <anchor x="829" y="-119" name="diaB_1"/>
-  <anchor x="248" y="-89" name="diaB_2"/>
+  <anchor x="779" y="-119" name="diaB_1"/>
+  <anchor x="198" y="-89" name="diaB_2"/>
   <outline>
-    <component base="_lam-ar.medi.preAlef" xOffset="40"/>
+    <component base="_lam-ar.medi.preAlef" xOffset="-10"/>
     <component base="_alefWavyhamzaabove-ar.fina.postLamMed" yOffset="2"/>
   </outline>
 </glyph>

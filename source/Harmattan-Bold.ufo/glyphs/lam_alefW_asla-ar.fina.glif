@@ -2,11 +2,11 @@
 <glyph name="lam_alefWasla-ar.fina" format="2">
   <advance width="1032"/>
   <anchor x="737" y="1168" name="diaA_1"/>
-  <anchor x="115" y="1481" name="diaA_2"/>
+  <anchor x="145" y="1481" name="diaA_2"/>
   <anchor x="829" y="-119" name="diaB_1"/>
   <anchor x="248" y="-89" name="diaB_2"/>
   <outline>
     <component base="_lam-ar.medi.preAlef" xOffset="40"/>
-    <component base="_alefWasla-ar.fina.postLamMed" yOffset="2"/>
+    <component base="_alefWasla-ar.fina.postLamMed" xOffset="30" yOffset="2"/>
   </outline>
 </glyph>
