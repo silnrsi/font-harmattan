@@ -1,36 +1,115 @@
 ---
 title: Harmattan - Announcement
-fontversion: 2.000
+fontversion: 4.000
 ---
 
 #### Changes
 
-The most significant change to this version is the addition of a bold typeface. There are other major changes to this version:
+#### New
 
-  - Added a bold typeface
-  - Added support for all characters in the Arabic and Arabic Supplement blocks
-  - Added support for all characters in the Arabic Extended-A block (except for the
-    Quranic annotation signs)
-  - Added U+FDFC (rial), U+FDFD (bismillah)
-  - Added U+02D0, U+02D8..U+02D9, U+02DB, U+02DD, U+034F, U+03C0, U+2044, U+2126, U+2202, U+2206, U+220F, U+2211, U+221A, U+221E, U+222B, U+2248, U+2260, U+2264..U+2265, U+2423 
-  - Implemented language support for Kurdish, Rohingya, Sindhi, Urdu, and Wolof variants
-  - Implemented Dal, Heh, Arabic U, Inverted Damma, and Eastern Digits features
-  - Implemented new Allah ligature rules
-  - Improved support for Shaddah+kasra placement feature
-  - Removed "Show invisible characters" feature
-  - Added UI name strings for Graphite and OpenType features
-  - Improvements to the design of dal- keheh-, yeh-, qaf-, ain-, heh doachashmee-, swash kaf-, 
-    and yeh barree-based characters
-  - Improvements to the design of U+FDF2 - modified to use shadda-dagger alef (not shadda-fatha)
-  - Improvements to the design of rohingya yeh
-  - Improvements to the design and size of digits (latin and arabic)
-  - Improvements to positioning of combining marks and nuktas
-  - Adjustments to spacing around many Arabic script characters
-  - Rework kerning logic based on new spacing around characters 
-  - Improved line spacing to support added characters
-  - Modified underline and strikethrough position (used by some applications)
-  - Modified superscript and subscript size and positioning (used by some applications)
-  - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
+- Added Kyrgyz language support
+- Added Arabic-style (rounded) versions of chevron quotes
+- New features:
+  - cv51 - Kyrgyz OE (loop/bar)
+  - cv54 - Yeh hamza (Standard/Right hamza)
+  - cv85 - Decimal separator (Small reh/Slash)
+- Added:
+  - U+061D ARABIC END OF TEXT MARK
+  - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
+  - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
+  - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
+  - U+0873 ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE
+  - U+0874 ARABIC LETTER ALEF WITH ATTACHED KASRA
+  - U+0875 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA
+  - U+0876 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE
+  - U+0877 ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT
+  - U+0878 ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT
+  - U+0879 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW
+  - U+087A ARABIC LETTER ALEF WITH DOT ABOVE
+  - U+087B ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE
+  - U+087C ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE
+  - U+087D ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE
+  - U+087E ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING
+  - U+087F ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING
+  - U+0880 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING
+  - U+0881 ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA
+  - U+0882 ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA
+  - U+0883 ARABIC TATWEEL WITH OVERSTRUCK HAMZA
+  - U+0884 ARABIC TATWEEL WITH OVERSTRUCK WAW
+  - U+0885 ARABIC TATWEEL WITH TWO DOTS BELOW
+  - U+0886 ARABIC LETTER THIN YEH
+  - U+0887 ARABIC BASELINE ROUND DOT
+  - U+0888 ARABIC RAISED ROUND DOT
+  - U+0889 ARABIC LETTER NOON WITH INVERTED SMALL V
+  - U+088A ARABIC LETTER HAH WITH INVERTED SMALL V BELOW
+  - U+088B ARABIC LETTER TAH WITH DOT BELOW
+  - U+088C ARABIC LETTER TAH WITH THREE DOTS BELOW
+  - U+088D ARABIC LETTER KEHEH WITH TWO DOTS VERTICALLY BELOW
+  - U+088E ARABIC VERTICAL TAIL
+  - U+0890 ARABIC POUND MARK ABOVE
+  - U+0891 ARABIC PIASTRE MARK ABOVE
+  - U+0898 ARABIC SMALL HIGH WORD AL-JUZ
+  - U+0899 ARABIC SMALL LOW WORD ISHMAAM
+  - U+089A ARABIC SMALL LOW WORD IMAALA
+  - U+089B ARABIC SMALL LOW WORD TASHEEL
+  - U+089C ARABIC MADDA WAAJIB
+  - U+089D ARABIC SUPERSCRIPT ALEF MOKHASSAS
+  - U+089E ARABIC DOUBLED MADDA
+  - U+089F ARABIC HALF MADDA OVER MADDA
+  - U+08B5 ARABIC LETTER QAF WITH DOT BELOW AND NO DOTS ABOVE
+  - U+08C8 ARABIC LETTER GRAF
+  - U+08C9 ARABIC SMALL FARSI YEH
+  - U+08CA ARABIC SMALL HIGH FARSI YEH
+  - U+08CB ARABIC SMALL HIGH YEH BARREE WITH TWO DOTS BELOW
+  - U+08CC ARABIC SMALL HIGH WORD SAH
+  - U+08CD ARABIC SMALL HIGH ZAH
+  - U+08CE ARABIC LARGE ROUND DOT ABOVE
+  - U+08CF ARABIC LARGE ROUND DOT BELOW
+  - U+08D0 ARABIC SUKUN BELOW
+  - U+08D1 ARABIC LARGE CIRCLE BELOW
+  - U+08D2 ARABIC LARGE ROUND DOT INSIDE CIRCLE BELOW
+  - U+08D3 ARABIC SMALL LOW WAW
+  - U+08D4 ARABIC SMALL HIGH WORD AR-RUB
+  - U+08D5 ARABIC SMALL HIGH SAD
+  - U+08D6 ARABIC SMALL HIGH AIN
+  - U+08D7 ARABIC SMALL HIGH QAF
+  - U+08D8 ARABIC SMALL HIGH NOON WITH KASRA
+  - U+08D9 ARABIC SMALL LOW NOON WITH KASRA
+  - U+08DA ARABIC SMALL HIGH WORD ATH-THALATHA
+  - U+08DB ARABIC SMALL HIGH WORD AS-SAJDA
+  - U+08DC ARABIC SMALL HIGH WORD AN-NISF
+  - U+08DD ARABIC SMALL HIGH WORD SAKTA
+  - U+08DE ARABIC SMALL HIGH WORD QIF
+  - U+08DF ARABIC SMALL HIGH WORD WAQFA
+  - U+08E0 ARABIC SMALL HIGH FOOTNOTE MARKER
+  - U+08E1 ARABIC SMALL HIGH SIGN SAFHA
+  - U+08E2 ARABIC DISPUTED END OF AYAH  
+  - U+201B SINGLE HIGH-REVERSED-9 QUOTATION MARK
+  - U+201F DOUBLE HIGH-REVERSED-9 QUOTATION MARK
+  - U+204F REVERSED SEMICOLON
+  - U+2E41 REVERSED COMMA
+  - U+10EFD ARABIC SMALL LOW WORD SAKTA
+  - U+10EFE ARABIC SMALL LOW WORD QASR
+  - U+10EFF ARABIC SMALL LOW WORD MADDA
+
+#### Improved
+- Fixed bug using kashida-justification in Word (where the lam-alef ligature would break)
+- Made U+06DB ARABIC SMALL HIGH THREE DOTS bold in the bold font
+- Redesign 
+  - U+0616 ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH
+  - U+0674 ARABIC LETTER HIGH HAMZA
+  - U+0675 ARABIC LETTER HIGH HAMZA ALEF
+  - U+0676 ARABIC LETTER HIGH HAMZA WAW
+  - U+0677 ARABIC LETTER U WITH HAMZA ABOVE
+  - U+0678 ARABIC LETTER HIGH HAMZA YEH
+  - U+06C5 ARABIC LETTER KIRGHIZ OE
+  - U+06C7 ARABIC LETTER U
+  
+#### Removed
+
+- Removed features: 
+    - Alef diacritic placement (cv02)
+    - Arabic U (cv50)
 
 **Note:** We reserve the right to alter metrics in future releases. Future versions of the font may result in different lines, line spacing, or paragraph lengths. Do not expect that a document laid out in one version will always have the same page breaks, etc., in future fonts.
 
@@ -38,7 +117,8 @@ Both desktop and web fonts are provided in a single, all-platforms package on th
 
 #### Known issues
 
-At the time of the Harmattan 2.000 release there is a known issue for printing with Harmattan in Word 2019 and Word 365. Printing to a printer or to pdf may cause a reh-like glyph to shift in its advanced width. The result is that there appears to be a small space between the preceding character and the reh-like character. Microsoft is working on releasing an update that includes a fix for this issue. Once Microsoft releases the update, the solution to this issue will be to update Microsoft Office. You can do this by opening a document in Word and go to **File &gt; Account &gt; Update Options &gt; Update Now**.
+- Shaping for these newly added characters may not yet occur in applications
+- At the time of the Harmattan 2.000 release there is a known issue for printing with Harmattan in Word 2019 and Word 365. Printing to a printer or to pdf may cause a reh-like glyph to shift in its advanced width. The result is that there appears to be a small space between the preceding character and the reh-like character. Microsoft is working on releasing an update that includes a fix for this issue. Once Microsoft releases the update, the solution to this issue will be to update Microsoft Office. You can do this by opening a document in Word and go to **File &gt; Account &gt; Update Options &gt; Update Now**.
 
 
 

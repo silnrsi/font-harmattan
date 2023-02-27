@@ -1,6 +1,6 @@
 ---
 title: Harmattan - About
-fontversion: 2.000
+fontversion: 4.000
 ---
 
 ## About this project
@@ -12,8 +12,6 @@ For more information on the visual characteristics of the font see [Design](desi
 
 
 ## Future plans
-
-This font is actively maintained and improved, and recent changes to its development process will enable more frequent releases.
 
 The highest priorities for future additions and enhancements are mainly driven by:
 

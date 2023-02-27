@@ -64,7 +64,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-202x-xx-xx (SIL WSTech team) Harmattan version 2.100
+2023-xx-xx (SIL WSTech team) Harmattan version 4.000
 
 #### New
 

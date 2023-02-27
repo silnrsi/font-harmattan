@@ -12,6 +12,8 @@ echo "     > index.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/index.md -o documentation/index.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > about.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/about.md -o documentation/about.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
+echo "     > allah.html"
+pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/allah.md -o documentation/allah.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > charset.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/charset.md -o documentation/charset.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > design.html"
@@ -82,6 +84,8 @@ echo "     >>> PRODUCT SITE MARKDOWN (documentation/source/productsite/)"
 
 echo "     > about.md"
 python3 documentation/source/makepsmd.py documentation/source/about.md documentation/source/productsite/about.md -q
+echo "     > allah.md"
+python3 documentation/source/makepsmd.py documentation/source/allah.md documentation/source/productsite/allah.md -q
 echo "     > charset.md"
 python3 documentation/source/makepsmd.py documentation/source/charset.md documentation/source/productsite/charset.md -q
 echo "     > design.md"

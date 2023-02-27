@@ -1,6 +1,6 @@
 ---
 title: Harmattan - Font Features
-fontversion: 2.000
+fontversion: 4.000
 ---
 
 Harmattan is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Harmattan font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology ([Graphite](http://graphite.sil.org/) or OpenType) being used. Most features are available in both Graphite and OpenType, though there may be minor differences in their implementation. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Rohingya, Sindhi, Urdu, and Wolof languages variants.
@@ -45,36 +45,27 @@ Unfortunately, the UI needed to access the language-specific behavior is not yet
 
 #### Kurdish (Northern), Rohingya, Sindhi, Urdu
 
-Language | Meem | Heh | Comma | 4 | 6 | 7 | 0650 | 064C | Feature Setting
--- | ---: | ----: | -: | -: | -: | -: | --: | --: | ---
-default | <span dir="rtl" class='Harmattan-R small'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R small' >&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='Harmattan-R small'>&#x060C; &#x061B;</span> | <span dir="rtl" class='Harmattan-R small'>&#x06F4;</span> |<span dir="rtl" class='Harmattan-R small'>&#x06F6;</span> | <span dir="rtl" class='Harmattan-R small'>&#x06F7;</span> | <span dir="rtl" class='Harmattan-R small'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small'>&#x0628;&#x064C;</span> |
-Kurdish</br>(Northern) | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku' style="color:red">&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x060C; &#x061B;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small' lang='ku'>&#x0628;&#x064C;</span> |  `lang='ku'`
-Rohingya | <span dir="rtl" class='Harmattan-R small' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg'>&#x060C; &#x061B;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg' style="color:red">&#x0628;&#x064C;</span>| `lang='rhg'`
-Sindhi | <span dir="rtl" class='Harmattan-R small' lang='sd' style="color:red">&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd' style="color:red">&#x060C; &#x061B;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd'>&#x06F4;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd' style="color:red">&#x06F6;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd' style="color:red">&#x06F7;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small' lang='sd'>&#x0628;&#x064C;</span> | `lang='sd'`
-Urdu | <span dir="rtl" class='Harmattan-R small' lang='ur'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur'>&#x0647;&#x0020;&#x0647;&#x0647;&#x0647;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur'>&#x060C; &#x061B;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur' style="color:red">&#x06F4;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur' style="color:red">&#x06F6;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur' style="color:red">&#x06F7;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small' lang='ur'>&#x0628;&#x064C;</span> | `lang='ur'`
+Language | Meem | Heh Doachashmee (06BE) | 4 | 6 | 7 | 0650/064E | 064C | Feature Setting
+-- | ---: | ----: | -: | -: | -: | --: | --: | ---
+default | <span dir="rtl" class='Harmattan-R normal'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R normal' >&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x06F4;</span> |<span dir="rtl" class='Harmattan-R normal'>&#x06F6;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x06F7;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x0628;&#x064C;</span> |
+Kurdish</br>(Northern) | <span dir="rtl" class='Harmattan-R normal' lang='ku'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ku' style="color:red">&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ku'>&#x06F4;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ku'>&#x06F6;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ku'>&#x06F7;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ku'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ku'>&#x0628;&#x064C;</span> |  `lang='ku'`
+Rohingya | <span dir="rtl" class='Harmattan-R normal' lang='rhg'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R normal' lang='rhg'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='Harmattan-R normal' lang='rhg' style="color:red">&#x06F4;</span> | <span dir="rtl" class='Harmattan-R small' lang='rhg' style="color:red">&#x06F6;</span> | <span dir="rtl" class='Harmattan-R normal' lang='rhg' style="color:red">&#x06F7;</span> | <span dir="rtl" class='Harmattan-R normal' lang='rhg' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='rhg' style="color:red">&#x0628;&#x064C;</span>| `lang='rhg'`
+Sindhi | <span dir="rtl" class='Harmattan-R normal' lang='sd' style="color:red">&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R normal' lang='sd'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='Harmattan-R normal' lang='sd'>&#x06F4;</span> | <span dir="rtl" class='Harmattan-R normal' lang='sd' style="color:red">&#x06F6;</span> | <span dir="rtl" class='Harmattan-R normal' lang='sd' style="color:red">&#x06F7;</span> | <span dir="rtl" class='Harmattan-R normal' lang='sd' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='sd'>&#x0628;&#x064C;</span> | `lang='sd'`
+Urdu | <span dir="rtl" class='Harmattan-R normal' lang='ur'>&#x0645;&#x0020;&#x0645;&#x0645;&#x0645;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ur'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ur' style="color:red">&#x06F4;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ur' style="color:red">&#x06F6;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ur' style="color:red">&#x06F7;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ur' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ur'>&#x0628;&#x064C;</span> | `lang='ur'`
 
-#### Wolof
+#### Kyrgyz and Wolof
 
 
-Language | Dal  | 0650 | 064F | 0657 | Feature Setting
--- | -- |  --- | -- | -- | ---
-default | <span dir="rtl" class='Harmattan-R small'> &#x062F;</span> | <span dir="rtl" class='Harmattan-R small'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small'>&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R small'>&#x0628;&#x0657;</span>|
-Wolof | <span dir="rtl" class='Harmattan-R small' lang='wo' style="color:red"> &#x062F;</span> | <span dir="rtl" class='Harmattan-R small' lang='wo' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R small' lang='wo' style="color:red">&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R small' lang='wo' style="color:red">&#x0628;&#x0657;</span>| `lang='wo'`
+Language | Dal  | 0626 | 0650/064E | 064F | 0657 | Feature Setting
+-- | -: |  ---: | --: | --: | --: | ---
+default | <span dir="rtl" class='Harmattan-R normal'> &#x062F;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R normal'>&#x0628;&#x0657;</span>|
+Kyrgyz | <span dir="rtl" class='Harmattan-R normal' lang='ky'> &#x062F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky' style="color:red">&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky'>&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky'>&#x0628;&#x0657;</span>| `lang='ky'`
+Wolof | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red"> &#x062F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red">&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red">&#x0628;&#x0657;</span>| `lang='wo'`
 
 
 ### Character variants
 
 There are some character shape differences in different languages which use the Arabic script. These can be accessed by using Graphite features, OpenType Character Variants, or through the language support mentioned above.  
-
-#### Alef diacritic placement 
-
-<span class='affects'>Affects: U+0623, U+0625, U+0627, U+064E, U+0650, U+0654, U+0655</span>
-
-Feature | Sample | Feature setting
-------------- | ------ | ------------- 
-Standard | <span dir="rtl" class='Harmattan-R normal'> أإاَاِأإلألإ </span>| `cv02=0`
-Hamza touching | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv02" 1'> أإاَاِأإلألإ </span>| `cv02=1`
-Touching | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv02" 2'> أإاَاِأإلألإ </span>| `cv02=2`
 
 #### Jeem/Hah 
 
@@ -126,15 +117,15 @@ Kurdish-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-s
 Sindhi-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv48" 1'> ه ههه </span>| `cv48=1`
 Urdu-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv48" 2'> ه ههه </span>| `cv48=2`
 
+#### Heh Doachashmee 
 
-#### Arabic U 
-
-<span class='affects'>Affects: U+0677, U+06C7</span>
+<span class='affects'>Affects: U+06BE</span>
 
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
-Standard | <span dir="rtl" class='Harmattan-R normal'> ٷ ۇ</span> | `cv50=0`
-Filled | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv50" 1'>ٷ ۇ </span>| `cv50=1`
+Standard | <span dir="rtl" class='Harmattan-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
+Knotted-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv49" 1'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
+Kurdish-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv49" 3'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
 
 #### Maddah 
@@ -228,6 +219,10 @@ Standard | <span dir="rtl" class='Harmattan-R normal'>&#x202D;&#x6DD;&#x31;&#x32
 Simplified A | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv80" 1'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `cv80=1`
 Simplified B | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv80" 2'>&#x202D;&#x6DD;&#x31;&#x32;&#x33;&#x202C; &#x202D;&#x6DD;&#x0661;&#x0662;&#x0663;&#x202C;</span>| `cv80=2`
 
+The DISPUTED END OF AYAH (U+08E2) is also now available in the font. It works in the same way as End of ayah. 
+
+<span dir="rtl" class='Harmattan-R normal'>&#x202D;&#x8E2;&#x663;&#x664;&#x665;&#x202C;</span>
+
 #### Eastern digits 
 
 
@@ -249,6 +244,15 @@ Feature | Sample |  Feature setting
 ------------- | ------ | ------------- 
 Upward | <span dir="rtl" class='Harmattan-R normal'>، ؛</span> | `cv84=0`
 Downward | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv84" 1'>، ؛</span>| `cv84=1`
+
+#### Decimal separator 
+
+<span class='affects'>Affects: U+066B</span>
+
+Feature | Sample |  Feature setting
+------------- | --------------- | ------------- 
+Small reh | <span dir="rtl" class='Harmattan-R normal'>&#x066B;</span> | `cv85=0`
+Slash | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv85" 1'>&#x066B;</span>| `cv85=1`
 
 #### Line spacing 
 
