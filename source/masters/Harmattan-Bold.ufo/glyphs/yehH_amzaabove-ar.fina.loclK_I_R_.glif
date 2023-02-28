@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yehHamzaabove-ar.fina.loclKIR" format="2">
   <advance width="1281"/>
-  <anchor x="480" y="290" name="alef"/>
-  <anchor x="876" y="672" name="diaA"/>
-  <anchor x="691" y="-749" name="diaB"/>
+  <anchor x="495" y="290" name="alef"/>
+  <anchor x="891" y="672" name="diaA"/>
+  <anchor x="706" y="-749" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots.fina" xOffset="-15"/>
-    <component base="hamzaabove-ar" xOffset="598" yOffset="-1096"/>
+    <component base="yeh-ar.noDots.fina"/>
+    <component base="hamzaabove-ar" xOffset="613" yOffset="-1096"/>
   </outline>
 </glyph>
