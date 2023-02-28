@@ -118,7 +118,6 @@ Both desktop and web fonts are provided in a single, all-platforms package on th
 #### Known issues
 
 - Shaping for these newly added characters may not yet occur in applications
-- At the time of the Harmattan 2.000 release there is a known issue for printing with Harmattan in Word 2019 and Word 365. Printing to a printer or to pdf may cause a reh-like glyph to shift in its advanced width. The result is that there appears to be a small space between the preceding character and the reh-like character. Microsoft is working on releasing an update that includes a fix for this issue. Once Microsoft releases the update, the solution to this issue will be to update Microsoft Office. You can do this by opening a document in Word and go to **File &gt; Account &gt; Update Options &gt; Update Now**.
 
 
 
