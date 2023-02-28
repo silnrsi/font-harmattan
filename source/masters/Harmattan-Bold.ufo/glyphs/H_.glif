@@ -8,15 +8,11 @@
   <outline>
     <contour>
       <point x="112" y="0" type="curve"/>
-      <point x="112" y="0"/>
-      <point x="337" y="0"/>
-      <point x="337" y="0" type="curve"/>
+      <point x="337" y="0" type="line"/>
       <point x="337" y="476" type="line"/>
       <point x="780" y="476" type="line"/>
       <point x="780" y="0" type="line"/>
-      <point x="780" y="0"/>
-      <point x="1005" y="0"/>
-      <point x="1005" y="0" type="curve"/>
+      <point x="1005" y="0" type="line"/>
       <point x="993" y="60"/>
       <point x="993" y="174"/>
       <point x="993" y="322" type="curve" smooth="yes"/>

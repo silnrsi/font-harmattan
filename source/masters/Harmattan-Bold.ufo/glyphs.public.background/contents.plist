@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+  <key>AE</key>
+  <string>A_E_.glif</string>
+  <key>K</key>
+  <string>K_.glif</string>
   <key>_alef-ar.fina.postLamIni</key>
   <string>_alef-ar.fina.postL_amI_ni.glif</string>
   <key>_alef-ar.fina.postLamMed</key>
@@ -24,6 +28,8 @@
   <string>bismillah-ar.glif</string>
   <key>disputedendofayah-ar</key>
   <string>disputedendofayah-ar.glif</string>
+  <key>f</key>
+  <string>f.glif</string>
   <key>fehDotless-ar.init</key>
   <string>fehD_otless-ar.init.glif</string>
   <key>hehDoachashmee-ar.init</key>
@@ -78,6 +84,8 @@
   <string>tahabove-ar.glif</string>
   <key>waw-ar</key>
   <string>waw-ar.glif</string>
+  <key>y</key>
+  <string>y.glif</string>
   <key>yeh-ar.noDots</key>
   <string>yeh-ar.noD_ots.glif</string>
   <key>yeh-ar.noDots.fina</key>
