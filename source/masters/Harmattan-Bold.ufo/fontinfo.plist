@@ -22,7 +22,7 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2023/02/27 16:17:58</string>
+  <string>2023/02/28 12:14:12</string>
   <key>openTypeHheaAscender</key>
   <integer>2166</integer>
   <key>openTypeHheaDescender</key>
@@ -234,73 +234,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>2</integer>
   <key>versionMinor</key>
   <integer>10</integer>
-  <key>woffMetadataCredits</key>
-  <dict>
-    <key>credits</key>
-    <array>
-      <dict>
-        <key>name</key>
-        <string>Sharon Correll</string>
-        <key>role</key>
-        <string>Contributing Designer and Script Engineer</string>
-        <key>url</key>
-        <string>http://scripts.sil.org/</string>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Bob Hallissy</string>
-        <key>role</key>
-        <string>Lead Script Engineer: Graphite, OpenType, and TypeTuner code, and build support</string>
-        <key>url</key>
-        <string>http://scripts.sil.org/</string>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Becca Spalinger</string>
-        <key>role</key>
-        <string>Lead Designer</string>
-        <key>url</key>
-        <string>http://scripts.sil.org/</string>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>George W. Nuss</string>
-        <key>role</key>
-        <string>Original Designer</string>
-        <key>url</key>
-        <string>http://www.fulbefouta.com</string>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>Iska Routamaa</string>
-        <key>role</key>
-        <string>Contributing Designer</string>
-        <key>url</key>
-        <string>http://scripts.sil.org/</string>
-      </dict>
-    </array>
-  </dict>
-  <key>woffMetadataDescription</key>
-  <dict>
-    <key>text</key>
-    <array>
-      <dict>
-        <key>text</key>
-        <string>Harmattan, named after the trade winds that blow during the dry season in
-West Africa, is designed in a Warsh style to suit the needs of languages
-using the Arabic script in West Africa.
-
-This font provides a simplified rendering of Arabic script, using basic
-connecting glyphs but not including a wide variety of additional ligatures
-or contextual alternates (only the required lam-alef ligatures). This
-simplified style is often preferred for clarity, especially in non-Arabic
-languages, but may be considered unattractive in more traditional and
-literate communities.</string>
-      </dict>
-    </array>
-    <key>url</key>
-    <string>https://software.sil.org/harmattan/history/</string>
-  </dict>
   <key>xHeight</key>
   <integer>778</integer>
 </dict>
