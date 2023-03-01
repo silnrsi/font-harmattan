@@ -509,11 +509,12 @@ lookup UrduCALT {
 
 lookup WolofCALT {
   lookupflag 0 ;
-    sub @cno_loclWLF by @c_loclWLF ;
+    sub @cno_loclWLF   by  @c_loclWLF ;
 
-    sub @Damma by @Damma_short ;
+    sub @Damma         by  @Damma_short ;
+    sub @DammaInverted by  @DammaInverted_open ;
 
-    sub @Kasra        by  @Kasra_lowered ;
+    sub @Kasra         by  @Kasra_lowered ;
 } WolofCALT;
 
 
@@ -1418,9 +1419,6 @@ feature cv72 {
 
 # Character Variant 74
 
-do let f = info("familyName");
-   if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
-
 feature cv74 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Inverted Damma" ; };
@@ -1431,8 +1429,6 @@ feature cv74 {
     # Same for latin & arabic:
       lookup DammaInvertedAlternates;
 } cv74 ;
-
-}  # end do - Sch or Harmattan
 
 
 # Character Variant 76

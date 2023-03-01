@@ -249,7 +249,7 @@ dammatanAlt {
     default = std;
 }
 
-ultapeshAlt {
+dammaInvertedAlt {
     id = "cv74";
     name.1033 = string("Inverted Damma");
     settings {
@@ -472,9 +472,10 @@ urdu {
 };
 
 wolof {
-    languages = ( "wol", "wo"); // Wolof
+    languages = ( "wol", "wo" ); // Wolof
     dalAlt = senegal;
     dammaAlt = short;
+    dammaInvertedAlt = hollow;      // ultapesh
     // shaddaKasra = lowered;  // is the default for Harmattan
 };
 

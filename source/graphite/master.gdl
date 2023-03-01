@@ -128,7 +128,7 @@ pass(3)	// Contextual forms, lam-alef ligature, subtending marks
 		/ _  MARKS  _  MARKS ^;
 ***/
 	cLamIsolFina  g_alef_ar                 >  cLamAlefLig            g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
-	cLamIsolFina  g_alef_hamzaabove_ar      >  cLamAlefHamzaaboveLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
+//cLamIsolFina  g_alef_hamzaabove_ar      >  cLamAlefHamzaaboveLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 //cLamIsolFina  g_alef_hamzabelow_ar      >  cLamAlefHamzabelowLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 	cLamIsolFina  g_alef_wasla_ar           >  cLamAlefWaslaLig       g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
 	cLamIsolFina  g_alef_wavyhamzaabove_ar  >  cLamAlefWavyHAboveLig  g_alefPlaceholder  /  _=L MARKS  _=A  MARKS ^;
@@ -277,8 +277,8 @@ pass(4)	// Features, special behaviors
 		g_alefabove_ar  >  g_alefabove_ar_large  /  cTakesLargeDaggerAlef  _;
 	endif;	
 
-	if (ultapeshAlt == filled)
-		g_dammainverted_ar > g_dammainverted_ar_filled;
+	if (dammaInvertedAlt == hollow)
+		g_dammainverted_ar_filled  >  g_dammainverted_ar;
 	endif;
 
 	if (sukunAlt == jasmDown)
