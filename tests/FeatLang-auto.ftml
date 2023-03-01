@@ -14,6 +14,9 @@
       <style feats="'cv48' 1" name="cv48_1"/>
       <style feats="'cv48' 2" name="cv48_2"/>
       <style feats="'cv48' 3" name="cv48_3"/>
+      <style feats="'cv49' 1" name="cv49_1"/>
+      <style feats="'cv49' 2" name="cv49_2"/>
+      <style feats="'cv49' 3" name="cv49_3"/>
       <style feats="'cv51' 1" name="cv51_1"/>
       <style feats="'cv54' 1" name="cv54_1"/>
       <style feats="'cv60' 1" name="cv60_1"/>
@@ -52,6 +55,9 @@
       <style feats="'cv48' 1" lang="ku" name="ku_cv48_1"/>
       <style feats="'cv48' 2" lang="ku" name="ku_cv48_2"/>
       <style feats="'cv48' 3" lang="ku" name="ku_cv48_3"/>
+      <style feats="'cv49' 1" lang="ku" name="ku_cv49_1"/>
+      <style feats="'cv49' 2" lang="ku" name="ku_cv49_2"/>
+      <style feats="'cv49' 3" lang="ku" name="ku_cv49_3"/>
       <style feats="'cv51' 1" lang="ku" name="ku_cv51_1"/>
       <style feats="'cv54' 1" lang="ku" name="ku_cv54_1"/>
       <style feats="'cv60' 1" lang="ku" name="ku_cv60_1"/>
@@ -90,6 +96,9 @@
       <style feats="'cv48' 1" lang="ky" name="ky_cv48_1"/>
       <style feats="'cv48' 2" lang="ky" name="ky_cv48_2"/>
       <style feats="'cv48' 3" lang="ky" name="ky_cv48_3"/>
+      <style feats="'cv49' 1" lang="ky" name="ky_cv49_1"/>
+      <style feats="'cv49' 2" lang="ky" name="ky_cv49_2"/>
+      <style feats="'cv49' 3" lang="ky" name="ky_cv49_3"/>
       <style feats="'cv51' 1" lang="ky" name="ky_cv51_1"/>
       <style feats="'cv54' 1" lang="ky" name="ky_cv54_1"/>
       <style feats="'cv60' 1" lang="ky" name="ky_cv60_1"/>
@@ -128,6 +137,9 @@
       <style feats="'cv48' 1" lang="rhg" name="rhg_cv48_1"/>
       <style feats="'cv48' 2" lang="rhg" name="rhg_cv48_2"/>
       <style feats="'cv48' 3" lang="rhg" name="rhg_cv48_3"/>
+      <style feats="'cv49' 1" lang="rhg" name="rhg_cv49_1"/>
+      <style feats="'cv49' 2" lang="rhg" name="rhg_cv49_2"/>
+      <style feats="'cv49' 3" lang="rhg" name="rhg_cv49_3"/>
       <style feats="'cv51' 1" lang="rhg" name="rhg_cv51_1"/>
       <style feats="'cv54' 1" lang="rhg" name="rhg_cv54_1"/>
       <style feats="'cv60' 1" lang="rhg" name="rhg_cv60_1"/>
@@ -166,6 +178,9 @@
       <style feats="'cv48' 1" lang="sd" name="sd_cv48_1"/>
       <style feats="'cv48' 2" lang="sd" name="sd_cv48_2"/>
       <style feats="'cv48' 3" lang="sd" name="sd_cv48_3"/>
+      <style feats="'cv49' 1" lang="sd" name="sd_cv49_1"/>
+      <style feats="'cv49' 2" lang="sd" name="sd_cv49_2"/>
+      <style feats="'cv49' 3" lang="sd" name="sd_cv49_3"/>
       <style feats="'cv51' 1" lang="sd" name="sd_cv51_1"/>
       <style feats="'cv54' 1" lang="sd" name="sd_cv54_1"/>
       <style feats="'cv60' 1" lang="sd" name="sd_cv60_1"/>
@@ -204,6 +219,9 @@
       <style feats="'cv48' 1" lang="ur" name="ur_cv48_1"/>
       <style feats="'cv48' 2" lang="ur" name="ur_cv48_2"/>
       <style feats="'cv48' 3" lang="ur" name="ur_cv48_3"/>
+      <style feats="'cv49' 1" lang="ur" name="ur_cv49_1"/>
+      <style feats="'cv49' 2" lang="ur" name="ur_cv49_2"/>
+      <style feats="'cv49' 3" lang="ur" name="ur_cv49_3"/>
       <style feats="'cv51' 1" lang="ur" name="ur_cv51_1"/>
       <style feats="'cv54' 1" lang="ur" name="ur_cv54_1"/>
       <style feats="'cv60' 1" lang="ur" name="ur_cv60_1"/>
@@ -242,6 +260,9 @@
       <style feats="'cv48' 1" lang="wo" name="wo_cv48_1"/>
       <style feats="'cv48' 2" lang="wo" name="wo_cv48_2"/>
       <style feats="'cv48' 3" lang="wo" name="wo_cv48_3"/>
+      <style feats="'cv49' 1" lang="wo" name="wo_cv49_1"/>
+      <style feats="'cv49' 2" lang="wo" name="wo_cv49_2"/>
+      <style feats="'cv49' 3" lang="wo" name="wo_cv49_3"/>
       <style feats="'cv51' 1" lang="wo" name="wo_cv51_1"/>
       <style feats="'cv54' 1" lang="wo" name="wo_cv54_1"/>
       <style feats="'cv60' 1" lang="wo" name="wo_cv60_1"/>
@@ -583,6 +604,110 @@
     <test label="U+0647" rtl="True" stylename="wo_cv48_3">
       <comment>Yes</comment>
       <string>\u000647 \u000647\u00200D \u00200D\u000647\u00200D \u00200D\u000647 </string>
+    </test>
+  </testgroup>
+  <testgroup label="cv49 Heh Doachashmee alternates">
+    <test label="U+06BE" rtl="True">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="cv49_1">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="cv49_2">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="cv49_3">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="sd">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="sd_cv49_1">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="sd_cv49_2">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="sd_cv49_3">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ur">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ur_cv49_1">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ur_cv49_2">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ur_cv49_3">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ku">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ku_cv49_1">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ku_cv49_2">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ku_cv49_3">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="rhg">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="rhg_cv49_1">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="rhg_cv49_2">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="rhg_cv49_3">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ky">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ky_cv49_1">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ky_cv49_2">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="ky_cv49_3">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="wo">
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="wo_cv49_1">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="wo_cv49_2">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
+    </test>
+    <test label="U+06BE" rtl="True" stylename="wo_cv49_3">
+      <comment>Yes</comment>
+      <string>\u0006BE \u0006BE\u00200D \u00200D\u0006BE\u00200D \u00200D\u0006BE </string>
     </test>
   </testgroup>
   <testgroup label="cv51 Kyrgyz OE alternate">
