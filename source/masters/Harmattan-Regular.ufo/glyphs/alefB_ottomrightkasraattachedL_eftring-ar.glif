@@ -8,6 +8,6 @@
   <outline>
     <component base="alef-ar" xOffset="123"/>
     <component base="_ring" xOffset="100" yOffset="484"/>
-    <component base="fatha-ar" xOffset="177" yOffset="-1323"/>
+    <component base="fatha-ar" xOffset="177" yOffset="-1413"/>
   </outline>
 </glyph>

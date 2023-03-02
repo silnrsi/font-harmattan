@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dammainverted-ar-open" format="2">
+  <anchor x="4" y="1227" name="_diaA"/>
+  <anchor x="4" y="1820" name="diaA"/>
+  <outline>
+    <contour>
+      <point x="4" y="1290" type="curve" smooth="yes"/>
+      <point x="102" y="1290"/>
+      <point x="151" y="1362"/>
+      <point x="151" y="1437" type="curve" smooth="yes"/>
+      <point x="151" y="1507"/>
+      <point x="104" y="1576"/>
+      <point x="13" y="1576" type="curve" smooth="yes"/>
+      <point x="-17" y="1576"/>
+      <point x="-48" y="1566"/>
+      <point x="-74" y="1544" type="curve"/>
+      <point x="-69" y="1456" type="line"/>
+      <point x="-48" y="1478"/>
+      <point x="-22" y="1490"/>
+      <point x="2" y="1490" type="curve" smooth="yes"/>
+      <point x="30" y="1490"/>
+      <point x="57" y="1469"/>
+      <point x="57" y="1437" type="curve" smooth="yes"/>
+      <point x="57" y="1410"/>
+      <point x="39" y="1384"/>
+      <point x="10" y="1384" type="curve" smooth="yes"/>
+      <point x="-41" y="1384"/>
+      <point x="-55" y="1425"/>
+      <point x="-55" y="1477" type="curve" smooth="yes"/>
+      <point x="-55" y="1591"/>
+      <point x="14" y="1675"/>
+      <point x="95" y="1740" type="curve"/>
+      <point x="82" y="1766"/>
+      <point x="40" y="1787"/>
+      <point x="7" y="1788" type="curve"/>
+      <point x="-108" y="1689"/>
+      <point x="-148" y="1569"/>
+      <point x="-148" y="1470" type="curve" smooth="yes"/>
+      <point x="-148" y="1364"/>
+      <point x="-83" y="1290"/>
+    </contour>
+  </outline>
+</glyph>
