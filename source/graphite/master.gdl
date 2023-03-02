@@ -278,7 +278,7 @@ pass(4)	// Features, special behaviors
 	endif;	
 
 	if (dammaInvertedAlt == hollow)
-		g_dammainverted_ar_filled  >  g_dammainverted_ar;
+		g_dammainverted_ar  >  g_dammainverted_ar_open;
 	endif;
 
 	if (sukunAlt == jasmDown)
