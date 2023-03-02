@@ -2,11 +2,11 @@
 <glyph name="yehTwodotsbelowNoonabove-ar" format="2">
   <advance width="1338"/>
   <unicode hex="08BA"/>
-  <anchor x="437" y="554" name="alef"/>
-  <anchor x="950" y="1445" name="diaA"/>
+  <anchor x="193" y="975" name="alef"/>
+  <anchor x="560" y="1319" name="diaA"/>
   <anchor x="674" y="-709" name="diaB"/>
   <outline>
     <component base="yeh-ar"/>
-    <component base="noonabove-ar" xOffset="970" yOffset="-461"/>
+    <component base="noonabove-ar" xOffset="580" yOffset="-587"/>
   </outline>
 </glyph>

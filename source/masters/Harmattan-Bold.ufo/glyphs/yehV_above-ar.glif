@@ -2,11 +2,11 @@
 <glyph name="yehVabove-ar" format="2">
   <advance width="1425"/>
   <unicode hex="06CE"/>
-  <anchor x="410" y="618" name="alef"/>
-  <anchor x="982" y="1146" name="diaA"/>
+  <anchor x="323" y="957" name="alef"/>
+  <anchor x="586" y="1083" name="diaA"/>
   <anchor x="695" y="-401" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots"/>
-    <component base="vabove-ar" xOffset="961" yOffset="-181"/>
+    <component base="vabove-ar" xOffset="607" yOffset="-367"/>
   </outline>
 </glyph>

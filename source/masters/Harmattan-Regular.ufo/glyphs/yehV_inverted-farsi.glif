@@ -2,11 +2,11 @@
 <glyph name="yehVinverted-farsi" format="2">
   <advance width="1338"/>
   <unicode hex="063D"/>
-  <anchor x="437" y="554" name="alef"/>
-  <anchor x="971" y="1116" name="diaA"/>
+  <anchor x="291" y="939" name="alef"/>
+  <anchor x="579" y="1070" name="diaA"/>
   <anchor x="665" y="-371" name="diaB"/>
   <outline>
     <component base="yeh-ar.noDots"/>
-    <component base="vinvertedabove-ar" xOffset="954" yOffset="-263"/>
+    <component base="vinvertedabove-ar" xOffset="592" yOffset="-339"/>
   </outline>
 </glyph>
