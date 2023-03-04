@@ -81,4 +81,4 @@ designspace('source/Harmattan-RB.designspace',
 
 def configure(ctx):
     ctx.find_program('octalap')
-    # ctx.find_program('ttfautohint')
+    ctx.find_program('ttfautohint')
