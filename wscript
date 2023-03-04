@@ -33,7 +33,7 @@ cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
 extras = {}
 
 if '--graphite' in opts:
-    # If we're going to include graphite, then we need a different typetuner source file.
+    # If we're going to include graphite, then we need the complete typetuner source file.
     typetunerfile = 'source/typetuner/feat_all.xml'
     extras['graphite'] = gdl(generated + '${DS:FILENAME_BASE}.gdl',
         master = 'source/graphite/master.gdl',
@@ -45,6 +45,10 @@ if '--graphite' in opts:
         params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         )
     
+else:
+    # Without grahite, we use a subset of the typetuner file that contains no graphite table manipulation
+    typetunerfile = create(generated + '${DS:FILENAME_BASE}-feat_all.xml', cmd('grep -v "gr_" ${SRC} > ${TGT}', ['source/typetuner/feat_all.xml']))
+
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:FILENAME_BASE}.ufo']))
 
@@ -66,7 +70,7 @@ designspace('source/Harmattan-RB.designspace',
         make_params = omitaps + noOTkern,
         params = '-e -F kernposchain_0',
         ),
-    typetuner = typetuner('source/typetuner/feat_all.xml'),
+    typetuner = typetuner(typetunerfile),
     classes = 'source/classes.xml',
     script = 'arab',
     pdf = fret(generated + '${DS:FILENAME_BASE}-fret.pdf', params='-b -r -o i -m 48'),
