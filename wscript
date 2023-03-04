@@ -51,7 +51,7 @@ else:
     typetunerfile = create(generated + '${DS:FILENAME_BASE}-feat_all.xml', cmd('grep -v "gr_" ${SRC} > ${TGT}', ['source/typetuner/feat_all.xml']))
 
 if '--norename' not in opts:
-    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/masters/${DS:FILENAME_BASE}.ufo']))
+    cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']))
 
 # Note: ttfautohint-generated hints don't maintain stroke thickness at joins, so we're not hinting these fonts
 # but if you want to try again:
