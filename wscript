@@ -48,7 +48,7 @@ if '--graphite' in opts:
     cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', ["source/${DS:FILENAME_BASE}-octabox.json"])),
 else:
     # Without grahite, we use a subset of the typetuner file that contains no graphite table manipulation
-    typetunerfile = create(generated + '${DS:FILENAME_BASE}-feat_all.xml', cmd('grep -v "gr_" ${SRC} > ${TGT}', ['source/typetuner/feat_all.xml']))
+    typetunerfile = create(generated + 'feat_all.xml', cmd('grep -v "gr_" ${SRC} > ${TGT}', ['source/typetuner/feat_all.xml']))
 
 if '--norename' not in opts:
     cmds.append(cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['${source}']))
