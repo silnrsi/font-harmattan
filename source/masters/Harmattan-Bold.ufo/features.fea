@@ -72,6 +72,8 @@
 @LamNoLig_unused = [lam-ar.medi lamVabove-ar.medi lamDotabove-ar.medi lamThreedotsabove-ar.medi lamThreedotsbelow-ar.medi lamTahabove-ar.medi lamBar-ar.medi lamDoublebar-ar.medi lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init lamThreedotsbelow-ar.init lamTahabove-ar.init lamBar-ar.init lamDoublebar-ar.init];
 @LowHamzaBase = [waw-ar yeh-ar ae-ar waw-ar.fina yeh-ar.fina ae-ar.fina yeh-ar.medi yeh-ar.init];
 @LowHamzaComposed = [wawHamzaabove-ar yehHamzaabove-ar hehHamzaabove-ar wawHamzaabove-ar.fina yehHamzaabove-ar.fina hehHamzaabove-ar.fina yehHamzaabove-ar.medi yehHamzaabove-ar.init];
+@MaddaInsert = [madda-ar.small];
+@MaddaPlain = [madda-ar madda-ar.small];
 @Maddah = [alefMadda-ar alefMadda-ar.fina madda-ar];
 @Maddah.small = [alefMadda-ar.small alefMadda-ar.fina.small madda-ar.small];
 @Meem = [meem-ar meemDotabove-ar meemDotbelow-ar meemThreedotsabove-ar meem-ar.fina meemDotabove-ar.fina meemDotbelow-ar.fina meemThreedotsabove-ar.fina];
@@ -2595,136 +2597,135 @@ lookup FontCheck {
 @MaddaSkip = [@UTR53_shadda @UTR53_fixedPos @UTR53_alef @UTR53_220MCM @UTR53_220other];
 lookup _ReorderMaddaVowel1 {
     lookupflag 0;
-    sub shadda-ar by shadda-ar madda-ar.small;
-    sub damma-ar by damma-ar madda-ar.small;
-    sub damma-ar.filled by damma-ar.filled madda-ar.small;
-    sub damma-ar.short by damma-ar.short madda-ar.small;
-    sub dammasmall-ar by dammasmall-ar madda-ar.small;
-    sub dammatan-ar by dammatan-ar madda-ar.small;
-    sub dammatan-ar.sixNine by dammatan-ar.sixNine madda-ar.small;
-    sub fatha-ar by fatha-ar madda-ar.small;
-    sub fathasmall-ar by fathasmall-ar madda-ar.small;
-    sub fathatan-ar by fathatan-ar madda-ar.small;
-    sub kasra-ar by kasra-ar madda-ar.small;
-    sub kasra-ar.lowered by kasra-ar.lowered madda-ar.small;
-    sub kasrasmall-ar by kasrasmall-ar madda-ar.small;
-    sub kasratan-ar by kasratan-ar madda-ar.small;
-    sub kasratan-ar.lowered by kasratan-ar.lowered madda-ar.small;
-    sub opendammatan-ar by opendammatan-ar madda-ar.small;
-    sub openfathatan-ar by openfathatan-ar madda-ar.small;
-    sub openkasratan-ar by openkasratan-ar madda-ar.small;
-    sub sukun-ar by sukun-ar madda-ar.small;
-    sub sukun-ar.downOpen by sukun-ar.downOpen madda-ar.small;
-    sub sukun-ar.leftOpen by sukun-ar.leftOpen madda-ar.small;
-    sub alefabove-ar by alefabove-ar madda-ar.small;
-    sub alefabove-ar.large by alefabove-ar.large madda-ar.small;
-    sub hamzabelow-ar by hamzabelow-ar madda-ar.small;
-    sub largerounddotbelow-ar by largerounddotbelow-ar madda-ar.small;
-    sub seenbelow-ar by seenbelow-ar madda-ar.small;
-    sub wawbelow-ar by wawbelow-ar madda-ar.small;
-    sub alefbelow-ar by alefbelow-ar madda-ar.small;
-    sub dammaturnedbelow-ar by dammaturnedbelow-ar madda-ar.small;
-    sub dotvowelbelow-ar by dotvowelbelow-ar madda-ar.small;
-    sub imaalabelow-ar by imaalabelow-ar madda-ar.small;
-    sub ishmaambelow-ar by ishmaambelow-ar madda-ar.small;
-    sub kasraCurly-ar by kasraCurly-ar madda-ar.small;
-    sub kasraDotbelow-ar by kasraDotbelow-ar madda-ar.small;
-    sub kasratanCurly-ar by kasratanCurly-ar madda-ar.small;
-    sub largecirclebelow-ar by largecirclebelow-ar madda-ar.small;
-    sub largerounddotinsidecirclebelow-ar by largerounddotinsidecirclebelow-ar madda-ar.small;
-    sub leftarrowheadbelow-ar by leftarrowheadbelow-ar madda-ar.small;
-    sub meembelow-ar by meembelow-ar madda-ar.small;
-    sub qasrbelow-ar by qasrbelow-ar madda-ar.small;
-    sub rhombusStopbelow-ar by rhombusStopbelow-ar madda-ar.small;
-    sub rightarrowheadbelow-ar by rightarrowheadbelow-ar madda-ar.small;
-    sub saktabelow-ar by saktabelow-ar madda-ar.small;
-    sub sukunbelow-ar by sukunbelow-ar madda-ar.small;
-    sub tasheel-ar by tasheel-ar madda-ar.small;
-    sub toneloopbelow-ar by toneloopbelow-ar madda-ar.small;
-    sub toneonedotbelow-ar by toneonedotbelow-ar madda-ar.small;
-    sub tonetwodotsbelow-ar by tonetwodotsbelow-ar madda-ar.small;
-    sub wavyhamzabelow-ar by wavyhamzabelow-ar madda-ar.small;
-    sub wordmaddabelow-ar by wordmaddabelow-ar madda-ar.small;
+    sub shadda-ar by shadda-ar @MaddaInsert;
+    sub damma-ar by damma-ar @MaddaInsert;
+    sub damma-ar.filled by damma-ar.filled @MaddaInsert;
+    sub damma-ar.short by damma-ar.short @MaddaInsert;
+    sub dammasmall-ar by dammasmall-ar @MaddaInsert;
+    sub dammatan-ar by dammatan-ar @MaddaInsert;
+    sub dammatan-ar.sixNine by dammatan-ar.sixNine @MaddaInsert;
+    sub fatha-ar by fatha-ar @MaddaInsert;
+    sub fathasmall-ar by fathasmall-ar @MaddaInsert;
+    sub fathatan-ar by fathatan-ar @MaddaInsert;
+    sub kasra-ar by kasra-ar @MaddaInsert;
+    sub kasra-ar.lowered by kasra-ar.lowered @MaddaInsert;
+    sub kasrasmall-ar by kasrasmall-ar @MaddaInsert;
+    sub kasratan-ar by kasratan-ar @MaddaInsert;
+    sub kasratan-ar.lowered by kasratan-ar.lowered @MaddaInsert;
+    sub opendammatan-ar by opendammatan-ar @MaddaInsert;
+    sub openfathatan-ar by openfathatan-ar @MaddaInsert;
+    sub openkasratan-ar by openkasratan-ar @MaddaInsert;
+    sub sukun-ar by sukun-ar @MaddaInsert;
+    sub sukun-ar.downOpen by sukun-ar.downOpen @MaddaInsert;
+    sub sukun-ar.leftOpen by sukun-ar.leftOpen @MaddaInsert;
+    sub alefabove-ar by alefabove-ar @MaddaInsert;
+    sub alefabove-ar.large by alefabove-ar.large @MaddaInsert;
+    sub hamzabelow-ar by hamzabelow-ar @MaddaInsert;
+    sub largerounddotbelow-ar by largerounddotbelow-ar @MaddaInsert;
+    sub seenbelow-ar by seenbelow-ar @MaddaInsert;
+    sub wawbelow-ar by wawbelow-ar @MaddaInsert;
+    sub alefbelow-ar by alefbelow-ar @MaddaInsert;
+    sub dammaturnedbelow-ar by dammaturnedbelow-ar @MaddaInsert;
+    sub dotvowelbelow-ar by dotvowelbelow-ar @MaddaInsert;
+    sub imaalabelow-ar by imaalabelow-ar @MaddaInsert;
+    sub ishmaambelow-ar by ishmaambelow-ar @MaddaInsert;
+    sub kasraCurly-ar by kasraCurly-ar @MaddaInsert;
+    sub kasraDotbelow-ar by kasraDotbelow-ar @MaddaInsert;
+    sub kasratanCurly-ar by kasratanCurly-ar @MaddaInsert;
+    sub largecirclebelow-ar by largecirclebelow-ar @MaddaInsert;
+    sub largerounddotinsidecirclebelow-ar by largerounddotinsidecirclebelow-ar @MaddaInsert;
+    sub leftarrowheadbelow-ar by leftarrowheadbelow-ar @MaddaInsert;
+    sub meembelow-ar by meembelow-ar @MaddaInsert;
+    sub qasrbelow-ar by qasrbelow-ar @MaddaInsert;
+    sub rhombusStopbelow-ar by rhombusStopbelow-ar @MaddaInsert;
+    sub rightarrowheadbelow-ar by rightarrowheadbelow-ar @MaddaInsert;
+    sub saktabelow-ar by saktabelow-ar @MaddaInsert;
+    sub sukunbelow-ar by sukunbelow-ar @MaddaInsert;
+    sub tasheel-ar by tasheel-ar @MaddaInsert;
+    sub toneloopbelow-ar by toneloopbelow-ar @MaddaInsert;
+    sub toneonedotbelow-ar by toneonedotbelow-ar @MaddaInsert;
+    sub tonetwodotsbelow-ar by tonetwodotsbelow-ar @MaddaInsert;
+    sub wavyhamzabelow-ar by wavyhamzabelow-ar @MaddaInsert;
+    sub wordmaddabelow-ar by wordmaddabelow-ar @MaddaInsert;
 } _ReorderMaddaVowel1;
 
 lookup ReorderMaddaVowel1 {
     lookupflag 0;
-    sub madda-ar.small @MaddaSkip' lookup _ReorderMaddaVowel1;
+    sub @MaddaPlain @MaddaSkip' lookup _ReorderMaddaVowel1;
 } ReorderMaddaVowel1;
 
 lookup _ReorderMaddaVowel2 {
     lookupflag 0;
-    sub madda-ar.small shadda-ar by shadda-ar;
-    sub madda-ar.small damma-ar by damma-ar;
-    sub madda-ar.small damma-ar.filled by damma-ar.filled;
-    sub madda-ar.small damma-ar.short by damma-ar.short;
-    sub madda-ar.small dammasmall-ar by dammasmall-ar;
-    sub madda-ar.small dammatan-ar by dammatan-ar;
-    sub madda-ar.small dammatan-ar.sixNine by dammatan-ar.sixNine;
-    sub madda-ar.small fatha-ar by fatha-ar;
-    sub madda-ar.small fathasmall-ar by fathasmall-ar;
-    sub madda-ar.small fathatan-ar by fathatan-ar;
-    sub madda-ar.small kasra-ar by kasra-ar;
-    sub madda-ar.small kasra-ar.lowered by kasra-ar.lowered;
-    sub madda-ar.small kasrasmall-ar by kasrasmall-ar;
-    sub madda-ar.small kasratan-ar by kasratan-ar;
-    sub madda-ar.small kasratan-ar.lowered by kasratan-ar.lowered;
-    sub madda-ar.small opendammatan-ar by opendammatan-ar;
-    sub madda-ar.small openfathatan-ar by openfathatan-ar;
-    sub madda-ar.small openkasratan-ar by openkasratan-ar;
-    sub madda-ar.small sukun-ar by sukun-ar;
-    sub madda-ar.small sukun-ar.downOpen by sukun-ar.downOpen;
-    sub madda-ar.small sukun-ar.leftOpen by sukun-ar.leftOpen;
-    sub madda-ar.small alefabove-ar by alefabove-ar;
-    sub madda-ar.small alefabove-ar.large by alefabove-ar.large;
-    sub madda-ar.small hamzabelow-ar by hamzabelow-ar;
-    sub madda-ar.small largerounddotbelow-ar by largerounddotbelow-ar;
-    sub madda-ar.small seenbelow-ar by seenbelow-ar;
-    sub madda-ar.small wawbelow-ar by wawbelow-ar;
-    sub madda-ar.small alefbelow-ar by alefbelow-ar;
-    sub madda-ar.small dammaturnedbelow-ar by dammaturnedbelow-ar;
-    sub madda-ar.small dotvowelbelow-ar by dotvowelbelow-ar;
-    sub madda-ar.small imaalabelow-ar by imaalabelow-ar;
-    sub madda-ar.small ishmaambelow-ar by ishmaambelow-ar;
-    sub madda-ar.small kasraCurly-ar by kasraCurly-ar;
-    sub madda-ar.small kasraDotbelow-ar by kasraDotbelow-ar;
-    sub madda-ar.small kasratanCurly-ar by kasratanCurly-ar;
-    sub madda-ar.small largecirclebelow-ar by largecirclebelow-ar;
-    sub madda-ar.small largerounddotinsidecirclebelow-ar by largerounddotinsidecirclebelow-ar;
-    sub madda-ar.small leftarrowheadbelow-ar by leftarrowheadbelow-ar;
-    sub madda-ar.small meembelow-ar by meembelow-ar;
-    sub madda-ar.small qasrbelow-ar by qasrbelow-ar;
-    sub madda-ar.small rhombusStopbelow-ar by rhombusStopbelow-ar;
-    sub madda-ar.small rightarrowheadbelow-ar by rightarrowheadbelow-ar;
-    sub madda-ar.small saktabelow-ar by saktabelow-ar;
-    sub madda-ar.small sukunbelow-ar by sukunbelow-ar;
-    sub madda-ar.small tasheel-ar by tasheel-ar;
-    sub madda-ar.small toneloopbelow-ar by toneloopbelow-ar;
-    sub madda-ar.small toneonedotbelow-ar by toneonedotbelow-ar;
-    sub madda-ar.small tonetwodotsbelow-ar by tonetwodotsbelow-ar;
-    sub madda-ar.small wavyhamzabelow-ar by wavyhamzabelow-ar;
-    sub madda-ar.small wordmaddabelow-ar by wordmaddabelow-ar;
+    sub @MaddaPlain shadda-ar by shadda-ar;
+    sub @MaddaPlain damma-ar by damma-ar;
+    sub @MaddaPlain damma-ar.filled by damma-ar.filled;
+    sub @MaddaPlain damma-ar.short by damma-ar.short;
+    sub @MaddaPlain dammasmall-ar by dammasmall-ar;
+    sub @MaddaPlain dammatan-ar by dammatan-ar;
+    sub @MaddaPlain dammatan-ar.sixNine by dammatan-ar.sixNine;
+    sub @MaddaPlain fatha-ar by fatha-ar;
+    sub @MaddaPlain fathasmall-ar by fathasmall-ar;
+    sub @MaddaPlain fathatan-ar by fathatan-ar;
+    sub @MaddaPlain kasra-ar by kasra-ar;
+    sub @MaddaPlain kasra-ar.lowered by kasra-ar.lowered;
+    sub @MaddaPlain kasrasmall-ar by kasrasmall-ar;
+    sub @MaddaPlain kasratan-ar by kasratan-ar;
+    sub @MaddaPlain kasratan-ar.lowered by kasratan-ar.lowered;
+    sub @MaddaPlain opendammatan-ar by opendammatan-ar;
+    sub @MaddaPlain openfathatan-ar by openfathatan-ar;
+    sub @MaddaPlain openkasratan-ar by openkasratan-ar;
+    sub @MaddaPlain sukun-ar by sukun-ar;
+    sub @MaddaPlain sukun-ar.downOpen by sukun-ar.downOpen;
+    sub @MaddaPlain sukun-ar.leftOpen by sukun-ar.leftOpen;
+    sub @MaddaPlain alefabove-ar by alefabove-ar;
+    sub @MaddaPlain alefabove-ar.large by alefabove-ar.large;
+    sub @MaddaPlain hamzabelow-ar by hamzabelow-ar;
+    sub @MaddaPlain largerounddotbelow-ar by largerounddotbelow-ar;
+    sub @MaddaPlain seenbelow-ar by seenbelow-ar;
+    sub @MaddaPlain wawbelow-ar by wawbelow-ar;
+    sub @MaddaPlain alefbelow-ar by alefbelow-ar;
+    sub @MaddaPlain dammaturnedbelow-ar by dammaturnedbelow-ar;
+    sub @MaddaPlain dotvowelbelow-ar by dotvowelbelow-ar;
+    sub @MaddaPlain imaalabelow-ar by imaalabelow-ar;
+    sub @MaddaPlain ishmaambelow-ar by ishmaambelow-ar;
+    sub @MaddaPlain kasraCurly-ar by kasraCurly-ar;
+    sub @MaddaPlain kasraDotbelow-ar by kasraDotbelow-ar;
+    sub @MaddaPlain kasratanCurly-ar by kasratanCurly-ar;
+    sub @MaddaPlain largecirclebelow-ar by largecirclebelow-ar;
+    sub @MaddaPlain largerounddotinsidecirclebelow-ar by largerounddotinsidecirclebelow-ar;
+    sub @MaddaPlain leftarrowheadbelow-ar by leftarrowheadbelow-ar;
+    sub @MaddaPlain meembelow-ar by meembelow-ar;
+    sub @MaddaPlain qasrbelow-ar by qasrbelow-ar;
+    sub @MaddaPlain rhombusStopbelow-ar by rhombusStopbelow-ar;
+    sub @MaddaPlain rightarrowheadbelow-ar by rightarrowheadbelow-ar;
+    sub @MaddaPlain saktabelow-ar by saktabelow-ar;
+    sub @MaddaPlain sukunbelow-ar by sukunbelow-ar;
+    sub @MaddaPlain tasheel-ar by tasheel-ar;
+    sub @MaddaPlain toneloopbelow-ar by toneloopbelow-ar;
+    sub @MaddaPlain toneonedotbelow-ar by toneonedotbelow-ar;
+    sub @MaddaPlain tonetwodotsbelow-ar by tonetwodotsbelow-ar;
+    sub @MaddaPlain wavyhamzabelow-ar by wavyhamzabelow-ar;
+    sub @MaddaPlain wordmaddabelow-ar by wordmaddabelow-ar;
 } _ReorderMaddaVowel2;
 
 lookup ReorderMaddaVowel2 {
     lookupflag 0;
-    sub madda-ar.small' lookup _ReorderMaddaVowel2 @MaddaSkip madda-ar.small;
+    sub @MaddaPlain' lookup _ReorderMaddaVowel2 @MaddaSkip @MaddaInsert;
 } ReorderMaddaVowel2;
 
 # Replace Arabic punctuation glyphs with Latin ones:
+# Has no effect in Harmattan:
 lookup LatinPunctuation {
     lookupflag 0;
     sub @cno_latn by @c_latn;
 } LatinPunctuation;
 
 # Kasra position
-#  This is the default behavior for Harmattan:
 lookup KasraLow {
     lookupflag 0;
     sub @Kasra by @Kasra_lowered;
 } KasraLow;
 
-# Not needed for Harmattan
 lookup KasraHigh {
     lookupflag 0;
     sub @Kasra_lowered by @Kasra;
@@ -2754,7 +2755,6 @@ lookup ltrInit {
 
 # HB PAUSE
 #---  rlig feature  ---
-#********
 # Allah
 # The Allah is formed by variant forms for glyphs rather than by ligature glyphs.
 lookup _AllahSub_Alef {
@@ -2807,7 +2807,9 @@ lookup AllahLigatures {
     sub @Lam1NoAllah' lookup _AllahSub_Lam1 @KasraInAllah' lam-ar.medi' lookup _AllahSub_Lam2 shadda-ar' lookup _AllahSub_Shadda_insertA @HehNoAllah' lookup _AllahSub_Heh;
 } AllahLigatures;
 
-#********
+# Ligatures of marks
+# NB: This includes required ligatures other than the shadda-kasra rule, which
+#     must execute after cv67; See notes with feature liga.
 # These compositions have to strike a balance between
 # trying to do something useful for DirectWrite (which doesn't reorder glyphs) without
 # violating the rules of UTR53.
@@ -2815,6 +2817,8 @@ lookup AllahLigatures {
 # Include in this filter hamzaAbove plus any mark glyphs that should stop any ligation.
 # Mark glyphs not included will be skipped over when trying to find a hamzaAbove
 @HamzaAboveFilter = [@UTR53_230MCM @UTR53_230other graphemejoinercomb];
+# Warsh ligatures - Harmattan
+# Ligate alef + hamza (above or below)
 lookup LigaturesForWarsh2 {
     lookupflag UseMarkFilteringSet @HamzaAboveFilter;
             sub alef-ar hamzaabove-ar by alefHamzaabove-ar;
@@ -2870,18 +2874,22 @@ lookup ComposeLowHamzaAbove {
 } ComposeLowHamzaAbove;
 
 @LigateHamzaMarksFilter = [hamzaabove-ar @HamzaMarks];
-lookup LigateHamzaMarks {
+lookup _LigateHamzaMarks {
     lookupflag UseMarkFilteringSet @LigateHamzaMarksFilter;
     sub hamzaabove-ar fatha-ar by hamza_fatha-ar;
     sub hamzaabove-ar damma-ar by hamza_damma-ar;
     sub hamzaabove-ar damma-ar.short by hamza_damma-ar.short;
-} LigateHamzaMarks;
+    sub fatha-ar hamzaabove-ar by hamza_fatha-ar;
+    sub damma-ar hamzaabove-ar by hamza_damma-ar;
+    sub damma-ar.short hamzaabove-ar by hamza_damma-ar.short;
+    # MMM missing from Har
+} _LigateHamzaMarks;
 
 @HamzaLigatureFilter = [@HamzaAboveFilter @HamzaMarks shadda-ar];
 lookup HamzaLigatures {
     lookupflag UseMarkFilteringSet @HamzaLigatureFilter;
-    # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because 
-    # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the 
+    # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because
+    # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the
     # hamza as it isn't at the beginning of the 230 sequence.
     ignore sub @UTR53_230other hamzaabove-ar';
     ignore sub @UTR53_230other @UTR53_230MCM hamzaabove-ar';
@@ -2891,11 +2899,11 @@ lookup HamzaLigatures {
     ignore sub @HamzaMarks' hamzaabove-ar @UTR53_230MCM;
     ignore sub @HamzaMarks' @UTR53_230MCM hamzaabove-ar @UTR53_230MCM;
     # otherwise we can ligate in these situations:
-    sub hamzaabove-ar' lookup LigateHamzaMarks @HamzaMarks;
-    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other @HamzaMarks;
-    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other [@UTR53_230other @UTR53_230MCM] @HamzaMarks;
-    sub @HamzaMarks' lookup LigateHamzaMarks hamzaabove-ar;
-    sub @HamzaMarks' lookup LigateHamzaMarks @UTR53_230MCM hamzaabove-ar;
+    sub hamzaabove-ar' lookup _LigateHamzaMarks @HamzaMarks;
+    sub hamzaabove-ar' lookup _LigateHamzaMarks @UTR53_230other @HamzaMarks;
+    sub hamzaabove-ar' lookup _LigateHamzaMarks @UTR53_230other [@UTR53_230other @UTR53_230MCM] @HamzaMarks;
+    sub @HamzaMarks' lookup _LigateHamzaMarks hamzaabove-ar;
+    sub @HamzaMarks' lookup _LigateHamzaMarks @UTR53_230MCM hamzaabove-ar;
 } HamzaLigatures;
 
 # Shadda ligation
@@ -2916,22 +2924,20 @@ lookup ShaddaLigatures {
     sub alefabove-ar shadda-ar by shadda_alef-ar;
 } ShaddaLigatures;
 
-# Not needed in Harmattan, but shouldn't hurt, and it simplifies the code to include it.
 # In theory we could do this up where we create the Allah ligature, but this simpler:
 lookup ShaddaAlefLigatures {
     lookupflag UseMarkFilteringSet @ShaddaLigatureFilter;
-    sub lam-ar.medi.allah2 shadda-ar' alefabove-ar' by shadda_alef-ar;
-    sub lam-ar.medi.allah2 alefabove-ar' shadda-ar' by shadda_alef-ar;
+    
 } ShaddaAlefLigatures;
 
 # HB PAUSE
 #---  calt feature  ---
-#********************
-# Language CALTs
+# Language-independent shaping
 # Lateef short tail variants of reh and waw -- disabled for now.
 #include(../../source/opentype/customShaping.feax)
 
 # Lateef
+# HB PAUSE
 # Language-specific shaping
 lookup dfltCALT {
     # (need at least a dummy lookup for TT)
@@ -2990,43 +2996,13 @@ lookup WolofCALT {
     lookupflag 0;
     sub @cno_loclWLF by @c_loclWLF;
     sub @Damma by @Damma_short;
-    sub @DammaInverted by @DammaInverted_open;
+    sub dammainverted-ar by dammainverted-ar.open;
     sub @Kasra by @Kasra_lowered;
 } WolofCALT;
 
-#********************
-# Warsh Alternates: TypeTuner lookups:
-### REMOVE CV02
-#do let f = info("familyName");
-#   if f.find("Harmattan") != -1; {
-#
-#lookup WarshAlternatesTT1 {
-#  lookupflag IgnoreMarks ;
-#    sub alefHamzaabove-ar by alefHamzaabove-ar.warsh ;
-#    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
-#    sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
-#    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
-#} WarshAlternatesTT1;
-#
-#lookup WarshAlternatesTT2 {
-#  lookupflag IgnoreMarks ;
-#    sub alefHamzaabove-ar by alefHamzaabove-ar.warsh ;
-#    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
-#    sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
-#    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
-#    sub alef_fatha-ar by alef_fatha-ar.warsh ;
-#    sub alef_kasra-ar by alef_kasra-ar.warsh ;
-#} WarshAlternatesTT2;
-#
-#}    # end do - Harmattan
 # HB PAUSE
-#********************
-# for all remaining substitution features (salt, cvxx, liga):
-#********************
-#********************
+#--- remaining subs features (salt, cvxx, liga) ---
 # Lookups for user-selectable features
-#********************
-# Warsh alternates: cv02
     ### REMOVE CV02
     #lookup WarshAlternates {
     #  lookupflag IgnoreMarks ;
@@ -3039,39 +3015,34 @@ lookup WolofCALT {
     #    sub alef_fatha-ar from [ alef_fatha-ar alef_fatha-ar.warsh ] ;
     #    sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
     #} WarshAlternates;
-    #********************
     # Jeem/Hah medial alternate: cv08
-    #********************
+    #end do - Harmattan
     # Dal alternate: cv12
-    #********************
-    # Sad/Dad "half" form alternate: cv20
-    # end do - Harmattan
-    #********************
-    # Meem alternate: cv44
+    # Has no effect in Lateef
     lookup JeemHahMedAlternate {
         lookupflag IgnoreMarks;
         sub @cno_hand by @c_hand;
     } JeemHahMedAlternate;
 
-    lookup DalAlternate {
-        lookupflag IgnoreMarks;
-        sub @cno_loclWLF by @c_loclWLF;
-    } DalAlternate;
 
-    lookup SadDadAlternate {
-        lookupflag IgnoreMarks;
-        sub @cno_half by @c_half;
-    } SadDadAlternate;
+lookup DalAlternate {
+    lookupflag IgnoreMarks;
+    sub @cno_loclWLF by @c_loclWLF;
+} DalAlternate;
 
+# Sad/Dad "half" form alternate: cv20
+lookup SadDadAlternate {
+    lookupflag IgnoreMarks;
+    sub @cno_half by @c_half;
+} SadDadAlternate;
 
+# Meem alternate: cv44
 lookup MeemAlternate {
     lookupflag IgnoreMarks;
     sub @cno_sindhi by @c_sindhi;
-    # MMM replace with c/cno_sindhi classes
 } MeemAlternate;
 
-#********************
-# Heh Alternates: TypeTuner lookups:
+# Heh alternates: cv48
 lookup SindhiHeh {
     # TypeTuner only
     lookupflag IgnoreMarks;
@@ -3102,7 +3073,7 @@ lookup KurdishHeh {
 # Heh alternates: cv48
 lookup HehAlternates {
     lookupflag IgnoreMarks;
-    #   0=default                       1=Sindhi-style           2=Urdu-style        3=Kurdish-style
+    #   0=default             1=Sindhi-style           2=Urdu-style        3=Kurdish-style
     sub heh-ar from [heh-ar.knotted heh-ar heh-ar.knotted];
     sub heh-ar.init from [heh-ar.init heh-ar.init.hooked heh-ar.init];
     sub heh-ar.medi from [heh-ar.medi.knottedHigh heh-ar.medi.hooked heh-ar.medi];
@@ -3136,10 +3107,8 @@ lookup YehHamzaAlternates {
     sub yehHamzaabove-ar.fina by yehHamzaabove-ar.fina.loclKIR;
 } YehHamzaAlternates;
 
-#********************
-# Madda Alternate: cv60
+# Madda alternate: cv60
     # Sch or Har
-    #********************
     # Kasra Alternates: cv62
     lookup MaddaAlternate {
         lookupflag 0;
@@ -3158,7 +3127,6 @@ lookup KasraAlternates {
     sub kasratan-ar from [kasratan-ar.lowered kasratan-ar];
 } KasraAlternates;
 
-#********************
 # Damma alternates: cv70
 lookup DammaAlternates {
     lookupflag 0;
@@ -3173,14 +3141,12 @@ lookup DammaAlternates {
     sub hamza_damma-ar.short from [hamza_damma-ar.filled hamza_damma-ar.short];
 } DammaAlternates;
 
-#********************
 # SixNine Dammatan: cv72
 lookup DammatanAlternate {
     lookupflag 0;
     sub @cno_sixNine by @c_sixNine;
 } DammatanAlternate;
 
-#********************
 # Inverted Damma alternates: cv74
 lookup DammaInvertedAlternates {
     lookupflag 0;
@@ -3189,10 +3155,12 @@ lookup DammaInvertedAlternates {
     sub dammainverted-ar.open from [dammainverted-ar.open dammainverted-ar];
 } DammaInvertedAlternates;
 
-#********************
 # DaggerAlef alternates: cv76
 lookup _DaggerAlefAlt {
+    lookupflag 0;
+    # 0=default;            1=large;            2=small
     sub alefabove-ar from [alefabove-ar.large alefabove-ar];
+    #sub alefabove-ar by alefabove-ar.large ;
 } _DaggerAlefAlt;
 
 lookup DaggerAlefAlternates {
@@ -3205,14 +3173,12 @@ lookup DaggerAlefAlternates {
     
 } DaggerAlefAlternates;
 
-#********************
 # Sukun alternates: cv78
 lookup SukunAlternates {
     lookupflag 0;
     sub sukun-ar from [sukun-ar.downOpen sukun-ar.leftOpen];
 } SukunAlternates;
 
-#********************
 # End of Ayah alternates: cv80
 lookup AyahAlternates {
     lookupflag 0;
@@ -3223,8 +3189,8 @@ lookup AyahAlternates {
 
 
 # Sch
-#********************
-# Heh Alternates: TypeTuner lookups:
+# Digit alternates
+# TypeTuner lookups:
 lookup DigitSindhi {
     lookupflag 0;
     sub four-persian.urdu by four-persian;
@@ -3272,14 +3238,12 @@ lookup DigitAlternates {
     sub seven-persian.urdu from [seven-persian.urdu seven-persian.urdu seven-persian seven-persian.urdu];
 } DigitAlternates;
 
-#********************
 # Comma alternates: cv84
 lookup CommaAlternates {
     lookupflag IgnoreMarks;
     sub @cno_downward by @c_downward;
 } CommaAlternates;
 
-#********************
 # Decimal separator alternates: cv85
 lookup DecimalSepAlternate {
     # cv85
@@ -3287,11 +3251,8 @@ lookup DecimalSepAlternate {
     sub @cno_slash by @c_slash;
 } DecimalSepAlternate;
 
-#********************
-# Ligatures: liga
-#
-# see notes with liga feature
-# MMM just copied over from Scheherazade, even though it was slightly different before:
+#---  liga feature  ---
+# Shadda+kasra handling - see notes with liga feature
 lookup ShaddaKasraLigatures {
     lookupflag MarkAttachmentType @ShaddaLigatureParts;
     sub kasratan-ar shadda-ar by shadda_kasratan-ar;
@@ -3445,6 +3406,7 @@ lookup SignDigits_ToSmall_target {
     sub @DigitsAny by @DigitsAnySmall;
 } SignDigits_ToSmall_target;
 
+# Keep after cv82, so that the right digit alternates are already selected by now:
 lookup SignWithDigits {
     lookupflag IgnoreMarks;
     # Uniscribe or HarfBuzz 'latn'
@@ -3468,8 +3430,7 @@ lookup SignWithDigits {
 # Lateef only
 
 # Lateef
-#********
-# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+# Must be after lang-specific CALTs and cv48.
 #**********************************
 # This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
 # and is Copyright (c) 2014-2022 SIL International (http://www.sil.org/),
@@ -3522,7 +3483,7 @@ feature ccmp {
     lookup LatinPunctuation;
     script arab;
     lookup DecomposeForColor;
-    # Force other languages to include Arabic script lookups:
+    # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;
     # Kurdish uses raised kasra
@@ -3534,13 +3495,8 @@ feature ccmp {
     #        lookup KasraLow ;
     language WLF;
     #        lookup KasraLow ;
-    # The glyph set is defined to make kasra-high the default; here we want low to be default.
-    language dflt;
-    #        lookup KasraLow ;
     script latn;
-    # Latin
-    lookup KasraLow;
-    # need for bare diacritics (on white space) in Latin text
+    #        lookup KasraHigh;  # needed for bare diacritics (on white space) in Latin text
 } ccmp;
 
 # feature locl (not used; see calt)
@@ -3589,8 +3545,8 @@ feature init {
 # HB PAUSE
 feature rlig {
     # Required Ligatures
+    # lookup ShaddaKasraLigatures (where needed) has been moved to liga so it runs after cv62
     script arab;
-    # Arabic
     lookup AllahLigatures;
     #lookup LamAlefLigatures; -- move to liga to go after ShaddaKasraLigatures
     #ifinfo(familyName, "Harmattan") {
@@ -3601,6 +3557,8 @@ feature rlig {
     lookup ShaddaLigatures;
     lookup ComposeLowHamzaAbove;
     lookup HamzaLigatures;
+    lookup ShaddaAlefLigatures;
+    #lookup ShaddaKasraLigatures; -- move to liga so it runs after cv62
     # Force other languages to include Arabic script lookups:
     language KIR;
     language KUR;
@@ -3646,6 +3604,9 @@ feature calt {
     language WLF;
     # Wolof
     lookup WolofCALT;
+    script latn;
+    lookup KasraHigh;
+    # for bare diacritics (on white space) in Latin text
 } calt;
 
 # feature rclt - nothing to do
@@ -3655,7 +3616,7 @@ feature salt {
     # Stylistic Alternates
     script arab;
     lookup AyahAlternates;
-    # Force other languages to include Arabic script lookups:
+    # Force other languages to include Arabic script lookups
     language KIR;
     # Kyrgyz
     language KUR;
@@ -3672,24 +3633,6 @@ feature salt {
 
 #--- Character Variants ---
 # Character Variant 02 - Harmattan only
-    ### REMOVE CV02
-    #feature cv02 {
-    #    cvParameters {
-    #        FeatUILabelNameID  { name 3 1 0x0409 "Alef diacritic placement" ; };
-    #    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
-    #        ParamUILabelNameID { name 3 1 0x0409 "Hamza touching" ; };
-    #        ParamUILabelNameID { name 3 1 0x0409 "Touching"       ; };
-    #    } ;
-    #    script arab;  # Arabic
-    #        lookup WarshAlternates;
-    #      # Force other languages to include Arabic script lookups:
-    #      language KIR  ;
-    #      language KUR  ;
-    #      language RHG  ;
-    #      language SND  ;
-    #      language URD  ;
-    #      language WLF  ;
-    #} cv02 ;
     # Character Variant 08
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"    ; };
     # Arabic
@@ -3790,7 +3733,7 @@ feature cv44 {
 
     script arab;
     lookup MeemAlternate;
-    # Force other languages to include Arabic script lookups:
+    # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;
     language RHG;
@@ -3826,6 +3769,7 @@ feature cv48 {
     # Force other languages to include Arabic script lookups:
     language KIR;
     language KUR;
+    language RHG;
     language SND;
     language RHG;
     language URD;
@@ -3848,6 +3792,7 @@ feature cv49 {
             name "Standard";
         };
 
+        # not intended for use
                 ParamUILabelNameID {
             name "Kurdish-style";
         };
@@ -3912,7 +3857,6 @@ feature cv54 {
     # Force other languages to include Arabic script lookups:
     language KIR;
     language KUR;
-    language KUR;
     language SND;
     language RHG;
     language URD;
@@ -3962,13 +3906,14 @@ feature cv62 {
     lookup KasraAlternates;
 } cv62;
 
+# Character variant 70
 feature cv70 {
         cvParameters {
                 FeatUILabelNameID {
             name "Damma";
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+        ### ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
                 ParamUILabelNameID {
             name "Filled";
         };

@@ -1,6 +1,6 @@
 #**********************************
 # This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
-# and is Copyright (c) 2014-2022 SIL International (http://www.sil.org/),
+# and is Copyright (c) 2014-2023 SIL International (http://www.sil.org/),
 # with Reserved Font Names "Harmattan" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -108,27 +108,28 @@ lookup FontCheck {
 
 lookup _ReorderMaddaVowel1 {
   lookupflag 0 ;
-    sub @MaddaSkip by @MaddaSkip madda-ar.small ;
+    sub @MaddaSkip  by  @MaddaSkip  @MaddaInsert ;
 } _ReorderMaddaVowel1 ;
 
 lookup ReorderMaddaVowel1 {
   lookupflag 0 ;
-    sub madda-ar.small @MaddaSkip' lookup _ReorderMaddaVowel1 ;
+    sub @MaddaPlain  @MaddaSkip' lookup _ReorderMaddaVowel1 ;
 } ReorderMaddaVowel1;
 
 lookup _ReorderMaddaVowel2 {
   lookupflag 0 ;
-    sub madda-ar.small @MaddaSkip by @MaddaSkip ;
+    sub @MaddaPlain  @MaddaSkip by @MaddaSkip ;
 } _ReorderMaddaVowel2 ;
 
 lookup ReorderMaddaVowel2 {
   lookupflag 0 ;
-    sub madda-ar.small' lookup _ReorderMaddaVowel2  @MaddaSkip madda-ar.small ;
+    sub @MaddaPlain' lookup _ReorderMaddaVowel2  @MaddaSkip  @MaddaInsert ;
 } ReorderMaddaVowel2;
 
 
 # Replace Arabic punctuation glyphs with Latin ones:
 
+# Has no effect in Harmattan:
 lookup LatinPunctuation {
   lookupflag 0 ;
     sub @cno_latn by @c_latn ;
@@ -137,13 +138,11 @@ lookup LatinPunctuation {
 
 # Kasra position
 
-#  This is the default behavior for Harmattan:
 lookup KasraLow {
   lookupflag 0 ;
     sub @Kasra by @Kasra_lowered;
 } KasraLow;
 
-# Not needed for Harmattan
 lookup KasraHigh {
   lookupflag 0 ;
     sub @Kasra_lowered by @Kasra;
@@ -182,7 +181,6 @@ lookup ltrInit {
 
 #---  rlig feature  ---
 
-#********
 
 # Allah
 
@@ -303,8 +301,12 @@ lookup AllahLigatures {
 
 } AllahLigatures;
 
-        
-#********
+
+# Ligatures of marks
+
+# NB: This includes required ligatures other than the shadda-kasra rule, which
+#     must execute after cv67; See notes with feature liga.
+
 # These compositions have to strike a balance between
 # trying to do something useful for DirectWrite (which doesn't reorder glyphs) without
 # violating the rules of UTR53.
@@ -317,12 +319,17 @@ lookup AllahLigatures {
 
 @HamzaAboveFilter = [@UTR53_230MCM @UTR53_230other graphemejoinercomb ] ;
 
+
+# Warsh ligatures - Harmattan
+
+# Ligate alef + hamza (above or below)
+
 lookup LigaturesForWarsh2 {
   lookupflag UseMarkFilteringSet @HamzaAboveFilter ;
-  ifinfo(familyName, "Harmattan") {
+	ifinfo(familyName, "Harmattan") {
     sub alef-ar hamzaabove-ar by alefHamzaabove-ar ;
     sub alef-ar.fina hamzaabove-ar by alefHamzaabove-ar.fina ;
-  }
+	}
 } LigaturesForWarsh2;
 
 # Include in this filter hamzaBelow plus any mark glyphs that should stop any ligation.
@@ -330,10 +337,10 @@ lookup LigaturesForWarsh2 {
 @HamzaBelowFilter = [@UTR53_220MCM @UTR53_220other graphemejoinercomb ] ;
 lookup LigaturesForWarsh3 {
   lookupflag UseMarkFilteringSet @HamzaBelowFilter ;
-  ifinfo(familyName, "Harmattan") {
+	ifinfo(familyName, "Harmattan") {
     sub alef-ar      hamzabelow-ar  by  alefHamzabelow-ar ;
     sub alef-ar.fina hamzabelow-ar  by  alefHamzabelow-ar.fina ;
-  }
+	}
 } LigaturesForWarsh3;
 
 # Ligate alef + kasra or fatha
@@ -373,31 +380,33 @@ lookup ComposeLowHamzaAbove {
     sub @LowHamzaBase hamzaabove-ar by @LowHamzaComposed ;
 } ComposeLowHamzaAbove;
 
+
 @LigateHamzaMarksFilter = [ hamzaabove-ar @HamzaMarks ] ;
-lookup LigateHamzaMarks {
+lookup _LigateHamzaMarks {
   lookupflag UseMarkFilteringSet @LigateHamzaMarksFilter ;
-    sub hamzaabove-ar @HamzaMarks by @HamzaLigatures ;
-} LigateHamzaMarks;
+    sub hamzaabove-ar @HamzaMarks   by  @HamzaLigatures ;
+    sub @HamzaMarks   hamzaabove-ar by  @HamzaLigatures ;  # MMM missing from Har
+} _LigateHamzaMarks;
 
 @HamzaLigatureFilter = [ @HamzaAboveFilter @HamzaMarks shadda-ar ] ;
 lookup HamzaLigatures {
   lookupflag UseMarkFilteringSet @HamzaLigatureFilter ;
-    # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because 
-    # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the 
+    # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because
+    # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the
     # hamza as it isn't at the beginning of the 230 sequence.
-    ignore sub @UTR53_230other               hamzaabove-ar' ;
-    ignore sub @UTR53_230other @UTR53_230MCM hamzaabove-ar' ;
+    ignore sub @UTR53_230other'               hamzaabove-ar ;
+    ignore sub @UTR53_230other' @UTR53_230MCM hamzaabove-ar ;
     # shouldn't ligate fatha|damma + following hamza when a 230MCM follows the hamza because
     # UTR53 would have moved both hamza and following 230MCM to before the fatha|damma at which
     # point the 230MCM would be between the hamza and the fatha|damma, blocking ligation.
     ignore sub @HamzaMarks'                  hamzaabove-ar @UTR53_230MCM ;
     ignore sub @HamzaMarks'    @UTR53_230MCM hamzaabove-ar @UTR53_230MCM ;
     # otherwise we can ligate in these situations:
-    sub hamzaabove-ar' lookup LigateHamzaMarks                                                   @HamzaMarks ;
-    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other                                   @HamzaMarks ;
-    sub hamzaabove-ar' lookup LigateHamzaMarks @UTR53_230other [ @UTR53_230other @UTR53_230MCM ] @HamzaMarks ;
-    sub @HamzaMarks'   lookup LigateHamzaMarks                 hamzaabove-ar ;
-    sub @HamzaMarks'   lookup LigateHamzaMarks @UTR53_230MCM   hamzaabove-ar ;
+    sub hamzaabove-ar' lookup _LigateHamzaMarks                                                   @HamzaMarks ;
+    sub hamzaabove-ar' lookup _LigateHamzaMarks @UTR53_230other                                   @HamzaMarks ;
+    sub hamzaabove-ar' lookup _LigateHamzaMarks @UTR53_230other [ @UTR53_230other @UTR53_230MCM ] @HamzaMarks ;
+    sub @HamzaMarks'   lookup _LigateHamzaMarks                 hamzaabove-ar ;
+    sub @HamzaMarks'   lookup _LigateHamzaMarks @UTR53_230MCM   hamzaabove-ar ;
 } HamzaLigatures;
 
 
@@ -412,14 +421,13 @@ lookup ShaddaLigatures {
     sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
 } ShaddaLigatures;
 
-
-# Not needed in Harmattan, but shouldn't hurt, and it simplifies the code to include it.
-
 # In theory we could do this up where we create the Allah ligature, but this simpler:
 lookup ShaddaAlefLigatures {
   lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
+  ifinfo(familyName, "ScheherzadeNew") {
     sub lam-ar.medi.allah2 shadda-ar'    alefabove-ar'  by  shadda_alef-ar;
     sub lam-ar.medi.allah2 alefabove-ar' shadda-ar'     by  shadda_alef-ar;
+  }
 } ShaddaAlefLigatures;
 
 
@@ -428,8 +436,7 @@ lookup ShaddaAlefLigatures {
 
 #---  calt feature  ---
 
-#********************
-# Language CALTs
+# Language-independent shaping
 
 # Lateef short tail variants of reh and waw -- disabled for now.
 #include(../../source/opentype/customShaping.feax)
@@ -442,6 +449,8 @@ lookup DaggerAlefToLarge {
 } DaggerAlefToLarge;
 
 }  # Lateef
+
+# HB PAUSE
 
 # Language-specific shaping
 
@@ -457,13 +466,12 @@ lookup dfltCALT {  # (need at least a dummy lookup for TT)
 
 lookup KurdishCALT {
   lookupflag 0 ;
-    sub hehDoachashmee-ar.fina  by  hehDoachashmee-ar.fina.knottedHigh;
+    sub hehDoachashmee-ar.fina  by  hehDoachashmee-ar.fina.knottedHigh ;
     
     # Sch/Lateef default kasra behavior is high = ABS system default
 	ifinfo(familyName, "Harmattan") {
     sub @Kasra_lowered  by @Kasra;  # high kasra
 	}
-
 } KurdishCALT ;
 
 lookup KyrgyzCALT {
@@ -471,9 +479,9 @@ lookup KyrgyzCALT {
     sub @cno_loclKIR  by  @c_loclKIR ;
 
     # Sch/Lateef default kasra behavior is high = ABS system default
-ifinfo(familyName, "Harmattan") {
+	ifinfo(familyName, "Harmattan") {
     sub @Kasra_lowered  by @Kasra;  # high kasra
-}
+	}
 } KyrgyzCALT ;
 
 lookup RohingyaCALT {
@@ -482,7 +490,7 @@ lookup RohingyaCALT {
     sub six-persian   by  six-persian.urdu ;
     sub seven-persian by  seven-persian.urdu ;
     sub @cno_sixNine  by  @c_sixNine ;
-
+    
     sub @Kasra        by  @Kasra_lowered ;
 } RohingyaCALT  ;
 
@@ -495,67 +503,35 @@ lookup SindhiCALT {
     ##sub comma-ar      by  comma-ar.downward ;
     ##sub semicolon-ar  by  semicolon-ar.downward ;
 
-    sub @Kasra        by  @Kasra_lowered ;
-} SindhiCALT;
+    sub @Kasra        by  @Kasra_lowered;
+} SindhiCALT ;
 
 lookup UrduCALT {
   lookupflag 0 ;
     sub four-persian  by  four-persian.urdu ;
     sub six-persian   by  six-persian.urdu ;
     sub seven-persian by  seven-persian.urdu ;
-
-    sub @Kasra        by  @Kasra_lowered ;
-} UrduCALT;
+    
+    sub @Kasra        by  @Kasra_lowered;
+} UrduCALT ;
 
 lookup WolofCALT {
   lookupflag 0 ;
-    sub @cno_loclWLF   by  @c_loclWLF ;
+    sub @cno_loclWLF     by  @c_loclWLF ;
+    
+    sub @Damma           by  @Damma_short ;
+    sub dammainverted-ar by  dammainverted-ar.open ;
 
-    sub @Damma         by  @Damma_short ;
-    sub @DammaInverted by  @DammaInverted_open ;
+    sub @Kasra           by  @Kasra_lowered ;
+} WolofCALT ;
 
-    sub @Kasra         by  @Kasra_lowered ;
-} WolofCALT;
-
-
-#********************
-# Warsh Alternates: TypeTuner lookups:
-
-### REMOVE CV02
-#do let f = info("familyName");
-#   if f.find("Harmattan") != -1; {
-#
-#lookup WarshAlternatesTT1 {
-#  lookupflag IgnoreMarks ;
-#    sub alefHamzaabove-ar by alefHamzaabove-ar.warsh ;
-#    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
-#    sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
-#    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
-#} WarshAlternatesTT1;
-#
-#lookup WarshAlternatesTT2 {
-#  lookupflag IgnoreMarks ;
-#    sub alefHamzaabove-ar by alefHamzaabove-ar.warsh ;
-#    sub alefHamzaabove-ar.fina by alefHamzaabove-ar.fina.warsh ;
-#    sub alefHamzabelow-ar by alefHamzabelow-ar.warsh ;
-#    sub alefHamzabelow-ar.fina by alefHamzabelow-ar.fina.warsh ;
-#    sub alef_fatha-ar by alef_fatha-ar.warsh ;
-#    sub alef_kasra-ar by alef_kasra-ar.warsh ;
-#} WarshAlternatesTT2;
-#
-#}    # end do - Harmattan
 
 # HB PAUSE
 
-#********************
-# for all remaining substitution features (salt, cvxx, liga):
-#********************
+#--- remaining subs features (salt, cvxx, liga) ---
 
-#********************
 # Lookups for user-selectable features
 
-#********************
-# Warsh alternates: cv02
 
 do let f = info("familyName");
    if f.find("Harmattan") != -1; {
@@ -573,7 +549,7 @@ do let f = info("familyName");
 #    sub alef_kasra-ar from [ alef_kasra-ar alef_kasra-ar.warsh ] ;
 #} WarshAlternates;
 
-#********************
+
 # Jeem/Hah medial alternate: cv08
 
 lookup JeemHahMedAlternate {
@@ -581,15 +557,18 @@ lookup JeemHahMedAlternate {
     sub @cno_hand by @c_hand ;
 } JeemHahMedAlternate;
 
-#********************
+}  #end do - Harmattan
+
+
 # Dal alternate: cv12
+# Has no effect in Lateef
 
 lookup DalAlternate {
   lookupflag IgnoreMarks ;
     sub @cno_loclWLF by @c_loclWLF ;
 } DalAlternate;
 
-#********************
+
 # Sad/Dad "half" form alternate: cv20
 
 lookup SadDadAlternate {
@@ -597,18 +576,16 @@ lookup SadDadAlternate {
     sub @cno_half by @c_half ;
 } SadDadAlternate;
 
-}    # end do - Harmattan
 
-#********************
 # Meem alternate: cv44
 
 lookup MeemAlternate {
   lookupflag IgnoreMarks ;
-    sub @cno_sindhi by @c_sindhi ;   # MMM replace with c/cno_sindhi classes
+    sub @cno_sindhi by @c_sindhi;
 } MeemAlternate;
 
-#********************
-# Heh Alternates: TypeTuner lookups:
+
+# Heh alternates: cv48
 
 lookup SindhiHeh {         # TypeTuner only
   lookupflag IgnoreMarks ;
@@ -638,11 +615,11 @@ lookup KurdishHeh {        # TypeTuner only
 
 lookup HehAlternates {
   lookupflag IgnoreMarks ;
-    #   0=default                       1=Sindhi-style           2=Urdu-style        3=Kurdish-style
-    sub heh-ar                  from  [ heh-ar.knotted           heh-ar              heh-ar.knotted          ] ;
-    sub heh-ar.init             from  [ heh-ar.init              heh-ar.init.hooked  heh-ar.init             ] ;
-    sub heh-ar.medi             from  [ heh-ar.medi.knottedHigh  heh-ar.medi.hooked  heh-ar.medi             ] ;
-    sub heh-ar.fina             from  [ heh-ar.fina.knottedHigh  heh-ar.fina.hooked  heh-ar.fina.knottedHigh ] ;
+    #   0=default             1=Sindhi-style           2=Urdu-style        3=Kurdish-style
+    sub heh-ar        from  [ heh-ar.knotted           heh-ar              heh-ar.knotted          ] ;
+    sub heh-ar.init   from  [ heh-ar.init              heh-ar.init.hooked  heh-ar.init             ] ;
+    sub heh-ar.medi   from  [ heh-ar.medi.knottedHigh  heh-ar.medi.hooked  heh-ar.medi             ] ;
+    sub heh-ar.fina   from  [ heh-ar.fina.knottedHigh  heh-ar.fina.hooked  heh-ar.fina.knottedHigh ] ;
 } HehAlternates;
 
 
@@ -676,8 +653,7 @@ lookup YehHamzaAlternates {			# cv54
 } YehHamzaAlternates;
 
 
-#********************
-# Madda Alternate: cv60
+# Madda alternate: cv60
 
 do let f = info("familyName");
    if f.find("Scheherazade New") != -1 or f.find("Harmattan") != -1; {
@@ -689,7 +665,7 @@ lookup MaddaAlternate {
 
 }  # Sch or Har
 
-#********************
+
 # Kasra Alternates: cv62
 
 lookup KasraAlternates {        # cv62
@@ -701,7 +677,6 @@ lookup KasraAlternates {        # cv62
 } KasraAlternates;
 
 
-#********************
 # Damma alternates: cv70
 
 lookup DammaAlternates {
@@ -711,7 +686,7 @@ lookup DammaAlternates {
     sub @Damma_short  from [ @Damma_filled  @Damma_short ];
 } DammaAlternates;
 
-#********************
+
 # SixNine Dammatan: cv72
 
 lookup DammatanAlternate {
@@ -719,7 +694,7 @@ lookup DammatanAlternate {
     sub @cno_sixNine by @c_sixNine ;
 } DammatanAlternate;
 
-#********************
+
 # Inverted Damma alternates: cv74
 
 lookup DammaInvertedAlternates {
@@ -729,12 +704,15 @@ lookup DammaInvertedAlternates {
     sub @DammaInverted_open from  [ @DammaInverted_open  @DammaInverted ];
 } DammaInvertedAlternates;
 
-#********************
+
 # DaggerAlef alternates: cv76
 
 lookup _DaggerAlefAlt {
-    sub alefabove-ar from [ alefabove-ar.large alefabove-ar ] ;
-} _DaggerAlefAlt;
+  lookupflag 0 ;
+    # 0=default;            1=large;            2=small
+    sub alefabove-ar from [ alefabove-ar.large  alefabove-ar ];
+    #sub alefabove-ar by alefabove-ar.large ;
+} _DaggerAlefAlt ;
 
 lookup DaggerAlefAlternates {   # cv76
   lookupflag 0 ;
@@ -750,7 +728,7 @@ lookup DaggerAlefAlternates {   # cv76
 
 } DaggerAlefAlternates;
 
-#********************
+
 # Sukun alternates: cv78
 
 lookup SukunAlternates {
@@ -758,7 +736,7 @@ lookup SukunAlternates {
     sub sukun-ar from [ sukun-ar.downOpen sukun-ar.leftOpen ] ;
 } SukunAlternates;
 
-#********************
+
 # End of Ayah alternates: cv80
 
 lookup AyahAlternates {
@@ -777,8 +755,9 @@ lookup HonLigAlternates {      # cv81
 }  # Sch
 
 
-#********************
-# Heh Alternates: TypeTuner lookups:
+# Digit alternates
+
+# TypeTuner lookups:
 
 lookup DigitSindhi {
   lookupflag 0;
@@ -828,7 +807,7 @@ lookup DigitAlternates {
     sub seven-persian.urdu from [seven-persian.urdu   seven-persian.urdu  seven-persian      seven-persian.urdu];
 } DigitAlternates;
 
-#********************
+
 # Comma alternates: cv84
 
 lookup CommaAlternates {
@@ -836,7 +815,7 @@ lookup CommaAlternates {
     sub @cno_downward by @c_downward;
 } CommaAlternates;
 
-#********************
+
 # Decimal separator alternates: cv85
 
 lookup DecimalSepAlternate {    # cv85
@@ -845,12 +824,10 @@ lookup DecimalSepAlternate {    # cv85
 } DecimalSepAlternate;
 
 
-#********************
-# Ligatures: liga
-#
-# see notes with liga feature
+#---  liga feature  ---
 
-# MMM just copied over from Scheherazade, even though it was slightly different before:
+# Shadda+kasra handling - see notes with liga feature
+
 lookup ShaddaKasraLigatures {
   lookupflag MarkAttachmentType @ShaddaLigatureParts;
     sub @ShaddaKasraMarks                    shadda-ar  by  @ShaddaKasraLigatures ;
@@ -872,8 +849,8 @@ lookup LamAlefLigatures {
     sub @LamNoLig   alefTwoabove-ar.fina        by  @LamAlefTwoAboveLig ;
     sub @LamNoLig   alefThreeabove-ar.fina      by  @LamAlefThreeAboveLig ;
 	ifinfo(familyName, "Scheherazade New") {
-    sub lam-ar      @AlefRareNoLig              by  @LamAlefRareLig ;
-    sub lam-ar.fina @AlefRareNoLig              by  @LamAlefRareLigFina ;
+    sub lam-ar.init   @AlefRareNoLig            by  @LamAlefRareLig ;
+    sub lam-ar.medi   @AlefRareNoLig            by  @LamAlefRareLigFina ;
 	}
 	ifinfo(familyName, "Harmattan") {
     #sub @LamNoLig   alefHamzaabove-ar.fina      by  @LamAlefHamzaaboveLig ;
@@ -920,6 +897,8 @@ lookup SignDigits_ToSmall_target {
     sub @DigitsAny by @DigitsAnySmall ;
 } SignDigits_ToSmall_target ;
 
+
+# Keep after cv82, so that the right digit alternates are already selected by now:
 lookup SignWithDigits {
   lookupflag IgnoreMarks ;
   # Uniscribe or HarfBuzz 'latn'
@@ -955,7 +934,6 @@ lookup SignWithDigits {
 } SignWithDigits;
 
 
-
 # Lateef only
 ifinfo(familyName, "Lateef") {
 
@@ -976,8 +954,7 @@ lookup TabularFigures {
 }  # Lateef
 
 
-#********
-# Yehbarree substituions to prevent collisions -- must be after lang-specific CALTs and cv48
+# Must be after lang-specific CALTs and cv48.
 
 include(../../source/opentype/customCollisionSubs.feax);
 
@@ -985,7 +962,7 @@ include(../../source/opentype/customCollisionSubs.feax);
 # Scheherazade only:
 lookup WideKashida {
 	ifinfo(familyName, "Scheherazade New") {
-  	sub kashida-ar'  @MarksAny  by  kashida-ar.wide;
+    sub kashida-ar'  @MarksAny  by  kashida-ar.wide;
 	}
 } WideKashida;
 
@@ -1014,7 +991,7 @@ feature ccmp {  # Glyph Composition/Decomposition
         lookup LatinPunctuation;
     script arab;
         lookup DecomposeForColor;
-      # Force other languages to include Arabic script lookups:
+      # Force other languages to include Arabic script lookups
       language KIR ;
       language KUR ;
         # Kurdish uses raised kasra
@@ -1026,13 +1003,9 @@ feature ccmp {  # Glyph Composition/Decomposition
 #        lookup KasraLow ;
       language WLF  ;
 #        lookup KasraLow ;
-        
-      # The glyph set is defined to make kasra-high the default; here we want low to be default.
-      language dflt ;
-#        lookup KasraLow ;
-        
-    script latn;  # Latin
-        lookup KasraLow;  # need for bare diacritics (on white space) in Latin text
+
+    script latn;
+#        lookup KasraHigh;  # needed for bare diacritics (on white space) in Latin text
 } ccmp ;
 
 # feature locl (not used; see calt)
@@ -1082,9 +1055,9 @@ feature init {  # Initial Forms
 # HB PAUSE
 
 feature rlig {  # Required Ligatures
-    script arab;  # Arabic
+    # lookup ShaddaKasraLigatures (where needed) has been moved to liga so it runs after cv62
+    script arab;
         lookup AllahLigatures;
-        
         #lookup LamAlefLigatures; -- move to liga to go after ShaddaKasraLigatures
         
 			  #ifinfo(familyName, "Harmattan") {
@@ -1096,6 +1069,8 @@ feature rlig {  # Required Ligatures
         lookup ShaddaLigatures;
         lookup ComposeLowHamzaAbove;
         lookup HamzaLigatures;
+        lookup ShaddaAlefLigatures;
+        #lookup ShaddaKasraLigatures; -- move to liga so it runs after cv62
       # Force other languages to include Arabic script lookups:
       language KIR  ;
       language KUR  ;
@@ -1114,21 +1089,21 @@ feature rlig {  # Required Ligatures
 feature calt {  # Contextual Alternates
     script arab;
         #lookup SignWithDigits;  # moved to liga feature
-			ifinfo(familyName, "Lateef") {
+      ifinfo(familyName, "Lateef") {
         lookup DaggerAlefToLarge;
 ##      lookup ShortTailRehWaw ;   Lateef only; short-tail reh/waw variants disabled for now
-			}
+	    }
 
 # Sch only:
-		do let f = info("familyName");
-   		 if f.find("Scheherazade New") != -1 and opt("nokern") != "yes"; {
-        # start of kerning substitutions
+    do let f = info("familyName");
+       if f.find("Scheherazade New") != -1 and opt("nokern") != "yes"; {
+         # start of kerning substitutions
         lookup ToothKashidasIM;
         lookup ToothKashidasMM;
         lookup ToothKashidasIMF;
         lookup MiscKashidas;
         lookup MarkKashidas;
-		}   # end of kerning substitutions
+    }   # end of kerning substitutions
 
         lookup WideKashida;
 
@@ -1146,6 +1121,9 @@ feature calt {  # Contextual Alternates
         lookup UrduCALT ;
       language WLF ; # Wolof
         lookup WolofCALT ;
+        
+      script latn ;
+      	lookup KasraHigh ;  # for bare diacritics (on white space) in Latin text
 } calt ;
 
 # feature rclt - nothing to do
@@ -1157,7 +1135,7 @@ feature calt {  # Contextual Alternates
 feature salt {  # Stylistic Alternates
     script arab;
         lookup AyahAlternates;
-      # Force other languages to include Arabic script lookups:
+      # Force other languages to include Arabic script lookups
       language KIR ;  # Kyrgyz
       language KUR ;  # Kurdish
       language RHG ;  # Rohingya
@@ -1172,26 +1150,7 @@ feature salt {  # Stylistic Alternates
 
 do let f = info("familyName");
    if f.find("Harmattan") != -1; {
-
-### REMOVE CV02
-#feature cv02 {
-#    cvParameters {
-#        FeatUILabelNameID  { name 3 1 0x0409 "Alef diacritic placement" ; };
-#    ### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
-#        ParamUILabelNameID { name 3 1 0x0409 "Hamza touching" ; };
-#        ParamUILabelNameID { name 3 1 0x0409 "Touching"       ; };
-#    } ;
-#    script arab;  # Arabic
-#        lookup WarshAlternates;
-#      # Force other languages to include Arabic script lookups:
-#      language KIR  ;
-#      language KUR  ;
-#      language RHG  ;
-#      language SND  ;
-#      language URD  ;
-#      language WLF  ;
-#} cv02 ;
-
+   
 feature cv08 {  # Character Variant 08
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Jeem/Hah"    ; };
@@ -1269,7 +1228,7 @@ feature cv44 {  # Character Variant 44
     } ;
     script arab;
         lookup MeemAlternate;
-      # Force other languages to include Arabic script lookups:
+      # Force other languages to include Arabic script lookups
       language KIR ;
       language KUR ;
       language RHG ;
@@ -1279,7 +1238,7 @@ feature cv44 {  # Character Variant 44
 } cv44 ;
 
 
-feature cv48 {  # Character Variant 48
+feature cv48 {    # Character Variant 48
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Heh"            ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"       ; };
@@ -1292,6 +1251,7 @@ feature cv48 {  # Character Variant 48
       # Force other languages to include Arabic script lookups:
       language KIR ;
       language KUR ;
+      language RHG ;
       language SND ;
       language RHG ;
       language URD ;
@@ -1304,7 +1264,7 @@ feature cv49 {    # Character Variant 49
         FeatUILabelNameID  { name 3 1 0x0409 "Heh Doachashmee" ; };
     ### ParamUILabelNameID { name 3 1 0x0409 "Standard"        ; };
         ParamUILabelNameID { name 3 1 0x0409 "Knotted-style"   ; };
-        ParamUILabelNameID { name 3 1 0x0409 "Standard"        ; };
+        ParamUILabelNameID { name 3 1 0x0409 "Standard"        ; };  # not intended for use
         ParamUILabelNameID { name 3 1 0x0409 "Kurdish-style"   ; };
 		} ;
 		script arab;
@@ -1349,7 +1309,6 @@ feature cv54 {  # Character Variant 54
      # Force other languages to include Arabic script lookups:
      language KIR  ;
      language KUR  ;
-     language KUR  ;
      language SND  ;
      language RHG  ;
      language URD  ;
@@ -1389,10 +1348,12 @@ feature cv62 {
 } cv62 ;
 
 
+# Character variant 70
+
 feature cv70 {
     cvParameters {
         FeatUILabelNameID  { name 3 1 0x0409 "Damma"    ; };
-    ### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+    ### ParamUILabelNameID { name 3 1 0x0409 "Default"  ; };
         ParamUILabelNameID { name 3 1 0x0409 "Filled"   ; };
         ParamUILabelNameID { name 3 1 0x0409 "Short"    ; };
     } ;
@@ -1544,7 +1505,6 @@ feature cv85 {  # Character Variant 85
 } cv85 ;
 
 
-
 # In order for the cv62 lookup to function, we need to execute the ShaddaKasraLigatures in the
 # same or later pass as cv62 itself, and it has to execute whether or not cv62 feature is requested,
 # so it has to be part of some other feature. In Harfbuzz, we could use either clig or liga, since they
@@ -1564,10 +1524,10 @@ feature cv85 {  # Character Variant 85
 feature liga {  # Ligatures  -- we use this because liga is done in the same pass as cv62
     # Same for latin & arabic:
         lookup ShaddaKasraLigatures;     # Must be after language-specific CALTs and cv62
-      ifinfo(familyName, "Harmattan") {
+		ifinfo(familyName, "Harmattan") {
         lookup YehBarreeToWideAlways;    # Must execute after language-specific CALTs and cv48
         lookup YehBarreeToWideWithMarks; # Must execute after language-specific CALTs and cv48
-      }
+		}
         lookup SignWithDigits;
         lookup LamAlefLigatures;         # Must be after all mark ligatures (including cv62)
         lookup AllahAlef;                # Must be after lam-alef lig
