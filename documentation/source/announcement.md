@@ -10,6 +10,7 @@ fontversion: 4.000
 - Added Kyrgyz language support
 - Added Arabic-style (rounded) versions of chevron quotes
 - New features:
+  - cv49 - Heh Doachashmee
   - cv51 - Kyrgyz OE (loop/bar)
   - cv54 - Yeh hamza (Standard/Right hamza)
   - cv85 - Decimal separator (Small reh/Slash)
@@ -95,6 +96,8 @@ fontversion: 4.000
 #### Improved
 - Fixed bug using kashida-justification in Word (where the lam-alef ligature would break)
 - Made U+06DB ARABIC SMALL HIGH THREE DOTS bold in the bold font
+- Changed default for U+0657 ARABIC INVERTED DAMMA from "open" to "filled"  
+- Changed Kurdish language to support a U+06BE Heh Doachashmee alternate rather than U+0647 Heh alternate
 - Redesign 
   - U+0616 ARABIC SMALL HIGH LIGATURE ALEF WITH LAM WITH YEH
   - U+0674 ARABIC LETTER HIGH HAMZA
@@ -104,19 +107,14 @@ fontversion: 4.000
   - U+0678 ARABIC LETTER HIGH HAMZA YEH
   - U+06C5 ARABIC LETTER KIRGHIZ OE
   - U+06C7 ARABIC LETTER U
-  
+
 #### Removed
 
 - Removed features: 
     - Alef diacritic placement (cv02)
     - Arabic U (cv50)
 
-**Note:** We reserve the right to alter metrics in future releases. Future versions of the font may result in different lines, line spacing, or paragraph lengths. Do not expect that a document laid out in one version will always have the same page breaks, etc., in future fonts.
-
-Both desktop and web fonts are provided in a single, all-platforms package on the [Download Page](https://software.sil.org/harmattan/download/).
-
 #### Known issues
-
 - Shaping for these newly added characters may not yet occur in applications
 
 

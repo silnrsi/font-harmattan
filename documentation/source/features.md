@@ -3,17 +3,17 @@ title: Harmattan - Font Features
 fontversion: 4.000
 ---
 
-Harmattan is a TrueType font with smart font capabilities added using OpenType and Graphite font technologies. The Harmattan font includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerates the details of these features. Whether these features are available to users will depend on both the application and the rendering technology ([Graphite](http://graphite.sil.org/) or OpenType) being used. Most features are available in both Graphite and OpenType, though there may be minor differences in their implementation. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Rohingya, Sindhi, Urdu, and Wolof languages variants.
+Harmattan is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](http://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, Urdu, and Wolof language variants.
 
-See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType and Graphite font technologies.
+See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType font technology.
 
-See also [Arabic Fonts — Application Support](http://software.sil.org/arabicfonts/support/application-support/). It provides a fairly comprehensive list of applications that make full use of the OpenType and [Graphite](http://graphite.sil.org) font technologies.
+See also [Arabic Fonts — Application Support](http://software.sil.org/arabicfonts/support/application-support/). It provides a fairly comprehensive list of applications that make full use of the OpenType font technology.
 
 This page uses web fonts (WOFF) to demonstrate font features and should display correctly in all modern browsers. For a more concise example of how to use Harmattan as a web font see *harmattan-webfont-example.html* in the font package web folder. 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## End of Ayah (U+06DD) and subtending marks (U+0600..U+0605)
+## End of Ayah (U+06DD), Disputed End of Ayah (U+08E2), and subtending marks (U+0600..U+0605, U+0890..U+0891)
 
 These Arabic characters are intended to enclose or hold one or more digits. 
 
@@ -22,20 +22,10 @@ Specific technical details of how to use them are discussed in the [Arabic fonts
 Additionally, Harmattan includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Character Variants feature discussed below.
 
 
-
 ## Customizing with TypeTuner
 
-For applications that do not make use of Graphite features or the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
+For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](http://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
 
-
-
-### Test rendering engine choice 
-
-Here is a simple test to see if Graphite is working in your browser. If it is, the following will say "RenderingGraphite". If your browser does not support Graphite it should say "RenderingOpentype". Firefox is currently the only browser that supports Graphite. See the [instructions on how to enable Graphite in Firefox](http://scripts.sil.org/cms/scripts/page.php?site_id=projects&amp;item_id=graphite_firefox#switchon).
-
-| | 
-------------- | --------------- 
-Check | <span class='HarmattanL-R normal'>RenderingUnknown</span>
 
 ### Language 
 
@@ -65,16 +55,16 @@ Wolof | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red"> 
 
 ### Character variants
 
-There are some character shape differences in different languages which use the Arabic script. These can be accessed by using Graphite features, OpenType Character Variants, or through the language support mentioned above.  
+There are some character shape differences in different languages which use the Arabic script. These can be accessed by using OpenType Character Variants, or through the language support mentioned above.
 
 #### Jeem/Hah 
 
-<span class='affects'>Affects: U+062C, U+062D, U+062E, U+0682, U+0683, U+0684, U+0685, U+0686, U+06BF, U+0757, U+0758, U+08A2, U+08C1, U+08C5, U+08C6</span>
+<span class='affects'>Affects: U+062C, U+062D, U+062E, U+0682, U+0683, U+0684, U+0685, U+0686, U+06BF, U+0757, U+0758, U+088A, U+08A2, U+08C1, U+08C5, U+08C6</span>
 
 Feature | Sample | Feature setting
 ------------- | ------------: | ------------- 
-Standard | <span dir="rtl" class='Harmattan-R normal'>ج ججج ح ححح خ خخخ ڂ ڂڂڂ ڃ ڃڃڃ ڄ ڄڄڄ څ څڅڅ چ چچچ ڿ ڿڿڿ ݗ ݗݗݗ ݘ ݘݘݘ ࢢ ࢢࢢࢢ ࣁ ࣁࣁࣁ ࣅ ࣅࣅࣅ ࣆ ࣆࣆࣆ  </span>| `cv08=0`
-Handwritten | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv08" 1'>ج ججج ح ححح خ خخخ ڂ ڂڂڂ ڃ ڃڃڃ ڄ ڄڄڄ څ څڅڅ چ چچچ ڿ ڿڿڿ ݗ ݗݗݗ ݘ ݘݘݘ ࢢ ࢢࢢࢢ ࣁ ࣁࣁࣁ ࣅ ࣅࣅࣅ ࣆ ࣆࣆࣆ  </span>| `cv08=1`
+Standard | <span dir="rtl" class='Harmattan-R normal'>&#x062C;&#x0020;&#x062C;&#x062C;&#x062C;&#x0020;&#x062D;&#x0020;&#x062d;&#x062d;&#x062d; &#x062E;&#x0020;&#x062e;&#x062e;&#x062e; &#x0682;&#x0020;&#x0682;&#x0682;&#x0682; &#x0683;&#x0020;&#x0683;&#x0683;&#x0683; &#x0684;&#x0020;&#x0684;&#x0684;&#x0684; &#x0685;&#x0020;&#x0685;&#x0685;&#x0685; &#x0686;&#x0020;&#x0686;&#x0686;&#x0686; &#x06bf;&#x0020;&#x06bf;&#x06bf;&#x06bf; &#x0757;&#x0020;&#x0757;&#x0757;&#x0757; &#x0758;&#x0020;&#x0758;&#x0758;&#x0758; &#x088a;&#x0020;&#x088a;&#x088a;&#x088a; &#x08a2;&#x0020;&#x08a2;&#x08a2;&#x08a2; &#x08c1;&#x0020;&#x08c1;&#x08c1;&#x08c1; &#x08c5;&#x0020;&#x08c5;&#x08c5;&#x08c5; &#x08c6;&#x0020;&#x08c6;&#x08c6;&#x08c6; </span>| `cv08=0`
+Handwritten | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv08" 1'>&#x062C;&#x0020;&#x062C;&#x062C;&#x062C;&#x0020;&#x062D;&#x0020;&#x062d;&#x062d;&#x062d; &#x062E;&#x0020;&#x062e;&#x062e;&#x062e; &#x0682;&#x0020;&#x0682;&#x0682;&#x0682; &#x0683;&#x0020;&#x0683;&#x0683;&#x0683; &#x0684;&#x0020;&#x0684;&#x0684;&#x0684; &#x0685;&#x0020;&#x0685;&#x0685;&#x0685; &#x0686;&#x0020;&#x0686;&#x0686;&#x0686; &#x06bf;&#x0020;&#x06bf;&#x06bf;&#x06bf; &#x0757;&#x0020;&#x0757;&#x0757;&#x0757; &#x0758;&#x0020;&#x0758;&#x0758;&#x0758; &#x088a;&#x0020;&#x088a;&#x088a;&#x088a; &#x08a2;&#x0020;&#x08a2;&#x08a2;&#x08a2; &#x08c1;&#x0020;&#x08c1;&#x08c1;&#x08c1; &#x08c5;&#x0020;&#x08c5;&#x08c5;&#x08c5; &#x08c6;&#x0020;&#x08c6;&#x08c6;&#x08c6; </span>| `cv08=1`
 
 #### Dal 
 
@@ -175,7 +165,7 @@ Six-nine | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settin
 Feature | Sample | Feature setting
 ------------- | ------ | ------------- 
 Standard | <span dir="rtl" class='Harmattan-R normal'>بٗ ◌ٗ</span> | `cv74=0`
-Filled | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv74" 2'>بٗ ◌ٗ</span>| `cv74=2`
+Open | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv74" 1'>بٗ ◌ٗ</span>| `cv74=1`
 
 
 #### Superscript Alef 
