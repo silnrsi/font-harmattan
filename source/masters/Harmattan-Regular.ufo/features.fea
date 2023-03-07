@@ -2469,7 +2469,7 @@ markClass wordmaddabelow-ar <anchor 0 -331> @_diaB;
 #**********************************
 #**********************************
 # This file is part of Harmattan font family (http://software.sil.org/harmattan/) 
-# and is Copyright (c) 2014-2022 SIL International (http://www.sil.org/),
+# and is Copyright (c) 2014-2023 SIL International (http://www.sil.org/),
 # with Reserved Font Names "Harmattan" and "SIL".
 #
 # This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -2515,15 +2515,13 @@ lookup Mirror {
 
 # HB PAUSE
 #---  ccmp feature  ---
-    # Sch or Har
-    # For full UTR53 stacks, this decomposition will already have been done.
-    # Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
-    lookup SmallMadda {
-        lookupflag 0;
-        sub @Maddah by @Maddah.small;
-    } SmallMadda;
+lookup SmallMadda {
+    lookupflag 0;
+    sub @Maddah by @Maddah.small;
+} SmallMadda;
 
-
+# For full UTR53 stacks, this decomposition will already have been done.
+# Howver, as of 2021-09 Harfbuzz does NOT do this See https://github.com/harfbuzz/harfbuzz/issues/3179
 lookup DecomposeForColor {
     lookupflag IgnoreMarks;
     sub alefMadda-ar by alef-ar madda-ar;
@@ -2843,7 +2841,6 @@ lookup _LigateHamzaMarks {
     sub fatha-ar hamzaabove-ar by hamza_fatha-ar;
     sub damma-ar hamzaabove-ar by hamza_damma-ar;
     sub damma-ar.short hamzaabove-ar by hamza_damma-ar.short;
-    # MMM missing from Har
 } _LigateHamzaMarks;
 
 @HamzaLigatureFilter = [@HamzaAboveFilter @HamzaMarks shadda-ar];
@@ -2852,8 +2849,8 @@ lookup HamzaLigatures {
     # shouldn't ligate hamza + following fatha|damma when hamza preceded by non-MCM 230 because
     # UTR53 would have moved the fatha|damma to before the 230 marks but could not move the
     # hamza as it isn't at the beginning of the 230 sequence.
-    ignore sub @UTR53_230other hamzaabove-ar';
-    ignore sub @UTR53_230other @UTR53_230MCM hamzaabove-ar';
+    ignore sub @UTR53_230other' hamzaabove-ar;
+    ignore sub @UTR53_230other' @UTR53_230MCM hamzaabove-ar;
     # shouldn't ligate fatha|damma + following hamza when a 230MCM follows the hamza because
     # UTR53 would have moved both hamza and following 230MCM to before the fatha|damma at which
     # point the 230MCM would be between the hamza and the fatha|damma, blocking ligation.
@@ -3117,6 +3114,7 @@ lookup DammaInvertedAlternates {
 } DammaInvertedAlternates;
 
 # DaggerAlef alternates: cv76
+# Scheherazade only:
 lookup _DaggerAlefAlt {
     lookupflag 0;
     # 0=default;            1=large;            2=small
@@ -3333,7 +3331,6 @@ lookup LamAlefLigatures {
 } LamAlefLigatures;
 
 # Must be after LamAlefLigatures
-# MMM  fix Harmattan...
 lookup AllahAlef {
     # clean up: make sure alef is correct form for Allah
     lookupflag IgnoreMarks;
@@ -3753,7 +3750,7 @@ feature cv49 {
             name "Standard";
         };
 
-        # not intended for use
+        # placeholder; not intended for use
                 ParamUILabelNameID {
             name "Kurdish-style";
         };
