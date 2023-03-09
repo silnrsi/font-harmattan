@@ -2679,17 +2679,6 @@ lookup LatinPunctuation {
     sub @cno_latn by @c_latn;
 } LatinPunctuation;
 
-# Kasra position
-lookup KasraLow {
-    lookupflag 0;
-    sub @Kasra by @Kasra_lowered;
-} KasraLow;
-
-lookup KasraHigh {
-    lookupflag 0;
-    sub @Kasra_lowered by @Kasra;
-} KasraHigh;
-
 # HB PAUSE
 #---  fina feature  ---
 lookup ltrFina {
@@ -2957,6 +2946,18 @@ lookup WolofCALT {
     sub dammainverted-ar by dammainverted-ar.open;
     sub @Kasra by @Kasra_lowered;
 } WolofCALT;
+
+# Kasra position - TypeTuner only
+# Must be located physically after language-specific CALT lookups.
+lookup KasraLowTT {
+    lookupflag 0;
+    sub @Kasra by @Kasra_lowered;
+} KasraLowTT;
+
+lookup KasraHighTT {
+    lookupflag 0;
+    sub @Kasra_lowered by @Kasra;
+} KasraHighTT;
 
 # HB PAUSE
 #--- remaining subs features (salt, cvxx, liga) ---
@@ -3441,20 +3442,16 @@ feature ccmp {
     lookup LatinPunctuation;
     script arab;
     lookup DecomposeForColor;
+    # Kasra behavior has been moved to calt
     # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;
     # Kurdish uses raised kasra
     language RHG;
-    #        lookup KasraLow ;
     language SND;
-    #        lookup KasraLow ;
     language URD;
-    #        lookup KasraLow ;
     language WLF;
-    #        lookup KasraLow ;
     script latn;
-    #        lookup KasraHigh;  # needed for bare diacritics (on white space) in Latin text
 } ccmp;
 
 # feature locl (not used; see calt)
@@ -3563,7 +3560,7 @@ feature calt {
     # Wolof
     lookup WolofCALT;
     script latn;
-    lookup KasraHigh;
+    lookup dfltCALT;
     # for bare diacritics (on white space) in Latin text
 } calt;
 
@@ -5305,9 +5302,6 @@ feature liga {
     # used 2 times
     # used 2 times
     # used 2 times
-    ###    pos @kernClass_12' lookup kernpos_500 @kernClass_1 teh-ar.init;
-    ###    pos @kernClass_121' lookup kernpos_163 @_diaB @kernClass_29;
-    ###    pos @kernClass_123' lookup kernpos_182 @kernClass_1 @kernClass_65;
     #    pos @kernClass_194' lookup kernpos_262 @_diaA u-ar.filled;
     #    pos @kernClass_2' lookup kernpos_799 @kernClass_1 alefHamzabelow-ar.warsh;
     #    pos @kernClass_88' lookup kernpos_88 @_diaB uHamzaabove-ar.filled;
@@ -5336,9 +5330,6 @@ feature liga {
     ### EOF caKern-SemiBold.fea
     ###
     # don't match SemiBold
-    ###
-    ### File caKern-Bold.fea
-    ###
     # used 614 times
     # used 509 times
     # used 100 times
@@ -5745,9 +5736,6 @@ feature liga {
     #    pos @kernClass_224' lookup kernpos_340 u-ar.filled;
     #    pos @kernClass_210' lookup kernpos_177 uHamzaabove-ar.filled;
     #    pos @kernClass_348' lookup kernpos_276 alefHamzaabove-ar.warsh;
-    ###
-    ### EOF caKern-Bold.fea
-    ###
     #********************
     # Mark attachment
             lookup kernpos_0 {
