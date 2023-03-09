@@ -8,6 +8,6 @@
   <anchor x="556" y="121" name="entry"/>
   <outline>
     <component base="_alef-ar.fina.postLamMed"/>
-    <component base="highhamza-ar" xOffset="140" yOffset="105"/>
+    <component base="highhamza-ar" xOffset="190" yOffset="105"/>
   </outline>
 </glyph>

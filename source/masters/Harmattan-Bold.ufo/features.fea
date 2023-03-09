@@ -3481,7 +3481,7 @@ feature ccmp {
     lookup LatinPunctuation;
     script arab;
     lookup DecomposeForColor;
-    # Kasra behavior has been moved to calt
+    # kasra behavior has been moved to calt
     # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;

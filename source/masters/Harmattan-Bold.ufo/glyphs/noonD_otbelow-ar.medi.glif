@@ -6,7 +6,7 @@
   <anchor x="289" y="-474" name="diaB"/>
   <outline>
     <component base="behDotless-ar.medi"/>
-    <component base="_dot1" xOffset="273" yOffset="-276"/>
     <component base="_dot1" xOffset="230" yOffset="684"/>
+    <component base="_dot1" xOffset="273" yOffset="-276"/>
   </outline>
 </glyph>
