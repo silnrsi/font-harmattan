@@ -1,38 +1,124 @@
 <?xml version='1.0' encoding='utf-8'?>
+<!--
+    Axis-based designpsace for SIL's Harmattan font family
+
+-->
 <designspace format="3">
     <axes>
-        <axis name="weight" tag="wght" maximum="700" minimum="400" default="400">
+        <axis default="400.0" maximum="700.0" minimum="400.0" name="weight" tag="wght">
+            <map input="400.0" output="400.0" /> <!-- Regular -->
+            <map input="500.0" output="500.0" /> <!-- Medium -->
+            <map input="600.0" output="600.0" /> <!-- SemiBold -->
+            <map input="700.0" output="700.0" /> <!-- Bold -->
             <labelname xml:lang="en">Weight</labelname>
         </axis>
+        <axis default="100.0" maximum="100.0" minimum="100.0" name="width" tag="wdth">
+            <map input="100.0" output="100.0" />
+            <labelname xml:lang="en">Width</labelname>
+        </axis>
+        <axis default="0.0" maximum="0.0" minimum="0.0" name="custom" tag="XXXX">
+            <map input="0.0" output="0.0" />
+            <labelname xml:lang="en">Custom</labelname>
+        </axis>
     </axes>
+    
     <sources>
-        <source name="Harmattan Regular" familyname="Harmattan" filename="masters/Harmattan-Regular.ufo" stylename="Regular">
+        <source     name="Harmattan-Regular" 
+            	familyname="Harmattan"
+        	      filename="masters/Harmattan-Regular.ufo"
+        	     stylename="Regular">
             <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
             <info copy="1" />
             <location>
-                <dimension name="weight" xvalue="400" />
+                <dimension name="weight" xvalue="400.000000" />
+                <dimension name="width"  xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
-        <source name="Harmattan Bold" familyname="Harmattan" filename="masters/Harmattan-Bold.ufo" stylename="Bold">
+        <source     name="Harmattan-Bold" 
+        	    familyname="Harmattan" 
+        	      filename="masters/Harmattan-Bold.ufo" 
+        	     stylename="Bold">
             <location>
-                <dimension name="weight" xvalue="700" />
+                <dimension name="weight" xvalue="700.000000" />
+                <dimension name="width"  xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
         </source>
     </sources>
+    
     <instances>
-        <instance name="Harmattan Regular" familyname="Harmattan" filename="instances/Harmattan-Regular.ufo" stylename="Regular">
+        <!-- stylemapfamilyname: use <familyname> for Regular and Bold, else copy <name> -->
+        <!-- stylemapstylename: use "regular" for all styles except B: use "bold" -->
+
+        <!-- Harmattan Regular -->
+        <instance       familyname="Harmattan"
+                          filename="instances/Harmattan-Regular.ufo"
+                              name="Harmattan Regular"
+                stylemapfamilyname="Harmattan"
+                 stylemapstylename="regular"
+                         stylename="Regular"
+                postscriptfontname="Harmattan-Regular">
             <location>
-                <dimension name="weight" xvalue="400" />
+                <dimension name="weight" xvalue="400.000000" />
+                <dimension name="width"  xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
-            <kerning />
-            <info />
+            <info/>
+            <kerning/>
         </instance>
-        <instance name="Harmattan Bold" familyname="Harmattan" filename="instances/Harmattan-Bold.ufo" stylename="Bold">
+
+        <!-- Harmattan Medium -->
+        <instance       familyname="Harmattan"
+                          filename="instances/Harmattan-Medium.ufo"
+                              name="Harmattan Medium"
+                stylemapfamilyname="Harmattan Medium"
+                 stylemapstylename="regular"
+                         stylename="Medium"
+                postscriptfontname="Harmattan-Medium">
             <location>
-                <dimension name="weight" xvalue="700" />
+                <dimension name="weight" xvalue="500.000000" />
+                <dimension name="width"  xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
             </location>
-            <kerning />
-            <info />
+            <info/>
+            <kerning/>
+        </instance>
+        
+        <!-- Harmattan Regular -->
+        <instance       familyname="Harmattan"
+                          filename="instances/Harmattan-SemiBold.ufo"
+                              name="Harmattan SemiBold"
+                stylemapfamilyname="Harmattan SemiBold"
+                 stylemapstylename="regular"
+                         stylename="SemiBold"
+                postscriptfontname="Harmattan-SemiBold">
+            <location>
+                <dimension name="weight" xvalue="600.000000" />
+                <dimension name="width"  xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info/>
+            <kerning/>
+        </instance>
+        
+        <!-- Harmattan Regular -->
+        <instance       familyname="Harmattan"
+                          filename="instances/Harmattan-Bold.ufo"
+                              name="Harmattan Bold"
+                stylemapfamilyname="Harmattan"
+                 stylemapstylename="bold"
+                         stylename="Bold"
+                postscriptfontname="Harmattan-Bold">
+            <location>
+                <dimension name="weight" xvalue="700.000000" />
+                <dimension name="width"  xvalue="100.000000" />
+                <dimension name="custom" xvalue="0.000000" />
+            </location>
+            <info/>
+            <kerning/>
         </instance>
     </instances>
 </designspace>

@@ -4531,6 +4531,814 @@ feature liga {
     #    pos @kernClass_1' lookup kernpos_776 alefHamzabelow-ar.warsh;
     #    pos @kernClass_209' lookup kernpos_289 u-ar.filled;
     #    pos @kernClass_136' lookup kernpos_235 uHamzaabove-ar.filled;
+    # used 690 times
+    # used 681 times
+    # used 135 times
+    # used 113 times
+    # used 107 times
+    # used 92 times
+    # used 41 times
+    # used 39 times
+    # used 35 times
+    # used 32 times
+    # used 32 times
+    # used 31 times
+    # used 25 times
+    # used 16 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 12 times
+    # used 11 times
+    # used 10 times
+    # used 10 times
+    # used 10 times
+    # used 10 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 5 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    #    pos @kernClass_1' lookup kernpos_852 @kernClass_2 alefHamzaabove-ar.warsh;
+    #    pos @kernClass_1' lookup kernpos_862 @kernClass_2 alefHamzabelow-ar.warsh;
+    #    pos [reh-ar reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehLoop-ar rehLoop-ar.fina]' lookup kernpos_289 @_diaB u-ar.filled;
+    #    pos [reh-ar reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehLoop-ar rehLoop-ar.fina]' lookup kernpos_290 @_diaA u-ar.filled;
+    #    pos [reh-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehRing-ar rehDotbelow-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_210 @_diaA uHamzaabove-ar.filled;
+    #    pos [zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_235 @_diaB uHamzaabove-ar.filled;
+    #    pos @kernClass_1' lookup kernpos_852 alefHamzaabove-ar.warsh;
+    #    pos @kernClass_1' lookup kernpos_862 alefHamzabelow-ar.warsh;
+    #    pos @kernClass_98' lookup kernpos_205 uHamzaabove-ar.filled;
+    #    pos [reh-ar reh-ar.fina zain-ar zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehLoop-ar rehLoop-ar.fina]' lookup kernpos_289 u-ar.filled;
+    #    pos [zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_235 uHamzaabove-ar.filled;
+    #    pos @kernClass_6' lookup kernpos_398 alefHamzaabove-ar.warsh @_diaB @_diaB @_diaA;
+    #    pos rehTwodotshorizontalaboveTahabove-ar' lookup kernpos_337 @_diaB alefHamzabelow-ar.warsh @_diaA;
+    #    pos [zainVinvertedabove-ar rreh-ar jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehNoonabove-ar rehNoonabove-ar.fina]' lookup kernpos_98 @_diaA alefHamzabelow-ar.warsh @_diaA;
+    #    pos [rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina]' lookup kernpos_54 @_diaA alefHamzaabove-ar.warsh @_diaA;
+    #    pos @kernClass_6' lookup kernpos_398 @kernClass_2 alefHamzaabove-ar.warsh @_diaB @_diaB @_diaA;
+    #    pos @kernClass_1' lookup kernpos_776 @kernClass_2 alefHamzabelow-ar.warsh;
+    #    pos rehTwodotshorizontalaboveTahabove-ar' lookup kernpos_337 alefHamzabelow-ar.warsh @_diaA;
+    #    pos @kernClass_209' lookup kernpos_289 @_diaB u-ar.filled;
+    #    pos @kernClass_209' lookup kernpos_290 @_diaA u-ar.filled;
+    #    pos @kernClass_136' lookup kernpos_235 @_diaB uHamzaabove-ar.filled;
+    #    pos [reh-ar reh-ar.fina zain-ar zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar rehv-ar rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehVinvertedabove-ar.fina rehStroke-ar rehStroke-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_246 @_diaA alefHamzaabove-ar.warsh;
+    #    pos [reh-ar reh-ar.fina zain-ar.fina zainVinvertedabove-ar zainVinvertedabove-ar.fina rreh-ar.fina rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar rehDotbelow-ar.fina rehVbelow-ar rehVbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar.fina jeh-ar.fina rehFourdots-ar rehVinvertedabove-ar rehVinvertedabove-ar.fina rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_210 @_diaA uHamzaabove-ar.filled;
+    #    pos @kernClass_1' lookup kernpos_776 alefHamzabelow-ar.warsh;
+    #    pos @kernClass_209' lookup kernpos_289 u-ar.filled;
+    #    pos @kernClass_136' lookup kernpos_235 uHamzaabove-ar.filled;
+    ###
+    ### File caKern-SemiBold.fea
+    ###
+    # used 614 times
+    # used 509 times
+    # used 100 times
+    # used 63 times
+    # used 50 times
+    # used 48 times
+    # used 46 times
+    # used 43 times
+    # used 36 times
+    # used 34 times
+    # used 32 times
+    # used 29 times
+    # used 19 times
+    # used 18 times
+    # used 18 times
+    # used 18 times
+    # used 18 times
+    # used 16 times
+    # used 13 times
+    # used 12 times
+    # used 12 times
+    # used 11 times
+    # used 11 times
+    # used 11 times
+    # used 10 times
+    # used 10 times
+    # used 10 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 9 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 8 times
+    # used 7 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 6 times
+    # used 5 times
+    # used 5 times
+    # used 5 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 4 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 3 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    # used 2 times
+    ###    pos @kernClass_12' lookup kernpos_500 @kernClass_1 teh-ar.init;
+    ###    pos @kernClass_121' lookup kernpos_163 @_diaB @kernClass_29;
+    ###    pos @kernClass_123' lookup kernpos_182 @kernClass_1 @kernClass_65;
+    #    pos @kernClass_194' lookup kernpos_262 @_diaA u-ar.filled;
+    #    pos @kernClass_2' lookup kernpos_799 @kernClass_1 alefHamzabelow-ar.warsh;
+    #    pos @kernClass_88' lookup kernpos_88 @_diaB uHamzaabove-ar.filled;
+    #    pos @kernClass_91' lookup kernpos_262 @_diaB u-ar.filled;
+    #    pos [reh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar.fina rehRing-ar rehRing-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_341 @_diaA u-ar.filled;
+    #    pos [reh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_340 @_diaB u-ar.filled;
+    #    pos [zain-ar.fina zainVinvertedabove-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina jeh-ar.fina rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar.fina]' lookup kernpos_177 @_diaB uHamzaabove-ar.filled;
+    #    pos @kernClass_2' lookup kernpos_799 alefHamzabelow-ar.warsh;
+    #    pos @kernClass_88' lookup kernpos_88 uHamzaabove-ar.filled;
+    #    pos @kernClass_91' lookup kernpos_262 u-ar.filled;
+    #    pos [reh-ar.fina zain-ar.fina zainVinvertedabove-ar.fina rreh-ar rreh-ar.fina rehv-ar.fina rehRing-ar.fina rehDotbelow-ar.fina rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina rehTwodots-ar rehTwodots-ar.fina jeh-ar jeh-ar.fina rehFourdots-ar rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar.fina rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehTwodotshorizontalaboveTahabove-ar rehTwodotshorizontalaboveTahabove-ar.fina rehNoonabove-ar.fina rehLoop-ar rehLoop-ar.fina]' lookup kernpos_340 u-ar.filled;
+    #    pos [zain-ar.fina zainVinvertedabove-ar rehDotbelowdotabove-ar rehDotbelowdotabove-ar.fina jeh-ar.fina rehFourdots-ar.fina rehVinvertedabove-ar rehStroke-ar rehTwodotsverticalabove-ar rehTwodotsverticalabove-ar.fina rehHamzaabove-ar rehHamzaabove-ar.fina rehNoonabove-ar rehNoonabove-ar.fina rehLoop-ar.fina]' lookup kernpos_177 uHamzaabove-ar.filled;
+    #    pos @kernClass_210' lookup kernpos_178 @_diaA uHamzaabove-ar.filled;
+    #    pos @kernClass_154' lookup kernpos_31 @_diaA alefHamzabelow-ar.warsh @_diaA;
+    #    pos @kernClass_2' lookup kernpos_716 @_diaA alefHamzaabove-ar.warsh;
+    #    pos @kernClass_2' lookup kernpos_755 @kernClass_1 alefHamzabelow-ar.warsh;
+    #    pos @kernClass_224' lookup kernpos_340 @_diaB u-ar.filled;
+    #    pos @kernClass_224' lookup kernpos_341 @_diaA u-ar.filled;
+    #    pos @kernClass_210' lookup kernpos_177 @_diaB uHamzaabove-ar.filled;
+    #    pos @kernClass_348' lookup kernpos_276 @_diaB alefHamzaabove-ar.warsh;
+    #    pos @kernClass_2' lookup kernpos_755 alefHamzabelow-ar.warsh;
+    #    pos @kernClass_224' lookup kernpos_340 u-ar.filled;
+    #    pos @kernClass_210' lookup kernpos_177 uHamzaabove-ar.filled;
+    #    pos @kernClass_348' lookup kernpos_276 alefHamzaabove-ar.warsh;
+    ###
+    ### EOF caKern-SemiBold.fea
+    ###
+    # don't match SemiBold
+    ###
+    ### File caKern-Bold.fea
+    ###
     # used 614 times
     # used 509 times
     # used 100 times
@@ -4937,6 +5745,9 @@ feature liga {
     #    pos @kernClass_224' lookup kernpos_340 u-ar.filled;
     #    pos @kernClass_210' lookup kernpos_177 uHamzaabove-ar.filled;
     #    pos @kernClass_348' lookup kernpos_276 alefHamzaabove-ar.warsh;
+    ###
+    ### EOF caKern-Bold.fea
+    ###
     #********************
     # Mark attachment
             lookup kernpos_0 {
@@ -36606,6 +37417,8 @@ feature liga {
         } mainkern;
 
 
+    
+    
     
 
 lookup MarkToBase {

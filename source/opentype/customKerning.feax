@@ -16,11 +16,21 @@
 
 do if opt("noOTkern") == "";
 {
+
 ifinfo(styleName, "Regular") {
 	include(../../source/opentype/caKern-Regular.fea);
 }
 
-ifinfo(styleName, "Bold") {
+ifinfo(styleName, "Medium") {
+	include(../../source/opentype/caKern-Medium.fea);
+}
+
+ifinfo(styleName, "SemiBold") {
+	include(../../source/opentype/caKern-SemiBold.fea);
+}
+
+ifinfo(styleName, "^Bold") {   # don't match SemiBold
 	include(../../source/opentype/caKern-Bold.fea);
 }
+
 }
