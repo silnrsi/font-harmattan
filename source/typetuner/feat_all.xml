@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+	This file is part of Harmattan font family 
+	(http://software.sil.org/harmattan) and is 
+	Copyright (c) 2014-2023 SIL International (http://www.sil.org/), 
+	with Reserved Font Names "Harmattan" and "SIL".
+
+	This Font Software is licensed under the SIL Open Font License, 
+	Version 1.1.
+
+	You should have received a copy of the license along with this Font Software. 
+	If this is not the case, go to (http://scripts.sil.org/OFL) for all the
+	details including an FAQ.
+-->
 <!DOCTYPE all_features SYSTEM "feat_all.dtd">
 <all_features version="1.0">
 	<feature name="Language" value="Default" tag="Lng">
@@ -6,119 +19,127 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Kurdish" tag="Kur">
-			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishCALT}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_arab_dflt} {KasraLow}"/>
-			<cmd name="lookup_del" args="GSUB {ccmp_latn_dflt} {KasraLow}"/>
-			<cmd name="gr_feat" args="{gr_cv62} 2"/>	# shadda-kasra raised
-			<cmd name="gr_feat" args="{gr_cv48} 3"/>	# heh
+		</value>
+		<value name="Kyrgyz" tag="Kyr">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KirghizCALT}"/>
 		</value>
 		<value name="Rohingya" tag="Rhg">
-			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {RohingyaCALT}"/>
-			<cmd name="gr_feat" args="{gr_cv72} 1"/>	# dammatan six-nine
-			<cmd name="gr_feat" args="{gr_cv82} 4"/>	# eastern digits
 		</value>
 		<value name="Sindhi" tag="Snd">
-			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiCALT}"/>	
-			<cmd name="gr_feat" args="{gr_cv44} 1"/>	# meem alternates
-			<cmd name="gr_feat" args="{gr_cv82} 1"/>	# eastern digits
+
 		</value>
 		<value name="Urdu" tag="Urd">
-			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduCALT}"/>	
-			<cmd name="gr_feat" args="{gr_cv82} 2"/>	# eastern digits
 		</value>
 		<value name="Wolof" tag="Wol">
-			<cmd name="lookup_del" args="GSUB {calt_arab_dflt} {dfltCALT}"/>
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {WolofCALT}"/>	
-			<cmd name="gr_feat" args="{gr_cv12} 1"/>	# dal alternates
-			<cmd name="gr_feat" args="{gr_cv70} 2"/>	# damma short
 		</value>
 	</feature>
-
+	
+	<!-- cv08 -->
 	<feature name="Jeem/Hah" value="Standard" tag="JeHa">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Handwritten" tag="Hand">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {JeemHahMedAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv08} 1"/>
 		</value>
 	</feature>
 
-	<feature name="Dal" value="Standard" tag="Dal">
+  <!-- cv12 -->
+	<feature name="Dal" value="Standard" tag="Dal"> 
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Alternate" tag="Alt">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DalAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv12} 1"/>
 		</value>
 	</feature>
-
+  
+  <!-- cv20 -->
 	<feature name="Sad/Dad" value="Standard" tag="SdDd">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Half" tag="Half">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SadDadAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv20} 1"/>
 		</value>
 	</feature>
-
+	
+  <!-- cv44 -->
 	<feature name="Meem" value="Standard" tag="Meem">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Sindhi-style" tag="Snd">
+		<value name="Sindhi-style" tag="Sn">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MeemAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv44} 1"/>
 		</value>
 	</feature>
 
+  <!-- cv48 -->
 	<feature name="Heh" value="Standard" tag="Heh">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Kurdish-style" tag="Kur">
+		<value name="Kurdish-style" tag="Ku">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishHeh}"/>	
-			<cmd name="gr_feat" args="{gr_cv48} 3"/>
 		</value>
-		<value name="Sindhi-style" tag="Snd">
+		<value name="Sindhi-style" tag="Sn">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {SindhiHeh}"/>	
-			<cmd name="gr_feat" args="{gr_cv48} 1"/>
 		</value>
-		<value name="Urdu-style" tag="Urd">
+		<value name="Urdu-style" tag="Ur">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {UrduHeh}"/>	
-			<cmd name="gr_feat" args="{gr_cv48} 2"/>
 		</value>
 	</feature>
 
+  <!-- cv51 - Scheherazade
+	<feature name="Kyrgyz OE" value= "Loop" tag="Koe">
+		<value name="Loop" tag="Lp">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Bar" tag="Bar">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KirghizOeAlternates}"/>
+		</value>
+	</feature>
+	-->
+	
+	<!-- cv54 - Scheherazade
+	feature name="Yeh Hamza" value="Standard" tag="Yhmz">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Right hamza" tag="Rt">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {YehHamzaAlternates}"/>
+		</value>
+	</feature>
+	-->
+
+	<!-- cv60 -->
 	<feature name="Maddah" value="Small" tag="Mda">
 		<value name="Small" tag="Sm">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Large" tag="Lg">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MaddahAlternate}"/>	<!-- must be via lookup -->
-			<cmd name="gr_feat" args="{gr_cv60} 1"/>
 		</value>
 	</feature>
 
+	<!-- cv62 -->
 	<feature name="Shadda+kasra placement" value="Default" tag="Kas">
-		<!-- OpenType handled in interactions section -->
+		<!-- see also the interactions section -->
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Lowered" tag="Low">
-			<cmd name="gr_feat" args="{gr_cv62} 1"/>
 		</value>
 		<value name="Raised" tag="High">
-			<cmd name="gr_feat" args="{gr_cv62} 2"/>
 		</value>
 	</feature>
 
+	<!-- cv70 -->
 	<feature name="Damma" value="Default" tag="Dma">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
@@ -131,17 +152,18 @@
 		</value>
 	</feature>
 
-	<feature name="Dammatan" value="Standard" tag="Dmtan">		<!-- was "Six-nine dammatan", "SixNine" -->
-		<value name="Standard" tag="Std">					<!-- was "False", "F" -->
+	<!-- cv72 -->
+	<feature name="Dammatan" value="Standard" tag="Dmtn">
+		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Six-nine" tag="69">						<!-- was "True", "T" -->
+		<value name="Six-nine" tag="69">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DammatanAlternate}"/>	
-			<cmd name="gr_feat" args="{gr_cv72} 1"/>
 		</value>
 	</feature>
 
-	<feature name="Inverted Damma" value="Default" tag="InvDma">
+	<!-- cv74 -->
+	<feature name="Inverted Damma" value="Default" tag="IDma">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
@@ -153,19 +175,20 @@
 		</value>
 	</feature>
 
+	<!-- cv76 -->
 	<feature name="Superscript Alef" value="Default" tag="Sal">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Large" tag="Lg">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DaggerAlefToLarge}"/>	<!-- must be via lookup -->
-			<cmd name="gr_feat" args="{gr_cv76} 1"/>
 		</value>
 		<value name="Small" tag="Sm">
 			<cmd name="null" args="null"/>
 		</value>
 	</feature>
 
+	<!-- cv78 -->
 	<feature name="Sukun" value="Closed" tag="Su">
 		<value name="Closed" tag="Cl">
 			<cmd name="null" args="null"/>
@@ -178,6 +201,7 @@
 		</value>	
 	</feature>
 
+	<!-- cv80 -->
 	<feature name="End of ayah" value="Standard" tag="Ayah">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
@@ -189,46 +213,89 @@
 			<cmd name="encode" args="06DD uni06DD.altB"/>
 		</value>
 	</feature>
+	
+	<!-- cv81 - Scheherazade only
+	<feature name="Honorific ligatures" value="Calligraphic" tag="HnLg">
+		<value name="Calligraphic" tag="Cal">
+			<cmd name="null" args="null" />
+		</value>
+		<value name="Simplified" tag="Sim">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HonLigAlternates}"/>
+		</value>"
+	</feature>
+	-->
 
+	<!-- cv82 -->
 	<feature name="Eastern digits" value="Standard" tag="Dig">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Kurdish-style" tag="Kur">
+		<value name="Kurdish-style" tag="Ku">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitKurdish}"/>
-			<cmd name="gr_feat" args="{gr_cv82} 3"/>	# eastern digits
 		</value>
-		<value name="Rohingya-style" tag="Roh">
+				<value name="Rohingya-style" tag="Ro">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitRohingya}"/>
-			<cmd name="gr_feat" args="{gr_cv82} 4"/>	# eastern digits
 		</value>
-		<value name="Sindhi-style" tag="Snd">
+		<value name="Sindhi-style" tag="Sn">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitSindhi}"/>
-			<cmd name="gr_feat" args="{gr_cv82} 1"/>	# eastern digits
 		</value>
-		<value name="Urdu-style" tag="Urd">
+		<value name="Urdu-style" tag="Ur">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {DigitUrdu}"/>
-			<cmd name="gr_feat" args="{gr_cv82} 2"/>	# eastern digits
 		</value>
 	</feature>
-
-
-	<feature name="Comma" value="Upward" tag="Cma"> 		<!-- was "Downward comma", "Dc" -->
-		<value name="Upward" tag="Up">						<!-- was "False", "F" -->
+	
+	<!-- pnum - Lateef only
+	<feature name="Proportional figures" value="False" tag="Pf">
+		<value name="False" tag="F">
 			<cmd name="null" args="null"/>
 		</value>
-		<value name="Downward" tag="Dn">					<!-- was "True", "T" -->
+		<value name="True" tag="T">
+			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {ProportionalFigures}"/>
+		</value>
+	</feature>
+	-->
+	
+	<!-- tnum - Lateef only
+	<feature name="Tabular figures" value="False" tag="Tf">
+		<value name="False" tag="F">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="True" tag="T">
+			<cmd name="lookup_add" args="GSUB {liga_arab_dflt} {TabularFigures}"/>
+		</value>
+	</feature>
+	-->
+	
+	<!-- cv84 -->
+	<feature name="Comma" value="Upward" tag="Cma">
+		<value name="Upward" tag="Up">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Downward" tag="Dn">
 			<cmd name="encode" args="060C uni060C.downward"/>
 			<cmd name="encode" args="061B uni061B.downward"/>
 		</value>
 	</feature>
 
-	<feature name="Line spacing" value="Normal"	tag="LnSpc">
+	<!-- cv85 -->
+	<feature name="Decimal separator" value="Small reh" tag="DSep">
+		<value name="Small reh" tag="Re">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Slash" tag="Sl">
+			<cmd name="encode" args="066B uni066B.slash"/>
+		</value>
+	</feature>
+	
+	<feature name="Line spacing" value="Normal"	tag="LnSp">
 		<value name="Normal" tag="Nrml">
-			<cmd name="null" args="2166 1323"/>
+			<cmd name="null" args="2750 1427"/>
+		</value>
+		<value name="Tight" tag="Tt">
+			<cmd name="line_gap" args="2324 1377"/>
 		</value>
 		<value name="Loose" tag="Ls">
-			<cmd name="line_gap" args="3067 2006"/>
+			<cmd name="line_gap" args="3600 1427"/>
 		</value>
 		<value name="1.0 Compatible Normal" tag="1.0N">
 			<cmd name="line_gap" args="2080 1274"/>
