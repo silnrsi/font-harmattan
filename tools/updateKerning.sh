@@ -28,7 +28,7 @@ fi
 
 # Default settings:
 REGONLY=""
-WEIGHTS=(Regular Bold)
+WEIGHTS=(Regular Medium SemiBold Bold)
 OCTALAP=0
 FTML=0
 FTMLONLY=0
