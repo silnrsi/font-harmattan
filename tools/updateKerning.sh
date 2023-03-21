@@ -106,7 +106,8 @@ then
   
   for w in "${WEIGHTS[@]}"
   do
-    octalap -q -j 0 -o source/Harmattan-$w-octabox.json results/Harmattan-$w.ttf  &
+  	echo "$w"
+    octalap -q -j 0 -o source/Harmattan-$w-octabox.json results/Harmattan-$w.ttf
   done
   wait
   
@@ -126,12 +127,13 @@ then
 
   for w in "${WEIGHTS[@]}"
   do
+  	echo "$w"
     ( \
       grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Harmattan-$w.ttf                 $outdir/rawPairData-$w.txt        ; \
       tools/renumberKernData.py $outdir/rawPairData-$w.txt                                                        $outdir/rawPairData-$w-nozwj.txt  ; \
       grkern2fea -s strings  -i $outdir/rawPairData-$w-nozwj.txt -f results/Harmattan-$w.ttf  -r ${R:=20} -R $outdir/caKern-$w.fea             ; \
       sed -e s/kasratan-ar/@_diaB/g -e s/fathatan-ar/@_diaA/g $outdir/caKern-$w.fea  > source/opentype/caKern-$w.fea \
-    ) &
+    )
   done
   wait
 fi
