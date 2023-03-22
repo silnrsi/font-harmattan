@@ -4,10 +4,9 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="Reg ref">url(../references/Harmattan-Regular-v1.ttf)</fontsrc>
-    <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc label="Bold-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/v2.000/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv20' 1" name="cv20_1"/>
       <style feats="'cv20' 1, 'cv76' 1" name="cv20_1_cv76_1"/>
@@ -19,7 +18,7 @@
       <style feats="'cv76' 2" name="cv76_2"/>
     </styles>
     <title>DaggerAlef (auto)</title>
-    <widths string="19%"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">

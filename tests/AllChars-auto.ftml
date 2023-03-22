@@ -4,10 +4,11 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="Reg ref">url(../references/Harmattan-Regular-v1.ttf)</fontsrc>
-    <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc label="Bold-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/v2.000/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Med">url(../results/Harmattan-Medium.ttf)</fontsrc>
+    <fontsrc label="SeBld">url(../results/Harmattan-SemiBold.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv08' 1" name="cv08_1"/>
       <style feats="'cv12' 1" name="cv12_1"/>
@@ -49,7 +50,7 @@
       <style lang="wo" name="wo"/>
     </styles>
     <title>AllChars (auto)</title>
-    <widths string="19%"/>
+    <widths string="15%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
@@ -706,6 +707,30 @@
       <string>\u000628\u000657</string>
     </test>
     <test label="U+0657" stylename="cv74_2">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="sd">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="ur">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="ku">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="rhg">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="ky">
+      <comment>dammainverted-ar</comment>
+      <string>\u000628\u000657</string>
+    </test>
+    <test label="U+0657" stylename="wo">
       <comment>dammainverted-ar</comment>
       <string>\u000628\u000657</string>
     </test>

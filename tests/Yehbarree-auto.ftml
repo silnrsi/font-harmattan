@@ -4,9 +4,9 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="Reg-Gr">url(../results/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc label="Reg-OT">url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)</fontsrc>
-    <fontsrc label="Bold-Gr">url(../results/Harmattan-Bold.ttf)</fontsrc>
+    <fontsrc label="2.0">url(../references/v2.000/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv08' 1" name="cv08_1"/>
       <style feats="'cv20' 1" name="cv20_1"/>
