@@ -64,7 +64,7 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
-2023-xx-xx (SIL WSTech team) Harmattan version 4.000
+### 2023-xx-xx (SIL WSTech team) Harmattan version 4.000
 
 #### New
 
@@ -77,25 +77,26 @@ ChangeLog
   - cv85 - Decimal separator (Small reh/Slash)
 - Added:
   - U+061D ARABIC END OF TEXT MARK
-  - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
-  - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
-  - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
-  - U+0873 ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE
-  - U+0874 ARABIC LETTER ALEF WITH ATTACHED KASRA
-  - U+0875 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA
-  - U+0876 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE
-  - U+0877 ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT
-  - U+0878 ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT
-  - U+0879 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW
-  - U+087A ARABIC LETTER ALEF WITH DOT ABOVE
-  - U+087B ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE
-  - U+087C ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE
-  - U+087D ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE
-  - U+087E ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING
-  - U+087F ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING
-  - U+0880 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING
-  - U+0881 ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA
-  - U+0882 ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA
+  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters
+    - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
+    - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
+    - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
+    - U+0873 ARABIC LETTER ALEF WITH LEFT MIDDLE STROKE
+    - U+0874 ARABIC LETTER ALEF WITH ATTACHED KASRA
+    - U+0875 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA
+    - U+0876 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT ABOVE
+    - U+0877 ARABIC LETTER ALEF WITH ATTACHED RIGHT ROUND DOT
+    - U+0878 ARABIC LETTER ALEF WITH ATTACHED LEFT ROUND DOT
+    - U+0879 ARABIC LETTER ALEF WITH ATTACHED ROUND DOT BELOW
+    - U+087A ARABIC LETTER ALEF WITH DOT ABOVE
+    - U+087B ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND DOT ABOVE
+    - U+087C ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND DOT ABOVE
+    - U+087D ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND DOT ABOVE
+    - U+087E ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA AND LEFT RING
+    - U+087F ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE AND LEFT RING
+    - U+0880 ARABIC LETTER ALEF WITH ATTACHED BOTTOM RIGHT KASRA AND LEFT RING
+    - U+0881 ARABIC LETTER ALEF WITH ATTACHED RIGHT HAMZA
+    - U+0882 ARABIC LETTER ALEF WITH ATTACHED LEFT HAMZA
   - U+0883 ARABIC TATWEEL WITH OVERSTRUCK HAMZA
   - U+0884 ARABIC TATWEEL WITH OVERSTRUCK WAW
   - U+0885 ARABIC TATWEEL WITH TWO DOTS BELOW
@@ -179,7 +180,7 @@ ChangeLog
 - Shaping for these newly added characters may not yet occur in applications
 
   
-2020-06-19 (SIL WSTech team) Harmattan version 2.000
+### 2020-06-19 (SIL WSTech team) Harmattan version 2.000
   - Added a bold typeface
   - Added support for all characters in the Arabic and Arabic Supplement blocks
   - Added support for all characters in the Arabic Extended-A block (except for the
@@ -206,22 +207,22 @@ ChangeLog
   - Modified superscript and subscript size and positioning (used by some applications)
   - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53) 
 
-2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
+### 2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
   - Changed internal font names
   - changed space of U+00A0 to match regular space
 
-2015-03-25 (SIL NRSI team) Harmattan Version 1.00 (production release)
+### 2015-03-25 (SIL NRSI team) Harmattan Version 1.00 (production release)
   - Further improvements to kerning.
 
-2014-12-11 (SIL NRSI team) Harmattan alpha Version 0.119 (test release)
+### 2014-12-11 (SIL NRSI team) Harmattan alpha Version 0.119 (test release)
   - Improved kerning logic in OpenType (via GPOS) and Graphite
 
-2014-10-27 (SIL NRSI team) Harmattan alpha Version 0.118 (test release)
+### 2014-10-27 (SIL NRSI team) Harmattan alpha Version 0.118 (test release)
 - Improved display:
   - Reduced width of arrowhead combining marks to reduce collisions
   - Added kerning logic in OpenType (via GPOS) and Graphite
 
-2014-10-14 (SIL NRSI team) Harmattan alpha Version 0.117 (test release)
+### 2014-10-14 (SIL NRSI team) Harmattan alpha Version 0.117 (test release)
 - Alpha release of font for feedback
 - Revision of design of characters based on feedback received
   - Shortened kasra and fatha (and similar characters and glyphs) to 
@@ -237,7 +238,7 @@ ChangeLog
   and lowest base character so these are not clipped 
 - Added Normal and Loose linespacing adjustments for TypeTunerWeb
 
-2014-06-24 (SIL NRSI team) Harmattan alpha Version 0.111 (test release)
+### 2014-06-24 (SIL NRSI team) Harmattan alpha Version 0.111 (test release)
 - Alpha release of font for feedback
 - Revision of design of characters based on feedback received
   - Isolate reh and noon ghunna characters modified
@@ -246,11 +247,11 @@ ChangeLog
   - Adjusted design of U+08F7..U+08FD (arrowheads)
 - added U+065E, U+08F0, U+08F1, U+08F2, U+08F3
 
-2014-04-03 (SIL NRSI team) Harmattan alpha Version 0.106 (test release)
+### 2014-04-03 (SIL NRSI team) Harmattan alpha Version 0.106 (test release)
 - Alpha release of font for feedback
 - Revision of design of characters based on feedback received
 
-2013-12-04 (SIL NRSI team) Harmattan alpha Version 0.010 (test release)
+### 2013-12-04 (SIL NRSI team) Harmattan alpha Version 0.010 (test release)
 - Alpha release of font for feedback only (not an actual font release)
 - Arabic script design work is based on Fouta font (see copyright and 
   acknowledgments) with significant modification
