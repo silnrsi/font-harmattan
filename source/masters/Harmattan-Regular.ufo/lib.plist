@@ -20,8 +20,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.DisplayStrings</key>
   <array>
     <string>/highhamza-ar/space/highhamzaAlef-ar/space/highhamzaAlef-ar.fina/space/highhamzaWaw-ar/highhamzaWaw-ar.fina/space/space/highhamzaYeh-ar/highhamzaYeh-ar.fina/space/highhamzaYeh-ar.medi/highhamzaYeh-ar.init/space/space/space/space/space/space/space/uHamzaabove-ar/uHamzaabove-ar.fina/space/space</string>
-    <string>/alefBottomrightkasraattached-ar</string>
-    <string>/alefBottomrightkasraattached-ar/alefBottomrightkasraattached-ar.fina/alefBottomrightkasraattachedLeftring-ar/alefBottomrightkasraattachedLeftring-ar.fina</string>
+    <string>/punctuationspace</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>

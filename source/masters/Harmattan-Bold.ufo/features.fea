@@ -545,7 +545,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass pehVabove-ar.medi <anchor 0 871> @alef;
 # baseClass [peheh-ar peheh-ar.fina] <anchor 372 590> @alef;
 # baseClass [peheh-ar.init peheh-ar.medi] <anchor -37 778> @alef;
-# baseClass punctuationspace <anchor 320 186> @alef;
+# baseClass punctuationspace <anchor 227 186> @alef;
 # baseClass [qaf-ar qafAfrican-ar qafDotabove-ar qafDotbelow-ar qafThreedotsabove-ar qafThreedotsaboveAfrican-ar] <anchor 434 805> @alef;
 # baseClass [qaf-ar.fina qafAfrican-ar.fina qafDotabove-ar.fina qafDotbelow-ar.fina qafThreedotsabove-ar.fina qafThreedotsaboveAfrican-ar.fina] <anchor 326 778> @alef;
 # baseClass [qafDotbelowNodotsabove-ar qafDotless-ar] <anchor 446 805> @alef;
@@ -1175,7 +1175,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass peheh-ar <anchor 1256 1533> @diaA;
 # baseClass peheh-ar.fina <anchor 1216 1463> @diaA;
 # baseClass [peheh-ar.init peheh-ar.medi] <anchor 316 1463> @diaA;
-# baseClass punctuationspace <anchor 320 649> @diaA;
+# baseClass punctuationspace <anchor 227 649> @diaA;
 # baseClass qaf-ar <anchor 871 1187> @diaA;
 # baseClass qaf-ar.fina <anchor 898 923> @diaA;
 # baseClass qaf-ar.init <anchor 392 1164> @diaA;
@@ -1911,7 +1911,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass pehMeemabove-ar.init <anchor 255 -658> @diaB;
 # baseClass pehMeemabove-ar.medi <anchor 305 -663> @diaB;
 # baseClass [peheh-ar peheh-ar.fina] <anchor 951 -89> @diaB;
-# baseClass punctuationspace <anchor 320 -700> @diaB;
+# baseClass punctuationspace <anchor 227 -700> @diaB;
 # baseClass [qaf-ar qafAfrican-ar qafDotabove-ar qafThreedotsabove-ar qafThreedotsaboveAfrican-ar] <anchor 652 -376> @diaB;
 # baseClass [qaf-ar.fina qafAfrican-ar.fina qafDotabove-ar.fina qafThreedotsabove-ar.fina qafThreedotsaboveAfrican-ar.fina] <anchor 647 -460> @diaB;
 # baseClass qafDotbelow-ar <anchor 662 -716> @diaB;
@@ -58119,7 +58119,7 @@ lookup MarkToBase {
     pos base peheh-ar <anchor 1256 1533> mark @_diaA;
     pos base peheh-ar.fina <anchor 1216 1463> mark @_diaA;
     pos base [peheh-ar.init peheh-ar.medi] <anchor 316 1463> mark @_diaA;
-    pos base punctuationspace <anchor 320 649> mark @_diaA;
+    pos base punctuationspace <anchor 227 649> mark @_diaA;
     pos base qaf-ar <anchor 871 1187> mark @_diaA;
     pos base qaf-ar.fina <anchor 898 923> mark @_diaA;
     pos base qaf-ar.init <anchor 392 1164> mark @_diaA;
@@ -58743,7 +58743,7 @@ lookup MarkToBase {
     pos base pehMeemabove-ar.init <anchor 255 -658> mark @_diaB;
     pos base pehMeemabove-ar.medi <anchor 305 -663> mark @_diaB;
     pos base [peheh-ar peheh-ar.fina] <anchor 951 -89> mark @_diaB;
-    pos base punctuationspace <anchor 320 -700> mark @_diaB;
+    pos base punctuationspace <anchor 227 -700> mark @_diaB;
     pos base [qaf-ar qafAfrican-ar qafDotabove-ar qafThreedotsabove-ar qafThreedotsaboveAfrican-ar] <anchor 652 -376> mark @_diaB;
     pos base [qaf-ar.fina qafAfrican-ar.fina qafDotabove-ar.fina qafThreedotsabove-ar.fina qafThreedotsaboveAfrican-ar.fina] <anchor 647 -460> mark @_diaB;
     pos base qafDotbelow-ar <anchor 662 -716> mark @_diaB;
@@ -59251,7 +59251,7 @@ lookup AlefToBase {
     pos base pehVabove-ar.medi <anchor 0 871> mark @_alef;
     pos base [peheh-ar peheh-ar.fina] <anchor 372 590> mark @_alef;
     pos base [peheh-ar.init peheh-ar.medi] <anchor -37 778> mark @_alef;
-    pos base punctuationspace <anchor 320 186> mark @_alef;
+    pos base punctuationspace <anchor 227 186> mark @_alef;
     pos base [qaf-ar qafAfrican-ar qafDotabove-ar qafDotbelow-ar qafThreedotsabove-ar qafThreedotsaboveAfrican-ar] <anchor 434 805> mark @_alef;
     pos base [qaf-ar.fina qafAfrican-ar.fina qafDotabove-ar.fina qafDotbelow-ar.fina qafThreedotsabove-ar.fina qafThreedotsaboveAfrican-ar.fina] <anchor 326 778> mark @_alef;
     pos base [qafDotbelowNodotsabove-ar qafDotless-ar] <anchor 446 805> mark @_alef;
