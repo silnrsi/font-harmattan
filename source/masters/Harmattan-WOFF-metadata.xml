@@ -86,7 +86,7 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
-      2023-xx-xx (SIL WSTech team) Harmattan version 4.000
+      ### 2023-xx-xx (SIL WSTech team) Harmattan version 4.000
       
       #### New
       
@@ -99,6 +99,7 @@
       - cv85 - Decimal separator (Small reh/Slash)
       - Added:
       - U+061D ARABIC END OF TEXT MARK
+      - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters
       - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
       - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
       - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
@@ -201,7 +202,7 @@
       - Shaping for these newly added characters may not yet occur in applications
       
       
-      2020-06-19 (SIL WSTech team) Harmattan version 2.000
+      ### 2020-06-19 (SIL WSTech team) Harmattan version 2.000
       - Added a bold typeface
       - Added support for all characters in the Arabic and Arabic Supplement blocks
       - Added support for all characters in the Arabic Extended-A block (except for the
@@ -228,22 +229,22 @@
       - Modified superscript and subscript size and positioning (used by some applications)
       - Implemented support for UNICODE ARABIC MARK RENDERING (UTR #53)
       
-      2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
+      ### 2016-04-07 (SIL NRSI team) Harmattan Version 1.001 (production release)
       - Changed internal font names
       - changed space of U+00A0 to match regular space
       
-      2015-03-25 (SIL NRSI team) Harmattan Version 1.00 (production release)
+      ### 2015-03-25 (SIL NRSI team) Harmattan Version 1.00 (production release)
       - Further improvements to kerning.
       
-      2014-12-11 (SIL NRSI team) Harmattan alpha Version 0.119 (test release)
+      ### 2014-12-11 (SIL NRSI team) Harmattan alpha Version 0.119 (test release)
       - Improved kerning logic in OpenType (via GPOS) and Graphite
       
-      2014-10-27 (SIL NRSI team) Harmattan alpha Version 0.118 (test release)
+      ### 2014-10-27 (SIL NRSI team) Harmattan alpha Version 0.118 (test release)
       - Improved display:
       - Reduced width of arrowhead combining marks to reduce collisions
       - Added kerning logic in OpenType (via GPOS) and Graphite
       
-      2014-10-14 (SIL NRSI team) Harmattan alpha Version 0.117 (test release)
+      ### 2014-10-14 (SIL NRSI team) Harmattan alpha Version 0.117 (test release)
       - Alpha release of font for feedback
       - Revision of design of characters based on feedback received
       - Shortened kasra and fatha (and similar characters and glyphs) to
@@ -259,7 +260,7 @@
       and lowest base character so these are not clipped
       - Added Normal and Loose linespacing adjustments for TypeTunerWeb
       
-      2014-06-24 (SIL NRSI team) Harmattan alpha Version 0.111 (test release)
+      ### 2014-06-24 (SIL NRSI team) Harmattan alpha Version 0.111 (test release)
       - Alpha release of font for feedback
       - Revision of design of characters based on feedback received
       - Isolate reh and noon ghunna characters modified
@@ -268,11 +269,11 @@
       - Adjusted design of U+08F7..U+08FD (arrowheads)
       - added U+065E, U+08F0, U+08F1, U+08F2, U+08F3
       
-      2014-04-03 (SIL NRSI team) Harmattan alpha Version 0.106 (test release)
+      ### 2014-04-03 (SIL NRSI team) Harmattan alpha Version 0.106 (test release)
       - Alpha release of font for feedback
       - Revision of design of characters based on feedback received
       
-      2013-12-04 (SIL NRSI team) Harmattan alpha Version 0.010 (test release)
+      ### 2013-12-04 (SIL NRSI team) Harmattan alpha Version 0.010 (test release)
       - Alpha release of font for feedback only (not an actual font release)
       - Arabic script design work is based on Fouta font (see copyright and
       acknowledgments) with significant modification

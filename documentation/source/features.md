@@ -113,7 +113,7 @@ Urdu-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-sett
 Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='Harmattan-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
-Knotted-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv49" 1'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
+Knotted | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv49" 1'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
 Kurdish-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv49" 3'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
 #### Kirghiz OE 

@@ -9,7 +9,7 @@
 /*
     This file is part of Harmattan font family 
     (http://scripts.sil.org/Harmattan) and is 
-    Copyright (c) 2014-2022 SIL International (http://www.sil.org/),
+    Copyright (c) 2014-2023 SIL International (http://www.sil.org/),
     with Reserved Font Names "Harmattan" and "SIL".
 
     This Font Software is licensed under the SIL Open Font License,
@@ -134,7 +134,7 @@ hehDoAlt {
         }
         knotted {
             value = 1;
-            name.1033 = string("Knotted style");
+            name.1033 = string("Knotted");
         }
         // setting 2 is omitted
         kurdish {
