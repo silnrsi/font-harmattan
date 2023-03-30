@@ -13,15 +13,13 @@ Harmattan, named after the trade winds that blow during the dry season in
 West Africa, is designed in a Warsh style to suit the needs of languages 
 using the Arabic script in West Africa.
 
-This release supports virtually all of the Unicode 13.0 Arabic character 
-repertoire (excluding the Quranic annotation signs in the Arabic Extended-A
-block and excluding the Arabic Presentation Forms blocks, which are not 
-recommended for normal use). Font smarts are implemented using OpenType 
-and Graphite technologies.
+This release supports most of the Unicode 15.0 Arabic character 
+repertoire (excluding the Arabic Presentation Forms blocks, which are not 
+recommended for normal use). 
 
-This font uses state-of-the-art OpenType and Graphite font technologies, 
-including variant glyphs for a number of characters for use in particular 
-contexts. 
+Font smarts are implemented using the OpenType smart font technology. 
+A number of glyph variations are accessible through font features
+available. 
 
 This font provides a simplified rendering of Arabic script, using basic 
 connecting glyphs but not including a wide variety of additional ligatures 
