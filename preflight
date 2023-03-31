@@ -13,7 +13,7 @@ wait
 
 echo
 echo "Updating woff metadata xml file..."
-psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/masters/*-Regular.ufo
+psfmakewoffmetadata -q -n Harmattan -i org.sil.fonts source/masters/*-Regular.ufo -o "source/Harmattan-WOFF-metadata.xml"
 
 echo
 echo "Updating glyph orders in Regular..."

@@ -5,18 +5,18 @@
   <credits>
     <credit
       name="Sharon Correll"
-      url="http://scripts.sil.org/"
-      role="Contributing Designer and Script Engineer"
+      url="https://software.sil.org/fonts/guides/"
+      role="Contributing Designer and Lead Script Engineer"
     />
     <credit
       name="Bob Hallissy"
-      url="http://scripts.sil.org/"
-      role="Lead Script Engineer: Graphite, OpenType, and TypeTuner code, and build support"
+      url="https://software.sil.org/fonts/guides/"
+      role="Graphite, OpenType, and TypeTuner code, and build support"
     />
     <credit
-      name="Becca Spalinger"
-      url="http://scripts.sil.org/"
-      role="Lead Designer"
+      name="Becca Hirsbrunner Spalinger"
+      url="https://software.sil.org/fonts/guides/"
+      role="Contributing Designer"
     />
     <credit
       name="George W. Nuss"
@@ -25,21 +25,21 @@
     />
     <credit
       name="Iska Routamaa"
-      url="http://scripts.sil.org/"
+      url="https://software.sil.org/fonts/guides/"
       role="Contributing Designer"
     />
   </credits>
   <description url="https://software.sil.org/harmattan/history/">
     <text lang="en">
-      Harmattan, named after the trade winds that blow during the dry season in
-      West Africa, is designed in a Warsh style to suit the needs of languages
+      Harmattan, named after the trade winds that blow during the dry season in 
+      West Africa, is designed in a Warsh style to suit the needs of languages 
       using the Arabic script in West Africa.
       
-      This font provides a simplified rendering of Arabic script, using basic
-      connecting glyphs but not including a wide variety of additional ligatures
-      or contextual alternates (only the required lam-alef ligatures). This
-      simplified style is often preferred for clarity, especially in non-Arabic
-      languages, but may be considered unattractive in more traditional and
+      This font provides a simplified rendering of Arabic script, using basic 
+      connecting glyphs but not including a wide variety of additional ligatures 
+      or contextual alternates (only the required lam-alef ligatures). This 
+      simplified style is often preferred for clarity, especially in non-Arabic 
+      languages, but may be considered unattractive in more traditional and 
       literate communities.
     </text>
   </description>
@@ -50,10 +50,10 @@
       Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
       with the Reserved Font Name "Fouta".
       
-      Copyright (c) 2004-2022, SIL International (http://www.sil.org), 
+      Copyright (c) 2004-2023, SIL International (http://www.sil.org), 
       with Reserved Font Names 'Andika' and 'SIL'.
       
-      Copyright (c) 2014-2022, SIL International (http://www.sil.org/).
+      Copyright (c) 2014-2023, SIL International (http://www.sil.org/).
       with Reserved Font Names "Harmattan" and "SIL".
       
       ----------------------------------------------------
@@ -103,10 +103,10 @@
       Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
       with the Reserved Font Name "Fouta".
       
-      Copyright (c) 2004-2022, SIL International (http://www.sil.org), 
+      Copyright (c) 2004-2023, SIL International (http://www.sil.org), 
       with Reserved Font Names 'Andika' and 'SIL'.
       
-      Copyright (c) 2014-2022, SIL International (http://www.sil.org/).
+      Copyright (c) 2014-2023, SIL International (http://www.sil.org/).
       with Reserved Font Names "Harmattan" and "SIL".
     </text>
   </copyright>
