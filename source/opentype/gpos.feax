@@ -11,11 +11,9 @@
 #**********************************
 
 
-#****************************
-#****************************
-# GPOS (positioning) rules **
-#****************************
-#****************************
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
 
 
 #********************
@@ -29,14 +27,16 @@ include(../../source/opentype/customKerning.feax);
 
 lookup MarkToBase {
   lookupflag 0;
-  pos base @diaA mark @_diaA;
-  pos base @diaB mark @_diaB;
+    pos  base @diaA  mark @_diaA;
+    pos  base @diaB  mark @_diaB;
 } MarkToBase;
 
+# Override mark positioning in the case of dagger-alef on certain chars:
 lookup AlefToBase {
   lookupflag 0;
-  pos base @alef mark @_alef;
+    pos  base @alef  mark @_alef;
 } AlefToBase;
+
 
 lookup MarkToLig {
   lookupflag 0;
@@ -52,9 +52,10 @@ lookup MarkToLig {
               ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
     pos ligature @LamAlefThreeAboveLig  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
               ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
-#    pos ligature lam_alefHamzabelow-ar  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
-#              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+#   pos ligature lam_alefHamzabelow-ar  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+#             ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
 } MarkToLig;
+
 
 # Use the dia2B AP when you have two diacritics below a lam-alef.
 lookup _mark2_to_base {
@@ -66,6 +67,7 @@ lookup _mark2_to_base {
     pos ligature @LamAlefWavyHBelowLig   @diaB_1 mark @_diaB  ligComponent @dia2B mark @_diaB;
     pos ligature @LamAlefTwoAboveLig     @diaB_1 mark @_diaB  ligComponent @dia2B mark @_diaB;
     pos ligature @LamAlefThreeAboveLig   @diaB_1 mark @_diaB  ligComponent @dia2B mark @_diaB;
+#   pos ligature @lam_alefHamzabelow-ar  @diaB_1 mark @_diaB  ligComponent @dia2B mark @_diaB;
 } _mark2_to_base;
 
 lookup LamAlefMark2Adjust {
@@ -76,21 +78,25 @@ lookup LamAlefMark2Adjust {
 } LamAlefMark2Adjust;
 
 
+#********************
+# Mark-to-mark attachment
+
 @MarkFilter_diaA = [@diaA_MarkBase @_diaA];
 lookup MarkToMarkAbove {
   lookupflag UseMarkFilteringSet @MarkFilter_diaA;
-  pos mark @diaA_MarkBase mark @_diaA;
+    pos mark @diaA_MarkBase mark @_diaA;
 } MarkToMarkAbove;
 
 @MarkFilter_diaB = [@diaB_MarkBase @_diaB];
 lookup MarkToMarkBelow {
   lookupflag UseMarkFilteringSet @MarkFilter_diaB;
-  pos mark @diaB_MarkBase mark @_diaB;
+    pos mark @diaB_MarkBase mark @_diaB;
 } MarkToMarkBelow;
 
 
 #********************
-# Mark adjustments after attachment:
+# Mark adjustments after attachment
+# OSBSOLETE - Harmattan and Lateef
 
 #do let f = info("familyName");
 #   if f.find("Harmattan") != -1; {}
@@ -124,10 +130,13 @@ lookup MarkToMarkBelow {
 # no nukta above) [ABS-2762]
 lookup RaiseMadda {
   lookupflag 0;
-ifinfo(familyName, "Lateef") {
-  pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0 >  [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
-}
+	ifinfo(familyName, "Lateef") {
+  	pos [alef-ar alef-ar.fina] madda-ar' <0 -40 0 0 >  [lam-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init]' fatha-ar' <0 100 0 0>;
+	}
 } RaiseMadda ;
+
+
+#---  kern feature (cont'd)  ---
 
 
 #********************
@@ -151,8 +160,8 @@ lookup SubtendingMarks {
        let x1 = APx(m, "digitR") - ADVx(m); 
        let x2 = x1 - w; let x3 = x2 - w; let x4 = x3 - w;
     {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0> @DigitsAnyMedium' <$x4 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x4 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
+        pos $m  @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0>  @DigitsAnyMedium' <$x3 $y $w 0>  @DigitsAnyMedium' <$x4 $y $w 0> ;
+        pos     @DigitsAnyMedium' <$x4 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0>  @DigitsAnyMedium' <$x2 $y $w 0>  @DigitsAnyMedium' <$x1 $y $w 0> $m ;
     }
     
     # Those that take 3 medium digits
@@ -162,21 +171,21 @@ lookup SubtendingMarks {
        let x1 = APx(m, "digitR") - ADVx(m); 
        let x2 = x1 - w; let x3 = x2 - w;
     {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x3 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x3 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
+        pos $m  @DigitsAnyMedium' <$x1 $y $w 0>  @DigitsAnyMedium' <$x2 $y $w 0>  @DigitsAnyMedium' <$x3 $y $w 0> ;
+        pos     @DigitsAnyMedium' <$x3 $y $w 0>  @DigitsAnyMedium' <$x2 $y $w 0>  @DigitsAnyMedium' <$x1 $y $w 0>  $m ;
     }
 
-    # Those that take 3 small digits
-    do for m = [ endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 disputedendofayah-ar.3 ] ;
+    # Those that take 3 small digits (default for @c_3)
+    do for m = [ endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3  disputedendofayah-ar.3] ;
        let y = APy(m, "digitR") - APy("zero.small", "digitL");
        let w = -ADVx("zero.small"); 
        let x1 = APx(m, "digitR") - ADVx(m); 
        let x2 = x1 - w; let x3 = x2 - w;
     {
-        pos $m @DigitsAnySmall' <$x1 $y $w 0> @DigitsAnySmall' <$x2 $y $w 0> @DigitsAnySmall' <$x3 $y $w 0> ;
-        pos    @DigitsAnySmall' <$x3 $y $w 0> @DigitsAnySmall' <$x2 $y $w 0> @DigitsAnySmall' <$x1 $y $w 0> $m ;
+        pos $m  @DigitsAnySmall' <$x1 $y $w 0>  @DigitsAnySmall' <$x2 $y $w 0>  @DigitsAnySmall' <$x3 $y $w 0> ;
+        pos     @DigitsAnySmall' <$x3 $y $w 0>  @DigitsAnySmall' <$x2 $y $w 0>  @DigitsAnySmall' <$x1 $y $w 0>  $m ;
     }
-    
+
     # Those that take 2 small digits
     do for m = [ disputedendofayah-ar.2 ] ;
        let y = APy(m, "digitR") - APy("zero.small", "digitL");
@@ -188,15 +197,15 @@ lookup SubtendingMarks {
         pos     @DigitsAnySmall' <$x2 $y $w 0>  @DigitsAnySmall' <$x1 $y $w 0>  $m ;
     }
 
-    # Those that take 2 medium digits
+    # Those that take 2 medium digits (default for @c_2)
     do for m = @c_2 ;
        let y = APy(m, "digitR") - APy("zero.medium", "digitL");
        let w = -ADVx("zero.medium"); 
        let x1 = APx(m, "digitR") - ADVx(m); 
        let x2 = x1 - w; 
     {
-        pos $m @DigitsAnyMedium' <$x1 $y $w 0> @DigitsAnyMedium' <$x2 $y $w 0> ;
-        pos    @DigitsAnyMedium' <$x2 $y $w 0> @DigitsAnyMedium' <$x1 $y $w 0> $m ;
+        pos $m  @DigitsAnyMedium' <$x1 $y $w 0>  @DigitsAnyMedium' <$x2 $y $w 0> ;
+        pos     @DigitsAnyMedium' <$x2 $y $w 0>  @DigitsAnyMedium' <$x1 $y $w 0>  $m ;
     }
     
     # Those that take 1 small digit
@@ -209,7 +218,7 @@ lookup SubtendingMarks {
         pos     @DigitsAnySmall' <$x1 $y $w 0>  $m ;
     }
 
-    # Those that take 1 medium digit
+    # Those that take 1 medium digit (default)
     do for m = @cno_2 ;
        let y = APy(m, "digitR") - APy("zero.medium", "digitL");
        let w = -ADVx("zero.medium"); 
@@ -218,31 +227,29 @@ lookup SubtendingMarks {
         pos $m @DigitsAnyMedium' <$x1 $y $w 0> ;
         pos    @DigitsAnyMedium' <$x1 $y $w 0> $m ;
     }
-    
+ 
 } SubtendingMarks;
+
 
 include(../../source/opentype/customShifting.feax);
 
+
+# Lateef only; others have an empty lookup
+
 lookup KernPairs {
   lookupflag IgnoreMarks;
-ifinfo(familyName, "Lateef") {
+	ifinfo(familyName, "Lateef") {
     kernpairs;
-}
+	}
 } KernPairs;
 
 
 #**********************************
-#  Features
+#  GPOS FEATURES
 #**********************************
 
-# as best as I understand, these are arranged in the order MS & HB engines execute:
+# As best as I understand, these are arranged in the order MS & HB engines execute.
 
-
-#********************
-#********************
-# GPOS features     *
-#********************
-#********************
 
 # Would love to be able to do subtending marks as either cursive connection or mark attachment
 # Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
@@ -252,12 +259,37 @@ ifinfo(familyName, "Lateef") {
 # So we're back to using kerning
 
 feature kern {  # Kerning
-    # Same for latin & arabic:
+    # Same behavior for latin & arabic:
         lookup SubtendingMarks;
-        lookup KernPairs;
+        lookup KernPairs;       # Lateef
 
-do if opt("noOTkern") == "";	# enable kerning for now
-{
+	# Scheherazade lookups:
+	do let f = info("familyName");
+	   if f.find("Scheherazade") != -1 and opt("nokern") != "yes"; {
+        # start of kerning positioning
+        lookup RehWawKerning1;  # a separate lookup to handle chains
+        lookup RehWawKerning;
+        lookup LamAlefKerning;
+        lookup MiscKerning;
+        lookup MiscKerningWDiacs;
+        lookup ToothKashidaKerningIM;
+        lookup ToothKashidaKerningMM;
+        lookup ToothKashidaKerningIMF;
+        lookup MiscKashidaKerning;
+        
+        # after mark attachment:
+        lookup DiacShifting;
+	}   # SchNew and not nokern
+
+	# Lateef lookups:
+	do let f = info("familyName");
+	   if f.find("Lateef") != -1; {
+        lookup OldStyleKerning;
+	}   # Lateef
+
+	# Harmattan:
+	do let f = info("familyName");
+	   if f.find("Harmattan") != -1 and opt("noOTkern") == ""; {	# enable kerning for now
     script arab;  # Arabic
         lookup mainkern;
       # Force other languages to include Arabic script lookups:
@@ -269,25 +301,24 @@ do if opt("noOTkern") == "";	# enable kerning for now
       language WLF  ;
 }
 
-} kern;
+} kern ;
 
 feature mark {  # Mark to base Positioning
     # Same for latin & arabic:
         lookup MarkToBase;
         lookup AlefToBase;
-        lookup RaiseMadda;  # Lateef
-    script arab;  # Arabic
-        lookup MarkToLig;
-## TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
-##        lookup AlefMark2BelowAfterLam;
-        ########lookup LamAlefMark2Adjust; # Sch only
-      # Force other languages to include Arabic script lookups:
-      language KIR  ;
-      language KUR  ;
-      language RHG  ;
-      language SND  ;
-      language URD  ;
-      language WLF  ;
+        lookup RaiseMadda;    # Lateef
+    script arab;
+      	lookup MarkToLig;
+      	lookup LamAlefMark2Adjust;  # empty except in Sch
+#        lookup AlefMark2BelowAfterLam;  -- obsolete, Har & Lateef
+      # Force other languages to include Arabic script lookups
+      language KIR ;
+      language KUR ;
+      language RHG ;
+      language SND ;
+      language URD ;
+      language WLF ;
 } mark ;
 
 feature mkmk {  # Mark to mark Positioning
