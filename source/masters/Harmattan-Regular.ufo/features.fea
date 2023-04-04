@@ -2373,7 +2373,7 @@ markClass wordmaddabelow-ar <anchor 0 -331> @_diaB;
 # baseClass lamVabove_alef-ar <anchor 112 1056> @diaA_2;
 
 # AP: diaB_1
-@diaB_1 = [lamBar_alef-ar lamDotabove_alef-ar lamBar_alef-ar.fina lamDotabove_alef-ar.fina lamDoublebar_alef-ar.fina lamThreedotsabove_alef-ar.fina lamVabove_alef-ar.fina lamBar_alefThreeabove-ar lamDoublebar_alefThreeabove-ar lamThreedotsabove_alefThreeabove-ar lamBar_alefThreeabove-ar.fina lamBar_alefWasla-ar.fina lamBar_alefWavyhamzaabove-ar.fina lamDotabove_alefThreeabove-ar.fina lamDotabove_alefWasla-ar.fina lamDotabove_alefWavyhamzaabove-ar.fina lamDotabove_alefWavyhamzabelow-ar.fina lamDoublebar_alefThreeabove-ar.fina lamDoublebar_alefWasla-ar.fina lamDoublebar_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefWasla-ar.fina lamThreedotsabove_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamVabove_alefWasla-ar.fina lamVabove_alefWavyhamzaabove-ar.fina lamVabove_alefWavyhamzabelow-ar.fina lamBar_alefTwoabove-ar lamBar_alefWavyhamzaabove-ar lamDotabove_alefTwoabove-ar lamVabove_alefTwoabove-ar lamVabove_alefWavyhamzaabove-ar lamBar_alefTwoabove-ar.fina lamThreedotsabove_alefTwoabove-ar.fina lamVabove_alefTwoabove-ar.fina lamBar_alefWasla-ar lamDoublebar_alefWasla-ar lamVabove_alef-ar lamBar_alefWavyhamzabelow-ar lamDotabove_alefThreeabove-ar lamThreedotsabove_alefWavyhamzabelow-ar lamVabove_alefWavyhamzabelow-ar lamBar_alefWavyhamzabelow-ar.fina lamDotabove_alefTwoabove-ar.fina lamDotabove_alefWasla-ar lamDotabove_alefWavyhamzaabove-ar lam_alefThreeabove-ar lamDotabove_alefWavyhamzabelow-ar lamDoublebar_alefWavyhamzabelow-ar lamVabove_alefThreeabove-ar lamDoublebar_alef-ar lamThreedotsabove_alef-ar lam_alefWasla-ar lamDoublebar_alefTwoabove-ar lamDoublebar_alefWavyhamzaabove-ar lamThreedotsabove_alefTwoabove-ar lamDoublebar_alefTwoabove-ar.fina lamDoublebar_alefWavyhamzabelow-ar.fina lamTahabove_alef-ar lamTahabove_alef-ar.fina lam_alef-ar.fina lamTahabove_alefThreeabove-ar lamThreedotsabove_alefWavyhamzaabove-ar lamTahabove_alefThreeabove-ar.fina lamTahabove_alefWasla-ar.fina lamTahabove_alefWavyhamzaabove-ar.fina lam_alefThreeabove-ar.fina lam_alefWasla-ar.fina lam_alefWavyhamzaabove-ar.fina lamTahabove_alefTwoabove-ar lamTahabove_alefTwoabove-ar.fina lam_alefTwoabove-ar.fina lamTahabove_alefWasla-ar lamTahabove_alefWavyhamzaabove-ar lam_alefWavyhamzaabove-ar lamTahabove_alefWavyhamzabelow-ar lamTahabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefThreeabove-ar.fina lamVabove_alefThreeabove-ar.fina lamThreedotsabove_alefWasla-ar lamThreedotsbelow_alef-ar lamThreedotsbelow_alef-ar.fina lamThreedotsbelow_alefThreeabove-ar lamThreedotsbelow_alefWavyhamzabelow-ar lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina lamThreedotsbelow_alefWavyhamzabelow-ar.fina lamThreedotsbelow_alefTwoabove-ar lamThreedotsbelow_alefTwoabove-ar.fina lamThreedotsbelow_alefWasla-ar lamThreedotsbelow_alefWavyhamzaabove-ar lamVabove_alefWasla-ar lam_alef-ar lam_alefTwoabove-ar lam_alefWavyhamzabelow-ar lam_alefWavyhamzabelow-ar.fina];
+@diaB_1 = [lamBar_alef-ar lamDotabove_alef-ar lamBar_alef-ar.fina lamDotabove_alef-ar.fina lamDoublebar_alef-ar.fina lamThreedotsabove_alef-ar.fina lamVabove_alef-ar.fina lamBar_alefThreeabove-ar lamDoublebar_alefThreeabove-ar lamThreedotsabove_alefThreeabove-ar lamBar_alefThreeabove-ar.fina lamBar_alefWasla-ar.fina lamBar_alefWavyhamzaabove-ar.fina lamDotabove_alefThreeabove-ar.fina lamDotabove_alefWasla-ar.fina lamDotabove_alefWavyhamzaabove-ar.fina lamDotabove_alefWavyhamzabelow-ar.fina lamDoublebar_alefThreeabove-ar.fina lamDoublebar_alefWasla-ar.fina lamDoublebar_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefWasla-ar.fina lamThreedotsabove_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamVabove_alefWasla-ar.fina lamVabove_alefWavyhamzaabove-ar.fina lamVabove_alefWavyhamzabelow-ar.fina lamBar_alefTwoabove-ar lamBar_alefWavyhamzaabove-ar lamDotabove_alefTwoabove-ar lamVabove_alefTwoabove-ar lamVabove_alefWavyhamzaabove-ar lamBar_alefTwoabove-ar.fina lamThreedotsabove_alefTwoabove-ar.fina lamVabove_alefTwoabove-ar.fina lamBar_alefWasla-ar lamDoublebar_alefWasla-ar lamVabove_alef-ar lamBar_alefWavyhamzabelow-ar lamDotabove_alefThreeabove-ar lamThreedotsabove_alefWavyhamzabelow-ar lamVabove_alefWavyhamzabelow-ar lamBar_alefWavyhamzabelow-ar.fina lamDotabove_alefTwoabove-ar.fina lamDotabove_alefWasla-ar lamDotabove_alefWavyhamzaabove-ar lam_alefThreeabove-ar lamDotabove_alefWavyhamzabelow-ar lamDoublebar_alefWavyhamzabelow-ar lamVabove_alefThreeabove-ar lamDoublebar_alef-ar lamThreedotsabove_alef-ar lam_alefWasla-ar lamDoublebar_alefTwoabove-ar lamDoublebar_alefWavyhamzaabove-ar lamThreedotsabove_alefTwoabove-ar lamDoublebar_alefTwoabove-ar.fina lamDoublebar_alefWavyhamzabelow-ar.fina lamTahabove_alef-ar lamTahabove_alef-ar.fina lam_alef-ar.fina lamTahabove_alefThreeabove-ar lamThreedotsabove_alefWavyhamzaabove-ar lamTahabove_alefThreeabove-ar.fina lamTahabove_alefWasla-ar.fina lamTahabove_alefWavyhamzaabove-ar.fina lam_alefThreeabove-ar.fina lam_alefWasla-ar.fina lam_alefWavyhamzaabove-ar.fina lamTahabove_alefTwoabove-ar lamTahabove_alefTwoabove-ar.fina lam_alefTwoabove-ar.fina lamTahabove_alefWasla-ar lamTahabove_alefWavyhamzaabove-ar lam_alefWavyhamzaabove-ar lamTahabove_alefWavyhamzabelow-ar lamTahabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefThreeabove-ar.fina lamVabove_alefThreeabove-ar.fina lamThreedotsabove_alefWasla-ar lamThreedotsbelow_alef-ar lamThreedotsbelow_alef-ar.fina lamThreedotsbelow_alefThreeabove-ar lamThreedotsbelow_alefWavyhamzabelow-ar lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina lamThreedotsbelow_alefTwoabove-ar lamThreedotsbelow_alefTwoabove-ar.fina lamThreedotsbelow_alefWasla-ar lamThreedotsbelow_alefWavyhamzaabove-ar lamThreedotsbelow_alefWavyhamzabelow-ar.fina lamVabove_alefWasla-ar lam_alef-ar lam_alefTwoabove-ar lam_alefWavyhamzabelow-ar lam_alefWavyhamzabelow-ar.fina];
 # baseClass [lamBar_alef-ar lamDotabove_alef-ar] <anchor 695 -113> @diaB_1;
 # baseClass [lamBar_alef-ar.fina lamDotabove_alef-ar.fina lamDoublebar_alef-ar.fina lamThreedotsabove_alef-ar.fina lamVabove_alef-ar.fina] <anchor 684 -149> @diaB_1;
 # baseClass [lamBar_alefThreeabove-ar lamDoublebar_alefThreeabove-ar lamThreedotsabove_alefThreeabove-ar] <anchor 736 -113> @diaB_1;
@@ -2406,11 +2406,12 @@ markClass wordmaddabelow-ar <anchor 0 -331> @_diaB;
 # baseClass lamThreedotsbelow_alef-ar <anchor 639 -645> @diaB_1;
 # baseClass lamThreedotsbelow_alef-ar.fina <anchor 655 -687> @diaB_1;
 # baseClass [lamThreedotsbelow_alefThreeabove-ar lamThreedotsbelow_alefWavyhamzabelow-ar] <anchor 682 -645> @diaB_1;
-# baseClass [lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina lamThreedotsbelow_alefWavyhamzabelow-ar.fina] <anchor 760 -687> @diaB_1;
+# baseClass [lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina] <anchor 760 -687> @diaB_1;
 # baseClass lamThreedotsbelow_alefTwoabove-ar <anchor 675 -645> @diaB_1;
 # baseClass lamThreedotsbelow_alefTwoabove-ar.fina <anchor 753 -687> @diaB_1;
 # baseClass lamThreedotsbelow_alefWasla-ar <anchor 649 -645> @diaB_1;
 # baseClass lamThreedotsbelow_alefWavyhamzaabove-ar <anchor 671 -645> @diaB_1;
+# baseClass lamThreedotsbelow_alefWavyhamzabelow-ar.fina <anchor 820 -687> @diaB_1;
 # baseClass lamVabove_alefWasla-ar <anchor 703 -113> @diaB_1;
 # baseClass lam_alef-ar <anchor 685 -113> @diaB_1;
 # baseClass lam_alefTwoabove-ar <anchor 718 -113> @diaB_1;
@@ -2418,7 +2419,7 @@ markClass wordmaddabelow-ar <anchor 0 -331> @_diaB;
 # baseClass lam_alefWavyhamzabelow-ar.fina <anchor 776 -89> @diaB_1;
 
 # AP: diaB_2
-@diaB_2 = [lamBar_alef-ar lamDotabove_alef-ar lamBar_alef-ar.fina lamDotabove_alef-ar.fina lamDoublebar_alef-ar.fina lamThreedotsabove_alef-ar.fina lamThreedotsbelow_alef-ar.fina lamVabove_alef-ar.fina lamBar_alefThreeabove-ar lamBar_alefThreeabove-ar.fina lamBar_alefWasla-ar.fina lamBar_alefWavyhamzaabove-ar.fina lamDotabove_alefThreeabove-ar.fina lamDotabove_alefWasla-ar.fina lamDotabove_alefWavyhamzaabove-ar.fina lamDoublebar_alefThreeabove-ar lamDoublebar_alefThreeabove-ar.fina lamDoublebar_alefWasla-ar.fina lamDoublebar_alefWavyhamzaabove-ar.fina lamTahabove_alefThreeabove-ar.fina lamTahabove_alefWasla-ar.fina lamTahabove_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefThreeabove-ar lamThreedotsabove_alefWasla-ar.fina lamThreedotsabove_alefWavyhamzaabove-ar.fina lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina lamVabove_alefWasla-ar.fina lamVabove_alefWavyhamzaabove-ar.fina lam_alefThreeabove-ar.fina lam_alefWasla-ar.fina lam_alefWavyhamzaabove-ar.fina lamBar_alefTwoabove-ar lamBar_alefWavyhamzaabove-ar lamDotabove_alefTwoabove-ar lamVabove_alefTwoabove-ar lamVabove_alefWavyhamzaabove-ar lamBar_alefTwoabove-ar.fina lamThreedotsabove_alefTwoabove-ar.fina lamThreedotsbelow_alefTwoabove-ar.fina lamVabove_alefTwoabove-ar.fina lamBar_alefWasla-ar lamDoublebar_alefWasla-ar lamThreedotsbelow_alefWasla-ar lamVabove_alef-ar lamBar_alefWavyhamzabelow-ar lamThreedotsabove_alefWavyhamzabelow-ar lamVabove_alefWavyhamzabelow-ar lamBar_alefWavyhamzabelow-ar.fina lamDotabove_alefThreeabove-ar lamDotabove_alefTwoabove-ar.fina lamDotabove_alefWasla-ar lamDotabove_alefWavyhamzaabove-ar lamThreedotsbelow_alefWavyhamzaabove-ar lam_alefThreeabove-ar lamDotabove_alefWavyhamzabelow-ar lamDoublebar_alefWavyhamzabelow-ar lamDotabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamThreedotsbelow_alefWavyhamzabelow-ar.fina lamVabove_alefWavyhamzabelow-ar.fina lamDoublebar_alef-ar lamThreedotsabove_alef-ar lamThreedotsbelow_alef-ar lam_alefWasla-ar lamDoublebar_alefTwoabove-ar lamDoublebar_alefWavyhamzaabove-ar lamThreedotsabove_alefTwoabove-ar lamDoublebar_alefTwoabove-ar.fina lamTahabove_alefTwoabove-ar.fina lam_alefTwoabove-ar.fina lamDoublebar_alefWavyhamzabelow-ar.fina lamTahabove_alef-ar lamTahabove_alef-ar.fina lam_alef-ar.fina lamTahabove_alefThreeabove-ar lamThreedotsabove_alefWavyhamzaabove-ar lamTahabove_alefTwoabove-ar lamTahabove_alefWasla-ar lamTahabove_alefWavyhamzaabove-ar lam_alefWavyhamzaabove-ar lamTahabove_alefWavyhamzabelow-ar lamTahabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefThreeabove-ar.fina lamVabove_alefThreeabove-ar.fina lamThreedotsabove_alefWasla-ar lamThreedotsbelow_alefThreeabove-ar lamThreedotsbelow_alefTwoabove-ar lamThreedotsbelow_alefWavyhamzabelow-ar lamVabove_alefThreeabove-ar lamVabove_alefWasla-ar lam_alef-ar lam_alefTwoabove-ar lam_alefWavyhamzabelow-ar lam_alefWavyhamzabelow-ar.fina];
+@diaB_2 = [lamBar_alef-ar lamDotabove_alef-ar lamBar_alef-ar.fina lamDotabove_alef-ar.fina lamDoublebar_alef-ar.fina lamThreedotsabove_alef-ar.fina lamThreedotsbelow_alef-ar.fina lamVabove_alef-ar.fina lamBar_alefThreeabove-ar lamBar_alefThreeabove-ar.fina lamBar_alefWasla-ar.fina lamBar_alefWavyhamzaabove-ar.fina lamDotabove_alefThreeabove-ar.fina lamDotabove_alefWasla-ar.fina lamDotabove_alefWavyhamzaabove-ar.fina lamDoublebar_alefThreeabove-ar lamDoublebar_alefThreeabove-ar.fina lamDoublebar_alefWasla-ar.fina lamDoublebar_alefWavyhamzaabove-ar.fina lamTahabove_alefThreeabove-ar.fina lamTahabove_alefWasla-ar.fina lamTahabove_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefThreeabove-ar lamThreedotsabove_alefWasla-ar.fina lamThreedotsabove_alefWavyhamzaabove-ar.fina lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina lamVabove_alefWasla-ar.fina lamVabove_alefWavyhamzaabove-ar.fina lam_alefThreeabove-ar.fina lam_alefWasla-ar.fina lam_alefWavyhamzaabove-ar.fina lamBar_alefTwoabove-ar lamBar_alefWavyhamzaabove-ar lamDotabove_alefTwoabove-ar lamVabove_alefTwoabove-ar lamVabove_alefWavyhamzaabove-ar lamBar_alefTwoabove-ar.fina lamThreedotsabove_alefTwoabove-ar.fina lamThreedotsbelow_alefTwoabove-ar.fina lamVabove_alefTwoabove-ar.fina lamBar_alefWasla-ar lamDoublebar_alefWasla-ar lamThreedotsbelow_alefWasla-ar lamVabove_alef-ar lamBar_alefWavyhamzabelow-ar lamThreedotsabove_alefWavyhamzabelow-ar lamVabove_alefWavyhamzabelow-ar lamBar_alefWavyhamzabelow-ar.fina lamDotabove_alefThreeabove-ar lamDotabove_alefTwoabove-ar.fina lamDotabove_alefWasla-ar lamDotabove_alefWavyhamzaabove-ar lamThreedotsbelow_alefWavyhamzaabove-ar lam_alefThreeabove-ar lamDotabove_alefWavyhamzabelow-ar lamDoublebar_alefWavyhamzabelow-ar lamDotabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamVabove_alefWavyhamzabelow-ar.fina lamDoublebar_alef-ar lamThreedotsabove_alef-ar lamThreedotsbelow_alef-ar lam_alefWasla-ar lamDoublebar_alefTwoabove-ar lamDoublebar_alefWavyhamzaabove-ar lamThreedotsabove_alefTwoabove-ar lamDoublebar_alefTwoabove-ar.fina lamTahabove_alefTwoabove-ar.fina lam_alefTwoabove-ar.fina lamDoublebar_alefWavyhamzabelow-ar.fina lamTahabove_alef-ar lamTahabove_alef-ar.fina lam_alef-ar.fina lamTahabove_alefThreeabove-ar lamThreedotsabove_alefWavyhamzaabove-ar lamTahabove_alefTwoabove-ar lamTahabove_alefWasla-ar lamTahabove_alefWavyhamzaabove-ar lam_alefWavyhamzaabove-ar lamTahabove_alefWavyhamzabelow-ar lamTahabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefThreeabove-ar.fina lamVabove_alefThreeabove-ar.fina lamThreedotsabove_alefWasla-ar lamThreedotsbelow_alefThreeabove-ar lamThreedotsbelow_alefTwoabove-ar lamThreedotsbelow_alefWavyhamzabelow-ar lamThreedotsbelow_alefWavyhamzabelow-ar.fina lamVabove_alefThreeabove-ar lamVabove_alefWasla-ar lam_alef-ar lam_alefTwoabove-ar lam_alefWavyhamzabelow-ar lam_alefWavyhamzabelow-ar.fina];
 # baseClass [lamBar_alef-ar lamDotabove_alef-ar] <anchor 207 -89> @diaB_2;
 # baseClass [lamBar_alef-ar.fina lamDotabove_alef-ar.fina lamDoublebar_alef-ar.fina lamThreedotsabove_alef-ar.fina lamThreedotsbelow_alef-ar.fina lamVabove_alef-ar.fina] <anchor 163 -99> @diaB_2;
 # baseClass [lamBar_alefThreeabove-ar lamBar_alefThreeabove-ar.fina lamBar_alefWasla-ar.fina lamBar_alefWavyhamzaabove-ar.fina lamDotabove_alefThreeabove-ar.fina lamDotabove_alefWasla-ar.fina lamDotabove_alefWavyhamzaabove-ar.fina lamDoublebar_alefThreeabove-ar lamDoublebar_alefThreeabove-ar.fina lamDoublebar_alefWasla-ar.fina lamDoublebar_alefWavyhamzaabove-ar.fina lamTahabove_alefThreeabove-ar.fina lamTahabove_alefWasla-ar.fina lamTahabove_alefWavyhamzaabove-ar.fina lamThreedotsabove_alefThreeabove-ar lamThreedotsabove_alefWasla-ar.fina lamThreedotsabove_alefWavyhamzaabove-ar.fina lamThreedotsbelow_alefThreeabove-ar.fina lamThreedotsbelow_alefWasla-ar.fina lamThreedotsbelow_alefWavyhamzaabove-ar.fina lamVabove_alefWasla-ar.fina lamVabove_alefWavyhamzaabove-ar.fina lam_alefThreeabove-ar.fina lam_alefWasla-ar.fina lam_alefWavyhamzaabove-ar.fina] <anchor 248 -89> @diaB_2;
@@ -2432,7 +2433,7 @@ markClass wordmaddabelow-ar <anchor 0 -331> @_diaB;
 # baseClass lamDotabove_alefWasla-ar <anchor 217 -89> @diaB_2;
 # baseClass [lamDotabove_alefWavyhamzaabove-ar lamThreedotsbelow_alefWavyhamzaabove-ar lam_alefThreeabove-ar] <anchor 238 -89> @diaB_2;
 # baseClass [lamDotabove_alefWavyhamzabelow-ar lamDoublebar_alefWavyhamzabelow-ar] <anchor 244 -497> @diaB_2;
-# baseClass [lamDotabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamThreedotsbelow_alefWavyhamzabelow-ar.fina lamVabove_alefWavyhamzabelow-ar.fina] <anchor 283 -537> @diaB_2;
+# baseClass [lamDotabove_alefWavyhamzabelow-ar.fina lamThreedotsabove_alefWavyhamzabelow-ar.fina lamVabove_alefWavyhamzabelow-ar.fina] <anchor 283 -537> @diaB_2;
 # baseClass [lamDoublebar_alef-ar lamThreedotsabove_alef-ar lamThreedotsbelow_alef-ar lam_alefWasla-ar] <anchor 206 -89> @diaB_2;
 # baseClass [lamDoublebar_alefTwoabove-ar lamDoublebar_alefWavyhamzaabove-ar lamThreedotsabove_alefTwoabove-ar] <anchor 240 -89> @diaB_2;
 # baseClass [lamDoublebar_alefTwoabove-ar.fina lamTahabove_alefTwoabove-ar.fina lam_alefTwoabove-ar.fina] <anchor 231 -89> @diaB_2;
@@ -2449,7 +2450,8 @@ markClass wordmaddabelow-ar <anchor 0 -331> @_diaB;
 # baseClass lamThreedotsabove_alefWasla-ar <anchor 214 -89> @diaB_2;
 # baseClass lamThreedotsbelow_alefThreeabove-ar <anchor 249 -89> @diaB_2;
 # baseClass lamThreedotsbelow_alefTwoabove-ar <anchor 242 -89> @diaB_2;
-# baseClass lamThreedotsbelow_alefWavyhamzabelow-ar <anchor 247 -497> @diaB_2;
+# baseClass lamThreedotsbelow_alefWavyhamzabelow-ar <anchor 227 -497> @diaB_2;
+# baseClass lamThreedotsbelow_alefWavyhamzabelow-ar.fina <anchor 243 -537> @diaB_2;
 # baseClass lamVabove_alefThreeabove-ar <anchor 246 -89> @diaB_2;
 # baseClass lamVabove_alefWasla-ar <anchor 215 -89> @diaB_2;
 # baseClass lam_alef-ar <anchor 197 -89> @diaB_2;
@@ -3005,7 +3007,6 @@ lookup MeemAlternate {
 lookup KurdishHehTT {
     # TypeTuner only
     lookupflag IgnoreMarks;
-    # Used only by TypeTuner
     sub heh-ar.fina by heh-ar.fina.knottedHigh;
     sub heh-ar by heh-ar.knotted;
 } KurdishHehTT;
@@ -3024,7 +3025,7 @@ lookup UrduHehTT {
     sub heh-ar.init by heh-ar.init.hooked;
     sub heh-ar.medi by heh-ar.medi.hooked;
     sub heh-ar.fina by heh-ar.fina.hooked;
-    # In case Lang=Kurdish set:
+    # In case Lang=Kurdish is set:
     sub heh-ar.knotted by heh-ar;
     sub heh-ar.fina.knottedHigh by heh-ar.fina.hooked;
 } UrduHehTT;
@@ -3039,6 +3040,20 @@ lookup HehAlternates {
 } HehAlternates;
 
 # Heh-doachashmee alternates: cv49
+lookup KurdishHehDoTT {
+    # TypeTuner only
+    lookupflag IgnoreMarks;
+    # Used only by TypeTuner
+    sub hehDoachashmee-ar.fina by hehDoachashmee-ar.fina.knottedHigh;
+} KurdishHehDoTT;
+
+lookup KnottedHehDoTT {
+    # TypeTuner only
+    lookupflag IgnoreMarks;
+    sub hehDoachashmee-ar.medi by hehDoachashmee-ar.medi.knottedHigh;
+    sub hehDoachashmee-ar.fina by hehDoachashmee-ar.fina.knottedHigh;
+} KnottedHehDoTT;
+
 lookup HehDoAlternates {
     lookupflag IgnoreMarks;
     #   0=default                       1=knotted                           2=no change             3=Kurdish-style
@@ -3108,7 +3123,7 @@ lookup DammatanAlternate {
 # Inverted Damma alternates: cv74
 lookup DammaInvertedAlternates {
     lookupflag 0;
-    #   0=default (filled);         1=hollow;            2=filled
+    #   0=default;                  1=hollow;            2=filled
     sub dammainverted-ar from [dammainverted-ar.open dammainverted-ar];
     sub dammainverted-ar.open from [dammainverted-ar.open dammainverted-ar];
 } DammaInvertedAlternates;
@@ -4118,11 +4133,9 @@ feature liga {
 # If this is not the case, go to (http://scripts.sil.org/OFL) for all the
 # details including an FAQ.
 #**********************************
-#****************************
-#****************************
-# GPOS (positioning) rules **
-#****************************
-#****************************
+#**********************************
+# GPOS (Positioning) lookups
+#**********************************
 #********************
 # Collision-avoidance-based kerning
 #**********************************
@@ -62938,6 +62951,7 @@ lookup MarkToBase {
     pos base zerowidthspace <anchor 0 -700> mark @_diaB;
 } MarkToBase;
 
+# Override mark positioning in the case of dagger-alef on certain chars:
 lookup AlefToBase {
     lookupflag 0;
     pos base _alef-ar.fina.postLamIni <anchor -52 862> mark @_alef;
@@ -63549,7 +63563,7 @@ lookup MarkToLig {
     pos ligature lamThreedotsabove_alefWavyhamzabelow-ar <anchor 612 1707> mark @_diaA <anchor 735 -113> mark @_diaB
         ligComponent <anchor 102 1056> mark @_diaA <anchor 245 -497> mark @_diaB;
     pos ligature lamThreedotsbelow_alefWavyhamzabelow-ar <anchor 662 1132> mark @_diaA <anchor 682 -645> mark @_diaB
-        ligComponent <anchor 102 1056> mark @_diaA <anchor 247 -497> mark @_diaB;
+        ligComponent <anchor 102 1056> mark @_diaA <anchor 227 -497> mark @_diaB;
     pos ligature lamTahabove_alefWavyhamzabelow-ar <anchor 538 1673> mark @_diaA <anchor 724 -113> mark @_diaB
         ligComponent <anchor 102 1056> mark @_diaA <anchor 234 -497> mark @_diaB;
     pos ligature lamBar_alefWavyhamzabelow-ar <anchor 660 1132> mark @_diaA <anchor 735 -113> mark @_diaB
@@ -63564,8 +63578,8 @@ lookup MarkToLig {
         ligComponent <anchor 193 1114> mark @_diaA <anchor 283 -537> mark @_diaB;
     pos ligature lamThreedotsabove_alefWavyhamzabelow-ar.fina <anchor 696 1690> mark @_diaA <anchor 789 -149> mark @_diaB
         ligComponent <anchor 193 1114> mark @_diaA <anchor 283 -537> mark @_diaB;
-    pos ligature lamThreedotsbelow_alefWavyhamzabelow-ar.fina <anchor 723 1124> mark @_diaA <anchor 760 -687> mark @_diaB
-        ligComponent <anchor 193 1114> mark @_diaA <anchor 283 -537> mark @_diaB;
+    pos ligature lamThreedotsbelow_alefWavyhamzabelow-ar.fina <anchor 723 1124> mark @_diaA <anchor 820 -687> mark @_diaB
+        ligComponent <anchor 193 1114> mark @_diaA <anchor 243 -537> mark @_diaB;
     pos ligature lamTahabove_alefWavyhamzabelow-ar.fina <anchor 572 1669> mark @_diaA <anchor 786 -89> mark @_diaB
         ligComponent <anchor 193 1114> mark @_diaA <anchor 280 -537> mark @_diaB;
     pos ligature lamBar_alefWavyhamzabelow-ar.fina <anchor 738 1114> mark @_diaA <anchor 806 -149> mark @_diaB
@@ -63636,206 +63650,14 @@ lookup MarkToLig {
         ligComponent <anchor 212 1512> mark @_diaA <anchor 248 -89> mark @_diaB;
     pos ligature lamDoublebar_alefThreeabove-ar.fina <anchor 721 1114> mark @_diaA <anchor 789 -149> mark @_diaB
         ligComponent <anchor 212 1512> mark @_diaA <anchor 248 -89> mark @_diaB;
-    #    pos ligature lam_alefHamzabelow-ar  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
-    #              ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
+    #   pos ligature lam_alefHamzabelow-ar  @diaA_1 mark @_diaA    @diaB_1 mark @_diaB
+    #             ligComponent              @diaA_2 mark @_diaA    @diaB_2 mark @_diaB;
 } MarkToLig;
 
-# Use the dia2B AP when you have two diacritics below a lam-alef.
+# Scheherazade only: use the dia2B AP when you have two diacritics below a lam-alef.
 lookup _mark2_to_base {
     lookupflag 0;
-    # Class are not expanded recursively, so enumerate them. :-(
-    pos ligature lam_alef-ar <anchor 685 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alef-ar <anchor 704 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alef-ar <anchor 695 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alef-ar <anchor 694 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alef-ar <anchor 639 -645> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alef-ar <anchor 684 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alef-ar <anchor 695 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alef-ar <anchor 694 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alef-ar.fina <anchor 669 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alef-ar.fina <anchor 684 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alef-ar.fina <anchor 684 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alef-ar.fina <anchor 684 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alef-ar.fina <anchor 655 -687> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alef-ar.fina <anchor 669 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alef-ar.fina <anchor 684 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alef-ar.fina <anchor 684 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefWasla-ar <anchor 694 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefWasla-ar <anchor 703 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefWasla-ar <anchor 705 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefWasla-ar <anchor 702 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefWasla-ar <anchor 649 -645> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefWasla-ar <anchor 692 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefWasla-ar <anchor 704 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefWasla-ar <anchor 704 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefWasla-ar.fina <anchor 789 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefWasla-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefWasla-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefWasla-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefWasla-ar.fina <anchor 760 -687> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefWasla-ar.fina <anchor 789 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefWasla-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefWasla-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefWavyhamzaabove-ar <anchor 716 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefWavyhamzaabove-ar <anchor 727 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefWavyhamzaabove-ar <anchor 726 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefWavyhamzaabove-ar <anchor 725 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefWavyhamzaabove-ar <anchor 671 -645> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefWavyhamzaabove-ar <anchor 716 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefWavyhamzaabove-ar <anchor 727 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefWavyhamzaabove-ar <anchor 728 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefWavyhamzaabove-ar.fina <anchor 789 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefWavyhamzaabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefWavyhamzaabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefWavyhamzaabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefWavyhamzaabove-ar.fina <anchor 760 -687> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefWavyhamzaabove-ar.fina <anchor 789 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefWavyhamzaabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefWavyhamzaabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefWavyhamzabelow-ar <anchor 720 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefWavyhamzabelow-ar <anchor 735 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefWavyhamzabelow-ar <anchor 734 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefWavyhamzabelow-ar <anchor 735 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefWavyhamzabelow-ar <anchor 682 -645> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefWavyhamzabelow-ar <anchor 724 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefWavyhamzabelow-ar <anchor 735 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefWavyhamzabelow-ar <anchor 734 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefWavyhamzabelow-ar.fina <anchor 776 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefWavyhamzabelow-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefWavyhamzabelow-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefWavyhamzabelow-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefWavyhamzabelow-ar.fina <anchor 760 -687> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefWavyhamzabelow-ar.fina <anchor 786 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefWavyhamzabelow-ar.fina <anchor 806 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefWavyhamzabelow-ar.fina <anchor 796 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefTwoabove-ar <anchor 718 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefTwoabove-ar <anchor 727 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefTwoabove-ar <anchor 727 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefTwoabove-ar <anchor 728 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefTwoabove-ar <anchor 675 -645> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefTwoabove-ar <anchor 717 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefTwoabove-ar <anchor 727 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefTwoabove-ar <anchor 728 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefTwoabove-ar.fina <anchor 772 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefTwoabove-ar.fina <anchor 782 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefTwoabove-ar.fina <anchor 792 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefTwoabove-ar.fina <anchor 782 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefTwoabove-ar.fina <anchor 753 -687> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefTwoabove-ar.fina <anchor 772 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefTwoabove-ar.fina <anchor 782 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefTwoabove-ar.fina <anchor 772 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefThreeabove-ar <anchor 726 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefThreeabove-ar <anchor 734 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefThreeabove-ar <anchor 735 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefThreeabove-ar <anchor 736 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefThreeabove-ar <anchor 682 -645> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefThreeabove-ar <anchor 725 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefThreeabove-ar <anchor 736 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefThreeabove-ar <anchor 736 -113> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lam_alefThreeabove-ar.fina <anchor 789 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamVabove_alefThreeabove-ar.fina <anchor 799 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDotabove_alefThreeabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsabove_alefThreeabove-ar.fina <anchor 799 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamThreedotsbelow_alefThreeabove-ar.fina <anchor 760 -687> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamTahabove_alefThreeabove-ar.fina <anchor 789 -89> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamBar_alefThreeabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
-    pos ligature lamDoublebar_alefThreeabove-ar.fina <anchor 789 -149> mark @_diaB
-        ligComponent <anchor NULL>;
+    
 } _mark2_to_base;
 
 lookup LamAlefMark2Adjust {
@@ -63843,6 +63665,8 @@ lookup LamAlefMark2Adjust {
     
 } LamAlefMark2Adjust;
 
+#********************
+# Mark-to-mark attachment
 @MarkFilter_diaA = [@diaA_MarkBase @_diaA];
 lookup MarkToMarkAbove {
     lookupflag UseMarkFilteringSet @MarkFilter_diaA;
@@ -63996,7 +63820,8 @@ lookup MarkToMarkBelow {
 } MarkToMarkBelow;
 
 #********************
-# Mark adjustments after attachment:
+# Mark adjustments after attachment
+# OSBSOLETE - Harmattan and Lateef
 #do let f = info("familyName");
 #   if f.find("Harmattan") != -1; {}
 # TODO: Determine whether needed and, if so, correct implemetation
@@ -64028,6 +63853,7 @@ lookup RaiseMadda {
     
 } RaiseMadda;
 
+#---  kern feature (cont'd)  ---
 #********************
 # Subtending mark positioning
 lookup SubtendingMarks {
@@ -64053,7 +63879,7 @@ lookup SubtendingMarks {
         pos year-ar.4 @DigitsAnyMedium' <-3130 0 -690 0> @DigitsAnyMedium' <-2440 0 -690 0> @DigitsAnyMedium' <-1750 0 -690 0> @DigitsAnyMedium' <-1060 0 -690 0>;
         pos @DigitsAnyMedium' <-1060 0 -690 0> @DigitsAnyMedium' <-1750 0 -690 0> @DigitsAnyMedium' <-2440 0 -690 0> @DigitsAnyMedium' <-3130 0 -690 0> year-ar.4;
 
-            # Those that take 3 small digits
+            # Those that take 3 small digits (default for @c_3)
         pos number-ar.3 @DigitsAnyMedium' <-2829 0 -690 0> @DigitsAnyMedium' <-2139 0 -690 0> @DigitsAnyMedium' <-1449 0 -690 0>;
         pos @DigitsAnyMedium' <-1449 0 -690 0> @DigitsAnyMedium' <-2139 0 -690 0> @DigitsAnyMedium' <-2829 0 -690 0> number-ar.3;
         pos year-ar.3 @DigitsAnyMedium' <-2420 0 -690 0> @DigitsAnyMedium' <-1730 0 -690 0> @DigitsAnyMedium' <-1040 0 -690 0>;
@@ -64079,7 +63905,7 @@ lookup SubtendingMarks {
         pos disputedendofayah-ar.3 @DigitsAnySmall' <-1936 0 -494 0> @DigitsAnySmall' <-1442 0 -494 0> @DigitsAnySmall' <-948 0 -494 0>;
         pos @DigitsAnySmall' <-948 0 -494 0> @DigitsAnySmall' <-1442 0 -494 0> @DigitsAnySmall' <-1936 0 -494 0> disputedendofayah-ar.3;
 
-            # Those that take 2 medium digits
+            # Those that take 2 medium digits (default for @c_2)
         pos disputedendofayah-ar.2 @DigitsAnySmall' <-1316 0 -494 0> @DigitsAnySmall' <-822 0 -494 0>;
         pos @DigitsAnySmall' <-822 0 -494 0> @DigitsAnySmall' <-1316 0 -494 0> disputedendofayah-ar.2;
 
@@ -64109,7 +63935,7 @@ lookup SubtendingMarks {
         pos year-ar.2 @DigitsAnyMedium' <-1730 0 -690 0> @DigitsAnyMedium' <-1040 0 -690 0>;
         pos @DigitsAnyMedium' <-1040 0 -690 0> @DigitsAnyMedium' <-1730 0 -690 0> year-ar.2;
 
-            # Those that take 1 medium digit
+            # Those that take 1 medium digit (default)
         pos disputedendofayah-ar @DigitsAnySmall' <-785 0 -494 0>;
         pos @DigitsAnySmall' <-785 0 -494 0> disputedendofayah-ar;
 
@@ -64155,20 +63981,16 @@ lookup SubtendingMarks {
 # It must go after mark attachment.
 #---  kern feature  ---
 # TODO: complete
+# Lateef only; others have an empty lookup
 lookup KernPairs {
     lookupflag IgnoreMarks;
     
 } KernPairs;
 
 #**********************************
-#  Features
+#  GPOS FEATURES
 #**********************************
-# as best as I understand, these are arranged in the order MS & HB engines execute:
-#********************
-#********************
-# GPOS features     *
-#********************
-#********************
+# As best as we understand, these are arranged in the order MS & HB engines execute.
 # Would love to be able to do subtending marks as either cursive connection or mark attachment
 # Cursive connection doesn't work because the width of the resultant cluster needs to be exactly the
 # same as the subtending mark and unrelated to the widths of the digits.
@@ -64177,9 +63999,22 @@ lookup KernPairs {
 # So we're back to using kerning
 feature kern {
     # Kerning
-    # Same for latin & arabic:
+    # Same behavior for latin & arabic:
     lookup SubtendingMarks;
     lookup KernPairs;
+    # Lateef
+    # Scheherazade lookups:
+            
+
+    # start of kerning positioning
+    # a separate lookup to handle chains
+    # after mark attachment:
+    # SchNew and not nokern
+    # Lateef lookups:
+            
+
+    # Lateef
+    # Harmattan:
             # enable kerning for now
         # Arabic
         # Force other languages to include Arabic script lookups:
@@ -64202,12 +64037,11 @@ feature mark {
     lookup RaiseMadda;
     # Lateef
     script arab;
-    # Arabic
     lookup MarkToLig;
-    ## TODO: (See previous comment at AlefMark2BelowAfterLam lookup)
-    ##        lookup AlefMark2BelowAfterLam;
-    ########lookup LamAlefMark2Adjust; # Sch only
-    # Force other languages to include Arabic script lookups:
+    lookup LamAlefMark2Adjust;
+    # empty except in Sch
+    #        lookup AlefMark2BelowAfterLam;  -- obsolete, Har & Lateef
+    # Force other languages to include Arabic script lookups
     language KIR;
     language KUR;
     language RHG;
