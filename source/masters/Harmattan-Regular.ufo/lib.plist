@@ -21,13 +21,14 @@
   <array>
     <string>/highhamza-ar/space/highhamzaAlef-ar/space/highhamzaAlef-ar.fina/space/highhamzaWaw-ar/highhamzaWaw-ar.fina/space/space/highhamzaYeh-ar/highhamzaYeh-ar.fina/space/highhamzaYeh-ar.medi/highhamzaYeh-ar.init/space/space/space/space/space/space/space/uHamzaabove-ar/uHamzaabove-ar.fina/space/space</string>
     <string>/punctuationspace</string>
+    <string>/lamThreedotsbelow_alefWavyhamzabelow-ar</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.uniqueID</key>
-  <string>SIL International: Harmattan Regular: 2023</string>
+  <string>SIL International: Harmattan Regular: 2022</string>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
   <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster.customValue</key>

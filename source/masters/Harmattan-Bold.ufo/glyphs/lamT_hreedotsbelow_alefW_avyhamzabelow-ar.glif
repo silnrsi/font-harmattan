@@ -3,10 +3,12 @@
   <advance width="858"/>
   <anchor x="599" y="1132" name="diaA_1"/>
   <anchor x="112" y="1083" name="diaA_2"/>
-  <anchor x="660" y="-717" name="diaB_1"/>
-  <anchor x="179" y="-533" name="diaB_2"/>
+  <anchor x="720" y="-717" name="diaB_1"/>
+  <anchor x="139" y="-533" name="diaB_2"/>
   <outline>
-    <component base="_lamThreedotsbelow-ar.init.preAlef" xOffset="101"/>
-    <component base="_alefWavyhamzabelow-ar.fina.postLamIni" yOffset="70"/>
+    <component base="_lam-ar.init.preAlef" xOffset="101"/>
+    <component base="_dot3d" xOffset="733" yOffset="-245"/>
+    <component base="_alef-ar.fina.postLamIni" yOffset="70"/>
+    <component base="_wavyHamza" xOffset="253" yOffset="-1630"/>
   </outline>
 </glyph>

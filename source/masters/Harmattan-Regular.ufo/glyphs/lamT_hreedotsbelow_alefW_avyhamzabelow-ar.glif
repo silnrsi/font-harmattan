@@ -4,9 +4,11 @@
   <anchor x="662" y="1132" name="diaA_1"/>
   <anchor x="102" y="1056" name="diaA_2"/>
   <anchor x="682" y="-645" name="diaB_1"/>
-  <anchor x="247" y="-497" name="diaB_2"/>
+  <anchor x="227" y="-497" name="diaB_2"/>
   <outline>
-    <component base="_lamThreedotsbelow-ar.init.preAlef" xOffset="164"/>
-    <component base="_alefWavyhamzabelow-ar.fina.postLamIni" xOffset="31" yOffset="48"/>
+    <component base="_lam-ar.init.preAlef" xOffset="164"/>
+    <component base="_dot3d" xOffset="659" yOffset="-234"/>
+    <component base="_alef-ar.fina.postLamIni" xOffset="31" yOffset="48"/>
+    <component base="_wavyHamza" xOffset="240" yOffset="-1614"/>
   </outline>
 </glyph>
