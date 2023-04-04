@@ -106,6 +106,7 @@ then
   
   for w in "${WEIGHTS[@]}"
   do
+  	# No parallel processing - do one weight at a time (to avoid out-of-memory issues).
   	echo "$w"
     octalap -q -j 0 -o source/Harmattan-$w-octabox.json results/Harmattan-$w.ttf
   done
@@ -127,7 +128,8 @@ then
 
   for w in "${WEIGHTS[@]}"
   do
-  	echo "$w"
+  	echo "$w
+  	# No parallel processing - do one weight at a time (to avoid out-of-memory issues).
     ( \
       grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Harmattan-$w.ttf                 $outdir/rawPairData-$w.txt        ; \
       tools/renumberKernData.py $outdir/rawPairData-$w.txt                                                        $outdir/rawPairData-$w-nozwj.txt  ; \
