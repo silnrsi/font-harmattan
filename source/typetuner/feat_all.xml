@@ -23,8 +23,8 @@
 			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KurdishCALT}"/>
 		</value>
 		<value name="Kyrgyz" tag="Kyr">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KirghizCALT}"/>
-			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KirghizCALT}"/>
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KyrgyzCALT}"/>
+			<cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KyrgyzCALT}"/>
 		</value>
 		<value name="Rohingya" tag="Rhg">
 			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {RohingyaCALT}"/>
@@ -100,6 +100,19 @@
 		</value>
 	</feature>
 
+  <!-- cv49 -->
+	<feature name="Heh Doachashmee" value="Standard" tag="Hehdo">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Knotted" tag="Knt">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KnottedHehDoTT}"/>
+		</value>
+		<value name="Kurdish-style" tag="Ku">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KurdishHehDoTT}"/>
+		</value>
+	</feature>
+
   <!-- cv51  -->
 	<feature name="Kyrgyz OE" value= "Loop" tag="Koe">
 		<value name="Loop" tag="Lp">
@@ -160,7 +173,7 @@
 	</feature>
 
 	<!-- cv72 -->
-	<feature name="Dammatan" value="Standard" tag="Dmtn">
+	<feature name="Dammatan" value="Standard" tag="Dmtan">
 		<value name="Standard" tag="Std">
 			<cmd name="null" args="null"/>
 		</value>
