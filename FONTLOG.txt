@@ -28,9 +28,11 @@ simplified style is often preferred for clarity, especially in non-Arabic
 languages, but may be considered unattractive in more traditional and 
 literate communities.
 
-Two fonts from this typeface family are included in this release:
+Four fonts from this typeface family are included in this release:
 
      * Harmattan Regular
+     * Harmattan Medium
+     * Harmattan SemiBold
      * Harmattan Bold
 
 For detailed documentation see the contents of the 'documentation' folder.
@@ -282,17 +284,17 @@ be sure to add your name (N), email (E), web-address (W) and description
 
 N: Sharon Correll
 E: fonts@sil.org
-W: https://software.sil.org/fonts/guides/
+W: https://software.sil.org/wstech/
 D: Contributing Designer and Lead Script Engineer
 
 N: Bob Hallissy
 E: fonts@sil.org
-W: https://software.sil.org/fonts/guides/
+W: https://software.sil.org/wstech/
 D: Script Engineer: Graphite, OpenType, and TypeTuner code, and build support
 
 N: Becca Spalinger
 E: fonts@sil.org
-W: https://software.sil.org/fonts/guides/
+W: https://software.sil.org/wstech/
 D: Contributing Designer
 
 N: George W. Nuss
@@ -301,7 +303,7 @@ D: Original Designer
 
 N: Iska Routamaa
 E: fonts@sil.org
-W: https://software.sil.org/fonts/guides/
+W: https://software.sil.org/wstech/
 D: Contributing Designer
 
 The Harmattan project is maintained by SIL International.
