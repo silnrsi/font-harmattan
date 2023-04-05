@@ -109,7 +109,7 @@ Urdu-style | <span dir="rtl" class='Harmattan-cv48-2-R normal'> ه ههه </span
 Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='Harmattan-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=0`
-Knotted-style | <span dir="rtl" class='Harmattan-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
+Knotted | <span dir="rtl" class='Harmattan-cv49-1-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=1`
 Kurdish-style | <span dir="rtl" class='Harmattan-cv49-3-R normal'>&#x06be;&#x0020;&#x06be;&#x06be;&#x06be;</span>| `cv49=3`
 
 #### Kirghiz OE 
@@ -203,7 +203,6 @@ Open left | <span dir="rtl" class='Harmattan-cv78-2-R normal'>بْ ◌ْ</span>|
 
 #### End of ayah 
 
-
 <span class='affects'>Affects: U+06DD</span>
 
 Firefox allows you to use U+06DD followed by the digits and proper rendering occurs. Some applications require the following:
@@ -233,10 +232,10 @@ The DISPUTED END OF AYAH (U+08E2) is also now available in the font. It works in
 Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='Harmattan-R normal'>&#x06F4;&#x06F6;&#x06F7;</span> | `cv82=0`
+Kurdish-style | <span dir="rtl" class='Harmattan-cv82-3-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
+Rohingya-style | <span dir="rtl" class='Harmattan-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 Sindhi-style | <span dir="rtl" class='Harmattan-cv82-1-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='Harmattan-cv82-2-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
-Rohingya-style | <span dir="rtl" class='Harmattan-cv82-4-R normal'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
-
 
 #### Comma 
 
@@ -299,8 +298,9 @@ Loose |
 [font id='Harmattan-cv78-2' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv78 2']
 [font id='Harmattan-cv80-1' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv80 1']
 [font id='Harmattan-cv80-2' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv80 2']
+[font id='Harmattan-cv82-3' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv82 3']
+[font id='Harmattan-cv82-4' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv82 4']
 [font id='Harmattan-cv82-1' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv82 1']
 [font id='Harmattan-cv82-2' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv82 2']
-[font id='Harmattan-cv82-4' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv82 4']
 [font id='Harmattan-cv84-1' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv84 1']
 [font id='Harmattan-cv85-1' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1 feats='cv85 1']

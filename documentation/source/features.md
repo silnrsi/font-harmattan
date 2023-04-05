@@ -207,7 +207,6 @@ Open left | <span dir="rtl" class='Harmattan-R normal' style='font-feature-setti
 
 #### End of ayah 
 
-
 <span class='affects'>Affects: U+06DD</span>
 
 Firefox allows you to use U+06DD followed by the digits and proper rendering occurs. Some applications require the following:
@@ -237,10 +236,10 @@ The DISPUTED END OF AYAH (U+08E2) is also now available in the font. It works in
 Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Standard | <span dir="rtl" class='Harmattan-R normal'>&#x06F4;&#x06F6;&#x06F7;</span> | `cv82=0`
+Kurdish-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv82" 3'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=3`
+Rohingya-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv82" 4'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
 Sindhi-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv82" 1'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=1`
 Urdu-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv82" 2'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=2`
-Rohingya-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv82" 4'>&#x06F4;&#x06F6;&#x06F7;</span>| `cv82=4`
-
 
 #### Comma 
 
