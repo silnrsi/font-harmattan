@@ -5,17 +5,17 @@
   <credits>
     <credit
       name="Sharon Correll"
-      url="https://software.sil.org/fonts/guides/"
+      url="https://software.sil.org/wstech/"
       role="Contributing Designer and Lead Script Engineer"
     />
     <credit
       name="Bob Hallissy"
-      url="https://software.sil.org/fonts/guides/"
+      url="https://software.sil.org/wstech/"
       role="Graphite, OpenType, and TypeTuner code, and build support"
     />
     <credit
       name="Becca Hirsbrunner Spalinger"
-      url="https://software.sil.org/fonts/guides/"
+      url="https://software.sil.org/wstech/"
       role="Contributing Designer"
     />
     <credit
@@ -25,21 +25,21 @@
     />
     <credit
       name="Iska Routamaa"
-      url="https://software.sil.org/fonts/guides/"
+      url="https://software.sil.org/wstech/"
       role="Contributing Designer"
     />
   </credits>
   <description url="https://software.sil.org/harmattan/history/">
     <text lang="en">
-      Harmattan, named after the trade winds that blow during the dry season in
-      West Africa, is designed in a Warsh style to suit the needs of languages
+      Harmattan, named after the trade winds that blow during the dry season in 
+      West Africa, is designed in a Warsh style to suit the needs of languages 
       using the Arabic script in West Africa.
       
-      This font provides a simplified rendering of Arabic script, using basic
-      connecting glyphs but not including a wide variety of additional ligatures
-      or contextual alternates (only the required lam-alef ligatures). This
-      simplified style is often preferred for clarity, especially in non-Arabic
-      languages, but may be considered unattractive in more traditional and
+      This font provides a simplified rendering of Arabic script, using basic 
+      connecting glyphs but not including a wide variety of additional ligatures 
+      or contextual alternates (only the required lam-alef ligatures). This 
+      simplified style is often preferred for clarity, especially in non-Arabic 
+      languages, but may be considered unattractive in more traditional and 
       literate communities.
     </text>
   </description>
