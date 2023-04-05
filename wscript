@@ -59,7 +59,7 @@ if '--autohint' in opts:
     cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
 
 # iterate over designspace
-designspace('source/Harmattan-RB.designspace',
+designspace('source/Harmattan.designspace',
     instanceparams = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     instances = ['Harmattan Regular'] if '--regOnly' in opts else None,
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),

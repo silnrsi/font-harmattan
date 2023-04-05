@@ -128,7 +128,7 @@ then
 
   for w in "${WEIGHTS[@]}"
   do
-  	echo "$w
+  	echo "$w"
   	# No parallel processing - do one weight at a time (to avoid out-of-memory issues).
     ( \
       grkern2fea -e graphite -i source/kerndata.ftml -F ut53=0        -f results/Harmattan-$w.ttf                 $outdir/rawPairData-$w.txt        ; \
