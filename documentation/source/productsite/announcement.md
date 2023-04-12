@@ -2,7 +2,6 @@
 ### Changes
 
 #### New
-
 - Added Kyrgyz language support
 - Added Arabic-style (rounded) versions of chevron quotes
 - New features:
@@ -12,7 +11,7 @@
   - cv85 - Decimal separator (Small reh/Slash)
 - Added:
   - U+061D ARABIC END OF TEXT MARK
-  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters
+  - Due to the rarity of these characters, lam-alef ligatures have not been implemented with these new characters:
     - U+0870 ARABIC LETTER ALEF WITH ATTACHED FATHA
     - U+0871 ARABIC LETTER ALEF WITH ATTACHED TOP RIGHT FATHA
     - U+0872 ARABIC LETTER ALEF WITH RIGHT MIDDLE STROKE
@@ -106,13 +105,11 @@
   - U+06C7 ARABIC LETTER U
 
 #### Removed
-
 - Removed features: 
-    - Alef diacritic placement (cv02)
-    - Arabic U (cv50)
+  - Alef diacritic placement (cv02)
+  - Arabic U (cv50)
 
 #### Known issues
-- Shaping for these newly added characters may not yet occur in applications
-
-
-
+- Shaping for the newly added characters may not yet occur in applications.
+- Medial and final high hamza characters may have collisions (these likely do not occur).
+- Lam + high hamza alef ligature does not form as it likely does not occur.
