@@ -40,6 +40,6 @@ It is impossible for us to add every glyph that every person desires, but we do 
 
 ### *What is so special about Harmattan?*
 
-**Harmattan** is designed in a Warsh style to suit the needs of languages using the Arabic script in West Africa. This font is designed to work with two advanced font technologies, [Graphite](http://graphite.sil.org) and OpenType. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for Graphite or OpenType. These advanced capabilities provide access to the variant character forms used in some languages. See [Smart Font Features](features.md).
+**Harmattan** is designed in a Warsh style to suit the needs of languages using the Arabic script in West Africa. This font is designed to work with the OpenType font technology. To take advantage of the advanced typographic capabilities of this font, you must be using applications that provide an adequate level of support for OpenType. These advanced capabilities provide access to the variant character forms used in some languages. See [Smart Font Features](features.md).
 
 

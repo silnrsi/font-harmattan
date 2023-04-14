@@ -152,7 +152,7 @@ Regular:<span class='Harmattan-R normal'>™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √
 
 
 <!-- PRODUCT SITE ONLY
-[font id='harmattan' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1]
+[font id='Harmattan' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1]
 -->
 
 
