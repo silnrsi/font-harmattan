@@ -1,4 +1,4 @@
 #!/bin/sh
 # script to convert UFOs to glyphs file for editing
 
-psfufo2glyphs source/Harmattan.designspace source/masters/Harmattan.glyphs
+psfufo2glyphs --nofea source/Harmattan.designspace source/masters/Harmattan.glyphs -l source/logs/ufo2g.log
