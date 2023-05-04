@@ -147,6 +147,6 @@ Regular:<span class='Harmattan-R normal'>™ Ω ∂ ∆ ∏ ∑ − ∕ ∙ √
 
 
 
-[font id='harmattan' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1]
+[font id='Harmattan' face='Harmattan-Regular' bold='Harmattan-Bold' size='150%' rtl=1]
 
 

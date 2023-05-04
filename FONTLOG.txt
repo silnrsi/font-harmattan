@@ -310,5 +310,5 @@ The Harmattan project is maintained by SIL International.
 
 For more information please visit the Harmattan font page on 
 SIL International's Computers and Writing Systems website:
-http://software.sil.org/harmattan/
+https://software.sil.org/harmattan/
 

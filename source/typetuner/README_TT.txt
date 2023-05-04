@@ -22,7 +22,7 @@ See the FONTLOG for information on this and previous releases.
 For further information about this font, including Unicode ranges
 supported, OpenType font features and how to use them, 
 and licensing, please see the documentation on the website 
-(http://software.sil.org/harmattan/) or in the documentation 
+(https://software.sil.org/harmattan/) or in the documentation 
 subfolder of this font package.
 
 TYPETUNER
@@ -64,12 +64,15 @@ This font does not include any keyboarding helps or utilities. You may use the
 built-in keyboards of the operating system. You may also need to install an
 appropriate keyboard and input method for the characters of the language you
 wish to use. If you want to enter characters that are not supported by any
-system keyboard, the Keyman program (www.keyman.com) can be helpful
+system keyboard, the Keyman program (https://keyman.com) can be helpful
 on Windows, macOS, and Linux systems. 
 
 If you want to enter characters that are not supported by any system
 keyboard, and to access the full Unicode range, you might try charmap.exe
 on Windows or, on Ubuntu or similar software, gucharmap or kcharselect.
+
+In Microsoft Word, you can type the USV (e.g., 0627), then select "0627",
+then type Alt-X. It will convert it to the character.
 
 Another method of entering some symbols is provided by a few applications such
 as Adobe InDesign or LibreOffice.org. They can display a glyph palette or input
@@ -86,4 +89,4 @@ OpenType.
 CONTACT
 ========
 For more information please visit the Harmattan page on SIL International's
-Computers and Writing systems website: http://software.sil.org/harmattan/support.
+Computers and Writing systems website: https://software.sil.org/harmattan/support.
