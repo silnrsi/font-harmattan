@@ -45,7 +45,7 @@ if '--graphite' in opts:
         params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         )
     # Be sure to include the octaboxes
-    cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', ["source/${DS:FILENAME_BASE}-octabox.json"])),
+    cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', ["source/graphite/${DS:FILENAME_BASE}-octabox.json"])),
 else:
     # Without grahite, we use a subset of the typetuner file that contains no graphite table manipulation
     typetunerfile = create(generated + 'feat_all.xml', cmd('grep -v "gr_" ${SRC} > ${TGT}', ['source/typetuner/feat_all.xml']))

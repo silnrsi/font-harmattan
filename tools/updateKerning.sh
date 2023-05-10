@@ -108,7 +108,7 @@ then
   do
   	# No parallel processing - do one weight at a time (to avoid out-of-memory issues).
   	echo "$w"
-    octalap -q -j 0 -o source/Harmattan-$w-octabox.json results/Harmattan-$w.ttf
+    octalap -q -j 0 -o source/graphite/Harmattan-$w-octabox.json results/Harmattan-$w.ttf
   done
   wait
   
@@ -150,7 +150,7 @@ if [ ${OCTALAP} == 1 ]
 then
   for w in "${WEIGHTS[@]}" 
   do
-      echo " - source/Harmattan-$w-octabox.json"
+      echo " - source/graphite/Harmattan-$w-octabox.json"
   done
 fi
 
