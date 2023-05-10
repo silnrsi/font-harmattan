@@ -61,7 +61,7 @@ to the repo. The files that fall into this category are:
 - `source/kerndata.ftml` — contains strings with all possible combinations of reh-like and 
 following initials or isolates. This is used to extract graphite collision-avoidance-based 
 kerning data.
-- `source/*-octabox.json` — optimized octaboxes to enable Graphite to do more accurate kerning 
+- `source/graphite/*-octabox.json` — optimized octaboxes to enable Graphite to do more accurate kerning 
 of reh-like characters to what follows.
 - `source/opentype/caKern-*.fea` — contextual kerning rules that approximate the kerning effected
 by the Graphite collision avoidance.
