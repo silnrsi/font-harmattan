@@ -70,7 +70,7 @@ designspace('source/Harmattan.designspace',
         master = 'source/opentype/main.feax',
         make_params = omitaps + noOTkern,
         params = '-e -F kernposchain_0',
-                depends = ['source/opentype/gsub.feax', 'source/opentype/gpos.feax', 
+        depends = ['source/opentype/gsub.feax', 'source/opentype/gpos.feax', 
                    'source/opentype/customCollisionSubs.feax',
                    'source/opentype/customKerning.feax',
                    'source/opentype/customShifting.feax',]
