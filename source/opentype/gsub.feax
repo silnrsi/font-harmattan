@@ -352,10 +352,9 @@ lookup HamzaLigatures {
 #   otherwise the lookupflag causes it to be ignored.
 @ShaddaLigatureFilter = [ @ShaddaMarks @ShaddaKasraMarks shadda-ar alefabove-ar graphemejoinercomb ] ;
 lookup ShaddaLigatures {
-  lookupflag 0 ; # UseMarkFilteringSet @ShaddaLigatureFilter ;
-    sub shadda-ar' fatha-ar by shadda_fatha-ar;
-    # sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
-    # sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
+  lookupflag UseMarkFilteringSet @ShaddaLigatureFilter ;
+    sub shadda-ar @ShaddaMarks by @ShaddaLigatures ;
+    sub @ShaddaMarks shadda-ar by @ShaddaLigatures ;
 } ShaddaLigatures;
 
 # In theory we could do this up where we create the Allah ligature, but this simpler:
