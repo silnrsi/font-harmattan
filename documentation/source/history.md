@@ -166,7 +166,7 @@ fontversion: 4.000
   - Increased spacing after reh-like characters
   - African qaf, African noon, African feh added (in the Unicode pipeline)
   - A few minor anchor point tweaks
-- Changed default behavior for cv62 to have the kasra in the "lowered" postion
+- Changed default behavior for cv62 to have the kasra in the "lowered" position
   - Removed cv62 as an OpenType feature. It is now only available through Graphite or TypeTunerWeb
 - Default linespacing adjusted to handle tallest base character with shadda and lowest base character so these are not clipped 
 - Added Normal and Loose linespacing adjustments for TypeTunerWeb

@@ -392,7 +392,7 @@ pass(2)
 
 	// Marks below
 
-	// TODO: Determine whether needed and, if so, correct implemetation -- the following definitely
+	// TODO: Determine whether needed and, if so, correct implementation -- the following definitely
 	// 		doesn't work with lam-alef ligatures...
 	// Special attachment points for lam-alef ligatures, to avoid collisions:
 	//cTakesdia2BDia=B cdiaBDia {attach {to=@B; at=dia2BS; with=diaBM}}

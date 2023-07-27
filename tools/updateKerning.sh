@@ -88,7 +88,7 @@ fi
 
 if [ ${FTML} -gt 1 ]
 then
-  echo "finished successfullly and source/kerndata.ftml has been rebuilt."
+  echo "finished successfully and source/kerndata.ftml has been rebuilt."
   exit
 fi
 
@@ -140,7 +140,7 @@ then
   wait
 fi
 
-echo "finished successfullly, and the following files were regenerated:"
+echo "finished successfully, and the following files were regenerated:"
 if [ ${FTML} -gt 0 ]
 then
   echo " - source/kerndata.ftml"
