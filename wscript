@@ -25,7 +25,7 @@ omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,
 #   --quick    - omit CA-based kerning in OpenType
 #   --regOnly  - build just Harmattan-Regular
 #   --graphite - add graphite smarts font for kerning update purposes (otherwise font is OT-only)
-opts = preprocess_args({'opt': '--autohint'}, {'opt': '--quick'}, {'opt': '--norename'},  {'opt': '--regOnly'}, {'opt': '--graphite'})
+opts = preprocess_args({'opt': '--autohint'}, {'opt': '--quick'}, {'opt': '--norename'},  {'opt': '--regOnly'},  {'opt': '--medOnly'}, {'opt': '--graphite'})
 
 noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
 
@@ -61,7 +61,7 @@ if '--autohint' in opts:
 # iterate over designspace
 designspace('source/Harmattan.designspace',
     instanceparams = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
-    instances = ['Harmattan Regular'] if '--regOnly' in opts else None,
+    instances = ['Harmattan Regular'] if '--regOnly' in opts else ['Harmattan Medium'] if '--medOnly' in opts else None,
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     ap = generated + '${DS:FILENAME_BASE}.xml',
     version = VERSION,  # Needed to ensure dev information on version string
