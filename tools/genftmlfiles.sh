@@ -15,8 +15,8 @@ then
 	exit 2
 fi
 
-prevfont="references/v2.000/Harmattan-Regular.ttf"
-prevver="2.0"
+prevfont="references/v4.000/Harmattan-Regular.ttf"
+prevver="4.0"
 
 echo "Rebuilding ftml files..."
 tools/absgenftml.py -q -t "AllChars (auto)"                      source/masters/Harmattan-Regular.ufo  tests/AllChars-auto.ftml        -l logs/AllChars.log        --prevfont "$prevfont"  --ap "_?dia[AB]$" --xsl ../tools/lib/ftml.xsl --scale 250 -i source/glyph_data.csv --langs "sd,ur,ku,rhg,ky,wo" -w 75% -s "url(../$prevfont)|$prevver"  -s "url(../results/Harmattan-Regular.ttf)|Reg" -s "url(../results/Harmattan-Medium.ttf)|Med" -s "url(../results/Harmattan-SemiBold.ttf)|SeBld" -s "url(../results/Harmattan-Bold.ttf)|Bold" &
