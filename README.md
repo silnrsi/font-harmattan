@@ -6,9 +6,9 @@ To download the fonts visit the [Harmattan downloads page](https://software.sil.
 
 For more information on using and developing the fonts see the full project documentation. This is available in three forms:
 
-- *local HTML* - Download the release or source package and open the file `documentation/index.html` in a browser
+- *local HTML* - Download the release package and open the file `documentation/index.html` in a browser
 - *local PDF* - Download the release or source package and open the file `documentation/pdf/index.pdf`
-- *Web site* - Visit the [Harmattan web site](https://software.sil.org/lateef) 
+- *Web site* - Visit the [Harmattan web site](https://software.sil.org/harmattan) 
 
 For a complete list of changes in this version see the [FONTLOG.txt](FONTLOG.txt).
 
