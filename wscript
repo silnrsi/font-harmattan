@@ -14,7 +14,7 @@ FAMILY = APPNAME
 # Get version info from Regular UFO; must be first function call:
 getufoinfo('source/masters/' + FAMILY + '-Regular' + '.ufo')
 
-ftmlTest('tools/lib/ftml-smith.xsl')
+ftmlTest('tools/ftml-smith.xsl')
 
 # APs to omit:
 omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit"'
