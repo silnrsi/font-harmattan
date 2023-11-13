@@ -12,15 +12,7 @@ Open Font License, Version 1.1 (https://scripts.sil.org/OFL).
     font-family: Harmattan-B;
     src: url("../../../results/Harmattan-Bold.ttf") format("truetype");
 }
-@font-face {
-    font-family: HarmattanL-R;
-    src: url("../../../results/Harmattan-Regular.ttf") format("truetype");
-}
-@font-face {
-    font-family: HarmattanL-B;
-    src: url("../../../results/Harmattan-Bold.ttf") format("truetype");
-}
 .Harmattan-R { font-family: Harmattan-R; direction: rtl; text-align: right;}
 .Harmattan-B { font-family: Harmattan-B; direction: rtl; text-align: right;}
-.Harmattan-R { font-family: Harmattan-R; direction: ltr; text-align: left;}
-.Harmattan-B { font-family: Harmattan-B; direction: ltr; text-align: left;}
+.HarmattanL-R { font-family: Harmattan-R; direction: ltr; text-align: left;}
+.HarmattanL-B { font-family: Harmattan-B; direction: ltr; text-align: left;}

@@ -12,14 +12,6 @@ Open Font License, Version 1.1 (https://scripts.sil.org/OFL).
     font-family: Harmattan-B;
     src: url("../../../web/Harmattan-Bold.woff2") format("woff2");
 }
-@font-face {
-    font-family: HarmattanL-R;
-    src: url("../../../web/Harmattan-Regular.woff2") format("woff2");
-}
-@font-face {
-    font-family: HarmattanL-B;
-    src: url("../../../web/Harmattan-Bold.woff2") format("woff2");
-}
 .Harmattan-R { font-family: Harmattan-R; direction: rtl; text-align: right;}
 .Harmattan-B { font-family: Harmattan-B; direction: rtl; text-align: right;}
 .HarmattanL-R { font-family: Harmattan-R; direction: ltr; text-align: left;}
