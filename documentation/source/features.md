@@ -3,7 +3,7 @@ title: Harmattan - Font Features
 fontversion: 4.000
 ---
 
-Harmattan is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. [TypeTuner](https://scripts.sil.org/ttw/fonts2go.cgi) creates tuned fonts that use the variant glyph in place of the standard glyph. TypeTuner also provides the ability to turn on support for the Kurdish, Kyrgyz, Rohingya, Sindhi, Urdu, and Wolof language variants.
+Harmattan is an OpenType-enabled font family that supports the Arabic script. It includes a number of optional features that provide alternative rendering that might be preferable for use in some contexts. The sections below enumerate the details of these features. Whether these features are available to users will depend on both the application and the rendering technology being used. Some applications let the user control certain features such as Character Variants to turn on the rendering of variant characters. However, at this point, most applications do not make use of those features so another solution is needed to show the variant characters. For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
 
 See [Using Font Features](https://software.sil.org/fonts/features/). Although that page is not targeted at Arabic script support, it does provide a comprehensive list of applications that make full use of the OpenType font technology.
 
@@ -13,21 +13,9 @@ This page uses web fonts (WOFF) to demonstrate font features and should display 
 
 *If this document is not displaying correctly a PDF version is also provided in the documentation/pdf folder of the release package.*
 
-## End of Ayah (U+06DD), Disputed End of Ayah (U+08E2), and subtending marks (U+0600..U+0605, U+0890..U+0891)
+## Complete feature list
 
-These Arabic characters are intended to enclose or hold one or more digits. 
-
-Specific technical details of how to use them are discussed in the [Arabic fonts FAQ -- Subtending marks](https://software.sil.org/arabicfonts/support/faq#Ayah).
-
-Additionally, Harmattan includes two simplified alternates for U+06DD ARABIC END OF AYAH under the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. The two alternates are also available through the Character Variants feature discussed below.
-
-
-## Customizing with TypeTuner
-
-For applications that do not make use of the OpenType Character Variants, you can now download fonts customized with the variant glyphs you choose. Read this document, visit [TypeTuner Web](https://scripts.sil.org/ttw/fonts2go.cgi), then choose the variants and download your font.
-
-
-### Language 
+### Language system tags
 
 <span class='affects'>Affects: U+062F, U+0630, U+0688..U+068F, U+0690, U+06EE, U+0759, U+075A, U+08AE, U+0645, U+0765, U+0766, U+08A7, U+0647, U+0626, U+060C, U+061B, U+06F4, U+06F5, U+06F6, U+06F7, U+0650, U+064F, U+064C, U+0657</span>
 
@@ -51,7 +39,6 @@ Default | <span dir="rtl" class='Harmattan-R normal'> &#x062F;</span> | <span di
 Kyrgyz | <span dir="rtl" class='Harmattan-R normal' lang='ky'> &#x062F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky' style="color:red">&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky'>&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky'>&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='ky'>&#x0628;&#x0657;</span>| `lang='ky'`
 Wolof | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red"> &#x062F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo'>&#x0626;&#x0020;&#x0626;&#x0626;&#x0626;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red">&#x0628;&#x0651;&#x0650;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red">&#x0628;&#x064F;</span> | <span dir="rtl" class='Harmattan-R normal' lang='wo' style="color:red">&#x0628;&#x0657;</span>| `lang='wo'`
 
-
 ### Character variants
 
 There are some character shape differences in different languages which use the Arabic script. These can be accessed by using OpenType Character Variants, or through the language support mentioned above.
@@ -74,7 +61,6 @@ Feature | Sample | Feature setting
 Standard | <span dir="rtl" class='Harmattan-R normal'> د ذ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ۮ ݙ ݚ ࢮ </span>| `cv12=0`
 Alternate | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv12" 1'> د ذ ڈ ډ ڊ ڋ ڌ ڍ ڎ ڏ ڐ ۮ ݙ ݚ ࢮ </span>| `cv12=1`
 
-
 #### Sad/Dad 
 
 <span class='affects'>Affects: U+0635, U+0636, U+069D, U+069E, U+06FB, U+08AF</span>
@@ -84,7 +70,6 @@ Feature | Sample | Feature setting
 Standard | <span dir="rtl" class='Harmattan-R normal'>ص صصص ض ضضض ڝ ڝڝڝ ڞ ڞڞڞ ࢯࢯࢯ ࢯ ۻ ۻۻۻ</span>| `cv20=0`
 Half | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv20" 1'>ص صصص ض ضضض ڝ ڝڝڝ ڞ ڞڞڞ ࢯࢯࢯ ࢯ ۻ ۻۻۻ</span>| `cv20=1`
 
-
 #### Meem 
 
 <span class='affects'>Affects: U+0645, U+0765, U+0766, U+08A7</span>
@@ -93,7 +78,6 @@ Feature | Sample | Feature setting
 :------------- | -----: | :------------- 
 Standard | <span dir="rtl" class='Harmattan-R normal'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span> | `cv44=0`
 Sindhi-style | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv44" 1'> م ممم ݥ ݥݥݥ ݦ ݦݦݦ ࢧ ࢧࢧࢧ </span>| `cv44=1`
-
 
 #### Heh 
 
@@ -142,7 +126,6 @@ Feature | Sample | Feature setting
 :------------- | ------: | :------------- 
 Small | <span dir="rtl" class='Harmattan-R normal'> آ آ ◌ٓ </span> | `cv60=0`
 Large | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv60" 1'>آ آ ◌ٓ </span>| `cv60=1`
-
 
 #### Shadda+kasra placement 
 
@@ -209,6 +192,8 @@ Open left | <span dir="rtl" class='Harmattan-R normal' style='font-feature-setti
 
 <span class='affects'>Affects: U+06DD</span>
 
+These alternates are also available using the Stylistic Alternates (salt) feature, but at this time we know of no OpenType-based applications that can access these. 
+
 Firefox allows you to use U+06DD followed by the digits and proper rendering occurs. Some applications require the following:
 
 * precede the entire sequence (subtending mark plus following digits) with
@@ -259,9 +244,13 @@ Feature | Sample |  Feature setting
 Small reh | <span dir="rtl" class='Harmattan-R normal'>&#x066B;</span> | `cv85=0`
 Slash | <span dir="rtl" class='Harmattan-R normal' style='font-feature-settings: "cv85" 1'>&#x066B;</span>| `cv85=1`
 
+### Other user font features
+
 #### Line spacing 
 
-Allows for adjustment of the default line spacing in the font (values shown are ordered in increasing line spacing). This feature is only available with TypeTuner.
+_This feature is only available in TypeTuner Web._
+
+Allows for adjustment of the default line spacing in the font (values shown are ordered in increasing line spacing). 
 
 Feature | 
 ------------- | ---------------  
