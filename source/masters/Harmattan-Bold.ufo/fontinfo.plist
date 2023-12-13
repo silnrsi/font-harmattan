@@ -12,17 +12,17 @@
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name "Fouta".
 
-Copyright (c) 2004-2023, SIL International (https://www.sil.org),
+Copyright (c) 2004-2024, SIL International (https://www.sil.org),
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2023, SIL International (https://www.sil.org/).
+Copyright (c) 2014-2024, SIL International (https://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".</string>
   <key>descender</key>
   <integer>-1323</integer>
   <key>familyName</key>
   <string>Harmattan</string>
   <key>openTypeHeadCreated</key>
-  <string>2023/04/14 13:46:06</string>
+  <string>2023/12/13 12:59:05</string>
   <key>openTypeHheaAscender</key>
   <integer>2166</integer>
   <key>openTypeHheaDescender</key>
@@ -41,10 +41,10 @@ with Reserved Font Names "Harmattan" and "SIL".</string>
 Copyright renewed 2011-2012, George W. Nuss (http://www.fulbefouta.com),
 with the Reserved Font Name "Fouta".
 
-Copyright (c) 2004-2023, SIL International (https://www.sil.org),
+Copyright (c) 2004-2024, SIL International (https://www.sil.org),
 with Reserved Font Names 'Andika' and 'SIL'.
 
-Copyright (c) 2014-2023, SIL International (https://www.sil.org/).
+Copyright (c) 2014-2024, SIL International (https://www.sil.org/).
 with Reserved Font Names "Harmattan" and "SIL".
 
 ----------------------------------------------------
@@ -86,7 +86,7 @@ This license becomes null and void if any of the above conditions are not met.
 DISCLAIMER
 THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.</string>
   <key>openTypeNameLicenseURL</key>
-  <string>https://scripts.sil.org/OFL</string>
+  <string>https://openfontlicense.org/</string>
   <key>openTypeNameManufacturer</key>
   <string>SIL International</string>
   <key>openTypeNameManufacturerURL</key>
