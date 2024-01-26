@@ -109,6 +109,7 @@ fontversion: 4.000
   - U+06C7 ARABIC LETTER U
 
 #### Removed
+- Removed Graphite support from production font
 - Removed features: 
   - Alef diacritic placement (cv02)
   - Arabic U (cv50)
