@@ -19,11 +19,11 @@ Type samples showing some of the inventory of glyphs can be found here:
 
 Examples of some text is shown below. 
 
-![Harmattan Sample - Four weights](assets/images/weights.png){.fullsize}
+![Harmattan Sample - Four weights](../assets/images/weights.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/harmattan/wp-content/uploads/sites/31/2023/04/weights.png -->
 <figcaption>Harmattan Sample - Four weights</figcaption>
 
-![Harmattan Sample - Genesis 11](assets/images/HarmattanArabicGen11.png){.fullsize}
+![Harmattan Sample - Genesis 11](../assets/images/HarmattanArabicGen11.png){.fullsize}
 <!-- PRODUCT SITE IMAGE SRC https://software.sil.org/harmattan/wp-content/uploads/sites/31/2020/06/HarmattanArabicGen11.png -->
 <figcaption>Harmattan Sample - Genesis 11</figcaption>
 
