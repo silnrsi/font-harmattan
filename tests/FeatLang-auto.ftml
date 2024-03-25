@@ -5,6 +5,7 @@
     <comment>In this test, the comment column indicates whether the feature is expected to function with the given language tag. </comment>
     <fontscale>250</fontscale>
     <fontsrc label="4.0">url(../references/v4.000/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="ref">url(../references/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
@@ -296,7 +297,7 @@
       <style feats="'cv85' 1" lang="wo" name="wo_cv85_1"/>
     </styles>
     <title>Feature-Language Interactions (auto)</title>
-    <widths string="25%"/>
+    <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
