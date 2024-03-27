@@ -4,6 +4,7 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 16.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
+    <fontsrc label="4.0">url(../references/v4.000/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
@@ -30,7 +31,7 @@
       <style lang="wo" name="wo"/>
     </styles>
     <title>AL Sorted (auto)</title>
-    <widths string="25%"/>
+    <widths string="19%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
@@ -1887,30 +1888,6 @@
       <string>\u00061B</string>
     </test>
     <test label="U+061B" stylename="cv84_1">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="sd">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="ur">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="ku">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="rhg">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="ky">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="wo">
       <comment>semicolon-ar</comment>
       <string>\u00061B</string>
     </test>

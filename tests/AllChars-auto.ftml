@@ -199,59 +199,11 @@
       <comment>comma-ar</comment>
       <string>\u00060C</string>
     </test>
-    <test label="U+060C" stylename="sd">
-      <comment>comma-ar</comment>
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" stylename="ur">
-      <comment>comma-ar</comment>
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" stylename="ku">
-      <comment>comma-ar</comment>
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" stylename="rhg">
-      <comment>comma-ar</comment>
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" stylename="ky">
-      <comment>comma-ar</comment>
-      <string>\u00060C</string>
-    </test>
-    <test label="U+060C" stylename="wo">
-      <comment>comma-ar</comment>
-      <string>\u00060C</string>
-    </test>
     <test label="U+060D">
       <comment>dateseparator-ar</comment>
       <string>\u00060D \u00060E \u00060F \u000628\u000610 \u000628\u000611 \u000628\u000612 \u000628\u000613 \u000628\u000614 \u000628\u000615 \u000628\u000616 \u000628\u000617 \u000628\u000618 \u000628\u000619 \u000628\u00061A \u00061B</string>
     </test>
     <test label="U+061B" stylename="cv84_1">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="sd">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="ur">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="ku">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="rhg">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="ky">
-      <comment>semicolon-ar</comment>
-      <string>\u00061B</string>
-    </test>
-    <test label="U+061B" stylename="wo">
       <comment>semicolon-ar</comment>
       <string>\u00061B</string>
     </test>
