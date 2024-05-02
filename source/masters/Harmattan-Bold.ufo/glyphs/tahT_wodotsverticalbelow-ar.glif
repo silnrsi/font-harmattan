@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tahTwodotsverticalbelow-ar" format="2">
+  <advance width="1186"/>
+  <unicode hex="10EC3"/>
+  <anchor x="140" y="769" name="alef"/>
+  <anchor x="364" y="1154" name="diaA"/>
+  <anchor x="696" y="-703" name="diaB"/>
+  <outline>
+    <component base="tah-ar"/>
+    <component base="_dot2v" xOffset="696" yOffset="-385"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

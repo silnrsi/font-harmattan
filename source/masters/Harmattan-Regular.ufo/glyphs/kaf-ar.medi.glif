@@ -2,6 +2,7 @@
 <glyph name="kaf-ar.medi" format="2">
   <advance width="1423"/>
   <anchor x="135" y="500" name="alef"/>
+  <anchor x="662" y="-72" name="below"/>
   <anchor x="448" y="908" name="diaA"/>
   <anchor x="659" y="-98" name="diaB"/>
   <anchor x="639" y="752" name="ring"/>

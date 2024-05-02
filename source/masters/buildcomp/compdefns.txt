@@ -117,3 +117,18 @@ qafDotbelowNodotsabove-ar.fina = qafDotless-ar.fina + _dot1@below
 qafDotbelowNodotsabove-ar.medi = fehDotless-ar.medi + _dot1@below
 qafDotbelowNodotsabove-ar.init = fehDotless-ar.init + _dot1@below
 # --- END --- ABS-2847
+
+# --- START --- ABS-3067
+kafTwodotsverticalbelow-ar = kaf-ar + _dot2v@below | 10EC4
+kafTwodotsverticalbelow-ar.fina = kaf-ar.fina + _dot2v@below
+kafTwodotsverticalbelow-ar.medi = kaf-ar.medi + _dot2v@below
+kafTwodotsverticalbelow-ar.init = kaf-ar.init + _dot2v@below
+tahTwodotsverticalbelow-ar = tah-ar + _dot2v@below | 10EC3
+tahTwodotsverticalbelow-ar.fina = tah-ar.fina + _dot2v@below
+tahTwodotsverticalbelow-ar.medi = tah-ar.medi + _dot2v@below
+tahTwodotsverticalbelow-ar.init = tah-ar.init + _dot2v@below
+dalTwodotsverticalbelow-ar = dal-ar + _dot2v@below | 10EC2
+dalTwodotsverticalbelow-ar.fina = dal-ar.fina + _dot2v@below
+dalTwodotsverticalbelow-ar.loclWLF = dal-ar.loclWLF + _dot2v@below
+dalTwodotsverticalbelow-ar.fina.loclWLF = dal-ar.fina.loclWLF + _dot2v@below
+# --- END --- ABS-3067
