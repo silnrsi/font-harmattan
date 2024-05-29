@@ -589,4 +589,10 @@
       <point x="71" y="-592"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CCCCCCCCCCCCCCCCCCCCCCCCPPPPPPPPPPPPPPP</string>
+    </dict>
+  </lib>
 </glyph>
