@@ -12,6 +12,7 @@
       <style feats="'cv08' 1" name="cv08_1"/>
       <style feats="'cv20' 1" name="cv20_1"/>
       <style feats="'cv44' 1" name="cv44_1"/>
+      <style feats="'cv44' 2" name="cv44_2"/>
       <style feats="'cv48' 1" name="cv48_1"/>
       <style feats="'cv48' 2" name="cv48_2"/>
       <style feats="'cv48' 3" name="cv48_3"/>
@@ -19,6 +20,7 @@
       <style feats="'cv49' 2" name="cv49_2"/>
       <style feats="'cv49' 3" name="cv49_3"/>
       <style feats="'cv54' 1" name="cv54_1"/>
+      <style feats="'cv54' 2" name="cv54_2"/>
     </styles>
     <title>Yehbarree (auto)</title>
     <widths string="19%"/>
@@ -405,7 +407,7 @@
       <comment>kafTwodotshorizontalabove-ar</comment>
       <string>\u077F\u06EC\u06D2 \u200D\u077F\u06EC\u06D2 \u077F\u064D\u06EC\u06D2 \u200D\u077F\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+10EC4">
+    <test background="#ffc8a0" label="U+10EC4">
       <comment>kafTwodotsverticalbelow-ar</comment>
       <string>\u10EC4\u06EC\u06D2 \u200D\u10EC4\u06EC\u06D2 \u10EC4\u064D\u06EC\u06D2 \u200D\u10EC4\u064D\u06EC\u06D2</string>
     </test>
@@ -493,11 +495,19 @@
       <comment>meem-ar</comment>
       <string>\u0645\u06EC\u06D2 \u200D\u0645\u06EC\u06D2 \u0645\u064D\u06EC\u06D2 \u200D\u0645\u064D\u06EC\u06D2</string>
     </test>
+    <test label="U+0645" stylename="cv44_2">
+      <comment>meem-ar</comment>
+      <string>\u0645\u06EC\u06D2 \u200D\u0645\u06EC\u06D2 \u0645\u064D\u06EC\u06D2 \u200D\u0645\u064D\u06EC\u06D2</string>
+    </test>
     <test label="U+0765">
       <comment>meemDotabove-ar</comment>
       <string>\u0765\u06EC\u06D2 \u200D\u0765\u06EC\u06D2 \u0765\u064D\u06EC\u06D2 \u200D\u0765\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+0765" stylename="cv44_1">
+      <comment>meemDotabove-ar</comment>
+      <string>\u0765\u06EC\u06D2 \u200D\u0765\u06EC\u06D2 \u0765\u064D\u06EC\u06D2 \u200D\u0765\u064D\u06EC\u06D2</string>
+    </test>
+    <test label="U+0765" stylename="cv44_2">
       <comment>meemDotabove-ar</comment>
       <string>\u0765\u06EC\u06D2 \u200D\u0765\u06EC\u06D2 \u0765\u064D\u06EC\u06D2 \u200D\u0765\u064D\u06EC\u06D2</string>
     </test>
@@ -509,11 +519,19 @@
       <comment>meemDotbelow-ar</comment>
       <string>\u0766\u06EC\u06D2 \u200D\u0766\u06EC\u06D2 \u0766\u064D\u06EC\u06D2 \u200D\u0766\u064D\u06EC\u06D2</string>
     </test>
+    <test label="U+0766" stylename="cv44_2">
+      <comment>meemDotbelow-ar</comment>
+      <string>\u0766\u06EC\u06D2 \u200D\u0766\u06EC\u06D2 \u0766\u064D\u06EC\u06D2 \u200D\u0766\u064D\u06EC\u06D2</string>
+    </test>
     <test label="U+08A7">
       <comment>meemThreedotsabove-ar</comment>
       <string>\u08A7\u06EC\u06D2 \u200D\u08A7\u06EC\u06D2 \u08A7\u064D\u06EC\u06D2 \u200D\u08A7\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+08A7" stylename="cv44_1">
+      <comment>meemThreedotsabove-ar</comment>
+      <string>\u08A7\u06EC\u06D2 \u200D\u08A7\u06EC\u06D2 \u08A7\u064D\u06EC\u06D2 \u200D\u08A7\u064D\u06EC\u06D2</string>
+    </test>
+    <test label="U+08A7" stylename="cv44_2">
       <comment>meemThreedotsabove-ar</comment>
       <string>\u08A7\u06EC\u06D2 \u200D\u08A7\u06EC\u06D2 \u08A7\u064D\u06EC\u06D2 \u200D\u08A7\u064D\u06EC\u06D2</string>
     </test>
@@ -721,7 +739,7 @@
       <comment>tahTwodotsabove-ar</comment>
       <string>\u08A3\u06EC\u06D2 \u200D\u08A3\u06EC\u06D2 \u08A3\u064D\u06EC\u06D2 \u200D\u08A3\u064D\u06EC\u06D2</string>
     </test>
-    <test background="#ffe0e0" label="U+10EC3">
+    <test background="#ffc8a0" label="U+10EC3">
       <comment>tahTwodotsverticalbelow-ar</comment>
       <string>\u10EC3\u06EC\u06D2 \u200D\u10EC3\u06EC\u06D2 \u10EC3\u064D\u06EC\u06D2 \u200D\u10EC3\u064D\u06EC\u06D2</string>
     </test>
@@ -830,6 +848,10 @@
       <string>\u0626\u06EC\u06D2 \u200D\u0626\u06EC\u06D2 \u0626\u064D\u06EC\u06D2 \u200D\u0626\u064D\u06EC\u06D2</string>
     </test>
     <test label="U+0626" stylename="cv54_1">
+      <comment>yehHamzaabove-ar</comment>
+      <string>\u0626\u06EC\u06D2 \u200D\u0626\u06EC\u06D2 \u0626\u064D\u06EC\u06D2 \u200D\u0626\u064D\u06EC\u06D2</string>
+    </test>
+    <test label="U+0626" stylename="cv54_2">
       <comment>yehHamzaabove-ar</comment>
       <string>\u0626\u06EC\u06D2 \u200D\u0626\u06EC\u06D2 \u0626\u064D\u06EC\u06D2 \u200D\u0626\u064D\u06EC\u06D2</string>
     </test>
