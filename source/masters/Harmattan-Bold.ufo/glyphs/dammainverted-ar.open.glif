@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dammainverted-ar.open" format="2">
-  <unicode hex="0657"/>
   <anchor x="4" y="1227" name="_diaA"/>
   <anchor x="4" y="1820" name="diaA"/>
   <outline>
