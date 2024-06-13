@@ -7,7 +7,6 @@
     <fontsrc label="4.0">url(../references/v4.000/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
-    <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>
       <style feats="'cv08' 1" name="cv08_1"/>
       <style feats="'cv12' 1" name="cv12_1"/>
@@ -354,7 +353,7 @@
       <style feats="'cv82' 5" lang="wo" name="wo_cv82_5"/>
     </styles>
     <title>Feature-Language Interactions (auto)</title>
-    <widths string="19%"/>
+    <widths string="25%"/>
   </head>
   <testgroup background="#f0f0f0" label="Rendering Check">
     <test label="check">
