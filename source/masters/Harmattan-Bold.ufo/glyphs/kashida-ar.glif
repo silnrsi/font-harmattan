@@ -2,7 +2,7 @@
 <glyph name="kashida-ar" format="2">
   <advance width="363"/>
   <unicode hex="0640"/>
-  <anchor x="242" y="315" name="alef"/>
+  <anchor x="177" y="315" name="alef"/>
   <anchor x="177" y="371" name="diaA"/>
   <anchor x="179" y="-134" name="diaB"/>
   <outline>
