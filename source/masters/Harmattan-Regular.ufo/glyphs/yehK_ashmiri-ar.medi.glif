@@ -5,7 +5,7 @@
   <anchor x="265" y="515" name="diaA"/>
   <anchor x="273" y="-369" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots.medi"/>
+    <component base="behDotless-ar.medi"/>
     <component base="_ring" xOffset="280" yOffset="-210"/>
   </outline>
 </glyph>

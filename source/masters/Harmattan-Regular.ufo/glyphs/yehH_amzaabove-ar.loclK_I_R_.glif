@@ -5,7 +5,7 @@
   <anchor x="935" y="1155" name="diaA"/>
   <anchor x="615" y="-401" name="diaB"/>
   <outline>
-    <component base="yeh-ar.noDots"/>
+    <component base="alefMaksura-ar"/>
     <component base="hamzaabove-ar" xOffset="698" yOffset="-578"/>
   </outline>
 </glyph>
