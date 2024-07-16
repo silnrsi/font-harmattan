@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="alefoverlay-ar" format="2">
   <unicode hex="10EFC"/>
-  <anchor x="378" y="175" name="_through"/>
+  <anchor x="358" y="195" name="_diaO"/>
   <anchor x="918" y="718" name="diaA"/>
   <outline>
     <component base="alef-ar" xScale="0.53623" xyScale="-0.44995" yxScale="0.51423" yScale="0.61284"/>
