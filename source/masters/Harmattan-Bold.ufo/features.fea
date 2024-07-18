@@ -59108,6 +59108,10 @@ lookup MarkToBase {
     pos base zah-ar <anchor 604 -89> mark @_diaB;
     pos base zainVinvertedabove-ar <anchor 334 -686> mark @_diaB;
     pos base zerowidthspace <anchor 0 -700> mark @_diaB;
+    pos base lam-ar <anchor 877 620> mark @_diaO;
+    pos base lam-ar.fina <anchor 892 620> mark @_diaO;
+    pos base lam-ar.init <anchor 290 620> mark @_diaO;
+    pos base lam-ar.medi <anchor 291 620> mark @_diaO;
 } MarkToBase;
 
 # Override mark positioning in the case of dagger-alef on certain chars:
