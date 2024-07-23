@@ -585,15 +585,15 @@
     <!-- *NEXT 3 CLASSES MUST MATCH* -->
     
     <class name="Damma">
-        damma-ar shadda_damma-ar hamza_damma-ar
+        damma-ar shadda_damma-ar hamza_damma-ar damma_meem-ar
     </class>
     
     <class name="Damma_filled">
-        damma-ar.filled shadda_damma-ar.filled hamza_damma-ar.filled
+        damma-ar.filled shadda_damma-ar.filled hamza_damma-ar.filled damma_meem-ar.filled
     </class>
     
     <class name="Damma_short">
-        damma-ar.short shadda_damma-ar.short hamza_damma-ar.short
+        damma-ar.short shadda_damma-ar.short hamza_damma-ar.short damma_meem-ar.short
     </class>
     
     <!-- cv76 DaggerAlef alternates -->
