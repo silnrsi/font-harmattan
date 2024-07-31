@@ -79,6 +79,7 @@ ChangeLog
 
 #### Improved
 - Enhanced positioning of U+06E2 ARABIC SMALL HIGH MEEM ISOLATED FORM next to adjacent vowel marks
+- Adjusted design of U+0883 ARABIC TATWEEL WITH OVERSTRUCK HAMZA
   
 ### 2023-04-14 (SIL WSTech team) Harmattan version 4.000
 
