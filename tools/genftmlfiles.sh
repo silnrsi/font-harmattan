@@ -2,7 +2,7 @@
 
 # This script rebuilds the algorithmically-generated ftml files. See README.md
 
-# Copyright (c) 2020-2022 SIL International  (https://www.sil.org)
+# Copyright (c) 2020-2024 SIL International  (https://www.sil.org)
 # Released under the MIT License (http://opensource.org/licenses/
 
 # Assumes we"re in the root folder, i.e., font-harmattan
@@ -29,8 +29,19 @@ commonParams=( \
 	-w 75%  \
 	--ucdxml source/additional_ucd.xml  \
 	-s "url(../references/Harmattan-Regular.ttf)|ref"  \
-	-s "url(../results/Harmattan-Regular.ttf)|Reg"  \
 )
+
+# If --graphite is not provided, then just display the font from results folder.
+# Otherwise get the graphite and opentype fonts from the xtests
+if [ "$1" == "--graphite" ]
+then
+	echo "Including Graphite as well as Opentype for the Regular weight..."
+	commonParams+=(-s "url(../results/tests/xtest/fonts0gr/Harmattan-Regular.ttf)|Reg-gr"  \
+	-s "url(../results/tests/xtest/fonts1ot/Harmattan-Regular.ttf)|Reg-ot" )
+else
+	commonParams+=( -s "url(../results/Harmattan-Regular.ttf)|Reg" )
+fi
+
 
 #tools/absgenftml.py -q -t "Language-Direction Interactions (auto)" source/masters/Harmattan-Regular.ufo  tests/Lang-Dir-auto.ftml        -l tests/logs/LangDir.log  "${commonParams[@]}" &
 
