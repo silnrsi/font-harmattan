@@ -6655,5 +6655,12 @@
     <key>zerowidthspace</key>
     <string>uni200B</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>nonmarkingreturn</string>
+    <string>period.test</string>
+    <string>tab</string>
+    <string>allah-ar.alt</string>
+  </array>
 </dict>
 </plist>

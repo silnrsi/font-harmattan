@@ -33,9 +33,9 @@ python3 tools/absgenclasses.py -p scrlevel=w -c source/classes.xml -i source/gly
 
 echo
 echo "Building internal fea..."
-makefea -o source/masters/Harmattan-Regular.ufo/features.fea -i source/opentype/main.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" source/masters/*-Regular.ufo &
-makefea -o source/masters/Harmattan-Bold.ufo/features.fea    -i source/opentype/main.feax -c source/classes.xml --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" source/masters/*-Bold.ufo    &
-wait
+makefea -o source/masters/Harmattan-Regular.ufo/features.fea -i source/opentype/main.feax -c source/classes.xml --ignoreglyphs --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" source/masters/*-Regular.ufo
+makefea -o source/masters/Harmattan-Bold.ufo/features.fea    -i source/opentype/main.feax -c source/classes.xml --ignoreglyphs --omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,below,center,ring,through,H,L,O,U,R,entry,exit" source/masters/*-Bold.ufo
+
 
 echo
 echo "preflight completed!"
