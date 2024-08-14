@@ -560,14 +560,6 @@
         alefMadda-ar.small alefMadda-ar.fina.small madda-ar.small 
     </class>
     
-    <!-- UTR53 algorithm -->
-    <class name="MaddaPlain">
-        madda-ar  madda-ar.small
-    </class>
-    
-    <class name="MaddaInsert">
-      madda-ar.small
-    </class>
 
     <!-- cv62 Kasra positioning -->
     
