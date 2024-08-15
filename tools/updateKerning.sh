@@ -77,7 +77,7 @@ then
   echo "rebuilding kerndata.ftml..."
 
   tools/absgenftml.py -q -t "KernData with Marks (auto)" -f h --norendercheck  \
-        --ap "_?dia[AB]$"  -l source/logs/kerndata.log \
+        --ap "_?dia[ABO]$"  -l source/logs/kerndata.log \
         --xsl ../tools/ftml.xsl --scale 250 -i source/glyph_data.csv -w 75% \
         -s "url(../results/Harmattan-Regular.ttf)|Reg-Gr" \
         -s "url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)|Reg-OT" \
