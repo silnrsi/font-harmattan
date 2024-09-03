@@ -34,3 +34,18 @@ ifinfo(styleName, "^Bold") {   # don't match SemiBold
 }
 
 }
+
+	
+# Alef + marks
+
+lookup AlefMarksAbove {
+	# general rules
+		lookupflag UseMarkFilteringSet @MarksAbove;
+		
+		pos @AlefAll' <130 0 130 0> @MarksAbove             @AlefIso @MarksAbove;
+		pos @AlefAll' <130 0 130 0> @MarksAbove @MarksAbove @AlefIso @MarksAbove;
+		
+		pos @AlefAll' <130 0 130 0> @MarksAbove             @AlefLamWUpperComposed;
+		pos @AlefAll' <130 0 130 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
+
+} AlefMarksAbove;

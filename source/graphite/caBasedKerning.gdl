@@ -69,6 +69,7 @@ cComplexShape = (
 ) {collision {
         complexFit = true; 
              }
+
   } ; 
 
 // NB: Can't set min.x and max.x here because current engine isn't transferring them
@@ -83,6 +84,14 @@ cRehAll { collision {
                     }
         };
 
+// We need collision fixing for these:
+cAlefsWCollisions = (cAlefIso cAlefFin cAllLamAlefLig)
+    { collision {
+        margin = 190m;
+        complexFit = true;
+        flags = COLL_FIX + COLL_KERN;
+                }
+    };
 
 // Other chars needed:
 g_space { collision.flags = COLL_END + COLL_START  + COLL_ISSPACE} ;
@@ -97,9 +106,9 @@ table (positioning)
 
 // Collision-Avoidance-based kerning
 
-pass(4) 
+pass(3) 
     // Turn of kerning if next slot is a whitespace char:
-    cRehAll   { collision.flags = 0 } / _ MARKS cWhitespace;
+    (cAlefsWCollisions cRehAll)   { collision.flags = 0 } / _ MARKS cWhitespace;
 
     // Set slot attributes for CA-based kerning:
     cRehAll { collision {
@@ -107,9 +116,13 @@ pass(4)
                 max.x = 1000m  ;    
                         }
             };
+
+    // These only have collisions if they have marks on top; otherwise don't worry about them.
+//    cAlefsWCollisions { collision { min.x = -1000m; max.x = 1000m; } }  g_alefPlaceholder?  cAnyMarks;
+
 endpass;
 
-pass(5) {CollisionFix = 2; AutoKern = 1}
+pass(4) {CollisionFix = 2; AutoKern = 1}
     // No rules, just run the collision avoidance algorithm
 endpass;
 

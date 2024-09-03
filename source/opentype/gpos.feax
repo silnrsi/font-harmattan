@@ -264,8 +264,8 @@ feature kern {  # Kerning
         lookup SubtendingMarks;
         lookup KernPairs;       # Lateef
 
-# Scheherazade lookups:
-do let f = info("familyName");
+	# Scheherazade lookups:
+	do let f = info("familyName");
    if f.find("Scheherazade New") != -1 and opt("nokern") != "yes"; {
    # start of kerning positioning
         lookup RehWawKerning1;  # a separate lookup to handle chains
@@ -290,9 +290,14 @@ do let f = info("familyName");
 
 	# Harmattan:
 	do let f = info("familyName");
-	   if f.find("Harmattan") != -1 and opt("noOTkern") == ""; {	# enable kerning for now
-    script arab;  # Arabic
-        lookup mainkern;
+    if f.find("Harmattan") != -1; {
+      script arab;  # Arabic
+    }
+    if f.find("Harmattan") != -1 and opt("noOTkern") == ""; {
+    	lookup mainkern;   # Graphite-based kerning
+    }
+    if f.find("Harmattan") != -1; {
+      lookup AlefMarksAbove;
       # Force other languages to include Arabic script lookups:
       language KIR  ;
       language KSH ;
@@ -301,7 +306,8 @@ do let f = info("familyName");
       language SND  ;
       language URD  ;
       language WLF  ;
-}
+		}
+	# Harmattan
 
 } kern ;
 

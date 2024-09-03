@@ -804,5 +804,55 @@
         tteheh-ar.init tteheh-ar.medi ttehVabove-ar.init ttehVabove-ar.medi veh-ar.init veh-ar.medi yehHamzaabove-ar.init 
         yehHamzaabove-ar.medi zah-ar.init zah-ar.medi
     </class>
-
+    
+    <!-- alef + mark kerning -->
+    	  	
+    <!---  just use MarksAbove
+    <class name="AnyMarksAboveH>
+    	@AnyMarksAbove hamzaabove-ar
+    </class>
+	-->
+	
+    <class name="AlefPlain">
+    	alef-ar alef-ar.fina
+    </class>
+		<class name="LamAlefPlain">
+			lam_alef-ar lam_alef-ar.fina
+		</class>
+		
+		<class name="MaddaPlain">
+			madda-ar madda-ar.small
+		</class>
+		
+		<class name="BehLikeWAboveInit">
+			noon-ar.init teh-ar.init theh-ar.init tehThreedotsdown-ar.init tehVabove-ar.init
+			tteh-ar.init ttehVabove-ar.init tteheh-ar.init teheh-ar.init tehThreedotsupabove-ar.init 
+			tehThreedotsupbelow-ar.init behTwodotsbelow_dotabove-ar.init behVabove-ar.init 
+			behhamzaabove-ar.init tehTehabove-ar.init behMeemabove-ar.init pehMeemabove-ar.init
+		</class>
+		<class name="LamLikeIsolInit">
+			lam-ar lamVabove-ar lamDotabove-ar lamThreedotsabove-ar lamTahabove-ar lamThreedotsbelow-ar
+			lamBar-ar lamDoublebar-ar lam-ar.init lamVabove-ar.init lamDotabove-ar.init lamThreedotsabove-ar.init
+			lamTahabove-ar.init lamThreedotsbelow-ar.init lamBar-ar.init lamDoublebar-ar.init
+		</class>
+		
+		<class name="LamAlefWaslaLigIsol">
+			lam_alefWasla-ar lamVabove_alefWasla-ar lamDotabove_alefWasla-ar lamThreedotsabove_alefWasla-ar
+			lamTahabove_alefWasla-ar lamThreedotsbelow_alefWasla-ar lamBar_alefWasla-ar lamDoublebar_alefWasla-ar
+		</class>
+		
+		<class name="AlefWUpperComposed">
+			alefTwoabove-ar alefThreeabove-ar alefWavyhamzaabove-ar
+		</class>
+		<class name="AlefLamWUpperComposed">
+			@AlefWUpperComposed lamVabove-ar lamDotabove-ar lamThreedotsabove-ar lamTahabove-ar
+		</class>
+		<class name="AlefLamWLowerComposed">
+			alefWavyhamzabelow-ar lamThreedotsbelow-ar
+		</class>
+		
+		<class name="AlefAll">
+			@AlefIso @AlefFin
+		</class>
+			
 </classes>

@@ -5,34 +5,34 @@
     <columns comment="30%" label="15%" string="50%" style="5%" />
     <fontsrc>url(..\results\Harmattan-Regular-graide.ttf)</fontsrc>
     <styles>
-      <style feats="cv82=1" name="fset2" />
-      <style feats="ut53=0" name="fset289" />
-      <style feats="cv70=1" name="fset3" />
-      <style lang="ur" name="fset356" />
-      <style feats="cv50=0 cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" name="fset377" />
-      <style feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" name="fset378" />
-      <style feats="cv02=2" name="fset4" />
+      <style name="fset2" feats="cv82=1" />
+      <style name="fset289" feats="ut53=0" />
+      <style name="fset3" feats="cv70=1" />
+      <style name="fset356" lang="ur" />
+      <style name="fset377" feats="cv50=0 cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" />
+      <style name="fset378" feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset4" feats="cv02=2" />
     </styles>
   </head>
   <testgroup label="main" />
   <testgroup label="subtending marks">
-    <test class="fset2" label="ayah-ar 123">
+    <test label="ayah-ar 123" class="fset2">
       <string>۝۱۱۳</string>
     </test>
-    <test class="fset356" label="ayah-ar 467">
+    <test label="ayah-ar 467" class="fset356">
       <string>۝۴۶۷</string>
     </test>
   </testgroup>
   <testgroup label="mark ligatures">
-    <test class="fset3" label="hamza damma">
+    <test label="hamza damma" class="fset3">
       <string>بُٔ</string>
     </test>
-    <test class="fset3" label="shadda damma">
+    <test label="shadda damma" class="fset3">
       <string>بُّ</string>
     </test>
   </testgroup>
   <testgroup label="lam-alef">
-    <test class="fset4" label="lam alef hamzabelow" rtl="True">
+    <test label="lam alef hamzabelow" rtl="True" class="fset4">
       <string>أِ</string>
     </test>
     <test label="dia2b" rtl="True">
@@ -45,17 +45,77 @@
     <test label="alefMadda-fatha-shadda" rtl="True">
       <string>آَّ</string>
     </test>
-    <test class="fset377" label="alefMadda-shadda" rtl="True">
+    <test label="alefMadda-shadda" rtl="True" class="fset377">
       <string>آٔ</string>
     </test>
   </testgroup>
   <testgroup label="mark issues">
-    <test class="fset289" label="gr shaping issue with some marks" rtl="True">
+    <test label="gr shaping issue with some marks" rtl="True" class="fset289">
       <comment>Should show initial form</comment>
       <string>بٰٔ‍</string>
     </test>
-    <test class="fset378" label="cgj in mark sequence" rtl="True">
+    <test label="cgj in mark sequence" rtl="True" class="fset378">
       <string>اُ͏ٔ</string>
+    </test>
+  </testgroup>
+  <testgroup label="alef collisions">
+    <test label="alef+hamza + alef+hamza" rtl="True">
+      <comment>0623  064E =&gt; 0627  0654-064E</comment>
+      <string>أَأَنْتَ تاَأَتَ تݳَأَتَ</string>
+    </test>
+    <test label="alef+hamza + lam+fatha" background="#ffff00" rtl="True">
+      <string>أَلَه سَأَلَه</string>
+    </test>
+    <test label="lam+alef+hamza + noon+sukun" background="#ffff00" rtl="True">
+      <comment>0644  0623  064E =&gt; 0644-0627  0654-064E</comment>
+      <string>لأَنْب بلاَنْب ڶاَنْب</string>
+    </test>
+    <test label="lam+alef-hamza + noon+shadda" background="#ffff00" rtl="True">
+      <comment>0644  0623 =&gt; 0644-0627  0654</comment>
+      <string>لأنَّهُ ظلأنَّهُ ظڷأنَّهُ</string>
+    </test>
+    <test label="lam-alef+hamza + lam+damma" background="#ffff00" rtl="True">
+      <string>لألُ سلأَلُ ڶأَلُ</string>
+    </test>
+    <test label="lam+alef+fatha + noon+sukun" background="#ffff00" rtl="True">
+      <comment>0644  0627  064E =&gt; 0644-0627  064E</comment>
+      <string>لاَنْب كلاَنْب كڷݴَنْب</string>
+    </test>
+    <test label="alef-madda + alef+sukun" background="#ffff00" rtl="True">
+      <comment>0622 =&gt; 0627 0653</comment>
+      <string>آاْ ضآاْ  ضآݴْ</string>
+    </test>
+    <test label="alef-madda + lam+hamza" background="#ffff00" rtl="True">
+      <string>آلٔ ضآاْ  ضآݳ</string>
+    </test>
+    <test label="alef-wasla + alef+fatha" background="#ffff00" rtl="True">
+      <string>ٱَاَ مٱاَ مٱݳ</string>
+    </test>
+    <test label="alef-wasla + lam+damma" background="#ffff00" rtl="True">
+      <string>ٱَلّ مٱلّ مٱڷ</string>
+    </test>
+    <test label="lam+alef-madda + alef+shadda" background="#ffff00" rtl="True">
+      <comment>0644 0622 064E =&gt; 0644-0627  064E</comment>
+      <string>لآَآ لآَٲ سلآَٲ سݪآَٲ</string>
+    </test>
+    <test label="lam+alef-wasla + lam+fatha" background="#ffff00" rtl="True">
+      <comment>0644  0671 =&gt; 0644-0671</comment>
+      <string>لٱلَ ملٱلَ مڵٱلَ</string>
+    </test>
+    <test label="alef-madda + alef-wasla" background="#ffff00" rtl="True">
+      <string>آٱ ضآٱ ضآݴ</string>
+    </test>
+    <test label="alef-wasla + alef-madda" background="#ffff00" rtl="True">
+      <string>ٱآ ضٱآ</string>
+    </test>
+    <test label="lam-alef-wasla + alef-madda" background="#ffff00" rtl="True">
+      <string>لٱآّ شلٱآّ</string>
+    </test>
+    <test label="lam-bar-alef+hamza + lam+fatha" background="#ffff00" rtl="True">
+      <string>ݪأڷ</string>
+    </test>
+    <test label="alef-two alef-three" background="#ffff00" rtl="True">
+      <string>ݳݴ ݴڷ</string>
     </test>
   </testgroup>
 </ftml>
