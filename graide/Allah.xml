@@ -4,7 +4,7 @@
   <head>
     <columns comment="30%" label="15%" string="50%" style="5%" />
     <fontscale>300</fontscale>
-    <fontsrc>url(..\results\Harmattan-Regular-graide.ttf)</fontsrc>
+    <fontsrc>url(Harmattan-Regular-graide.ttf)</fontsrc>
     <styles />
     <title>Allah (NG)</title>
   </head>

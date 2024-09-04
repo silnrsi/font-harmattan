@@ -432,9 +432,6 @@ pass(2)
 		(cAlefIso cLamLikeIsolInit) {advance.x += 220m} cAnyMarksAboveH;
 	(g_alef_wasla_ar g_alef_wasla_ar_fina) cAnyMarks?
 		cAlefLamWUpperComposed {advance.x += 220m};
-	cLamAlefWaslaLigIsol g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? 
-		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 230m} cAnyMarksBelow? cAnyMarksAboveH;
-	// final lam-alef needs a little more space:
 	cLamAlefWaslaLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? 
 		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 240m} cAnyMarksBelow? cAnyMarksAboveH;
 	cLamAlefWaslaLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? 

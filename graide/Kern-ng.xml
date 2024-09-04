@@ -4,22 +4,22 @@
   <head>
     <columns comment="30%" label="15%" string="50%" style="5%" />
     <fontscale>300</fontscale>
-    <fontsrc>url(..\results\Harmattan-Regular-graide.ttf)</fontsrc>
+    <fontsrc>url(Harmattan-Regular-graide.ttf)</fontsrc>
     <styles>
-      <style feats="cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" name="fset373" />
-      <style feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv02=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" name="fset374" />
+      <style name="fset373" feats="cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" />
+      <style name="fset374" feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv60=0 cv62=0 cv02=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" />
     </styles>
     <title>Kerning (NG)</title>
   </head>
   <testgroup label="test">
-    <test class="fset373" label="U+0639" rtl="True">
+    <test label="U+0639" rtl="True" class="fset373">
       <comment>ain-ar</comment>
       <string>‍رع‍ رع‍ ‍رع رع</string>
     </test>
-    <test class="fset374" label="reh-alef" rtl="True">
+    <test label="reh-alef" rtl="True" class="fset374">
       <string>‍را را</string>
     </test>
-    <test class="fset373" label="reh-beh" rtl="True">
+    <test label="reh-beh" rtl="True" class="fset373">
       <string>رٮ‍ ‍رٮ</string>
     </test>
   </testgroup>

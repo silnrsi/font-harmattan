@@ -38,14 +38,72 @@ ifinfo(styleName, "^Bold") {   # don't match SemiBold
 	
 # Alef + marks
 
+@AlefLamIsoInit = [@AlefIso @LamLikeIsolInit];
+@AlefLamBehWUpper = [@AlefIso @LamLikeIsolInit @BehLikeWAboveInit];
+
 lookup AlefMarksAbove {
 	# general rules
 		lookupflag UseMarkFilteringSet @MarksAbove;
 		
-		pos @AlefAll' <130 0 130 0> @MarksAbove             @AlefIso @MarksAbove;
-		pos @AlefAll' <130 0 130 0> @MarksAbove @MarksAbove @AlefIso @MarksAbove;
+		# madda + wasla
+		
+		pos @AlefPlain' <200 0 200 0> @MaddaPlain             alefWasla-ar;
+		pos @AlefPlain' <200 0 200 0> @MaddaPlain @MarksAbove alefWasla-ar;
+		
+		pos @AlefWasla' <160 0 160 0> @AlefAll @MaddaPlain;
+		
+		pos @LamAlefWaslaLig' <250 0 250 0>             @AlefIso             @MaddaPlain;
+		pos @LamAlefWaslaLig' <250 0 250 0>             @AlefIso @MarksAbove @MaddaPlain;
+		pos @LamAlefWaslaLig' <250 0 250 0> @MarksAbove @AlefIso             @MaddaPlain;
+		pos @LamAlefWaslaLig' <250 0 250 0> @MarksAbove @AlefIso @MarksAbove @MaddaPlain;
+		
+		# madda - wider, needs more space than hamza, fatha, etc below
+		
+		pos @AlefPlain' <195 0 195 0>             @MaddaPlain @AlefLamIsoInit @MarksAbove;
+		pos @AlefPlain' <195 0 195 0> @MarksAbove @MaddaPlain @AlefLamIsoInit @MarksAbove;
+		
+		pos @AlefPlain' <195 0 195 0>             @MaddaPlain @AlefLamWUpperComposed;
+		pos @AlefPlain' <195 0 195 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
+		
+		# madda + madda needs a little more:
+		pos @AllLamAlefLig' <250 0 250 0>             @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
+		pos @AllLamAlefLig' <250 0 250 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MaddaPlain;
+		
+		pos @AllLamAlefLig' <200 0 200 0>             @MaddaPlain @AlefLamBehWUpper @MarksAbove;
+		pos @AllLamAlefLig' <200 0 200 0> @MarksAbove @MaddaPlain @AlefLamBehWUpper @MarksAbove;
+			
+		pos @AllLamAlefLig' <200 0 200 0>             @MaddaPlain @AlefLamWUpperComposed;
+		pos @AllLamAlefLig' <200 0 200 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
+
+		# wasla - composed? and needs more space
+		
+		pos @AlefWasla' <220 0 220 0>             @AlefLamIsoInit @MarksAbove;
+		pos @AlefWasla' <220 0 220 0> @MarksAbove @AlefLamIsoInit @MarksAbove;
+		
+		pos @AlefWasla' <220 0 220 0>             @AlefLamWUpperComposed;
+		pos @AlefWasla' <220 0 220 0> @MarksAbove @AlefLamWUpperComposed;
+		
+		pos @LamAlefWaslaLig' <260 0 260 0>             @AlefLamBehWUpper @MarksAbove;
+		pos @LamAlefWaslaLig' <260 0 260 0> @MarksAbove @AlefLamBehWUpper @MarksAbove;
+		
+		pos @LamAlefWaslaLig' <260 0 260 0>             @AlefLamWUpperComposed;
+		pos @LamAlefWaslaLig' <260 0 260 0> @MarksAbove @AlefLamWUpperComposed;		
+
+		# other marks
+				
+		pos @AlefAll' <130 0 130 0> @MarksAbove             @AlefLamIsoInit @MarksAbove;
+		pos @AlefAll' <130 0 130 0> @MarksAbove @MarksAbove @AlefLamIsoInit @MarksAbove;
 		
 		pos @AlefAll' <130 0 130 0> @MarksAbove             @AlefLamWUpperComposed;
 		pos @AlefAll' <130 0 130 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
+		
+		pos @AllLamAlefLig' <190 0 190 0> @MarksAbove             @AlefLamBehWUpper @MarksAbove;
+		pos @AllLamAlefLig' <190 0 190 0> @MarksAbove @MarksAbove @AlefLamBehWUpper @MarksAbove;
+		
+		pos @AllLamAlefLig' <190 0 190 0> @MarksAbove             @AlefLamWUpperComposed;
+		pos @AllLamAlefLig' <190 0 190 0> @MarksAbove @MarksAbove @AlefLamWUpperComposed;
+		
+		pos @AlefWUpperComposed' <220 0 220 0>             @AlefLamWUpperComposed;
+		pos @AlefWUpperComposed' <220 0 220 0> @MarksAbove @AlefLamWUpperComposed;
 
 } AlefMarksAbove;
