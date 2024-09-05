@@ -11,6 +11,7 @@
       <style name="fset356" lang="ur" />
       <style name="fset377" feats="cv50=0 cv60=0 cv62=0 cv02=0 cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0" />
       <style name="fset378" feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv50=0 cv02=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 ut53=1" />
+      <style name="fset381" feats="cv08=0 cv12=0 cv20=0 cv44=0 cv48=0 cv49=0 cv51=0 cv54=0 cv60=0 cv62=0 cv70=0 cv72=0 cv74=0 cv76=0 cv78=0 cv80=0 cv82=0 cv84=0 cv85=0 ut53=1" />
       <style name="fset4" feats="cv02=2" />
     </styles>
   </head>
@@ -94,9 +95,15 @@
     <test label="alef-wasla + lam+damma" rtl="True">
       <string>ٱَلّ مٱلّ مٱڷ</string>
     </test>
-    <test label="lam+alef-madda + alef+shadda" rtl="True">
+    <test label="lam+alef-madda + alef+madda" rtl="True">
       <comment>0644 0622 064E =&gt; 0644-0627  064E</comment>
-      <string>لآَآ لآَٲ سلآَٲ سݪآَٲ</string>
+      <string>لآَآ سلآَآ ݪآآ</string>
+    </test>
+    <test label="lam+alef-madda + alef+wavyhamza" rtl="True" class="fset381">
+      <string>لآَٲ سلآَٲ سݪآَٲ</string>
+    </test>
+    <test label="lam+alef-madda + beh+shadda" rtl="True" class="fset381">
+      <string>لآنْس فلآنْس</string>
     </test>
     <test label="lam+alef-wasla + lam+fatha" rtl="True">
       <comment>0644  0671 =&gt; 0644-0671</comment>

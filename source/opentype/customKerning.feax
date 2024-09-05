@@ -75,7 +75,7 @@ lookup AlefMarksAbove {
 		pos @AllLamAlefLig' <200 0 200 0>             @MaddaPlain @AlefLamWUpperComposed;
 		pos @AllLamAlefLig' <200 0 200 0> @MarksAbove @MaddaPlain @AlefLamWUpperComposed;
 
-		# wasla - composed? and needs more space
+		# wasla - composed and needs more space
 		
 		pos @AlefWasla' <220 0 220 0>             @AlefLamIsoInit @MarksAbove;
 		pos @AlefWasla' <220 0 220 0> @MarksAbove @AlefLamIsoInit @MarksAbove;

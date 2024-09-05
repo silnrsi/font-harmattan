@@ -410,7 +410,7 @@ pass(2)
 	cAlefPlain cAnyMarksBelow? cMaddaPlain
 		g_alef_wasla_ar {advance.x += 200m};
 	(g_alef_wasla_ar g_alef_wasla_ar_fina) cAnyMarks?
-		cAlefIso {advance.x += 200m} cMaddaPlain;
+		cAlefIso {advance.x += 160m} cMaddaPlain;
 	cLamAlefWaslaLig cAnyMarks? g_alefPlaceholder cAnyMarks?
 		cAlefIso {advance.x += 250m} cAnyMarks? cMaddaPlain;
 	// lam-alef-madda lig handled below
@@ -418,13 +418,16 @@ pass(2)
 	// madda - wider, needs more space than hamza, fatha
 
 	cAlefPlain cAnyMarksBelow? cAnyMarksAboveH? cMaddaPlain
-		(cAlefIso cLamLikeIsolInit) {advance.x += 170m} cAnyMarksAboveH;
+		(cAlefIso cLamLikeIsolInit) {advance.x += 195m} cAnyMarksAboveH;
 	cAlefPlain cAnyMarksBelow? cAnyMarksAboveH? cMaddaPlain
-		cAlefLamWUpperComposed {advance.x += 170m};
+		cAlefLamWUpperComposed {advance.x += 195m};
+	// madda + madda needs a little more:
 	cAllLamAlefLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? cMaddaPlain 
-		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 220m} cAnyMarksBelow? cAnyMarksAboveH;
+		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 250m} cAnyMarksBelow? cMaddaPlain;
 	cAllLamAlefLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? cMaddaPlain 
-		cAlefLamWUpperComposed {advance.x += 220m};
+		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 200m} cAnyMarksBelow? cAnyMarksAboveH;
+	cAllLamAlefLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? cMaddaPlain 
+		cAlefLamWUpperComposed {advance.x += 200m};
 
 	// wasla - composed, and needs more space
 
@@ -433,9 +436,9 @@ pass(2)
 	(g_alef_wasla_ar g_alef_wasla_ar_fina) cAnyMarks?
 		cAlefLamWUpperComposed {advance.x += 220m};
 	cLamAlefWaslaLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? 
-		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 240m} cAnyMarksBelow? cAnyMarksAboveH;
+		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 260m} cAnyMarksBelow? cAnyMarksAboveH;
 	cLamAlefWaslaLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH? 
-		cAlefLamWUpperComposed {advance.x += 240m};
+		cAlefLamWUpperComposed {advance.x += 260m};
 
 	// other marks
 
@@ -446,9 +449,9 @@ pass(2)
 		cAlefLamWUpperComposed {advance.x += 130m};
 
 	cAllLamAlefLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH cAnyMarksAboveH? 
-		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 160m} cAnyMarksBelow? cAnyMarksAboveH;
+		(cAlefIso cLamLikeIsolInit cBehLikeWAboveInit) {advance.x += 190m} cAnyMarksBelow? cAnyMarksAboveH;
 	cAllLamAlefLig g_alefPlaceholder cAnyMarksBelow? cAnyMarksAboveH cAnyMarksAboveH? 
-		cAlefLamWUpperComposed {advance.x += 160m};
+		cAlefLamWUpperComposed {advance.x += 190m};
 
 	cAlefWUpperComposed cAnyMarksBelow? cAnyMarksAboveH?
 		cAlefLamWUpperComposed {advance.x += 220m};
