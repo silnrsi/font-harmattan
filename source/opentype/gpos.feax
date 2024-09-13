@@ -271,6 +271,7 @@ feature kern {  # Kerning
         lookup RehWawKerning1;  # a separate lookup to handle chains
         lookup RehWawKerning;
         lookup LamAlefKerning;
+        lookup AlefMarksAbove;
         lookup MiscKerning;
         lookup MiscKerningWDiacs;
         lookup ToothKashidaKerningIM;
@@ -285,6 +286,7 @@ feature kern {  # Kerning
 	# Lateef lookups:
 	do let f = info("familyName");
 	   if f.find("Lateef") != -1; {
+	   		lookup AlefMarksAbove;
         lookup OldStyleKerning;
 	}   # Lateef
 
