@@ -33,14 +33,14 @@
     parameters are set in the <a
     href="https://github.com/silnrsi/smith/blob/master/wscript">wscript</a>.</p>
     <p>Font sources are in the <a
-    href="http://unifiedfontobject.org/versions/ufo3/">UFO3</a> format
+    href="https://unifiedfontobject.org/versions/ufo3/">UFO3</a> format
     with font family structures defined using <a
     href="https://github.com/fonttools/fonttools/tree/master/Doc/source/designspaceLib">designspace</a>.
     OpenType source code is stored in the <a
     href="https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html">.fea</a>
     format in the UFO (features.fea) but is maintained in a separate
     file using the more efficient and powerful <a
-    href="https://github.com/silnrsi/pysilfont/blob/master/docs/feaextensions.md">.feax</a>
+    href="https://github.com/silnrsi/feax/blob/main/docs/feaextensions.html">.feax</a>
     format.</p>
     <p>The fonts are built using a completely free and open source
     workflow using industry-standard tools (<a
@@ -108,9 +108,9 @@
     it is important to rebuild the optimized octabox.json files so that
     Graphite collision-avoidance-based kerning is accurate, and then to
     rebuild the OpenType kerning rules from the graphite results. A
-    script to do this is in <code>tools/bin/updateKerning.sh</code>.
-    This should be run from the root of the project. Be aware this can
-    take up to 30 minutes or more to complete.</p>
+    script to do this is in <code>tools/updateKerning.sh</code>. This
+    should be run from the root of the project. Be aware this can take
+    up to 30 minutes or more to complete.</p>
     <p>Important notes: The <code>updateKerning.sh</code> tool requires:
     - fully functioning <a
     href="https://github.com/silnrsi/smith"><code>smith</code></a> build
@@ -127,13 +127,14 @@
     test files: - <code>tests/AllChars-auto.ftml</code> -
     <code>tests/ALsorted-auto.ftml</code> -
     <code>tests/DaggerAlef-auto.ftml</code> -
-    <code>tests/Diac1-auto.ftml</code> -
-    <code>tests/Diac1-short-auto.ftml</code> -
+    <code>tests/DiacTest1-auto.ftml</code> -
+    <code>tests/DiacTest1-short-auto.ftml</code> -
+    <code>tests/FeatLang-auto.ftml</code> -
     <code>tests/Kern-auto.ftml</code> -
     <code>tests/SubtendingMarks-auto.ftml</code> -
     <code>tests/Yehbarree-auto.ftml</code></p>
     <p>are generated automatically using
-    <code>tools/bin/genftmlfiles.sh</code>.</p>
+    <code>tools/genftmlfiles.sh</code>.</p>
     <p><code>tools/ftml.xsl</code> can be used to view ftml documents
     directly in Firefox (which supports both Graphite and OpenType
     rendering).</p>
@@ -146,7 +147,7 @@
     <p>However, in order for Firefox to access the .xsl file, you need
     to relax its "strict URI" policy by going to about:config and
     setting <a
-    href="http://kb.mozillazine.org/Security.fileuri.strict_origin_policy">security.fileuri.strict_origin_policy</a>
+    href="https://kb.mozillazine.org/Security.fileuri.strict_origin_policy">security.fileuri.strict_origin_policy</a>
     to false.</p>
     <p>Once you have this setting in effect, you can load the FTML
     documents directly into Firefox and see the built font rendered.</p>
@@ -170,7 +171,7 @@
     href="https://software.sil.org/fontcla">CLA information
     page</a>.</p>
     <footer class="footer">
-        <p>This guide is from the <a href="https://software.sil.org/harmattan/" title="" class="active">Harmattan project</a> version 4.3 and is copyright © 2014-2024 SIL International.</p>
+        <p>This guide is from the <a href="https://software.sil.org/harmattan/" title="" class="active">Harmattan project</a> version 4.3 and is copyright © 2014-2024 SIL Global.</p>
     </footer>
 </article>
 </div>
