@@ -1,6 +1,6 @@
 # Harmattan [![Build Status](https://build.palaso.org/app/rest/builds/buildType:Fonts_Harmattan/statusIcon)](https://build.palaso.org/viewType.html?buildTypeId=Fonts_Harmattan&guest=1)
 
-Harmattan is a smart open font designed by SIL International for West African Languages using the Arabic script.
+Harmattan is a smart open font designed by SIL Global for West African Languages using the Arabic script.
 
 To download the fonts visit the [Harmattan downloads page](https://software.sil.org/harmattan/download/) or the [Github releases page](https://github.com/silnrsi/font-harmattan/releases).
 
