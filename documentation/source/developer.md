@@ -41,6 +41,18 @@ Because of the complex kerning and collision avoidance logic, builds can take up
 ```
 The resulting files will not have functional kerning or collision avoidance, but will be otherwise usable.
 
+This project implements two additional `smith build` options that are useful during development:
+
+- `--regOnly` -- build only the Regular weight instead of all weights
+- `--norename` -- keep the working names for glyphs rather than change them to production names 
+
+Finally, to include Graphite smarts (which are used during development for generating kerning rules -- see `updateKerning.sh` below), use the `--graphite` option as follows:
+```
+    smith distclean
+    smith configure --graphite
+    smith build --graphite --quick --norename
+```
+
 ### Adding characters
 
 After adding glyphs (other than used only as components for building other glyphs) to the font, the following files will also need updating:
