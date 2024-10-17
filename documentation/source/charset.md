@@ -12,7 +12,7 @@ The Harmattan font contains complete coverage of all the characters defined in U
 The following character ranges are supported by this font:
 
 Unicode block | Harmattan support
-------------- | ---------------
+:------------- | :---------------
 Arabic 	| ✓
 Arabic Supplement | ✓
 Arabic Extended-A | ✓ 

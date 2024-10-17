@@ -16,7 +16,7 @@ Harmattan provides the special rendering for sequences of Arabic letters that me
 To disable the special ligature, insert a zero-width joiner character (200D) somewhere in the sequence.
 
 Characters | → | Glyph | Comment
----------- | - | ----  | -------
+:---------- | :- | :----  | :-------
 <span class='HarmattanL-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x0647;</span> | → | <span dir="rtl" class='Harmattan-R normal'> الله	</span> | Ligature is formed (U+0647)
 <span class='HarmattanL-R normal'>&#x202d;&#x0627; + &#x0644; + &#x0644; + &#x06c1;</span> | → | <span dir="rtl" class='Harmattan-R normal'>اللہ	</span> | Ligature is formed (U+06C1)
 <span class='HarmattanL-R normal'>&#x202d;&#x0671; + &#x0644; + &#x0644; + &#x0651; + &#x0647;</span> | → | <span dir="rtl" class='Harmattan-R normal'> ٱللّه </span> | Ligature is formed
