@@ -13,7 +13,7 @@ Harmattan, named after the trade winds that blow during the dry season in
 West Africa, is designed in a Warsh style to suit the needs of languages 
 using the Arabic script in West Africa.
 
-This release supports most of the Unicode 15.0 Arabic character 
+This release supports most of the Unicode 16.0 Arabic character 
 repertoire (excluding the Arabic Presentation Forms blocks, which are not 
 recommended for normal use). 
 
