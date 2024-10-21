@@ -15,8 +15,8 @@ then
 	exit 2
 fi
 
-prevfont="references/v4.000/Harmattan-Regular.ttf"
-prevver="4.0"
+prevfont="references/v4.300/Harmattan-Regular.ttf"
+prevver="4.3"
 
 commonParams=( \
 	--prevfont "$prevfont"  \
