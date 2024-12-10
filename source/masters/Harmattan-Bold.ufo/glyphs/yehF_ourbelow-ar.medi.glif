@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yehFourbelow-ar.medi" format="2">
+  <advance width="580"/>
+  <anchor x="88" y="480" name="alef"/>
+  <anchor x="295" y="495" name="diaA"/>
+  <anchor x="299" y="-687" name="diaB"/>
+  <outline>
+    <component base="behDotless-ar.medi"/>
+    <component base="_dot4" xOffset="305" yOffset="-507"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>
