@@ -2,7 +2,7 @@
 
 # This script rebuilds the kerning files for both Graphite and OpenType. See README.md
 
-# Copyright (c) 2020-2024 SIL Global (https://www.sil.org)
+# Copyright (c) 2020-2025 SIL Global (https://www.sil.org)
 # Released under the MIT License (https://opensource.org/licenses/
 
 # Assumes we're in the root folder, i.e., font-harmattan

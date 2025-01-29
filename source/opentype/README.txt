@@ -6,7 +6,7 @@ font family. This information should be distributed along with the Harmattan
 fonts and any derivative works.
 
 These files are part of Harmattan font family (https://software.sil.org/harmattan/) 
-and are Copyright (c) 2014-2024 SIL Global (https://www.sil.org/),
+and are Copyright (c) 2014-2025 SIL Global (https://www.sil.org/),
 with Reserved Font Names "Harmattan" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
