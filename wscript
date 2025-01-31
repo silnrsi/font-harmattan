@@ -57,6 +57,8 @@ if '--norename' not in opts:
 # but if you want to try again:
 if '--autohint' in opts:
     cmds.append(cmd('${TTFAUTOHINT} -n -c  -D arab -W ${DEP} ${TGT}'))
+else:
+    cmds.append(cmd('gftools fix-nonhinting --no-backup -q ${DEP} ${TGT}'))
 
 # iterate over designspace
 designspace('source/Harmattan.designspace',
