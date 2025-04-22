@@ -930,7 +930,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass hehgoalHamzaabove-ar.init <anchor 137 1026> @diaA;
 # baseClass hehgoalHamzaabove-ar.medi <anchor 464 961> @diaA;
 # baseClass [highhamza-ar highhamzaAlef-ar highhamzaAlef-ar.fina] <anchor 167 1146> @diaA;
-# baseClass highhamza-ar.loclMLY <anchor 432 1428> @diaA;
+# baseClass highhamza-ar.loclMLY <anchor 432 1208> @diaA;
 # baseClass [highhamzaWaw-ar highhamzaWaw-ar.fina] <anchor 427 1146> @diaA;
 # baseClass highhamzaYeh-ar <anchor 1067 1146> @diaA;
 # baseClass highhamzaYeh-ar.fina <anchor 774 874> @diaA;
@@ -1700,7 +1700,7 @@ markClass [VS1 VS10 VS11 VS12 VS13 VS14 VS15 VS16 VS2 VS3 VS4 VS5 VS6 VS7 VS8 VS
 # baseClass hehgoal-ar.fina <anchor 374 -131> @diaB;
 # baseClass hehgoal-ar.fina.allah <anchor 352 -131> @diaB;
 # baseClass highhamza-ar <anchor 209 655> @diaB;
-# baseClass highhamza-ar.loclMLY <anchor 426 496> @diaB;
+# baseClass highhamza-ar.loclMLY <anchor 426 276> @diaB;
 # baseClass highhamzaAlef-ar.fina <anchor 169 -109> @diaB;
 # baseClass [highhamzaWaw-ar kirghizoe-ar kirghizoe-ar.bar kirghizoe-ar.fina kirghizoe-ar.fina.bar u-ar u-ar.fina uHamzaabove-ar uHamzaabove-ar.fina wawDotcenter-ar wawDotcenter-ar.fina wawThreeAbove-ar wawThreeAbove-ar.fina wawTwoabove-ar wawTwoabove-ar.fina wawring-ar wawring-ar.fina] <anchor 370 -645> @diaB;
 # baseClass highhamzaWaw-ar.fina <anchor 370 -665> @diaB;
@@ -2460,6 +2460,8 @@ languagesystem arab KIR;
 # ky: Kyrgyz
 languagesystem arab KUR;
 # ku: Kurdish
+languagesystem arab MLY;
+# ms: Malay
 languagesystem arab RHG;
 # rhg: Rohingya -- supported by Harfbuzz
 languagesystem arab SND;
@@ -2867,6 +2869,12 @@ lookup KyrgyzCALT {
     sub @Kasra_lowered by @Kasra;
     # high kasra
 } KyrgyzCALT;
+
+lookup MalayCALT {
+    lookupflag 0;
+    sub highhamza-ar by highhamza-ar.loclMLY;
+    sub @Kasra by @Kasra_lowered;
+} MalayCALT;
 
 lookup RohingyaCALT {
     lookupflag 0;
@@ -3610,6 +3618,8 @@ feature ccmp {
     # Kashmiri
     language KUR;
     # Kurdish
+    language MLY;
+    # Malay
     language RHG;
     # Rohingya
     language SND;
@@ -3630,6 +3640,7 @@ feature fina {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -3645,6 +3656,7 @@ feature medi {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -3660,6 +3672,7 @@ feature init {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -3682,6 +3695,7 @@ feature rlig {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -3707,6 +3721,9 @@ feature calt {
     language KUR;
     # Kurdish
     lookup KurdishCALT;
+    language MLY;
+    # Malay
+    lookup MalayCALT;
     language RHG;
     #Rohingya
     lookup RohingyaCALT;
@@ -3771,6 +3788,7 @@ feature salt {
         language KIR;
         language KSH;
         language KUR;
+        language MLY;
         language RHG;
         language SND;
         language URD;
@@ -3812,6 +3830,7 @@ feature salt {
         language KIR;
         language KSH;
         language KUR;
+        language MLY;
         language RHG;
         language SND;
         language URD;
@@ -3852,6 +3871,7 @@ feature salt {
         language KIR;
         language KSH;
         language KUR;
+        language MLY;
         language RHG;
         language SND;
         language URD;
@@ -3893,6 +3913,7 @@ feature cv44 {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -3937,6 +3958,7 @@ feature cv48 {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -3981,6 +4003,7 @@ feature cv49 {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -4018,6 +4041,7 @@ feature cv51 {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -4059,6 +4083,7 @@ feature cv54 {
     language KIR;
     language KSH;
     language KUR;
+    language MLY;
     language RHG;
     language SND;
     language URD;
@@ -58468,7 +58493,7 @@ lookup MarkToBase {
     pos base hehgoalHamzaabove-ar.init <anchor 137 1026> mark @_diaA;
     pos base hehgoalHamzaabove-ar.medi <anchor 464 961> mark @_diaA;
     pos base [highhamza-ar highhamzaAlef-ar highhamzaAlef-ar.fina] <anchor 167 1146> mark @_diaA;
-    pos base highhamza-ar.loclMLY <anchor 432 1428> mark @_diaA;
+    pos base highhamza-ar.loclMLY <anchor 432 1208> mark @_diaA;
     pos base [highhamzaWaw-ar highhamzaWaw-ar.fina] <anchor 427 1146> mark @_diaA;
     pos base highhamzaYeh-ar <anchor 1067 1146> mark @_diaA;
     pos base highhamzaYeh-ar.fina <anchor 774 874> mark @_diaA;
@@ -59133,7 +59158,7 @@ lookup MarkToBase {
     pos base hehgoal-ar.fina <anchor 374 -131> mark @_diaB;
     pos base hehgoal-ar.fina.allah <anchor 352 -131> mark @_diaB;
     pos base highhamza-ar <anchor 209 655> mark @_diaB;
-    pos base highhamza-ar.loclMLY <anchor 426 496> mark @_diaB;
+    pos base highhamza-ar.loclMLY <anchor 426 276> mark @_diaB;
     pos base highhamzaAlef-ar.fina <anchor 169 -109> mark @_diaB;
     pos base [highhamzaWaw-ar kirghizoe-ar kirghizoe-ar.bar kirghizoe-ar.fina kirghizoe-ar.fina.bar u-ar u-ar.fina uHamzaabove-ar uHamzaabove-ar.fina wawDotcenter-ar wawDotcenter-ar.fina wawThreeAbove-ar wawThreeAbove-ar.fina wawTwoabove-ar wawTwoabove-ar.fina wawring-ar wawring-ar.fina] <anchor 370 -645> mark @_diaB;
     pos base highhamzaWaw-ar.fina <anchor 370 -665> mark @_diaB;

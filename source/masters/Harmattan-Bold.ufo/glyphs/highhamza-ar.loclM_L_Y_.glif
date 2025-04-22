@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="highhamza-ar.loclMLY" format="2">
   <advance width="860"/>
-  <anchor x="432" y="1428" name="diaA"/>
-  <anchor x="426" y="496" name="diaB"/>
+  <anchor x="432" y="1208" name="diaA"/>
+  <anchor x="426" y="276" name="diaB"/>
   <outline>
-    <component base="hamza-ar" yOffset="590"/>
+    <component base="hamza-ar" yOffset="390"/>
   </outline>
   <lib>
     <dict>
