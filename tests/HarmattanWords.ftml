@@ -4,6 +4,7 @@
   <head>
     <fontscale>250</fontscale>
     <fontsrc label="1.0">url(../references/v1.001/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Gr">url(../results/tests/xtest/fonts0gr/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Bold">url(../results/Harmattan-Bold.ttf)</fontsrc>
     <styles>

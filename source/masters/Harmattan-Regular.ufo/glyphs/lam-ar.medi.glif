@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lam-ar.medi" format="2">
-  <advance width="477"/>
+  <advance width="600"/>
   <anchor x="228" y="1118" name="above"/>
   <anchor x="0" y="804" name="alef"/>
   <anchor x="250" y="-81" name="below"/>

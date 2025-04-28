@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 15.0 or later; else light green: a character is new in this version of the font</comment>
+    <fontscale>250</fontscale>
+    <fontsrc label="Gr">url(../results-UHB1/tests/xtest/fonts0gr/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="Reg">url(../results-UHB1/Harmattan-Regular.ttf)</fontsrc>
+    <title>Direction Test</title>
+    <widths string="30%"/>
+  </head>
+  <testgroup>
+    <test label="b-l-m  RTL" rtl="True">
+      <string>\u0628\u0644\u0645</string>
+    </test>
+    <test label="b-l-m  LTR">
+      <string>\u0628\u0644\u0645</string>
+    </test>
+    <test label="Abc  RTL" rtl="True">
+      <string>Abc</string>
+    </test>
+    <test label="Abc  LTR">
+      <string>Abc</string>
+    </test>
+  </testgroup>
+</ftml>

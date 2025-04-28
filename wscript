@@ -27,12 +27,12 @@ omitaps = '--omitaps "_above,_below,_center,_ring,_through,_H,_L,_O,_U,_R,above,
 #   --graphite - add graphite smarts font for kerning update purposes (otherwise font is OT-only)
 opts = preprocess_args({'opt': '--autohint'}, {'opt': '--quick'}, {'opt': '--norename'},  {'opt': '--regOnly'},  {'opt': '--medOnly'}, {'opt': '--graphite'})
 
-noOTkern = ' -D noOTkern=yes' if '--quick' in opts else ''
+noOTkern = ' -D noOTkern=yes' # if '--quick' in opts else ''
 
 cmds = [cmd('ttx -m ${DEP} -o ${TGT} ${SRC}', ['source/jstf.ttx'])]
 extras = {}
 
-if '--graphite' in opts:
+if True:  # '--graphite' in opts:
     # If we're going to include graphite, then we need the complete typetuner source file.
     typetunerfile = 'source/typetuner/feat_all.xml'
     extras['graphite'] = gdl(generated + '${DS:FILENAME_BASE}.gdl',
@@ -63,7 +63,7 @@ else:
 # iterate over designspace
 designspace('source/Harmattan.designspace',
     instanceparams = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
-    instances = ['Harmattan Regular'] if '--regOnly' in opts else ['Harmattan Medium'] if '--medOnly' in opts else None,
+    instances = ['Harmattan Regular'] , # if '--regOnly' in opts else ['Harmattan Medium'] if '--medOnly' in opts else None,
     params = '-c ^_',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     ap = generated + '${DS:FILENAME_BASE}.xml',
