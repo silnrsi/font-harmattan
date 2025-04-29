@@ -7,10 +7,4 @@
     <component base="kasrasmall-ar" yOffset="-730"/>
     <component base="noonbelow-ar" xOffset="2"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
-      <string>CCP</string>
-    </dict>
-  </lib>
 </glyph>
