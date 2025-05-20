@@ -92,7 +92,7 @@
 @ShaddaLigatures = [shadda_fathatan-ar shadda_dammatan-ar shadda_fatha-ar shadda_damma-ar shadda_alef-ar];
 @ShaddaMarks = [fathatan-ar dammatan-ar fatha-ar damma-ar alefabove-ar];
 @ShaddaLigatureParts = [@ShaddaMarks kasratan-ar kasra-ar shadda-ar graphemejoinercomb];
-@TakesLargeDaggerAlef = [alefMaksura-ar alefMaksura-ar.fina dad-ar dad-ar.fina dadDotbelow-ar dadDotbelow-ar.fina e-ar e-ar.fina emquad emspace enquad enspace figurespace fourperemspace hairspace highhamzaYeh-ar highhamzaYeh-ar.fina kashida-ar narrownbspace nbspace punctuationspace sad-ar sad-ar.fina sadThreedots-ar sadThreedots-ar.fina sadThreedotsbelow-ar sadThreedotsbelow-ar.fina sadTwodotsbelow-ar sadTwodotsbelow-ar.fina seen-ar seen-ar.fina seenDotbelowDotabove-ar seenDotbelowDotabove-ar.fina seenFourabove-ar seenFourabove-ar.fina seenFourdotsabove-ar seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.fina seenVinvertedabove-ar seenVinvertedabove-ar.fina sheen-ar sheen-ar.fina sheenDotbelow-ar sheenDotbelow-ar.fina sheenThreedotsbelow-ar sheenThreedotsbelow-ar.fina sixperemspace space thinspace threeperemspace yeh-ar yeh-ar.fina yeh-farsi yeh-farsi.fina yehFourbelow-farsi yehFourbelow-farsi.fina yehHamzaabove-ar yehHamzaabove-ar.fina yehTail-ar yehTail-ar.fina yehThreeabove-farsi yehThreeabove-farsi.fina yehThreedotsabove-farsi yehThreedotsabove-farsi.fina yehThreedotsbelow-ar yehThreedotsbelow-ar.fina yehTwoabove-farsi yehTwoabove-farsi.fina yehTwodotsabove-farsi yehTwodotsabove-farsi.fina yehTwodotsbelowDotabove-ar yehTwodotsbelowDotabove-ar.fina yehTwodotsbelowHamzaabove-ar yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowNoonabove-ar yehTwodotsbelowNoonabove-ar.fina yehVabove-ar yehVabove-ar.fina yehVinverted-farsi yehVinverted-farsi.fina];
+@TakesLargeDaggerAlef = [alefMaksura-ar alefMaksura-ar.fina dad-ar dad-ar.fina dadDotbelow-ar dadDotbelow-ar.fina e-ar e-ar.fina emquad emspace enquad enspace figurespace fourperemspace hairspace highhamzaYeh-ar highhamzaYeh-ar.fina kashida-ar narrownbspace nbspace punctuationspace sad-ar sad-ar.fina sadThreedots-ar sadThreedots-ar.fina sadThreedotsbelow-ar sadThreedotsbelow-ar.fina sadTwodotsbelow-ar sadTwodotsbelow-ar.fina seen-ar seen-ar.fina seenDotbelowDotabove-ar seenDotbelowDotabove-ar.fina seenFourabove-ar seenFourabove-ar.fina seenFourdotsabove-ar seenFourdotsabove-ar.fina seenTahTwodotshorizontalabove-ar seenTahTwodotshorizontalabove-ar.fina seenThreedotsbelow-ar seenThreedotsbelow-ar.fina seenTwodotsverticalabove-ar seenTwodotsverticalabove-ar.fina seenVinvertedabove-ar seenVinvertedabove-ar.fina sheen-ar sheen-ar.fina sheenDotbelow-ar sheenDotbelow-ar.fina sheenThreedotsbelow-ar sheenThreedotsbelow-ar.fina sixperemspace space thinspace threeperemspace yeh-ar yeh-ar.fina yeh-farsi yeh-farsi.fina yehFourbelow-ar yehFourbelow-ar.fina yehFourbelow-farsi yehFourbelow-farsi.fina yehHamzaabove-ar yehHamzaabove-ar.fina yehTail-ar yehTail-ar.fina yehThreeabove-farsi yehThreeabove-farsi.fina yehThreedotsabove-farsi yehThreedotsabove-farsi.fina yehThreedotsbelow-ar yehThreedotsbelow-ar.fina yehTwoabove-farsi yehTwoabove-farsi.fina yehTwodotsabove-farsi yehTwodotsabove-farsi.fina yehTwodotsbelowDotabove-ar yehTwodotsbelowDotabove-ar.fina yehTwodotsbelowHamzaabove-ar yehTwodotsbelowHamzaabove-ar.fina yehTwodotsbelowNoonabove-ar yehTwodotsbelowNoonabove-ar.fina yehVabove-ar yehVabove-ar.fina yehVinverted-farsi yehVinverted-farsi.fina];
 @TakesMediumDigits = [number-ar number-ar.2 number-ar.3 year-ar year-ar.2 year-ar.3 year-ar.4 footnotemarker-ar footnotemarker-ar.2 pagenumber-ar pagenumber-ar.2 pagenumber-ar.3 pagenumber-ar.4 samvat-ar samvat-ar.2 samvat-ar.3 samvat-ar.4 numbermark-ar numbermark-ar.2 numbermark-ar.3 numbermark-ar.4 poundmarkabove-ar poundmarkabove-ar.2 poundmarkabove-ar.3 poundmarkabove-ar.4 piastremarkabove-ar piastremarkabove-ar.2 piastremarkabove-ar.3 piastremarkabove-ar.4 endofayah-ar endofayah-ar.2 endofayah-ar.alt endofayah-ar.alt.2 endofayah-ar.altB endofayah-ar.altB.2];
 @TakesSmallDigits = [endofayah-ar.3 endofayah-ar.alt.3 endofayah-ar.altB.3 disputedendofayah-ar disputedendofayah-ar.2 disputedendofayah-ar.3];
 @UTR53_220MCM = [hamzabelow-ar largerounddotbelow-ar seenbelow-ar wawbelow-ar];
@@ -2621,7 +2621,6 @@ lookup SmallMadda {
 } SmallMadda;
 
 # Replace Arabic punctuation glyphs with Latin ones:
-# Has no effect in Harmattan:
 lookup LatinPunctuation {
     lookupflag 0;
     sub @cno_latn by @c_latn;
@@ -3099,8 +3098,8 @@ lookup HehDoAlternates {
     sub hehDoachashmee-ar.fina.knottedHigh from [hehDoachashmee-ar.fina.knottedHigh hehDoachashmee-ar.fina hehDoachashmee-ar.fina.knottedHigh];
 } HehDoAlternates;
 
+# Kyrgyz OE Alternates: cv51
 lookup KyrgyzOeAlternates {
-    # cv51
     lookupflag 0;
     sub @cno_bar by @c_bar;
 } KyrgyzOeAlternates;
@@ -3136,7 +3135,6 @@ lookup YehHamzaAlternates {
 
 
 lookup KasraAlternates {
-    # cv62
     lookupflag 0;
     # NB: This is written so it doesn't matter which shadda-kasra behavior is default
     #     and so as to allow language-specific behavior to be overridden.
@@ -3322,24 +3320,17 @@ lookup CommaAlternates {
 
 # Decimal separator alternates: cv85
 lookup DecimalSepAlternate {
-    # cv85
     lookupflag IgnoreMarks;
     sub @cno_slash by @c_slash;
 } DecimalSepAlternate;
 
+# Angled Guillemet: cv88
 lookup GuillemetAlternate {
-    # cv88
     lookupflag IgnoreMarks;
-    # NB: This is written so as to allow script-specific behavior to be overridden
-    #                             1=Angled            2=Rounded
-    sub guillemetleft from [guillemetleft.latn guillemetleft];
-    sub guillemetright from [guillemetright.latn guillemetright];
-    sub guilsinglleft from [guilsinglleft.latn guilsinglleft];
-    sub guilsinglright from [guilsinglright.latn guilsinglright];
-    sub guillemetleft.latn from [guillemetleft.latn guillemetleft];
-    sub guillemetright.latn from [guillemetright.latn guillemetright];
-    sub guilsinglleft.latn from [guilsinglleft.latn guilsinglleft];
-    sub guilsinglright.latn from [guilsinglright.latn guilsinglright];
+    sub guillemetleft by guillemetleft.latn;
+    sub guillemetright by guillemetright.latn;
+    sub guilsinglleft by guilsinglleft.latn;
+    sub guilsinglright by guilsinglright.latn;
 } GuillemetAlternate;
 
 #---  liga feature  ---
@@ -4443,7 +4434,7 @@ feature cv88 {
         };
 
                 FeatUITooltipTextNameID {
-            name "Angled for Guillemet";
+            name "Angled Guillemet";
             # English US (Rounded is default for Arabic)
         };
 
@@ -4452,13 +4443,9 @@ feature cv88 {
             # English US x00AB x2039  x203A x00BB;
         };
 
-        ### ParamUILabelNameID { name 3 1 0x0409 "Default"        ; };
+        ### ParamUILabelNameID { name 3 1 0x0409 "Rounded"        ; };
                 ParamUILabelNameID {
             name "Angled";
-        };
-
-                ParamUILabelNameID {
-            name "Rounded";
         };
 
     };

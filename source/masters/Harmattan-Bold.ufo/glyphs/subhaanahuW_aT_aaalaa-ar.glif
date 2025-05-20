@@ -2,9 +2,7 @@
 <glyph name="subhaanahuWaTaaalaa-ar" format="2">
   <advance width="1690"/>
   <unicode hex="FDFE"/>
-  <outline>
-    <component base=".notdef"/>
-  </outline>
+  <outline/>
   <lib>
     <dict>
       <key>public.markColor</key>
