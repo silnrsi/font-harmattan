@@ -44,6 +44,7 @@
     <string>/noon-ar/noonthin-ar/noon-ar.fina/noonthin-ar.fina/noonthin-ar.medi/noon-ar.init/noonthin-ar.init/tah-ar/biblicalendofverse-ar/kaf-ar/space</string>
     <string>/bismillah-ar 
 /space/subhaanahuWaTaaalaa-ar/beh-ar/kaf-ar/azzaWaJall-ar/ain-ar/tehMarbuta-ar/reh-ar.fina/behDotless-ar.init/teh-ar.init/ain-ar/alef-ar/seen-ar/behDotless-ar/zain-ar/waw-ar/lam-ar/alefMaksura-ar.fina/yeh-ar/space/hah-ar/lam-ar</string>
+    <string>W</string>
   </array>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
   <true/>
