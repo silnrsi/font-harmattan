@@ -67,6 +67,7 @@ ChangeLog
 ### 2025-xx-xx (SIL WSTech team) Harmattan version 4.400
 
 #### New
+
 - Added:
   - 088F ARABIC LETTER NOON WITH RING ABOVE
   - FDFE ARABIC LIGATURE SUBHAANAHU WA TAAALAA
@@ -80,7 +81,13 @@ ChangeLog
 - Added cv88 (Guillemet) to provide a choice for angled guillemot characters in Arabic script
 - Added Malay Jawi language support 
 
+#### Improved
+
+- Added sample strings and feature tooltips to the character variants for applications that support them
+- Made width of punctuation space consistent with width of period
+
 #### Known issues
+
 - Shaping for the newly added characters may not yet occur in applications.
 - Medial and final high hamza characters may have collisions (these likely do not occur).
 - Lam + high hamza alef ligature does not form as it likely does not occur.
