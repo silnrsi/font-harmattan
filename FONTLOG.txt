@@ -84,7 +84,7 @@ ChangeLog
 #### Improved
 
 - Added sample strings and feature tooltips to the character variants for applications that support them
-- Made width of punctuation space consistent with width of period
+- Made width of punctuation space (U+2008) consistent with width of period
 
 #### Known issues
 
