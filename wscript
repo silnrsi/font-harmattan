@@ -44,6 +44,7 @@ if '--graphite' in opts:
         make_params = omitaps + ' --cursive "exit=entry,rtl" --cursive "_digit=digit"',
         params = '-d -q -e ${DS:FILENAME_BASE}_gdlerr.txt',
         )
+    extras['ap'] = generated + '${DS:FILENAME_BASE}.xml'
     # Be sure to include the octaboxes
     cmds.append(cmd('${OCTALAP} -m ${SRC} -o ${TGT} ${DEP}', ["source/graphite/${DS:FILENAME_BASE}-octabox.json"])),
 else:
@@ -62,11 +63,9 @@ else:
 
 # iterate over designspace
 designspace('source/Harmattan.designspace',
-    instanceparams = '-l ' + generated + '${DS:FILENAME_BASE}_createintance.log',
     instances = ['Harmattan Regular'] if '--regOnly' in opts else ['Harmattan Medium'] if '--medOnly' in opts else None,
     params = '-c ^_',
     target = process('${DS:FILENAME_BASE}.ttf', *cmds),
-    ap = generated + '${DS:FILENAME_BASE}.xml',
     ap_params = '--ignoreglyphs ^_',
     version = VERSION,  # Needed to ensure dev information on version string
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
