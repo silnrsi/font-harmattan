@@ -102,6 +102,12 @@ does not include tracing. You'll need to compile the source with -DGRAPHITE2_NTR
 sudo apt-get install python3-sklearn python3-sklearn-lib
 ```
 
+To generate `kerndata.ftml` and the `*-octabox.json` files, run:
+
+```
+    tools/updateKerning.sh --ftml --octalap
+```
+
 ### Generated test files
 
 After adding characters or additional behaviors to the font, test files should be created or enhanced to test the new behaviors. The test files:
