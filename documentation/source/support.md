@@ -1,6 +1,6 @@
 ---
 title: Harmattan - Support
-fontversion: 4.300
+fontversion: 4.400
 ---
 
 ## Support options

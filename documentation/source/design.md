@@ -1,6 +1,6 @@
 ---
 title: Harmattan - Design
-fontversion: 4.300
+fontversion: 4.400
 ---
 
 The original font on which Harmattan was based was an [OFL](https://openfontlicense.org/)-licensed typeface called **Fouta AS**, designed for one specific region in West Africa. However, significant design changes have been made as the font has been extended to handle a wider variety of languages using the Arabic script. Harmattan, named after the trade winds that blow during the dry season in West Africa, is designed in a Warsh style to suit the needs of languages using the Arabic script in West Africa. The Latin letters are a subset of the [Andika](https://software.sil.org/andika) font. 
@@ -34,3 +34,7 @@ For a complete list of characters included in this font, see [Character Set Supp
 ## Font Features
 
 Alternate glyphs that are available through features are demonstrated in the [Features](features.md) document. 
+
+SIL Global is the creator of the Harmattan fonts, and is the owner of all proprietary rights therein.
+
+*Harmattan* is a trademark of SIL Global.

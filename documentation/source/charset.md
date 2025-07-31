@@ -1,6 +1,6 @@
 ---
 title: Harmattan - Character Set Support
-fontversion: 4.300
+fontversion: 4.400
 ---
 
 The Harmattan font contains complete coverage of all the characters defined in Unicode for Arabic script (excluding the Arabic Presentation Forms blocks, which are not recommended for normal use). 

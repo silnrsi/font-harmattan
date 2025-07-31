@@ -1,6 +1,6 @@
 ---
 title: Harmattan - Developer information
-fontversion: 4.300
+fontversion: 4.400
 ---
 
 ## Welcome font developers!
@@ -19,7 +19,7 @@ Font sources are in the [UFO3](https://unifiedfontobject.org/versions/ufo3/) for
 
 The fonts are built using a completely free and open source workflow using industry-standard tools ([fonttools](https://github.com/fonttools/fonttools)), a package of custom python scripts ([pysilfont](https://github.com/silnrsi/pysilfont)), and a build and packaging system ([Smith](https://github.com/silnrsi/smith)). The whole toolchain is available as a Docker container. 
 
-Full instructions for setting up the tools and building SIL fonts are available on a dedicated web site: [SIL Font Development Guide](https://silnrsi.github.io/silfontdev/). Additional developer information specific to SIL's Arabic fonts can be found at [font-arab-tools README](https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/README.md).
+Full instructions for setting up the tools and building SIL fonts are available on a dedicated web site: [SIL Font Development Guide](https://silnrsi.github.io/silfontdev/). Additional developer information specific to SIL’s Arabic fonts can be found at [font-arab-tools README](https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/README.md).
 
 In addition, much of the code for Scheherazade New, Harmattan, and Lateef is shared. Carefully review the [font-arab-tools developer](https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/developer.md) documentation to see how the code is shared.
 
@@ -58,7 +58,7 @@ Finally, to include Graphite smarts (which are used during development for gener
 After adding glyphs (other than used only as components for building other glyphs) to the font, the following files will also need updating:
 
 - `glyph_data.csv` -- used to set glyph orders and psnames in the built font
-- `classes.xml` -- used to define classes used by both OpenType and Graphite. Note that some of the classes defined therein are marked "automatically generated" -- these will be updated (from glyph_data.csv) the next time `./preflight` is run.
+- `classes.xml` -- used to define classes used by both OpenType and Graphite. Note that some of the classes defined therein are marked “automatically generated” -- these will be updated (from glyph_data.csv) the next time `./preflight` is run.
 - `opentype/*.feax` -- modify as needed to add needed OpenType behavior
 - `graphite/*.gd*` -- modify as needed to add needed Graphite behavior
 - `tests/*.ftml` -- see below
