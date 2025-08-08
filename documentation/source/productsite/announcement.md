@@ -8,24 +8,25 @@ This release includes the following changes for this version:
 #### New
 
 - Added:
-  - U+0897 ARABIC PEPET
-  - U+10EC2 ARABIC LETTER DAL WITH TWO DOTS VERTICALLY BELOW
-  - U+10EC3 ARABIC LETTER TAH WITH TWO DOTS VERTICALLY BELOW
-  - U+10EC4 ARABIC LETTER KAF WITH TWO DOTS VERTICALLY BELOW
-  - U+10EFC ARABIC COMBINING ALEF OVERLAY
-- Added support for Kashmiri language
-- Added facility to override default language behavior through feature selection
-- Added support for cv76 (dagger alef) on spacing characters and tatweel
+  - 088F ARABIC LETTER NOON WITH RING ABOVE
+  - FDFE ARABIC LIGATURE SUBHAANAHU WA TAAALAA
+  - FDFF ARABIC LIGATURE AZZA WA JALL
+  - 10EC5 ARABIC SMALL YEH BARREE WITH TWO DOTS BELOW 
+  - 10EC6 ARABIC LETTER THIN NOON 
+  - 10EC7 ARABIC LETTER YEH WITH FOUR DOTS BELOW 
+  - 10ED0 ARABIC BIBLICAL END OF VERSE 
+  - 10EFA ARABIC DOUBLE VERTICAL BAR BELOW 
+  - 10EFB ARABIC SMALL LOW NOON 
+- Added cv88 (Guillemet) to provide a choice for angled guillemot characters in Arabic script
+- Added Malay Jawi language support 
 
 #### Improved
 
-- Enhanced positioning of U+06E2 ARABIC SMALL HIGH MEEM ISOLATED FORM next to adjacent vowel marks
-- Adjusted design of U+0883 ARABIC TATWEEL WITH OVERSTRUCK HAMZA
-- Improved alef+mark positioning to reduce collisions
-- Improved madda reordering to comply with UAX #53
-- Documentation enhancements
+- Added sample strings and feature tooltips to the character variants for applications that support them
+- Made width of punctuation space (U+2008) consistent with width of period
 
 #### Known issues
+
 - Shaping for the newly added characters may not yet occur in applications.
 - Medial and final high hamza characters may have collisions (these likely do not occur).
 - Lam + high hamza alef ligature does not form as it likely does not occur.

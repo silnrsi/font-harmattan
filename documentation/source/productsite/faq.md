@@ -14,17 +14,17 @@ Many questions can be answered by consulting the following FAQ pages. Here are a
     - *If I use the font on a web page do I have to include an acknowledgement?*
     - The full OFL-FAQ.txt is also included in the font package.
 
-A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](https://software.sil.org/arabicfonts/support/faq/). FAQ's specific to Harmattan are found below.
+A generic FAQ for all of our Arabic scripts fonts can be found here: [Arabic Fonts - FAQ](https://software.sil.org/arabicfonts/support/faq/). FAQ’s specific to Harmattan are found below.
 
 ### Problems with Bold weights
 
 #### *Why does my application not show the Bold weight in font menus and dialogs?*
 
-Some applications will list all the weights but leave out Bold. To access the Bold you need to choose Regular and turn on Bold using the application's UI controls such as a "B" button.
+Some applications will list all the weights but leave out Bold. To access the Bold you need to choose Regular and turn on Bold using the application’s UI controls such as a “B” button.
 
 #### *Why do I sometimes get a fake Bold?*
 
-If you choose a weight other than Regular (such as Medium), then use application controls to turn on Bold, some applications will make a "fake" Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually. 
+If you choose a weight other than Regular (such as Medium), then use application controls to turn on Bold, some applications will make a “fake” Bold rather than use one of the real ones in the font (Medium, SemiBold, Bold). This is because only Regular has an associated Bold counterpart. This is a technical limitation with some apps and OSes. If you are using some other weight than Regular for text and want to make a word or phrase stand out you will need to select the text and apply one of the heavier weights manually. 
 
 ### *What characters are included with this release?*
 

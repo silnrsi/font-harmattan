@@ -28,3 +28,7 @@ For a complete list of characters included in this font, see [Character Set Supp
 ## Font Features
 
 Alternate glyphs that are available through features are demonstrated in the [Features](features) document. 
+
+SIL Global is the creator of the Harmattan fonts, and is the owner of all proprietary rights therein.
+
+*Harmattan* is a trademark of SIL Global.
