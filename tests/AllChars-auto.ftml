@@ -4,7 +4,7 @@
   <head>
     <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
-    <fontsrc label="4.3">url(../references/v4.300/Harmattan-Regular.ttf)</fontsrc>
+    <fontsrc label="4.4">url(../references/v4.400/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Reg">url(../results/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="Med">url(../results/Harmattan-Medium.ttf)</fontsrc>
@@ -2927,15 +2927,7 @@
     </test>
     <test label="U+FDFC">
       <comment>rial</comment>
-      <string>\u00FDFC \u00FDFD</string>
-    </test>
-    <test background="#f0fff0" label="U+FDFE">
-      <comment>subhaanahuWaTaaalaa-ar</comment>
-      <string>\u00FDFE \u00FDFF</string>
-    </test>
-    <test label="U+FE00">
-      <comment>VS1</comment>
-      <string>\u000628\u00FE00 \u000628\u00FE01 \u000628\u00FE02 \u000628\u00FE03 \u000628\u00FE04 \u000628\u00FE05 \u000628\u00FE06 \u000628\u00FE07 \u000628\u00FE08 \u000628\u00FE09 \u000628\u00FE0A \u000628\u00FE0B \u000628\u00FE0C \u000628\u00FE0D \u000628\u00FE0E \u000628\u00FE0F</string>
+      <string>\u00FDFC \u00FDFD \u00FDFE \u00FDFF \u000628\u00FE00 \u000628\u00FE01 \u000628\u00FE02 \u000628\u00FE03 \u000628\u00FE04 \u000628\u00FE05 \u000628\u00FE06 \u000628\u00FE07 \u000628\u00FE08 \u000628\u00FE09 \u000628\u00FE0A \u000628\u00FE0B \u000628\u00FE0C \u000628\u00FE0D \u000628\u00FE0E \u000628\u00FE0F</string>
     </test>
     <test label="U+FEFF">
       <comment>zeroWidthNoBreakSpace</comment>
