@@ -38,7 +38,7 @@ glyph_data.csv
 FromAndika.csv
     List of glyphs pulled from SIL's Andika font project to provide the 
     character repertoire recommended by SIL for non-Roman faces. (see 
-    https://scriptsource.org/entry/gg5wm9hhd3 for details)
+    https://github.com/silnrsi/pysilfont/blob/master/src/silfont/data/required_chars.csv for details)
 
 classes.xml
     Glyph classes used in by the Graphite and OpenType logic but which
