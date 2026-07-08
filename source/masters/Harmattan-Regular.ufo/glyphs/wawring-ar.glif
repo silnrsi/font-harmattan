@@ -2,11 +2,57 @@
 <glyph name="wawring-ar" format="2">
   <advance width="813"/>
   <unicode hex="06C4"/>
+  <anchor x="368" y="574" name="above"/>
   <anchor x="53" y="544" name="alef"/>
+  <anchor x="270" y="-654" name="below"/>
+  <anchor x="207" y="-211" name="center"/>
   <anchor x="411" y="607" name="diaA"/>
   <anchor x="370" y="-663" name="diaB"/>
+  <anchor x="237" y="-162" name="ring"/>
+  <anchor x="469" y="-304" name="through"/>
   <outline>
-    <component base="waw-ar"/>
-    <component base="_ring" xOffset="225" yOffset="-362"/>
+    <component base="_ring" xScale="1.4" yScale="1.4" xOffset="71" yOffset="-448"/>
+    <contour>
+      <point x="217" y="-457" type="curve"/>
+      <point x="132" y="-632" type="line"/>
+      <point x="413" y="-560"/>
+      <point x="694" y="-223"/>
+      <point x="694" y="89" type="curve" smooth="yes"/>
+      <point x="694" y="383"/>
+      <point x="566" y="525"/>
+      <point x="382" y="525" type="curve" smooth="yes"/>
+      <point x="186" y="525"/>
+      <point x="76" y="372"/>
+      <point x="76" y="224" type="curve" smooth="yes"/>
+      <point x="76" y="38"/>
+      <point x="221" y="-53"/>
+      <point x="395" y="-53" type="curve" smooth="yes"/>
+      <point x="506" y="-53"/>
+      <point x="629" y="-16"/>
+      <point x="734" y="56" type="curve"/>
+      <point x="746" y="108"/>
+      <point x="745" y="152"/>
+      <point x="736" y="204" type="curve"/>
+      <point x="629" y="126"/>
+      <point x="499" y="81"/>
+      <point x="396" y="81" type="curve" smooth="yes"/>
+      <point x="291" y="81"/>
+      <point x="213" y="128"/>
+      <point x="213" y="233" type="curve" smooth="yes"/>
+      <point x="213" y="311"/>
+      <point x="271" y="389"/>
+      <point x="368" y="389" type="curve" smooth="yes"/>
+      <point x="511" y="389"/>
+      <point x="558" y="252"/>
+      <point x="558" y="93" type="curve" smooth="yes"/>
+      <point x="558" y="-153"/>
+      <point x="430" y="-328"/>
+    </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+    </dict>
+  </lib>
 </glyph>
