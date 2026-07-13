@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sukunovalbelow-ar" format="2">
   <unicode hex="10EF0"/>
-  <anchor x="152" y="1307" name="_diaA"/>
-  <anchor x="152" y="1778" name="diaA"/>
+  <anchor x="0" y="-395" name="_diaB"/>
+  <anchor x="-1" y="-917" name="diaB"/>
   <outline>
-    <component base="sukunoval-ar"/>
+    <component base="sukunoval-ar" xOffset="-160" yOffset="-2195"/>
   </outline>
   <lib>
     <dict>

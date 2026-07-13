@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="noonDammabelow-ar" format="2">
   <unicode hex="10EF6"/>
-  <anchor x="-7" y="-227" name="_diaB"/>
-  <anchor x="-5" y="-1069" name="diaB"/>
+  <anchor x="-60" y="-395" name="_diaB"/>
+  <anchor x="4" y="-1427" name="diaB"/>
   <outline>
-    <component base="noonbelow-ar"/>
+    <component base="noonabove-ar" yOffset="-2590"/>
+    <component base="dammasmall-ar" xOffset="-201" yOffset="-1782"/>
   </outline>
   <lib>
     <dict>

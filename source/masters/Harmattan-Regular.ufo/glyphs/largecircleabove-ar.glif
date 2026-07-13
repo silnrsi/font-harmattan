@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="largecircleabove-ar" format="2">
   <unicode hex="10ECF"/>
-  <anchor x="-2" y="-833" name="_diaB"/>
-  <anchor x="-2" y="-1250" name="diaB"/>
+  <anchor x="0" y="1248" name="_diaA"/>
+  <anchor x="-1" y="1748" name="diaA"/>
   <outline>
-    <component base="largecirclebelow-ar"/>
+    <component base="largecirclebelow-ar" yOffset="2531"/>
   </outline>
   <lib>
     <dict>

@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="northeastArrowheadabove-ar" format="2">
-  <advance width="1690"/>
   <unicode hex="10ECB"/>
+  <anchor x="-12" y="753" name="_diaA"/>
+  <anchor x="-12" y="1394" name="diaA"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="-390" y="1234" type="line"/>
+      <point x="-390" y="1234" type="line"/>
+      <point x="-91" y="1136" type="line"/>
+      <point x="8" y="836" type="line"/>
+      <point x="92" y="1318" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -2,10 +2,11 @@
 <glyph name="noonFathaabove-ar" format="2">
   <unicode hex="10EF3"/>
   <anchor x="-5" y="1191" name="_diaA"/>
-  <anchor x="-99" y="1843" name="alef"/>
-  <anchor x="-1" y="1896" name="diaA"/>
+  <anchor x="-146" y="2004" name="alef"/>
+  <anchor x="-1" y="2035" name="diaA"/>
   <outline>
     <component base="noonabove-ar"/>
+    <component base="fathasmall-ar" yOffset="549"/>
   </outline>
   <lib>
     <dict>

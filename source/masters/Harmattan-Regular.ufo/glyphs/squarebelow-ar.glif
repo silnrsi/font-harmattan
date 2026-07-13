@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="squarebelow-ar" format="2">
-  <advance width="1690"/>
   <unicode hex="10EF1"/>
+  <anchor x="0" y="-495" name="_diaB"/>
+  <anchor x="-1" y="-867" name="diaB"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="-111" y="-791" type="line"/>
+      <point x="111" y="-791" type="line"/>
+      <point x="111" y="-569" type="line"/>
+      <point x="-111" y="-569" type="line"/>
+    </contour>
+    <contour>
+      <point x="-69" y="-749" type="line"/>
+      <point x="-69" y="-611" type="line"/>
+      <point x="69" y="-611" type="line"/>
+      <point x="69" y="-749" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

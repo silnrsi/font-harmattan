@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hamza_kasra-ar" format="2">
-  <advance width="1690"/>
+  <anchor x="212" y="1138" name="_diaA"/>
+  <anchor x="153" y="1724" name="diaA"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="fatha-ar" xOffset="-102" yOffset="-163"/>
+    <component base="hamzaabove-ar" xOffset="-92"/>
   </outline>
   <lib>
     <dict>

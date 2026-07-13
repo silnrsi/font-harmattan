@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="southwestArrowheadbelow-ar" format="2">
-  <advance width="1690"/>
   <unicode hex="10ECD"/>
+  <anchor x="-60" y="-395" name="_diaB"/>
+  <anchor x="4" y="-999" name="diaB"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="northeastArrowheadabove-ar" xScale="-1" yScale="-1" xOffset="-51" yOffset="375"/>
   </outline>
   <lib>
     <dict>
