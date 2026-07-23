@@ -2,7 +2,7 @@
 <?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
 <ftml version="1.0">
   <head>
-    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 17.0 or later; else light green: a character is new in this version of the font</comment>
+    <comment>Background colors: light red: a character is missing from UFO; else light orange: includes a character from Unicode version 18.0 or later; else light green: a character is new in this version of the font</comment>
     <fontscale>250</fontscale>
     <fontsrc label="4.4">url(../references/v4.400/Harmattan-Regular.ttf)</fontsrc>
     <fontsrc label="ref">url(../references/Harmattan-Regular.ttf)</fontsrc>
@@ -533,7 +533,7 @@
       <comment>yehTwodotsbelowNoonabove-ar</comment>
       <string>\u000631\u0008BA\u00200D \u00200D\u000631\u0008BA\u00200D \u000631\u0008BA \u00200D\u000631\u0008BA</string>
     </test>
-    <test background="#ffc8a0" label="U+10EC7">
+    <test label="U+10EC7">
       <comment>yehFourbelow-ar</comment>
       <string>\u000631\u010EC7\u00200D \u00200D\u000631\u010EC7\u00200D \u000631\u010EC7 \u00200D\u000631\u010EC7</string>
     </test>
@@ -573,7 +573,7 @@
       <comment>noonVinvertedabove-ar</comment>
       <string>\u000631\u000889\u00200D \u00200D\u000631\u000889\u00200D \u000631\u000889 \u00200D\u000631\u000889</string>
     </test>
-    <test background="#ffc8a0" label="U+088F">
+    <test label="U+088F">
       <comment>noonRingabove-ar</comment>
       <string>\u000631\u00088F\u00200D \u00200D\u000631\u00088F\u00200D \u000631\u00088F \u00200D\u000631\u00088F</string>
     </test>
@@ -581,7 +581,7 @@
       <comment>noonAfrican-ar</comment>
       <string>\u000631\u0008BD\u00200D \u00200D\u000631\u0008BD\u00200D \u000631\u0008BD \u00200D\u000631\u0008BD</string>
     </test>
-    <test background="#ffc8a0" label="U+10EC6">
+    <test label="U+10EC6">
       <comment>noonthin-ar</comment>
       <string>\u000631\u010EC6\u00200D \u00200D\u000631\u010EC6\u00200D \u000631\u010EC6 \u00200D\u000631\u010EC6</string>
     </test>
@@ -1923,7 +1923,7 @@
       <comment>yehTwodotsbelowNoonabove-ar</comment>
       <string>\u000648\u0008BA\u00200D \u00200D\u000648\u0008BA\u00200D \u000648\u0008BA \u00200D\u000648\u0008BA</string>
     </test>
-    <test background="#ffc8a0" label="U+10EC7">
+    <test label="U+10EC7">
       <comment>yehFourbelow-ar</comment>
       <string>\u000648\u010EC7\u00200D \u00200D\u000648\u010EC7\u00200D \u000648\u010EC7 \u00200D\u000648\u010EC7</string>
     </test>
@@ -1963,7 +1963,7 @@
       <comment>noonVinvertedabove-ar</comment>
       <string>\u000648\u000889\u00200D \u00200D\u000648\u000889\u00200D \u000648\u000889 \u00200D\u000648\u000889</string>
     </test>
-    <test background="#ffc8a0" label="U+088F">
+    <test label="U+088F">
       <comment>noonRingabove-ar</comment>
       <string>\u000648\u00088F\u00200D \u00200D\u000648\u00088F\u00200D \u000648\u00088F \u00200D\u000648\u00088F</string>
     </test>
@@ -1971,7 +1971,7 @@
       <comment>noonAfrican-ar</comment>
       <string>\u000648\u0008BD\u00200D \u00200D\u000648\u0008BD\u00200D \u000648\u0008BD \u00200D\u000648\u0008BD</string>
     </test>
-    <test background="#ffc8a0" label="U+10EC6">
+    <test label="U+10EC6">
       <comment>noonthin-ar</comment>
       <string>\u000648\u010EC6\u00200D \u00200D\u000648\u010EC6\u00200D \u000648\u010EC6 \u00200D\u000648\u010EC6</string>
     </test>
