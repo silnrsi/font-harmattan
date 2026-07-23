@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="endofayah-ar.altC" format="2">
-  <advance width="1690"/>
+  <advance width="2019"/>
+  <anchor x="823" y="0" name="digitR"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="1010" y="-415" type="line"/>
+      <point x="1302" y="-123" type="line"/>
+      <point x="1715" y="-123" type="line"/>
+      <point x="1715" y="290" type="line"/>
+      <point x="2007" y="582" type="line"/>
+      <point x="1715" y="874" type="line"/>
+      <point x="1715" y="1287" type="line"/>
+      <point x="1302" y="1287" type="line"/>
+      <point x="1010" y="1579" type="line"/>
+      <point x="718" y="1287" type="line"/>
+      <point x="305" y="1287" type="line"/>
+      <point x="305" y="874" type="line"/>
+      <point x="13" y="582" type="line"/>
+      <point x="305" y="290" type="line"/>
+      <point x="305" y="-123" type="line"/>
+      <point x="718" y="-123" type="line"/>
+    </contour>
+    <contour>
+      <point x="1010" y="-264" type="line"/>
+      <point x="762" y="-16" type="line"/>
+      <point x="412" y="-16" type="line"/>
+      <point x="412" y="334" type="line"/>
+      <point x="164" y="582" type="line"/>
+      <point x="412" y="830" type="line"/>
+      <point x="412" y="1180" type="line"/>
+      <point x="762" y="1180" type="line"/>
+      <point x="1010" y="1428" type="line"/>
+      <point x="1258" y="1180" type="line"/>
+      <point x="1608" y="1180" type="line"/>
+      <point x="1608" y="830" type="line"/>
+      <point x="1856" y="582" type="line"/>
+      <point x="1608" y="334" type="line"/>
+      <point x="1608" y="-16" type="line"/>
+      <point x="1258" y="-16" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
