@@ -289,10 +289,10 @@ pass(4)	// Features, special behaviors
 	endif;
 
 	if (endOfAyah == circle)
-		cEndOfAyah  >  cEndOfAyahCircle;
+		cAyah  >  cAyahCircle;
 	endif;
 	if (endOfAyah == square)
-		cEndOfAyah  >  cEndOfAyahSquare;
+		cAyah  >  cAyahSquare;
 	endif;
 
 	if (easternDigits == sindhi)

@@ -114,10 +114,6 @@ cno_HehDo     = (g_heh_doachashmee_ar  g_heh_doachashmee_ar_init  g_heh_doachash
 cHehDoKnotted = (g_heh_doachashmee_ar  g_heh_doachashmee_ar_init  g_heh_doachashmee_ar_medi_knotted_high  g_heh_doachashmee_ar_fina_knotted_high);
 cHehDoKurdish = (g_heh_doachashmee_ar  g_heh_doachashmee_ar_init  g_heh_doachashmee_ar_medi               g_heh_doachashmee_ar_fina_knotted_high);
 
-cEndOfAyah        = (g_endofayah_ar      g_endofayah_ar_2      g_endofayah_ar_3);
-cEndOfAyahCircle  = (g_endofayah_ar_alt  g_endofayah_ar_alt_2  g_endofayah_ar_alt_3);
-cEndOfAyahSquare  = (g_endofayah_ar_alt_b g_endofayah_ar_alt_b_2 g_endofayah_ar_alt_b_3);
-
 zeroWidthJoiner = postscript("zerowidthjoiner");
 zeroWidthNonJoiner = postscript("zerowidthnonjoiner");
 leftToRightMark = postscript("lefttorightmark") {dir = DIR_LEFT};
