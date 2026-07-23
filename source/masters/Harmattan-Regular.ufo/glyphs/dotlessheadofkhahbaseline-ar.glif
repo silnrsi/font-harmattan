@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessheadofkhahbaseline-ar" format="2">
+  <advance width="541"/>
   <unicode hex="10ECA"/>
-  <anchor x="13" y="1412" name="_diaA"/>
-  <anchor x="13" y="1761" name="diaA"/>
+  <anchor x="256" y="305" name="diaA"/>
+  <anchor x="256" y="-44" name="diaB"/>
   <outline>
-    <component base="hahabove-ar"/>
+    <component base="hahabove-ar" xOffset="243" yOffset="-1456"/>
   </outline>
   <lib>
     <dict>
