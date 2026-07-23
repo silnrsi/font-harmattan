@@ -294,6 +294,10 @@ pass(4)	// Features, special behaviors
 	if (endOfAyah == square)
 		cAyah  >  cAyahSquare;
 	endif;
+	if (endOfAyah == star)
+		cAyah  >  cAyahStar;
+	endif;
+
 
 	if (easternDigits == sindhi)
 		cEasternDigit  >  cEasternDigitSindhi;

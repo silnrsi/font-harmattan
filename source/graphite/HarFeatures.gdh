@@ -322,6 +322,10 @@ endOfAyah {
             value = 2;
             name.1033 = string("Simplified B");
         }
+        star {
+            value = 3;
+            name.1033 = string("Star");
+        }
     }
     default = std;
 }

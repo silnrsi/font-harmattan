@@ -530,10 +530,11 @@
         endofayah-ar endofayah-ar.2
         endofayah-ar.alt endofayah-ar.alt.2
         endofayah-ar.altB endofayah-ar.altB.2
+        endofayah-ar.altC endofayah-ar.altC.2
     </class>
 
     <class name="TakesSmallDigits">
-        endofayah-ar.3  endofayah-ar.alt.3  endofayah-ar.altB.3
+        endofayah-ar.3  endofayah-ar.alt.3  endofayah-ar.altB.3 endofayah-ar.altC.3
         disputedendofayah-ar  disputedendofayah-ar.2  disputedendofayah-ar.3
     </class>
 
@@ -612,7 +613,7 @@
 
     <!-- cv80 End of Ayah -->
     
-    <!-- *NEXT 4 CLASSES MUST MATCH* -->
+    <!-- *NEXT 5 CLASSES MUST MATCH* -->
     <class name="Ayah">
         endofayah-ar  endofayah-ar.2  endofayah-ar.3
     </class>
@@ -625,12 +626,16 @@
         endofayah-ar.altB  endofayah-ar.altB.2  endofayah-ar.altB.3
     </class>
     
-    <class name="AyahDisputed" fixed="0">
+    <class name="AyahStar">
+        endofayah-ar.altC  endofayah-ar.altC.2  endofayah-ar.altC.3
+    </class>
+
+    <class name="AyahDisputed">
         disputedendofayah-ar  disputedendofayah-ar.2  disputedendofayah-ar.3
     </class>
 
     <class name="AyahAny">
-        @Ayah  @AyahCircle  @AyahSquare  @AyahDisputed
+        @Ayah  @AyahCircle  @AyahSquare  @AyahStar  @AyahDisputed
     </class>
 
 
