@@ -282,22 +282,6 @@
         lamThreedotsbelow_alef-ar.fina  lamTahabove_alef-ar.fina  lamBar_alef-ar.fina  lamDoublebar_alef-ar.fina
     </class>
 
-    <class name="LamAlefHamzaaboveLig">
-        lam_alefHamzaabove-ar  lamVabove_alefHamzaabove-ar  lamDotabove_alefHamzaabove-ar  lamThreedotsabove_alefHamzaabove-ar
-        lamThreedotsbelow_alefHamzaabove-ar  lamTahabove_alefHamzaabove-ar  lamBar_alefHamzaabove-ar  lamDoublebar_alefHamzaabove-ar
-        lam_alefHamzaabove-ar.fina  lamVabove_alefHamzaabove-ar.fina  lamDotabove_alefHamzaabove-ar.fina  lamThreedotsabove_alefHamzaabove-ar.fina
-        lamThreedotsbelow_alefHamzaabove-ar.fina  lamTahabove_alefHamzaabove-ar.fina  lamBar_alefHamzaabove-ar.fina  lamDoublebar_alefHamzaabove-ar.fina
-    </class>
-
-    <!--
-    <class name="LamAlefHamzabelowLig">
-        lam_alefHamzabelow-ar  lamVabove_alefHamzabelow-ar  lamDotabove_alefHamzabelow-ar  lamThreedotsabove_alefHamzabelow-ar
-        lamThreedotsbelow_alefHamzabelow-ar  lamTahabove_alefHamzabelow-ar  lamBar_alefHamzabelow-ar  lamDoublebar_alefHamzabelow-ar
-        lam_alefHamzabelow-ar.fina  lamVabove_alefHamzabelow-ar.fina  lamDotabove_alefHamzabelow-ar.fina  lamThreedotsabove_alefHamzabelow-ar.fina
-        lamThreedotsbelow_alefHamzabelow-ar.fina  lamTahabove_alefHamzabelow-ar.fina  lamBar_alefHamzabelow-ar.fina  lamDoublebar_alefHamzabelow-ar.fina
-    </class>
-    -->
-    
     <class name="LamAlefWaslaLig">
         lam_alefWasla-ar  lamVabove_alefWasla-ar  lamDotabove_alefWasla-ar  lamThreedotsabove_alefWasla-ar
         lamThreedotsbelow_alefWasla-ar  lamTahabove_alefWasla-ar  lamBar_alefWasla-ar  lamDoublebar_alefWasla-ar
@@ -335,7 +319,6 @@
     
     <class name="AllLamAlefLig">
         @LamAlefLig  @LamAlefWaslaLig  @LamAlefWavyHAboveLig  @LamAlefWavyHBelowLig  @LamAlefTwoAboveLig  @LamAlefThreeAboveLig
-        <!-- @LamAlefHamzaBelowLig -->
     </class>
 
 
@@ -700,21 +683,12 @@
          process to work happily.
     -->
     
-    <class name="cno_pnum">alef-ar</class>
-    <class name="c_pnum">  alef-ar</class>
-
-    <class name="cno_tnum">alef-ar</class>
-    <class name="c_tnum">  alef-ar</class>
+    <class name="HonLigCall"> </class>         <!-- used in lookup HonLigAlternates -->
+    <class name="HonLigSmpl"> </class>
     
-    <class name="HonLigCall">tab</class>
-    <class name="HonLigSmpl">tab</class>
-    
-    <class name="AlefRareNoLig">     alef-ar.fina</class>
-    <class name="LamAlefRareLig">    lam_alef-ar</class>
-    <class name="LamAlefRareLigFina">lam-alef-ar.fina</class>
-    
-    <class name="AlefNoAllah">alef-ar</class>
-    <class name="AlefAllah">  alef-ar</class>
+    <class name="AlefRareNoLig">      </class>   <!-- used in lookup LamAlefLigatures -->
+    <class name="LamAlefRareLig">     </class>
+    <class name="LamAlefRareLigFina"> </class>
     
     <!--
     ==============================
@@ -835,8 +809,8 @@
 		
 		<class name="BehLikeWAboveInit">
 			noon-ar.init teh-ar.init theh-ar.init tehThreedotsdown-ar.init tehVabove-ar.init
-			tteh-ar.init ttehVabove-ar.init tteheh-ar.init teheh-ar.init tehThreedotsupabove-ar.init 
-			tehThreedotsupbelow-ar.init behTwodotsbelow_dotabove-ar.init behVabove-ar.init 
+			tteh-ar.init ttehVabove-ar.init tteheh-ar.init teheh-ar.init behThreedotsupabove-ar.init 
+			tehThreedotsupbelow-ar.init behTwodotsbelowDotabove-ar.init behVabove-ar.init 
 			behhamzaabove-ar.init tehTehabove-ar.init behMeemabove-ar.init pehMeemabove-ar.init
 		</class>
 		
