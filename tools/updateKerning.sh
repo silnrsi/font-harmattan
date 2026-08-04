@@ -18,7 +18,7 @@
 #    --noKern      debugging tool to skip the actual building of fea files 
 
 set -e	# Stop on error
-# set -x	# echo before execution
+set -x	# echo before execution
 
 if [ ! -e OFL.txt ] 
 then
@@ -79,6 +79,7 @@ then
   tools/absgenftml.py -q -t "KernData with Marks (auto)" -f h --norendercheck  \
         --ap "_?dia[ABO]$"  --nobump -l source/logs/kerndata.log \
         --xsl ../tools/ftml.xsl --scale 250 -i source/glyph_data.csv -w 75% \
+        --ucdxml source/additional_ucd.xml \
         -s "url(../results/Harmattan-Regular.ttf)|Reg-Gr" \
         -s "url(../results/tests/ftml/fonts/Harmattan-Regular_ot_arab.ttf)|Reg-OT" \
         -s "url(../results/Harmattan-Bold.ttf)|Bld-Gr" \
