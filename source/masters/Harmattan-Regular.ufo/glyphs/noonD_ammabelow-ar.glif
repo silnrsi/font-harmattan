@@ -4,8 +4,7 @@
   <anchor x="-60" y="-395" name="_diaB"/>
   <anchor x="4" y="-1427" name="diaB"/>
   <outline>
-    <component base="noonabove-ar" yOffset="-2590"/>
-    <component base="dammasmall-ar" xOffset="-201" yOffset="-1782"/>
+    <component base="noonDammaabove-ar" yOffset="-2591"/>
   </outline>
   <lib>
     <dict>
