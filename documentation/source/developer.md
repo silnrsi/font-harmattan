@@ -96,10 +96,10 @@ Important notes: The `updateKerning.sh` tool requires:
 - a Graphite-enabled Harfbuzz library
 - a Graphite library with tracing enabled. The library provided by default Ubuntu
 does not include tracing. You'll need to compile the source with -DGRAPHITE2_NTRACING:BOOL=OFF 
-- the [scikit-learn](https://scikit-learn.org/) python module. For ubuntu try:
+- the [scikit-learn](https://scikit-learn.org/) python module. If not already installed, then for ubuntu try:
 
 ```
-sudo apt-get install python3-sklearn python3-sklearn-lib
+pip3 install scikit-learn.
 ```
 
 To generate `kerndata.ftml` and the `*-octabox.json` files, run:

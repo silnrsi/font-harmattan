@@ -18,7 +18,7 @@
 #    --noKern      debugging tool to skip the actual building of fea files 
 
 set -e	# Stop on error
-set -x	# echo before execution
+# set -x	# echo before execution
 
 if [ ! -e OFL.txt ] 
 then
