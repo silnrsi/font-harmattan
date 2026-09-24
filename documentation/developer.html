@@ -55,11 +55,11 @@
     href="https://writingsystems.info/topics/fonts/building-and-modifying-sil-fonts/">Building
     and Modifying SIL Fonts</a>. Additional developer information
     specific to SIL’s Arabic fonts can be found at <a
-    href="https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/README.md">font-arab-tools
+    href="https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/README.md">font-arabic
     README</a>.</p>
     <p>In addition, much of the code for Scheherazade New, Harmattan,
     and Lateef is shared. Carefully review the <a
-    href="https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/developer.md">font-arab-tools
+    href="https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/developer.md">font-arabic
     developer</a> documentation to see how the code is shared.</p>
     <h2 id="building">Building</h2>
     <p>The Harmattan project can be built from source using <a
@@ -157,9 +157,9 @@
     default Ubuntu does not include tracing. You'll need to compile the
     source with -DGRAPHITE2_NTRACING:BOOL=OFF</li>
     <li>the <a href="https://scikit-learn.org/">scikit-learn</a> python
-    module. For ubuntu try:</li>
+    module. If not already installed, then for ubuntu try:</li>
     </ul>
-    <pre><code>sudo apt-get install python3-sklearn python3-sklearn-lib</code></pre>
+    <pre><code>pip3 install scikit-learn.</code></pre>
     <p>To generate <code>kerndata.ftml</code> and the
     <code>*-octabox.json</code> files, run:</p>
     <pre><code>    tools/updateKerning.sh --ftml --octalap</code></pre>
@@ -185,13 +185,13 @@
     the <code>glyph_data.csv</code> file, but sometimes
     <code>absgenftml.py</code> itself needs to be enhanced.</p>
     <p>For more information about testing, see <a
-    href="https://github.com/silnrsi/font-arab-tools/blob/master/documentation/developer/testing.md">font-arab-tools
+    href="https://github.com/silnrsi/font-arabic/blob/master/documentation/developer/testing.md">font-arabic
     testing</a>.</p>
     <h2 id="contributing-to-the-project">Contributing to the
     project</h2>
     <p>We warmly welcome contributions to the fonts, such as new glyphs,
     enhanced smart font code, or bug fixes. The <a
-    href="https://silnrsi.github.io/silfontdev/en-US/Contributing_Changes.html">brief
+    href="https://writingsystems.info/topics/fonts/building-and-modifying-sil-fonts/#contributing-changes">brief
     overview of contributing changes</a> is a good place to begin. The
     next step is to contact us by responding to an existing issue or
     creating an issue in the Github repository and expressing your
