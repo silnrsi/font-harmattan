@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hamza_kasratan-ar" format="2">
+  <anchor x="310" y="1329" name="_diaA"/>
+  <anchor x="291" y="2125" name="diaA"/>
+  <outline>
+    <component base="fatha-ar" xOffset="18" yOffset="-4"/>
+    <component base="fatha-ar" xOffset="5" yOffset="138"/>
+    <component base="hamzaabove-ar" xOffset="26" yOffset="379"/>
+  </outline>
+</glyph>

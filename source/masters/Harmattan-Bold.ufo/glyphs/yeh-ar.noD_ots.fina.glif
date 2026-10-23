@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-ar.noDots.fina" format="2">
+  <advance width="1281"/>
+  <anchor x="495" y="290" name="alef"/>
+  <anchor x="642" y="300" name="diaA"/>
+  <anchor x="706" y="-749" name="diaB"/>
+  <outline>
+    <component base="alefMaksura-ar.fina"/>
+  </outline>
+</glyph>

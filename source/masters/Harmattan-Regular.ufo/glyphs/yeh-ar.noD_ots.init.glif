@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="yeh-ar.noDots.init" format="2">
+  <advance width="409"/>
+  <anchor x="171" y="512" name="above"/>
+  <anchor x="-3" y="531" name="alef"/>
+  <anchor x="227" y="-42" name="below"/>
+  <anchor x="206" y="580" name="diaA"/>
+  <anchor x="217" y="-74" name="diaB"/>
+  <anchor x="226" y="95" name="ring"/>
+  <outline>
+    <component base="behDotless-ar.init"/>
+  </outline>
+</glyph>

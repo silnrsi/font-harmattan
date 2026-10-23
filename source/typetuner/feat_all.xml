@@ -159,23 +159,38 @@
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Large" tag="Lg">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MaddahAlternate}"/>	<!-- must be via lookup -->
-			<!-- cmd name="lookup_add" args="GSUB {calt_latn_dflt} {MaddahAlternate}"/  not necessary for Har -->	
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {MaddaAlternate}"/>	<!-- must be via lookup -->
+			<!-- cmd name="lookup_add" args="GSUB {calt_latn_dflt} {MaddaAlternate}"/  not necessary for Har -->
 		</value>
 	</feature>
 
 	<!-- cv62 -->
-	<feature name="Shadda+kasra placement" value="Default" tag="Kas">
+	<feature name="Shadda+kasra placement" value="Default" tag="ShdKas">
 		<value name="Default" tag="Def">
 			<cmd name="null" args="null"/>
 		</value>
 		<value name="Lowered" tag="Low">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraLowTT}"/>
-			<!-- cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KasraLowTT}"/  not necessary for Har --> 
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ShaddaKasraLowTT}"/>
+			<!-- cmd name="lookup_add" args="GSUB {calt_latn_dflt} {ShaddaKasraLowTT}"/  not necessary for Har -->
 		</value>
 		<value name="Raised" tag="High">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {KasraHighTT}"/>
-			<!-- cmd name="lookup_add" args="GSUB {calt_latn_dflt} {KasraHighTT}"/  not necessary for Har --> 
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {ShaddaKasraHighTT}"/>
+			<!-- cmd name="lookup_add" args="GSUB {calt_latn_dflt} {ShaddaKasraHighTT}"/  not necessary for Har -->
+		</value>
+	</feature>
+
+	<!-- cv63 -->
+	<feature name="Hamza+kasra placement" value="Default" tag="HmzKas">
+		<value name="Default" tag="Def">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Lowered" tag="Low">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HamzaKasraLowTT}"/>
+			<!-- <cmd name="lookup_add" args="GSUB {calt_latn_dflt} {HamzaKasraLowTT}"  /not necessary for Har -->
+		</value>
+		<value name="Raised" tag="High">
+			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HamzaKasraHighTT}"/>
+			<!-- <cmd name="lookup_add" args="GSUB {calt_latn_dflt} {HamzaKasraHighTT}"/  /not necessary for Har -->
 		</value>
 	</feature>
 
@@ -271,21 +286,10 @@
 			<cmd name="encode" args="06DD uni06DD.altB"/>
 		</value>
 		<value name="Star" tag="St">
-            <cmd name="encode" args="06DD uni06DD.altC"/>
-        </value>
+			<cmd name="encode" args="06DD uni06DD.altC"/>
+		</value>
 	</feature>
 	
-	<!-- cv81 - Not Harmmatan
-	<feature name="Honorific ligatures" value="Calligraphic" tag="HnLg">
-		<value name="Calligraphic" tag="Cal">
-			<cmd name="null" args="null" />
-		</value>
-		<value name="Simplified" tag="Sim">
-			<cmd name="lookup_add" args="GSUB {calt_arab_dflt} {HonLigAlternates}"/>
-		</value>"
-	</feature>
-	-->
-
 	<!-- cv82 -->
 	<feature name="Eastern digits" value="Standard" tag="Dig">
 		<value name="Standard" tag="Std">
@@ -375,6 +379,17 @@
 		</value>
 	</feature>
 
+	<!-- cv90 Sch only 
+	<feature name="Bismillah" value="Standard" tag="Bis">
+		<value name="Standard" tag="Std">
+			<cmd name="null" args="null"/>
+		</value>
+		<value name="Compact" tag="Cmp">
+			<cmd name="encode" args="FDFD uniFDFD.cal"/>
+		</value>
+	</feature>
+  -->
+
 	<feature name="Line spacing" value="Normal"	tag="LnSp">
 		<value name="Normal" tag="Nrml">
 			<cmd name="null" args="2750 1427"/>
@@ -431,6 +446,7 @@
 	<aliases/>
 	
 	<old_names>
+		<old_feature name="Shadda+Kasra Placement" tag="ShdKas"  /> <!-- cv62 tag changed -->
 		<old_value feature="Damma" name="Standard" tag="Def" />		<!-- cv70 -->
 
 		<old_feature  name="Six-nine dammatan" tag="Dmtan"/>		<!-- cv72 -->
@@ -441,5 +457,5 @@
 		<old_value feature="Downward comma" name="False" tag="Up"/>
 		<old_value feature="Downward comma" name="True"  tag="Dn"/>
 	</old_names>
-
+	
 </all_features>
