@@ -439,11 +439,9 @@ ifinfo(familyName, "Lateef") {
 lookup dfltCALT {  # (need at least a dummy lookup for TT)
   lookupflag 0 ;
   ifinfo(familyName, "Scheherazade New|Lateef") {
-    #sub @Kasra_lowered   by  @Kasra;
      sub shadda-ar.kasLow by shadda-ar;
   }
   ifinfo(familyName, "Harmattan") {
-    #sub @Kasra     by  @Kasra_lowered;
      sub shadda-ar  by shadda-ar.kasLow;
   }
   sub hamzaabove-ar by hamzaabove-ar.kasLow;
@@ -456,7 +454,6 @@ lookup KashmiriCALT {  # Kashmiri is same behavior as Urdu with addition of suku
     sub seven-persian by  seven-persian.urdu ;
     sub sukun-ar      by  sukun-ar.downOpen ;
 
-   #sub @Kasra        by  @Kasra_lowered;
     sub shadda-ar     by shadda-ar.kasLow;
     sub hamzaabove-ar by hamzaabove-ar.kasLow ;
 } KashmiriCALT ;
@@ -465,7 +462,6 @@ lookup KurdishCALT {
   lookupflag 0 ;
     sub hehDoachashmee-ar.fina  by  hehDoachashmee-ar.fina.knottedHigh ;
     
-   #sub @Kasra_lowered   by @Kasra;
     sub shadda-ar.kasLow by shadda-ar;
     sub hamzaabove-ar    by hamzaabove-ar.kasLow;
 } KurdishCALT ;
@@ -474,7 +470,6 @@ lookup KyrgyzCALT {
   lookupflag 0;
     sub @cno_loclKIR     by  @c_loclKIR ;
     
-   #sub @Kasra_lowered   by @Kasra;
     sub shadda-ar.kasLow by shadda-ar;
     sub hamzaabove-ar    by hamzaabove-ar.kasLow;
 } KyrgyzCALT ;
@@ -483,7 +478,6 @@ lookup MalayCALT {
   lookupflag 0;
     sub highhamza-ar  by  highhamza-ar.loclMLY ;
     
-   #sub @Kasra        by @Kasra_lowered;
     sub shadda-ar     by shadda-ar.kasLow;
     sub hamzaabove-ar by hamzaabove-ar.kasLow;
 } MalayCALT ;
@@ -495,7 +489,6 @@ lookup RohingyaCALT {
     sub seven-persian by  seven-persian.urdu ;
     sub @cno_sixNine  by  @c_sixNine ;
     
-   #sub @Kasra        by  @Kasra_lowered ;
     sub shadda-ar     by shadda-ar.kasLow;
     sub hamzaabove-ar by hamzaabove-ar.kasLow;
 } RohingyaCALT ;
@@ -510,7 +503,6 @@ lookup SindhiCALT {
    #sub comma-ar      by  comma-ar.downward ;
    #sub semicolon-ar  by  semicolon-ar.downward ;
 
-   #sub @Kasra        by  @Kasra_lowered;
     sub shadda-ar     by shadda-ar.kasLow;
     sub hamzaabove-ar by hamzaabove-ar.kasLow;
 } SindhiCALT ;
@@ -521,7 +513,6 @@ lookup UrduCALT {
     sub six-persian   by  six-persian.urdu ;
     sub seven-persian by  seven-persian.urdu ;
     
-   #sub @Kasra        by  @Kasra_lowered;
     sub shadda-ar     by shadda-ar.kasLow;
     sub hamzaabove-ar by hamzaabove-ar.kasLow;
 } UrduCALT ;
@@ -532,7 +523,6 @@ lookup WolofCALT {
     sub @Damma           by  @Damma_short ;
     sub dammainverted-ar by  dammainverted-ar.open ;
 
-   #sub @Kasra           by  @Kasra_lowered ;
     sub shadda-ar        by shadda-ar.kasLow;
     sub hamzaabove-ar    by hamzaabove-ar.kasLow;
 } WolofCALT ;
@@ -756,8 +746,6 @@ lookup ShaddaKasraAlternates {
     # NB: This is written so it doesn't matter which shadda-kasra behavior is default
     #     so as to allow language-specific behavior to be overridden.
     #   0=default             1=lowered       2=raised
-   #sub @Kasra_lowered from [ @Kasra_lowered  @Kasra ];
-   #sub @Kasra         from [ @Kasra_lowered  @Kasra ];
     sub shadda-ar        from [ shadda-ar.kasLow  shadda-ar ];
     sub shadda-ar.kasLow from [ shadda-ar.kasLow  shadda-ar ];
 } ShaddaKasraAlternates ;
