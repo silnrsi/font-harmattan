@@ -27,7 +27,7 @@ cv72,Dammatan,Standard,Six-nine,Two-nine
 cv74,Inverted Damma,Default,Hollow,Filled
 cv76,Superscript Alef,Default,Large,Small
 cv78,Sukun,Standard,Open down,Open left,Closed
-cv80,End of ayah,Standard,Simplified A,Simplified B
+cv80,End of ayah,Standard,Simplified A,Simplified B,Star
 cv82,Eastern digits,Standard,Sindhi-style,Urdu-style,Kurdish-style,Rohingya-style,Default
 cv84,Comma,Upward,Downward
 cv85,Decimal separator,Small reh,Slash
